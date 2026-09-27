@@ -409,8 +409,11 @@ def main(argv: list[str] | None = None) -> int:
         return EX_TEMPFAIL
     notes = Path(os.environ.get("HIVE_NOTES", CONTENT / "ops" / ".notes.md"))
     tools = Tools(args.lane, os.environ.get("HIVE_TASK_ID", "none"), os.environ.get("HIVE_FETCH_LOG"), notes)
-    return run(args.lane, prompt, llm, tools, args.max_steps or int(config.get("max_steps", 14)),
-               int(config.get("context_chars", 22000)))
+    # Env overrides (Mac, 2026-09-28): large-context providers (DeepSeek, CLIProxyAPI Gemini) ran out of the 14 steps
+    # tuned for GitHub Models' 8k window while still reading files; the cloud keeps the hive.toml defaults.
+    return run(args.lane, prompt, llm, tools,
+               args.max_steps or int(os.environ.get("HIVE_MAX_STEPS") or config.get("max_steps", 14)),
+               int(os.environ.get("HIVE_CONTEXT_CHARS") or config.get("context_chars", 22000)))
 
 
 if __name__ == "__main__":
