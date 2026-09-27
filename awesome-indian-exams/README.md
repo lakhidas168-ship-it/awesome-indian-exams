@@ -71,7 +71,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | ✅ official | 2026-09-28 |
 | [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | ✅ official | 2026-09-27 |
 | [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | 🟡 secondary | 2026-09-27 |
-| [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | 🟡 secondary | 2026-09-27 |
+| [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | ✅ official | 2026-09-28 |
 | [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | ✅ official | 2026-09-28 |
 | [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | ✅ official | 2026-09-28 |
 | [TG (Telangana) EAPCET](exams/engineering-entrance/ts-eapcet.md) | JNTUH (on behalf of TGCHE) | TG EAPCET 2026 | ✅ official | 2026-09-27 |
