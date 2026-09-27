@@ -46,6 +46,14 @@ open the new session in the Claude app, and say "Follow awesome-indian-exams/doc
   <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/pages> → under "Build and deployment",
   Source: **GitHub Actions**. From the next update on, the list is live at
   <https://lakhidas168-ship-it.github.io/awesome-indian-exams/> with search, and the open data at `/data/exams.json`.
+- **Exam AI accounts (Hugging Face and Kaggle):**
+  1. Add two secrets at
+     <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/secrets/actions/new>:
+     - `HF_TOKEN`: a Hugging Face **write** token from <https://huggingface.co/settings/tokens>;
+     - `KAGGLE_API_TOKEN`: a Kaggle API token from <https://www.kaggle.com/settings> (API section).
+  2. Run <https://github.com/lakhidas168-ship-it/awesome-indian-exams/actions/workflows/ai-accounts.yml> →
+     "Run workflow". It checks both logins and publishes the open data as the free Hugging Face dataset
+     `<your account>/awesome-indian-exams`.
 - **Run the cloud hive by hand** (for example while the Mac is off):
   1. Add the secret `OPENCODE_API_KEY` (key from <https://opencode.ai/auth>) at
      <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/secrets/actions/new>.
