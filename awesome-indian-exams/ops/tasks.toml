@@ -1925,9 +1925,9 @@ accept = [
 id = "H-006"
 lane = "human"
 priority = 3
-title = "Create a Hugging Face account and a write token (save it as the repository secret HF_TOKEN), and a Kaggle account for the free GPUs; see ops/plan/exam-llm.md"
+title = "Save the Hugging Face write token as the repository secret HF_TOKEN and the Kaggle API token as KAGGLE_API_TOKEN, then run the ai-accounts workflow (docs/OWNER-CLICKS.md section C)"
 accept = [
-  "the secret HF_TOKEN exists in the awesome-indian-exams repository",
+  "the ai-accounts workflow run shows both logins working",
 ]
 
 [[task]]
