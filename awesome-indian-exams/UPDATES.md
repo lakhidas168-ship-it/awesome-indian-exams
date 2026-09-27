@@ -2,15 +2,19 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-27 21:45 UTC** · `T-103` · opencode · [Formula sheets: formula-sheets/<subject>.md format + validator check that $$ math blocks are balanced](ops/done/T-103.md)
+- **2026-09-27 21:42 UTC** · `T-004` · opencode · [Verify the RRB JE page against the latest CEN (Junior Engineer) on rrbapply.gov.in or a regional RRB site](ops/done/T-004.md)
 - **2026-09-27 21:16 UTC** · `T-423` · hermes · [Review modules/engineering-mathematics.md (Engineering mathematics) against the official syllabi of the exams it counts for](ops/done/T-423.md)
 - **2026-09-27 21:13 UTC** · `T-304` · hermes · [Verify the CSEET (Company Secretary Executive Entrance Test) page (exams/professional/cseet.md) against its current official notification](ops/done/T-304.md)
 - **2026-09-27 21:12 UTC** · `T-305` · hermes · [Verify the CMA Foundation page (exams/professional/cma-foundation.md) against its current official notification](ops/done/T-305.md)
 - **2026-09-27 21:11 UTC** · `T-314` · hermes · [AI study prompts: an exam-family pack (SSC/banking, JEE/NEET, GATE/ESE, state PSC) added to tools/ai-study-prompts.md](ops/done/T-314.md)
 - **2026-09-27 21:10 UTC** · `T-291` · hermes · [Verify the AISSEE (Sainik School entrance) page (exams/school/aissee.md) against its current official notification](ops/done/T-291.md)
+- **2026-09-27 21:09 UTC** · `T-003` · opencode · [Verify the SSC JE EE page against the latest SSC JE notice on ssc.gov.in](ops/done/T-003.md)
 - **2026-09-27 21:07 UTC** · `T-303` · hermes · [Verify the CA Foundation page (exams/professional/ca-foundation.md) against its current official notification](ops/done/T-303.md)
 - **2026-09-27 21:07 UTC** · `T-428` · hermes · [Review modules/ce-core.md (Civil engineering core) against the official syllabi of the exams it counts for](ops/done/T-428.md)
 - **2026-09-27 21:04 UTC** · `T-427` · hermes · [Review modules/me-core.md (Mechanical engineering core) against the official syllabi of the exams it counts for](ops/done/T-427.md)
 - **2026-09-27 21:04 UTC** · `T-424` · hermes · [Review modules/ee-core.md (Electrical engineering core) against the official syllabi of the exams it counts for](ops/done/T-424.md)
+- **2026-09-27 21:02 UTC** · `T-426` · hermes · [Review modules/cs-core.md (Computer science core) against the official syllabi of the exams it counts for](ops/done/T-426.md)
 - **2026-09-27 21:01 UTC** · `T-420` · hermes · [Review modules/accounting-basics.md (Accounting and business basics) against the official syllabi of the exams it counts for](ops/done/T-420.md)
 - **2026-09-27 21:00 UTC** · `T-210` · opencode · [Verify the KEAM page (exams/engineering-entrance/keam.md) against its current official notification](ops/done/T-210.md)
 - **2026-09-27 21:00 UTC** · `T-416` · hermes · [Review modules/csat.md (CSAT: comprehension, reasoning, basic numeracy) against the official syllabi of the exams it counts for](ops/done/T-416.md)
