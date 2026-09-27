@@ -319,6 +319,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: official_site=https://kea.kar.nic.in"]
 
 [[task]]
 id = "T-210"
@@ -664,6 +665,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.jpsc.gov.in/data/Advertisement_01_26_dated_29_01_2026-1.pdf; official_site=https://www.jpsc.gov.in; pattern_url=https://www.jpsc.gov.in/data/Advertisement_01_26_dated_29_01_2026-1.pdf; syllabus_url=https://www.jpsc.gov.in/Syllabus.php"]
 
 [[task]]
 id = "T-241"
@@ -1225,6 +1227,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: official_site=https://navodaya.gov.in"]
 
 [[task]]
 id = "T-291"
