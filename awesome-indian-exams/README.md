@@ -32,7 +32,10 @@ with a receipt. See [UPDATES.md](UPDATES.md).
    NPTEL, e-PG Pathshala, National Digital Library, PIB.
 8. **[Open-source projects](resources/open-source-projects.md):** community question banks, datasets, planners and
    notes vaults.
-9. **Open data:** every exam, module and page status as one JSON file, built by
+9. **[Free study tools](tools/index.md):** a study planner for your exam with a focus timer and streaks,
+   spaced-repetition flashcards, a marks calculator, and AI study prompts. No login, no ads; progress stays in
+   your browser, and they work in the offline copy too.
+10. **Open data:** every exam, module and page status as one JSON file, built by
    [`scripts/export_json.py`](scripts/export_json.py) for apps and planners.
 
 ## Exams

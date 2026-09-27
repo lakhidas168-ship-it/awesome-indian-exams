@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Export the list as open data: one JSON file that apps, planners and other lists can build on.
 
-    python3 scripts/export_json.py [--out PATH]      # default: print to stdout
+    python3 scripts/export_json.py [--out PATH] [--js PATH]   # default: print the JSON to stdout
 
-The website build (.github/workflows/pages.yml) publishes it at /data/exams.json. Nothing here is committed, so
-the file can never go stale or conflict with the hive: it is rebuilt from the registry and the pages on every
-deploy. Stdlib only.
+The website build (.github/workflows/pages.yml) publishes it at /data/exams.json. `--js` also writes data/data.js
+(`window.AIE_DATA` with the exams and the flashcard decks in data/flashcards/), which the study tools read, so they
+work even in the offline copy opened from disk. Nothing here is committed, so the files can never go stale or
+conflict with the hive: they are rebuilt from the registry, the pages and the decks on every deploy. Stdlib only.
 """
 from __future__ import annotations
 
@@ -62,16 +63,31 @@ def build(root: Path = ROOT) -> dict:
     }
 
 
+def load_decks(root: Path = ROOT) -> dict:
+    decks = {}
+    for path in sorted((root / "data" / "flashcards").glob("*.json")):
+        deck = json.loads(path.read_text(encoding="utf-8"))
+        decks[deck["id"]] = deck
+    return decks
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--out", type=Path, help="write here instead of stdout")
+    ap.add_argument("--out", type=Path, help="write the JSON here instead of stdout")
+    ap.add_argument("--js", type=Path, help="also write the tools' data file (window.AIE_DATA) here")
     args = ap.parse_args(argv)
-    text = json.dumps(build(), ensure_ascii=False, indent=1) + "\n"
+    data = build()
+    text = json.dumps(data, ensure_ascii=False, indent=1) + "\n"
     if args.out:
         args.out.parent.mkdir(parents=True, exist_ok=True)
         args.out.write_text(text, encoding="utf-8")
-    else:
+    elif not args.js:
         sys.stdout.write(text)
+    if args.js:
+        payload = json.dumps({"exams": data, "decks": load_decks()}, ensure_ascii=False, separators=(",", ":"))
+        args.js.parent.mkdir(parents=True, exist_ok=True)
+        # "</" is escaped so the data can never close a script element early.
+        args.js.write_text("window.AIE_DATA = " + payload.replace("</", "<\\/") + ";\n", encoding="utf-8")
     return 0
 
 

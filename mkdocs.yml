@@ -10,6 +10,7 @@ site_dir: site
 theme:
   name: material
   language: en
+  font: false   # system fonts: no requests to font servers, faster on slow connections
   features:
     - navigation.instant
     - navigation.top
@@ -17,6 +18,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.action.edit
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -33,6 +35,13 @@ theme:
 
 plugins:
   - search
+
+# The study tools (tools/): data/data.js is generated at build time by scripts/export_json.py --js.
+extra_javascript:
+  - data/data.js
+  - tools/tools.js
+extra_css:
+  - tools/tools.css
 
 markdown_extensions:
   - tables

@@ -1,16 +1,17 @@
 name: pages
 
 # The list as a free website with search, dark mode and a phone-friendly layout, built from the same markdown
-# (mkdocs.yml at the repository root), plus the open-data export at /data/exams.json.
+# (mkdocs.yml at the repository root), with the study tools (tools/), the open data at /data/exams.json and an
+# offline copy at /download/awesome-indian-exams-offline.zip.
 # Runs only when main changes (the Mac hive publishes at most once an hour); no schedule.
 # One-time owner click: Settings → Pages → Source: "GitHub Actions". Until then the site is built and checked on
 # every run but not deployed.
 on:
   push:
     branches: [main]
-    paths: ["awesome-indian-exams/**", "mkdocs.yml", ".github/workflows/pages.yml"]
+    paths: ["awesome-indian-exams/**", "mkdocs.yml", "mkdocs.offline.yml", ".github/workflows/pages.yml"]
   pull_request:
-    paths: ["awesome-indian-exams/**", "mkdocs.yml", ".github/workflows/pages.yml"]
+    paths: ["awesome-indian-exams/**", "mkdocs.yml", "mkdocs.offline.yml", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -36,7 +37,13 @@ jobs:
       # MkDocs 2.0 drops the plugin and theme system Material relies on, so both stay pinned to the 1.x line.
       - run: pip install "mkdocs==1.6.1" "mkdocs-material==9.*"
       - run: mkdocs build
-      - run: python3 awesome-indian-exams/scripts/export_json.py --out site/data/exams.json
+      - run: python3 awesome-indian-exams/scripts/export_json.py --out site/data/exams.json --js site/data/data.js
+      # The same site as a download that opens from disk, for students with patchy internet.
+      - run: |
+          mkdocs build -f mkdocs.offline.yml
+          python3 awesome-indian-exams/scripts/export_json.py --js site-offline/data/data.js
+          mkdir -p site/download
+          (cd site-offline && zip -qr ../site/download/awesome-indian-exams-offline.zip .)
       - id: pages
         env:
           GH_TOKEN: ${{ github.token }}

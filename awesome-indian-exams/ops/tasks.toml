@@ -1734,6 +1734,111 @@ accept = [
 ]
 
 [[task]]
+id = "T-110"
+lane = "opencode"
+priority = 2
+title = "CBT mock engine in the website (tools/): NTA-style question palette, mark for review, section timer, negative marking, auto-submit; runs the T-101 question format offline"
+accept = [
+  "a sample test of original questions runs on the website and in the offline copy (end-to-end check with Playwright or node)",
+  "no login, progress only in localStorage; unit test covers scoring with negative marking",
+]
+
+[[task]]
+id = "T-111"
+lane = "opencode"
+priority = 3
+title = "JEE college predictor from the official JoSAA opening/closing rank archive: data/josaa/<year>.csv fetched from josaa.admissions.nic.in plus a tool page"
+accept = [
+  "every row traces to the official archive URL recorded under Sources fetched",
+  "the tool labels results safe / possible / reach and says ranks change every year",
+]
+
+[[task]]
+id = "T-112"
+lane = "opencode"
+priority = 4
+title = "RSS feed of UPDATES.md in the website build (/feed.xml), so students can follow new pages and verified changes in any reader"
+accept = [
+  "the feed validates as RSS 2.0 or Atom (unit test)",
+  "no schedule is added; it is built with the site",
+]
+
+[[task]]
+id = "T-113"
+lane = "opencode"
+priority = 4
+title = "Normalisation calculator for multi-shift exams, only with the formula published by the exam body (SSC or RRB notice), linked from the tool"
+accept = [
+  "the notice URL is on an allowlisted host and fetched",
+  "unit test reproduces the notice's worked example if it has one",
+]
+
+[[task]]
+id = "T-310"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Daily current affairs: resources/current-affairs/<date>.md, a digest of that day's PIB releases for UPSC/SSC/banking with 5 original MCQs, each linking its PIB release"
+accept = [
+  "every fact and MCQ comes from a linked pib.gov.in release fetched this run",
+  "no newspaper or coaching text is copied",
+]
+
+[[task]]
+id = "T-311"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "UPSC answer writing: one daily Mains question built from the official GS syllabus, with the directive word explained, links to the official papers and the evaluator prompt in tools/ai-study-prompts.md"
+accept = [
+  "the question is original and names its syllabus topic",
+  "no model answer copied from coaching material",
+]
+
+[[task]]
+id = "T-312"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Hindi versions of the most-used pages (README start, overlap map, free coaching, previous papers) as <page>.hi.md with a language link"
+accept = [
+  "meaning matches the English page; official names and numbers unchanged",
+  "links stay valid (validate.py passes)",
+]
+
+[[task]]
+id = "T-313"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Flashcard deck for one more module in data/flashcards/<module>-<topic>.json, every card from a named official source (NCERT, an official report or act)"
+accept = [
+  "tests/test_tools.py passes (schema, official source host)",
+  "20-60 cards; one fact per card",
+]
+
+[[task]]
+id = "T-314"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "AI study prompts: an exam-family pack (SSC/banking, JEE/NEET, GATE/ESE, state PSC) added to tools/ai-study-prompts.md"
+accept = [
+  "each prompt makes the model cite NCERT or the official syllabus and admit uncertainty",
+  "no prompt asks for personal data",
+]
+
+[[task]]
+id = "T-315"
+lane = "opencode"
+priority = 3
+title = "Eligibility in the registry: age limits, qualification and attempts per exam from its official notification, plus an eligibility checker tool"
+accept = [
+  "validate.py rejects an eligibility entry without an official source URL (unit test)",
+  "the checker says 'confirm in the notification' and handles relaxations as ranges",
+]
+
+[[task]]
 id = "T-105"
 lane = "opencode"
 priority = 2
