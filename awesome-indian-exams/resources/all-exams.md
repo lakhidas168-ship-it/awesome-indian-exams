@@ -103,11 +103,11 @@ has to find the official one.
 |---|---|---|---|
 | Delhi Police Constable (conducted by SSC) | Staff Selection Commission | <https://ssc.gov.in> | queued |
 | SSC CGL (Combined Graduate Level) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-cgl.md) |
-| SSC CHSL (Combined Higher Secondary Level) | Staff Selection Commission | <https://ssc.gov.in> | queued |
-| SSC CPO (Sub-Inspector in Delhi Police and CAPFs) | Staff Selection Commission | <https://ssc.gov.in> | queued |
-| SSC GD Constable | Staff Selection Commission | <https://ssc.gov.in> | queued |
+| SSC CHSL (Combined Higher Secondary Level) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-chsl.md) |
+| SSC CPO (Sub-Inspector in Delhi Police and CAPFs) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-cpo.md) |
+| SSC GD Constable | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-gd.md) |
 | SSC Junior Hindi Translator (JHT) | Staff Selection Commission | <https://ssc.gov.in> | queued |
-| SSC MTS and Havaldar | Staff Selection Commission | <https://ssc.gov.in> | queued |
+| SSC MTS and Havaldar | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-mts.md) |
 | SSC Selection Posts | Staff Selection Commission | <https://ssc.gov.in> | queued |
 | SSC Stenographer (Grade C and D) | Staff Selection Commission | <https://ssc.gov.in> | queued |
 
@@ -117,12 +117,12 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| RPF Constable | Railway Protection Force (through RRBs) | <https://www.rrbapply.gov.in> | queued |
-| RPF Sub-Inspector | Railway Protection Force (through RRBs) | <https://www.rrbapply.gov.in> | queued |
-| RRB Assistant Loco Pilot (ALP) | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | queued |
-| RRB Group D (Level 1) | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | queued |
-| RRB NTPC | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | queued |
-| RRB Technician | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | queued |
+| RPF Constable | Railway Protection Force (through RRBs) | <https://www.rrbapply.gov.in> | [open](../exams/railways/rpf-constable.md) |
+| RPF Sub-Inspector | Railway Protection Force (through RRBs) | <https://www.rrbapply.gov.in> | [open](../exams/railways/rpf-si.md) |
+| RRB Assistant Loco Pilot (ALP) | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/railways/rrb-alp.md) |
+| RRB Group D (Level 1) | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/railways/rrb-group-d.md) |
+| RRB NTPC | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/railways/rrb-ntpc.md) |
+| RRB Technician | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/railways/rrb-technician.md) |
 
 ## Banking, insurance and regulators
 

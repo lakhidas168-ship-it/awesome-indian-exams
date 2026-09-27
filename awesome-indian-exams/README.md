@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 10 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 20 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -72,12 +72,23 @@ _19 exams in the [registry](resources/all-exams.md#state-psc), pages queued for 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [SSC CGL (Combined Graduate Level)](exams/ssc/ssc-cgl.md) | Staff Selection Commission | SSC CGL 2026 | 🟡 secondary | 2026-09-27 |
+| [SSC CHSL (Combined Higher Secondary Level)](exams/ssc/ssc-chsl.md) | Staff Selection Commission | SSC CHSL 2026 | 🟡 secondary | 2026-09-27 |
+| [SSC CPO (Sub-Inspector in Delhi Police and CAPFs)](exams/ssc/ssc-cpo.md) | Staff Selection Commission | SSC CPO 2026 | ⚪ unverified | 2026-09-27 |
+| [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | 🟡 secondary | 2026-09-27 |
+| [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2026 | 🟡 secondary | 2026-09-27 |
 
-_8 more in the [registry](resources/all-exams.md#ssc), pages queued for the hive._
+_4 more in the [registry](resources/all-exams.md#ssc), pages queued for the hive._
 
 ### Railways: RRB and RPF
 
-_6 exams in the [registry](resources/all-exams.md#railways), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [RPF Constable](exams/railways/rpf-constable.md) | Railway Protection Force (through RRBs) | RPF Constable (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | RPF SI (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RRB Assistant Loco Pilot (ALP)](exams/railways/rrb-alp.md) | Railway Recruitment Boards | RRB ALP (CEN 01/2026) | 🟡 secondary | 2026-09-27 |
+| [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | RRB Group D (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RRB NTPC (Non-Technical Popular Categories)](exams/railways/rrb-ntpc.md) | Railway Recruitment Boards | RRB NTPC (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RRB Technician (Grade 1 Signal and Grade 3)](exams/railways/rrb-technician.md) | Railway Recruitment Boards | RRB Technician (latest CEN) | 🟡 secondary | 2026-09-27 |
 
 ### Banking, insurance and regulators
 

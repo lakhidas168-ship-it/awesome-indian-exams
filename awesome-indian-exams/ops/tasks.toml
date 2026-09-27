@@ -789,11 +789,10 @@ id = "T-246"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/ssc/ssc-chsl.md (SSC CHSL (Combined Higher Secondary Level)) from its official notification"
+title = "Verify the SSC CHSL (Combined Higher Secondary Level) page (exams/ssc/ssc-chsl.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://ssc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -801,11 +800,10 @@ id = "T-247"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/ssc/ssc-mts.md (SSC MTS and Havaldar) from its official notification"
+title = "Verify the SSC MTS and Havaldar page (exams/ssc/ssc-mts.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://ssc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -813,11 +811,10 @@ id = "T-248"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/ssc/ssc-gd.md (SSC GD Constable) from its official notification"
+title = "Verify the SSC GD Constable page (exams/ssc/ssc-gd.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://ssc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -825,11 +822,10 @@ id = "T-249"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/ssc/ssc-cpo.md (SSC CPO (Sub-Inspector in Delhi Police and CAPFs)) from its official notification"
+title = "Verify the SSC CPO (Sub-Inspector in Delhi Police and CAPFs) page (exams/ssc/ssc-cpo.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://ssc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -885,11 +881,10 @@ id = "T-254"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/railways/rrb-ntpc.md (RRB NTPC) from its official notification"
+title = "Verify the RRB NTPC page (exams/railways/rrb-ntpc.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rrbapply.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -897,11 +892,10 @@ id = "T-255"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/railways/rrb-group-d.md (RRB Group D (Level 1)) from its official notification"
+title = "Verify the RRB Group D (Level 1) page (exams/railways/rrb-group-d.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rrbapply.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -909,11 +903,10 @@ id = "T-256"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/railways/rrb-alp.md (RRB Assistant Loco Pilot (ALP)) from its official notification"
+title = "Verify the RRB Assistant Loco Pilot (ALP) page (exams/railways/rrb-alp.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rrbapply.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -921,11 +914,10 @@ id = "T-257"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/railways/rrb-technician.md (RRB Technician) from its official notification"
+title = "Verify the RRB Technician page (exams/railways/rrb-technician.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rrbapply.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -933,11 +925,10 @@ id = "T-258"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/railways/rpf-constable.md (RPF Constable) from its official notification"
+title = "Verify the RPF Constable page (exams/railways/rpf-constable.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rrbapply.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -945,11 +936,10 @@ id = "T-259"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/railways/rpf-si.md (RPF Sub-Inspector) from its official notification"
+title = "Verify the RPF Sub-Inspector page (exams/railways/rpf-si.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rrbapply.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
