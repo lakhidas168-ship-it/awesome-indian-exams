@@ -1,0 +1,78 @@
+name: hive-cloud
+
+# The free 24/7 hive: every hour, two worker lanes (Hermes = content, OpenCode = tooling) each take one task
+# with the built-in zero-cost agent, and the JEVX judge publishes what passes every gate.
+# Cost: public-repo Actions minutes are free; GitHub Models is free (rate-limited) with the workflow token.
+# Kill switch: set the repository variable HIVE_ENABLED to "false" (Settings → Secrets and variables → Actions).
+# Optional extra free capacity: repository secrets GEMINI_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY.
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # claim tasks, push agent branches, publish approved work to main
+  models: read      # GitHub Models inference with GITHUB_TOKEN (free tier)
+
+concurrency:
+  group: hive-cloud
+  cancel-in-progress: false
+
+jobs:
+  work:
+    if: vars.HIVE_ENABLED != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        lane: [hermes, opencode]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Optional PDF text extraction for official notifications
+        run: pip install --quiet pypdf || true
+      - name: One hive task (${{ matrix.lane }})
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          HIVE_CMD_HERMES: free-agent
+          HIVE_CMD_OPENCODE: free-agent
+          HIVE_OPEN_PR: "0"
+          HIVE_HOME: ${{ runner.temp }}/hive
+          HIVE_TIMEOUT: "1800"
+        run: |
+          git config --global user.name "hive-bot"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          awesome-indian-exams/ops/run-hourly.sh "${{ matrix.lane }}"
+
+  judge:
+    needs: work
+    if: always() && vars.HIVE_ENABLED != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Judge agent branches and publish approved work (JEVX)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          git config --global user.name "hive-bot"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 awesome-indian-exams/ops/agentctl.py reap --hours 6 || true
+          python3 awesome-indian-exams/ops/judge.py --publish

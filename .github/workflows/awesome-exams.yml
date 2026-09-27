@@ -2,10 +2,10 @@ name: awesome-exams
 
 on:
   pull_request:
-    paths: ["awesome-engineering-exams/**", ".github/workflows/awesome-exams*.yml"]
+    paths: ["awesome-indian-exams/**", ".github/workflows/**"]
   push:
     branches: [main]
-    paths: ["awesome-engineering-exams/**", ".github/workflows/awesome-exams*.yml"]
+    paths: ["awesome-indian-exams/**", ".github/workflows/**"]
   schedule:
     - cron: "17 * * * *"   # hourly: re-check main (catches pages going stale)
     - cron: "30 2 * * *"   # daily: external link check
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: awesome-engineering-exams
+        working-directory: awesome-indian-exams
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -40,13 +40,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Lane scope gate
+      - name: Lane scope and evidence gates
         env:
           HEAD_REF: ${{ github.head_ref }}
           BASE_REF: ${{ github.base_ref }}
         run: |
           git diff --name-only "origin/$BASE_REF...HEAD" \
-            | python3 awesome-engineering-exams/scripts/hive_gate.py --branch "$HEAD_REF"
+            | python3 awesome-indian-exams/scripts/hive_gate.py --branch "$HEAD_REF"
+          python3 awesome-indian-exams/scripts/evidence_gate.py --base "origin/$BASE_REF" --branch "$HEAD_REF"
 
   links:
     if: github.event.schedule == '30 2 * * *' || github.event_name == 'workflow_dispatch'
@@ -56,5 +57,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --max-retries 3 --timeout 30 --accept 200,206,403,429 "awesome-engineering-exams/**/*.md"
+          args: --no-progress --max-retries 3 --timeout 30 --accept 200,206,403,429 "awesome-indian-exams/**/*.md"
           fail: false

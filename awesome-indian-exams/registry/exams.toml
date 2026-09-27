@@ -1,0 +1,1196 @@
+# Registry of India's most-attempted competitive exams.
+#
+# One entry per exam. `modules` maps an exam to the shared syllabus blocks it tests, so one preparation
+# counts for many exams (see resources/overlap-map.md, generated from this file). The mapping is indicative:
+# each exam's official syllabus decides depth.
+#
+# official_site is left blank when the official domain has not been confirmed yet; the hive fills it.
+# An exam's page lives at exams/<family>/<id>.md. The README index, resources/all-exams.md and
+# resources/overlap-map.md are generated from this file by scripts/validate.py --write.
+#
+# focus: "core" families get ~80% of hive runs, "india" families ~20% (ops/hive.toml).
+
+# ------------------------------------------------------------------ families
+
+[[family]]
+id = "engineering"
+title = "Engineering jobs: GATE, ESE, JE, PSU, state AE/JE"
+focus = "core"
+
+[[family]]
+id = "engineering-entrance"
+title = "Engineering entrance: JEE and state CETs"
+focus = "india"
+
+[[family]]
+id = "medical"
+title = "Medical: NEET and medical PG"
+focus = "india"
+
+[[family]]
+id = "upsc"
+title = "UPSC"
+focus = "india"
+
+[[family]]
+id = "state-psc"
+title = "State PSC civil services"
+focus = "india"
+
+[[family]]
+id = "ssc"
+title = "SSC"
+focus = "india"
+
+[[family]]
+id = "railways"
+title = "Railways: RRB and RPF"
+focus = "india"
+
+[[family]]
+id = "banking"
+title = "Banking, insurance and regulators"
+focus = "india"
+
+[[family]]
+id = "defence"
+title = "Defence (non-UPSC entries)"
+focus = "india"
+
+[[family]]
+id = "teaching"
+title = "Teaching and research: TET, NET, KVS"
+focus = "india"
+
+[[family]]
+id = "university-entrance"
+title = "University and design entrance: CUET, JAM, NIFT, NID"
+focus = "india"
+
+[[family]]
+id = "school"
+title = "School-level entrance"
+focus = "india"
+
+[[family]]
+id = "law"
+title = "Law entrance"
+focus = "india"
+
+[[family]]
+id = "management"
+title = "Management entrance: CAT, XAT and others"
+focus = "india"
+
+[[family]]
+id = "professional"
+title = "Professional courses: CA, CS, CMA"
+focus = "india"
+
+# ------------------------------------------------------------------ shared modules
+
+[[module]]
+id = "quant-aptitude"
+title = "Quantitative aptitude"
+
+[[module]]
+id = "reasoning"
+title = "Logical and analytical reasoning"
+
+[[module]]
+id = "english-language"
+title = "English language and comprehension"
+
+[[module]]
+id = "hindi-language"
+title = "Hindi language"
+
+[[module]]
+id = "general-awareness"
+title = "General awareness and current affairs"
+
+[[module]]
+id = "general-science"
+title = "General science (NCERT Class 6–10 level)"
+
+[[module]]
+id = "data-interpretation"
+title = "Data interpretation"
+
+[[module]]
+id = "computer-awareness"
+title = "Computer awareness"
+
+[[module]]
+id = "banking-awareness"
+title = "Banking and financial awareness"
+
+[[module]]
+id = "descriptive-writing"
+title = "Essay and descriptive writing"
+
+[[module]]
+id = "ncert-physics"
+title = "Physics (NCERT Class 11–12)"
+
+[[module]]
+id = "ncert-chemistry"
+title = "Chemistry (NCERT Class 11–12)"
+
+[[module]]
+id = "ncert-mathematics"
+title = "Mathematics (NCERT Class 11–12)"
+
+[[module]]
+id = "ncert-biology"
+title = "Biology (NCERT Class 11–12)"
+
+[[module]]
+id = "gs-polity"
+title = "Indian polity and governance"
+
+[[module]]
+id = "gs-history"
+title = "Indian history and culture"
+
+[[module]]
+id = "gs-geography"
+title = "Geography of India and the world"
+
+[[module]]
+id = "gs-economy"
+title = "Indian economy"
+
+[[module]]
+id = "gs-environment"
+title = "Environment and ecology"
+
+[[module]]
+id = "gs-science-tech"
+title = "Science and technology (current)"
+
+[[module]]
+id = "csat"
+title = "CSAT: comprehension, reasoning, basic numeracy"
+
+[[module]]
+id = "legal-reasoning"
+title = "Legal reasoning"
+
+[[module]]
+id = "child-pedagogy"
+title = "Child development and pedagogy"
+
+[[module]]
+id = "teaching-research-aptitude"
+title = "Teaching and research aptitude"
+
+[[module]]
+id = "accounting-basics"
+title = "Accounting and business basics"
+
+[[module]]
+id = "mbbs-subjects"
+title = "MBBS subjects (pre-clinical, para-clinical, clinical)"
+
+[[module]]
+id = "nursing-subjects"
+title = "Nursing subjects"
+
+[[module]]
+id = "engineering-mathematics"
+title = "Engineering mathematics"
+
+[[module]]
+id = "ee-core"
+title = "Electrical engineering core"
+
+[[module]]
+id = "ece-core"
+title = "Electronics and communication core"
+
+[[module]]
+id = "cs-core"
+title = "Computer science core"
+
+[[module]]
+id = "me-core"
+title = "Mechanical engineering core"
+
+[[module]]
+id = "ce-core"
+title = "Civil engineering core"
+
+# ------------------------------------------------------------------ engineering (core focus)
+
+[[exam]]
+id = "gate-ee"
+name = "GATE Electrical Engineering (EE)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "ee-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "gate-ec"
+name = "GATE Electronics and Communication (EC)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "ece-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "gate-in"
+name = "GATE Instrumentation Engineering (IN)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "ee-core", "ece-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "gate-cs"
+name = "GATE Computer Science (CS)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "cs-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "gate-da"
+name = "GATE Data Science and AI (DA)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "cs-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "gate-me"
+name = "GATE Mechanical Engineering (ME)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "me-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "gate-ce"
+name = "GATE Civil Engineering (CE)"
+family = "engineering"
+body = "IISc and IITs for NCB-GATE"
+official_site = "https://gate2027.iitm.ac.in"
+modules = ["engineering-mathematics", "ce-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "upsc-ese-ee"
+name = "UPSC Engineering Services (ESE), Electrical"
+family = "engineering"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["engineering-mathematics", "ee-core", "general-awareness", "reasoning", "gs-environment"]
+
+[[exam]]
+id = "ssc-je-ee"
+name = "SSC Junior Engineer (JE), Electrical"
+family = "engineering"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["ee-core", "reasoning", "general-awareness"]
+
+[[exam]]
+id = "rrb-je-ee"
+name = "RRB Junior Engineer (JE), Electrical"
+family = "engineering"
+body = "Railway Recruitment Boards"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["ee-core", "quant-aptitude", "reasoning", "general-awareness", "general-science", "computer-awareness"]
+
+[[exam]]
+id = "state-ae-je"
+name = "State AE / JE (Electrical)"
+family = "engineering"
+body = "State PSCs and state power utilities"
+official_site = "https://apsc.nic.in"
+modules = ["ee-core", "engineering-mathematics", "general-awareness"]
+
+[[exam]]
+id = "psu-ee"
+name = "PSU recruitment for EE graduates"
+family = "engineering"
+body = "Central PSUs"
+official_site = "https://www.ntpc.co.in"
+modules = ["ee-core", "engineering-mathematics"]
+
+# ------------------------------------------------------------------ engineering entrance
+
+[[exam]]
+id = "jee-main"
+name = "JEE Main"
+family = "engineering-entrance"
+body = "National Testing Agency"
+official_site = "https://jeemain.nta.nic.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics"]
+
+[[exam]]
+id = "jee-advanced"
+name = "JEE Advanced"
+family = "engineering-entrance"
+body = "IITs (organising IIT rotates)"
+official_site = "https://jeeadv.ac.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics"]
+
+[[exam]]
+id = "bitsat"
+name = "BITSAT"
+family = "engineering-entrance"
+body = "BITS Pilani"
+official_site = "https://www.bitsadmission.com"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "english-language", "reasoning"]
+
+[[exam]]
+id = "mht-cet"
+name = "MHT CET"
+family = "engineering-entrance"
+body = "State CET Cell, Maharashtra"
+official_site = "https://cetcell.mahacet.org"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
+
+[[exam]]
+id = "wbjee"
+name = "WBJEE"
+family = "engineering-entrance"
+body = "West Bengal Joint Entrance Examinations Board"
+official_site = "https://wbjeeb.nic.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics"]
+
+[[exam]]
+id = "kcet"
+name = "Karnataka CET (KCET)"
+family = "engineering-entrance"
+body = "Karnataka Examinations Authority"
+official_site = "https://kea.kar.nic.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
+
+[[exam]]
+id = "keam"
+name = "KEAM"
+family = "engineering-entrance"
+body = "Commissioner for Entrance Examinations, Kerala"
+official_site = "https://cee.kerala.gov.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics"]
+
+[[exam]]
+id = "ap-eapcet"
+name = "AP EAPCET"
+family = "engineering-entrance"
+body = "APSCHE (conducting university varies)"
+official_site = ""
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
+
+[[exam]]
+id = "ts-eapcet"
+name = "TG (Telangana) EAPCET"
+family = "engineering-entrance"
+body = "TGCHE (conducting university varies)"
+official_site = ""
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
+
+[[exam]]
+id = "comedk-uget"
+name = "COMEDK UGET"
+family = "engineering-entrance"
+body = "Consortium of Medical, Engineering and Dental Colleges of Karnataka"
+official_site = "https://www.comedk.org"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics"]
+
+[[exam]]
+id = "viteee"
+name = "VITEEE"
+family = "engineering-entrance"
+body = "VIT University"
+official_site = "https://viteee.vit.ac.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "english-language", "reasoning"]
+
+# ------------------------------------------------------------------ medical
+
+[[exam]]
+id = "neet-ug"
+name = "NEET UG"
+family = "medical"
+body = "National Testing Agency"
+official_site = "https://neet.nta.nic.in"
+modules = ["ncert-physics", "ncert-chemistry", "ncert-biology"]
+
+[[exam]]
+id = "neet-pg"
+name = "NEET PG"
+family = "medical"
+body = "National Board of Examinations in Medical Sciences (NBEMS)"
+official_site = "https://natboard.edu.in"
+modules = ["mbbs-subjects"]
+
+[[exam]]
+id = "ini-cet"
+name = "INI-CET"
+family = "medical"
+body = "AIIMS New Delhi"
+official_site = "https://www.aiimsexams.ac.in"
+modules = ["mbbs-subjects"]
+
+[[exam]]
+id = "fmge"
+name = "FMGE (Foreign Medical Graduate Examination)"
+family = "medical"
+body = "National Board of Examinations in Medical Sciences (NBEMS)"
+official_site = "https://natboard.edu.in"
+modules = ["mbbs-subjects"]
+
+[[exam]]
+id = "aiims-norcet"
+name = "AIIMS NORCET (Nursing Officer)"
+family = "medical"
+body = "AIIMS New Delhi"
+official_site = "https://www.aiimsexams.ac.in"
+modules = ["nursing-subjects", "general-awareness", "reasoning"]
+
+# ------------------------------------------------------------------ UPSC
+
+[[exam]]
+id = "upsc-cse"
+name = "UPSC Civil Services (CSE)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "gs-environment", "gs-science-tech", "general-awareness", "csat", "descriptive-writing"]
+
+[[exam]]
+id = "upsc-nda"
+name = "UPSC NDA and NA"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["ncert-mathematics", "english-language", "general-science", "gs-history", "gs-geography", "general-awareness"]
+
+[[exam]]
+id = "upsc-cds"
+name = "UPSC Combined Defence Services (CDS)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["english-language", "quant-aptitude", "general-science", "gs-history", "gs-geography", "gs-polity", "general-awareness"]
+
+[[exam]]
+id = "upsc-capf"
+name = "UPSC CAPF (Assistant Commandant)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "reasoning", "quant-aptitude", "descriptive-writing"]
+
+[[exam]]
+id = "upsc-cms"
+name = "UPSC Combined Medical Services (CMS)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["mbbs-subjects"]
+
+[[exam]]
+id = "upsc-ifos"
+name = "UPSC Indian Forest Service (IFoS)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "gs-environment", "gs-science-tech", "csat"]
+
+[[exam]]
+id = "upsc-epfo"
+name = "UPSC EPFO (EO/AO, APFC)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["general-awareness", "gs-economy", "gs-polity", "accounting-basics", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "upsc-geoscientist"
+name = "UPSC Combined Geo-Scientist"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["general-awareness"]
+
+[[exam]]
+id = "upsc-ies-iss"
+name = "UPSC Indian Economic / Statistical Service (IES/ISS)"
+family = "upsc"
+body = "Union Public Service Commission"
+official_site = "https://upsc.gov.in"
+modules = ["gs-economy", "general-awareness", "descriptive-writing"]
+
+# ------------------------------------------------------------------ state PSC
+
+[[exam]]
+id = "uppsc-pcs"
+name = "UPPSC PCS (Combined State/Upper Subordinate Services)"
+family = "state-psc"
+body = "Uttar Pradesh Public Service Commission"
+official_site = "https://uppsc.up.nic.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "gs-environment", "general-awareness", "csat", "hindi-language", "descriptive-writing"]
+
+[[exam]]
+id = "bpsc-cce"
+name = "BPSC Combined Competitive Examination"
+family = "state-psc"
+body = "Bihar Public Service Commission"
+official_site = "https://bpsc.bih.nic.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "hindi-language", "descriptive-writing"]
+
+[[exam]]
+id = "rpsc-ras"
+name = "RPSC RAS/RTS"
+family = "state-psc"
+body = "Rajasthan Public Service Commission"
+official_site = "https://rpsc.rajasthan.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "hindi-language", "descriptive-writing"]
+
+[[exam]]
+id = "mppsc-sse"
+name = "MPPSC State Service Examination"
+family = "state-psc"
+body = "Madhya Pradesh Public Service Commission"
+official_site = "https://mppsc.mp.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "hindi-language"]
+
+[[exam]]
+id = "mpsc-rajyaseva"
+name = "MPSC State Services (Rajyaseva)"
+family = "state-psc"
+body = "Maharashtra Public Service Commission"
+official_site = "https://mpsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "descriptive-writing"]
+
+[[exam]]
+id = "apsc-cce"
+name = "APSC Combined Competitive Examination (Assam)"
+family = "state-psc"
+body = "Assam Public Service Commission"
+official_site = "https://apsc.nic.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "descriptive-writing"]
+
+[[exam]]
+id = "wbcs"
+name = "WBCS (West Bengal Civil Service)"
+family = "state-psc"
+body = "Public Service Commission, West Bengal"
+official_site = "https://psc.wb.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "reasoning", "descriptive-writing"]
+
+[[exam]]
+id = "tnpsc-group-1"
+name = "TNPSC Group 1"
+family = "state-psc"
+body = "Tamil Nadu Public Service Commission"
+official_site = "https://www.tnpsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "reasoning", "descriptive-writing"]
+
+[[exam]]
+id = "tnpsc-group-4"
+name = "TNPSC Group 4"
+family = "state-psc"
+body = "Tamil Nadu Public Service Commission"
+official_site = "https://www.tnpsc.gov.in"
+modules = ["general-awareness", "quant-aptitude", "reasoning"]
+
+[[exam]]
+id = "kpsc-kas"
+name = "KPSC KAS (Karnataka Administrative Service)"
+family = "state-psc"
+body = "Karnataka Public Service Commission"
+official_site = "https://kpsc.kar.nic.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "descriptive-writing"]
+
+[[exam]]
+id = "opsc-ocs"
+name = "OPSC Odisha Civil Services"
+family = "state-psc"
+body = "Odisha Public Service Commission"
+official_site = "https://www.opsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "descriptive-writing"]
+
+[[exam]]
+id = "hpsc-hcs"
+name = "HPSC HCS (Haryana Civil Services)"
+family = "state-psc"
+body = "Haryana Public Service Commission"
+official_site = "https://hpsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "descriptive-writing"]
+
+[[exam]]
+id = "cgpsc-sse"
+name = "CGPSC State Service Examination"
+family = "state-psc"
+body = "Chhattisgarh Public Service Commission"
+official_site = "https://psc.cg.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "hindi-language"]
+
+[[exam]]
+id = "jpsc-cce"
+name = "JPSC Combined Civil Services"
+family = "state-psc"
+body = "Jharkhand Public Service Commission"
+official_site = "https://www.jpsc.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "hindi-language"]
+
+[[exam]]
+id = "ukpsc-pcs"
+name = "UKPSC Combined State Civil Services"
+family = "state-psc"
+body = "Uttarakhand Public Service Commission"
+official_site = "https://psc.uk.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "csat", "hindi-language"]
+
+[[exam]]
+id = "kerala-psc"
+name = "Kerala PSC exams (LDC, KAS and others)"
+family = "state-psc"
+body = "Kerala Public Service Commission"
+official_site = "https://www.keralapsc.gov.in"
+modules = ["general-awareness", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "appsc-group-1"
+name = "APPSC Group 1"
+family = "state-psc"
+body = "Andhra Pradesh Public Service Commission"
+official_site = "https://psc.ap.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "descriptive-writing"]
+
+[[exam]]
+id = "tgpsc-group-1"
+name = "TGPSC (Telangana) Group 1"
+family = "state-psc"
+body = "Telangana Public Service Commission"
+official_site = ""
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "descriptive-writing"]
+
+[[exam]]
+id = "gpsc-class-1-2"
+name = "GPSC Class 1–2 (Gujarat)"
+family = "state-psc"
+body = "Gujarat Public Service Commission"
+official_site = "https://gpsc.gujarat.gov.in"
+modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "descriptive-writing"]
+
+# ------------------------------------------------------------------ SSC
+
+[[exam]]
+id = "ssc-cgl"
+name = "SSC CGL (Combined Graduate Level)"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness", "computer-awareness"]
+
+[[exam]]
+id = "ssc-chsl"
+name = "SSC CHSL (Combined Higher Secondary Level)"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness", "computer-awareness"]
+
+[[exam]]
+id = "ssc-mts"
+name = "SSC MTS and Havaldar"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
+
+[[exam]]
+id = "ssc-gd"
+name = "SSC GD Constable"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-awareness", "english-language", "hindi-language"]
+
+[[exam]]
+id = "ssc-cpo"
+name = "SSC CPO (Sub-Inspector in Delhi Police and CAPFs)"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
+
+[[exam]]
+id = "ssc-stenographer"
+name = "SSC Stenographer (Grade C and D)"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["reasoning", "english-language", "general-awareness"]
+
+[[exam]]
+id = "ssc-selection-post"
+name = "SSC Selection Posts"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
+
+[[exam]]
+id = "ssc-jht"
+name = "SSC Junior Hindi Translator (JHT)"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["hindi-language", "english-language", "descriptive-writing"]
+
+[[exam]]
+id = "delhi-police-constable"
+name = "Delhi Police Constable (conducted by SSC)"
+family = "ssc"
+body = "Staff Selection Commission"
+official_site = "https://ssc.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-awareness", "computer-awareness"]
+
+# ------------------------------------------------------------------ railways
+
+[[exam]]
+id = "rrb-ntpc"
+name = "RRB NTPC"
+family = "railways"
+body = "Railway Recruitment Boards"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-awareness", "general-science"]
+
+[[exam]]
+id = "rrb-group-d"
+name = "RRB Group D (Level 1)"
+family = "railways"
+body = "Railway Recruitment Boards"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-science", "general-awareness"]
+
+[[exam]]
+id = "rrb-alp"
+name = "RRB Assistant Loco Pilot (ALP)"
+family = "railways"
+body = "Railway Recruitment Boards"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-science", "general-awareness"]
+
+[[exam]]
+id = "rrb-technician"
+name = "RRB Technician"
+family = "railways"
+body = "Railway Recruitment Boards"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-science", "general-awareness"]
+
+[[exam]]
+id = "rpf-constable"
+name = "RPF Constable"
+family = "railways"
+body = "Railway Protection Force (through RRBs)"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-awareness"]
+
+[[exam]]
+id = "rpf-si"
+name = "RPF Sub-Inspector"
+family = "railways"
+body = "Railway Protection Force (through RRBs)"
+official_site = "https://www.rrbapply.gov.in"
+modules = ["quant-aptitude", "reasoning", "general-awareness"]
+
+# ------------------------------------------------------------------ banking, insurance, regulators
+
+[[exam]]
+id = "ibps-po"
+name = "IBPS PO"
+family = "banking"
+body = "Institute of Banking Personnel Selection"
+official_site = "https://www.ibps.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "data-interpretation", "banking-awareness", "computer-awareness", "descriptive-writing"]
+
+[[exam]]
+id = "ibps-clerk"
+name = "IBPS Clerk"
+family = "banking"
+body = "Institute of Banking Personnel Selection"
+official_site = "https://www.ibps.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "banking-awareness", "computer-awareness"]
+
+[[exam]]
+id = "ibps-rrb"
+name = "IBPS RRB (Officer Scale I and Office Assistant)"
+family = "banking"
+body = "Institute of Banking Personnel Selection"
+official_site = "https://www.ibps.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "hindi-language", "banking-awareness", "computer-awareness"]
+
+[[exam]]
+id = "ibps-so"
+name = "IBPS SO (Specialist Officer)"
+family = "banking"
+body = "Institute of Banking Personnel Selection"
+official_site = "https://www.ibps.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "banking-awareness"]
+
+[[exam]]
+id = "sbi-po"
+name = "SBI PO"
+family = "banking"
+body = "State Bank of India"
+official_site = "https://sbi.co.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "data-interpretation", "banking-awareness", "computer-awareness", "descriptive-writing"]
+
+[[exam]]
+id = "sbi-clerk"
+name = "SBI Clerk (Junior Associate)"
+family = "banking"
+body = "State Bank of India"
+official_site = "https://sbi.co.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "banking-awareness", "computer-awareness"]
+
+[[exam]]
+id = "rbi-grade-b"
+name = "RBI Grade B"
+family = "banking"
+body = "Reserve Bank of India"
+official_site = "https://www.rbi.org.in"
+modules = ["gs-economy", "banking-awareness", "general-awareness", "english-language", "quant-aptitude", "reasoning", "descriptive-writing"]
+
+[[exam]]
+id = "rbi-assistant"
+name = "RBI Assistant"
+family = "banking"
+body = "Reserve Bank of India"
+official_site = "https://www.rbi.org.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness", "computer-awareness"]
+
+[[exam]]
+id = "nabard-grade-a"
+name = "NABARD Grade A"
+family = "banking"
+body = "National Bank for Agriculture and Rural Development"
+official_site = "https://www.nabard.org"
+modules = ["gs-economy", "banking-awareness", "general-awareness", "english-language", "quant-aptitude", "reasoning", "descriptive-writing"]
+
+[[exam]]
+id = "sebi-grade-a"
+name = "SEBI Grade A"
+family = "banking"
+body = "Securities and Exchange Board of India"
+official_site = "https://www.sebi.gov.in"
+modules = ["gs-economy", "banking-awareness", "general-awareness", "english-language", "quant-aptitude", "reasoning", "descriptive-writing"]
+
+[[exam]]
+id = "lic-aao"
+name = "LIC AAO"
+family = "banking"
+body = "Life Insurance Corporation of India"
+official_site = "https://licindia.in"
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
+
+# ------------------------------------------------------------------ defence (non-UPSC)
+
+[[exam]]
+id = "afcat"
+name = "AFCAT (Air Force Common Admission Test)"
+family = "defence"
+body = "Indian Air Force"
+official_site = "https://afcat.cdac.in"
+modules = ["english-language", "general-awareness", "quant-aptitude", "reasoning"]
+
+[[exam]]
+id = "agniveer-army"
+name = "Agniveer (Army)"
+family = "defence"
+body = "Indian Army"
+official_site = "https://joinindianarmy.nic.in"
+modules = ["general-science", "quant-aptitude", "reasoning", "general-awareness"]
+
+[[exam]]
+id = "agniveer-navy"
+name = "Agniveer (Navy)"
+family = "defence"
+body = "Indian Navy"
+official_site = "https://www.joinindiannavy.gov.in"
+modules = ["ncert-physics", "ncert-mathematics", "english-language", "general-awareness"]
+
+[[exam]]
+id = "agniveer-vayu"
+name = "Agniveer Vayu (Air Force)"
+family = "defence"
+body = "Indian Air Force"
+official_site = "https://agnipathvayu.cdac.in"
+modules = ["ncert-physics", "ncert-mathematics", "english-language", "reasoning", "general-awareness"]
+
+[[exam]]
+id = "icg-navik"
+name = "Indian Coast Guard Navik / Yantrik"
+family = "defence"
+body = "Indian Coast Guard"
+official_site = "https://joinindiancoastguard.cdac.in"
+modules = ["ncert-physics", "ncert-mathematics", "quant-aptitude", "reasoning", "general-awareness"]
+
+# ------------------------------------------------------------------ teaching and research
+
+[[exam]]
+id = "ctet"
+name = "CTET"
+family = "teaching"
+body = "Central Board of Secondary Education"
+official_site = "https://ctet.nic.in"
+modules = ["child-pedagogy", "english-language", "hindi-language", "general-science", "quant-aptitude"]
+
+[[exam]]
+id = "ugc-net"
+name = "UGC NET"
+family = "teaching"
+body = "National Testing Agency"
+official_site = "https://ugcnet.nta.nic.in"
+modules = ["teaching-research-aptitude", "reasoning", "data-interpretation"]
+
+[[exam]]
+id = "csir-net"
+name = "CSIR NET (JRF / Assistant Professor)"
+family = "teaching"
+body = "National Testing Agency"
+official_site = "https://csirnet.nta.nic.in"
+modules = ["reasoning", "quant-aptitude", "data-interpretation"]
+
+[[exam]]
+id = "kvs-recruitment"
+name = "KVS teacher and staff recruitment"
+family = "teaching"
+body = "Kendriya Vidyalaya Sangathan"
+official_site = "https://kvsangathan.nic.in"
+modules = ["child-pedagogy", "general-awareness", "reasoning", "english-language", "hindi-language"]
+
+[[exam]]
+id = "nvs-recruitment"
+name = "NVS teacher and staff recruitment"
+family = "teaching"
+body = "Navodaya Vidyalaya Samiti"
+official_site = "https://navodaya.gov.in"
+modules = ["child-pedagogy", "general-awareness", "reasoning", "english-language", "hindi-language"]
+
+[[exam]]
+id = "state-tet"
+name = "State TETs (UPTET, REET, MAHATET and others)"
+family = "teaching"
+body = "State education boards"
+official_site = ""
+modules = ["child-pedagogy", "hindi-language", "english-language", "general-science", "quant-aptitude"]
+
+[[exam]]
+id = "dsssb"
+name = "DSSSB teacher and staff recruitment (Delhi)"
+family = "teaching"
+body = "Delhi Subordinate Services Selection Board"
+official_site = "https://dsssb.delhi.gov.in"
+modules = ["child-pedagogy", "general-awareness", "reasoning", "quant-aptitude", "english-language", "hindi-language"]
+
+# ------------------------------------------------------------------ university and design entrance
+
+[[exam]]
+id = "cuet-ug"
+name = "CUET UG"
+family = "university-entrance"
+body = "National Testing Agency"
+official_site = "https://cuet.nta.nic.in"
+modules = ["english-language", "general-awareness", "quant-aptitude", "reasoning", "ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
+
+[[exam]]
+id = "cuet-pg"
+name = "CUET PG"
+family = "university-entrance"
+body = "National Testing Agency"
+official_site = ""
+modules = ["english-language", "general-awareness", "reasoning"]
+
+[[exam]]
+id = "iit-jam"
+name = "IIT JAM"
+family = "university-entrance"
+body = "IITs and IISc (organising institute rotates)"
+official_site = ""
+modules = []
+
+[[exam]]
+id = "nift-entrance"
+name = "NIFT entrance"
+family = "university-entrance"
+body = "National Institute of Fashion Technology"
+official_site = "https://www.nift.ac.in"
+modules = ["english-language", "general-awareness", "quant-aptitude", "reasoning"]
+
+[[exam]]
+id = "nid-dat"
+name = "NID Design Aptitude Test (DAT)"
+family = "university-entrance"
+body = "National Institute of Design"
+official_site = "https://admissions.nid.edu"
+modules = ["reasoning", "general-awareness"]
+
+[[exam]]
+id = "uceed"
+name = "UCEED"
+family = "university-entrance"
+body = "IIT Bombay"
+official_site = "https://www.uceed.iitb.ac.in"
+modules = ["reasoning", "english-language"]
+
+[[exam]]
+id = "nchm-jee"
+name = "NCHM JEE (hotel management)"
+family = "university-entrance"
+body = "National Testing Agency"
+official_site = ""
+modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
+
+[[exam]]
+id = "nata"
+name = "NATA (architecture aptitude)"
+family = "university-entrance"
+body = "Council of Architecture"
+official_site = "https://www.nata.in"
+modules = ["ncert-mathematics", "reasoning"]
+
+# ------------------------------------------------------------------ school-level entrance
+
+[[exam]]
+id = "jnvst"
+name = "JNV Selection Test (Navodaya, Class 6 and 9)"
+family = "school"
+body = "Navodaya Vidyalaya Samiti"
+official_site = "https://navodaya.gov.in"
+modules = ["reasoning", "quant-aptitude", "english-language", "hindi-language"]
+
+[[exam]]
+id = "aissee"
+name = "AISSEE (Sainik School entrance)"
+family = "school"
+body = "National Testing Agency"
+official_site = ""
+modules = ["quant-aptitude", "reasoning", "english-language", "general-science", "general-awareness"]
+
+# ------------------------------------------------------------------ law
+
+[[exam]]
+id = "clat"
+name = "CLAT"
+family = "law"
+body = "Consortium of National Law Universities"
+official_site = "https://consortiumofnlus.ac.in"
+modules = ["english-language", "legal-reasoning", "reasoning", "general-awareness", "quant-aptitude"]
+
+[[exam]]
+id = "ailet"
+name = "AILET (NLU Delhi)"
+family = "law"
+body = "National Law University Delhi"
+official_site = "https://nationallawuniversitydelhi.in"
+modules = ["english-language", "legal-reasoning", "reasoning", "general-awareness"]
+
+[[exam]]
+id = "mh-cet-law"
+name = "MAH CET Law"
+family = "law"
+body = "State CET Cell, Maharashtra"
+official_site = "https://cetcell.mahacet.org"
+modules = ["english-language", "legal-reasoning", "reasoning", "general-awareness"]
+
+# ------------------------------------------------------------------ management
+
+[[exam]]
+id = "cat"
+name = "CAT"
+family = "management"
+body = "IIMs (convening IIM rotates)"
+official_site = "https://iimcat.ac.in"
+modules = ["english-language", "reasoning", "data-interpretation", "quant-aptitude"]
+
+[[exam]]
+id = "xat"
+name = "XAT"
+family = "management"
+body = "XLRI Jamshedpur"
+official_site = "https://xatonline.in"
+modules = ["english-language", "reasoning", "data-interpretation", "quant-aptitude", "general-awareness", "descriptive-writing"]
+
+[[exam]]
+id = "mat"
+name = "MAT"
+family = "management"
+body = "All India Management Association"
+official_site = "https://mat.aima.in"
+modules = ["english-language", "reasoning", "data-interpretation", "quant-aptitude", "general-awareness"]
+
+[[exam]]
+id = "cmat"
+name = "CMAT"
+family = "management"
+body = "National Testing Agency"
+official_site = ""
+modules = ["english-language", "reasoning", "quant-aptitude", "general-awareness"]
+
+[[exam]]
+id = "snap"
+name = "SNAP"
+family = "management"
+body = "Symbiosis International University"
+official_site = "https://www.snaptest.org"
+modules = ["english-language", "reasoning", "data-interpretation", "quant-aptitude"]
+
+[[exam]]
+id = "nmat"
+name = "NMAT"
+family = "management"
+body = "GMAC"
+official_site = ""
+modules = ["english-language", "reasoning", "quant-aptitude"]
+
+[[exam]]
+id = "ipmat-indore"
+name = "IPMAT (IIM Indore)"
+family = "management"
+body = "IIM Indore"
+official_site = "https://www.iimidr.ac.in"
+modules = ["quant-aptitude", "english-language"]
+
+[[exam]]
+id = "mah-mba-cet"
+name = "MAH MBA/MMS CET"
+family = "management"
+body = "State CET Cell, Maharashtra"
+official_site = "https://cetcell.mahacet.org"
+modules = ["english-language", "reasoning", "quant-aptitude"]
+
+# ------------------------------------------------------------------ professional courses
+
+[[exam]]
+id = "ca-foundation"
+name = "CA Foundation"
+family = "professional"
+body = "Institute of Chartered Accountants of India"
+official_site = "https://www.icai.org"
+modules = ["accounting-basics", "quant-aptitude", "gs-economy"]
+
+[[exam]]
+id = "cseet"
+name = "CSEET (Company Secretary Executive Entrance Test)"
+family = "professional"
+body = "Institute of Company Secretaries of India"
+official_site = "https://www.icsi.edu"
+modules = ["english-language", "general-awareness", "reasoning", "gs-economy"]
+
+[[exam]]
+id = "cma-foundation"
+name = "CMA Foundation"
+family = "professional"
+body = "Institute of Cost Accountants of India"
+official_site = "https://icmai.in"
+modules = ["accounting-basics", "quant-aptitude", "gs-economy"]

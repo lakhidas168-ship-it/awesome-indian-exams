@@ -1,0 +1,24 @@
+# Optional Mac schedule: the owner's own agents as extra hive capacity (the cloud hive runs without this).
+# Install with:  crontab -e   (paste, then fix REPO and the agent commands)
+# Hermes and OpenCode start together at :05 and run in parallel (separate worktrees, atomic task claims).
+# JEVX reviews, plans and merges at :40. The 80/20 focus split is applied by the task picker, not by cron.
+# Logs: ~/.hive/<lane>.log.   The Mac must be awake (cron does not run during sleep).
+#
+# One-time login:  gh auth login
+#
+# HIVE_CMD_* is the command that runs each agent non-interactively; the runner appends the prompt as the
+# last argument. "opencode run <prompt>" is OpenCode's non-interactive mode. "free-agent" uses the built-in
+# zero-cost agent (with Ollama running locally it needs no key at all). Set the Hermes and JEVX commands to
+# whatever your installs use to run a single prompt and exit.
+# MCP: OpenCode reads awesome-indian-exams/opencode.json; register the same stdio server
+# (python3 $REPO/awesome-indian-exams/ops/mcp_server.py) in Hermes and JEVX.
+
+PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+REPO=/Users/you/code/lakhidas168-ship-it
+HIVE_CMD_OPENCODE=opencode run
+HIVE_CMD_HERMES=REPLACE_WITH_HERMES_ONE_SHOT_COMMAND_OR_free-agent
+HIVE_CMD_JEVX=REPLACE_WITH_JEVX_ONE_SHOT_COMMAND
+
+5  * * * *  mkdir -p "$HOME/.hive" && cd "$REPO" && awesome-indian-exams/ops/run-hourly.sh hermes   >> "$HOME/.hive/hermes.log"   2>&1
+5  * * * *  mkdir -p "$HOME/.hive" && cd "$REPO" && awesome-indian-exams/ops/run-hourly.sh opencode >> "$HOME/.hive/opencode.log" 2>&1
+40 * * * *  mkdir -p "$HOME/.hive" && cd "$REPO" && awesome-indian-exams/ops/run-hourly.sh jevx     >> "$HOME/.hive/jevx.log"     2>&1

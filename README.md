@@ -49,16 +49,19 @@ Graduated with a **B.Tech in Electrical Engineering from National Institute of T
 
 ---
 
-## 🎓 Free for Every Aspirant: [Awesome Engineering Exams (India)](awesome-engineering-exams/)
+## 🎓 Free for Every Aspirant: [Awesome Indian Exams](awesome-indian-exams/)
 
-Evidence-gated preparation maps for circuital-branch engineers: **GATE EE, UPSC ESE, UPSC CSE (EE optional),
-SSC JE, RRB JE, state AE/JE and PSU recruitment**. Official sources only, an honest verification status on
-every page, and no pirated material. It is updated hourly in public by an agent hive (JEVX + Hermes +
-OpenCode), and every change ships as a pull request with a receipt.
+Evidence-gated preparation maps for India's most-attempted competitive exams: **GATE, ESE, JEE, NEET, UPSC,
+state PSCs, SSC, RRB, IBPS/SBI/RBI, defence, CTET/NET, CUET, CLAT, CAT** and more (118 exams in the registry).
+It is built from **shared syllabus modules**, so one preparation counts for many exams. Official sources only,
+an honest verification status on every page, and no pirated material. It is updated hourly in public by an
+agent hive (JEVX + Hermes + OpenCode) that runs free on GitHub Actions.
 
-- [One preparation, many exams: EE subject map](awesome-engineering-exams/resources/subject-map.md)
-- [Free courses, simulators and official sources](awesome-engineering-exams/resources/free-resources.md)
-- [How the hive works](awesome-engineering-exams/ops/HIVE.md) · [Latest updates](awesome-engineering-exams/UPDATES.md)
+- [Overlap map: one preparation, many exams](awesome-indian-exams/resources/overlap-map.md) ·
+  [All exams with official websites](awesome-indian-exams/resources/all-exams.md)
+- [Electrical engineering track](awesome-indian-exams/resources/ee-subject-map.md) ·
+  [EE free resources](awesome-indian-exams/resources/ee-free-resources.md)
+- [How the hive works](awesome-indian-exams/ops/HIVE.md) · [Latest updates](awesome-indian-exams/UPDATES.md)
 
 ---
 

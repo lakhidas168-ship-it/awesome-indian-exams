@@ -1,0 +1,1834 @@
+# Hive backlog.
+# Single writer: the JEVX lane. Worker lanes (hermes, opencode) never edit this file.
+# The "human" lane is the owner's checklist: agents never pick those tasks.
+#
+# priority: 1 = most urgent.  deps: ids that must be done first.  blocked = true parks a task.
+# focus: "core" (engineering track, ~80% of runs) or "india" (all other exams, ~20%); see ops/hive.toml.
+# DONE    = ops/done/<id>.md exists on main (a receipt that landed).
+# CLAIMED = refs/heads/claim/<id> or a branch agent/<lane>/<id> exists on the remote.
+#
+# Id ranges: H- owner · T-0xx hermes core · T-1xx opencode · T-2xx hermes exam pages · T-4xx hermes modules.
+
+[[task]]
+id = "H-001"
+lane = "human"
+priority = 1
+title = "Merge PR #1: this switches on the free cloud hive (GitHub Actions + GitHub Models, no key needed)"
+accept = [
+  "the 'hive-cloud' workflow shows an hourly run under the Actions tab",
+]
+
+[[task]]
+id = "H-002"
+lane = "human"
+priority = 2
+title = "Create the empty public repo lakhidas168-ship-it/awesome-indian-exams so the hub can move there"
+accept = [
+  "the empty repo exists; a Claude session (or `git subtree split`) moves this folder into it",
+]
+
+[[task]]
+id = "H-003"
+lane = "human"
+priority = 3
+title = "Optional, Mac: gh auth login + install ops/crontab.example to run JEVX/Hermes/OpenCode locally as extra capacity"
+accept = [
+  "crontab -l shows the hive lines",
+  "~/.hive/*.log gets a new entry every hour",
+]
+
+[[task]]
+id = "H-004"
+lane = "human"
+priority = 3
+title = "Optional: add free API keys as repo secrets (GEMINI_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY) for more free capacity"
+accept = [
+  "hive-cloud logs show the extra provider being used when GitHub Models is rate-limited",
+]
+
+[[task]]
+id = "T-001"
+lane = "hermes"
+priority = 1
+title = "Verify the GATE EE page against the official GATE 2027 information brochure"
+accept = [
+  "every number under 'Exam pattern' and 'At a glance' matches the brochure; brochure URL listed under Official sources",
+  "syllabus section matches the official EE syllabus PDF (paraphrase allowed, topics must match)",
+  "frontmatter verification = official and last_verified = the run date, only if the official documents were opened this run",
+]
+
+[[task]]
+id = "T-002"
+lane = "hermes"
+priority = 1
+title = "Verify the UPSC ESE EE page against the ESE 2027 notification on upsc.gov.in"
+accept = [
+  "pattern, age limit and stage marks match the notification; notification URL listed under Official sources",
+  "frontmatter verification = official only if the notification PDF was opened this run",
+]
+
+[[task]]
+id = "T-003"
+lane = "hermes"
+priority = 2
+title = "Verify the SSC JE EE page against the latest SSC JE notice on ssc.gov.in"
+accept = [
+  "Paper I/II pattern and negative marking match the notice; notice URL listed",
+  "verification updated honestly",
+]
+
+[[task]]
+id = "T-004"
+lane = "hermes"
+priority = 2
+title = "Verify the RRB JE page against the latest CEN (Junior Engineer) on rrbapply.gov.in or a regional RRB site"
+accept = [
+  "CBT-1/CBT-2 sections, time and negative marking match the CEN; CEN URL listed",
+  "verification updated honestly",
+]
+
+[[task]]
+id = "T-005"
+lane = "hermes"
+priority = 2
+title = "Verify the UPSC CSE page (pattern + Electrical Engineering optional syllabus) against the CSE notification"
+accept = [
+  "marks per paper and the EE optional topic list match the notification; URL listed",
+  "verification updated honestly",
+]
+
+[[task]]
+id = "T-006"
+lane = "hermes"
+priority = 2
+title = "State AE/JE tracker: confirm every commission/utility domain and add the latest EE AE/JE advertisement per state (Assam first)"
+accept = [
+  "every link in the tracker opens on an official domain; dead ones removed",
+  "Assam row lists the latest APSC / APDCL / AEGCL / APGCL EE advertisement with date and URL, or states none open",
+]
+
+[[task]]
+id = "T-007"
+lane = "hermes"
+priority = 3
+title = "PSU tracker: record each PSU's most recent EE recruitment channel (GATE year / own exam) with the official advertisement link"
+accept = [
+  "each row has channel + advertisement URL + date, or 'no EE recruitment found since <year>'",
+]
+
+[[task]]
+id = "T-008"
+lane = "hermes"
+priority = 3
+deps = ["T-001"]
+title = "GATE EE subject-wise marks for the last 5 official papers → resources/gate-ee-weightage.md"
+accept = [
+  "table of marks per subject per year, counted from the official question papers (URLs listed per year)",
+  "method section says how each question was mapped to a subject; totals per year add up to 100",
+]
+
+[[task]]
+id = "T-009"
+lane = "hermes"
+priority = 3
+deps = ["T-002"]
+title = "ESE EE Prelims topic map from official papers (Paper I + Paper II, last 5 years) → resources/ese-ee-topic-map.md"
+accept = [
+  "question counts per topic per year from upsc.gov.in papers, URLs listed; counts per paper add up",
+]
+
+[[task]]
+id = "T-010"
+lane = "hermes"
+priority = 4
+title = "Publish the EE concept prerequisite map from the Sovereign Learning OS graph → resources/prerequisite-map.md"
+accept = [
+  "Mermaid graph of EE concepts and prerequisite edges, exported from the local graph",
+  "no transcript text or third-party lecture content included, only concept names and edges",
+]
+
+[[task]]
+id = "T-011"
+lane = "hermes"
+priority = 4
+title = "Add the other circuital branches: exams/engineering/gate-ec.md and exams/engineering/gate-in.md"
+accept = [
+  "both pages pass the content gate with every required section",
+  "verification status honest",
+]
+
+[[task]]
+id = "T-101"
+lane = "opencode"
+priority = 2
+title = "Original practice questions: questions/ JSON format + validator rule + 3 sample EE questions"
+accept = [
+  "schema fields: id, exams, subject, question, options, answer, solution, author, license, source='original'",
+  "scripts/validate.py rejects a question without an answer, solution or author (unit test proves it)",
+]
+
+[[task]]
+id = "T-102"
+lane = "opencode"
+priority = 3
+title = "Staleness report: validate.py --suggest-tasks prints ready-to-paste tasks.toml entries for stale or non-official pages"
+accept = [
+  "unit test covers a stale page and a secondary page",
+  "output parses as TOML",
+]
+
+[[task]]
+id = "T-103"
+lane = "opencode"
+priority = 3
+title = "Formula sheets: formula-sheets/<subject>.md format + validator check that $$ math blocks are balanced"
+accept = [
+  "one sample sheet (Electric Circuits) passes",
+  "unit test proves an unbalanced block fails",
+]
+
+[[task]]
+id = "T-104"
+lane = "opencode"
+priority = 4
+title = "GitHub Pages site for the list (mkdocs-material, built in CI from the same markdown, no copies)"
+accept = [
+  "the workflow is proposed as docs/pages-workflow.yml (agents cannot write .github/; the owner moves it)",
+  "docs explain the one Settings click the owner must make to enable Pages",
+]
+
+[[task]]
+id = "T-012"
+lane = "hermes"
+priority = 4
+title = "Write exams/engineering/gate-cs.md (GATE CS) from the official GATE 2027 brochure and syllabus"
+accept = [
+  "page passes the content gate with every required section",
+  "facts only from the official brochure/syllabus; verification status honest",
+]
+
+[[task]]
+id = "T-013"
+lane = "hermes"
+priority = 4
+title = "Write exams/engineering/gate-da.md (GATE DA) from the official GATE 2027 brochure and syllabus"
+accept = [
+  "page passes the content gate with every required section",
+  "facts only from the official brochure/syllabus; verification status honest",
+]
+
+[[task]]
+id = "T-014"
+lane = "hermes"
+priority = 4
+title = "Write exams/engineering/gate-me.md (GATE ME) from the official GATE 2027 brochure and syllabus"
+accept = [
+  "page passes the content gate with every required section",
+  "facts only from the official brochure/syllabus; verification status honest",
+]
+
+[[task]]
+id = "T-015"
+lane = "hermes"
+priority = 4
+title = "Write exams/engineering/gate-ce.md (GATE CE) from the official GATE 2027 brochure and syllabus"
+accept = [
+  "page passes the content gate with every required section",
+  "facts only from the official brochure/syllabus; verification status honest",
+]
+
+[[task]]
+id = "T-016"
+lane = "hermes"
+priority = 3
+title = "Refresh docs/FREE-COMPUTE.md: check each free tier and credit programme on its official page, remove dead ones, add new ones"
+accept = [
+  "every entry links the provider's official page and says what is free and its limit",
+  "entries that could not be confirmed are marked so",
+]
+
+[[task]]
+id = "T-201"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the NEET UG page against its current official notification"
+accept = [
+  "every number under 'At a glance' and 'Exam pattern' matches the official notification; its URL is under Official sources",
+  "verification = official only if the official notification was fetched this run",
+]
+
+[[task]]
+id = "T-202"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the SSC CGL (Combined Graduate Level) page against its current official notification"
+accept = [
+  "every number under 'At a glance' and 'Exam pattern' matches the official notification; its URL is under Official sources",
+  "verification = official only if the official notification was fetched this run",
+]
+
+[[task]]
+id = "T-203"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the IBPS PO page against its current official notification"
+accept = [
+  "every number under 'At a glance' and 'Exam pattern' matches the official notification; its URL is under Official sources",
+  "verification = official only if the official notification was fetched this run",
+]
+
+[[task]]
+id = "T-204"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/jee-main.md (JEE Main) from its official notification"
+accept = [
+  "facts come from the official notification on https://jeemain.nta.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-205"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/jee-advanced.md (JEE Advanced) from its official notification"
+accept = [
+  "facts come from the official notification on https://jeeadv.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-206"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/bitsat.md (BITSAT) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.bitsadmission.com",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-207"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/mht-cet.md (MHT CET) from its official notification"
+accept = [
+  "facts come from the official notification on https://cetcell.mahacet.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-208"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/wbjee.md (WBJEE) from its official notification"
+accept = [
+  "facts come from the official notification on https://wbjeeb.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-209"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/kcet.md (Karnataka CET (KCET)) from its official notification"
+accept = [
+  "facts come from the official notification on https://kea.kar.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-210"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/keam.md (KEAM) from its official notification"
+accept = [
+  "facts come from the official notification on https://cee.kerala.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-211"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/ap-eapcet.md (AP EAPCET) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-212"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/ts-eapcet.md (TG (Telangana) EAPCET) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-213"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/comedk-uget.md (COMEDK UGET) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.comedk.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-214"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/engineering-entrance/viteee.md (VITEEE) from its official notification"
+accept = [
+  "facts come from the official notification on https://viteee.vit.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-215"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/medical/neet-pg.md (NEET PG) from its official notification"
+accept = [
+  "facts come from the official notification on https://natboard.edu.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-216"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/medical/ini-cet.md (INI-CET) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.aiimsexams.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-217"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/medical/fmge.md (FMGE (Foreign Medical Graduate Examination)) from its official notification"
+accept = [
+  "facts come from the official notification on https://natboard.edu.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-218"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/medical/aiims-norcet.md (AIIMS NORCET (Nursing Officer)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.aiimsexams.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-219"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-nda.md (UPSC NDA and NA) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-220"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-cds.md (UPSC Combined Defence Services (CDS)) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-221"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-capf.md (UPSC CAPF (Assistant Commandant)) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-222"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-cms.md (UPSC Combined Medical Services (CMS)) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-223"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-ifos.md (UPSC Indian Forest Service (IFoS)) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-224"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-epfo.md (UPSC EPFO (EO/AO, APFC)) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-225"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-geoscientist.md (UPSC Combined Geo-Scientist) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-226"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/upsc/upsc-ies-iss.md (UPSC Indian Economic / Statistical Service (IES/ISS)) from its official notification"
+accept = [
+  "facts come from the official notification on https://upsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-227"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/uppsc-pcs.md (UPPSC PCS (Combined State/Upper Subordinate Services)) from its official notification"
+accept = [
+  "facts come from the official notification on https://uppsc.up.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-228"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/bpsc-cce.md (BPSC Combined Competitive Examination) from its official notification"
+accept = [
+  "facts come from the official notification on https://bpsc.bih.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-229"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/rpsc-ras.md (RPSC RAS/RTS) from its official notification"
+accept = [
+  "facts come from the official notification on https://rpsc.rajasthan.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-230"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/mppsc-sse.md (MPPSC State Service Examination) from its official notification"
+accept = [
+  "facts come from the official notification on https://mppsc.mp.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-231"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/mpsc-rajyaseva.md (MPSC State Services (Rajyaseva)) from its official notification"
+accept = [
+  "facts come from the official notification on https://mpsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-232"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/apsc-cce.md (APSC Combined Competitive Examination (Assam)) from its official notification"
+accept = [
+  "facts come from the official notification on https://apsc.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-233"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/wbcs.md (WBCS (West Bengal Civil Service)) from its official notification"
+accept = [
+  "facts come from the official notification on https://psc.wb.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-234"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/tnpsc-group-1.md (TNPSC Group 1) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.tnpsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-235"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/tnpsc-group-4.md (TNPSC Group 4) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.tnpsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-236"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/kpsc-kas.md (KPSC KAS (Karnataka Administrative Service)) from its official notification"
+accept = [
+  "facts come from the official notification on https://kpsc.kar.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-237"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/opsc-ocs.md (OPSC Odisha Civil Services) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.opsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-238"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/hpsc-hcs.md (HPSC HCS (Haryana Civil Services)) from its official notification"
+accept = [
+  "facts come from the official notification on https://hpsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-239"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/cgpsc-sse.md (CGPSC State Service Examination) from its official notification"
+accept = [
+  "facts come from the official notification on https://psc.cg.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-240"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/jpsc-cce.md (JPSC Combined Civil Services) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.jpsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-241"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/ukpsc-pcs.md (UKPSC Combined State Civil Services) from its official notification"
+accept = [
+  "facts come from the official notification on https://psc.uk.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-242"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/kerala-psc.md (Kerala PSC exams (LDC, KAS and others)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.keralapsc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-243"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/appsc-group-1.md (APPSC Group 1) from its official notification"
+accept = [
+  "facts come from the official notification on https://psc.ap.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-244"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/tgpsc-group-1.md (TGPSC (Telangana) Group 1) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-245"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/state-psc/gpsc-class-1-2.md (GPSC Class 1–2 (Gujarat)) from its official notification"
+accept = [
+  "facts come from the official notification on https://gpsc.gujarat.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-246"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-chsl.md (SSC CHSL (Combined Higher Secondary Level)) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-247"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-mts.md (SSC MTS and Havaldar) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-248"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-gd.md (SSC GD Constable) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-249"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-cpo.md (SSC CPO (Sub-Inspector in Delhi Police and CAPFs)) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-250"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-stenographer.md (SSC Stenographer (Grade C and D)) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-251"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-selection-post.md (SSC Selection Posts) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-252"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/ssc-jht.md (SSC Junior Hindi Translator (JHT)) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-253"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/ssc/delhi-police-constable.md (Delhi Police Constable (conducted by SSC)) from its official notification"
+accept = [
+  "facts come from the official notification on https://ssc.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-254"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/railways/rrb-ntpc.md (RRB NTPC) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rrbapply.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-255"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/railways/rrb-group-d.md (RRB Group D (Level 1)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rrbapply.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-256"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/railways/rrb-alp.md (RRB Assistant Loco Pilot (ALP)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rrbapply.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-257"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/railways/rrb-technician.md (RRB Technician) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rrbapply.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-258"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/railways/rpf-constable.md (RPF Constable) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rrbapply.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-259"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/railways/rpf-si.md (RPF Sub-Inspector) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rrbapply.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-260"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/ibps-clerk.md (IBPS Clerk) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.ibps.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-261"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/ibps-rrb.md (IBPS RRB (Officer Scale I and Office Assistant)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.ibps.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-262"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/ibps-so.md (IBPS SO (Specialist Officer)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.ibps.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-263"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/sbi-po.md (SBI PO) from its official notification"
+accept = [
+  "facts come from the official notification on https://sbi.co.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-264"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/sbi-clerk.md (SBI Clerk (Junior Associate)) from its official notification"
+accept = [
+  "facts come from the official notification on https://sbi.co.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-265"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/rbi-grade-b.md (RBI Grade B) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rbi.org.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-266"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/rbi-assistant.md (RBI Assistant) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.rbi.org.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-267"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/nabard-grade-a.md (NABARD Grade A) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.nabard.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-268"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/sebi-grade-a.md (SEBI Grade A) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.sebi.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-269"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Write exams/banking/lic-aao.md (LIC AAO) from its official notification"
+accept = [
+  "facts come from the official notification on https://licindia.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-270"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/defence/afcat.md (AFCAT (Air Force Common Admission Test)) from its official notification"
+accept = [
+  "facts come from the official notification on https://afcat.cdac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-271"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/defence/agniveer-army.md (Agniveer (Army)) from its official notification"
+accept = [
+  "facts come from the official notification on https://joinindianarmy.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-272"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/defence/agniveer-navy.md (Agniveer (Navy)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.joinindiannavy.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-273"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/defence/agniveer-vayu.md (Agniveer Vayu (Air Force)) from its official notification"
+accept = [
+  "facts come from the official notification on https://agnipathvayu.cdac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-274"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/defence/icg-navik.md (Indian Coast Guard Navik / Yantrik) from its official notification"
+accept = [
+  "facts come from the official notification on https://joinindiancoastguard.cdac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-275"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/ctet.md (CTET) from its official notification"
+accept = [
+  "facts come from the official notification on https://ctet.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-276"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/ugc-net.md (UGC NET) from its official notification"
+accept = [
+  "facts come from the official notification on https://ugcnet.nta.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-277"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/csir-net.md (CSIR NET (JRF / Assistant Professor)) from its official notification"
+accept = [
+  "facts come from the official notification on https://csirnet.nta.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-278"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/kvs-recruitment.md (KVS teacher and staff recruitment) from its official notification"
+accept = [
+  "facts come from the official notification on https://kvsangathan.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-279"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/nvs-recruitment.md (NVS teacher and staff recruitment) from its official notification"
+accept = [
+  "facts come from the official notification on https://navodaya.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-280"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/state-tet.md (State TETs (UPTET, REET, MAHATET and others)) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-281"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/teaching/dsssb.md (DSSSB teacher and staff recruitment (Delhi)) from its official notification"
+accept = [
+  "facts come from the official notification on https://dsssb.delhi.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-282"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/cuet-ug.md (CUET UG) from its official notification"
+accept = [
+  "facts come from the official notification on https://cuet.nta.nic.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-283"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/cuet-pg.md (CUET PG) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-284"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/iit-jam.md (IIT JAM) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-285"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/nift-entrance.md (NIFT entrance) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.nift.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-286"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/nid-dat.md (NID Design Aptitude Test (DAT)) from its official notification"
+accept = [
+  "facts come from the official notification on https://admissions.nid.edu",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-287"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/uceed.md (UCEED) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.uceed.iitb.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-288"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/nchm-jee.md (NCHM JEE (hotel management)) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-289"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/university-entrance/nata.md (NATA (architecture aptitude)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.nata.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-290"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "Write exams/school/jnvst.md (JNV Selection Test (Navodaya, Class 6 and 9)) from its official notification"
+accept = [
+  "facts come from the official notification on https://navodaya.gov.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-291"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "Write exams/school/aissee.md (AISSEE (Sainik School entrance)) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-292"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/law/clat.md (CLAT) from its official notification"
+accept = [
+  "facts come from the official notification on https://consortiumofnlus.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-293"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/law/ailet.md (AILET (NLU Delhi)) from its official notification"
+accept = [
+  "facts come from the official notification on https://nationallawuniversitydelhi.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-294"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/law/mh-cet-law.md (MAH CET Law) from its official notification"
+accept = [
+  "facts come from the official notification on https://cetcell.mahacet.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-295"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/cat.md (CAT) from its official notification"
+accept = [
+  "facts come from the official notification on https://iimcat.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-296"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/xat.md (XAT) from its official notification"
+accept = [
+  "facts come from the official notification on https://xatonline.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-297"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/mat.md (MAT) from its official notification"
+accept = [
+  "facts come from the official notification on https://mat.aima.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-298"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/cmat.md (CMAT) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-299"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/snap.md (SNAP) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.snaptest.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-300"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/nmat.md (NMAT) from its official notification"
+accept = [
+  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-301"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/ipmat-indore.md (IPMAT (IIM Indore)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.iimidr.ac.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-302"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write exams/management/mah-mba-cet.md (MAH MBA/MMS CET) from its official notification"
+accept = [
+  "facts come from the official notification on https://cetcell.mahacet.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-303"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "Write exams/professional/ca-foundation.md (CA Foundation) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.icai.org",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-304"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "Write exams/professional/cseet.md (CSEET (Company Secretary Executive Entrance Test)) from its official notification"
+accept = [
+  "facts come from the official notification on https://www.icsi.edu",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-305"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "Write exams/professional/cma-foundation.md (CMA Foundation) from its official notification"
+accept = [
+  "facts come from the official notification on https://icmai.in",
+  "page passes the content gate with every required section and links the shared modules it uses",
+  "verification status honest: official only with a fetched official source",
+]
+
+[[task]]
+id = "T-401"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/hindi-language.md (Hindi language): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-402"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/data-interpretation.md (Data interpretation): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-403"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/computer-awareness.md (Computer awareness): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-404"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/banking-awareness.md (Banking and financial awareness): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-405"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/descriptive-writing.md (Essay and descriptive writing): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-406"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ncert-physics.md (Physics (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-407"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ncert-chemistry.md (Chemistry (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-408"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ncert-mathematics.md (Mathematics (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-409"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ncert-biology.md (Biology (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-410"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/gs-polity.md (Indian polity and governance): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-411"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/gs-history.md (Indian history and culture): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-412"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/gs-geography.md (Geography of India and the world): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-413"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/gs-economy.md (Indian economy): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-414"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/gs-environment.md (Environment and ecology): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-415"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/gs-science-tech.md (Science and technology (current)): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-416"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/csat.md (CSAT: comprehension, reasoning, basic numeracy): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-417"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/legal-reasoning.md (Legal reasoning): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-418"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/child-pedagogy.md (Child development and pedagogy): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-419"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/teaching-research-aptitude.md (Teaching and research aptitude): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-420"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/accounting-basics.md (Accounting and business basics): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-421"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/mbbs-subjects.md (MBBS subjects (pre-clinical, para-clinical, clinical)): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-422"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/nursing-subjects.md (Nursing subjects): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-423"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/engineering-mathematics.md (Engineering mathematics): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-424"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ee-core.md (Electrical engineering core): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-425"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ece-core.md (Electronics and communication core): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-426"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/cs-core.md (Computer science core): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-427"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/me-core.md (Mechanical engineering core): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-428"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Write modules/ce-core.md (Civil engineering core): what it covers, depth by exam family, free official resources"
+accept = [
+  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
+  "passes the content gate",
+]
+
+[[task]]
+id = "T-105"
+lane = "opencode"
+priority = 2
+title = "validate.py: check that every exam page's official_site matches its registry entry (or the registry one is blank)"
+accept = [
+  "unit test proves a mismatch is rejected",
+  "existing pages still pass",
+]
+
+[[task]]
+id = "T-106"
+lane = "opencode"
+focus = "india"
+priority = 3
+title = "Generate a per-family 'start here' section in resources/overlap-map.md: the 3 modules that cover the most exams in each family"
+accept = [
+  "generated by validate.py --write from the registry",
+  "unit test covers one family",
+]
