@@ -5,14 +5,13 @@ conducting_body: AIIMS New Delhi
 official_site: https://www.aiimsexams.ac.in
 cycle: INI-CET (latest session)
 last_verified: 2026-09-27
-verification: secondary
+verification: unverified
 ---
 
 # INI-CET
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The facts below could not be verified against the official notification.
+> Always read the current notice before you apply or pay a fee.
 
 INI-CET is the combined entrance for postgraduate medical seats (MD, MS, MCh, DM (6 yr), MDS) at AIIMS, JIPMER,
 PGIMER Chandigarh and NIMHANS. It is held twice a year.
