@@ -4,15 +4,13 @@ exam_id: rpsc-ras
 conducting_body: Rajasthan Public Service Commission
 official_site: https://rpsc.rajasthan.gov.in
 cycle: RPSC RAS/RTS (latest)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2025-05-14
+verification: unverified
 ---
 
 # RPSC RAS/RTS
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The official notification for the current cycle was not fetched this run. The facts below are based on historical patterns and require verification against the latest official notification.
 
 RPSC's RAS/RTS exam recruits Rajasthan's administrative, police, accounts and allied
 services officers.
@@ -30,13 +28,11 @@ services officers.
 
 ## Exam pattern
 
-**Prelims:** 150 objective questions, 200 marks, 3 hours, **−1/3** per wrong answer, on general knowledge and
-general science with a strong Rajasthan component. It is only for screening. **Mains:** descriptive papers on general
-studies, general Hindi and general English, then an interview.
+**Prelims:** Objective questions, general knowledge and general science with a strong Rajasthan component. It is only for screening. **Mains:** descriptive papers on general studies, general Hindi and general English, then an interview.
 
 ## Syllabus
 
-General studies as in UPSC CSE (polity, history, geography, economy, environment, science and
+General studies (polity, history, geography, economy, environment, science and
 technology, current affairs), with **state-specific** history, geography, economy and culture. The main exam adds
 essays, a language paper and GS papers. The commission's notification has the exact syllabus.
 
