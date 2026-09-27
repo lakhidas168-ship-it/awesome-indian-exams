@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 86 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 108 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -89,19 +89,42 @@ _2 more in the [registry](resources/all-exams.md#engineering-entrance), pages qu
 
 ### State PSC civil services
 
-_19 exams in the [registry](resources/all-exams.md#state-psc), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [APPSC Group 1](exams/state-psc/appsc-group-1.md) | Andhra Pradesh Public Service Commission | APPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
+| [APSC Combined Competitive Examination (Assam)](exams/state-psc/apsc-cce.md) | Assam Public Service Commission | APSC CCE (latest) | ⚪ unverified | 2026-09-27 |
+| [BPSC Combined Competitive Examination](exams/state-psc/bpsc-cce.md) | Bihar Public Service Commission | BPSC 71st CCE (2025) | 🟡 secondary | 2026-09-27 |
+| [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Exam (latest) | ⚪ unverified | 2026-09-27 |
+| [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | ⚪ unverified | 2026-09-27 |
+| [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HPSC HCS (latest) | ⚪ unverified | 2026-09-27 |
+| [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE (latest) | ⚪ unverified | 2026-09-27 |
+| [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ⚪ unverified | 2026-09-27 |
+| [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-27 |
+| [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | ⚪ unverified | 2026-09-27 |
+| [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-27 |
+| [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS (latest) | ⚪ unverified | 2026-09-27 |
+| [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | 🟡 secondary | 2026-09-27 |
+| [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
+| [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | TNPSC Group 4 (latest) | ⚪ unverified | 2026-09-27 |
+| [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS (latest) | ⚪ unverified | 2026-09-27 |
+| [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | UPPSC PCS (latest) | 🟡 secondary | 2026-09-27 |
+| [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS (latest) | ⚪ unverified | 2026-09-27 |
+
+_1 more in the [registry](resources/all-exams.md#state-psc), pages queued for the hive._
 
 ### SSC
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [Delhi Police Constable (Executive)](exams/ssc/delhi-police-constable.md) | Staff Selection Commission | Delhi Police Constable (latest) | 🟡 secondary | 2026-09-27 |
 | [SSC CGL (Combined Graduate Level)](exams/ssc/ssc-cgl.md) | Staff Selection Commission | SSC CGL 2026 | 🟡 secondary | 2026-09-27 |
 | [SSC CHSL (Combined Higher Secondary Level)](exams/ssc/ssc-chsl.md) | Staff Selection Commission | SSC CHSL 2026 | 🟡 secondary | 2026-09-27 |
 | [SSC CPO (Sub-Inspector in Delhi Police and CAPFs)](exams/ssc/ssc-cpo.md) | Staff Selection Commission | SSC CPO 2026 | ⚪ unverified | 2026-09-27 |
 | [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | 🟡 secondary | 2026-09-27 |
+| [SSC Junior Hindi Translator (JHT)](exams/ssc/ssc-jht.md) | Staff Selection Commission | SSC JHT (latest) | 🟡 secondary | 2026-09-27 |
 | [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2026 | 🟡 secondary | 2026-09-27 |
-
-_4 more in the [registry](resources/all-exams.md#ssc), pages queued for the hive._
+| [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | 🟡 secondary | 2026-09-27 |
+| [SSC Stenographer (Grade C and D)](exams/ssc/ssc-stenographer.md) | Staff Selection Commission | SSC Stenographer (latest) | 🟡 secondary | 2026-09-27 |
 
 ### Railways: RRB and RPF
 

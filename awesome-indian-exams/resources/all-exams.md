@@ -75,25 +75,25 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| APPSC Group 1 | Andhra Pradesh Public Service Commission | <https://psc.ap.gov.in> | queued |
-| APSC Combined Competitive Examination (Assam) | Assam Public Service Commission | <https://apsc.nic.in> | queued |
-| BPSC Combined Competitive Examination | Bihar Public Service Commission | <https://bpsc.bih.nic.in> | queued |
-| CGPSC State Service Examination | Chhattisgarh Public Service Commission | <https://psc.cg.gov.in> | queued |
-| GPSC Class 1–2 (Gujarat) | Gujarat Public Service Commission | <https://gpsc.gujarat.gov.in> | queued |
-| HPSC HCS (Haryana Civil Services) | Haryana Public Service Commission | <https://hpsc.gov.in> | queued |
-| JPSC Combined Civil Services | Jharkhand Public Service Commission | <https://www.jpsc.gov.in> | queued |
-| KPSC KAS (Karnataka Administrative Service) | Karnataka Public Service Commission | <https://kpsc.kar.nic.in> | queued |
-| Kerala PSC exams (LDC, KAS and others) | Kerala Public Service Commission | <https://www.keralapsc.gov.in> | queued |
-| MPPSC State Service Examination | Madhya Pradesh Public Service Commission | <https://mppsc.mp.gov.in> | queued |
-| MPSC State Services (Rajyaseva) | Maharashtra Public Service Commission | <https://mpsc.gov.in> | queued |
-| OPSC Odisha Civil Services | Odisha Public Service Commission | <https://www.opsc.gov.in> | queued |
-| RPSC RAS/RTS | Rajasthan Public Service Commission | <https://rpsc.rajasthan.gov.in> | queued |
+| APPSC Group 1 | Andhra Pradesh Public Service Commission | <https://psc.ap.gov.in> | [open](../exams/state-psc/appsc-group-1.md) |
+| APSC Combined Competitive Examination (Assam) | Assam Public Service Commission | <https://apsc.nic.in> | [open](../exams/state-psc/apsc-cce.md) |
+| BPSC Combined Competitive Examination | Bihar Public Service Commission | <https://bpsc.bih.nic.in> | [open](../exams/state-psc/bpsc-cce.md) |
+| CGPSC State Service Examination | Chhattisgarh Public Service Commission | <https://psc.cg.gov.in> | [open](../exams/state-psc/cgpsc-sse.md) |
+| GPSC Class 1–2 (Gujarat) | Gujarat Public Service Commission | <https://gpsc.gujarat.gov.in> | [open](../exams/state-psc/gpsc-class-1-2.md) |
+| HPSC HCS (Haryana Civil Services) | Haryana Public Service Commission | <https://hpsc.gov.in> | [open](../exams/state-psc/hpsc-hcs.md) |
+| JPSC Combined Civil Services | Jharkhand Public Service Commission | <https://www.jpsc.gov.in> | [open](../exams/state-psc/jpsc-cce.md) |
+| KPSC KAS (Karnataka Administrative Service) | Karnataka Public Service Commission | <https://kpsc.kar.nic.in> | [open](../exams/state-psc/kpsc-kas.md) |
+| Kerala PSC exams (LDC, KAS and others) | Kerala Public Service Commission | <https://www.keralapsc.gov.in> | [open](../exams/state-psc/kerala-psc.md) |
+| MPPSC State Service Examination | Madhya Pradesh Public Service Commission | <https://mppsc.mp.gov.in> | [open](../exams/state-psc/mppsc-sse.md) |
+| MPSC State Services (Rajyaseva) | Maharashtra Public Service Commission | <https://mpsc.gov.in> | [open](../exams/state-psc/mpsc-rajyaseva.md) |
+| OPSC Odisha Civil Services | Odisha Public Service Commission | <https://www.opsc.gov.in> | [open](../exams/state-psc/opsc-ocs.md) |
+| RPSC RAS/RTS | Rajasthan Public Service Commission | <https://rpsc.rajasthan.gov.in> | [open](../exams/state-psc/rpsc-ras.md) |
 | TGPSC (Telangana) Group 1 | Telangana Public Service Commission | — | queued |
-| TNPSC Group 1 | Tamil Nadu Public Service Commission | <https://www.tnpsc.gov.in> | queued |
-| TNPSC Group 4 | Tamil Nadu Public Service Commission | <https://www.tnpsc.gov.in> | queued |
-| UKPSC Combined State Civil Services | Uttarakhand Public Service Commission | <https://psc.uk.gov.in> | queued |
-| UPPSC PCS (Combined State/Upper Subordinate Services) | Uttar Pradesh Public Service Commission | <https://uppsc.up.nic.in> | queued |
-| WBCS (West Bengal Civil Service) | Public Service Commission, West Bengal | <https://psc.wb.gov.in> | queued |
+| TNPSC Group 1 | Tamil Nadu Public Service Commission | <https://www.tnpsc.gov.in> | [open](../exams/state-psc/tnpsc-group-1.md) |
+| TNPSC Group 4 | Tamil Nadu Public Service Commission | <https://www.tnpsc.gov.in> | [open](../exams/state-psc/tnpsc-group-4.md) |
+| UKPSC Combined State Civil Services | Uttarakhand Public Service Commission | <https://psc.uk.gov.in> | [open](../exams/state-psc/ukpsc-pcs.md) |
+| UPPSC PCS (Combined State/Upper Subordinate Services) | Uttar Pradesh Public Service Commission | <https://uppsc.up.nic.in> | [open](../exams/state-psc/uppsc-pcs.md) |
+| WBCS (West Bengal Civil Service) | Public Service Commission, West Bengal | <https://psc.wb.gov.in> | [open](../exams/state-psc/wbcs.md) |
 
 ## SSC
 
@@ -101,15 +101,15 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| Delhi Police Constable (conducted by SSC) | Staff Selection Commission | <https://ssc.gov.in> | queued |
+| Delhi Police Constable (conducted by SSC) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/delhi-police-constable.md) |
 | SSC CGL (Combined Graduate Level) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-cgl.md) |
 | SSC CHSL (Combined Higher Secondary Level) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-chsl.md) |
 | SSC CPO (Sub-Inspector in Delhi Police and CAPFs) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-cpo.md) |
 | SSC GD Constable | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-gd.md) |
-| SSC Junior Hindi Translator (JHT) | Staff Selection Commission | <https://ssc.gov.in> | queued |
+| SSC Junior Hindi Translator (JHT) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-jht.md) |
 | SSC MTS and Havaldar | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-mts.md) |
-| SSC Selection Posts | Staff Selection Commission | <https://ssc.gov.in> | queued |
-| SSC Stenographer (Grade C and D) | Staff Selection Commission | <https://ssc.gov.in> | queued |
+| SSC Selection Posts | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-selection-post.md) |
+| SSC Stenographer (Grade C and D) | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/ssc/ssc-stenographer.md) |
 
 ## Railways: RRB and RPF
 
