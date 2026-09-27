@@ -51,6 +51,7 @@ open the new session in the Claude app, and say "Follow awesome-indian-exams/doc
      <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/secrets/actions/new>:
      - `HF_TOKEN`: a Hugging Face **write** token from <https://huggingface.co/settings/tokens>;
      - `KAGGLE_API_TOKEN`: a Kaggle API token from <https://www.kaggle.com/settings> (API section).
+     (The workflow also accepts the names `HUGGING_FACE` and `KAGGLE`.)
   2. Run <https://github.com/lakhidas168-ship-it/awesome-indian-exams/actions/workflows/ai-accounts.yml> →
      "Run workflow". It checks both logins and publishes the open data as the free Hugging Face dataset
      `<your account>/awesome-indian-exams`.
