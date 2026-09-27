@@ -252,6 +252,7 @@ accept = [
   "every number under 'At a glance' and 'Exam pattern' matches the official notification; its URL is under Official sources",
   "verification = official only if the official notification was fetched this run",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf; official_site=https://www.ibps.in; pattern_url=https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf; syllabus_url=https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf"]
 
 [[task]]
 id = "T-204"
@@ -895,6 +896,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf; official_site=https://www.ibps.in; pattern_url=https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf; syllabus_url=https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf"]
 
 [[task]]
 id = "T-262"
@@ -906,6 +908,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf; official_site=https://www.ibps.in; pattern_url=https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf; syllabus_url=https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf"]
 
 [[task]]
 id = "T-263"
