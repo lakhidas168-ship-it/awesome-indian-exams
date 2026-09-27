@@ -981,8 +981,8 @@ modules = ["child-pedagogy", "general-awareness", "reasoning", "english-language
 id = "state-tet"
 name = "State TETs (UPTET, REET, MAHATET and others)"
 family = "teaching"
-body = "State education boards"
-official_site = ""
+body = "State education boards (under the NCTE framework)"
+official_site = "https://ncte.gov.in"
 modules = ["child-pedagogy", "hindi-language", "english-language", "general-science", "quant-aptitude"]
 
 [[exam]]
@@ -1150,7 +1150,7 @@ id = "nmat"
 name = "NMAT"
 family = "management"
 body = "GMAC"
-official_site = ""
+official_site = "https://www.mba.com/exams/nmat"
 modules = ["english-language", "reasoning", "quant-aptitude"]
 
 [[exam]]

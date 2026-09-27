@@ -1121,11 +1121,10 @@ id = "T-280"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write exams/teaching/state-tet.md (State TETs (UPTET, REET, MAHATET and others)) from its official notification"
+title = "Verify the State TETs (UPTET, REET, MAHATET and others) page (exams/teaching/state-tet.md) against its current official notification"
 accept = [
-  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1342,11 +1341,10 @@ id = "T-300"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write exams/management/nmat.md (NMAT) from its official notification"
+title = "Verify the NMAT page (exams/management/nmat.md) against its current official notification"
 accept = [
-  "facts come from the official notification on the official website (find it first; it must be on an allowlisted official domain)",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]

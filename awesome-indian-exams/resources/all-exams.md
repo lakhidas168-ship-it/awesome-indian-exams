@@ -165,7 +165,7 @@ has to find the official one.
 | DSSSB teacher and staff recruitment (Delhi) | Delhi Subordinate Services Selection Board | <https://dsssb.delhi.gov.in> | [open](../exams/teaching/dsssb.md) |
 | KVS teacher and staff recruitment | Kendriya Vidyalaya Sangathan | <https://kvsangathan.nic.in> | [open](../exams/teaching/kvs-recruitment.md) |
 | NVS teacher and staff recruitment | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | [open](../exams/teaching/nvs-recruitment.md) |
-| State TETs (UPTET, REET, MAHATET and others) | State education boards | — | queued |
+| State TETs (UPTET, REET, MAHATET and others) | State education boards (under the NCTE framework) | <https://ncte.gov.in> | [open](../exams/teaching/state-tet.md) |
 | UGC NET | National Testing Agency | <https://ugcnet.nta.nic.in> | [open](../exams/teaching/ugc-net.md) |
 
 ## University and design entrance: CUET, JAM, NIFT, NID
@@ -213,7 +213,7 @@ has to find the official one.
 | IPMAT (IIM Indore) | IIM Indore | <https://www.iimidr.ac.in> | [open](../exams/management/ipmat-indore.md) |
 | MAH MBA/MMS CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | [open](../exams/management/mah-mba-cet.md) |
 | MAT | All India Management Association | <https://mat.aima.in> | [open](../exams/management/mat.md) |
-| NMAT | GMAC | — | queued |
+| NMAT | GMAC | <https://www.mba.com/exams/nmat> | [open](../exams/management/nmat.md) |
 | SNAP | Symbiosis International University | <https://www.snaptest.org> | [open](../exams/management/snap.md) |
 | XAT | XLRI Jamshedpur | <https://xatonline.in> | [open](../exams/management/xat.md) |
 

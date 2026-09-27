@@ -44,3 +44,6 @@ comedk.org
 nata.in
 nationallawuniversitydelhi.in
 cdac.in
+# GMAC owns and runs NMAT (mba.com is its candidate site, gmac.com its corporate site)
+mba.com
+gmac.com

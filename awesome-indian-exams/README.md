@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 116 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 118 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -171,9 +171,8 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | DSSSB (rolling advertisements) | ⚪ unverified | 2026-09-27 |
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
 | [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
+| [State TETs (UPTET, REET, MAHA TET and others)](exams/teaching/state-tet.md) | State education boards (under the NCTE framework) | Varies by state (each state notifies its own TET) | ⚪ unverified | 2026-09-27 |
 | [UGC NET](exams/teaching/ugc-net.md) | National Testing Agency (NTA) | UGC NET (latest session) | 🟡 secondary | 2026-09-27 |
-
-_1 more in the [registry](resources/all-exams.md#teaching), pages queued for the hive._
 
 ### University and design entrance: CUET, JAM, NIFT, NID
 
@@ -212,10 +211,9 @@ _1 more in the [registry](resources/all-exams.md#teaching), pages queued for the
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2027 | 🟡 secondary | 2026-09-27 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA CET (latest) | 🟡 secondary | 2026-09-27 |
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | MAT (latest session) | 🟡 secondary | 2026-09-27 |
+| [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026 (test window 2 November – 20 December 2026) | 🟡 secondary | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | 🟡 secondary | 2026-09-27 |
 | [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2027 (3 January 2027) | 🟡 secondary | 2026-09-27 |
-
-_1 more in the [registry](resources/all-exams.md#management), pages queued for the hive._
 
 ### Professional courses: CA, CS, CMA
 
