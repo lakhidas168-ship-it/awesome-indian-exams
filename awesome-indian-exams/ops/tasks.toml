@@ -27,7 +27,7 @@ accept = ["`python3 awesome-indian-exams/ops/harvest.py summary` lists items fro
 
 [[task]]
 id = "T-001"
-lane = "hermes"
+lane = "opencode"
 priority = 1
 title = "Verify the GATE EE page against the official GATE 2027 information brochure"
 accept = [
@@ -38,7 +38,7 @@ accept = [
 
 [[task]]
 id = "T-002"
-lane = "hermes"
+lane = "opencode"
 priority = 1
 title = "Verify the UPSC ESE EE page against the ESE 2027 notification on upsc.gov.in"
 accept = [
@@ -48,7 +48,7 @@ accept = [
 
 [[task]]
 id = "T-003"
-lane = "hermes"
+lane = "opencode"
 priority = 2
 title = "Verify the SSC JE EE page against the latest SSC JE notice on ssc.gov.in"
 accept = [
@@ -58,7 +58,7 @@ accept = [
 
 [[task]]
 id = "T-004"
-lane = "hermes"
+lane = "opencode"
 priority = 2
 title = "Verify the RRB JE page against the latest CEN (Junior Engineer) on rrbapply.gov.in or a regional RRB site"
 accept = [
@@ -229,7 +229,7 @@ accept = [
 
 [[task]]
 id = "T-202"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 1
 title = "Verify the SSC CGL (Combined Graduate Level) page against its current official notification"
@@ -251,7 +251,7 @@ accept = [
 
 [[task]]
 id = "T-204"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the JEE Main page (exams/engineering-entrance/jee-main.md) against its current official notification"
@@ -273,7 +273,7 @@ accept = [
 
 [[task]]
 id = "T-206"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the BITSAT page (exams/engineering-entrance/bitsat.md) against its current official notification"
@@ -295,7 +295,7 @@ accept = [
 
 [[task]]
 id = "T-208"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the WBJEE page (exams/engineering-entrance/wbjee.md) against its current official notification"
@@ -317,7 +317,7 @@ accept = [
 
 [[task]]
 id = "T-210"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the KEAM page (exams/engineering-entrance/keam.md) against its current official notification"
@@ -339,7 +339,7 @@ accept = [
 
 [[task]]
 id = "T-212"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the TG (Telangana) EAPCET page (exams/engineering-entrance/ts-eapcet.md) against its current official notification"
@@ -361,7 +361,7 @@ accept = [
 
 [[task]]
 id = "T-214"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the VITEEE page (exams/engineering-entrance/viteee.md) against its current official notification"
@@ -383,7 +383,7 @@ accept = [
 
 [[task]]
 id = "T-216"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the INI-CET page (exams/medical/ini-cet.md) against its current official notification"
@@ -405,7 +405,7 @@ accept = [
 
 [[task]]
 id = "T-218"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the AIIMS NORCET (Nursing Officer) page (exams/medical/aiims-norcet.md) against its current official notification"
@@ -427,7 +427,7 @@ accept = [
 
 [[task]]
 id = "T-220"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the UPSC Combined Defence Services (CDS) page (exams/upsc/upsc-cds.md) against its current official notification"
@@ -449,7 +449,7 @@ accept = [
 
 [[task]]
 id = "T-222"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the UPSC Combined Medical Services (CMS) page (exams/upsc/upsc-cms.md) against its current official notification"
@@ -471,7 +471,7 @@ accept = [
 
 [[task]]
 id = "T-224"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the UPSC EPFO (EO/AO, APFC) page (exams/upsc/upsc-epfo.md) against its current official notification"
@@ -493,7 +493,7 @@ accept = [
 
 [[task]]
 id = "T-226"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the UPSC Indian Economic / Statistical Service (IES/ISS) page (exams/upsc/upsc-ies-iss.md) against its current official notification"
@@ -515,7 +515,7 @@ accept = [
 
 [[task]]
 id = "T-228"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the BPSC Combined Competitive Examination page (exams/state-psc/bpsc-cce.md) against its current official notification"
@@ -537,7 +537,7 @@ accept = [
 
 [[task]]
 id = "T-230"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the MPPSC State Service Examination page (exams/state-psc/mppsc-sse.md) against its current official notification"
@@ -559,7 +559,7 @@ accept = [
 
 [[task]]
 id = "T-232"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the APSC Combined Competitive Examination (Assam) page (exams/state-psc/apsc-cce.md) against its current official notification"
@@ -581,7 +581,7 @@ accept = [
 
 [[task]]
 id = "T-234"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the TNPSC Group 1 page (exams/state-psc/tnpsc-group-1.md) against its current official notification"
@@ -603,7 +603,7 @@ accept = [
 
 [[task]]
 id = "T-236"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the KPSC KAS (Karnataka Administrative Service) page (exams/state-psc/kpsc-kas.md) against its current official notification"
@@ -625,7 +625,7 @@ accept = [
 
 [[task]]
 id = "T-238"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification"
@@ -647,7 +647,7 @@ accept = [
 
 [[task]]
 id = "T-240"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the JPSC Combined Civil Services page (exams/state-psc/jpsc-cce.md) against its current official notification"
@@ -669,7 +669,7 @@ accept = [
 
 [[task]]
 id = "T-242"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the Kerala PSC exams (LDC, KAS and others) page (exams/state-psc/kerala-psc.md) against its current official notification"
@@ -691,7 +691,7 @@ accept = [
 
 [[task]]
 id = "T-244"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the TGPSC (Telangana) Group 1 page (exams/state-psc/tgpsc-group-1.md) against its current official notification"
@@ -713,7 +713,7 @@ accept = [
 
 [[task]]
 id = "T-246"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the SSC CHSL (Combined Higher Secondary Level) page (exams/ssc/ssc-chsl.md) against its current official notification"
@@ -735,7 +735,7 @@ accept = [
 
 [[task]]
 id = "T-248"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the SSC GD Constable page (exams/ssc/ssc-gd.md) against its current official notification"
@@ -757,7 +757,7 @@ accept = [
 
 [[task]]
 id = "T-250"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the SSC Stenographer (Grade C and D) page (exams/ssc/ssc-stenographer.md) against its current official notification"
@@ -779,7 +779,7 @@ accept = [
 
 [[task]]
 id = "T-252"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the SSC Junior Hindi Translator (JHT) page (exams/ssc/ssc-jht.md) against its current official notification"
@@ -801,7 +801,7 @@ accept = [
 
 [[task]]
 id = "T-254"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the RRB NTPC page (exams/railways/rrb-ntpc.md) against its current official notification"
@@ -823,7 +823,7 @@ accept = [
 
 [[task]]
 id = "T-256"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the RRB Assistant Loco Pilot (ALP) page (exams/railways/rrb-alp.md) against its current official notification"
@@ -845,7 +845,7 @@ accept = [
 
 [[task]]
 id = "T-258"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the RPF Constable page (exams/railways/rpf-constable.md) against its current official notification"
@@ -867,7 +867,7 @@ accept = [
 
 [[task]]
 id = "T-260"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the IBPS Clerk page (exams/banking/ibps-clerk.md) against its current official notification"
@@ -889,7 +889,7 @@ accept = [
 
 [[task]]
 id = "T-262"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the IBPS SO (Specialist Officer) page (exams/banking/ibps-so.md) against its current official notification"
@@ -911,7 +911,7 @@ accept = [
 
 [[task]]
 id = "T-264"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the SBI Clerk (Junior Associate) page (exams/banking/sbi-clerk.md) against its current official notification"
@@ -933,7 +933,7 @@ accept = [
 
 [[task]]
 id = "T-266"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the RBI Assistant page (exams/banking/rbi-assistant.md) against its current official notification"
@@ -955,7 +955,7 @@ accept = [
 
 [[task]]
 id = "T-268"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 2
 title = "Verify the SEBI Grade A page (exams/banking/sebi-grade-a.md) against its current official notification"
@@ -977,7 +977,7 @@ accept = [
 
 [[task]]
 id = "T-270"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the AFCAT (Air Force Common Admission Test) page (exams/defence/afcat.md) against its current official notification"
@@ -999,7 +999,7 @@ accept = [
 
 [[task]]
 id = "T-272"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the Agniveer (Navy) page (exams/defence/agniveer-navy.md) against its current official notification"
@@ -1021,7 +1021,7 @@ accept = [
 
 [[task]]
 id = "T-274"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification"
@@ -1043,7 +1043,7 @@ accept = [
 
 [[task]]
 id = "T-276"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the UGC NET page (exams/teaching/ugc-net.md) against its current official notification"
@@ -1065,7 +1065,7 @@ accept = [
 
 [[task]]
 id = "T-278"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the KVS teacher and staff recruitment page (exams/teaching/kvs-recruitment.md) against its current official notification"
@@ -1087,7 +1087,7 @@ accept = [
 
 [[task]]
 id = "T-280"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the State TETs (UPTET, REET, MAHATET and others) page (exams/teaching/state-tet.md) against its current official notification"
@@ -1109,7 +1109,7 @@ accept = [
 
 [[task]]
 id = "T-282"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification"
@@ -1131,7 +1131,7 @@ accept = [
 
 [[task]]
 id = "T-284"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the IIT JAM page (exams/university-entrance/iit-jam.md) against its current official notification"
@@ -1153,7 +1153,7 @@ accept = [
 
 [[task]]
 id = "T-286"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the NID Design Aptitude Test (DAT) page (exams/university-entrance/nid-dat.md) against its current official notification"
@@ -1175,7 +1175,7 @@ accept = [
 
 [[task]]
 id = "T-288"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the NCHM JEE (hotel management) page (exams/university-entrance/nchm-jee.md) against its current official notification"
@@ -1197,7 +1197,7 @@ accept = [
 
 [[task]]
 id = "T-290"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 4
 title = "Verify the JNV Selection Test (Navodaya, Class 6 and 9) page (exams/school/jnvst.md) against its current official notification"
@@ -1219,7 +1219,7 @@ accept = [
 
 [[task]]
 id = "T-292"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the CLAT page (exams/law/clat.md) against its current official notification"
@@ -1241,7 +1241,7 @@ accept = [
 
 [[task]]
 id = "T-294"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the MAH CET Law page (exams/law/mh-cet-law.md) against its current official notification"
@@ -1263,7 +1263,7 @@ accept = [
 
 [[task]]
 id = "T-296"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the XAT page (exams/management/xat.md) against its current official notification"
@@ -1285,7 +1285,7 @@ accept = [
 
 [[task]]
 id = "T-298"
-lane = "hermes"
+lane = "opencode"
 focus = "india"
 priority = 3
 title = "Verify the CMAT page (exams/management/cmat.md) against its current official notification"
@@ -1949,4 +1949,62 @@ title = "Generate a per-family 'start here' section in resources/overlap-map.md:
 accept = [
   "generated by validate.py --write from the registry",
   "unit test covers one family",
+]
+
+# ---- Added by Claude on the owner's Mac, 2026-09-28 (Rajon's /goal: real value from his own verified work) ----
+[[task]]
+id = "T-150"
+lane = "opencode"
+focus = "core"
+where = "mac"
+priority = 1
+title = "GATE EE previous papers + official keys 2016-2026: one page of OFFICIAL links (resources/gate-ee-previous-papers.md)"
+accept = [
+  "links taken from the owner's verified manifest: sqlite3 -readonly ~/AIR10_LIBRARY/official_pyq/official_pyq.sqlite 'select distinct year, source_url from questions' (IIT organiser sites; 2016-2018 = the IIT Guwahati GATE 2026 bulk archive linked from gate2026.iitg.ac.in/doc/download/)",
+  "every URL fetched this run with the fetch tool (status recorded); a dead link is listed as dead, never replaced by a coaching mirror",
+  "linked from exams/engineering/gate-ee.md and resources/ee-free-resources.md; no PDF is copied into the repo",
+]
+
+[[task]]
+id = "T-151"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Exam calendar 2026-27 for the electrical track (resources/ee-calendar-2026-27.md): GATE 2027, UPSC ESE 2027 prelims/mains, SSC JE 2026, RRB JE CEN 04/2026"
+accept = [
+  "each date copied from the official page fetched this run (gate2027.iitm.ac.in, upsc.gov.in, ssc.gov.in, rrbapply.gov.in or a regional RRB site); anything not on an official page is marked 'not announced'",
+  "registration windows included (GATE 2027 late fee, ESE 2027 last date) with the source URL next to each",
+]
+
+[[task]]
+id = "T-152"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "UPSC ESE previous question papers: official upsc.gov.in links for ESE prelims Paper-I/II (EE) and mains, every available year"
+accept = [
+  "only upsc.gov.in URLs (Previous Question Papers / Answer Keys pages), fetched this run; missing years listed honestly",
+  "linked from exams/engineering/upsc-ese-ee.md",
+]
+
+[[task]]
+id = "T-153"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "One-track plan for the electrical track (resources/ee-one-track-plan.md): which GATE EE + ESE Paper-II subjects also cover SSC JE, RRB JE, State AE/JE and PSU papers, and what each adds"
+accept = [
+  "built from the official syllabi linked on each exam page (fetched this run), not from coaching material",
+  "table: subject x exam, with the extra topics each exam adds (e.g. SSC JE estimation/costing, RRB JE GS/basic science, ESE Paper-I, GATE GA + maths)",
+]
+
+[[task]]
+id = "T-154"
+lane = "opencode"
+focus = "core"
+priority = 3
+title = "Free official study sources for EE: NPTEL courses (nptel.ac.in / onlinecourses.nptel.ac.in) mapped to GATE EE syllabus subjects"
+accept = [
+  "only NPTEL/SWAYAM/IIT official course pages, fetched this run; course code + instructor + institute per subject",
+  "added to resources/ee-free-resources.md under the matching subject",
 ]

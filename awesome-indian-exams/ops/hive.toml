@@ -36,7 +36,7 @@ jevx = ["opencode-go", "github", "gemini", "openrouter", "groq", "ollama"]
 [free_agent.models]
 opencode-go = ["deepseek-v4.1-flash", "deepseek-v4-flash"]
 github = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini"]
-gemini = ["gemini-2.5-flash"]
-openrouter = ["deepseek/deepseek-chat-v3-0324:free", "meta-llama/llama-3.3-70b-instruct:free"]
+gemini = ["gemini-flash-latest", "gemini-3-flash-preview"]   # 2.5-flash retired (404, 2026-09-27)
+openrouter = ["nvidia/nemotron-3-super-120b-a12b:free", "nvidia/nemotron-3-ultra-550b-a55b:free"]   # old :free ids 404 (2026-09-27)
 groq = ["llama-3.3-70b-versatile"]
 ollama = ["qwen2.5:7b-instruct"]

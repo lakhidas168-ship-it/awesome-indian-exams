@@ -84,6 +84,8 @@ class LLM:
                 self.routes.append((name, base, key, model))
         self.dead: set[tuple[str, str]] = set()
         self.last_route = ""
+        # OpenCode Go's HTTP API rejects requests without a session id (HTTP 400 MissingSessionID, 2026-09-28).
+        self.session = f"ses_hive_{os.getpid()}_{int(time.time())}"
 
     def chat(self, messages: list[dict], tools: list[dict] | None = None, max_tokens: int = 1800) -> dict:
         for provider, base, key, model in self.routes:
@@ -95,10 +97,14 @@ class LLM:
                 body["tool_choice"] = "auto"
             for attempt in range(2):
                 try:
-                    resp = post_json(f"{base.rstrip('/')}/chat/completions", body, key)
+                    extra = {"x-opencode-session": self.session} if provider == "opencode-go" else None
+                    resp = post_json(f"{base.rstrip('/')}/chat/completions", body, key, extra=extra)
                     self.last_route = f"{provider}:{model}"
                     return resp["choices"][0]["message"]
                 except urllib.error.HTTPError as exc:
+                    if exc.code == 429 and attempt == 0:
+                        time.sleep(float(os.environ.get("HIVE_429_WAIT", "20")))  # pooled keys (CLIProxyAPI) free up fast
+                        continue
                     if exc.code == 429 or exc.code in (401, 403):
                         self.dead.add((provider, "*"))  # rate-limited or unauthorised: whole provider out
                         log(f"{provider} unavailable (HTTP {exc.code}), falling back")
@@ -116,8 +122,8 @@ class LLM:
         raise NoProvider("no LLM provider available")
 
 
-def post_json(url: str, body: dict, key: str, timeout: int = 180) -> dict:
-    headers = {"Content-Type": "application/json", "User-Agent": USER_AGENT}
+def post_json(url: str, body: dict, key: str, timeout: int = 180, extra: dict | None = None) -> dict:
+    headers = {"Content-Type": "application/json", "User-Agent": USER_AGENT, **(extra or {})}
     if key:
         headers["Authorization"] = f"Bearer {key}"
     req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=headers, method="POST")
@@ -403,8 +409,11 @@ def main(argv: list[str] | None = None) -> int:
         return EX_TEMPFAIL
     notes = Path(os.environ.get("HIVE_NOTES", CONTENT / "ops" / ".notes.md"))
     tools = Tools(args.lane, os.environ.get("HIVE_TASK_ID", "none"), os.environ.get("HIVE_FETCH_LOG"), notes)
-    return run(args.lane, prompt, llm, tools, args.max_steps or int(config.get("max_steps", 14)),
-               int(config.get("context_chars", 22000)))
+    # Env overrides (Mac, 2026-09-28): large-context providers (DeepSeek, CLIProxyAPI Gemini) ran out of the 14 steps
+    # tuned for GitHub Models' 8k window while still reading files; the cloud keeps the hive.toml defaults.
+    return run(args.lane, prompt, llm, tools,
+               args.max_steps or int(os.environ.get("HIVE_MAX_STEPS") or config.get("max_steps", 14)),
+               int(os.environ.get("HIVE_CONTEXT_CHARS") or config.get("context_chars", 22000)))
 
 
 if __name__ == "__main__":

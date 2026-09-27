@@ -78,6 +78,9 @@ def make_remote(tmp: Path, clones: tuple[str, ...], tasks_toml: str = FIXED_BACK
         receipt.unlink()
     for plan in (seed / CONTENT.name / "ops" / "plan").glob("*.md"):
         plan.unlink()
+    # Generated files (UPDATES.md, README index) link the receipts removed above: regenerate them, or the seed's
+    # content gate fails as soon as the live repo has published its first task.
+    sh("python3", str(seed / CONTENT.name / "scripts" / "validate.py"), "--write", cwd=seed / CONTENT.name)
     sh("git", "add", "-A", cwd=seed)
     sh("git", "commit", "-qm", "seed", cwd=seed)
     sh("git", "remote", "add", "origin", str(remote), cwd=seed)
