@@ -28,20 +28,24 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 80 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 86 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [GATE Civil Engineering (CE)](exams/engineering/gate-ce.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Computer Science and Information Technology (CS)](exams/engineering/gate-cs.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Data Science and Artificial Intelligence (DA)](exams/engineering/gate-da.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
 | [GATE Electrical Engineering (EE)](exams/engineering/gate-ee.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Electronics and Communication (EC)](exams/engineering/gate-ec.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Instrumentation Engineering (IN)](exams/engineering/gate-in.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
 | [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ⚪ unverified | 2026-09-27 |
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 05/2025 | 🟡 secondary | 2026-09-27 |
 | [SSC Junior Engineer (JE) — Electrical](exams/engineering/ssc-je-ee.md) | Staff Selection Commission | SSC JE 2026 | 🟡 secondary | 2026-09-27 |
 | [State AE / JE (Electrical) tracker](exams/engineering/state-ae-je.md) | State PSCs and state power utilities | Rolling, per state advertisement | ⚪ unverified | 2026-09-27 |
 | [UPSC Engineering Services (ESE) — Electrical](exams/engineering/upsc-ese-ee.md) | Union Public Service Commission | ESE 2027 | 🟡 secondary | 2026-09-27 |
-
-_6 more in the [registry](resources/all-exams.md#engineering), pages queued for the hive._
 
 ### Engineering entrance: JEE and state CETs
 

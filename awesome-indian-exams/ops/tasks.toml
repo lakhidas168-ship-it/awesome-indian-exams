@@ -151,10 +151,10 @@ accept = [
 id = "T-011"
 lane = "hermes"
 priority = 4
-title = "Add the other circuital branches: exams/engineering/gate-ec.md and exams/engineering/gate-in.md"
+title = "Verify the GATE EC and GATE IN pages (exams/engineering/gate-ec.md, gate-in.md) against the official GATE 2027 brochure and syllabus"
 accept = [
-  "both pages pass the content gate with every required section",
-  "verification status honest",
+  "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
+  "verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -201,40 +201,40 @@ accept = [
 id = "T-012"
 lane = "hermes"
 priority = 4
-title = "Write exams/engineering/gate-cs.md (GATE CS) from the official GATE 2027 brochure and syllabus"
+title = "Verify the GATE CS page (exams/engineering/gate-cs.md) against the official GATE 2027 brochure and syllabus"
 accept = [
-  "page passes the content gate with every required section",
-  "facts only from the official brochure/syllabus; verification status honest",
+  "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
+  "verification = official only with a fetched official source",
 ]
 
 [[task]]
 id = "T-013"
 lane = "hermes"
 priority = 4
-title = "Write exams/engineering/gate-da.md (GATE DA) from the official GATE 2027 brochure and syllabus"
+title = "Verify the GATE DA page (exams/engineering/gate-da.md) against the official GATE 2027 brochure and syllabus"
 accept = [
-  "page passes the content gate with every required section",
-  "facts only from the official brochure/syllabus; verification status honest",
+  "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
+  "verification = official only with a fetched official source",
 ]
 
 [[task]]
 id = "T-014"
 lane = "hermes"
 priority = 4
-title = "Write exams/engineering/gate-me.md (GATE ME) from the official GATE 2027 brochure and syllabus"
+title = "Verify the GATE ME page (exams/engineering/gate-me.md) against the official GATE 2027 brochure and syllabus"
 accept = [
-  "page passes the content gate with every required section",
-  "facts only from the official brochure/syllabus; verification status honest",
+  "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
+  "verification = official only with a fetched official source",
 ]
 
 [[task]]
 id = "T-015"
 lane = "hermes"
 priority = 4
-title = "Write exams/engineering/gate-ce.md (GATE CE) from the official GATE 2027 brochure and syllabus"
+title = "Verify the GATE CE page (exams/engineering/gate-ce.md) against the official GATE 2027 brochure and syllabus"
 accept = [
-  "page passes the content gate with every required section",
-  "facts only from the official brochure/syllabus; verification status honest",
+  "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
+  "verification = official only with a fetched official source",
 ]
 
 [[task]]
