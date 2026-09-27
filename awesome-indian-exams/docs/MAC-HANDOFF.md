@@ -1,6 +1,6 @@
 # Mac handoff: instructions for a Claude session running on the owner's Mac
 
-**Owner:** on the Mac, open Terminal and paste `cd ~/code/lakhidas168-ship-it 2>/dev/null || cd ~ ; claude remote-control`.
+**Owner:** on the Mac, open Terminal and paste `cd ~/code/awesome-indian-exams 2>/dev/null || cd ~ ; claude remote-control`.
 A session that runs on the Mac appears in the Claude app. Tell it: **"Follow awesome-indian-exams/docs/MAC-HANDOFF.md"**.
 (If the repo is not on the Mac yet, the session clones it in step 1.)
 
@@ -10,11 +10,11 @@ A session that runs on the Mac appears in the Claude app. Tell it: **"Follow awe
 below in order, without asking unless a step needs the owner's password or a browser login. In that case, open
 the exact page for them and wait. Report at the end what ran, what failed, and what the owner must click.
 
-1. **Repository.** Make sure `~/code/lakhidas168-ship-it` exists and is current:
-   `mkdir -p ~/code && cd ~/code && { [ -d lakhidas168-ship-it ] || git clone https://github.com/lakhidas168-ship-it/lakhidas168-ship-it.git; } && cd lakhidas168-ship-it && git checkout main && git pull --ff-only`.
-   If `awesome-indian-exams/` is missing on `main`, PR #1 is not merged yet. Tell the owner to merge
-   <https://github.com/lakhidas168-ship-it/lakhidas168-ship-it/pull/1>, and meanwhile work from branch
-   `claude/epic-mayer-9zetkv` for steps 2–4.
+1. **Repository.** Work in `~/code/awesome-indian-exams`. On a Mac that is already set up it is a clone of the
+   local hub `~/.hive/hub.git`: leave its remotes as they are and run `git pull --ff-only`. If the folder does not
+   exist, clone <https://github.com/lakhidas168-ship-it/awesome-indian-exams> there
+   (`mkdir -p ~/code && git clone https://github.com/lakhidas168-ship-it/awesome-indian-exams.git ~/code/awesome-indian-exams`).
+   Read `CLAUDE.md` at the repository root before anything else.
 2. **Health first.** `python3 awesome-indian-exams/ops/doctor.py --mac`. Fix what you can: install missing tools
    with Homebrew or npm. Collect what needs the owner (logins) for your report.
 3. **Set up and start continuous mode.** `bash awesome-indian-exams/ops/mac-bootstrap.sh --loop`

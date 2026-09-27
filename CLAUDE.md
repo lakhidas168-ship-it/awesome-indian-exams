@@ -24,3 +24,9 @@ Read this first. It says what runs where, so you don't redo or fight the Mac sid
 Work in a branch and open a PR here (content pages, registry, modules, tooling with tests). The hourly Mac sync
 pulls `main`. Tasks that need the owner's disk or logins are `where = "mac"` in `ops/tasks.toml`; leave those to
 the Mac. The cloud session cannot see the Mac; everything it needs to know is in this file and `ops/HIVE.md`.
+
+## Open items for the Claude session on the Mac
+- **Switch on the website** (the cloud session has no settings access): run
+  `gh api -X POST repos/lakhidas168-ship-it/awesome-indian-exams/pages -f build_type=workflow`
+  (HTTP 409 means it is already on). `.github/workflows/pages.yml` then deploys on the next push to `main`, to
+  https://lakhidas168-ship-it.github.io/awesome-indian-exams/ with the open data at `/data/exams.json`.
