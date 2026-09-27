@@ -4,7 +4,7 @@ exam_id: nabard-grade-a
 conducting_body: National Bank for Agriculture and Rural Development
 official_site: https://www.nabard.org
 cycle: NABARD Grade A (latest)
-last_verified: 2025-05-14
+last_verified: 2026-09-27
 verification: unverified
 ---
 

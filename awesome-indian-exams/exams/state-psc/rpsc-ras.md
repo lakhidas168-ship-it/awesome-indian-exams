@@ -4,7 +4,7 @@ exam_id: rpsc-ras
 conducting_body: Rajasthan Public Service Commission
 official_site: https://rpsc.rajasthan.gov.in
 cycle: RPSC RAS/RTS (latest)
-last_verified: 2025-05-14
+last_verified: 2026-09-27
 verification: unverified
 ---
 
