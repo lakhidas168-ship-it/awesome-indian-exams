@@ -3,19 +3,16 @@ title: CTET (Central Teacher Eligibility Test)
 exam_id: ctet
 conducting_body: Central Board of Secondary Education
 official_site: https://ctet.nic.in
-cycle: CTET (latest session)
-last_verified: 2026-09-27
-verification: secondary
+cycle: CTET September 2026
+last_verified: 2026-09-28
+verification: official
 ---
 
 # CTET (Central Teacher Eligibility Test)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
-
 CTET certifies eligibility to teach Classes I–V (Paper 1) and VI–VIII (Paper 2) in central government schools
-such as KVS and NVS. Many state and private schools accept it too.
+such as KVS and NVS. Unaided private schools may also consider it, and a state government may consider it in
+place of its own State TET.
 
 ## At a glance
 
@@ -24,10 +21,13 @@ such as KVS and NVS. Many state and private schools accept it too.
 | Conducted by | Central Board of Secondary Education (CBSE) |
 | Papers | Paper 1 (Classes I–V), Paper 2 (Classes VI–VIII); take one or both |
 | Each paper | 150 questions, 150 marks, 2 hours 30 minutes, no negative marking |
+| Latest session | CTET September 2026 — held 6 September 2026 (Paper 2 morning, Paper 1 evening) |
+| Qualifying marks | 60% or more (school managements may give concessions to reserved categories) |
+| Certificate validity | Lifetime; no limit on attempts; may reappear to improve the score |
 
 ## Official sources
 
-- CTET official website (information bulletin): <https://ctet.nic.in>
+- Information Bulletin, CTET September 2026 (PDF): <https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf>
 
 ## Exam pattern
 
@@ -39,13 +39,16 @@ such as KVS and NVS. Many state and private schools accept it too.
 | Mathematics | 30 | Mathematics and Science, **or** Social Studies/Social Science | 60 |
 | Environmental Studies | 30 | | |
 
-One mark per question, no negative marking. The bulletin sets the qualifying percentage.
+All questions are multiple-choice with four alternatives. One mark per question, no negative marking. The
+question paper is bilingual (Hindi/English). Paper 2 candidates take Mathematics and Science (30 marks each)
+or Social Studies/Social Science (60 marks); any other teacher picks either option.
 
 ## Syllabus
 
 Child development and pedagogy (learning theories, inclusive education, assessment), two languages
 (comprehension and language pedagogy), and the school subjects with their pedagogy, at the NCERT level of the
-classes taught.
+classes taught. Paper 1 follows the NCERT Classes I–V syllabus (difficulty up to the Secondary stage);
+Paper 2 follows the NCERT Classes VI–VIII syllabus (difficulty up to the Senior Secondary stage).
 
 ## How to prepare (free, in order)
 
