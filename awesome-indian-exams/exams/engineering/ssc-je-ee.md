@@ -4,15 +4,14 @@ exam_id: ssc-je-ee
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC JE 2026
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # SSC Junior Engineer (JE): Electrical
 
-> **Evidence status: 🟡 secondary.** On 2026-09-27 this pattern was cross-checked against several non-official
-> sources that agree with each other. The SSC JE pattern has changed across cycles, so checking it against
-> the latest official notice is hive task `T-003`.
+> **Evidence status: 🟢 official.** Every number below is from the SSC Junior Engineer Examination, 2026 notice
+> (F. No. HQ-C-3019/1/2026-C-3), fetched from ssc.gov.in on 2026-09-28.
 
 SSC JE recruits Junior Engineers (Group B, non-gazetted) for central departments. Its technical syllabus is
 diploma-level core EE, which a GATE aspirant covers in depth, plus reasoning and general awareness.
@@ -23,12 +22,15 @@ diploma-level core EE, which a GATE aspirant covers in depth, plus reasoning and
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
 | Stages | Paper I (CBT) → Paper II (CBT) → document verification |
+| 2026 cycle (per notice) | Online applications 02.09.2026–22.09.2026; Paper I Oct–Nov 2026 (tentative), Paper II Dec 2026 (tentative) |
 | Qualification | Degree or diploma in Electrical Engineering, depending on the department (see notice) |
 | Age | Varies by department (see notice) |
 
 ## Official sources
 
 - SSC official website (notices, syllabus, answer keys): <https://ssc.gov.in>
+- SSC Junior Engineer Examination, 2026 notice (97-page PDF, F. No. HQ-C-3019/1/2026-C-3):
+  <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf>
 
 ## Exam pattern
 
