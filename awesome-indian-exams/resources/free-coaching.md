@@ -1,3 +1,5 @@
+[English](free-coaching.md) | [हिंदी](free-coaching.hi.md)
+
 # Free coaching: government programmes and schemes
 
 Coaching does not have to cost lakhs. The Government of India, public institutions and several states run free

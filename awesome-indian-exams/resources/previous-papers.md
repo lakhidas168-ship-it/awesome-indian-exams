@@ -1,3 +1,5 @@
+[English](previous-papers.md) | [हिंदी](previous-papers.hi.md)
+
 # Previous-year papers: the official archives
 
 Previous-year questions (PYQs) are the best free guide to what an exam really asks. Many bodies publish their own
