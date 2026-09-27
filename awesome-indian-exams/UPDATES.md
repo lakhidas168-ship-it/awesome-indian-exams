@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-27 22:40 UTC** · `T-153` · opencode · [One-track plan for the electrical track (resources/ee-one-track-plan.md): which GATE EE + ESE Paper-II subjects also cover SSC JE, RRB JE, State AE/JE and PSU papers, and what each adds](ops/done/T-153.md)
 - **2026-09-27 21:45 UTC** · `T-103` · opencode · [Formula sheets: formula-sheets/<subject>.md format + validator check that $$ math blocks are balanced](ops/done/T-103.md)
 - **2026-09-27 21:42 UTC** · `T-004` · opencode · [Verify the RRB JE page against the latest CEN (Junior Engineer) on rrbapply.gov.in or a regional RRB site](ops/done/T-004.md)
 - **2026-09-27 21:16 UTC** · `T-423` · hermes · [Review modules/engineering-mathematics.md (Engineering mathematics) against the official syllabi of the exams it counts for](ops/done/T-423.md)
