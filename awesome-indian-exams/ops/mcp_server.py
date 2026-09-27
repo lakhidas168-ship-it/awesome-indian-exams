@@ -82,6 +82,14 @@ def t_fetch_url(url: str, offset: int = 0) -> str:
             f"recorded={'yes' if os.environ.get('HIVE_FETCH_LOG') else 'no (HIVE_FETCH_LOG not set)'}\n\n{chunk}")
 
 
+def t_harvest_search(query: str) -> str:
+    return _run(str(CONTENT / "ops" / "harvest.py"), "search", query)
+
+
+def t_harvest_item(id: str) -> str:  # noqa: A002 - MCP argument name
+    return _run(str(CONTENT / "ops" / "harvest.py"), "show", id)
+
+
 def t_read_skill(name: str) -> str:
     path = CONTENT / ".agents" / "skills" / name / "SKILL.md"
     if not path.exists():
@@ -110,8 +118,13 @@ TOOLS = {
     "fetch_url": (t_fetch_url, "Fetch a web page or PDF as text. Every fetch is recorded as evidence for the "
                                "receipt; cite exactly the URL you fetched under 'Official sources'.",
                   _schema({"url": S, "offset": I}, ["url"])),
-    "read_skill": (t_read_skill, "Read a hive skill (exam-page, module-page, hive-tooling, review-agent-work, "
-                                 "hive-sync).", _schema({"name": S}, ["name"])),
+    "harvest_search": (t_harvest_search, "Search the owner's local inventory of earlier exam work (Mac only). "
+                                         "Returns item ids like inv:1a2b3c4d.", _schema({"query": S}, ["query"])),
+    "harvest_item": (t_harvest_item, "Read one local inventory item (Mac only). Use it for structure and leads; "
+                                     "re-verify every fact officially; never copy personal data or paths.",
+                     _schema({"id": S}, ["id"])),
+    "read_skill": (t_read_skill, "Read a hive skill (exam-page, module-page, harvest-import, hive-tooling, "
+                                 "review-agent-work, hive-sync).", _schema({"name": S}, ["name"])),
 }
 
 

@@ -165,7 +165,7 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     git("fetch", "--quiet", REMOTE, BASE)
-    llm = None if args.no_llm else free_agent.LLM(free_agent.load_config())
+    llm = None if args.no_llm else free_agent.LLM(free_agent.load_config(), "jevx")
     plan_lines: list[str] = []
     now = dt.datetime.now(dt.timezone.utc)
     handled = 0

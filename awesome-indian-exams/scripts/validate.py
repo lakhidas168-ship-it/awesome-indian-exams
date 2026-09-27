@@ -26,6 +26,7 @@ MODULE_KEYS = ("title", "module_id")
 VERIFICATION = {"official": "✅ official", "secondary": "🟡 secondary", "unverified": "⚪ unverified"}
 LANES = {"jevx", "hermes", "opencode", "human"}
 FOCUS = {"core", "india"}
+WHERE = {"any", "mac", "cloud"}
 STALE_DAYS = 120
 # File-dump hosts are where pirated coaching material circulates. Link to the publisher instead.
 BLOCKED_HOSTS = ("t.me", "telegram.me", "telegram.dog", "mega.nz", "scribd.com", "mediafire.com",
@@ -252,6 +253,8 @@ def check_tasks(root: Path, rep: Report) -> dict[str, dict]:
             rep.error(path, f"{tid}: lane must be one of {sorted(LANES)}")
         if t.get("focus", "core") not in FOCUS:
             rep.error(path, f"{tid}: focus must be one of {sorted(FOCUS)}")
+        if t.get("where", "any") not in WHERE:
+            rep.error(path, f"{tid}: where must be one of {sorted(WHERE)}")
         if not isinstance(t.get("priority"), int):
             rep.error(path, f"{tid}: priority must be an integer (1 = most urgent)")
         if not t.get("title"):

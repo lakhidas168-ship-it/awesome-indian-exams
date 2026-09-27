@@ -12,7 +12,8 @@ task per run.
   test so it stops failing. The judge runs main's own tests against your code.
 - **Protected files** (lane gate rejects them): `scripts/hive_gate.py`, `scripts/evidence_gate.py`,
   `ops/judge.py`, `ops/run-hourly.sh`, `ops/merge_ready.sh`, `ops/agentctl.py`, `ops/free_agent.py`,
-  `ops/official-domains.txt`, `ops/hive.toml`, `ops/prompts/`, `.agents/`, `.github/`. If a task needs one of
+  `ops/official-domains.txt`, `ops/hive.toml`, `ops/prompts/`, `.agents/`, `ops/harvest.py`, `ops/doctor.py`,
+  `ops/mac-bootstrap.sh`, `ops/hive-cron.sh`, `ops/mcp_server.py`, `opencode.json`, `.github/`. If a task needs one of
   them, put the proposal in `docs/` and explain it in your notes.
 - Keep changes to what the task asks. Don't run git: the runner commits and publishes.
 

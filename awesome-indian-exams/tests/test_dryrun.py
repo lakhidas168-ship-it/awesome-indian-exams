@@ -47,7 +47,7 @@ class CloudDryRun(unittest.TestCase):
     def env(self) -> dict:
         base = {k: v for k, v in ENV.items() if k not in KEY_ENVS}
         return {**base, "HIVE_LLM_BASE_URL": self.mock.url, "HIVE_CMD_HERMES": "free-agent", "HIVE_OPEN_PR": "0",
-                "HIVE_HOME": str(self.tmp / "hive"), "HIVE_SLOT": "0", "OLLAMA_BASE_URL": "http://127.0.0.1:9/v1"}
+                "HIVE_HOME": str(self.tmp / "hive"), "HIVE_SLOT": "1", "OLLAMA_BASE_URL": "http://127.0.0.1:9/v1"}
 
     def sh(self, *args: str) -> subprocess.CompletedProcess:
         return subprocess.run(args, cwd=self.repo, env=self.env(), text=True, capture_output=True, timeout=600)

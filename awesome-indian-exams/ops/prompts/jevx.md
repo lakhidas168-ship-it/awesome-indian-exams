@@ -32,6 +32,11 @@ Then act with the GitHub CLI:
   all other exams), `priority`, `title` and measurable `accept` criteria. Keep the 80/20 split in `ops/hive.toml`
   fed: both focuses should always have ready tasks.
 - Every month, re-add a task to refresh `docs/FREE-COMPUTE.md` (the hive's free-capacity options).
+- On the Mac, the context below includes harvest entries built from the owner's earlier local work. Append the
+  ones not yet in the backlog exactly as given (they keep `where = "mac"` and never name local files).
+- Read the hive doctor section: turn each FAIL/WARN into a fix task (OpenCode for tooling, Hermes for content) or,
+  when it needs a login, payment or settings click, an `H-` task that links the exact page in
+  `docs/OWNER-CLICKS.md`.
 - Turn gate warnings (stale pages, secondary or unverified pages) and rejected PRs into tasks.
 - Never mark a task done by hand. Done means its receipt merged.
 - Never assign work to the `human` lane unless it needs the owner's login, payment or a repository setting.

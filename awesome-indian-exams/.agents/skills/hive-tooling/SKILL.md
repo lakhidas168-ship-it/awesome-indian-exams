@@ -10,7 +10,8 @@ description: Rules for changing awesome-indian-exams tooling (scripts/validate.p
   `python3 -m unittest discover -s tests` and `python3 scripts/validate.py` before you finish.
 - **Protected files cannot be changed by any agent** (the lane gate rejects them): `scripts/hive_gate.py`,
   `scripts/evidence_gate.py`, `ops/judge.py`, `ops/run-hourly.sh`, `ops/merge_ready.sh`, `ops/agentctl.py`,
-  `ops/free_agent.py`, `ops/official-domains.txt`, `ops/hive.toml`, `ops/prompts/`, `.agents/`, and everything in
+  `ops/free_agent.py`, `ops/official-domains.txt`, `ops/hive.toml`, `ops/prompts/`, `.agents/`, `ops/harvest.py`, `ops/doctor.py`,
+  `ops/mac-bootstrap.sh`, `ops/hive-cron.sh`, `ops/mcp_server.py`, `opencode.json`, and everything in
   `.github/`. If a task needs one of them, write the proposal to `docs/` and say so in your notes.
 - **Never weaken a check.** The judge runs main's self-tests against your code, so removing or loosening an
   existing rule fails there.

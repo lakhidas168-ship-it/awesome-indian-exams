@@ -3,12 +3,17 @@
 # The agent only edits files. This script does the git work and writes the receipt,
 # so every claim about "what changed", "what was fetched" and "checks passed" comes from code, not from the agent.
 #
-#   ops/run-hourly.sh hermes|opencode|jevx
+#   ops/run-hourly.sh <lane> [worker]      lane: hermes|opencode|jevx; worker: any name, default = lane
+#
+# Several workers can serve one lane in parallel (e.g. hermes, gemini and antigravity all in the hermes lane);
+# each gets its own worktree, lock and logs, and task claims keep them from ever taking the same task.
 #
 # Env:
-#   HIVE_CMD_HERMES / HIVE_CMD_OPENCODE / HIVE_CMD_JEVX   agent command; the prompt is appended as the last argument.
+#   HIVE_CMD_<WORKER> or HIVE_CMD_<LANE>   agent command; the prompt is appended as the last argument.
 #                 "free-agent" = the built-in zero-cost agent (ops/free_agent.py). HIVE_CMD_OPENCODE defaults to
 #                 "opencode run".
+#   HIVE_FALLBACK command to retry once with when the agent fails without changing anything (e.g. free-agent)
+#   HIVE_WHERE    "mac" on the owner's machine, "cloud" in Actions: tasks marked where="mac" run only on the Mac
 #   HIVE_OPEN_PR  1 (default): open a PR, JEVX reviews it. 0 (cloud): push the branch for ops/judge.py instead.
 #   HIVE_HOME     per-lane worktrees and logs (default ~/.hive)
 #   HIVE_TIMEOUT  seconds per agent run (default 2700)
@@ -16,7 +21,8 @@
 # Compatible with macOS bash 3.2.
 set -euo pipefail
 
-LANE="${1:?usage: run-hourly.sh hermes|opencode|jevx}"
+LANE="${1:?usage: run-hourly.sh hermes|opencode|jevx [worker]}"
+WORKER="${2:-$LANE}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 REPO="$(git -C "$HERE" rev-parse --show-toplevel)"
 PREFIX="$(python3 -c 'import os,sys;print(os.path.relpath(sys.argv[1],sys.argv[2]))' "$(dirname "$HERE")" "$REPO")"
@@ -32,16 +38,18 @@ case "$LANE" in
   jevx)     CMD="${HIVE_CMD_JEVX:-}" ;;
   *) echo "unknown lane: $LANE" >&2; exit 2 ;;
 esac
+WVAR="HIVE_CMD_$(echo "$WORKER" | tr 'a-z-' 'A-Z_')"
+if [ -n "${!WVAR:-}" ]; then CMD="${!WVAR}"; fi   # a named worker's own command wins over the lane's
 if [ -z "$CMD" ]; then
-  echo "set HIVE_CMD_$(echo "$LANE" | tr a-z A-Z) to the command that runs $LANE with a prompt argument" >&2
+  echo "set $WVAR (or HIVE_CMD_$(echo "$LANE" | tr a-z A-Z)) to the command that runs $WORKER with a prompt argument" >&2
   exit 2
 fi
 
-log() { echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] $LANE: $*"; }
+log() { echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] $WORKER($LANE): $*"; }
 
-# One run per lane at a time; a lock older than 3h is from a crashed run.
+# One run per worker at a time; a lock older than 3h is from a crashed run.
 mkdir -p "$HIVE_HOME"
-LOCK="$HIVE_HOME/$LANE.lock"
+LOCK="$HIVE_HOME/$WORKER.lock"
 if [ -d "$LOCK" ] && [ -n "$(find "$LOCK" -maxdepth 0 -mmin +180 2>/dev/null)" ]; then rmdir "$LOCK"; fi
 if ! mkdir "$LOCK" 2>/dev/null; then log "previous run still active, skipping"; exit 0; fi
 TASK_ID=""
@@ -56,7 +64,7 @@ cleanup() {
 trap cleanup EXIT
 
 # Each lane works in its own worktree, so lanes run in parallel without touching each other's files.
-WT="$HIVE_HOME/worktrees/$LANE"
+WT="$HIVE_HOME/worktrees/$WORKER"
 git -C "$REPO" fetch --quiet "$REMOTE" "$BASE"
 if [ ! -d "$WT" ]; then
   git -C "$REPO" worktree add --quiet --detach "$WT" "$REMOTE/$BASE"
@@ -70,24 +78,63 @@ cd "$WT"
 sync_to_base
 C="$WT/$PREFIX"
 NOTES="$C/ops/.notes.md"   # gitignored scratch file the agent writes; copied into the receipt
-FETCH_LOG="$HIVE_HOME/$LANE.fetch.jsonl"   # written by code (free_agent / MCP fetch tool), outside the worktree
+FETCH_LOG="$HIVE_HOME/$WORKER.fetch.jsonl"   # written by code (free_agent / MCP fetch tool), outside the worktree
 rm -f "$NOTES" "$FETCH_LOG"
-if [ "$CMD" = "free-agent" ]; then CMD="python3 $C/ops/free_agent.py --lane $LANE"; fi
+resolve_cmd() { if [ "$1" = "free-agent" ]; then echo "python3 $C/ops/free_agent.py --lane $LANE"; else echo "$1"; fi; }
+CMD="$(resolve_cmd "$CMD")"
 export HIVE_NOTES="$NOTES" HIVE_FETCH_LOG="$FETCH_LOG"
 
+AGENT_RC=0
 run_agent() {  # $1 = prompt file
-  local prompt rc
+  local prompt sb
   prompt="$(cat "$1")"
   # Agents start in the content folder, so OpenCode finds opencode.json (MCP) and .agents/skills there.
   # perl alarm = portable timeout (macOS has no coreutils timeout by default)
-  # shellcheck disable=SC2086  # CMD is intentionally word-split into command + args
-  (cd "$C" && perl -e 'alarm shift; exec @ARGV' "$TIMEOUT" $CMD "$prompt") && rc=0 || rc=$?
-  if [ "$rc" = 75 ]; then log "no free LLM capacity right now (exit 75); task goes back to the queue"; exit 0; fi
-  [ "$rc" = 0 ] || log "agent exited with $rc"
+  if [ "${HIVE_SANDBOX:-0}" = 1 ] && [ "$CMD" != "$(resolve_cmd free-agent)" ]; then
+    # Cloud: agents with a shell work on a copy with no .git and no GitHub token, so they can only change files;
+    # pushing stays with this runner and the judge.
+    sb="$HIVE_HOME/sandbox/$WORKER"
+    rm -rf "$sb" && mkdir -p "$sb" && cp -R "$C/." "$sb/"
+    # shellcheck disable=SC2086  # CMD is intentionally word-split into command + args
+    (cd "$sb" && env -u GITHUB_TOKEN -u GH_TOKEN -u GITHUB_MODELS_TOKEN HIVE_NOTES="$sb/ops/.notes.md" \
+       perl -e 'alarm shift; exec @ARGV' "$TIMEOUT" $CMD "$prompt") && AGENT_RC=0 || AGENT_RC=$?
+    [ -f "$sb/ops/.notes.md" ] && cp "$sb/ops/.notes.md" "$NOTES"
+    python3 - "$sb" "$C" <<'PY'
+import shutil, sys
+from pathlib import Path
+src, dst = Path(sys.argv[1]), Path(sys.argv[2])
+skip = lambda rel: rel.parts[:1] == ("__pycache__",) or "__pycache__" in rel.parts or rel.as_posix() == "ops/.notes.md"
+for p in sorted(dst.rglob("*"), reverse=True):  # files the agent deleted in the sandbox
+    rel = p.relative_to(dst)
+    if (p.exists() or p.is_symlink()) and not skip(rel) and not (src / rel).exists():
+        shutil.rmtree(p) if p.is_dir() and not p.is_symlink() else p.unlink()
+for p in src.rglob("*"):  # files the agent created or changed
+    rel = p.relative_to(src)
+    if p.is_file() and not skip(rel):
+        (dst / rel).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(p, dst / rel)
+PY
+  else
+    # shellcheck disable=SC2086
+    (cd "$C" && perl -e 'alarm shift; exec @ARGV' "$TIMEOUT" $CMD "$prompt") && AGENT_RC=0 || AGENT_RC=$?
+  fi
+  if [ "$AGENT_RC" = 75 ]; then log "no free LLM capacity right now (exit 75); task goes back to the queue"; exit 0; fi
+  [ "$AGENT_RC" = 0 ] || log "agent exited with $AGENT_RC"
+}
+
+run_agent_with_fallback() {  # a broken or logged-out agent must not stall the lane: retry once on the fallback
+  run_agent "$1"
+  if [ "$AGENT_RC" != 0 ] && [ -z "$(git status --porcelain)" ] && [ -n "${HIVE_FALLBACK:-}" ] \
+     && [ "$(resolve_cmd "$HIVE_FALLBACK")" != "$CMD" ]; then
+    log "agent failed without changes; retrying once with $HIVE_FALLBACK"
+    CMD="$(resolve_cmd "$HIVE_FALLBACK")"
+    run_agent "$1"
+  fi
 }
 
 skill_for() {  # lane skill injected into the prompt (agents that load .agents/skills natively see it anyway)
   case "$LANE:$1" in
+    hermes:Harvest*) echo harvest-import ;;
     hermes:*modules/*) echo module-page ;;
     hermes:*) echo exam-page ;;
     opencode:*) echo hive-tooling ;;
@@ -106,19 +153,25 @@ if [ "$LANE" = "jevx" ]; then
   "$C/ops/merge_ready.sh" || log "merge_ready failed"
   sync_to_base
   python3 "$C/ops/agentctl.py" reap --hours 6 || true
-  P="$HIVE_HOME/$LANE.prompt.md"
+  P="$HIVE_HOME/$WORKER.prompt.md"
   {
     cat "$C/ops/prompts/jevx.md"
     printf '\n## Context gathered by the runner (code)\n\n### Backlog status\n```\n'
     python3 "$C/ops/agentctl.py" status || true
     printf '```\n\n### Content gate on %s\n```\n' "$BASE"
     python3 "$C/scripts/validate.py" || true
+    printf '```\n\n### Hive doctor (health check; turn every problem into a fix task or an H- owner task)\n```\n'
+    python3 "$C/ops/doctor.py" || true
+    if [ "${HIVE_WHERE:-}" = mac ]; then
+      printf '```\n\n### Harvest of the owner'"'"'s earlier work (append new entries to ops/tasks.toml; they are where = "mac")\n```toml\n'
+      python3 "$C/ops/harvest.py" tasks --top 10 2>&1 || true
+    fi
     printf '```\n\n### Open agent PRs\n```\n'
     gh pr list --state open --json number,title,headRefName,url \
       --jq '.[] | select(.headRefName | startswith("agent/")) | "#\(.number) \(.headRefName) \(.title) \(.url)"' || true
     printf '```\n'
   } > "$P"
-  run_agent "$P"
+  run_agent_with_fallback "$P"
   python3 "$C/scripts/validate.py" --write > /dev/null || true
   if [ -n "$(git status --porcelain)" ]; then
     BR="agent/jevx/plan-$(date -u +%Y%m%d-%H%M)"
@@ -139,7 +192,7 @@ fi
 # Worker lanes: claim one task, let the agent edit files, gate, receipt, PR.
 python3 "$C/ops/agentctl.py" reap --hours 6 || true
 set +e
-TASK_JSON="$(python3 "$C/ops/agentctl.py" next "$LANE" --claim --agent "$LANE")"
+TASK_JSON="$(python3 "$C/ops/agentctl.py" next "$LANE" --claim --agent "$WORKER")"
 rc=$?
 set -e
 if [ $rc -eq 3 ]; then log "no ready task"; exit 0; fi
@@ -152,18 +205,18 @@ export HIVE_TASK_ID="$TASK_ID"
 log "claimed $TASK_ID: $TITLE"
 git checkout --quiet -B "$BRANCH"   # -B: a retried task may have a stale local branch
 
-P="$HIVE_HOME/$LANE.prompt.md"
+P="$HIVE_HOME/$WORKER.prompt.md"
 {
   cat "$C/ops/prompts/$LANE.md"
   printf '\n## Skill\n\n'
   cat "$C/.agents/skills/$(skill_for "$TITLE")/SKILL.md"
   printf '\n## Your task (from ops/tasks.toml)\n\n```json\n%s\n```\n' "$TASK_JSON"
-  printf '\nWork only inside %s. Write your notes (sources opened, what you confirmed, what you could not) to %s.\n' "$C" "$NOTES"
+  printf '\nWork only inside the content folder (your current directory). Write your notes (sources opened, what you confirmed, what you could not) to ops/.notes.md there.\n'
 } > "$P"
-run_agent "$P"
+run_agent_with_fallback "$P"
 
 # Workers never regenerate README index / UPDATES.md (the JEVX lane does), so parallel PRs don't conflict.
-GATE_LOG="$HIVE_HOME/$LANE.gate.log"
+GATE_LOG="$HIVE_HOME/$WORKER.gate.log"
 if ! python3 "$C/scripts/validate.py" > "$GATE_LOG" 2>&1; then
   log "content gate failed, giving the agent one repair pass"
   { cat "$P"; printf '\n## The content gate failed. Fix these errors and change nothing else:\n```\n'; cat "$GATE_LOG"; printf '```\n'; } > "$P.fix"

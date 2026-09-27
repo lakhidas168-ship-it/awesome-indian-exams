@@ -22,6 +22,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import subprocess
 import sys
 import time
@@ -87,26 +88,70 @@ def load_hive_config() -> dict:
     return tomllib.loads(res.stdout) if res.returncode == 0 else {}
 
 
-def preferred_focus(lane: str, config: dict, slot: int | None = None) -> str:
-    """Deterministic weighted rotation: with core=4, india=1 each lane spends 1 run in 5 on "india".
+GOLDEN = 0.6180339887498949
+
+
+def maturity(tasks: list[dict], done: set[str], plan_text: str) -> tuple[int, int]:
+    """(published, rejected) counts for "india" tasks: receipts on main vs. judge rejections in ops/plan/."""
+    india = {t["id"] for t in tasks if t.get("focus") == "india"}
+    published = len(india & done)
+    rejected = sum(1 for tid in re.findall(r"rejected `([A-Z]-\d{3})`", plan_text) if tid in india)
+    return published, rejected
+
+
+def india_share(config: dict, published: int = 0, rejected: int = 0) -> float:
+    """Share of runs for the "india" focus. It is never fixed: it starts at ramp.start (20%) and grows by
+    ramp.step (1 point) for every ramp.per_published india tasks published, as long as the approval rate stays at
+    or above ramp.min_acceptance. If quality drops below that, it falls back to the start until it recovers.
+    Capped at ramp.max so the engineering track is never starved."""
+    focus = config.get("focus", {})
+    ramp = focus.get("ramp")
+    if not ramp:
+        total = sum(int(v) for k, v in focus.items() if isinstance(v, int)) or 1
+        return int(focus.get("india", 0)) / total
+    start, step = float(ramp.get("start", 0.2)), float(ramp.get("step", 0.01))
+    per, cap = max(1, int(ramp.get("per_published", 5))), float(ramp.get("max", 0.6))
+    judged = published + rejected
+    if judged and published / judged < float(ramp.get("min_acceptance", 0.8)):
+        return start
+    return min(cap, start + step * (published // per))
+
+
+def preferred_focus(lane: str, config: dict, slot: int | None = None, share: float | None = None) -> str:
+    """Low-discrepancy (golden-ratio) choice: over any run of hours the lane spends `share` of them on "india".
 
     The slot is the current UTC hour (HIVE_SLOT overrides it), shifted per lane so lanes don't switch together.
     """
-    weights = config.get("focus", {"core": 1})
-    cycle = [name for name in sorted(weights, key=lambda n: (n != "core", n)) for _ in range(int(weights[name]))]
-    if not cycle:
-        return "core"
+    if share is None:
+        share = india_share(config)
     if slot is None:
         slot = int(os.environ.get("HIVE_SLOT", time.time() // 3600))
-    return cycle[(slot + int(config.get("lane_offset", {}).get(lane, 0))) % len(cycle)]
+    x = ((slot + int(config.get("lane_offset", {}).get(lane, 0))) * GOLDEN) % 1.0
+    return "india" if x < share else "core"
+
+
+def current_share(tasks: list[dict], done: set[str], config: dict) -> tuple[float, int, int]:
+    plans = git("ls-tree", "--full-tree", "--name-only", base_ref(), f"{repo_prefix()}/ops/plan/").stdout.split()
+    text = "".join(git("show", f"{base_ref()}:{p}", check=False).stdout for p in plans if p.endswith(".md"))
+    published, rejected = maturity(tasks, done, text)
+    return india_share(config, published, rejected), published, rejected
+
+
+def runnable_here(task: dict) -> bool:
+    """`where = "mac"` tasks need the owner's machine (local files, local tools); cloud runs skip them."""
+    where = task.get("where", "any")
+    here = os.environ.get("HIVE_WHERE", "any")
+    return where == "any" or where == here
 
 
 def candidates(lane: str) -> list[dict]:
     tasks, done, held = load_tasks(), done_ids(), claimed_ids()
     ready = [t for t in tasks
-             if t.get("lane") == lane and t["id"] not in done and t["id"] not in held
+             if t.get("lane") == lane and t["id"] not in done and t["id"] not in held and runnable_here(t)
              and not t.get("blocked") and all(d in done for d in t.get("deps", []))]
-    focus = preferred_focus(lane, load_hive_config())
+    config = load_hive_config()
+    share, _, _ = current_share(tasks, done, config)
+    focus = preferred_focus(lane, config, share=share)
     # Preferred focus first; the other focus is the fallback so a lane never idles while work exists.
     return sorted(ready, key=lambda t: (t.get("focus", "core") != focus, t.get("priority", 99), t["id"]))
 
@@ -155,8 +200,11 @@ def cmd_status(_: argparse.Namespace) -> int:
     fetch_base()
     done, held = done_ids(), claimed_ids()
     config = load_hive_config()
+    tasks = load_tasks()
+    share, published, rejected = current_share(tasks, done, config)
+    print(f"# india focus share = {share:.0%} (india tasks published {published}, rejected {rejected})")
     for lane in ("hermes", "opencode"):
-        print(f"# {lane}: preferred focus this hour = {preferred_focus(lane, config)}")
+        print(f"# {lane}: preferred focus this hour = {preferred_focus(lane, config, share=share)}")
     for t in sorted(load_tasks(), key=lambda t: (t.get("lane", ""), t.get("priority", 99), t["id"])):
         state = "done" if t["id"] in done else held.get(t["id"]) or ("blocked" if t.get("blocked") else "todo")
         print(f"{t['id']:6} {t.get('lane', '?'):9} {t.get('focus', 'core'):6} p{t.get('priority', '?'):<3} "

@@ -7,44 +7,44 @@
 # DONE    = ops/done/<id>.md exists on main (a receipt that landed).
 # CLAIMED = refs/heads/claim/<id> or a branch agent/<lane>/<id> exists on the remote.
 #
-# Id ranges: H- owner · T-0xx hermes core · T-1xx opencode · T-2xx hermes exam pages · T-4xx hermes modules.
+# where: "any" (default), "mac" (needs the owner's machine: local files or local tools) or "cloud".
+# Id ranges: H- owner · T-0xx hermes core · T-1xx opencode · T-2xx hermes exam pages · T-4xx hermes modules ·
+#            T-5xx harvest of the owner's earlier local work (where = "mac", added by JEVX from ops/harvest.py tasks).
 
 [[task]]
 id = "H-001"
 lane = "human"
 priority = 1
-title = "Merge PR #1: this switches on the free cloud hive (GitHub Actions + GitHub Models, no key needed)"
-accept = [
-  "the 'hive-cloud' workflow shows an hourly run under the Actions tab",
-]
+title = "Merge PR #1 (switches on the free cloud hive); see docs/OWNER-CLICKS.md step 1"
+accept = ["the 'hive-cloud' workflow shows an hourly run under the Actions tab"]
 
 [[task]]
 id = "H-002"
 lane = "human"
-priority = 2
-title = "Create the empty public repo lakhidas168-ship-it/awesome-indian-exams so the hub can move there"
-accept = [
-  "the empty repo exists; a Claude session (or `git subtree split`) moves this folder into it",
-]
+priority = 3
+title = "Create the public repo awesome-indian-exams and give Claude access (docs/OWNER-CLICKS.md steps 11-12)"
+accept = ["a Claude session has moved this folder into the new repository and the hive runs there"]
 
 [[task]]
 id = "H-003"
 lane = "human"
-priority = 3
-title = "Optional, Mac: gh auth login + install ops/crontab.example to run JEVX/Hermes/OpenCode locally as extra capacity"
-accept = [
-  "crontab -l shows the hive lines",
-  "~/.hive/*.log gets a new entry every hour",
-]
+priority = 1
+title = "Add OPENCODE_API_KEY and GEMINI_API_KEY repository secrets (docs/OWNER-CLICKS.md steps 2-4)"
+accept = ["the cloud OpenCode lane logs show opencode-go/deepseek-v4.1-flash being used"]
 
 [[task]]
 id = "H-004"
 lane = "human"
-priority = 3
-title = "Optional: add free API keys as repo secrets (GEMINI_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY) for more free capacity"
-accept = [
-  "hive-cloud logs show the extra provider being used when GitHub Models is rate-limited",
-]
+priority = 1
+title = "Mac: paste the one-line setup, grant cron Full Disk Access, keep awake, sign in to each agent (steps 5-8)"
+accept = ["`python3 awesome-indian-exams/ops/doctor.py --mac` shows no FAIL lines"]
+
+[[task]]
+id = "H-005"
+lane = "human"
+priority = 2
+title = "Connect the Google accounts that hold earlier exam work via Drive for desktop or Takeout into ~/Hive-Inbox (step 9)"
+accept = ["`python3 awesome-indian-exams/ops/harvest.py summary` lists items from those accounts"]
 
 [[task]]
 id = "T-001"

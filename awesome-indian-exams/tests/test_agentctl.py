@@ -18,15 +18,66 @@ def sh(*args: str, cwd: Path) -> subprocess.CompletedProcess:
     return subprocess.run(args, cwd=cwd, env=ENV, text=True, capture_output=True, check=True)
 
 
-def make_remote(tmp: Path, clones: tuple[str, ...], tasks_toml: str | None = None) -> list[Path]:
-    """Bare remote seeded with this content folder (optionally a custom backlog) plus working clones."""
+# Tests never depend on the live backlog: it shrinks as the hive works, and main's tests run on every branch.
+FIXED_BACKLOG = """
+[[task]]
+id = "H-001"
+lane = "human"
+priority = 1
+title = "owner step"
+accept = ["a"]
+
+[[task]]
+id = "T-001"
+lane = "hermes"
+priority = 1
+title = "Verify the GATE EE page against the official GATE 2027 information brochure"
+accept = ["a"]
+
+[[task]]
+id = "T-002"
+lane = "hermes"
+priority = 2
+title = "core task two"
+accept = ["a"]
+
+[[task]]
+id = "T-201"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "india task one"
+accept = ["a"]
+
+[[task]]
+id = "T-202"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "india task two"
+accept = ["a"]
+
+[[task]]
+id = "T-101"
+lane = "opencode"
+priority = 1
+title = "tooling task"
+accept = ["a"]
+"""
+
+
+def make_remote(tmp: Path, clones: tuple[str, ...], tasks_toml: str = FIXED_BACKLOG) -> list[Path]:
+    """Bare remote seeded with this content folder, a fixed backlog and no receipts, plus working clones."""
     remote = tmp / "remote.git"
     sh("git", "init", "-q", "--bare", "-b", "main", str(remote), cwd=tmp)
     seed = tmp / "seed"
     sh("git", "init", "-q", "-b", "main", str(seed), cwd=tmp)
     shutil.copytree(CONTENT, seed / CONTENT.name, ignore=shutil.ignore_patterns("__pycache__", "tests_main"))
-    if tasks_toml is not None:
-        (seed / CONTENT.name / "ops" / "tasks.toml").write_text(tasks_toml, encoding="utf-8")
+    (seed / CONTENT.name / "ops" / "tasks.toml").write_text(tasks_toml, encoding="utf-8")
+    for receipt in (seed / CONTENT.name / "ops" / "done").glob("*.md"):
+        receipt.unlink()
+    for plan in (seed / CONTENT.name / "ops" / "plan").glob("*.md"):
+        plan.unlink()
     sh("git", "add", "-A", cwd=seed)
     sh("git", "commit", "-qm", "seed", cwd=seed)
     sh("git", "remote", "add", "origin", str(remote), cwd=seed)
@@ -71,10 +122,17 @@ class AgentCtl(unittest.TestCase):
         self.assertTrue(seen)
         self.assertFalse(any(t.startswith("H-") for t in seen), seen)
 
-    def test_focus_rotation_picks_india_one_hour_in_five(self) -> None:
+    def test_focus_rotation_picks_india_about_one_hour_in_five(self) -> None:
+        import sys
+        sys.path.insert(0, str(CONTENT / "ops"))
+        import agentctl
+        import tomllib
+        config = tomllib.loads((CONTENT / "ops" / "hive.toml").read_text(encoding="utf-8"))
+        slots = {f: next(s for s in range(50) if agentctl.preferred_focus("hermes", config, s, 0.2) == f)
+                 for f in ("core", "india")}
         a = self.repos[0]
-        core = json.loads(ctl(a, "next", "hermes", env={**ENV, "HIVE_SLOT": "0"}).stdout)
-        india = json.loads(ctl(a, "next", "hermes", env={**ENV, "HIVE_SLOT": "4"}).stdout)
+        core = json.loads(ctl(a, "next", "hermes", env={**ENV, "HIVE_SLOT": str(slots["core"])}).stdout)
+        india = json.loads(ctl(a, "next", "hermes", env={**ENV, "HIVE_SLOT": str(slots["india"])}).stdout)
         self.assertEqual(core.get("focus", "core"), "core")
         self.assertEqual(india.get("focus"), "india")
 

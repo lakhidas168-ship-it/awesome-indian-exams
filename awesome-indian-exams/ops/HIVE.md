@@ -19,8 +19,9 @@ every hour on GitHub Actions. The Hermes and OpenCode lanes run in parallel on t
 the JEVX judge ([`judge.py`](judge.py)) runs every code gate and an LLM review, and publishes approved work
 straight to `main`. Kill switch: set the repository variable `HIVE_ENABLED` to `false`.
 
-**Mac (the owner's own agents, extra capacity):** [`run-hourly.sh`](run-hourly.sh) runs the real JEVX, Hermes and
-OpenCode from cron ([`crontab.example`](crontab.example)). Each works in its own git worktree, opens a PR, and
+**Mac (the owner's own agents, extra capacity):** one command, [`mac-bootstrap.sh`](mac-bootstrap.sh), detects
+the agents and installs the schedule; [`run-hourly.sh`](run-hourly.sh) runs the real JEVX, Hermes, OpenCode,
+Gemini CLI and Antigravity from cron. Each works in its own git worktree, opens a PR, and
 JEVX approves with a label; [`merge_ready.sh`](merge_ready.sh) merges approved, green PRs. Any lane can also
 run on the free agent: `HIVE_CMD_HERMES=free-agent`, with Ollama for fully local and free models.
 
@@ -38,12 +39,46 @@ Both modes claim from the same backlog on the remote, so cloud and Mac agents ne
                approved → squash onto main → index, overlap map and UPDATES.md regenerated
 ```
 
-## 80 / 20 focus
+## Focus: starts at 20%, grows as it matures
 
-[`hive.toml`](hive.toml) sets `core = 4, india = 1`. Each lane spends 4 runs in 5 on the engineering track
-(`focus = "core"` tasks) and 1 in 5 on every other exam family (`focus = "india"`). Lanes are offset so they
-switch in different hours. If the preferred focus has no ready task, the lane takes one from the other focus
-rather than idling. `agentctl.py status` prints this hour's focus per lane.
+[`hive.toml`](hive.toml) `[focus.ramp]`: the "india" focus (every exam family except the engineering track)
+starts at **20%** of runs and gains **1 point for every 5 india tasks published**, as long as at least 80% of
+judged india work was approved. If quality drops, it falls back to 20% until it recovers. It is capped at 60%, so
+the engineering track always keeps at least 40%. The share is computed from receipts and judge logs on `main`, so
+the cloud and the Mac always agree. Hours are assigned with a golden-ratio sequence, so any stretch of hours
+matches the share. If the preferred focus has no ready task, the lane takes one from the other focus rather than
+idling. `agentctl.py status` prints the current share.
+
+## Workers: many agents per lane
+
+`run-hourly.sh <lane> [worker]`: several agents can serve one lane in parallel, each with its own worktree, lock
+and log. On the Mac the Hermes lane has three workers (Hermes `hermes -z`, Gemini CLI `gemini --yolo -p`,
+Antigravity `agy -p` behind a pseudo-terminal), and the OpenCode lane runs `opencode run` on the OpenCode Go plan
+(DeepSeek V4.1 Flash). A worker that fails without changing anything retries once on the free agent
+(`HIVE_FALLBACK`), so one logged-out tool never stalls a lane. Tasks marked `where = "mac"` (they need local files)
+run only on the Mac.
+
+## Sandbox (cloud)
+
+In the cloud, agents that have a shell (the real OpenCode CLI) work on a copy of the content folder with no
+`.git` and no GitHub token. The runner copies their file changes back, and every gate still applies, so an agent
+can never push or publish by itself.
+
+## Harvest: the owner's earlier work
+
+[`harvest.py`](harvest.py) scans the Mac (Documents, Desktop, Downloads, code folders), every Google Drive for
+desktop account, iCloud and `~/Hive-Inbox` (Google Takeout exports). It builds a **private** inventory in
+`~/.hive/harvest/`, drops duplicates, and flags transcripts, coaching material and personal data. Only the
+owner's own, non-personal work becomes tasks (`T-5xx`, `where = "mac"`), which name nothing but an opaque
+`inv:` id. Hermes-lane workers read items through the MCP tools `harvest_search` / `harvest_item`, keep the
+structure and advice, and re-verify every fact officially (skill `harvest-import`).
+
+## Self-healing
+
+[`doctor.py`](doctor.py) checks the content gate, the backlog per lane and focus, quality, stale claims and, on
+the Mac, every tool, login, the schedule, each worker's last run and errors, and the harvest. JEVX reads it every
+hour: a tooling problem becomes an OpenCode task; a login, payment or settings click becomes an `H-` task that
+links the exact page in [`docs/OWNER-CLICKS.md`](../docs/OWNER-CLICKS.md).
 
 ## Sync protocol (all state is on the remote)
 

@@ -25,10 +25,18 @@ skips any that is missing or rate-limited, so each extra key adds capacity.
 | `OPENROUTER_API_KEY` | OpenRouter | Models whose id ends in `:free` cost nothing, within daily limits |
 | `GROQ_API_KEY` | Groq | Free tier, fast inference, rate-limited |
 
+## Paid by the owner (already bought)
+
+| What | How the hive uses it |
+|---|---|
+| **OpenCode Go** plan | Secret `OPENCODE_API_KEY`. The cloud OpenCode lane runs the real OpenCode CLI on DeepSeek V4.1 Flash, and the judge prefers it. Content work uses free tiers first to save the plan's limits. Known issue: the Go gateway sometimes rejects requests, so every lane has a free fallback |
+| **Google AI Pro / Workspace accounts** | Gemini CLI signed in with one of them is a Mac worker in the Hermes lane; Drive for desktop mounts their files for the harvest; NotebookLM (through its MCP on the Mac) is a source of leads for Hermes-lane workers |
+
 ## Free on the owner's Mac
 
 | What | Why |
 |---|---|
+| **Gemini CLI** signed in with a Google account | Free tier of about 1,000 requests a day (more with AI Pro); runs as an extra Hermes-lane worker (`gemini --yolo -p`) |
 | **Ollama** + a small instruct model | Unlimited local inference. Set `HIVE_CMD_HERMES=free-agent` in cron and the agent uses `http://localhost:11434/v1` when cloud providers are exhausted |
 | The owner's own **JEVX / Hermes / OpenCode** | Extra lanes through `ops/crontab.example`. Their claims never collide with the cloud's |
 

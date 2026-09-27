@@ -194,14 +194,15 @@ class LaneGate(unittest.TestCase):
         self.assertEqual(self.check("agent/hermes/T-001", ok), [])
 
     def test_hermes_cannot_touch_tooling_or_generated(self) -> None:
-        for path in ("scripts/validate.py", "tests/test_gates.py", "ops/tasks.toml", "opencode.json",
+        for path in ("scripts/validate.py", "tests/test_gates.py", "ops/tasks.toml",
                      "README.md", "resources/overlap-map.md", "UPDATES.md"):
             self.assertTrue(self.check("agent/hermes/T-001", [path, "ops/done/T-001.md"]), path)
 
     def test_no_lane_may_touch_guardrails(self) -> None:
         guardrails = ["scripts/hive_gate.py", "scripts/evidence_gate.py", "ops/judge.py", "ops/run-hourly.sh",
                       "ops/agentctl.py", "ops/free_agent.py", "ops/official-domains.txt", "ops/hive.toml",
-                      "ops/prompts/hermes.md", ".agents/skills/exam-page/SKILL.md", ".github/workflows/hive-cloud.yml"]
+                      "ops/prompts/hermes.md", ".agents/skills/exam-page/SKILL.md", ".github/workflows/hive-cloud.yml",
+                      "ops/harvest.py", "ops/doctor.py", "ops/mac-bootstrap.sh", "ops/mcp_server.py", "opencode.json"]
         for lane, task in (("opencode", "T-101"), ("hermes", "T-001"), ("jevx", "plan-x")):
             for path in guardrails:
                 self.assertTrue(self.check(f"agent/{lane}/{task}", [path, f"ops/done/{task}.md"]), f"{lane} {path}")
@@ -211,7 +212,7 @@ class LaneGate(unittest.TestCase):
         self.assertTrue(self.check("agent/hermes/T-001", ["ops/done/T-001.md", "ops/done/T-002.md"]))
 
     def test_opencode_may_extend_validator_and_tests(self) -> None:
-        ok = ["scripts/validate.py", "scripts/new_check.py", "tests/test_new.py", "ops/mcp_server.py", "ops/done/T-101.md"]
+        ok = ["scripts/validate.py", "scripts/new_check.py", "tests/test_new.py", "docs/proposal.md", "ops/done/T-101.md"]
         self.assertEqual(self.check("agent/opencode/T-101", ok), [])
 
     def test_jevx_limited_to_backlog_plan_and_generated(self) -> None:

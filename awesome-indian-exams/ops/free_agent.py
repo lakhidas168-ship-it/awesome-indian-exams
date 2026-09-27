@@ -12,7 +12,8 @@ Env:
   HIVE_FETCH_LOG   JSONL file where every fetch is recorded by code (becomes evidence in the receipt)
   HIVE_NOTES       where finish() writes the agent's notes (default ops/.notes.md)
   HIVE_LLM_BASE_URL / HIVE_LLM_API_KEY / HIVE_LLM_MODEL   extra OpenAI-compatible endpoint, tried first
-  GITHUB_MODELS_TOKEN or GITHUB_TOKEN, GEMINI_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY, OLLAMA_BASE_URL
+  OPENCODE_API_KEY (OpenCode Go), GITHUB_MODELS_TOKEN or GITHUB_TOKEN, GEMINI_API_KEY, OPENROUTER_API_KEY,
+  GROQ_API_KEY, OLLAMA_BASE_URL. Provider order per lane: ops/hive.toml [free_agent.lane_providers].
 
 Exit: 0 finished · 75 no provider available (rate limits etc.; the runner frees the task) · 2 bad usage.
 """
@@ -44,6 +45,7 @@ EX_TEMPFAIL = 75
 USER_AGENT = "awesome-indian-exams-hive/1.0 (+https://github.com/lakhidas168-ship-it)"
 
 PROVIDERS = {
+    "opencode-go": ("https://opencode.ai/zen/go/v1", ("OPENCODE_API_KEY",)),
     "github": ("https://models.github.ai/inference", ("GITHUB_MODELS_TOKEN", "GITHUB_TOKEN")),
     "gemini": ("https://generativelanguage.googleapis.com/v1beta/openai", ("GEMINI_API_KEY",)),
     "openrouter": ("https://openrouter.ai/api/v1", ("OPENROUTER_API_KEY",)),
@@ -64,13 +66,14 @@ def load_config() -> dict:
 # ------------------------------------------------------------------ LLM access with fallback
 
 class LLM:
-    def __init__(self, config: dict) -> None:
+    def __init__(self, config: dict, lane: str | None = None) -> None:
         self.routes: list[tuple[str, str, str, str]] = []  # (provider, base, key, model)
         if os.environ.get("HIVE_LLM_BASE_URL"):
             self.routes.append(("custom", os.environ["HIVE_LLM_BASE_URL"], os.environ.get("HIVE_LLM_API_KEY", ""),
                                 os.environ.get("HIVE_LLM_MODEL", "default")))
         models = config.get("models", {})
-        for name in config.get("providers", list(PROVIDERS)):
+        order = config.get("lane_providers", {}).get(lane) or config.get("providers", list(PROVIDERS))
+        for name in order:
             if name not in PROVIDERS:
                 continue
             base, key_envs = PROVIDERS[name]
@@ -394,7 +397,7 @@ def main(argv: list[str] | None = None) -> int:
     if not prompt:
         ap.error("a prompt is required")
     config = load_config()
-    llm = LLM(config)
+    llm = LLM(config, args.lane)
     if not llm.routes:
         log("no provider configured (set GITHUB_TOKEN in Actions, or a key, or HIVE_LLM_BASE_URL)")
         return EX_TEMPFAIL

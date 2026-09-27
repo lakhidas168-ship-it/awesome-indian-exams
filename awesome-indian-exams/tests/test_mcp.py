@@ -36,7 +36,8 @@ class McpServer(unittest.TestCase):
         self.assertEqual(len(replies), 6)  # the notification gets no reply
         self.assertEqual(by_id[1]["result"]["protocolVersion"], "2025-06-18")
         names = {t["name"] for t in by_id[2]["result"]["tools"]}
-        self.assertTrue({"hive_status", "next_task", "validate_content", "fetch_url", "exam_info"} <= names)
+        self.assertTrue({"hive_status", "next_task", "validate_content", "fetch_url", "exam_info", "harvest_search",
+                         "harvest_item"} <= names)
         self.assertIn("neet-ug", by_id[3]["result"]["content"][0]["text"])
         self.assertIn("may not change", by_id[4]["result"]["content"][0]["text"])
         self.assertIn("Exam page", by_id[5]["result"]["content"][0]["text"])
