@@ -407,6 +407,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nbe.edu.in/IB/FMGE%20JUNE%202026%20information%20bulletin.pdf; official_site=https://natboard.edu.in; official_site=https://nbe.edu.in/; pattern_url=https://nbe.edu.in/IB/FMGE%20JUNE%202026%20information%20bulletin.pdf; syllabus_url=https://nbe.edu.in/IB/FMGE%20JUNE%202026%20information%20bulletin.pdf"]
 
 [[task]]
 id = "T-218"
@@ -805,6 +806,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPCE_2025.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPCE_2025.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPCE_2025.pdf"]
 
 [[task]]
 id = "T-254"
@@ -1117,6 +1119,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate official links - fetch each with the fetch tool before using it: official_site=https://dsssb.delhi.gov.in; official_site=https://dsssbonline.nic.in/"]
 
 [[task]]
 id = "T-282"
