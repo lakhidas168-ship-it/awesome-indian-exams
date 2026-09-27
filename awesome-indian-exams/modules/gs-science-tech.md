@@ -22,9 +22,10 @@ Counts for **2 exams** in this list (see the [overlap map](../resources/overlap-
 
 ## Free resources
 
-- ISRO: <https://www.isro.gov.in>
-- Department of Science and Technology: <https://dst.gov.in>
-- Press Information Bureau: <https://pib.gov.in>
+- ISRO (Space technology): <https://www.isro.gov.in>
+- Department of Science and Technology (Policy and R&D): <https://dst.gov.in>
+- Press Information Bureau (Science and Tech updates): <https://pib.gov.in>
+- India Science, Technology and Innovation (ISTI) Portal: <https://www.indiascienceandtechnology.gov.in>
 
 ## How to practise
 
