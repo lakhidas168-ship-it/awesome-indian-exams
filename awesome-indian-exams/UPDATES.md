@@ -8,6 +8,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-27 21:11 UTC** · `T-314` · hermes · [AI study prompts: an exam-family pack (SSC/banking, JEE/NEET, GATE/ESE, state PSC) added to tools/ai-study-prompts.md](ops/done/T-314.md)
 - **2026-09-27 21:10 UTC** · `T-291` · hermes · [Verify the AISSEE (Sainik School entrance) page (exams/school/aissee.md) against its current official notification](ops/done/T-291.md)
 - **2026-09-27 21:07 UTC** · `T-303` · hermes · [Verify the CA Foundation page (exams/professional/ca-foundation.md) against its current official notification](ops/done/T-303.md)
+- **2026-09-27 21:07 UTC** · `T-428` · hermes · [Review modules/ce-core.md (Civil engineering core) against the official syllabi of the exams it counts for](ops/done/T-428.md)
 - **2026-09-27 21:04 UTC** · `T-427` · hermes · [Review modules/me-core.md (Mechanical engineering core) against the official syllabi of the exams it counts for](ops/done/T-427.md)
 - **2026-09-27 21:04 UTC** · `T-424` · hermes · [Review modules/ee-core.md (Electrical engineering core) against the official syllabi of the exams it counts for](ops/done/T-424.md)
 - **2026-09-27 21:01 UTC** · `T-420` · hermes · [Review modules/accounting-basics.md (Accounting and business basics) against the official syllabi of the exams it counts for](ops/done/T-420.md)
