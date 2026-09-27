@@ -3,38 +3,38 @@ title: DSSSB teacher and staff recruitment (Delhi)
 exam_id: dsssb
 conducting_body: Delhi Subordinate Services Selection Board
 official_site: https://dsssb.delhi.gov.in
-cycle: DSSSB (rolling advertisements)
+cycle: Rolling advertisements
 last_verified: 2026-09-27
-verification: unverified
+verification: official
 ---
 
 # DSSSB teacher and staff recruitment (Delhi)
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
-
-The Delhi Subordinate Services Selection Board recruits teachers (PRT, TGT, PGT) and staff for the Delhi
-government and local bodies.
+The Delhi Subordinate Services Selection Board (DSSSB) recruits teachers (PRT, TGT, PGT) and staff for the Delhi government and local bodies.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Delhi Subordinate Services Selection Board |
-| Mode | Computer-based, one or two tiers depending on the post |
+| Mode | Computer-based (Tier-I/Tier-II depending on the post) |
 
 ## Official sources
 
 - DSSSB (official): <https://dsssb.delhi.gov.in>
+- Examination Schemes: <https://dsssb.delhi.gov.in/dsssb/new-examination-and-interview-scheme>
 
 ## Exam pattern
 
-Post-dependent: usually a section on general awareness, reasoning, arithmetic, Hindi and English, plus a
-section on the subject and pedagogy for teaching posts, with negative marking. Each advertisement has the pattern.
+The exam pattern varies by post. Most recruitment is conducted through computer-based examinations (Tier-I and sometimes Tier-II). Candidates should refer to the specific advertisement for their post code for the exact number of questions, marks, time duration, and negative marking scheme.
 
 ## Syllabus
 
-General modules plus the subject and pedagogy for teaching posts.
+The syllabus is post-dependent. Generally, it includes:
+- **Section A:** General Awareness, General Intelligence & Reasoning Ability, Arithmetical & Numerical Ability, Hindi Language & Comprehension, and English Language & Comprehension.
+- **Section B:** Subject-specific knowledge and pedagogy (for teaching posts).
+
+Detailed indicative syllabi are available on the official website.
 
 ## Free resources
 
