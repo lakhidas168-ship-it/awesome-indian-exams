@@ -5,42 +5,53 @@ conducting_body: IITs (organising IIT rotates)
 official_site: https://jeeadv.ac.in
 cycle: JEE Advanced 2026 (IIT Roorkee)
 last_verified: 2026-09-27
-verification: secondary
+verification: official
 ---
 
 # JEE Advanced
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
-
-JEE Advanced is the entrance to the IITs. Only the top candidates from JEE Main (about 2.5 lakh) can take it.
-The organising IIT changes each year and so does the question mix, so the pattern is announced close to the exam.
+JEE Advanced is the entrance to the IITs (bachelor's, integrated master's and dual-degree programs at the
+10+2 entry level). Only candidates among the top 2,50,000 in the JEE Main B.E./B.Tech. paper can take it
+(foreign nationals register directly). It is conducted by the seven zonal coordinating IITs under the Joint
+Admission Board; the organising institute rotates (IIT Roorkee for 2026).
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | One of the IITs each year (IIT Roorkee for 2026) |
-| Papers | Two compulsory papers, 3 hours each, computer-based |
-| Eligibility | Rank cut-off in JEE Main, plus attempt and age limits (see the brochure) |
+| Conducted by | Seven zonal IITs under the Joint Admission Board 2026 (organising institute: IIT Roorkee) |
+| Papers | Two compulsory papers, 3 hours each, computer-based; held May 17, 2026 (Paper 1 09:00–12:00 IST, Paper 2 14:30–17:30 IST) |
+| Eligibility | Top 2,50,000 in JEE (Main) B.E./B.Tech. paper; maximum two attempts in two consecutive years; born on or after October 1, 2001 (SC/ST/PwD: October 1, 1996); first appeared in Class XII with Physics, Chemistry, Mathematics in 2025 or 2026; never admitted to an IIT |
+| Registration fee (exam centres in India) | ₹1,600 for female candidates (all categories) and SC/ST/PwD candidates; ₹3,200 for all other candidates |
+| Languages | English and Hindi (either can be chosen during the exam) |
 
 ## Official sources
 
-- JEE Advanced official website: <https://jeeadv.ac.in>
+- JEE Advanced 2026 Information Brochure (eligibility, schedule, pattern rules, fees): <https://jeeadv.ac.in/documents/IBEnglish_2026.pdf>
+- JEE Advanced 2026 Paper 1, English (question types, marks, negative marking): <https://jeeadv.ac.in/documents/p1_english.pdf>
+- JEE Advanced 2026 Paper 2, English (question types, marks, negative marking): <https://jeeadv.ac.in/documents/p2_english.pdf>
+- JEE Advanced official website (organising institute, announcements, papers and answer keys): <https://jeeadv.ac.in>
 
 ## Exam pattern
 
 Both papers cover **Physics, Chemistry and Mathematics**. They mix single-correct, multiple-correct,
-numerical and matching questions, with partial marking for some types and negative marking for some sections only.
+numerical-value and matching/stem-based questions, with partial marking for some types and negative marking
+for some questions only. The exact marking scheme is printed in each paper's instructions.
 
-For 2026 each paper had 51 questions (17 per subject) for 180 marks, 360 in total. **The question types, marks and
-negative marking change every year and are only fully known on the exam day.** Practise all types.
+In 2026 each paper carried 180 marks (60 per subject), 360 in total. Paper 1 had 48 questions (16 per
+subject): single-correct (+3/−1), multiple-correct with partial marking, numerical-value, and matching-list
+sets (+4 each). Paper 2 had 54 questions (18 per subject): single-correct, multiple-correct,
+numerical-value, and linked stem-based numerical pairs (+2 each). Counts were obtained by counting the
+numbered questions and section headers in the two official paper PDFs above. **The question mix changes
+every year, so practise all types.**
+
+Eligible PwD candidates get one hour of compensatory time per paper.
 
 ## Syllabus
 
-The JEE Advanced syllabus (published on the official website): Class 11–12 PCM at a deeper, more
-problem-solving level than JEE Main.
+The JEE Advanced syllabus (Annexure-I of the Information Brochure): Class 11–12 Physics, Chemistry and
+Mathematics at a deeper, more problem-solving level than JEE Main, testing comprehension, reasoning and
+analytical ability.
 
 ## How to prepare (free, in order)
 

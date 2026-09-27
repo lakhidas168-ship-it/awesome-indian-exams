@@ -22,6 +22,22 @@ has no `options`, whose `answer` is not one of the options, that points at an ex
 | `author` | string | Who wrote it. Required, so credit is always clear. |
 | `license` | string | `CC BY-SA 4.0` (matches the rest of the written content). |
 | `source` | string | Must be `original`. Copied questions are refused. |
+| `source_url` | string | Official URL the answer was checked against (T-122 eval sets). Optional for older files, required for `*-eval-*`. |
+
+## Evaluation sets (T-122)
+
+Files named `<family>-eval-<NN>.json` (for example `ee-eval-01.json`) form the per-exam-family AI
+evaluation sets: 50 original questions per family. Each set mixes three kinds:
+
+1. **Technical questions** whose answers follow from a worked computation; the `source_url` is the
+   official syllabus or notice that lists the topic.
+2. **Exam-fact questions** whose answers are stated verbatim in the official document at `source_url`.
+3. **Not-sure probes**: questions the list cannot answer (exact session dates, cutoffs, vacancy
+   counts). Their `answer` is the "Not sure" option and the `solution` explains what is missing and
+   links the official page to check. A model that guesses on these fails the item.
+
+Every `solution` ends with `Source checked: <URL>` naming the exact URL fetched. No question is
+copied from an exam paper or coaching material.
 
 ## Example
 

@@ -49,14 +49,14 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [GATE Civil Engineering (CE)](exams/engineering/gate-ce.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Civil Engineering (CE)](exams/engineering/gate-ce.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Computer Science and Information Technology (CS)](exams/engineering/gate-cs.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
-| [GATE Data Science and Artificial Intelligence (DA)](exams/engineering/gate-da.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [GATE Data Science and Artificial Intelligence (DA)](exams/engineering/gate-da.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Electrical Engineering (EE)](exams/engineering/gate-ee.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
 | [GATE Electronics and Communication (EC)](exams/engineering/gate-ec.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
 | [GATE Instrumentation Engineering (IN)](exams/engineering/gate-in.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
 | [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
-| [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ⚪ unverified | 2026-09-27 |
+| [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ⚪ unverified | 2026-09-28 |
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 05/2025 | 🟡 secondary | 2026-09-27 |
 | [SSC Junior Engineer (JE) — Electrical](exams/engineering/ssc-je-ee.md) | Staff Selection Commission | SSC JE 2026 | 🟡 secondary | 2026-09-27 |
 | [State AE / JE (Electrical) tracker](exams/engineering/state-ae-je.md) | State PSCs and state power utilities | Rolling, per state advertisement | ⚪ unverified | 2026-09-27 |
@@ -66,15 +66,15 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [AP EAPCET](exams/engineering-entrance/ap-eapcet.md) | APSCHE (conducting university varies) | AP EAPCET 2026 | ⚪ unverified | 2026-09-27 |
-| [BITSAT](exams/engineering-entrance/bitsat.md) | BITS Pilani | BITSAT 2026 | 🟡 secondary | 2026-09-27 |
-| [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | 🟡 secondary | 2026-09-27 |
-| [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | 🟡 secondary | 2026-09-27 |
+| [AP EAPCET](exams/engineering-entrance/ap-eapcet.md) | JNT University Kakinada on behalf of APSCHE | AP EAPCET 2026 | ✅ official | 2026-09-27 |
+| [BITSAT](exams/engineering-entrance/bitsat.md) | BITS Pilani | BITSAT 2026 | ✅ official | 2026-09-28 |
+| [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | ✅ official | 2026-09-28 |
+| [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | ✅ official | 2026-09-27 |
 | [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | 🟡 secondary | 2026-09-27 |
 | [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | 🟡 secondary | 2026-09-27 |
-| [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | 🟡 secondary | 2026-09-27 |
-| [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | 🟡 secondary | 2026-09-27 |
-| [TG (Telangana) EAPCET](exams/engineering-entrance/ts-eapcet.md) | TGCHE (conducting university varies) | TG EAPCET 2026 | ⚪ unverified | 2026-09-27 |
+| [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | ✅ official | 2026-09-28 |
+| [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | ✅ official | 2026-09-28 |
+| [TG (Telangana) EAPCET](exams/engineering-entrance/ts-eapcet.md) | JNTUH (on behalf of TGCHE) | TG EAPCET 2026 | ✅ official | 2026-09-27 |
 | [VITEEE](exams/engineering-entrance/viteee.md) | Vellore Institute of Technology | VITEEE 2026 | 🟡 secondary | 2026-09-27 |
 | [WBJEE](exams/engineering-entrance/wbjee.md) | West Bengal Joint Entrance Examinations Board | WBJEE 2026 | 🟡 secondary | 2026-09-27 |
 
@@ -83,24 +83,24 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [AIIMS NORCET (Nursing Officer)](exams/medical/aiims-norcet.md) | AIIMS New Delhi | NORCET (latest) | ⚪ unverified | 2026-09-27 |
-| [FMGE (Foreign Medical Graduate Examination)](exams/medical/fmge.md) | National Board of Examinations in Medical Sciences (NBEMS) | FMGE (latest session) | 🟡 secondary | 2026-09-27 |
+| [FMGE (Foreign Medical Graduate Examination)](exams/medical/fmge.md) | National Board of Examinations in Medical Sciences (NBEMS) | FMGE October 2026 | ✅ official | 2026-09-28 |
 | [INI-CET](exams/medical/ini-cet.md) | AIIMS New Delhi | INI-CET (latest session) | 🟡 secondary | 2026-09-27 |
-| [NEET PG](exams/medical/neet-pg.md) | National Board of Examinations in Medical Sciences (NBEMS) | NEET PG 2026 | 🟡 secondary | 2026-09-27 |
+| [NEET PG](exams/medical/neet-pg.md) | National Board of Examinations in Medical Sciences (NBEMS) | NEET PG 2026 | 🟡 secondary | 2026-09-28 |
 | [NEET UG](exams/medical/neet-ug.md) | National Testing Agency (NTA) | NEET UG 2026 | 🟡 secondary | 2026-09-27 |
 
 ### UPSC
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [UPSC CAPF (Assistant Commandant)](exams/upsc/upsc-capf.md) | Union Public Service Commission | CAPF (AC) 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC CAPF (Assistant Commandant)](exams/upsc/upsc-capf.md) | Union Public Service Commission | CAPF (AC) 2026 | 🟡 secondary | 2026-09-28 |
 | [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2027 | 🟡 secondary | 2026-09-27 |
 | [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | 🟡 secondary | 2026-09-27 |
 | [UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)](exams/upsc/upsc-ies-iss.md) | Union Public Service Commission | IES/ISS 2026 | 🟡 secondary | 2026-09-27 |
-| [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | 🟡 secondary | 2026-09-27 |
-| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | 🟡 secondary | 2026-09-28 |
+| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | 🟡 secondary | 2026-09-28 |
 
 ### State PSC civil services
 
@@ -116,28 +116,28 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ⚪ unverified | 2026-09-27 |
 | [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-27 |
 | [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | ⚪ unverified | 2026-09-27 |
-| [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-27 |
+| [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-28 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS (latest) | ⚪ unverified | 2026-09-27 |
-| [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | 🟡 secondary | 2026-09-27 |
+| [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | ⚪ unverified | 2026-09-27 |
 | [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | TGPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | TNPSC Group 4 (latest) | ⚪ unverified | 2026-09-27 |
 | [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS (latest) | ⚪ unverified | 2026-09-27 |
-| [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | UPPSC PCS (latest) | 🟡 secondary | 2026-09-27 |
+| [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | PCS 2025 (Advt. A-1/E-1/2025) | 🟡 secondary | 2026-09-28 |
 | [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS (latest) | ⚪ unverified | 2026-09-27 |
 
 ### SSC
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [Delhi Police Constable (Executive)](exams/ssc/delhi-police-constable.md) | Staff Selection Commission | Delhi Police Constable (latest) | 🟡 secondary | 2026-09-27 |
-| [SSC CGL (Combined Graduate Level)](exams/ssc/ssc-cgl.md) | Staff Selection Commission | SSC CGL 2026 | 🟡 secondary | 2026-09-27 |
+| [Delhi Police Constable (Executive)](exams/ssc/delhi-police-constable.md) | Staff Selection Commission | Constable (Executive) Male and Female in Delhi Police Examination, 2025 | ✅ official | 2026-09-27 |
+| [SSC CGL (Combined Graduate Level)](exams/ssc/ssc-cgl.md) | Staff Selection Commission | SSC CGL 2026 | ✅ official | 2026-09-27 |
 | [SSC CHSL (Combined Higher Secondary Level)](exams/ssc/ssc-chsl.md) | Staff Selection Commission | SSC CHSL 2026 | 🟡 secondary | 2026-09-27 |
-| [SSC CPO (Sub-Inspector in Delhi Police and CAPFs)](exams/ssc/ssc-cpo.md) | Staff Selection Commission | SSC CPO 2026 | ⚪ unverified | 2026-09-27 |
+| [SSC CPO (Sub-Inspector in Delhi Police and CAPFs)](exams/ssc/ssc-cpo.md) | Staff Selection Commission | SSC CPO 2025 | ✅ official | 2026-09-28 |
 | [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | 🟡 secondary | 2026-09-27 |
 | [SSC Junior Hindi Translator (JHT)](exams/ssc/ssc-jht.md) | Staff Selection Commission | SSC JHT (latest) | 🟡 secondary | 2026-09-27 |
-| [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2026 | 🟡 secondary | 2026-09-27 |
-| [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | 🟡 secondary | 2026-09-27 |
+| [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2025 | ✅ official | 2026-09-27 |
+| [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | ✅ official | 2026-09-28 |
 | [SSC Stenographer (Grade C and D)](exams/ssc/ssc-stenographer.md) | Staff Selection Commission | SSC Stenographer (latest) | 🟡 secondary | 2026-09-27 |
 
 ### Railways: RRB and RPF
@@ -145,11 +145,11 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [RPF Constable](exams/railways/rpf-constable.md) | Railway Protection Force (through RRBs) | RPF Constable (latest CEN) | 🟡 secondary | 2026-09-27 |
-| [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | RPF SI (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | CEN RPF 01/2024 | ✅ official | 2026-09-28 |
 | [RRB Assistant Loco Pilot (ALP)](exams/railways/rrb-alp.md) | Railway Recruitment Boards | RRB ALP (CEN 01/2026) | 🟡 secondary | 2026-09-27 |
 | [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | RRB Group D (latest CEN) | 🟡 secondary | 2026-09-27 |
 | [RRB NTPC (Non-Technical Popular Categories)](exams/railways/rrb-ntpc.md) | Railway Recruitment Boards | RRB NTPC (latest CEN) | 🟡 secondary | 2026-09-27 |
-| [RRB Technician (Grade 1 Signal and Grade 3)](exams/railways/rrb-technician.md) | Railway Recruitment Boards | RRB Technician (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RRB Technician (Grade 1 Signal and Grade 3)](exams/railways/rrb-technician.md) | Railway Recruitment Boards | CEN 02/2026 | ✅ official | 2026-09-28 |
 
 ### Banking, insurance and regulators
 
@@ -157,14 +157,14 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | IBPS Clerk (CRP CSA, latest) | 🟡 secondary | 2026-09-27 |
 | [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT 2026 | 🟡 secondary | 2026-09-27 |
-| [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs, latest) | 🟡 secondary | 2026-09-27 |
+| [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs-XV, 2026) | 🟡 secondary | 2026-09-28 |
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL, latest) | ⚪ unverified | 2026-09-27 |
-| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | LIC AAO (latest) | 🟡 secondary | 2026-09-27 |
-| [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | NABARD Grade A (latest) | 🟡 secondary | 2026-09-27 |
+| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | LIC AAO (latest) | ⚪ unverified | 2026-09-27 |
+| [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | NABARD Grade A (latest) | ⚪ unverified | 2026-09-27 |
 | [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant (latest) | 🟡 secondary | 2026-09-27 |
-| [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (latest) | 🟡 secondary | 2026-09-27 |
+| [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |
 | [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk (latest) | 🟡 secondary | 2026-09-27 |
-| [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO (latest) | 🟡 secondary | 2026-09-27 |
+| [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO 2026 (Advt CRPD/PO/2026-27/09) | 🟡 secondary | 2026-09-28 |
 | [SEBI Grade A (Assistant Manager)](exams/banking/sebi-grade-a.md) | Securities and Exchange Board of India | SEBI Grade A (latest) | 🟡 secondary | 2026-09-27 |
 
 ### Defence (non-UPSC entries)

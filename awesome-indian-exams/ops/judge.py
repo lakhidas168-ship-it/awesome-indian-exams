@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -72,6 +73,10 @@ def candidates() -> list[tuple[str, str]]:
         parts = ref.split("/")
         if len(parts) == 5 and parts[3] in ("hermes", "opencode"):
             found.append((ref[len("refs/heads/"):], sha))
+    shard = os.environ.get("HIVE_JUDGE_SHARD", "")  # "i/n": parallel judges take disjoint branch sets
+    if re.fullmatch(r"\d+/\d+", shard):
+        i, n = map(int, shard.split("/"))
+        found = [f for f in found if int(hashlib.sha1(f[0].encode()).hexdigest(), 16) % n == i]
     return sorted(found)
 
 
@@ -93,6 +98,14 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
                            "--branch", branch, "--worktree", str(wt)], None),
     ]
     env = {**os.environ, "HIVE_IN_JUDGE": "1"}  # heavy end-to-end tests don't recurse into the judge
+    # Content-only branches (no path under scripts/, tests/, ops/ except the receipt, .agents/, opencode.json, or
+    # outside the content folder) cannot change what the self-tests exercise; the content, scope and evidence gates
+    # still run. This keeps the judge at seconds per page instead of ~12 minutes (Mac, 2026-09-28: 47 branches queued).
+    inner = [p[len(prefix()) + 1:] if p.startswith(prefix() + "/") else "/" + p for p in diff.split()]
+    tooling = [p for p in inner if p.startswith(("/", "scripts/", "tests/", ".agents/", "opencode.json"))
+               or (p.startswith("ops/") and not p.startswith("ops/done/"))]
+    if not tooling and os.environ.get("HIVE_JUDGE_FULL_TESTS") != "1":
+        steps = [s for s in steps if "self-tests" not in s[0]]
     for name, cmd, stdin in steps:
         res = subprocess.run(cmd, cwd=c, input=stdin, text=True, capture_output=True, env=env)
         if res.returncode != 0:

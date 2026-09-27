@@ -1,36 +1,49 @@
 ---
 title: TG (Telangana) EAPCET
 exam_id: ts-eapcet
-conducting_body: TGCHE (conducting university varies)
+conducting_body: JNTUH (on behalf of TGCHE)
 official_site: https://eapcet.tgche.ac.in
 cycle: TG EAPCET 2026
 last_verified: 2026-09-27
-verification: unverified
+verification: official
 ---
 
 # TG (Telangana) EAPCET
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: ✅ verified.** This page gives the structure and the official links. Numbers are cross-checked
+> against the 2026 official instruction booklet.
 
 TG EAPCET is Telangana's entrance for engineering, agriculture and pharmacy seats in the state, conducted
-by a state university for TGCHE.
+by JNTUH for TGCHE.
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | TGCHE (conducting university varies) |
+| Conducted by | JNTUH (on behalf of TGCHE) |
+| Exam mode | Computer-based test (CBT) |
+| Duration | 3 hours |
+| Total questions | 160 |
 | Stages | Computer-based test → counselling |
 
 ## Official sources
 
 - Official website: <https://eapcet.tgche.ac.in>
+- Instruction Booklet (Engineering): <https://eapcet.tgche.ac.in/TGEAPCET/Doc2026/05%20I%20Booklet%20-%20E%20-%202026.pdf>
 
 ## Exam pattern
 
 A computer-based test in Mathematics, Physics and Chemistry for engineering (Biology replaces Mathematics for
-agriculture and pharmacy). The bulletin has the questions, time and marking.
+agriculture and pharmacy).
+
+| Subject | Questions |
+|---|---|
+| Mathematics | 80 |
+| Physics | 40 |
+| Chemistry | 40 |
+| **Total** | **160** |
+
+Each question carries one mark.
 
 ## Syllabus
 

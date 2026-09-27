@@ -4,45 +4,62 @@ exam_id: ssc-selection-post
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC Selection Post Phase 14 (2026)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # SSC Selection Posts
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
-
-SSC Selection Posts recruit for many small, post-specific vacancies across central departments, at Class 10,
-Class 12 and graduate levels, through one combined CBT per phase.
+SSC Selection Posts recruit for many small, post-specific Group B and C vacancies across central
+departments, at Matriculation, Higher Secondary (10+2) and Graduation-and-above levels, with a separate
+computer-based examination for each level in every phase.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
-| Levels | Matric, Higher Secondary and Graduate, with a separate paper for each level |
-| CBT | 100 questions, 200 marks, 60 minutes |
+| Levels | Matriculation, Higher Secondary (10+2) and Graduation and above, with a separate CBE for each level |
+| CBT | 100 questions, 200 marks, 60 minutes (15-minute sectional timer per part) |
+| Negative marking | 0.50 marks per wrong answer |
+| Medium | Hindi and English only |
 
 ## Official sources
 
+- Notice for Phase-XIV/2026/Selection Posts (Advertisement No. Phase-XIV/2026/Selection Posts, 13.04.2026): <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_RHQ_2026_phase_xiv.pdf>
 - SSC official website (notices, syllabus, answer keys): <https://ssc.gov.in>
 
 ## Exam pattern
 
-**CBT:** 100 questions, 200 marks, 60 minutes, **−0.50** per wrong answer, four sections of 25 questions each:
-reasoning, general awareness, quantitative aptitude and English. Phase 14 introduced **sectional timing**. Some posts
-add a skill test or document scrutiny for post-specific qualifications.
+**CBE (one per level):** 100 objective multiple-choice questions, 200 marks, 60 minutes with a sectional
+timer of 15 minutes for each part (80 minutes with a 20-minute timer per part for scribe-eligible
+candidates). **−0.50** marks per wrong answer. The paper is held in Hindi and English only, and scores
+from multiple shifts are normalized.
+
+| Part | Subject | Questions | Marks |
+|---|---|---:|---:|
+| A | General Intelligence | 25 | 50 |
+| B | General Awareness | 25 | 50 |
+| C | Quantitative Aptitude (Basic Arithmetic Skill) | 25 | 50 |
+| D | English Language (Basic Knowledge) | 25 | 50 |
+
+**After the CBE:** shortlisted candidates upload documents on the portal; scrutiny and document
+verification are done by the user departments. Skill tests (typing, data entry, computer proficiency)
+where prescribed in the essential qualification are qualifying in nature.
 
 ## Syllabus
 
-The four SSC modules at the level of the post (Class 10, Class 12 or graduate).
+Indicative level-wise syllabus is in para 15.9 of the Phase-XIV notice: General Intelligence (verbal and
+non-verbal reasoning), General Awareness (static GK plus current affairs), Quantitative Aptitude
+(arithmetic at Matriculation level, rising to algebra, geometry, mensuration, trigonometry and
+statistical charts at Graduation level) and English Language (vocabulary, grammar, comprehension).
 
 ## How to prepare (free, in order)
 
-1. Read each post's essential qualification carefully: selection posts are post-specific.
-2. Practise under sectional timing.
+1. Read your post's essential qualification carefully: selection posts are post-specific, and ineligible
+candidature is cancelled at any stage.
+2. Practise 15-minute sectional blocks: the timer locks each part.
+3. Attempt previous SSC papers in Hindi or English under 60-minute conditions.
 
 ## Free resources
 

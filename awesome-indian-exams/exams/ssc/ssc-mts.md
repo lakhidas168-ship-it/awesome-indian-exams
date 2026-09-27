@@ -3,16 +3,12 @@ title: SSC MTS (Multi-Tasking Staff) and Havaldar
 exam_id: ssc-mts
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
-cycle: SSC MTS 2026
+cycle: SSC MTS 2025
 last_verified: 2026-09-27
-verification: secondary
+verification: official
 ---
 
 # SSC MTS (Multi-Tasking Staff) and Havaldar
-
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
 
 SSC MTS recruits Class 10 pass candidates as Multi-Tasking Staff in central government offices, and as
 Havaldar in CBIC and CBN. It is one of the most-applied government exams in India.
@@ -22,29 +18,44 @@ Havaldar in CBIC and CBN. It is one of the most-applied government exams in Indi
 | | |
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
-| Stages | CBT (two sessions) → PET/PST for Havaldar → document verification |
-| Qualification | Class 10 pass |
+| Stages | CBE (two sessions, same day) → PET/PST for Havaldar → document verification |
+| Qualification | Matriculation (Class 10) pass or equivalent from a recognized Board as on 01-08-2025 |
+| Age (as on 01-08-2025) | 18–25 years for MTS; 18–27 years for Havaldar (and a few MTS posts) |
 
 ## Official sources
 
-- SSC official website (notices, syllabus, answer keys): <https://ssc.gov.in>
+- Notice: Multi-Tasking (Non-Technical) Staff and Havaldar (CBIC & CBN) Examination, 2025: <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf>
+- SSC official website (notices, answer keys, results): <https://ssc.gov.in>
 
 ## Exam pattern
 
-**Computer-based test:** 90 questions, 270 marks, both sessions compulsory, 3 marks per question.
+**Computer-based examination:** 90 questions, 270 marks, 3 marks per question. Both sessions are held
+on the same day and both are mandatory. Medium: Hindi, English and 13 regional languages.
 
 | Session | Subjects | Questions | Marks | Time | Negative marking |
 |---|---|---:|---:|---|---|
 | Session I | Numerical and Mathematical Ability; Reasoning Ability and Problem Solving | 40 | 120 | 45 min | None |
-| Session II | General English; General Awareness | 50 | 150 | 45 min | −1 per wrong answer |
+| Session II | General Awareness; English Language and Comprehension | 50 | 150 | 45 min | −1 per wrong answer |
 
-**Havaldar only:** a qualifying Physical Efficiency Test and Physical Standard Test. The walking standard is 1,600 m in
-15 minutes for men and 1 km in 20 minutes for women. The notice has the full physical standards.
+Session I is evaluated first; Session II is evaluated only for candidates who qualify Session I.
+Minimum qualifying marks (both sessions): 30% for UR, 25% for OBC/EWS, 20% for all other categories.
+Final merit is based on normalized scores in Session II only.
+
+**Havaldar only:** a qualifying Physical Efficiency Test and Physical Standard Test. The walking standard
+is 1,600 m in 15 minutes for men and 1 km in 20 minutes for women. The notice has the full physical
+standards (height, chest, weight and relaxations).
 
 ## Syllabus
 
-Class 10 level: arithmetic (number system, percentages, ratio, averages, interest, profit and loss, time and
-work), reasoning, basic English grammar and comprehension, and general awareness (static GK and current affairs).
+- **Numerical and Mathematical Ability:** integers, LCM/HCF, decimals and fractions, BODMAS, percentage,
+  ratio and proportion, work and time, averages, simple interest, profit and loss, discount, area and
+  perimeter, distance and time, lines and angles, simple graphs and data, squares and square roots.
+- **Reasoning Ability and Problem Solving:** alpha-numeric series, coding-decoding, analogy, directions,
+  similarities and differences, jumbling, non-verbal reasoning, age calculations, calendar and clock.
+- **General Awareness:** Social Studies (history, geography, art and culture, civics, economics), General
+  Science and Environmental studies up to Class 10 level.
+- **English Language and Comprehension:** basics of vocabulary, grammar, sentence structure, synonyms,
+  antonyms and usage, plus a simple comprehension paragraph.
 
 ## How to prepare (free, in order)
 

@@ -5,14 +5,12 @@ conducting_body: Life Insurance Corporation of India
 official_site: https://licindia.in
 cycle: LIC AAO (latest)
 last_verified: 2026-09-27
-verification: secondary
+verification: unverified
 ---
 
 # LIC AAO (Assistant Administrative Officer)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The facts below are based on historical patterns. An official notification for the current cycle was not successfully fetched this run. Always read the current notice before you apply or pay a fee.
 
 LIC AAO recruits Assistant Administrative Officers (Generalist and Specialist) for the Life Insurance
 Corporation of India.
