@@ -3,36 +3,47 @@ title: UPPSC PCS (Combined State/Upper Subordinate Services)
 exam_id: uppsc-pcs
 conducting_body: Uttar Pradesh Public Service Commission
 official_site: https://uppsc.up.nic.in
-cycle: UPPSC PCS (latest)
-last_verified: 2026-09-27
+cycle: PCS 2025 (Advt. A-1/E-1/2025)
+last_verified: 2026-09-28
 verification: secondary
 ---
 
 # UPPSC PCS (Combined State/Upper Subordinate Services)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟡 secondary (2026-09-28).** The three-stage structure, the current cycle
+> (Advt. A-1/E-1/2025, at interview stage), and the commission's previous-paper archive were confirmed
+> against official uppsc.up.nic.in pages fetched this run (see Official sources). The prelims
+> question/marks figures below follow the standing PCS pattern but were **not** re-confirmed against the
+> notification PDF this run — the 2025 advertisement is closed and its PDF is no longer on the live
+> notice board. Always read the current notice before you apply or pay a fee.
 
-UPPSC's Combined State/Upper Subordinate Services exam recruits SDMs, DSPs and other
-state officers in Uttar Pradesh. It is one of the most-attempted state exams.
+UPPSC's Combined State/Upper Subordinate Services exam recruits officers for Uttar Pradesh's state
+and upper subordinate services. It is one of the most-attempted state exams. See the advertisement
+for the exact post list.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Uttar Pradesh Public Service Commission |
-| Stages | Preliminary (objective) → Main (descriptive) → interview |
+| Stages | Preliminary (objective) → Main (written) → interview |
+| Current cycle | Advt. A-1/E-1/2025; interviews in progress (notice board, September 2026) |
 
 ## Official sources
 
-- Commission's official website (notifications, syllabus, previous papers): <https://uppsc.up.nic.in>
+- Important notices and alerts (interview letters, live advertisements): <https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx>
+- Recruitment mode: Preliminary + Main + interview (page): <https://uppsc.up.nic.in/PublicPages/Recruitment_Details.aspx?ID=EIM>
+- Recruitment mode: Preliminary + Main + interview (PDF): <https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf>
+- Previous-year question papers archive: <https://uppsc.up.nic.in/OuterPages/PreQuesPapers.aspx?ID=PrevQues>
+- All notifications / advertisements: <https://uppsc.up.nic.in/CandidatePages/Notifications.aspx>
+- Post-wise syllabus downloads: <https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus_PostWise.aspx?ID=4>
 
 ## Exam pattern
 
-**Prelims:** General Studies I (150 questions, 200 marks), which decides who reaches the Mains, and General
-Studies II/CSAT (100 questions, 200 marks), which is **qualifying at 33%**. Only GS I marks count for the prelims merit.
-**Mains:** descriptive papers (general Hindi, essay, general studies, including UP-specific papers), then an
+**Prelims (standing pattern — confirm against the notification):** General Studies I (150 questions,
+200 marks), which decides who reaches the Mains, and General Studies II/CSAT (100 questions,
+200 marks), which is **qualifying at 33%**. Only GS I marks count for the prelims merit.
+**Mains:** written papers (general Hindi, essay, general studies, including UP-specific papers), then an
 interview. The notification has the paper list and marks.
 
 ## Syllabus
