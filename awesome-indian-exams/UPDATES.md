@@ -6,6 +6,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-27 20:10 UTC** · `T-122` · hermes · [Exam AI evaluation set: 50 original questions per exam family with answers verified against official sources, plus questions the list cannot answer (expected answer: not sure, with the official link)](ops/done/T-122.md)
 - **2026-09-27 20:10 UTC** · `T-007` · hermes · [PSU tracker: record each PSU's most recent EE recruitment channel (GATE year / own exam) with the official advertisement link](ops/done/T-007.md)
 - **2026-09-27 20:09 UTC** · `T-015` · hermes · [Verify the GATE CE page (exams/engineering/gate-ce.md) against the official GATE 2027 brochure and syllabus](ops/done/T-015.md)
+- **2026-09-27 20:06 UTC** · `T-212` · opencode · [Verify the TG (Telangana) EAPCET page (exams/engineering-entrance/ts-eapcet.md) against its current official notification](ops/done/T-212.md)
 - **2026-09-27 20:06 UTC** · `T-013` · hermes · [Verify the GATE DA page (exams/engineering/gate-da.md) against the official GATE 2027 brochure and syllabus](ops/done/T-013.md)
 - **2026-09-27 20:03 UTC** · `T-257` · hermes · [Verify the RRB Technician page (exams/railways/rrb-technician.md) against its current official notification](ops/done/T-257.md)
 - **2026-09-27 20:02 UTC** · `T-010` · hermes · [Publish the EE concept prerequisite map from the Sovereign Learning OS graph → resources/prerequisite-map.md](ops/done/T-010.md)
