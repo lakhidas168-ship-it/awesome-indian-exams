@@ -4,15 +4,15 @@ exam_id: keam
 conducting_body: Commissioner for Entrance Examinations, Kerala
 official_site: https://cee.kerala.gov.in
 cycle: KEAM 2026
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # KEAM (Engineering)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** The numbers below are from the KEAM 2026 Prospectus (and its Annexure I
+> syllabus), fetched from cee.kerala.gov.in on 2026-09-28. Always read the current notice before you apply or
+> pay a fee.
 
 KEAM is Kerala's entrance for engineering, architecture, pharmacy and medical courses in the state. This page
 covers the engineering paper.
@@ -22,12 +22,15 @@ covers the engineering paper.
 | | |
 |---|---|
 | Conducted by | Office of the Commissioner for Entrance Examinations (CEE), Kerala |
-| Mode | Computer-based, one paper, 3 hours |
-| Total | 150 questions, 600 marks |
+| Mode | Computer-based test (CBT), 180 minutes (Clauses 9.4.2–9.4.3) |
+| Questions | 150: Mathematics 75, Physics 45, Chemistry 30 (Clause 9.4.3) |
+| Scoring | +4 for correct, −1 for wrong, nothing deducted for an unanswered question (Clause 9.4.4) |
+| Entrance score | Normalized to 300; the rank index is out of 600 (Clauses 9.4.4(i), 9.7.4(b)) |
 
 ## Official sources
 
-- CEE Kerala (official): <https://cee.kerala.gov.in>
+- KEAM 2026 Prospectus (all numbers on this page; Annexure I is the syllabus): <http://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf>
+- CEE Kerala KEAM 2026 portal (notifications, answer key, rank lists): <http://cee.kerala.gov.in/keam2026/>
 
 ## Exam pattern
 
