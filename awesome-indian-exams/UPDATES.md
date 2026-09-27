@@ -11,6 +11,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-27 20:02 UTC** · `T-010` · hermes · [Publish the EE concept prerequisite map from the Sovereign Learning OS graph → resources/prerequisite-map.md](ops/done/T-010.md)
 - **2026-09-27 20:02 UTC** · `T-016` · hermes · [Refresh docs/FREE-COMPUTE.md: check each free tier and credit programme on its official page, remove dead ones, add new ones](ops/done/T-016.md)
 - **2026-09-27 20:01 UTC** · `T-227` · hermes · [Verify the UPPSC PCS (Combined State/Upper Subordinate Services) page (exams/state-psc/uppsc-pcs.md) against its current official notification](ops/done/T-227.md)
+- **2026-09-27 20:00 UTC** · `T-261` · hermes · [Verify the IBPS RRB (Officer Scale I and Office Assistant) page (exams/banking/ibps-rrb.md) against its current official notification](ops/done/T-261.md)
 - **2026-09-27 19:59 UTC** · `T-229` · hermes · [Verify the RPSC RAS/RTS page (exams/state-psc/rpsc-ras.md) against its current official notification](ops/done/T-229.md)
 - **2026-09-27 19:53 UTC** · `T-249` · hermes · [Verify the SSC CPO (Sub-Inspector in Delhi Police and CAPFs) page (exams/ssc/ssc-cpo.md) against its current official notification](ops/done/T-249.md)
 - **2026-09-27 19:41 UTC** · `T-251` · hermes · [Verify the SSC Selection Posts page (exams/ssc/ssc-selection-post.md) against its current official notification](ops/done/T-251.md)
