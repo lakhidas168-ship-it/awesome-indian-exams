@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 52 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 67 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -132,7 +132,16 @@ _5 exams in the [registry](resources/all-exams.md#defence), pages queued for the
 
 ### Teaching and research: TET, NET, KVS
 
-_7 exams in the [registry](resources/all-exams.md#teaching), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | 🟡 secondary | 2026-09-27 |
+| [CTET (Central Teacher Eligibility Test)](exams/teaching/ctet.md) | Central Board of Secondary Education | CTET (latest session) | 🟡 secondary | 2026-09-27 |
+| [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | DSSSB (rolling advertisements) | ⚪ unverified | 2026-09-27 |
+| [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
+| [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
+| [UGC NET](exams/teaching/ugc-net.md) | National Testing Agency (NTA) | UGC NET (latest session) | 🟡 secondary | 2026-09-27 |
+
+_1 more in the [registry](resources/all-exams.md#teaching), pages queued for the hive._
 
 ### University and design entrance: CUET, JAM, NIFT, NID
 
@@ -148,11 +157,24 @@ _2 exams in the [registry](resources/all-exams.md#school), pages queued for the 
 
 ### Law entrance
 
-_3 exams in the [registry](resources/all-exams.md#law), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [AILET (NLU Delhi)](exams/law/ailet.md) | National Law University Delhi | AILET 2027 | 🟡 secondary | 2026-09-27 |
+| [CLAT (Common Law Admission Test)](exams/law/clat.md) | Consortium of National Law Universities | CLAT 2027 | 🟡 secondary | 2026-09-27 |
+| [MAH CET Law](exams/law/mh-cet-law.md) | State CET Cell, Maharashtra | MAH CET Law (latest) | ⚪ unverified | 2026-09-27 |
 
 ### Management entrance: CAT, XAT and others
 
-_8 exams in the [registry](resources/all-exams.md#management), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | 🟡 secondary | 2026-09-27 |
+| [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2027 | 🟡 secondary | 2026-09-27 |
+| [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA CET (latest) | 🟡 secondary | 2026-09-27 |
+| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | MAT (latest session) | 🟡 secondary | 2026-09-27 |
+| [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | 🟡 secondary | 2026-09-27 |
+| [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2027 (3 January 2027) | 🟡 secondary | 2026-09-27 |
+
+_2 more in the [registry](resources/all-exams.md#management), pages queued for the hive._
 
 ### Professional courses: CA, CS, CMA
 

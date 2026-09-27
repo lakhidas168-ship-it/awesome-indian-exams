@@ -160,13 +160,13 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| CSIR NET (JRF / Assistant Professor) | National Testing Agency | <https://csirnet.nta.nic.in> | queued |
-| CTET | Central Board of Secondary Education | <https://ctet.nic.in> | queued |
-| DSSSB teacher and staff recruitment (Delhi) | Delhi Subordinate Services Selection Board | <https://dsssb.delhi.gov.in> | queued |
-| KVS teacher and staff recruitment | Kendriya Vidyalaya Sangathan | <https://kvsangathan.nic.in> | queued |
-| NVS teacher and staff recruitment | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | queued |
+| CSIR NET (JRF / Assistant Professor) | National Testing Agency | <https://csirnet.nta.nic.in> | [open](../exams/teaching/csir-net.md) |
+| CTET | Central Board of Secondary Education | <https://ctet.nic.in> | [open](../exams/teaching/ctet.md) |
+| DSSSB teacher and staff recruitment (Delhi) | Delhi Subordinate Services Selection Board | <https://dsssb.delhi.gov.in> | [open](../exams/teaching/dsssb.md) |
+| KVS teacher and staff recruitment | Kendriya Vidyalaya Sangathan | <https://kvsangathan.nic.in> | [open](../exams/teaching/kvs-recruitment.md) |
+| NVS teacher and staff recruitment | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | [open](../exams/teaching/nvs-recruitment.md) |
 | State TETs (UPTET, REET, MAHATET and others) | State education boards | — | queued |
-| UGC NET | National Testing Agency | <https://ugcnet.nta.nic.in> | queued |
+| UGC NET | National Testing Agency | <https://ugcnet.nta.nic.in> | [open](../exams/teaching/ugc-net.md) |
 
 ## University and design entrance: CUET, JAM, NIFT, NID
 
@@ -198,9 +198,9 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| AILET (NLU Delhi) | National Law University Delhi | <https://nationallawuniversitydelhi.in> | queued |
-| CLAT | Consortium of National Law Universities | <https://consortiumofnlus.ac.in> | queued |
-| MAH CET Law | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | queued |
+| AILET (NLU Delhi) | National Law University Delhi | <https://nationallawuniversitydelhi.in> | [open](../exams/law/ailet.md) |
+| CLAT | Consortium of National Law Universities | <https://consortiumofnlus.ac.in> | [open](../exams/law/clat.md) |
+| MAH CET Law | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | [open](../exams/law/mh-cet-law.md) |
 
 ## Management entrance: CAT, XAT and others
 
@@ -208,14 +208,14 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| CAT | IIMs (convening IIM rotates) | <https://iimcat.ac.in> | queued |
+| CAT | IIMs (convening IIM rotates) | <https://iimcat.ac.in> | [open](../exams/management/cat.md) |
 | CMAT | National Testing Agency | — | queued |
-| IPMAT (IIM Indore) | IIM Indore | <https://www.iimidr.ac.in> | queued |
-| MAH MBA/MMS CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | queued |
-| MAT | All India Management Association | <https://mat.aima.in> | queued |
+| IPMAT (IIM Indore) | IIM Indore | <https://www.iimidr.ac.in> | [open](../exams/management/ipmat-indore.md) |
+| MAH MBA/MMS CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | [open](../exams/management/mah-mba-cet.md) |
+| MAT | All India Management Association | <https://mat.aima.in> | [open](../exams/management/mat.md) |
 | NMAT | GMAC | — | queued |
-| SNAP | Symbiosis International University | <https://www.snaptest.org> | queued |
-| XAT | XLRI Jamshedpur | <https://xatonline.in> | queued |
+| SNAP | Symbiosis International University | <https://www.snaptest.org> | [open](../exams/management/snap.md) |
+| XAT | XLRI Jamshedpur | <https://xatonline.in> | [open](../exams/management/xat.md) |
 
 ## Professional courses: CA, CS, CMA
 
