@@ -59,15 +59,15 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| UPSC CAPF (Assistant Commandant) | Union Public Service Commission | <https://upsc.gov.in> | queued |
+| UPSC CAPF (Assistant Commandant) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-capf.md) |
 | UPSC Civil Services (CSE) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-cse.md) |
-| UPSC Combined Defence Services (CDS) | Union Public Service Commission | <https://upsc.gov.in> | queued |
-| UPSC Combined Geo-Scientist | Union Public Service Commission | <https://upsc.gov.in> | queued |
-| UPSC Combined Medical Services (CMS) | Union Public Service Commission | <https://upsc.gov.in> | queued |
-| UPSC EPFO (EO/AO, APFC) | Union Public Service Commission | <https://upsc.gov.in> | queued |
-| UPSC Indian Economic / Statistical Service (IES/ISS) | Union Public Service Commission | <https://upsc.gov.in> | queued |
-| UPSC Indian Forest Service (IFoS) | Union Public Service Commission | <https://upsc.gov.in> | queued |
-| UPSC NDA and NA | Union Public Service Commission | <https://upsc.gov.in> | queued |
+| UPSC Combined Defence Services (CDS) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-cds.md) |
+| UPSC Combined Geo-Scientist | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-geoscientist.md) |
+| UPSC Combined Medical Services (CMS) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-cms.md) |
+| UPSC EPFO (EO/AO, APFC) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-epfo.md) |
+| UPSC Indian Economic / Statistical Service (IES/ISS) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-ies-iss.md) |
+| UPSC Indian Forest Service (IFoS) | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-ifos.md) |
+| UPSC NDA and NA | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/upsc/upsc-nda.md) |
 
 ## State PSC civil services
 

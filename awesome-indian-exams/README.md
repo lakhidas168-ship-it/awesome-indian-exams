@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 44 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 52 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -73,9 +73,15 @@ _2 more in the [registry](resources/all-exams.md#engineering-entrance), pages qu
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [UPSC CAPF (Assistant Commandant)](exams/upsc/upsc-capf.md) | Union Public Service Commission | CAPF (AC) 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2027 | 🟡 secondary | 2026-09-27 |
-
-_8 more in the [registry](resources/all-exams.md#upsc), pages queued for the hive._
+| [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | 🟡 secondary | 2026-09-27 |
+| [UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)](exams/upsc/upsc-ies-iss.md) | Union Public Service Commission | IES/ISS 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | 🟡 secondary | 2026-09-27 |
 
 ### State PSC civil services
 

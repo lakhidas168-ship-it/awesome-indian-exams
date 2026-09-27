@@ -452,11 +452,10 @@ id = "T-219"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-nda.md (UPSC NDA and NA) from its official notification"
+title = "Verify the UPSC NDA and NA page (exams/upsc/upsc-nda.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -464,11 +463,10 @@ id = "T-220"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-cds.md (UPSC Combined Defence Services (CDS)) from its official notification"
+title = "Verify the UPSC Combined Defence Services (CDS) page (exams/upsc/upsc-cds.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -476,11 +474,10 @@ id = "T-221"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-capf.md (UPSC CAPF (Assistant Commandant)) from its official notification"
+title = "Verify the UPSC CAPF (Assistant Commandant) page (exams/upsc/upsc-capf.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -488,11 +485,10 @@ id = "T-222"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-cms.md (UPSC Combined Medical Services (CMS)) from its official notification"
+title = "Verify the UPSC Combined Medical Services (CMS) page (exams/upsc/upsc-cms.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -500,11 +496,10 @@ id = "T-223"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-ifos.md (UPSC Indian Forest Service (IFoS)) from its official notification"
+title = "Verify the UPSC Indian Forest Service (IFoS) page (exams/upsc/upsc-ifos.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -512,11 +507,10 @@ id = "T-224"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-epfo.md (UPSC EPFO (EO/AO, APFC)) from its official notification"
+title = "Verify the UPSC EPFO (EO/AO, APFC) page (exams/upsc/upsc-epfo.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -524,11 +518,10 @@ id = "T-225"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-geoscientist.md (UPSC Combined Geo-Scientist) from its official notification"
+title = "Verify the UPSC Combined Geo-Scientist page (exams/upsc/upsc-geoscientist.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -536,11 +529,10 @@ id = "T-226"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/upsc/upsc-ies-iss.md (UPSC Indian Economic / Statistical Service (IES/ISS)) from its official notification"
+title = "Verify the UPSC Indian Economic / Statistical Service (IES/ISS) page (exams/upsc/upsc-ies-iss.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://upsc.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
