@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 20 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 30 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -94,9 +94,17 @@ _4 more in the [registry](resources/all-exams.md#ssc), pages queued for the hive
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | IBPS Clerk (CRP CSA, latest) | 🟡 secondary | 2026-09-27 |
 | [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT 2026 | 🟡 secondary | 2026-09-27 |
-
-_10 more in the [registry](resources/all-exams.md#banking), pages queued for the hive._
+| [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs, latest) | 🟡 secondary | 2026-09-27 |
+| [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL, latest) | ⚪ unverified | 2026-09-27 |
+| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | LIC AAO (latest) | 🟡 secondary | 2026-09-27 |
+| [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | NABARD Grade A (latest) | 🟡 secondary | 2026-09-27 |
+| [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant (latest) | 🟡 secondary | 2026-09-27 |
+| [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (latest) | 🟡 secondary | 2026-09-27 |
+| [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk (latest) | 🟡 secondary | 2026-09-27 |
+| [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO (latest) | 🟡 secondary | 2026-09-27 |
+| [SEBI Grade A (Assistant Manager)](exams/banking/sebi-grade-a.md) | Securities and Exchange Board of India | SEBI Grade A (latest) | 🟡 secondary | 2026-09-27 |
 
 ### Defence (non-UPSC entries)
 

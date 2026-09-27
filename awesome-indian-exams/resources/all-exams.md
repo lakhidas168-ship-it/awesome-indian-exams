@@ -130,17 +130,17 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| IBPS Clerk | Institute of Banking Personnel Selection | <https://www.ibps.in> | queued |
+| IBPS Clerk | Institute of Banking Personnel Selection | <https://www.ibps.in> | [open](../exams/banking/ibps-clerk.md) |
 | IBPS PO | Institute of Banking Personnel Selection | <https://www.ibps.in> | [open](../exams/banking/ibps-po.md) |
-| IBPS RRB (Officer Scale I and Office Assistant) | Institute of Banking Personnel Selection | <https://www.ibps.in> | queued |
-| IBPS SO (Specialist Officer) | Institute of Banking Personnel Selection | <https://www.ibps.in> | queued |
-| LIC AAO | Life Insurance Corporation of India | <https://licindia.in> | queued |
-| NABARD Grade A | National Bank for Agriculture and Rural Development | <https://www.nabard.org> | queued |
-| RBI Assistant | Reserve Bank of India | <https://www.rbi.org.in> | queued |
-| RBI Grade B | Reserve Bank of India | <https://www.rbi.org.in> | queued |
-| SBI Clerk (Junior Associate) | State Bank of India | <https://sbi.co.in> | queued |
-| SBI PO | State Bank of India | <https://sbi.co.in> | queued |
-| SEBI Grade A | Securities and Exchange Board of India | <https://www.sebi.gov.in> | queued |
+| IBPS RRB (Officer Scale I and Office Assistant) | Institute of Banking Personnel Selection | <https://www.ibps.in> | [open](../exams/banking/ibps-rrb.md) |
+| IBPS SO (Specialist Officer) | Institute of Banking Personnel Selection | <https://www.ibps.in> | [open](../exams/banking/ibps-so.md) |
+| LIC AAO | Life Insurance Corporation of India | <https://licindia.in> | [open](../exams/banking/lic-aao.md) |
+| NABARD Grade A | National Bank for Agriculture and Rural Development | <https://www.nabard.org> | [open](../exams/banking/nabard-grade-a.md) |
+| RBI Assistant | Reserve Bank of India | <https://www.rbi.org.in> | [open](../exams/banking/rbi-assistant.md) |
+| RBI Grade B | Reserve Bank of India | <https://www.rbi.org.in> | [open](../exams/banking/rbi-grade-b.md) |
+| SBI Clerk (Junior Associate) | State Bank of India | <https://sbi.co.in> | [open](../exams/banking/sbi-clerk.md) |
+| SBI PO | State Bank of India | <https://sbi.co.in> | [open](../exams/banking/sbi-po.md) |
+| SEBI Grade A | Securities and Exchange Board of India | <https://www.sebi.gov.in> | [open](../exams/banking/sebi-grade-a.md) |
 
 ## Defence (non-UPSC entries)
 

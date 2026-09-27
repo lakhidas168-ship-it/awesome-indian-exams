@@ -947,11 +947,10 @@ id = "T-260"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/ibps-clerk.md (IBPS Clerk) from its official notification"
+title = "Verify the IBPS Clerk page (exams/banking/ibps-clerk.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.ibps.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -959,11 +958,10 @@ id = "T-261"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/ibps-rrb.md (IBPS RRB (Officer Scale I and Office Assistant)) from its official notification"
+title = "Verify the IBPS RRB (Officer Scale I and Office Assistant) page (exams/banking/ibps-rrb.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.ibps.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -971,11 +969,10 @@ id = "T-262"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/ibps-so.md (IBPS SO (Specialist Officer)) from its official notification"
+title = "Verify the IBPS SO (Specialist Officer) page (exams/banking/ibps-so.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.ibps.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -983,11 +980,10 @@ id = "T-263"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/sbi-po.md (SBI PO) from its official notification"
+title = "Verify the SBI PO page (exams/banking/sbi-po.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://sbi.co.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -995,11 +991,10 @@ id = "T-264"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/sbi-clerk.md (SBI Clerk (Junior Associate)) from its official notification"
+title = "Verify the SBI Clerk (Junior Associate) page (exams/banking/sbi-clerk.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://sbi.co.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1007,11 +1002,10 @@ id = "T-265"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/rbi-grade-b.md (RBI Grade B) from its official notification"
+title = "Verify the RBI Grade B page (exams/banking/rbi-grade-b.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rbi.org.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1019,11 +1013,10 @@ id = "T-266"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/rbi-assistant.md (RBI Assistant) from its official notification"
+title = "Verify the RBI Assistant page (exams/banking/rbi-assistant.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.rbi.org.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1031,11 +1024,10 @@ id = "T-267"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/nabard-grade-a.md (NABARD Grade A) from its official notification"
+title = "Verify the NABARD Grade A page (exams/banking/nabard-grade-a.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.nabard.org",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1043,11 +1035,10 @@ id = "T-268"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/sebi-grade-a.md (SEBI Grade A) from its official notification"
+title = "Verify the SEBI Grade A page (exams/banking/sebi-grade-a.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.sebi.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1055,11 +1046,10 @@ id = "T-269"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/banking/lic-aao.md (LIC AAO) from its official notification"
+title = "Verify the LIC AAO page (exams/banking/lic-aao.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://licindia.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
