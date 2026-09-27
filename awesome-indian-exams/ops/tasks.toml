@@ -12,38 +12,17 @@
 #            T-5xx harvest of the owner's earlier local work (where = "mac", added by JEVX from ops/harvest.py tasks).
 
 [[task]]
-id = "H-001"
-lane = "human"
-priority = 1
-title = "Merge PR #1 (switches on the free cloud hive); see docs/OWNER-CLICKS.md step 1"
-accept = ["the 'hive-cloud' workflow shows an hourly run under the Actions tab"]
-
-[[task]]
-id = "H-002"
-lane = "human"
-priority = 3
-title = "Create the public repo awesome-indian-exams and give Claude access (docs/OWNER-CLICKS.md steps 11-12)"
-accept = ["a Claude session has moved this folder into the new repository and the hive runs there"]
-
-[[task]]
-id = "H-003"
-lane = "human"
-priority = 1
-title = "Add OPENCODE_API_KEY and GEMINI_API_KEY repository secrets (docs/OWNER-CLICKS.md steps 2-4)"
-accept = ["the cloud OpenCode lane logs show opencode-go/deepseek-v4.1-flash being used"]
-
-[[task]]
 id = "H-004"
 lane = "human"
 priority = 1
-title = "Mac: paste the one-line setup, grant cron Full Disk Access, keep awake, sign in to each agent (steps 5-8)"
+title = "Mac: fix what the doctor reports: cron Full Disk Access, keep awake, sign in to each agent (docs/OWNER-CLICKS.md section A)"
 accept = ["`python3 awesome-indian-exams/ops/doctor.py --mac` shows no FAIL lines"]
 
 [[task]]
 id = "H-005"
 lane = "human"
 priority = 2
-title = "Connect the Google accounts that hold earlier exam work via Drive for desktop or Takeout into ~/Hive-Inbox (step 9)"
+title = "Connect the Google accounts that hold earlier exam work via Drive for desktop or Takeout into ~/Hive-Inbox (docs/OWNER-CLICKS.md section B)"
 accept = ["`python3 awesome-indian-exams/ops/harvest.py summary` lists items from those accounts"]
 
 [[task]]
@@ -1407,10 +1386,10 @@ id = "T-401"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/hindi-language.md (Hindi language): what it covers, depth by exam family, free official resources"
+title = "Review modules/hindi-language.md (Hindi language) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1418,10 +1397,10 @@ id = "T-402"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/data-interpretation.md (Data interpretation): what it covers, depth by exam family, free official resources"
+title = "Review modules/data-interpretation.md (Data interpretation) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1429,10 +1408,10 @@ id = "T-403"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/computer-awareness.md (Computer awareness): what it covers, depth by exam family, free official resources"
+title = "Review modules/computer-awareness.md (Computer awareness) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1440,10 +1419,10 @@ id = "T-404"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/banking-awareness.md (Banking and financial awareness): what it covers, depth by exam family, free official resources"
+title = "Review modules/banking-awareness.md (Banking and financial awareness) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1451,10 +1430,10 @@ id = "T-405"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/descriptive-writing.md (Essay and descriptive writing): what it covers, depth by exam family, free official resources"
+title = "Review modules/descriptive-writing.md (Essay and descriptive writing) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1462,10 +1441,10 @@ id = "T-406"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ncert-physics.md (Physics (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+title = "Review modules/ncert-physics.md (Physics (NCERT Class 11–12)) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1473,10 +1452,10 @@ id = "T-407"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ncert-chemistry.md (Chemistry (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+title = "Review modules/ncert-chemistry.md (Chemistry (NCERT Class 11–12)) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1484,10 +1463,10 @@ id = "T-408"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ncert-mathematics.md (Mathematics (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+title = "Review modules/ncert-mathematics.md (Mathematics (NCERT Class 11–12)) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1495,10 +1474,10 @@ id = "T-409"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ncert-biology.md (Biology (NCERT Class 11–12)): what it covers, depth by exam family, free official resources"
+title = "Review modules/ncert-biology.md (Biology (NCERT Class 11–12)) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1506,10 +1485,10 @@ id = "T-410"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/gs-polity.md (Indian polity and governance): what it covers, depth by exam family, free official resources"
+title = "Review modules/gs-polity.md (Indian polity and governance) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1517,10 +1496,10 @@ id = "T-411"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/gs-history.md (Indian history and culture): what it covers, depth by exam family, free official resources"
+title = "Review modules/gs-history.md (Indian history and culture) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1528,10 +1507,10 @@ id = "T-412"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/gs-geography.md (Geography of India and the world): what it covers, depth by exam family, free official resources"
+title = "Review modules/gs-geography.md (Geography of India and the world) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1539,10 +1518,10 @@ id = "T-413"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/gs-economy.md (Indian economy): what it covers, depth by exam family, free official resources"
+title = "Review modules/gs-economy.md (Indian economy) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1550,10 +1529,10 @@ id = "T-414"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/gs-environment.md (Environment and ecology): what it covers, depth by exam family, free official resources"
+title = "Review modules/gs-environment.md (Environment and ecology) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1561,10 +1540,10 @@ id = "T-415"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/gs-science-tech.md (Science and technology (current)): what it covers, depth by exam family, free official resources"
+title = "Review modules/gs-science-tech.md (Science and technology (current)) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1572,10 +1551,10 @@ id = "T-416"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/csat.md (CSAT: comprehension, reasoning, basic numeracy): what it covers, depth by exam family, free official resources"
+title = "Review modules/csat.md (CSAT: comprehension, reasoning, basic numeracy) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1583,10 +1562,10 @@ id = "T-417"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/legal-reasoning.md (Legal reasoning): what it covers, depth by exam family, free official resources"
+title = "Review modules/legal-reasoning.md (Legal reasoning) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1594,10 +1573,10 @@ id = "T-418"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/child-pedagogy.md (Child development and pedagogy): what it covers, depth by exam family, free official resources"
+title = "Review modules/child-pedagogy.md (Child development and pedagogy) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1605,10 +1584,10 @@ id = "T-419"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/teaching-research-aptitude.md (Teaching and research aptitude): what it covers, depth by exam family, free official resources"
+title = "Review modules/teaching-research-aptitude.md (Teaching and research aptitude) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1616,10 +1595,10 @@ id = "T-420"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/accounting-basics.md (Accounting and business basics): what it covers, depth by exam family, free official resources"
+title = "Review modules/accounting-basics.md (Accounting and business basics) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1627,10 +1606,10 @@ id = "T-421"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/mbbs-subjects.md (MBBS subjects (pre-clinical, para-clinical, clinical)): what it covers, depth by exam family, free official resources"
+title = "Review modules/mbbs-subjects.md (MBBS subjects (pre-clinical, para-clinical, clinical)) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1638,10 +1617,10 @@ id = "T-422"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/nursing-subjects.md (Nursing subjects): what it covers, depth by exam family, free official resources"
+title = "Review modules/nursing-subjects.md (Nursing subjects) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1649,10 +1628,10 @@ id = "T-423"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/engineering-mathematics.md (Engineering mathematics): what it covers, depth by exam family, free official resources"
+title = "Review modules/engineering-mathematics.md (Engineering mathematics) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1660,10 +1639,10 @@ id = "T-424"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ee-core.md (Electrical engineering core): what it covers, depth by exam family, free official resources"
+title = "Review modules/ee-core.md (Electrical engineering core) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1671,10 +1650,10 @@ id = "T-425"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ece-core.md (Electronics and communication core): what it covers, depth by exam family, free official resources"
+title = "Review modules/ece-core.md (Electronics and communication core) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1682,10 +1661,10 @@ id = "T-426"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/cs-core.md (Computer science core): what it covers, depth by exam family, free official resources"
+title = "Review modules/cs-core.md (Computer science core) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1693,10 +1672,10 @@ id = "T-427"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/me-core.md (Mechanical engineering core): what it covers, depth by exam family, free official resources"
+title = "Review modules/me-core.md (Mechanical engineering core) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]
@@ -1704,10 +1683,10 @@ id = "T-428"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write modules/ce-core.md (Civil engineering core): what it covers, depth by exam family, free official resources"
+title = "Review modules/ce-core.md (Civil engineering core) against the official syllabi of the exams it counts for"
 accept = [
-  "frontmatter title + module_id; free resources link only to publishers (NCERT, NIOS, official bodies)",
-  "passes the content gate",
+  "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
+  "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
 ]
 
 [[task]]

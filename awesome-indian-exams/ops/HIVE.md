@@ -13,19 +13,22 @@ logs in and pays for anything that isn't free. By default nothing needs paying f
 
 ## Two ways to run, same rules
 
-**Cloud (free, 24/7):** `.github/workflows/hive-cloud.yml` (repository root) runs
-every hour on GitHub Actions. The Hermes and OpenCode lanes run in parallel on the built-in zero-cost agent
-([`free_agent.py`](free_agent.py)) using GitHub Models through the workflow's own token (no key, no card). Then
-the JEVX judge ([`judge.py`](judge.py)) runs every code gate and an LLM review, and publishes approved work
-straight to `main`. Kill switch: set the repository variable `HIVE_ENABLED` to `false`.
+**Mac (where the hive runs):** the owner's Mac runs every lane continuously
+([`hive-loop.sh`](hive-loop.sh), set up by [`mac-bootstrap.sh`](mac-bootstrap.sh)): the real Hermes and OpenCode,
+Gemini CLI and Antigravity when signed in, plus workers on the built-in zero-cost agent ([`free_agent.py`](free_agent.py)).
+They claim tasks and push `agent/*` branches to a **local** bare repository (`~/.hive/hub.git`), and the JEVX
+judge ([`judge.py`](judge.py)) runs every code gate and an LLM review there. Once an hour, `~/.hive/publish-github.sh`
+publishes **one** gated, batched commit (validate, tests, secret and path checks) to GitHub, and merges anything
+that landed on GitHub's `main` back into the local hub.
 
-**Mac (the owner's own agents, extra capacity):** one command, [`mac-bootstrap.sh`](mac-bootstrap.sh), detects
-the agents and installs the schedule; [`run-hourly.sh`](run-hourly.sh) runs the real JEVX, Hermes, OpenCode,
-Gemini CLI and Antigravity from cron. Each works in its own git worktree, opens a PR, and
-JEVX approves with a label; [`merge_ready.sh`](merge_ready.sh) merges approved, green PRs. Any lane can also
-run on the free agent: `HIVE_CMD_HERMES=free-agent`, with Ollama for fully local and free models.
+**Never use git as a message bus.** Claim refs, heartbeat commits or per-task pushes to GitHub every few minutes
+look like spam; the owner's previous GitHub account was flagged for exactly that.
 
-Both modes claim from the same backlog on the remote, so cloud and Mac agents never take the same task.
+**Cloud (by hand only):** `.github/workflows/hive-cloud.yml` (repository root) runs the same lanes on GitHub
+Actions when started from the Actions tab, for example while the Mac is off. It has no schedule, on purpose.
+Kill switch: set the repository variable `HIVE_ENABLED` to `false`.
+
+Both modes use the same atomic claims, so no two workers take the same task.
 
 ```
  every hour ┌────────────── Hermes (content) ───┐   ┌── OpenCode (tooling) ──┐
@@ -63,8 +66,8 @@ run only on the Mac.
 [`hive-loop.sh`](hive-loop.sh) `start|stop|status` runs many workers per lane back-to-back instead of hourly: by
 default 6 Hermes-lane and 6 OpenCode-lane workers, plus Gemini and Antigravity when installed, and a JEVX
 review/merge loop every 30 minutes. It keeps the Mac awake and backs off when there is no ready task or no LLM
-capacity. `stop` ends only the process groups it started. The cloud workflow does the same with a 6 + 6 job
-matrix every 20 minutes. Tested: parallel loops took every task exactly once and left no processes after
+capacity. `stop` ends only the process groups it started. A manual cloud run uses a 6 + 6 job
+matrix. Tested: parallel loops took every task exactly once and left no processes after
 `stop`.
 
 ## Sandbox (cloud)
