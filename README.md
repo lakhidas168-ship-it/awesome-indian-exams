@@ -49,6 +49,19 @@ Graduated with a **B.Tech in Electrical Engineering from National Institute of T
 
 ---
 
+## 🎓 Free for Every Aspirant: [Awesome Engineering Exams (India)](awesome-engineering-exams/)
+
+Evidence-gated preparation maps for circuital-branch engineers: **GATE EE, UPSC ESE, UPSC CSE (EE optional),
+SSC JE, RRB JE, state AE/JE and PSU recruitment**. Official sources only, an honest verification status on
+every page, and no pirated material. It is updated hourly in public by an agent hive (JEVX + Hermes +
+OpenCode), and every change ships as a pull request with a receipt.
+
+- [One preparation, many exams: EE subject map](awesome-engineering-exams/resources/subject-map.md)
+- [Free courses, simulators and official sources](awesome-engineering-exams/resources/free-resources.md)
+- [How the hive works](awesome-engineering-exams/ops/HIVE.md) · [Latest updates](awesome-engineering-exams/UPDATES.md)
+
+---
+
 ## 🚀 Flagship Systems & Architectures
 
 ### 1. [truthgate](https://github.com/lakhidas168-ship-it/truthgate)
