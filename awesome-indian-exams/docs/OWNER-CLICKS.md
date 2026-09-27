@@ -42,6 +42,10 @@ open the new session in the Claude app, and say "Follow awesome-indian-exams/doc
 
 ## C. Optional extras
 
+- **Switch on the website (one click, recommended):** open
+  <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/pages> → under "Build and deployment",
+  Source: **GitHub Actions**. From the next update on, the list is live at
+  <https://lakhidas168-ship-it.github.io/awesome-indian-exams/> with search, and the open data at `/data/exams.json`.
 - **Run the cloud hive by hand** (for example while the Mac is off):
   1. Add the secret `OPENCODE_API_KEY` (key from <https://opencode.ai/auth>) at
      <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/secrets/actions/new>.

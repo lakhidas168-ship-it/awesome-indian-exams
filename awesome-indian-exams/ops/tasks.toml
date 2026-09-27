@@ -167,16 +167,6 @@ accept = [
 ]
 
 [[task]]
-id = "T-104"
-lane = "opencode"
-priority = 4
-title = "GitHub Pages site for the list (mkdocs-material, built in CI from the same markdown, no copies)"
-accept = [
-  "the workflow is proposed as docs/pages-workflow.yml (agents cannot write .github/; the owner moves it)",
-  "docs explain the one Settings click the owner must make to enable Pages",
-]
-
-[[task]]
 id = "T-012"
 lane = "hermes"
 priority = 4
@@ -1687,6 +1677,60 @@ title = "Review modules/ce-core.md (Civil engineering core) against the official
 accept = [
   "What it covers matches the official syllabus of at least two exams in its Where it counts table; those syllabus URLs are listed",
   "every Free resources link opens and points to a publisher or official body (dead or unofficial links removed); passes the content gate",
+]
+
+[[task]]
+id = "T-107"
+lane = "opencode"
+priority = 2
+title = "Exam calendar from official dates only: registry fields for the next notification and exam window, each with its official source URL; export_json.py adds them and the website build publishes /data/exams.ics"
+accept = [
+  "scripts/validate.py rejects a date without an official source URL on an allowlisted host (unit test proves it)",
+  "the .ics export has one event per dated exam, links to the exam page and its official source, and is covered by a unit test",
+]
+
+[[task]]
+id = "T-306"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Previous papers: add one more state commission's official question-paper archive to resources/previous-papers.md (link only the commission's own site)"
+accept = [
+  "the new link opens on the commission's official domain and is recorded under Sources fetched",
+  "no coaching or third-party paper sites are added",
+]
+
+[[task]]
+id = "T-307"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Free coaching: add one state government's free coaching scheme for competitive exams to resources/free-coaching.md, from its official page or myscheme.gov.in"
+accept = [
+  "eligibility and benefits match the scheme's official guidelines, whose URL is listed",
+  "the scheme page was fetched this run (Sources fetched)",
+]
+
+[[task]]
+id = "T-308"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Study plans: resources/study-plans/<exam>.md with a 6-month and a 12-month plan for UPSC CSE, SSC CGL, JEE Main and NEET UG, built from the shared modules and each exam's official syllabus"
+accept = [
+  "each plan names the modules in order with week ranges, and links the official syllabus and the previous-papers page",
+  "no paid or coaching material is recommended",
+]
+
+[[task]]
+id = "T-309"
+lane = "hermes"
+focus = "india"
+priority = 4
+title = "Review resources/open-source-projects.md: for each project, record its license and confirm it hosts no coaching institutes' paid material; remove any that fail"
+accept = [
+  "every remaining row names its license",
+  "removed projects are listed in the commit message with the reason",
 ]
 
 [[task]]
