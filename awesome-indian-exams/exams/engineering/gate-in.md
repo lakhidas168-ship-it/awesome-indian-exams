@@ -62,7 +62,7 @@ Sections (a topic summary; the official syllabus PDF is the authority):
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md)
+- Shared modules for this exam: [Engineering mathematics](../../modules/engineering-mathematics.md) · [Electrical engineering core](../../modules/ee-core.md) · [Electronics and communication core](../../modules/ece-core.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NPTEL (free IIT/IISc courses; search the subject name): <https://nptel.ac.in/courses>
 - MIT OpenCourseWare: <https://ocw.mit.edu>

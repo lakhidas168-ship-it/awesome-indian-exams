@@ -54,6 +54,6 @@ classes taught.
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [General science (NCERT Class 6–10 level)](../../modules/general-science.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
+- Shared modules for this exam: [Child development and pedagogy](../../modules/child-pedagogy.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md) · [General science (NCERT Class 6–10 level)](../../modules/general-science.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (school subjects the teaching exams test): <https://ncert.nic.in/textbook.php>

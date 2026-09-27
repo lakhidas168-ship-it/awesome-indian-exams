@@ -49,7 +49,7 @@ management (General stream) or the stream's own discipline.
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md) · [English language and comprehension](../../modules/english-language.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md)
+- Shared modules for this exam: [Indian economy](../../modules/gs-economy.md) · [Banking and financial awareness](../../modules/banking-awareness.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [English language and comprehension](../../modules/english-language.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - SEBI investor education: <https://investor.sebi.gov.in>
 - Reserve Bank of India publications (monetary policy, financial literacy): <https://www.rbi.org.in>

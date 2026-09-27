@@ -44,6 +44,6 @@ Drawing, composition, visual perception, mathematics and general aptitude, archi
 
 ## Free resources
 
-- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md)
+- Shared modules for this exam: [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [Logical and analytical reasoning](../../modules/reasoning.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>

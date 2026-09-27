@@ -45,7 +45,7 @@ ICSI's CSEET study material (free on the ICSI website).
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md)
+- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Indian economy](../../modules/gs-economy.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - ICSI study material: <https://www.icsi.edu>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

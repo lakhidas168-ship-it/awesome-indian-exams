@@ -57,7 +57,7 @@ Class 10 level: reasoning (analogies, series, coding, non-verbal), GK and curren
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [English language and comprehension](../../modules/english-language.md)
+- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (static GK, science, maths foundation): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

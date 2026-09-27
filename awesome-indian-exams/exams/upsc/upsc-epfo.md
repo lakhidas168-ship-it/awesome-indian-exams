@@ -48,7 +48,7 @@ knowledge, general mental ability and quantitative aptitude, and social security
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md)
+- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md) · [Indian economy](../../modules/gs-economy.md) · [Indian polity and governance](../../modules/gs-polity.md) · [Accounting and business basics](../../modules/accounting-basics.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - EPFO official website: <https://www.epfindia.gov.in>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

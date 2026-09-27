@@ -51,7 +51,7 @@ syllabus, published per subject.
 
 ## Free resources
 
-- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md)
+- Shared modules for this exam: [Teaching and research aptitude](../../modules/teaching-research-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Data interpretation](../../modules/data-interpretation.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - UGC subject-wise syllabi on the NTA UGC NET website
 - NCERT textbooks (school subjects the teaching exams test): <https://ncert.nic.in/textbook.php>

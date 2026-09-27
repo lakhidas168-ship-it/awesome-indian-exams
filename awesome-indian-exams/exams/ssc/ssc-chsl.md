@@ -59,7 +59,7 @@ vocabulary and comprehension, static GK and current affairs, and basic computer 
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Computer awareness](../../modules/computer-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (static GK, science, maths foundation): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

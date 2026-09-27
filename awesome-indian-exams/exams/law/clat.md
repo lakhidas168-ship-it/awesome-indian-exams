@@ -48,6 +48,6 @@ Quantitative techniques are at Class 10 level.
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
+- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Legal reasoning](../../modules/legal-reasoning.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - Press Information Bureau for current affairs: <https://pib.gov.in>

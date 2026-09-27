@@ -44,7 +44,7 @@ Class 10 and Class 12 NCERT maths and physics, English, reasoning, GK; engineeri
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

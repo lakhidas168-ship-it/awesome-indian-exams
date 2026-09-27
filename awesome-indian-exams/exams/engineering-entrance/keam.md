@@ -50,5 +50,6 @@ Kerala Higher Secondary Class 11–12 PCM, NCERT-aligned.
 
 ## Free resources
 
+- Shared modules for this exam: [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Chemistry (NCERT Class 11–12)](../../modules/ncert-chemistry.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks and exemplar problems, Class 11–12 (the syllabus base): <https://ncert.nic.in/textbook.php>

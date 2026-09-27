@@ -54,5 +54,5 @@ interpretation; arithmetic, algebra, geometry, number system, modern maths.
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
+- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Data interpretation](../../modules/data-interpretation.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)

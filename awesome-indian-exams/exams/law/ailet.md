@@ -47,6 +47,6 @@ English comprehension and usage, current affairs, and logical (including legal-s
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Legal reasoning](../../modules/legal-reasoning.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - Press Information Bureau for current affairs: <https://pib.gov.in>

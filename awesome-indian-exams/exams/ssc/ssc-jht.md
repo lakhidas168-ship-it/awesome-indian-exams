@@ -45,6 +45,6 @@ Hindi and English grammar, vocabulary and comprehension; translation and essay w
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md)
+- Shared modules for this exam: [Hindi language](../../modules/hindi-language.md) · [English language and comprehension](../../modules/english-language.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - Press Information Bureau for current affairs: <https://pib.gov.in>

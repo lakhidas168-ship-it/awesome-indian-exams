@@ -45,7 +45,7 @@ NCERT Class 10 (MR) or Class 12 (SSR) science and maths, English grammar, genera
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

@@ -46,4 +46,5 @@ The Indian MBBS curriculum, all subjects.
 
 ## Free resources
 
+- Shared modules for this exam: [MBBS subjects (pre-clinical, para-clinical, clinical)](../../modules/mbbs-subjects.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)

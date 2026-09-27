@@ -54,7 +54,7 @@ The shared banking modules plus computer knowledge.
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Computer awareness](../../modules/computer-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - Reserve Bank of India publications (monetary policy, financial literacy): <https://www.rbi.org.in>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

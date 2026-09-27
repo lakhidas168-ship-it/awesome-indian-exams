@@ -42,5 +42,6 @@ Telangana intermediate (Class 11–12) syllabus, NCERT-aligned.
 
 ## Free resources
 
+- Shared modules for this exam: [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Chemistry (NCERT Class 11–12)](../../modules/ncert-chemistry.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [Biology (NCERT Class 11–12)](../../modules/ncert-biology.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks: <https://ncert.nic.in/textbook.php>

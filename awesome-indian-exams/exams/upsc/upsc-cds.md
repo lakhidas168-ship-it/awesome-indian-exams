@@ -52,7 +52,7 @@ mensuration, statistics).
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [General science (NCERT Class 6–10 level)](../../modules/general-science.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [General science (NCERT Class 6–10 level)](../../modules/general-science.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian polity and governance](../../modules/gs-polity.md) · [General awareness and current affairs](../../modules/general-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the base for general studies and science): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

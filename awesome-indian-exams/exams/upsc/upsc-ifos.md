@@ -56,6 +56,7 @@ subjects from the IFoS list (for example Botany, Zoology, Agriculture, Forestry,
 
 ## Free resources
 
+- Shared modules for this exam: [Indian polity and governance](../../modules/gs-polity.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [Environment and ecology](../../modules/gs-environment.md) · [Science and technology (current)](../../modules/gs-science-tech.md) · [CSAT: comprehension, reasoning, basic numeracy](../../modules/csat.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the base for general studies and science): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

@@ -50,7 +50,7 @@ Paper II: essays, comprehension, précis, arguments for and against, and English
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
+- Shared modules for this exam: [Indian polity and governance](../../modules/gs-polity.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the base for general studies and science): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

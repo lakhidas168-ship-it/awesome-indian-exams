@@ -43,5 +43,5 @@ nursing, fundamentals), plus general aptitude.
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md)
+- Shared modules for this exam: [Nursing subjects](../../modules/nursing-subjects.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)

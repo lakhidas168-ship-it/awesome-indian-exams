@@ -49,5 +49,6 @@ Maharashtra State Board Class 11–12 PCM, broadly aligned with NCERT. The CET C
 
 ## Free resources
 
+- Shared modules for this exam: [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Chemistry (NCERT Class 11–12)](../../modules/ncert-chemistry.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [Biology (NCERT Class 11–12)](../../modules/ncert-biology.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks and exemplar problems, Class 11–12 (the syllabus base): <https://ncert.nic.in/textbook.php>

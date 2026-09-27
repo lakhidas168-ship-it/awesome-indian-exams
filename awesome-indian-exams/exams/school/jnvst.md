@@ -46,6 +46,6 @@ medium of the test.
 
 ## Free resources
 
-- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [English language and comprehension](../../modules/english-language.md)
+- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>

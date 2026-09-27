@@ -48,6 +48,6 @@ ICAI's Foundation study material for each paper (free on the ICAI website).
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md)
+- Shared modules for this exam: [Accounting and business basics](../../modules/accounting-basics.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Indian economy](../../modules/gs-economy.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - ICAI Board of Studies material (free): <https://www.icai.org>

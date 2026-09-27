@@ -47,7 +47,7 @@ and more, as notified.
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Indian economy](../../modules/gs-economy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - Economic Survey and Union Budget: <https://www.indiabudget.gov.in>
 - Ministry of Statistics (MoSPI): <https://www.mospi.gov.in>

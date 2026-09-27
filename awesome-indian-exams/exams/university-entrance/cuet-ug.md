@@ -54,6 +54,6 @@ vocabulary. The General Test covers GK, current affairs, reasoning and basic mat
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md)
+- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Chemistry (NCERT Class 11–12)](../../modules/ncert-chemistry.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [Biology (NCERT Class 11–12)](../../modules/ncert-biology.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks and exemplar problems, Class 11–12 (the syllabus base): <https://ncert.nic.in/textbook.php>

@@ -48,6 +48,6 @@ pedagogy. Tier 2: the subject taught, at the level of the post.
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md)
+- Shared modules for this exam: [Child development and pedagogy](../../modules/child-pedagogy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (school subjects the teaching exams test): <https://ncert.nic.in/textbook.php>

@@ -45,6 +45,6 @@ CBSE Class 11–12 physics and mathematics, English, reasoning and general aware
 
 ## Free resources
 
-- Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Physics (NCERT Class 11–12)](../../modules/ncert-physics.md) · [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General awareness and current affairs](../../modules/general-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>

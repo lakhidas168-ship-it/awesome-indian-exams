@@ -41,7 +41,7 @@ General studies with Telangana's history, movement, geography, economy and polic
 
 ## Free resources
 
-- Shared modules for this exam: [General awareness and current affairs](../../modules/general-awareness.md)
+- Shared modules for this exam: [Indian polity and governance](../../modules/gs-polity.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks: <https://ncert.nic.in/textbook.php>
 - Press Information Bureau: <https://pib.gov.in>

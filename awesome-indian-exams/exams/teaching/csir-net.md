@@ -47,5 +47,5 @@ Part A: general aptitude. Parts B and C: the CSIR syllabus of the chosen subject
 
 ## Free resources
 
-- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
+- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Data interpretation](../../modules/data-interpretation.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
