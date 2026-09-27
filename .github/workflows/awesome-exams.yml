@@ -1,0 +1,61 @@
+name: awesome-exams
+
+on:
+  pull_request:
+    paths: ["awesome-indian-exams/**", ".github/workflows/**"]
+  push:
+    branches: [main]
+    paths: ["awesome-indian-exams/**", ".github/workflows/**"]
+  schedule:
+    - cron: "17 * * * *"   # hourly: re-check main (catches pages going stale)
+    - cron: "30 2 * * *"   # daily: external link check
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: awesome-indian-exams
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Gate self-tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Content gate
+        run: python3 scripts/validate.py --summary "$GITHUB_STEP_SUMMARY"
+
+  hive-gate:
+    if: github.event_name == 'pull_request' && startsWith(github.head_ref, 'agent/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Lane scope and evidence gates
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git diff --name-only "origin/$BASE_REF...HEAD" \
+            | python3 awesome-indian-exams/scripts/hive_gate.py --branch "$HEAD_REF"
+          python3 awesome-indian-exams/scripts/evidence_gate.py --base "origin/$BASE_REF" --branch "$HEAD_REF"
+
+  links:
+    if: github.event.schedule == '30 2 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true   # government sites time out often; report, don't block
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 3 --timeout 30 --accept 200,206,403,429 "awesome-indian-exams/**/*.md"
+          fail: false
