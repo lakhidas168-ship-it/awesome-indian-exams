@@ -5,54 +5,66 @@ conducting_body: IIMs (convening IIM rotates)
 official_site: https://iimcat.ac.in
 cycle: CAT 2026
 last_verified: 2026-09-27
-verification: secondary
+verification: official
 ---
 
 # CAT (Common Admission Test)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** Every number below is from the CAT 2026 Information Bulletin
+> (dated 26-07-2026), the official notification published on the CAT website, fetched on 2026-09-27.
+> The bulletin states no question count, duration, sectional timings, marking scheme or syllabus —
+> confirm the current test structure in the official mock test before the exam.
 
-CAT is the entrance to the IIMs' MBA/PGP programmes and is accepted by hundreds of other business schools.
+CAT is the entrance to the IIMs' management programmes (PGP/MBA and fellow/PhD programmes listed in
+the bulletin) and its scores are also used by other listed non-IIM business schools for admission.
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | One of the IIMs each year |
-| Mode | Computer-based, 120 minutes, three timed sections |
-| Total | 68 questions, 204 marks |
+| Conducted by | The IIMs (convening IIM rotates) |
+| Mode | Computer-based test, held in three sessions |
+| CAT 2026 date | Sunday, November 29, 2026 |
+| Registration | August 3, 2026 (10:00 a.m.) – September 15, 2026 (5:00 p.m.), on the CAT website |
+| Fee (one payment, non-refundable) | ₹2,700 for all candidates except ₹1,350 for SC, ST and PwBD candidates |
+| Admit card | Download from the CAT website, November 4–29, 2026; the test centre is named on it |
+| Result and validity | Likely by the first week of January 2027; the CAT 2026 score is valid till December 31, 2027 |
+| Qualification | Bachelor's degree with 50% (45% for SC/ST/PwBD); final-year students may apply; CA/CS/ICWA (CMA) professional degrees accepted with the required percentage |
+| Test cities | About 170; choose any five preferences at registration; one is allotted subject to availability |
 
 ## Official sources
 
-- CAT official website: <https://iimcat.ac.in>
+- CAT official website (registration, admit card, official mock test, scorecard): <https://iimcat.ac.in>
+- CAT 2026 Information Bulletin dated 26-07-2026, published on the CAT website (see the notes file for the exact file URL).
 
 ## Exam pattern
 
-Sections in fixed order, **40 minutes each**:
+The bulletin confirms a computer-based test in three sessions on November 29, 2026. It does **not**
+state the number of questions, total marks, per-section time limits, question types or marking scheme,
+so this page asserts none of them. The current structure (section order, timers, navigation and marking
+rules) is shown in the official mock test on <https://iimcat.ac.in> — attempt it before fixing your
+strategy.
 
-| Section | Questions |
-|---|---:|
-| Verbal Ability and Reading Comprehension (VARC) | 24 |
-| Data Interpretation and Logical Reasoning (DILR) | 22 |
-| Quantitative Ability (QA) | 22 |
-
-**+3** correct, **−1** wrong for MCQs. Type-in-the-answer (TITA) questions have no negative marking.
+Each IIM then shortlists on its own criteria: the CAT score is one component alongside academic record,
+work experience and other inputs, with weights set by each IIM.
 
 ## Syllabus
 
-No official syllabus. In practice: reading comprehension and verbal ability; puzzles, sets and data
-interpretation; arithmetic, algebra, geometry, number system, modern maths.
+The bulletin prescribes no syllabus. Past papers have tested English comprehension and verbal ability,
+data interpretation with logical reasoning, and school-level quantitative aptitude — use the shared
+modules below and the official mock test to calibrate depth.
 
 ## How to prepare (free, in order)
 
-1. Build reading speed daily: long, dense editorials and essays.
-2. Quant and DI come from Class 8–10 arithmetic, algebra and geometry. Master the basics before the tricks.
-3. Take full mocks under the real time rules and analyse every one.
-4. Attempt every TITA question you can: there is no penalty.
+1. Read dense English daily (editorials, long-form essays) for speed and comprehension.
+2. Rebuild school arithmetic, algebra and geometry before touching shortcuts; they carry the quant section.
+3. Practise data sets and logical puzzles in timed blocks, since sections are separately timed.
+4. Attempt the official mock on iimcat.ac.in first and read its marking rules before deciding what to guess.
+5. Take full mocks under real time rules and analyse every error.
 
 ## Free resources
 
+- CAT official website with the official mock test and notices: <https://iimcat.ac.in>
+- CAT help desk (from the bulletin): 1800 210 0175
 - Shared modules for this exam: [English language and comprehension](../../modules/english-language.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Data interpretation](../../modules/data-interpretation.md) · [Quantitative aptitude](../../modules/quant-aptitude.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)

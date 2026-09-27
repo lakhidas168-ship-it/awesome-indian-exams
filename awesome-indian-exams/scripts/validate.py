@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_KEYS = ("title", "exam_id", "conducting_body", "official_site", "cycle", "last_verified", "verification")
 REQUIRED_SECTIONS = ("## At a glance", "## Official sources", "## Exam pattern", "## Syllabus", "## Free resources")
 MODULE_KEYS = ("title", "module_id")
+FORMULA_KEYS = ("title", "subject", "exams")
 # Original practice questions. `source` must stay "original": copied questions are never accepted.
 QUESTION_KEYS = ("id", "exams", "subject", "question", "options", "answer", "solution", "author", "license", "source")
 QUESTION_SOURCE = "original"
@@ -39,6 +40,8 @@ BLOCKED_HOSTS = ("t.me", "telegram.me", "telegram.dog", "mega.nz", "scribd.com",
 
 LINK_RE = re.compile(r"\]\((https?://[^)\s]+)\)|<(https?://[^>\s]+)>")
 REL_LINK_RE = re.compile(r"\]\((?!https?://|mailto:|#)([^)\s]+)\)")
+MATH_DELIM_RE = re.compile(r"(?<!\\)\$\$")
+FENCE_RE = re.compile(r"^\s{0,3}(?:```|~~~)")
 MARKERS = {"README.md": ("<!-- EXAMS:START -->", "<!-- EXAMS:END -->")}
 GENERATED = ("README.md", "UPDATES.md", "resources/all-exams.md", "resources/overlap-map.md")
 
@@ -214,6 +217,50 @@ def check_module_page(path: Path, reg: dict, rep: Report) -> None:
         rep.error(path, f"module_id '{meta['module_id']}' must equal file name '{path.stem}'")
     if reg["module"] and path.stem not in reg["module"]:
         rep.error(path, f"module '{path.stem}' is not in registry/exams.toml")
+
+
+# ------------------------------------------------------------------ formula sheets
+
+def math_delimiter_lines(text: str) -> list[int]:
+    """1-based line numbers of `$$` display-math delimiters outside fenced code blocks.
+
+    `\\$$` is a literal delimiter for the page, not markup, so it is not counted.
+    """
+    lines: list[int] = []
+    fenced = False
+    for lineno, line in enumerate(text.splitlines(), 1):
+        if FENCE_RE.match(line):
+            fenced = not fenced
+            continue
+        if not fenced:
+            lines.extend([lineno] * len(MATH_DELIM_RE.findall(line)))
+    return lines
+
+
+def check_formula_sheet(path: Path, reg: dict, rep: Report) -> None:
+    text = path.read_text(encoding="utf-8")
+    meta, _ = parse_frontmatter(text)
+    if meta is None:
+        rep.error(path, "missing frontmatter block (--- ... ---)")
+    else:
+        for key in FORMULA_KEYS:
+            if not meta.get(key):
+                rep.error(path, f"frontmatter key '{key}' missing or empty")
+        if meta.get("subject") and meta["subject"] != path.stem:
+            rep.error(path, f"subject '{meta['subject']}' must equal file name '{path.stem}'")
+        exams = [e.strip() for e in meta.get("exams", "").split(",") if e.strip()]
+        if meta.get("exams") and not exams:
+            rep.error(path, "exams must list at least one registry exam id (comma-separated)")
+        for eid in exams:
+            if reg["exam"] and eid not in reg["exam"]:
+                rep.error(path, f"exam '{eid}' is not a registry exam id")
+    if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", path.stem):
+        rep.error(path, f"file name '{path.stem}' must be a lowercase-hyphenated subject slug")
+    delimiters = math_delimiter_lines(text)
+    if len(delimiters) % 2:
+        rep.error(path, f"unbalanced $$ math block: the delimiter on line {delimiters[-1]} is never closed")
+    elif not delimiters:
+        rep.error(path, "no $$ display-math block found; a formula sheet must show at least one formula")
 
 
 # ------------------------------------------------------------------ questions
@@ -435,6 +482,11 @@ def run(root: Path, today: dt.date, write: bool = False) -> tuple[Report, list[t
             pages.append((page, meta))
     for page in sorted((root / "modules").glob("*.md")) if (root / "modules").exists() else []:
         check_module_page(page, reg, rep)
+    sheets_dir = root / "formula-sheets"
+    if sheets_dir.exists():
+        for sheet in sorted(sheets_dir.glob("*.md")):
+            if sheet.name != "README.md":
+                check_formula_sheet(sheet, reg, rep)
     questions_dir = root / "questions"
     if questions_dir.exists():
         for question in sorted(questions_dir.glob("*.json")):

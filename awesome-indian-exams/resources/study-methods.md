@@ -82,4 +82,61 @@ The same review rated **interleaving** (mixing topics within one practice sessio
   channels are illegal and often carry malware.
 - Never pay an agent to "get" a free scheme or a result. Official portals only.
 
+## Forum tips with thread links (swept 2026-09-28)
+
+The tips below were gathered from public threads on r/UPSC, r/JEENEETards, r/GATEtard, r/ssc and r/SSCCGL.
+Each is paraphrased in our own words and links the thread it came from; no usernames or personal details are
+copied. Like the section above, these are aspirant experience, not proof — and tips that recommended pirated
+material or paid-only products were left out.
+
+**UPSC: let the syllabus and PYQs drive.**
+
+- Read the syllabus and both Prelims and Mains PYQs first. Then take one syllabus topic at a time: read it from
+  one source, solve that topic's Prelims questions, write a Mains answer on it, and add any asked point that is
+  missing from your notes.
+  ([thread](https://www.reddit.com/r/UPSC/comments/1ucc789/am_a_beginner_and_i_need_just_one_advice_which_i/))
+- Treat every PYQ option as a statement to verify. For each wrong option, find out what it actually is and why it
+  fails — for a factual question, check what each option is best known for.
+  ([thread](https://www.reddit.com/r/UPSC/comments/1kz0g1f/how_to_analyze_pyqs_what_exactly_is_one_source/))
+- Keep one source per subject and revise it repeatedly. For Mains, keep a one-page sheet per topic with a ready
+  introduction, conclusion and key points, shaped so that past Mains questions on that topic can be answered
+  from it.
+  ([thread](https://www.reddit.com/r/UPSC/comments/1ucc789/am_a_beginner_and_i_need_just_one_advice_which_i/))
+- For map-heavy subjects such as geography, recall from blank outline maps of India and the world rather than
+  re-reading, and study confusion pairs side by side (similar landforms, soils or monsoon branches).
+  ([thread](https://www.reddit.com/r/UPSC/comments/1szmbia/started_my_geography_revision_and_need_some_help/))
+
+**SSC: practice first, one source revised many times.**
+
+- Use one free topic playlist per subject with short handwritten notes and topic-wise question practice. Revise
+  one current-affairs source many times instead of reading many sources once.
+  ([thread](https://www.reddit.com/r/ssc/comments/1r1336i/resources_i_used_to_crack_ssc_cgl_without_buying/))
+- Spend less time on video lectures and more on practice. Plan for at least three revisions of the syllabus plus
+  sectional and full mocks — scores tend to jump only after everything consolidates.
+  ([thread](https://www.reddit.com/r/ssc/comments/1hqzo9d/22f_biting_on_time_getting_started_with_prep/))
+- Practise PYQs sorted by topic and difficulty, and prepare the most-asked topics first.
+  ([thread](https://www.reddit.com/r/SSCCGL/comments/1l38dsy/i_sorted_2700_ssc_cgl_pyqs_by_topic_difficulty/))
+
+**JEE/NEET: daily solving beats re-reading theory.**
+
+- From day one, keep a fixed daily self-study block outside coaching, block distracting apps and sites while
+  studying, and log your hours so you know what you actually did.
+  ([thread](https://www.reddit.com/r/JEENEETards/comments/1sdfjzw/jee_2827_advice_and_guide_from_a_failed_26tard_no/))
+- Give solving — especially PYQs — more hours than theory. Clear backlogs in a fixed daily slot, and protect
+  sleep, food and a daily walk instead of chasing extreme hour counts.
+  ([thread](https://www.reddit.com/r/JEENEETards/comments/1nq577b/neet_2026_guide_dropper_topper_in_just_219_days/))
+- Finish the syllabus a few months before the first attempt and switch to structured revision. Read the NCERT
+  line by line for chemistry and theoretical physics chapters, then use one-shots plus PYQs, repeating the last
+  five to six years' papers.
+  ([thread](https://www.reddit.com/r/JEENEETards/comments/1lh1wj5/only_5_months_left_for_jeeneet_seniors_please/))
+
+**GATE: process goals and PYQs alongside theory.**
+
+- Set process goals (finish today's tasks) rather than only score goals, and solve each subject's PYQs alongside
+  learning it instead of saving all PYQs for the end.
+  ([thread](https://www.reddit.com/r/GATEtard/comments/1rcsl9s/guide_for_gate_cse_2027_and_my_experience/))
+- For mathematics and other concept subjects, free lectures plus solving all existing PYQs is enough for many
+  aspirants — standard textbooks are optional, not mandatory.
+  ([thread](https://www.reddit.com/r/GATEtard/comments/1jxxbwq/gate_cse_free_resources/))
+
 Have a method that worked for you? Share it in a pull request, with a source if it makes a claim.

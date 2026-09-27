@@ -1,10 +1,10 @@
 ## Sources opened
-- https://rpsc.rajasthan.gov.in/advertisements (Official site, checked for current notification, none found)
-- https://rpsc.rajasthan.gov.in/syllabus (Official site, checked for current syllabus, none found)
+- https://mat.aima.in: Confirmed the conducting body and the availability of multiple test modes (PBT, CBT, IBT). Could not find a single, consolidated official information bulletin on the main landing page that explicitly details the current exam pattern (number of questions, marking scheme, duration) for all modes.
 
 ## Could not confirm
-- All specific exam pattern details (number of questions, marks, negative marking, time) as the current official notification was not found on the RPSC website.
+- The specific exam pattern (number of questions, marking scheme, duration) via an official document.
 
 ## Changed
-- Updated `verification` to `unverified` and added an evidence status note.
-- Removed specific numbers (150 questions, 200 marks, 3 hours, -1/3 marking) from the Exam pattern section as they could not be verified against a current official document.
+- Updated `exams/management/mat.md` to reflect the lack of a consolidated official document for the exam pattern.
+- Set `verification` to `unverified` and updated the evidence status note.
+- Removed specific, unverified numbers (150 questions, 120 minutes, marking scheme) from the page.

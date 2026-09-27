@@ -9,15 +9,33 @@ Counts for **10 exams** in this list (see the [overlap map](../resources/overlap
 
 ## What it covers
 
-- Linear algebra, calculus, differential equations
-- Complex variables, vector calculus, transforms
-- Probability and statistics, numerical methods
+Checked against the official GATE 2027 syllabi for EE, EC, ME, CS and DA (links below):
 
-## Where it counts
+- **Linear algebra:** matrices, systems of equations, eigenvalues and eigenvectors (DA adds SVD
+  and projections; CS adds LU decomposition).
+- **Calculus:** limits, continuity, maxima and minima, multiple integrals, vector calculus
+  (gradient, divergence, curl; Gauss, Green, Stokes), Fourier and Taylor series.
+- **Differential equations:** first- and higher-order ODEs, Euler-Cauchy, variation of parameters,
+  PDEs (heat, wave, Laplace); Laplace transforms on ME-style papers.
+- **Complex variables:** analytic functions, Cauchy's theorems, Taylor and Laurent series, residue
+  theorem (not in CS/DA).
+- **Probability and statistics:** conditional probability and Bayes, standard distributions,
+  correlation and regression; DA goes deeper (hypothesis tests, central limit theorem).
+- **Numerical methods** (ME-style papers): algebraic equations, trapezoidal/Simpson integration,
+  ODE solvers.
+- **Discrete mathematics** (CS only): logic, sets, relations, groups, graphs, combinatorics.
 
-| Family | Exams |
+Official syllabi (gate2027.iitm.ac.in): [EE](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf) · [EC](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EC_GATE2027_Syllabus.pdf) · [ME](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/ME_GATE2027_Syllabus.pdf) · [CS](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf) · [DA](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf)
+
+## Depth by exam family
+
+| Family | What the exam rewards |
 |---|---|
-| Engineering jobs: GATE, ESE, JE, PSU, state AE/JE | [GATE Civil Engineering (CE)](../exams/engineering/gate-ce.md), [GATE Computer Science (CS)](../exams/engineering/gate-cs.md), [GATE Data Science and AI (DA)](../exams/engineering/gate-da.md), [GATE Electrical Engineering (EE)](../exams/engineering/gate-ee.md), [GATE Electronics and Communication (EC)](../exams/engineering/gate-ec.md), [GATE Instrumentation Engineering (IN)](../exams/engineering/gate-in.md), [GATE Mechanical Engineering (ME)](../exams/engineering/gate-me.md), [PSU recruitment for EE graduates](../exams/engineering/psu-ee.md), [State AE / JE (Electrical)](../exams/engineering/state-ae-je.md), [UPSC Engineering Services (ESE), Electrical](../exams/engineering/upsc-ese-ee.md) |
+| GATE EE, EC, ME, CE, IN | Full Section 1 (EE's share is usually about 13 of the 85 subject marks); ME-style papers add numerical methods and Laplace transforms |
+| GATE CS | Discrete maths plus linear algebra and probability; no complex variables or PDEs |
+| GATE DA | Probability, linear algebra (with SVD) and calculus-optimisation as three separate sections |
+| ESE Electrical | Engineering Mathematics opens Mains Paper I; Prelims Paper I also tests engineering maths and numerical analysis |
+| PSU recruitment, State AE/JE | Same syllabus as GATE (many PSUs recruit on GATE scores) |
 
 ## Free resources
 
@@ -27,4 +45,5 @@ Counts for **10 exams** in this list (see the [overlap map](../resources/overlap
 
 ## How to practise
 
-Solve GATE past questions topic-wise: the level is predictable.
+Solve GATE past questions topic-wise: the level is predictable. CS/DA students: practise discrete
+maths and statistics from your own paper's PYQs instead.

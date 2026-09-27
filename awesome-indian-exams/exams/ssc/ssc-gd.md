@@ -4,15 +4,15 @@ exam_id: ssc-gd
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC GD Constable 2026
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # SSC GD Constable
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** Every number below is from the SSC notice for the Constable (GD) in
+> Central Armed Police Forces (CAPFs) and SSF, and Rifleman (GD) in Assam Rifles Examination, 2026, dated
+> 01.12.2025, fetched from ssc.gov.in on 2026-09-28.
 
 SSC GD recruits constables (General Duty) for BSF, CISF, CRPF, ITBP, SSB, SSF and Assam Rifles (Rifleman GD).
 It attracts one of the largest applicant pools of any exam in India, at the Class 10 level.
@@ -22,17 +22,20 @@ It attracts one of the largest applicant pools of any exam in India, at the Clas
 | | |
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
-| Stages | CBT → PET/PST → medical examination → document verification |
-| Qualification | Class 10 pass |
-| Level | Matriculation |
+| Stages | CBE → PET/PST → detailed medical examination → document verification |
+| Qualification | Matriculation (Class 10) pass from a recognized board, as on 01-01-2026 |
+| Age (as on 01-01-2026) | 18–23 years |
+| Pay | Pay Level 3 (₹21,700–₹69,100) |
 
 ## Official sources
 
+- Notice of the Constable (GD) in CAPFs and SSF, and Rifleman (GD) in Assam Rifles Examination, 2026, dated 01.12.2025: <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf>
 - SSC official website (notices, syllabus, answer keys): <https://ssc.gov.in>
 
 ## Exam pattern
 
-**Computer-based test:** 80 questions, 160 marks (2 per question), 60 minutes, **−0.25** per wrong answer.
+**Computer-based examination:** 80 questions, 160 marks (2 marks per question), 60 minutes, **−0.25** per wrong
+answer. The CBE is held in English, Hindi and 13 regional languages.
 
 | Section | Questions | Marks |
 |---|---:|---:|
@@ -41,13 +44,15 @@ It attracts one of the largest applicant pools of any exam in India, at the Clas
 | Elementary Mathematics | 20 | 40 |
 | English or Hindi | 20 | 40 |
 
-The CBT is followed by a qualifying Physical Efficiency Test and Physical Standard Test, then a medical examination.
-The notice has the running standards and physical measurements.
+Marks are normalized across shifts, and NCC certificate holders get bonus marks. The CBE is followed by a
+qualifying Physical Efficiency Test and Physical Standard Test, then a detailed medical examination and document
+verification. The notice has the running standards and physical measurements.
 
 ## Syllabus
 
-Class 10 level: reasoning (analogies, series, coding, non-verbal), GK and current affairs, elementary maths
-(number system, percentages, ratio, averages, interest, mensuration), and English or Hindi comprehension and grammar.
+Matriculation level: reasoning (analogies, series, coding-decoding, non-verbal), general knowledge, current events
+and everyday science, elementary maths (number system, percentages, ratio, averages, interest, profit and loss,
+mensuration), and basic English or Hindi comprehension. The notice's topic list is indicative.
 
 ## How to prepare (free, in order)
 
