@@ -4,18 +4,18 @@ exam_id: upsc-cds
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: CDS (I/II) 2026
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # UPSC Combined Defence Services (CDS)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: ✅ official.** Every fact below was taken from the UPSC examination notice for CDS (II),
+> 2026 (Examination Notice No. 11/2026-CDS-II), fetched on 2026-09-28; the CDS (I), 2026 notice was fetched too
+> and matches. Always read the current notice before you apply or pay a fee.
 
 CDS selects graduates for the Indian Military Academy (IMA), Indian Naval Academy (INA), Air Force Academy
-(AFA) and Officers' Training Academy (OTA). It is held twice a year.
+(AFA) and Officers' Training Academy (OTA). It is held twice a year, as CDS (I) and CDS (II).
 
 ## At a glance
 
@@ -23,11 +23,13 @@ CDS selects graduates for the Indian Military Academy (IMA), Indian Naval Academ
 |---|---|
 | Conducted by | UPSC, followed by the SSB |
 | Stages | Written → SSB interview → medical |
-| Qualification | Graduate degree (engineering for INA; physics and maths for AFA) |
+| Qualification | Graduate degree (IMA, OTA); engineering degree, or B.Sc. with Physics (physics and maths at 10+2), for INA; degree with Physics and Maths at 10+2 level, or engineering, for AFA |
 
 ## Official sources
 
-- UPSC website (notifications under Examinations → Active Examinations): <https://upsc.gov.in>
+- CDS (II), 2026 examination notice (PDF): <https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf>
+- CDS (I), 2026 examination notice (PDF): <https://www.upsc.gov.in/sites/default/files/Notif-CDSE-I-2026-Engl-101225.pdf>
+- CDS (II), 2026 examination page: <https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20(II),%202026>
 - Official previous question papers: <https://upsc.gov.in/examinations/previous-question-papers>
 
 ## Exam pattern
@@ -41,9 +43,9 @@ All papers are objective and 2 hours each, with negative marking (one-third).
 
 ## Syllabus
 
-English (grammar, vocabulary, comprehension); general knowledge (current events, history, geography,
-polity, economy, science); elementary mathematics at Class 10 level (arithmetic, algebra, trigonometry, geometry,
-mensuration, statistics).
+English (understanding and workmanlike use of words); general knowledge (current events, everyday observation
+and experience in their scientific aspects, history of India, geography); elementary mathematics at Matriculation
+(Class 10) level (arithmetic, algebra, trigonometry, geometry, mensuration, statistics).
 
 ## How to prepare (free, in order)
 
