@@ -989,6 +989,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final; official_site=https://licindia.in/; pattern_url=https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final; syllabus_url=https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final"]
 
 [[task]]
 id = "T-270"
@@ -1093,6 +1094,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://kvsangathan.nic.in/en/document/recruitment-notification-no-1-2025-filling-up-the-teaching-and-non-teaching-posts-in-kvs-through-direct-recruitment/; official_site=https://kvsangathan.nic.in/; pattern_url=https://kvsangathan.nic.in/en/recruitment/; syllabus_url=https://kvsangathan.nic.in/en/syllabus/?_archive=1"]
 
 [[task]]
 id = "T-279"
@@ -1364,6 +1366,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET-Registration-Notice_MBA-MHT-CET-CET-2026.pdf; official_site=https://cetcell.mahacet.org/; pattern_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/Syllabus-Technical-2026.pdf; syllabus_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/Syllabus-Technical-2026.pdf"]
 
 [[task]]
 id = "T-303"
