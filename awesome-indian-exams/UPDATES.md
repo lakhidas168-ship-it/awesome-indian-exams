@@ -14,6 +14,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-27 21:07 UTC** · `T-428` · hermes · [Review modules/ce-core.md (Civil engineering core) against the official syllabi of the exams it counts for](ops/done/T-428.md)
 - **2026-09-27 21:04 UTC** · `T-427` · hermes · [Review modules/me-core.md (Mechanical engineering core) against the official syllabi of the exams it counts for](ops/done/T-427.md)
 - **2026-09-27 21:04 UTC** · `T-424` · hermes · [Review modules/ee-core.md (Electrical engineering core) against the official syllabi of the exams it counts for](ops/done/T-424.md)
+- **2026-09-27 21:04 UTC** · `T-248` · opencode · [Verify the SSC GD Constable page (exams/ssc/ssc-gd.md) against its current official notification](ops/done/T-248.md)
 - **2026-09-27 21:02 UTC** · `T-426` · hermes · [Review modules/cs-core.md (Computer science core) against the official syllabi of the exams it counts for](ops/done/T-426.md)
 - **2026-09-27 21:01 UTC** · `T-420` · hermes · [Review modules/accounting-basics.md (Accounting and business basics) against the official syllabi of the exams it counts for](ops/done/T-420.md)
 - **2026-09-27 21:00 UTC** · `T-210` · opencode · [Verify the KEAM page (exams/engineering-entrance/keam.md) against its current official notification](ops/done/T-210.md)
