@@ -148,11 +148,11 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| AFCAT (Air Force Common Admission Test) | Indian Air Force | <https://afcat.cdac.in> | queued |
-| Agniveer (Army) | Indian Army | <https://joinindianarmy.nic.in> | queued |
-| Agniveer (Navy) | Indian Navy | <https://www.joinindiannavy.gov.in> | queued |
-| Agniveer Vayu (Air Force) | Indian Air Force | <https://agnipathvayu.cdac.in> | queued |
-| Indian Coast Guard Navik / Yantrik | Indian Coast Guard | <https://joinindiancoastguard.cdac.in> | queued |
+| AFCAT (Air Force Common Admission Test) | Indian Air Force | <https://afcat.cdac.in> | [open](../exams/defence/afcat.md) |
+| Agniveer (Army) | Indian Army | <https://joinindianarmy.nic.in> | [open](../exams/defence/agniveer-army.md) |
+| Agniveer (Navy) | Indian Navy | <https://www.joinindiannavy.gov.in> | [open](../exams/defence/agniveer-navy.md) |
+| Agniveer Vayu (Air Force) | Indian Air Force | <https://agnipathvayu.cdac.in> | [open](../exams/defence/agniveer-vayu.md) |
+| Indian Coast Guard Navik / Yantrik | Indian Coast Guard | <https://joinindiancoastguard.cdac.in> | [open](../exams/defence/icg-navik.md) |
 
 ## Teaching and research: TET, NET, KVS
 
@@ -177,11 +177,11 @@ has to find the official one.
 | CUET PG | National Testing Agency | — | queued |
 | CUET UG | National Testing Agency | <https://cuet.nta.nic.in> | [open](../exams/university-entrance/cuet-ug.md) |
 | IIT JAM | IITs and IISc (organising institute rotates) | — | queued |
-| NATA (architecture aptitude) | Council of Architecture | <https://www.nata.in> | queued |
+| NATA (architecture aptitude) | Council of Architecture | <https://www.nata.in> | [open](../exams/university-entrance/nata.md) |
 | NCHM JEE (hotel management) | National Testing Agency | — | queued |
-| NID Design Aptitude Test (DAT) | National Institute of Design | <https://admissions.nid.edu> | queued |
-| NIFT entrance | National Institute of Fashion Technology | <https://www.nift.ac.in> | queued |
-| UCEED | IIT Bombay | <https://www.uceed.iitb.ac.in> | queued |
+| NID Design Aptitude Test (DAT) | National Institute of Design | <https://admissions.nid.edu> | [open](../exams/university-entrance/nid-dat.md) |
+| NIFT entrance | National Institute of Fashion Technology | <https://www.nift.ac.in> | [open](../exams/university-entrance/nift-entrance.md) |
+| UCEED | IIT Bombay | <https://www.uceed.iitb.ac.in> | [open](../exams/university-entrance/uceed.md) |
 
 ## School-level entrance
 
@@ -190,7 +190,7 @@ has to find the official one.
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
 | AISSEE (Sainik School entrance) | National Testing Agency | — | queued |
-| JNV Selection Test (Navodaya, Class 6 and 9) | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | queued |
+| JNV Selection Test (Navodaya, Class 6 and 9) | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | [open](../exams/school/jnvst.md) |
 
 ## Law entrance
 
@@ -223,6 +223,6 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| CA Foundation | Institute of Chartered Accountants of India | <https://www.icai.org> | queued |
-| CMA Foundation | Institute of Cost Accountants of India | <https://icmai.in> | queued |
-| CSEET (Company Secretary Executive Entrance Test) | Institute of Company Secretaries of India | <https://www.icsi.edu> | queued |
+| CA Foundation | Institute of Chartered Accountants of India | <https://www.icai.org> | [open](../exams/professional/ca-foundation.md) |
+| CMA Foundation | Institute of Cost Accountants of India | <https://icmai.in> | [open](../exams/professional/cma-foundation.md) |
+| CSEET (Company Secretary Executive Entrance Test) | Institute of Company Secretaries of India | <https://www.icsi.edu> | [open](../exams/professional/cseet.md) |

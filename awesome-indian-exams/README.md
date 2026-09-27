@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 67 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 80 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -128,7 +128,13 @@ _4 more in the [registry](resources/all-exams.md#ssc), pages queued for the hive
 
 ### Defence (non-UPSC entries)
 
-_5 exams in the [registry](resources/all-exams.md#defence), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [AFCAT (Air Force Common Admission Test)](exams/defence/afcat.md) | Indian Air Force | AFCAT (latest) | 🟡 secondary | 2026-09-27 |
+| [Agniveer (Army) Common Entrance Exam](exams/defence/agniveer-army.md) | Indian Army | Agnipath Army CEE (latest) | 🟡 secondary | 2026-09-27 |
+| [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | 🟡 secondary | 2026-09-27 |
+| [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | 🟡 secondary | 2026-09-27 |
+| [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | ICG (CGEPT, latest batch) | 🟡 secondary | 2026-09-27 |
 
 ### Teaching and research: TET, NET, KVS
 
@@ -148,12 +154,20 @@ _1 more in the [registry](resources/all-exams.md#teaching), pages queued for the
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | 🟡 secondary | 2026-09-27 |
+| [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | 🟡 secondary | 2026-09-27 |
+| [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT (latest) | 🟡 secondary | 2026-09-27 |
+| [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFT (latest admission cycle) | 🟡 secondary | 2026-09-27 |
+| [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | 🟡 secondary | 2026-09-27 |
 
-_7 more in the [registry](resources/all-exams.md#university-entrance), pages queued for the hive._
+_3 more in the [registry](resources/all-exams.md#university-entrance), pages queued for the hive._
 
 ### School-level entrance
 
-_2 exams in the [registry](resources/all-exams.md#school), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [JNV Selection Test (Navodaya, Class 6)](exams/school/jnvst.md) | Navodaya Vidyalaya Samiti | JNVST Class VI (latest) | ⚪ unverified | 2026-09-27 |
+
+_1 more in the [registry](resources/all-exams.md#school), pages queued for the hive._
 
 ### Law entrance
 
@@ -178,7 +192,11 @@ _2 more in the [registry](resources/all-exams.md#management), pages queued for t
 
 ### Professional courses: CA, CS, CMA
 
-_3 exams in the [registry](resources/all-exams.md#professional), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [CA Foundation](exams/professional/ca-foundation.md) | Institute of Chartered Accountants of India | CA Foundation (new scheme) | 🟡 secondary | 2026-09-27 |
+| [CMA Foundation](exams/professional/cma-foundation.md) | Institute of Cost Accountants of India | CMA Foundation (latest) | 🟡 secondary | 2026-09-27 |
+| [CSEET (CS Executive Entrance Test)](exams/professional/cseet.md) | Institute of Company Secretaries of India | CSEET (latest session) | 🟡 secondary | 2026-09-27 |
 <!-- EXAMS:END -->
 
 **Evidence status:** ✅ official = checked against the official notification · 🟡 secondary = cross-checked
