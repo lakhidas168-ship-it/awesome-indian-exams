@@ -75,7 +75,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | ✅ official | 2026-09-28 |
 | [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | ✅ official | 2026-09-28 |
 | [TG (Telangana) EAPCET](exams/engineering-entrance/ts-eapcet.md) | JNTUH (on behalf of TGCHE) | TG EAPCET 2026 | ✅ official | 2026-09-27 |
-| [VITEEE](exams/engineering-entrance/viteee.md) | Vellore Institute of Technology | VITEEE 2026 | 🟡 secondary | 2026-09-27 |
+| [VITEEE](exams/engineering-entrance/viteee.md) | Vellore Institute of Technology | VITEEE 2026 | ✅ official | 2026-09-27 |
 | [WBJEE](exams/engineering-entrance/wbjee.md) | West Bengal Joint Entrance Examinations Board | WBJEE 2026 | 🟡 secondary | 2026-09-27 |
 
 ### Medical: NEET and medical PG
@@ -94,7 +94,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [UPSC CAPF (Assistant Commandant)](exams/upsc/upsc-capf.md) | Union Public Service Commission | CAPF (AC) 2026 | 🟡 secondary | 2026-09-28 |
 | [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2027 | 🟡 secondary | 2026-09-27 |
-| [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | 🟡 secondary | 2026-09-27 |
+| [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | ✅ official | 2026-09-28 |
 | [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | 🟡 secondary | 2026-09-27 |
