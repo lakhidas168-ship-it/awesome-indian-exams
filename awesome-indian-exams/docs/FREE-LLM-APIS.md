@@ -45,6 +45,24 @@ console shows the live numbers.
 - **Gemini CLI:** 1,000 requests/day and 60 requests/minute with a personal Google account.
 - **Qwen Code:** its free OAuth tier closed on 15 April 2026, so don't rely on it.
 
+## Free machines that can run the hive 24/7
+
+The workers are light: plain Python that calls LLM APIs, so almost any always-on machine will do. Connect every
+machine to the Mac's local hub (`~/.hive/hub.git`) over **Tailscale**, which is free for personal use
+(<https://login.tailscale.com/start>), so no port is opened to the internet.
+
+| Option | Cost | What you get | Watch out for |
+|---|---|---|---|
+| **Oracle Cloud Always Free** (<https://signup.cloud.oracle.com>), home region Mumbai or Hyderabad | ₹0; a card is needed only for identity checks | Ampere A1 Arm VM. Since June 2026: 2 cores and 12 GB RAM, free for ever | • The home region may have no free A1 capacity: retry, or pick the other Indian region.<br>• An instance whose CPU, network and memory all stay under 20% for 7 days can be reclaimed.<br>• Pay-As-You-Go accounts reportedly keep 4 cores and 24 GB free, but then set a budget alert, because anything beyond the free shapes is billed |
+| **Old Android phone + Termux** (Termux from F-Droid: <https://f-droid.org/packages/com.termux/>) | ₹0, no card | Python on a phone that stays on | • Run `termux-wake-lock`.<br>• Set Termux's battery use to "Unrestricted".<br>• Keep it on the charger and Wi-Fi |
+| **Google Cloud e2-micro** (<https://cloud.google.com/free>) | ₹0 within the free tier; card needed | 1 small VM (1 GB RAM), US regions only | Only us-west1, us-central1 and us-east1 are free |
+
+**Not for 24/7:**
+- **GitHub Actions:** terms and spam risk, see above.
+- **Google Colab and Kaggle:** time-limited sessions; Kaggle is for training only.
+- **GitHub Codespaces:** stops when idle.
+- **Hugging Face Spaces:** the free CPU tier sleeps after 48 hours without visitors.
+
 ## Tips from the lists and forums
 
 1. **Spread the load across providers.** Each counts its own limits. `free_agent.py` already moves to the next
