@@ -397,6 +397,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.aiimsexams.ac.in/landingpage/courses/advertisement/68dbf0b6d6fe8f55c65468aa; official_site=https://www.aiimsexams.ac.in/; pattern_url=https://www.aiimsexams.ac.in/prospectus/6aaab710c7a01ed08da4242d; syllabus_url=https://www.aiimsexams.ac.in/prospectus/6aaab710c7a01ed08da4242d"]
 
 [[task]]
 id = "T-217"
@@ -1045,6 +1046,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: official_site=https://indiancoastguard.gov.in/"]
 
 [[task]]
 id = "T-275"
@@ -1156,6 +1158,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://jam.iitkgp.ac.in/notifications.html; official_site=https://jam.iitkgp.ac.in/; pattern_url=https://jam.iitkgp.ac.in/syllabus.html; syllabus_url=https://jam.iitkgp.ac.in/syllabus.html"]
 
 [[task]]
 id = "T-285"
