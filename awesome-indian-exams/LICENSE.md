@@ -12,7 +12,7 @@ Links to third-party websites are not covered by this license. Their content bel
 
 ## Code
 
-The code in `scripts/`, `ops/` (`*.py`, `*.sh`) and `tests/` is licensed under the MIT License:
+The code in `scripts/`, `ops/` (`*.py`, `*.sh`), `tools/` (`*.js`, `*.css`) and `tests/` is licensed under the MIT License:
 
 ```
 MIT License

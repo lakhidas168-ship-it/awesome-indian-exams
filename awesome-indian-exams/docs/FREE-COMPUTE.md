@@ -11,7 +11,7 @@ official page every month (backlog task `T-016`, re-added monthly by JEVX).
 
 | What | What is free | How the hive uses it | Caveat |
 |---|---|---|---|
-| **GitHub Actions** | Standard runners are free for public repositories | Runs the whole cloud hive every hour (`.github/workflows/hive-cloud.yml`) | Scheduled workflows pause after 60 days without repository activity; the hive's own commits keep it active |
+| **GitHub Actions** | Standard runners are free for public repositories | Validates every push and pull request; runs the cloud hive by hand when the Mac is off (`.github/workflows/hive-cloud.yml`) | Never schedule the hive: frequent automated pushes look like spam. Scheduled checks pause after 60 days without repository activity |
 | **GitHub Models** | Free, rate-limited inference with the workflow's `GITHUB_TOKEN` (`permissions: models: read`) | Default provider of the free agent and the judge | Per-request limits (about 8k tokens in, 4k out) and daily request caps, so expect **roughly 5–15 tasks a day** from this alone. The agent keeps its context small to fit |
 
 ## One-time owner steps that add free capacity (repository secrets)

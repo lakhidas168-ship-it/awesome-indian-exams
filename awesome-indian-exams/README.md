@@ -19,11 +19,26 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 1. **[Overlap map](resources/overlap-map.md):** the shared modules and every exam each one covers.
 2. **[All exams](resources/all-exams.md):** the full registry with conducting bodies and official websites.
-3. **Shared modules:** [quantitative aptitude](modules/quant-aptitude.md) · [reasoning](modules/reasoning.md) ·
-   [English](modules/english-language.md) · [general awareness](modules/general-awareness.md) ·
-   [general science](modules/general-science.md)
+3. **Shared modules** (all 33 are in the overlap map): [quantitative aptitude](modules/quant-aptitude.md) ·
+   [reasoning](modules/reasoning.md) · [English](modules/english-language.md) ·
+   [general awareness](modules/general-awareness.md) · [general science](modules/general-science.md)
 4. **Electrical engineering track:** [EE subject map](resources/ee-subject-map.md) ·
    [EE free resources](resources/ee-free-resources.md)
+5. **[Previous-year papers](resources/previous-papers.md):** the official archives of UPSC, SSC, GATE, NTA and state
+   commissions, plus official JoSAA and MCC counselling data.
+6. **[Free coaching](resources/free-coaching.md):** SATHEE (IIT Kanpur), IIT-PAL, SWAYAM Prabha, and government
+   schemes that pay coaching fees for eligible students.
+7. **[Free official platforms](resources/free-official-platforms.md):** NCERT, NIOS, DIKSHA, NTA Abhyas, SWAYAM,
+   NPTEL, e-PG Pathshala, National Digital Library, PIB.
+8. **[Open-source projects](resources/open-source-projects.md):** community question banks, datasets, planners and
+   notes vaults.
+9. **[How to study](resources/study-methods.md):** the methods with the strongest research evidence, and the
+   aspirant tips that keep coming up.
+10. **[Free study tools](tools/index.md):** a study planner for your exam with a focus timer and streaks,
+   spaced-repetition flashcards, a marks calculator, and AI study prompts. No login, no ads; progress stays in
+   your browser, and they work in the offline copy too.
+11. **Open data:** every exam, module and page status as one JSON file, built by
+   [`scripts/export_json.py`](scripts/export_json.py) for apps and planners.
 
 ## Exams
 

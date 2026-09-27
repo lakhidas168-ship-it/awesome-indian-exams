@@ -1,0 +1,225 @@
+{
+ "id": "polity-articles",
+ "title": "Indian polity: key Articles of the Constitution",
+ "modules": [
+  "gs-polity"
+ ],
+ "license": "Headings from the Constitution of India (a Government of India text); deck arrangement CC BY-SA 4.0 like the rest of this list",
+ "source": {
+  "title": "The Constitution of India (Legislative Department, Ministry of Law and Justice)",
+  "url": "https://www.legislative.gov.in/document/constitution-of-india-in-english"
+ },
+ "note": "Each answer is the Article's heading as in the official text; read the Article itself for the full provision.",
+ "cards": [
+  {
+   "id": "art-12",
+   "front": "Article 12 of the Constitution of India: what is it about?",
+   "back": "Definition of \"the State\" for Part III (Fundamental Rights)."
+  },
+  {
+   "id": "art-13",
+   "front": "Article 13 of the Constitution of India: what is it about?",
+   "back": "Laws inconsistent with or in derogation of the fundamental rights."
+  },
+  {
+   "id": "art-14",
+   "front": "Article 14 of the Constitution of India: what is it about?",
+   "back": "Equality before law."
+  },
+  {
+   "id": "art-15",
+   "front": "Article 15 of the Constitution of India: what is it about?",
+   "back": "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth."
+  },
+  {
+   "id": "art-16",
+   "front": "Article 16 of the Constitution of India: what is it about?",
+   "back": "Equality of opportunity in matters of public employment."
+  },
+  {
+   "id": "art-17",
+   "front": "Article 17 of the Constitution of India: what is it about?",
+   "back": "Abolition of Untouchability."
+  },
+  {
+   "id": "art-19",
+   "front": "Article 19 of the Constitution of India: what is it about?",
+   "back": "Protection of certain rights regarding freedom of speech, etc.."
+  },
+  {
+   "id": "art-20",
+   "front": "Article 20 of the Constitution of India: what is it about?",
+   "back": "Protection in respect of conviction for offences."
+  },
+  {
+   "id": "art-21",
+   "front": "Article 21 of the Constitution of India: what is it about?",
+   "back": "Protection of life and personal liberty."
+  },
+  {
+   "id": "art-21a",
+   "front": "Article 21A of the Constitution of India: what is it about?",
+   "back": "Right to education."
+  },
+  {
+   "id": "art-22",
+   "front": "Article 22 of the Constitution of India: what is it about?",
+   "back": "Protection against arrest and detention in certain cases."
+  },
+  {
+   "id": "art-23",
+   "front": "Article 23 of the Constitution of India: what is it about?",
+   "back": "Prohibition of traffic in human beings and forced labour."
+  },
+  {
+   "id": "art-24",
+   "front": "Article 24 of the Constitution of India: what is it about?",
+   "back": "Prohibition of employment of children in factories, etc.."
+  },
+  {
+   "id": "art-25",
+   "front": "Article 25 of the Constitution of India: what is it about?",
+   "back": "Freedom of conscience and free profession, practice and propagation of religion."
+  },
+  {
+   "id": "art-29",
+   "front": "Article 29 of the Constitution of India: what is it about?",
+   "back": "Protection of interests of minorities."
+  },
+  {
+   "id": "art-30",
+   "front": "Article 30 of the Constitution of India: what is it about?",
+   "back": "Right of minorities to establish and administer educational institutions."
+  },
+  {
+   "id": "art-32",
+   "front": "Article 32 of the Constitution of India: what is it about?",
+   "back": "Remedies for enforcement of rights conferred by Part III."
+  },
+  {
+   "id": "art-39a",
+   "front": "Article 39A of the Constitution of India: what is it about?",
+   "back": "Equal justice and free legal aid."
+  },
+  {
+   "id": "art-40",
+   "front": "Article 40 of the Constitution of India: what is it about?",
+   "back": "Organisation of village panchayats."
+  },
+  {
+   "id": "art-44",
+   "front": "Article 44 of the Constitution of India: what is it about?",
+   "back": "Uniform civil code for the citizens."
+  },
+  {
+   "id": "art-48a",
+   "front": "Article 48A of the Constitution of India: what is it about?",
+   "back": "Protection and improvement of environment and safeguarding of forests and wild life."
+  },
+  {
+   "id": "art-50",
+   "front": "Article 50 of the Constitution of India: what is it about?",
+   "back": "Separation of judiciary from executive."
+  },
+  {
+   "id": "art-51",
+   "front": "Article 51 of the Constitution of India: what is it about?",
+   "back": "Promotion of international peace and security."
+  },
+  {
+   "id": "art-51a",
+   "front": "Article 51A of the Constitution of India: what is it about?",
+   "back": "Fundamental duties."
+  },
+  {
+   "id": "art-72",
+   "front": "Article 72 of the Constitution of India: what is it about?",
+   "back": "Power of President to grant pardons, etc., and to suspend, remit or commute sentences in certain cases."
+  },
+  {
+   "id": "art-110",
+   "front": "Article 110 of the Constitution of India: what is it about?",
+   "back": "Definition of \"Money Bills\"."
+  },
+  {
+   "id": "art-112",
+   "front": "Article 112 of the Constitution of India: what is it about?",
+   "back": "Annual financial statement (the Budget)."
+  },
+  {
+   "id": "art-123",
+   "front": "Article 123 of the Constitution of India: what is it about?",
+   "back": "Power of President to promulgate Ordinances during recess of Parliament."
+  },
+  {
+   "id": "art-143",
+   "front": "Article 143 of the Constitution of India: what is it about?",
+   "back": "Power of President to consult Supreme Court."
+  },
+  {
+   "id": "art-148",
+   "front": "Article 148 of the Constitution of India: what is it about?",
+   "back": "Comptroller and Auditor-General of India."
+  },
+  {
+   "id": "art-213",
+   "front": "Article 213 of the Constitution of India: what is it about?",
+   "back": "Power of Governor to promulgate Ordinances during recess of Legislature."
+  },
+  {
+   "id": "art-226",
+   "front": "Article 226 of the Constitution of India: what is it about?",
+   "back": "Power of High Courts to issue certain writs."
+  },
+  {
+   "id": "art-280",
+   "front": "Article 280 of the Constitution of India: what is it about?",
+   "back": "Finance Commission."
+  },
+  {
+   "id": "art-300a",
+   "front": "Article 300A of the Constitution of India: what is it about?",
+   "back": "Persons not to be deprived of property save by authority of law."
+  },
+  {
+   "id": "art-312",
+   "front": "Article 312 of the Constitution of India: what is it about?",
+   "back": "All-India services."
+  },
+  {
+   "id": "art-315",
+   "front": "Article 315 of the Constitution of India: what is it about?",
+   "back": "Public Service Commissions for the Union and for the States."
+  },
+  {
+   "id": "art-324",
+   "front": "Article 324 of the Constitution of India: what is it about?",
+   "back": "Superintendence, direction and control of elections to be vested in an Election Commission."
+  },
+  {
+   "id": "art-326",
+   "front": "Article 326 of the Constitution of India: what is it about?",
+   "back": "Elections to the House of the People and to the Legislative Assemblies of States to be on the basis of adult suffrage."
+  },
+  {
+   "id": "art-352",
+   "front": "Article 352 of the Constitution of India: what is it about?",
+   "back": "Proclamation of Emergency."
+  },
+  {
+   "id": "art-356",
+   "front": "Article 356 of the Constitution of India: what is it about?",
+   "back": "Provisions in case of failure of constitutional machinery in States."
+  },
+  {
+   "id": "art-360",
+   "front": "Article 360 of the Constitution of India: what is it about?",
+   "back": "Provisions as to financial emergency."
+  },
+  {
+   "id": "art-368",
+   "front": "Article 368 of the Constitution of India: what is it about?",
+   "back": "Power of Parliament to amend the Constitution and procedure therefor."
+  }
+ ]
+}
