@@ -20,4 +20,6 @@ case "$job" in
   doctor)  python3 "$HERE/doctor.py" --mac ;;
   *)       "$HERE/run-hourly.sh" "$@" ;;
 esac
-echo "----- $(date -u +%Y-%m-%dT%H:%M:%SZ) end (exit $?)"
+rc=$?
+echo "----- $(date -u +%Y-%m-%dT%H:%M:%SZ) end (exit $rc)"
+exit $rc

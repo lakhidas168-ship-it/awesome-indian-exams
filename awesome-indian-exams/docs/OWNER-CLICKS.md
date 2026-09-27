@@ -18,12 +18,19 @@ to open or a line to paste. Steps marked **optional** add capacity but nothing b
 
 ## B. The Mac: your own agents join the same hive (5 minutes)
 
+**Easiest:** in Terminal run `cd ~/code/lakhidas168-ship-it 2>/dev/null || cd ~ ; claude remote-control`, open
+the new session in the Claude app, and say "Follow awesome-indian-exams/docs/MAC-HANDOFF.md". That Claude runs
+on your Mac, with your files and MCP servers, and does steps 5–9 below for you. Or do them yourself:
+
 5. **One paste in Terminal** (after step 1). It detects OpenCode, Hermes, Gemini CLI, Antigravity, JEVX and Ollama,
    writes `~/.hive/agents.env`, installs the hourly schedule, and starts the first scan of your earlier work.
    It opens the GitHub login in the browser if needed.
    ```bash
-   mkdir -p ~/code && cd ~/code && { [ -d lakhidas168-ship-it ] || git clone https://github.com/lakhidas168-ship-it/lakhidas168-ship-it.git; } && cd lakhidas168-ship-it && git pull --ff-only && bash awesome-indian-exams/ops/mac-bootstrap.sh
+   mkdir -p ~/code && cd ~/code && { [ -d lakhidas168-ship-it ] || git clone https://github.com/lakhidas168-ship-it/lakhidas168-ship-it.git; } && cd lakhidas168-ship-it && git pull --ff-only && bash awesome-indian-exams/ops/mac-bootstrap.sh --loop
    ```
+   `--loop` also starts **continuous mode**: 6 Hermes + 6 OpenCode workers (plus Gemini and Antigravity), taking
+   tasks back-to-back and keeping the Mac awake. Check it with `bash awesome-indian-exams/ops/hive-loop.sh status`;
+   stop it with `... hive-loop.sh stop`.
 6. **Let the schedule read your folders:** open
    `x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles` (paste into Safari's address bar,
    or run `open "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles"`) → **+** →

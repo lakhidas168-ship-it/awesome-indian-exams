@@ -58,6 +58,15 @@ Antigravity `agy -p` behind a pseudo-terminal), and the OpenCode lane runs `open
 (`HIVE_FALLBACK`), so one logged-out tool never stalls a lane. Tasks marked `where = "mac"` (they need local files)
 run only on the Mac.
 
+## Continuous mode (use the whole machine)
+
+[`hive-loop.sh`](hive-loop.sh) `start|stop|status` runs many workers per lane back-to-back instead of hourly: by
+default 6 Hermes-lane and 6 OpenCode-lane workers, plus Gemini and Antigravity when installed, and a JEVX
+review/merge loop every 30 minutes. It keeps the Mac awake and backs off when there is no ready task or no LLM
+capacity. `stop` ends only the process groups it started. The cloud workflow does the same with a 6 + 6 job
+matrix every 20 minutes. Tested: parallel loops took every task exactly once and left no processes after
+`stop`.
+
 ## Sandbox (cloud)
 
 In the cloud, agents that have a shell (the real OpenCode CLI) work on a copy of the content folder with no

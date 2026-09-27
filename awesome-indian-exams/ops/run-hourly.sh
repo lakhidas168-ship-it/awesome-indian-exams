@@ -62,6 +62,7 @@ cleanup() {
   rmdir "$LOCK" 2>/dev/null || true
 }
 trap cleanup EXIT
+trap 'exit 143' INT TERM   # a stopped worker still releases its claim and lock through the EXIT trap
 
 # Each lane works in its own worktree, so lanes run in parallel without touching each other's files.
 WT="$HIVE_HOME/worktrees/$WORKER"
@@ -118,7 +119,10 @@ PY
     # shellcheck disable=SC2086
     (cd "$C" && perl -e 'alarm shift; exec @ARGV' "$TIMEOUT" $CMD "$prompt") && AGENT_RC=0 || AGENT_RC=$?
   fi
-  if [ "$AGENT_RC" = 75 ]; then log "no free LLM capacity right now (exit 75); task goes back to the queue"; exit 0; fi
+  if [ "$AGENT_RC" = 75 ]; then
+    log "no free LLM capacity right now (exit 75); task goes back to the queue"
+    exit "${HIVE_NO_TASK_EXIT:-0}"   # continuous mode backs off instead of hammering a rate limit
+  fi
   [ "$AGENT_RC" = 0 ] || log "agent exited with $AGENT_RC"
 }
 
@@ -195,7 +199,7 @@ set +e
 TASK_JSON="$(python3 "$C/ops/agentctl.py" next "$LANE" --claim --agent "$WORKER")"
 rc=$?
 set -e
-if [ $rc -eq 3 ]; then log "no ready task"; exit 0; fi
+if [ $rc -eq 3 ]; then log "no ready task"; exit "${HIVE_NO_TASK_EXIT:-0}"; fi
 if [ $rc -ne 0 ]; then log "agentctl failed ($rc)"; exit $rc; fi
 TASK_ID="$(printf '%s' "$TASK_JSON" | python3 -c 'import json,sys;print(json.load(sys.stdin)["id"])')"
 TITLE="$(printf '%s' "$TASK_JSON" | python3 -c 'import json,sys;print(json.load(sys.stdin)["title"])')"

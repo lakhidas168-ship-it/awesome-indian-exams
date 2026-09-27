@@ -1,7 +1,7 @@
 name: hive-cloud
 
-# The free 24/7 hive: every hour, two worker lanes (Hermes = content, OpenCode = tooling) each take one task
-# with the built-in zero-cost agent, and the JEVX judge publishes what passes every gate.
+# The free 24/7 hive: every 20 minutes, 6 Hermes (content) and 6 OpenCode (tooling) workers each take one task
+# in parallel, and the JEVX judge publishes what passes every gate. Rate-limited workers just requeue their task.
 # Cost: public-repo Actions minutes are free; GitHub Models is free (rate-limited) with the workflow token.
 # Kill switch: set the repository variable HIVE_ENABLED to "false" (Settings → Secrets and variables → Actions).
 # Optional capacity: repository secrets OPENCODE_API_KEY (owner's OpenCode Go plan: DeepSeek V4.1 Flash for the
@@ -9,7 +9,7 @@ name: hive-cloud
 
 on:
   schedule:
-    - cron: "23 * * * *"
+    - cron: "3,23,43 * * * *"   # every 20 minutes
   workflow_dispatch:
 
 permissions:
@@ -27,8 +27,9 @@ jobs:
     timeout-minutes: 45
     strategy:
       fail-fast: false
-      matrix:
+      matrix:   # 6 Hermes + 6 OpenCode workers in parallel; atomic claims keep them on different tasks
         lane: [hermes, opencode]
+        n: [1, 2, 3, 4, 5, 6]
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,7 +39,7 @@ jobs:
           python-version: "3.11"
       - name: Optional PDF text extraction for official notifications
         run: pip install --quiet pypdf || true
-      - name: One hive task (${{ matrix.lane }})
+      - name: One hive task (${{ matrix.lane }}-${{ matrix.n }})
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
@@ -61,7 +62,7 @@ jobs:
           if [ "${{ matrix.lane }}" = "opencode" ] && [ -n "$OPENCODE_API_KEY" ]; then
             npm install -g --silent opencode-ai && export HIVE_CMD_OPENCODE="opencode run -m opencode-go/deepseek-v4.1-flash"
           fi
-          awesome-indian-exams/ops/run-hourly.sh "${{ matrix.lane }}"
+          awesome-indian-exams/ops/run-hourly.sh "${{ matrix.lane }}" "${{ matrix.lane }}-${{ matrix.n }}"
 
   judge:
     needs: work
@@ -87,5 +88,5 @@ jobs:
           git config --global user.name "hive-bot"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python3 awesome-indian-exams/ops/agentctl.py reap --hours 6 || true
-          python3 awesome-indian-exams/ops/judge.py --publish
+          python3 awesome-indian-exams/ops/judge.py --publish --limit 12
           python3 awesome-indian-exams/ops/doctor.py || true   # health report in the log

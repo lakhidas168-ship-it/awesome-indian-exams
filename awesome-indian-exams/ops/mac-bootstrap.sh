@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # One command sets up the whole hive on the owner's Mac. Safe to run again at any time (idempotent).
 #
-#   cd ~/code/lakhidas168-ship-it && bash awesome-indian-exams/ops/mac-bootstrap.sh
+#   cd ~/code/lakhidas168-ship-it && bash awesome-indian-exams/ops/mac-bootstrap.sh [--loop]
+#
+# --loop also starts continuous mode (ops/hive-loop.sh): many workers per lane, back-to-back, Mac kept awake.
 #
 # What it does:
 #   1. checks the basics (git, Python 3.11+, perl, gh) and opens the GitHub login in the browser if needed
@@ -53,6 +55,8 @@ DET="$HIVE_HOME/agents.env.detected"
     echo 'export HIVE_CMD_JEVX=free-agent'
   fi
   if have ollama; then echo 'export OLLAMA_BASE_URL=http://localhost:11434/v1   # free local model for free-agent'; fi
+  echo 'export HIVE_LOOP_HERMES=6      # continuous mode (ops/hive-loop.sh): parallel Hermes-lane workers'
+  echo 'export HIVE_LOOP_OPENCODE=6    # continuous mode: parallel OpenCode-lane workers'
 } > "$DET"
 [ -f "$HIVE_HOME/agents.env" ] || cp "$DET" "$HIVE_HOME/agents.env"
 cat "$HIVE_HOME/agents.env"
@@ -81,6 +85,11 @@ crontab -l | sed -n '/# >>> hive >>>/,/# <<< hive <<</p'
 say "4/4 first harvest scan (background) and health check"
 nohup /bin/bash "$HERE/hive-cron.sh" harvest >/dev/null 2>&1 &
 HIVE_WHERE=mac python3 "$HERE/doctor.py" --mac || true
+
+if [ "${1:-}" = "--loop" ]; then
+  say "continuous mode: 6 Hermes + 6 OpenCode workers (and Gemini/Antigravity if present), Mac kept awake"
+  /bin/bash "$HERE/hive-loop.sh" start
+fi
 
 cat <<'EOF'
 

@@ -21,7 +21,7 @@ TOOLING = ("scripts/", "tests/", "ops/", ".agents/", "opencode.json")
 PROTECTED = ("scripts/hive_gate.py", "scripts/evidence_gate.py", "ops/judge.py", "ops/run-hourly.sh",
              "ops/merge_ready.sh", "ops/agentctl.py", "ops/free_agent.py", "ops/official-domains.txt",
              "ops/hive.toml", "ops/prompts/", ".agents/", "ops/harvest.py", "ops/doctor.py",
-             "ops/mac-bootstrap.sh", "ops/hive-cron.sh", "ops/mcp_server.py", "opencode.json")
+             "ops/mac-bootstrap.sh", "ops/hive-cron.sh", "ops/hive-loop.sh", "ops/mcp_server.py", "opencode.json")
 
 
 def allowed(lane: str, task: str, path: str, prefix: str = PREFIX) -> bool:

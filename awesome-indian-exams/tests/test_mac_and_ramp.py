@@ -8,6 +8,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 import unittest
 from pathlib import Path
 
@@ -178,6 +179,40 @@ class Doctor(unittest.TestCase):
             self.assertIn("mac-bootstrap", checks["agents.env"]["fix"])
         finally:
             shutil.rmtree(tmp)
+
+
+@unittest.skipIf(os.environ.get("HIVE_IN_JUDGE"), "the continuous-mode run is not repeated inside the judge")
+class ContinuousMode(unittest.TestCase):
+    def test_parallel_loops_take_distinct_tasks_and_stop_cleanly(self) -> None:
+        tmp = Path(tempfile.mkdtemp())
+        try:
+            backlog = "".join(f'[[task]]\nid = "T-{i:03d}"\nlane = "{"hermes" if i <= 5 else "opencode"}"\n'
+                              f'priority = 1\ntitle = "task {i}"\naccept = ["a"]\n' for i in range(1, 8))
+            repo = make_remote(tmp, ("repo",), tasks_toml=backlog)[0]
+            agent = tmp / "agent.sh"
+            agent.write_text('#!/bin/bash\nmkdir -p docs; echo "$$" > "docs/loop-$HIVE_TASK_ID.md"\n', encoding="utf-8")
+            agent.chmod(0o755)
+            env = {**{k: v for k, v in ENV.items() if k not in KEY_ENVS}, "HIVE_HOME": str(tmp / "hive"),
+                   "HIVE_OPEN_PR": "0", "HIVE_CMD_HERMES": str(agent), "HIVE_CMD_OPENCODE": str(agent),
+                   "HIVE_CMD_JEVX": "true", "HIVE_LOOP_HERMES": "2", "HIVE_LOOP_OPENCODE": "1",
+                   "HIVE_LOOP_IDLE": "1", "HIVE_LOOP_JEVX_EVERY": "999"}
+            loop = [f"{CONTENT.name}/ops/hive-loop.sh"]
+            subprocess.run(["bash", *loop, "start"], cwd=repo, env=env, check=True, capture_output=True, timeout=60)
+            deadline = time.time() + 120
+            branches: list[str] = []
+            while time.time() < deadline and len(branches) < 7:
+                time.sleep(2)
+                branches = subprocess.run(["git", "ls-remote", "origin", "refs/heads/agent/*"], cwd=repo,
+                                          capture_output=True, text=True).stdout.split()[1::2]
+            subprocess.run(["bash", *loop, "stop"], cwd=repo, env=env, capture_output=True, timeout=60)
+            time.sleep(2)
+            tasks = [b.rsplit("/", 1)[1] for b in branches]
+            self.assertEqual(sorted(set(tasks)), [f"T-{i:03d}" for i in range(1, 8)])
+            self.assertEqual(len(tasks), len(set(tasks)))
+            left = subprocess.run(["pgrep", "-f", str(tmp / "hive")], capture_output=True, text=True).stdout.split()
+            self.assertEqual(left, [], "stop left processes running")
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
 
 
 if __name__ == "__main__":
