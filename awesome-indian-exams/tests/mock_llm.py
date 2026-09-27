@@ -20,12 +20,14 @@ class MockLLM:
         self.script = script
         self.fail_with: int | None = None
         self.requests: list[dict] = []
+        self.headers: list[dict] = []
         owner = self
 
         class Handler(BaseHTTPRequestHandler):
             def do_POST(self):  # noqa: N802
                 body = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
                 owner.requests.append(body)
+                owner.headers.append({k.lower(): v for k, v in self.headers.items()})
                 if owner.fail_with:
                     self.send_response(owner.fail_with)
                     self.end_headers()
