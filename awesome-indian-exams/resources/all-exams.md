@@ -29,7 +29,7 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| AP EAPCET | APSCHE (conducting university varies) | — | queued |
+| AP EAPCET | APSCHE (conducting university varies) | <https://cets.apsche.ap.gov.in> | [open](../exams/engineering-entrance/ap-eapcet.md) |
 | BITSAT | BITS Pilani | <https://www.bitsadmission.com> | [open](../exams/engineering-entrance/bitsat.md) |
 | COMEDK UGET | Consortium of Medical, Engineering and Dental Colleges of Karnataka | <https://www.comedk.org> | [open](../exams/engineering-entrance/comedk-uget.md) |
 | JEE Advanced | IITs (organising IIT rotates) | <https://jeeadv.ac.in> | [open](../exams/engineering-entrance/jee-advanced.md) |
@@ -37,7 +37,7 @@ has to find the official one.
 | KEAM | Commissioner for Entrance Examinations, Kerala | <https://cee.kerala.gov.in> | [open](../exams/engineering-entrance/keam.md) |
 | Karnataka CET (KCET) | Karnataka Examinations Authority | <https://kea.kar.nic.in> | [open](../exams/engineering-entrance/kcet.md) |
 | MHT CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | [open](../exams/engineering-entrance/mht-cet.md) |
-| TG (Telangana) EAPCET | TGCHE (conducting university varies) | — | queued |
+| TG (Telangana) EAPCET | TGCHE (conducting university varies) | <https://eapcet.tgche.ac.in> | [open](../exams/engineering-entrance/ts-eapcet.md) |
 | VITEEE | VIT University | <https://viteee.vit.ac.in> | [open](../exams/engineering-entrance/viteee.md) |
 | WBJEE | West Bengal Joint Entrance Examinations Board | <https://wbjeeb.nic.in> | [open](../exams/engineering-entrance/wbjee.md) |
 
@@ -88,7 +88,7 @@ has to find the official one.
 | MPSC State Services (Rajyaseva) | Maharashtra Public Service Commission | <https://mpsc.gov.in> | [open](../exams/state-psc/mpsc-rajyaseva.md) |
 | OPSC Odisha Civil Services | Odisha Public Service Commission | <https://www.opsc.gov.in> | [open](../exams/state-psc/opsc-ocs.md) |
 | RPSC RAS/RTS | Rajasthan Public Service Commission | <https://rpsc.rajasthan.gov.in> | [open](../exams/state-psc/rpsc-ras.md) |
-| TGPSC (Telangana) Group 1 | Telangana Public Service Commission | — | queued |
+| TGPSC (Telangana) Group 1 | Telangana Public Service Commission | <https://www.tgpsc.gov.in> | [open](../exams/state-psc/tgpsc-group-1.md) |
 | TNPSC Group 1 | Tamil Nadu Public Service Commission | <https://www.tnpsc.gov.in> | [open](../exams/state-psc/tnpsc-group-1.md) |
 | TNPSC Group 4 | Tamil Nadu Public Service Commission | <https://www.tnpsc.gov.in> | [open](../exams/state-psc/tnpsc-group-4.md) |
 | UKPSC Combined State Civil Services | Uttarakhand Public Service Commission | <https://psc.uk.gov.in> | [open](../exams/state-psc/ukpsc-pcs.md) |
@@ -174,11 +174,11 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| CUET PG | National Testing Agency | — | queued |
+| CUET PG | National Testing Agency | <https://exams.nta.nic.in/cuet-pg/> | [open](../exams/university-entrance/cuet-pg.md) |
 | CUET UG | National Testing Agency | <https://cuet.nta.nic.in> | [open](../exams/university-entrance/cuet-ug.md) |
-| IIT JAM | IITs and IISc (organising institute rotates) | — | queued |
+| IIT JAM | IITs and IISc (IIT Kharagpur for JAM 2027) | <https://jam.iitkgp.ac.in> | [open](../exams/university-entrance/iit-jam.md) |
 | NATA (architecture aptitude) | Council of Architecture | <https://www.nata.in> | [open](../exams/university-entrance/nata.md) |
-| NCHM JEE (hotel management) | National Testing Agency | — | queued |
+| NCHM JEE (hotel management) | National Testing Agency | <https://exams.nta.nic.in> | [open](../exams/university-entrance/nchm-jee.md) |
 | NID Design Aptitude Test (DAT) | National Institute of Design | <https://admissions.nid.edu> | [open](../exams/university-entrance/nid-dat.md) |
 | NIFT entrance | National Institute of Fashion Technology | <https://www.nift.ac.in> | [open](../exams/university-entrance/nift-entrance.md) |
 | UCEED | IIT Bombay | <https://www.uceed.iitb.ac.in> | [open](../exams/university-entrance/uceed.md) |
@@ -189,7 +189,7 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| AISSEE (Sainik School entrance) | National Testing Agency | — | queued |
+| AISSEE (Sainik School entrance) | National Testing Agency | <https://exams.nta.nic.in> | [open](../exams/school/aissee.md) |
 | JNV Selection Test (Navodaya, Class 6 and 9) | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | [open](../exams/school/jnvst.md) |
 
 ## Law entrance
@@ -209,7 +209,7 @@ has to find the official one.
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
 | CAT | IIMs (convening IIM rotates) | <https://iimcat.ac.in> | [open](../exams/management/cat.md) |
-| CMAT | National Testing Agency | — | queued |
+| CMAT | National Testing Agency | <https://exams.nta.nic.in> | [open](../exams/management/cmat.md) |
 | IPMAT (IIM Indore) | IIM Indore | <https://www.iimidr.ac.in> | [open](../exams/management/ipmat-indore.md) |
 | MAH MBA/MMS CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | [open](../exams/management/mah-mba-cet.md) |
 | MAT | All India Management Association | <https://mat.aima.in> | [open](../exams/management/mat.md) |

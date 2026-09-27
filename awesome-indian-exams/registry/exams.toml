@@ -382,7 +382,7 @@ id = "ap-eapcet"
 name = "AP EAPCET"
 family = "engineering-entrance"
 body = "APSCHE (conducting university varies)"
-official_site = ""
+official_site = "https://cets.apsche.ap.gov.in"
 modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
 
 [[exam]]
@@ -390,7 +390,7 @@ id = "ts-eapcet"
 name = "TG (Telangana) EAPCET"
 family = "engineering-entrance"
 body = "TGCHE (conducting university varies)"
-official_site = ""
+official_site = "https://eapcet.tgche.ac.in"
 modules = ["ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
 
 [[exam]]
@@ -668,7 +668,7 @@ id = "tgpsc-group-1"
 name = "TGPSC (Telangana) Group 1"
 family = "state-psc"
 body = "Telangana Public Service Commission"
-official_site = ""
+official_site = "https://www.tgpsc.gov.in"
 modules = ["gs-polity", "gs-history", "gs-geography", "gs-economy", "general-awareness", "descriptive-writing"]
 
 [[exam]]
@@ -1008,15 +1008,15 @@ id = "cuet-pg"
 name = "CUET PG"
 family = "university-entrance"
 body = "National Testing Agency"
-official_site = ""
+official_site = "https://exams.nta.nic.in/cuet-pg/"
 modules = ["english-language", "general-awareness", "reasoning"]
 
 [[exam]]
 id = "iit-jam"
 name = "IIT JAM"
 family = "university-entrance"
-body = "IITs and IISc (organising institute rotates)"
-official_site = ""
+body = "IITs and IISc (IIT Kharagpur for JAM 2027)"
+official_site = "https://jam.iitkgp.ac.in"
 modules = []
 
 [[exam]]
@@ -1048,7 +1048,7 @@ id = "nchm-jee"
 name = "NCHM JEE (hotel management)"
 family = "university-entrance"
 body = "National Testing Agency"
-official_site = ""
+official_site = "https://exams.nta.nic.in"
 modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
 
 [[exam]]
@@ -1074,7 +1074,7 @@ id = "aissee"
 name = "AISSEE (Sainik School entrance)"
 family = "school"
 body = "National Testing Agency"
-official_site = ""
+official_site = "https://exams.nta.nic.in"
 modules = ["quant-aptitude", "reasoning", "english-language", "general-science", "general-awareness"]
 
 # ------------------------------------------------------------------ law
@@ -1134,7 +1134,7 @@ id = "cmat"
 name = "CMAT"
 family = "management"
 body = "National Testing Agency"
-official_site = ""
+official_site = "https://exams.nta.nic.in"
 modules = ["english-language", "reasoning", "quant-aptitude", "general-awareness"]
 
 [[exam]]

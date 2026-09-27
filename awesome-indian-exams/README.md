@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 108 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 116 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -51,6 +51,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [AP EAPCET](exams/engineering-entrance/ap-eapcet.md) | APSCHE (conducting university varies) | AP EAPCET 2026 | ⚪ unverified | 2026-09-27 |
 | [BITSAT](exams/engineering-entrance/bitsat.md) | BITS Pilani | BITSAT 2026 | 🟡 secondary | 2026-09-27 |
 | [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | 🟡 secondary | 2026-09-27 |
 | [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | 🟡 secondary | 2026-09-27 |
@@ -58,10 +59,9 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | 🟡 secondary | 2026-09-27 |
 | [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | 🟡 secondary | 2026-09-27 |
 | [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | 🟡 secondary | 2026-09-27 |
+| [TG (Telangana) EAPCET](exams/engineering-entrance/ts-eapcet.md) | TGCHE (conducting university varies) | TG EAPCET 2026 | ⚪ unverified | 2026-09-27 |
 | [VITEEE](exams/engineering-entrance/viteee.md) | Vellore Institute of Technology | VITEEE 2026 | 🟡 secondary | 2026-09-27 |
 | [WBJEE](exams/engineering-entrance/wbjee.md) | West Bengal Joint Entrance Examinations Board | WBJEE 2026 | 🟡 secondary | 2026-09-27 |
-
-_2 more in the [registry](resources/all-exams.md#engineering-entrance), pages queued for the hive._
 
 ### Medical: NEET and medical PG
 
@@ -104,13 +104,12 @@ _2 more in the [registry](resources/all-exams.md#engineering-entrance), pages qu
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-27 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS (latest) | ⚪ unverified | 2026-09-27 |
 | [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | 🟡 secondary | 2026-09-27 |
+| [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | TGPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | TNPSC Group 4 (latest) | ⚪ unverified | 2026-09-27 |
 | [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS (latest) | ⚪ unverified | 2026-09-27 |
 | [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | UPPSC PCS (latest) | 🟡 secondary | 2026-09-27 |
 | [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS (latest) | ⚪ unverified | 2026-09-27 |
-
-_1 more in the [registry](resources/all-exams.md#state-psc), pages queued for the hive._
 
 ### SSC
 
@@ -180,21 +179,21 @@ _1 more in the [registry](resources/all-exams.md#teaching), pages queued for the
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [CUET PG](exams/university-entrance/cuet-pg.md) | National Testing Agency | CUET PG 2026 | ⚪ unverified | 2026-09-27 |
 | [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | 🟡 secondary | 2026-09-27 |
+| [IIT JAM (Joint Admission Test for Masters)](exams/university-entrance/iit-jam.md) | IITs and IISc (IIT Kharagpur for JAM 2027) | JAM 2027 (IIT Kharagpur, 14 February 2027) | ⚪ unverified | 2026-09-27 |
 | [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | 🟡 secondary | 2026-09-27 |
+| [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE (latest) | ⚪ unverified | 2026-09-27 |
 | [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT (latest) | 🟡 secondary | 2026-09-27 |
 | [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFT (latest admission cycle) | 🟡 secondary | 2026-09-27 |
 | [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | 🟡 secondary | 2026-09-27 |
-
-_3 more in the [registry](resources/all-exams.md#university-entrance), pages queued for the hive._
 
 ### School-level entrance
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [AISSEE (Sainik School entrance)](exams/school/aissee.md) | National Testing Agency | AISSEE (latest) | ⚪ unverified | 2026-09-27 |
 | [JNV Selection Test (Navodaya, Class 6)](exams/school/jnvst.md) | Navodaya Vidyalaya Samiti | JNVST Class VI (latest) | ⚪ unverified | 2026-09-27 |
-
-_1 more in the [registry](resources/all-exams.md#school), pages queued for the hive._
 
 ### Law entrance
 
@@ -209,13 +208,14 @@ _1 more in the [registry](resources/all-exams.md#school), pages queued for the h
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | 🟡 secondary | 2026-09-27 |
+| [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT (latest) | ⚪ unverified | 2026-09-27 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2027 | 🟡 secondary | 2026-09-27 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA CET (latest) | 🟡 secondary | 2026-09-27 |
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | MAT (latest session) | 🟡 secondary | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | 🟡 secondary | 2026-09-27 |
 | [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2027 (3 January 2027) | 🟡 secondary | 2026-09-27 |
 
-_2 more in the [registry](resources/all-exams.md#management), pages queued for the hive._
+_1 more in the [registry](resources/all-exams.md#management), pages queued for the hive._
 
 ### Professional courses: CA, CS, CMA
 
