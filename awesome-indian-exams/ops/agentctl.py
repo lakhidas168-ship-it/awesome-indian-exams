@@ -71,6 +71,12 @@ def remote_refs(pattern: str) -> dict[str, str]:
     return refs
 
 
+def _public_cmd(cmd: str) -> str:
+    """Receipts are published: show the agent command without the owner's home directory (2026-09-28)."""
+    home = os.path.expanduser("~")
+    return (cmd or "").replace(home, "~")
+
+
 def claimed_ids() -> dict[str, str]:
     """task id -> who holds it (claim ref or work branch)."""
     held: dict[str, str] = {}
@@ -279,7 +285,7 @@ Receipt written by `ops/run-hourly.sh`. Sections marked *code* were produced by 
 
 {notes or '_The agent left no notes._'}
 
-Agent command: `{args.agent_cmd}`
+Agent command: `{_public_cmd(args.agent_cmd)}`
 """
     out = CONTENT / "ops" / "done" / f"{args.id}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
