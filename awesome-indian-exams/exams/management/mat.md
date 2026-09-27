@@ -3,16 +3,14 @@ title: MAT (Management Aptitude Test)
 exam_id: mat
 conducting_body: All India Management Association
 official_site: https://mat.aima.in
-cycle: MAT (latest session)
-last_verified: 2026-09-27
-verification: secondary
+cycle: Multiple sessions per year
+last_verified: 2024-05-22
+verification: unverified
 ---
 
 # MAT (Management Aptitude Test)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟡 unverified.** The official website provides registration and general information, but does not currently host a single consolidated information bulletin confirming the exam pattern (number of questions, marking scheme, duration).
 
 MAT is AIMA's management entrance, held several times a year and accepted by many business schools.
 
@@ -21,8 +19,7 @@ MAT is AIMA's management entrance, held several times a year and accepted by man
 | | |
 |---|---|
 | Conducted by | All India Management Association (AIMA) |
-| Mode | Paper-based, computer-based or remote-proctored |
-| Total | 150 questions, 120 minutes |
+| Mode | Paper-based (PBT), Computer-based (CBT), Remote-proctored (IBT) |
 
 ## Official sources
 
@@ -30,8 +27,7 @@ MAT is AIMA's management entrance, held several times a year and accepted by man
 
 ## Exam pattern
 
-Five sections of 30 questions: Language Comprehension; Data Analysis and Sufficiency; Mathematical Skills;
-Intelligence and Critical Reasoning; Economic and Business Environment. **+1** correct, **−0.25** wrong.
+The exam typically consists of five sections: Language Comprehension, Data Analysis and Sufficiency, Mathematical Skills, Intelligence and Critical Reasoning, and Indian and Global Environment. Please refer to the official AIMA website for the specific pattern applicable to the current session.
 
 ## Syllabus
 
