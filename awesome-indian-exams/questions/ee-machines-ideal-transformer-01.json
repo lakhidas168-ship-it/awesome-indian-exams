@@ -1,0 +1,12 @@
+{
+  "id": "ee-machines-ideal-transformer-01",
+  "exams": ["gate-ee", "upsc-ese-ee", "ssc-je-ee"],
+  "subject": "Electrical Machines",
+  "question": "An ideal single-phase transformer has 500 turns on the primary and 100 turns on the secondary. With 220 V (RMS) applied to the primary, what is the no-load secondary voltage?",
+  "options": ["11 V", "22 V", "44 V", "110 V"],
+  "answer": "44 V",
+  "solution": "For an ideal transformer the voltage ratio equals the turns ratio: V2/V1 = N2/N1. So V2 = 220 x 100/500 = 44 V. The secondary current would be 5 times the primary current, but the voltage steps down by the same factor.",
+  "author": "Rajon Das",
+  "license": "CC BY-SA 4.0",
+  "source": "original"
+}

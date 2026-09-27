@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import json
 import re
 import sys
 import tomllib
@@ -23,6 +24,10 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_KEYS = ("title", "exam_id", "conducting_body", "official_site", "cycle", "last_verified", "verification")
 REQUIRED_SECTIONS = ("## At a glance", "## Official sources", "## Exam pattern", "## Syllabus", "## Free resources")
 MODULE_KEYS = ("title", "module_id")
+# Original practice questions. `source` must stay "original": copied questions are never accepted.
+QUESTION_KEYS = ("id", "exams", "subject", "question", "options", "answer", "solution", "author", "license", "source")
+QUESTION_SOURCE = "original"
+ANSWER_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 VERIFICATION = {"official": "✅ official", "secondary": "🟡 secondary", "unverified": "⚪ unverified"}
 LANES = {"jevx", "hermes", "opencode", "human"}
 FOCUS = {"core", "india"}
@@ -211,6 +216,58 @@ def check_module_page(path: Path, reg: dict, rep: Report) -> None:
         rep.error(path, f"module '{path.stem}' is not in registry/exams.toml")
 
 
+# ------------------------------------------------------------------ questions
+
+def answer_matches(options: list[str], answer: str) -> bool:
+    """A question's answer may be one option verbatim or its single letter (A, B, ...)."""
+    if answer in options:
+        return True
+    return len(answer) == 1 and answer.upper() in ANSWER_LETTERS[: len(options)]
+
+
+def question_problems(q: dict, path: Path, reg: dict) -> list[str]:
+    problems: list[str] = []
+    for key in ("id", "subject", "question", "solution", "author", "license", "source"):
+        value = q.get(key)
+        if not isinstance(value, str) or not value.strip():
+            problems.append(f"question field '{key}' is missing or empty")
+    if isinstance(q.get("id"), str) and q["id"].strip() and q["id"] != path.stem:
+        problems.append(f"id '{q['id']}' must equal the file name '{path.stem}'")
+    options = q.get("options")
+    if not isinstance(options, list) or len(options) < 2 or not all(isinstance(o, str) and o.strip() for o in options):
+        problems.append("options must be a list of at least two non-empty strings")
+        options = []
+    answer = q.get("answer")
+    if not isinstance(answer, str) or not answer.strip():
+        problems.append("question field 'answer' is missing or empty")
+    elif options and not answer_matches(options, answer):
+        problems.append(f"answer '{answer}' does not match any option")
+    exams = q.get("exams")
+    if not isinstance(exams, list) or not exams:
+        problems.append("exams must be a non-empty list of registry exam ids")
+    else:
+        for eid in exams:
+            if not isinstance(eid, str) or (reg["exam"] and eid not in reg["exam"]):
+                problems.append(f"exam '{eid}' is not a registry exam id")
+    source = q.get("source")
+    if isinstance(source, str) and source.strip() and source != QUESTION_SOURCE:
+        problems.append(f"source must be '{QUESTION_SOURCE}' (copied questions are not accepted); got '{source}'")
+    return problems
+
+
+def check_question_file(path: Path, reg: dict, rep: Report) -> None:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        rep.error(path, f"invalid JSON: {exc}")
+        return
+    if not isinstance(data, dict):
+        rep.error(path, "a question file must hold exactly one JSON object")
+        return
+    for msg in question_problems(data, path, reg):
+        rep.error(path, msg)
+
+
 def check_links(path: Path, rep: Report, root: Path | None = None) -> None:
     text = path.read_text(encoding="utf-8")
     for url in links(text):
@@ -378,6 +435,10 @@ def run(root: Path, today: dt.date, write: bool = False) -> tuple[Report, list[t
             pages.append((page, meta))
     for page in sorted((root / "modules").glob("*.md")) if (root / "modules").exists() else []:
         check_module_page(page, reg, rep)
+    questions_dir = root / "questions"
+    if questions_dir.exists():
+        for question in sorted(questions_dir.glob("*.json")):
+            check_question_file(question, reg, rep)
     tasks = check_tasks(root, rep)
 
     readme_path = root / "README.md"

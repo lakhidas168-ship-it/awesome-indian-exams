@@ -1,0 +1,12 @@
+{
+  "id": "ee-circuits-voltage-divider-01",
+  "exams": ["gate-ee", "upsc-ese-ee", "ssc-je-ee"],
+  "subject": "Electric Circuits",
+  "question": "Two resistors of 4 ohm and 6 ohm are connected in series across an ideal 20 V DC source. What is the voltage across the 6 ohm resistor?",
+  "options": ["6 V", "8 V", "10 V", "12 V"],
+  "answer": "12 V",
+  "solution": "The series resistance is 4 + 6 = 10 ohm, so the current is 20/10 = 2 A and it is the same through both resistors. Voltage across the 6 ohm resistor = 2 x 6 = 12 V. Shortcut (voltage divider): 20 x 6/10 = 12 V.",
+  "author": "Rajon Das",
+  "license": "CC BY-SA 4.0",
+  "source": "original"
+}
