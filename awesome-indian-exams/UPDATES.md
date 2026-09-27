@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-27 23:38 UTC** · `T-208` · opencode · [Verify the WBJEE page (exams/engineering-entrance/wbjee.md) against its current official notification](ops/done/T-208.md)
 - **2026-09-27 23:02 UTC** · `T-216` · opencode · [Verify the INI-CET page (exams/medical/ini-cet.md) against its current official notification](ops/done/T-216.md)
 - **2026-09-27 22:56 UTC** · `T-124` · opencode · [Publish the exam AI to Hugging Face Hub (adapter, merged weights, GGUF, WebLLM build, model card with evaluations and limits) from a manual workflow using the HF_TOKEN secret](ops/done/T-124.md)
 - **2026-09-27 22:40 UTC** · `T-153` · opencode · [One-track plan for the electrical track (resources/ee-one-track-plan.md): which GATE EE + ESE Paper-II subjects also cover SSC JE, RRB JE, State AE/JE and PSU papers, and what each adds](ops/done/T-153.md)
