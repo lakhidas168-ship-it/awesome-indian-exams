@@ -7,9 +7,10 @@ name: hive-cloud
 # Optional capacity: repository secrets OPENCODE_API_KEY (owner's OpenCode Go plan: DeepSeek V4.1 Flash for the
 # OpenCode lane and the judge), GEMINI_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY (free tiers).
 
+# 2026-09-27 (owner's Mac): the schedule is OFF. The hive runs on the owner's Mac against a LOCAL bare repo and
+# publishes one gated, batched commit per hour here, because claims/branches pushed every 20 minutes look like
+# git-as-a-message-bus, which got the owner's previous GitHub account flagged as spam. Run by hand if needed.
 on:
-  schedule:
-    - cron: "3,23,43 * * * *"   # every 20 minutes
   workflow_dispatch:
 
 permissions:
