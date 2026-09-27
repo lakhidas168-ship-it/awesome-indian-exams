@@ -3,16 +3,17 @@ title: IBPS RRB (Officer Scale I and Office Assistant)
 exam_id: ibps-rrb
 conducting_body: Institute of Banking Personnel Selection
 official_site: https://www.ibps.in
-cycle: IBPS RRB (CRP RRBs, latest)
-last_verified: 2026-09-27
+cycle: IBPS RRB (CRP RRBs-XV, 2026)
+last_verified: 2026-09-28
 verification: secondary
 ---
 
 # IBPS RRB (Officer Scale I and Office Assistant)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟡 secondary.** Pattern, eligibility and stages below match the CRP-RRBs-XV
+> detailed notification (dated 01.09.2026) read on 2026-09-28. The hive's recording fetcher is
+> blocked by www.ibps.in (0 bytes), so per the evidence rules the page stays `secondary`, not
+> `official`. Always read the current notice before you apply or pay a fee.
 
 IBPS RRB recruits officers and office assistants (clerks) for the Regional Rural Banks. The local language of
 the state applied for matters in selection.
@@ -22,28 +23,44 @@ the state applied for matters in selection.
 | | |
 |---|---|
 | Conducted by | Institute of Banking Personnel Selection (IBPS) |
-| Stages | Prelims → Mains → interview (Officer Scale I only) |
-| Qualification | Graduate degree; local-language proficiency as per the notification |
+| Stages | Prelims → Mains → Common Interview (Officer Scale I only; Office Assistants are allotted on Mains marks, no interview) |
+| Qualification | Bachelor's degree in any discipline; proficiency in the local language of the state applied for (essential; may be acquired within six months of joining) |
+| Age (as on 01.09.2026) | Office Assistant: 18–28 years; Officer Scale I: 18–30 years |
 
 ## Official sources
 
-- IBPS official website (notifications, results): <https://www.ibps.in>
+- CRP-RRBs-XV hub on ibps.in (notification, corrigenda, vacancy annexures): <https://www.ibps.in/index.php/rural-bank-xv/>
+- CRP-RRBs-XV Officer (Scale I, II, III) application portal (schedule, fees, reference documents): <https://ibpsreg.ibps.in/rrbxvaug26/>
+- CRP-RRBs-XV Office Assistants (Multipurpose) application portal: <https://ibpsreg.ibps.in/rrboaxvaug26/>
 
 ## Exam pattern
 
-**Prelims (Officer Scale I and Office Assistant):** 80 questions in 45 minutes, **−0.25** per wrong answer.
+**Prelims (Officer Scale I and Office Assistant):** 80 questions, 80 marks, 45 minutes, **−0.25**
+per wrong answer (the penalty applies in every stage: Prelims, Mains and single-level exams).
 
-| Section | Questions | Time |
-|---|---:|---|
-| Reasoning | 40 | 25 min |
-| Quantitative / Numerical Ability | 40 | 20 min |
+| Section | Questions | Marks | Time |
+|---|---:|---:|---|
+| Reasoning | 40 | 40 | 25 min |
+| Numerical Ability (Office Assistant) / Quantitative Aptitude (Officer Scale I) | 40 | 40 | 20 min |
 
-**Mains:** reasoning, quantitative aptitude, general awareness, English or Hindi, and computer knowledge. Officer
-Scale I then has an interview. The notification has the marks and time.
+**Mains (both posts):** 200 questions, 200 marks, 120 minutes, **−0.25** per wrong answer. Attempt
+English or Hindi (either one, not both).
+
+| Section | Questions | Marks | Time |
+|---|---:|---:|---|
+| Reasoning | 40 | 50 | 30 min |
+| Computer Knowledge | 40 | 20 | 15 min |
+| General Awareness | 40 | 40 | 15 min |
+| English Language or Hindi Language | 40 | 40 | 30 min |
+| Numerical Ability (Office Assistant) / Quantitative Aptitude (Officer Scale I) | 40 | 50 | 30 min |
+
+Officer Scale I candidates shortlisted in Mains appear for a Common Interview coordinated by the
+Nodal Regional Rural Banks with NABARD and IBPS. Tests other than English/Hindi are bilingual
+(English + Hindi and the state's language as applicable).
 
 ## Syllabus
 
-Reasoning, quantitative aptitude, general and financial awareness, English or Hindi language, computer
+Reasoning, quantitative aptitude / numerical ability, general awareness, English or Hindi language, computer
 knowledge.
 
 ## How to prepare (free, in order)
