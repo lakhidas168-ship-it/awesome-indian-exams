@@ -3,18 +3,20 @@ title: RRB Junior Engineer (JE) — Electrical
 exam_id: rrb-je-ee
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
-cycle: CEN 05/2025
-last_verified: 2026-09-27
-verification: secondary
+cycle: CEN 04/2026
+last_verified: 2026-09-28
+verification: official
 ---
 
 # RRB Junior Engineer (JE): Electrical
 
-> **Evidence status: 🟡 secondary.** On 2026-09-27 this pattern was cross-checked against several non-official
-> sources that agree with each other. Checking it against the official CEN is hive task `T-004`.
+> **Evidence status: 🟢 official.** On 2026-09-28 this page was verified against the detailed CEN No. 04/2026
+> (JE/DMS) for the current cycle; the CBT-1 and CBT-2 patterns below are as stated in that CEN. The previous
+> cycle (CEN 05/2025) used the same pattern.
 
 The Railway Recruitment Boards (RRBs) recruit Junior Engineers for Indian Railways through a Centralised
-Employment Notification (CEN). The most recent JE notification is CEN 05/2025.
+Employment Notification (CEN). The current cycle is CEN 04/2026 (Junior Engineer and Depot Material
+Superintendent), whose detailed notification was published in August 2026.
 
 ## At a glance
 
@@ -27,12 +29,15 @@ Employment Notification (CEN). The most recent JE notification is CEN 05/2025.
 
 ## Official sources
 
+- Detailed CEN No. 04/2026 (JE/DMS), central portal copy: <https://www.rrbapply.gov.in/assets/forms/CEN_04_2026_JE.pdf>
+- Detailed CEN No. 04/2026 (JE/DMS), RRB Secunderabad copy: <https://rrbsecunderabad.gov.in/wp-content/uploads/2026/08/CEN-04-2026JE_English.pdf>
+- CEN 04/2026 notices (RRB Secunderabad): <https://rrbsecunderabad.gov.in/advertisement_category/cen-04-2026-je-dms/>
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
-- Example regional RRB website (RRB Chandigarh): <https://www.rrbcdg.gov.in>
 
 ## Exam pattern
 
-**CBT-1** (screening only): 100 questions, 100 marks, 90 minutes, **−1/3** per wrong answer
+**CBT-1** (screening only): 100 questions, 100 marks, 90 minutes (120 minutes for scribe-eligible candidates),
+**−1/3** per wrong answer
 
 | Section | Questions |
 |---|---:|
@@ -41,7 +46,8 @@ Employment Notification (CEN). The most recent JE notification is CEN 05/2025.
 | General Awareness | 15 |
 | General Science | 30 |
 
-**CBT-2** (merit): 150 questions, 150 marks, 120 minutes, **−1/3** per wrong answer
+**CBT-2** (merit): 150 questions, 150 marks, 120 minutes (160 minutes for scribe-eligible candidates),
+**−1/3** per wrong answer. A virtual calculator is available in CBT-2.
 
 | Section | Questions |
 |---|---:|
@@ -50,6 +56,8 @@ Employment Notification (CEN). The most recent JE notification is CEN 05/2025.
 | Basics of Computers and Applications | 10 |
 | Basics of Environment and Pollution Control | 10 |
 | Technical Abilities (Electrical) | 100 |
+
+Minimum qualifying marks in each CBT: UR and EWS 40%, OBC-NCL and SC 30%, ST 25%.
 
 ## Syllabus
 
