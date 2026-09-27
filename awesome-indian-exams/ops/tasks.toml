@@ -1839,6 +1839,98 @@ accept = [
 ]
 
 [[task]]
+id = "T-316"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 3
+title = "Community insights: read the most-upvoted threads on free preparation in r/UPSC, r/JEENEETards, r/GATE, r/SSC and similar forums; add the legal, repeatable tips to resources/study-methods.md with thread links"
+accept = [
+  "every added tip links the thread it came from; no usernames or personal details are copied",
+  "tips that recommend pirated material or paid-only products are left out",
+]
+
+[[task]]
+id = "T-317"
+lane = "jevx"
+priority = 2
+title = "Plan from ops/plan/feature-catalogue.md: turn the ten highest-value idea items (marked with a bulb), starting with the interconnection chains, into backlog tasks with acceptance criteria"
+accept = [
+  "each new task names the feature number it implements and has testable acceptance criteria",
+  "no task depends on unofficial data or asks for personal data",
+]
+
+[[task]]
+id = "T-121"
+lane = "opencode"
+priority = 2
+title = "Exam AI corpus: export_json.py --corpus writes data/corpus.jsonl (one record per page section: url, title, heading, text, evidence status, official links); built with the website"
+accept = [
+  "unit test: every record has a url and a verification status, and no record exceeds 2,000 characters",
+  "ops/plan/exam-llm.md phase 0",
+]
+
+[[task]]
+id = "T-120"
+lane = "opencode"
+priority = 2
+title = "Ask the list: a website tool that retrieves the best corpus sections in the browser and answers with an in-browser open model (WebLLM), citing each section; falls back to showing the sections when the device cannot run a model"
+accept = [
+  "a code verifier rejects any answer sentence whose citation is not among the retrieved sections (unit test)",
+  "works in the offline copy after the model download; no server calls besides this site and the model files",
+]
+
+[[task]]
+id = "T-122"
+lane = "hermes"
+priority = 2
+title = "Exam AI evaluation set: 50 original questions per exam family with answers verified against official sources, plus questions the list cannot answer (expected answer: not sure, with the official link)"
+accept = [
+  "every answer cites the official source URL it was checked against",
+  "no question copied from an exam paper or coaching material",
+]
+
+[[task]]
+id = "T-123"
+lane = "opencode"
+priority = 3
+title = "LoRA fine-tuning notebook for Kaggle's free GPUs: one permissively licensed small base model, one adapter per exam family, trained only on this list's content, original questions and datasets whose license allows it"
+accept = [
+  "the notebook records every dataset and base model with its license",
+  "the adapter beats the base model on the T-122 set before any release",
+]
+
+[[task]]
+id = "T-124"
+lane = "opencode"
+priority = 3
+title = "Publish the exam AI to Hugging Face Hub (adapter, merged weights, GGUF, WebLLM build, model card with evaluations and limits) from a manual workflow using the HF_TOKEN secret"
+accept = [
+  "the workflow has no schedule and runs only by hand",
+  "the model card states the license, data sources, evaluation results and the evidence-gate behaviour",
+]
+
+[[task]]
+id = "T-125"
+lane = "opencode"
+where = "mac"
+priority = 3
+title = "Hindi and regional pages with AI4Bharat IndicTrans2 (MIT): translate the most-used pages as drafts for T-312, keeping official names, numbers and links unchanged"
+accept = [
+  "numbers, dates and URLs are identical to the English page (checked by code)",
+  "each draft is reviewed before it is published",
+]
+
+[[task]]
+id = "H-006"
+lane = "human"
+priority = 3
+title = "Create a Hugging Face account and a write token (save it as the repository secret HF_TOKEN), and a Kaggle account for the free GPUs; see ops/plan/exam-llm.md"
+accept = [
+  "the secret HF_TOKEN exists in the awesome-indian-exams repository",
+]
+
+[[task]]
 id = "T-105"
 lane = "opencode"
 priority = 2
