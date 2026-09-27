@@ -285,11 +285,10 @@ id = "T-204"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/jee-main.md (JEE Main) from its official notification"
+title = "Verify the JEE Main page (exams/engineering-entrance/jee-main.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://jeemain.nta.nic.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -297,11 +296,10 @@ id = "T-205"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/jee-advanced.md (JEE Advanced) from its official notification"
+title = "Verify the JEE Advanced page (exams/engineering-entrance/jee-advanced.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://jeeadv.ac.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -309,11 +307,10 @@ id = "T-206"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/bitsat.md (BITSAT) from its official notification"
+title = "Verify the BITSAT page (exams/engineering-entrance/bitsat.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.bitsadmission.com",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -321,11 +318,10 @@ id = "T-207"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/mht-cet.md (MHT CET) from its official notification"
+title = "Verify the MHT CET page (exams/engineering-entrance/mht-cet.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://cetcell.mahacet.org",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -333,11 +329,10 @@ id = "T-208"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/wbjee.md (WBJEE) from its official notification"
+title = "Verify the WBJEE page (exams/engineering-entrance/wbjee.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://wbjeeb.nic.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -345,11 +340,10 @@ id = "T-209"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/kcet.md (Karnataka CET (KCET)) from its official notification"
+title = "Verify the Karnataka CET (KCET) page (exams/engineering-entrance/kcet.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://kea.kar.nic.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -357,11 +351,10 @@ id = "T-210"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/keam.md (KEAM) from its official notification"
+title = "Verify the KEAM page (exams/engineering-entrance/keam.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://cee.kerala.gov.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -393,11 +386,10 @@ id = "T-213"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/comedk-uget.md (COMEDK UGET) from its official notification"
+title = "Verify the COMEDK UGET page (exams/engineering-entrance/comedk-uget.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.comedk.org",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -405,11 +397,10 @@ id = "T-214"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/engineering-entrance/viteee.md (VITEEE) from its official notification"
+title = "Verify the VITEEE page (exams/engineering-entrance/viteee.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://viteee.vit.ac.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -417,11 +408,10 @@ id = "T-215"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/medical/neet-pg.md (NEET PG) from its official notification"
+title = "Verify the NEET PG page (exams/medical/neet-pg.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://natboard.edu.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -429,11 +419,10 @@ id = "T-216"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/medical/ini-cet.md (INI-CET) from its official notification"
+title = "Verify the INI-CET page (exams/medical/ini-cet.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.aiimsexams.ac.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -441,11 +430,10 @@ id = "T-217"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/medical/fmge.md (FMGE (Foreign Medical Graduate Examination)) from its official notification"
+title = "Verify the FMGE (Foreign Medical Graduate Examination) page (exams/medical/fmge.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://natboard.edu.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -453,11 +441,10 @@ id = "T-218"
 lane = "hermes"
 focus = "india"
 priority = 2
-title = "Write exams/medical/aiims-norcet.md (AIIMS NORCET (Nursing Officer)) from its official notification"
+title = "Verify the AIIMS NORCET (Nursing Officer) page (exams/medical/aiims-norcet.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://www.aiimsexams.ac.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]
@@ -1201,11 +1188,10 @@ id = "T-282"
 lane = "hermes"
 focus = "india"
 priority = 3
-title = "Write exams/university-entrance/cuet-ug.md (CUET UG) from its official notification"
+title = "Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification"
 accept = [
-  "facts come from the official notification on https://cuet.nta.nic.in",
-  "page passes the content gate with every required section and links the shared modules it uses",
-  "verification status honest: official only with a fetched official source",
+  "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
+  "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
 
 [[task]]

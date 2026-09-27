@@ -30,16 +30,16 @@ has to find the official one.
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
 | AP EAPCET | APSCHE (conducting university varies) | — | queued |
-| BITSAT | BITS Pilani | <https://www.bitsadmission.com> | queued |
-| COMEDK UGET | Consortium of Medical, Engineering and Dental Colleges of Karnataka | <https://www.comedk.org> | queued |
-| JEE Advanced | IITs (organising IIT rotates) | <https://jeeadv.ac.in> | queued |
-| JEE Main | National Testing Agency | <https://jeemain.nta.nic.in> | queued |
-| KEAM | Commissioner for Entrance Examinations, Kerala | <https://cee.kerala.gov.in> | queued |
-| Karnataka CET (KCET) | Karnataka Examinations Authority | <https://kea.kar.nic.in> | queued |
-| MHT CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | queued |
+| BITSAT | BITS Pilani | <https://www.bitsadmission.com> | [open](../exams/engineering-entrance/bitsat.md) |
+| COMEDK UGET | Consortium of Medical, Engineering and Dental Colleges of Karnataka | <https://www.comedk.org> | [open](../exams/engineering-entrance/comedk-uget.md) |
+| JEE Advanced | IITs (organising IIT rotates) | <https://jeeadv.ac.in> | [open](../exams/engineering-entrance/jee-advanced.md) |
+| JEE Main | National Testing Agency | <https://jeemain.nta.nic.in> | [open](../exams/engineering-entrance/jee-main.md) |
+| KEAM | Commissioner for Entrance Examinations, Kerala | <https://cee.kerala.gov.in> | [open](../exams/engineering-entrance/keam.md) |
+| Karnataka CET (KCET) | Karnataka Examinations Authority | <https://kea.kar.nic.in> | [open](../exams/engineering-entrance/kcet.md) |
+| MHT CET | State CET Cell, Maharashtra | <https://cetcell.mahacet.org> | [open](../exams/engineering-entrance/mht-cet.md) |
 | TG (Telangana) EAPCET | TGCHE (conducting university varies) | — | queued |
-| VITEEE | VIT University | <https://viteee.vit.ac.in> | queued |
-| WBJEE | West Bengal Joint Entrance Examinations Board | <https://wbjeeb.nic.in> | queued |
+| VITEEE | VIT University | <https://viteee.vit.ac.in> | [open](../exams/engineering-entrance/viteee.md) |
+| WBJEE | West Bengal Joint Entrance Examinations Board | <https://wbjeeb.nic.in> | [open](../exams/engineering-entrance/wbjee.md) |
 
 ## Medical: NEET and medical PG
 
@@ -47,10 +47,10 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| AIIMS NORCET (Nursing Officer) | AIIMS New Delhi | <https://www.aiimsexams.ac.in> | queued |
-| FMGE (Foreign Medical Graduate Examination) | National Board of Examinations in Medical Sciences (NBEMS) | <https://natboard.edu.in> | queued |
-| INI-CET | AIIMS New Delhi | <https://www.aiimsexams.ac.in> | queued |
-| NEET PG | National Board of Examinations in Medical Sciences (NBEMS) | <https://natboard.edu.in> | queued |
+| AIIMS NORCET (Nursing Officer) | AIIMS New Delhi | <https://www.aiimsexams.ac.in> | [open](../exams/medical/aiims-norcet.md) |
+| FMGE (Foreign Medical Graduate Examination) | National Board of Examinations in Medical Sciences (NBEMS) | <https://natboard.edu.in> | [open](../exams/medical/fmge.md) |
+| INI-CET | AIIMS New Delhi | <https://www.aiimsexams.ac.in> | [open](../exams/medical/ini-cet.md) |
+| NEET PG | National Board of Examinations in Medical Sciences (NBEMS) | <https://natboard.edu.in> | [open](../exams/medical/neet-pg.md) |
 | NEET UG | National Testing Agency | <https://neet.nta.nic.in> | [open](../exams/medical/neet-ug.md) |
 
 ## UPSC
@@ -175,7 +175,7 @@ has to find the official one.
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
 | CUET PG | National Testing Agency | — | queued |
-| CUET UG | National Testing Agency | <https://cuet.nta.nic.in> | queued |
+| CUET UG | National Testing Agency | <https://cuet.nta.nic.in> | [open](../exams/university-entrance/cuet-ug.md) |
 | IIT JAM | IITs and IISc (organising institute rotates) | — | queued |
 | NATA (architecture aptitude) | Council of Architecture | <https://www.nata.in> | queued |
 | NCHM JEE (hotel management) | National Testing Agency | — | queued |

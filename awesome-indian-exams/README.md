@@ -28,7 +28,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 30 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 44 exam pages written, 118 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -45,15 +45,29 @@ _6 more in the [registry](resources/all-exams.md#engineering), pages queued for 
 
 ### Engineering entrance: JEE and state CETs
 
-_11 exams in the [registry](resources/all-exams.md#engineering-entrance), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [BITSAT](exams/engineering-entrance/bitsat.md) | BITS Pilani | BITSAT 2026 | 🟡 secondary | 2026-09-27 |
+| [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | 🟡 secondary | 2026-09-27 |
+| [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | 🟡 secondary | 2026-09-27 |
+| [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | 🟡 secondary | 2026-09-27 |
+| [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | 🟡 secondary | 2026-09-27 |
+| [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | 🟡 secondary | 2026-09-27 |
+| [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | 🟡 secondary | 2026-09-27 |
+| [VITEEE](exams/engineering-entrance/viteee.md) | Vellore Institute of Technology | VITEEE 2026 | 🟡 secondary | 2026-09-27 |
+| [WBJEE](exams/engineering-entrance/wbjee.md) | West Bengal Joint Entrance Examinations Board | WBJEE 2026 | 🟡 secondary | 2026-09-27 |
+
+_2 more in the [registry](resources/all-exams.md#engineering-entrance), pages queued for the hive._
 
 ### Medical: NEET and medical PG
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
+| [AIIMS NORCET (Nursing Officer)](exams/medical/aiims-norcet.md) | AIIMS New Delhi | NORCET (latest) | ⚪ unverified | 2026-09-27 |
+| [FMGE (Foreign Medical Graduate Examination)](exams/medical/fmge.md) | National Board of Examinations in Medical Sciences (NBEMS) | FMGE (latest session) | 🟡 secondary | 2026-09-27 |
+| [INI-CET](exams/medical/ini-cet.md) | AIIMS New Delhi | INI-CET (latest session) | 🟡 secondary | 2026-09-27 |
+| [NEET PG](exams/medical/neet-pg.md) | National Board of Examinations in Medical Sciences (NBEMS) | NEET PG 2026 | 🟡 secondary | 2026-09-27 |
 | [NEET UG](exams/medical/neet-ug.md) | National Testing Agency (NTA) | NEET UG 2026 | 🟡 secondary | 2026-09-27 |
-
-_4 more in the [registry](resources/all-exams.md#medical), pages queued for the hive._
 
 ### UPSC
 
@@ -116,7 +130,11 @@ _7 exams in the [registry](resources/all-exams.md#teaching), pages queued for th
 
 ### University and design entrance: CUET, JAM, NIFT, NID
 
-_8 exams in the [registry](resources/all-exams.md#university-entrance), pages queued for the hive._
+| Exam | Conducted by | Cycle | Evidence | Last verified |
+|---|---|---|---|---|
+| [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | 🟡 secondary | 2026-09-27 |
+
+_7 more in the [registry](resources/all-exams.md#university-entrance), pages queued for the hive._
 
 ### School-level entrance
 
