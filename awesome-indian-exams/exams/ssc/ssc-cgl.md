@@ -5,14 +5,13 @@ conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC CGL 2026
 last_verified: 2026-09-27
-verification: secondary
+verification: official
 ---
 
 # SSC CGL (Combined Graduate Level)
 
-> **Evidence status: 🟡 secondary.** Tier 1 below was cross-checked against several non-official sources on
-> 2026-09-27. Tier 2 has changed across cycles, so this page gives only its structure. Confirming both against
-> the SSC CGL notice is a hive task.
+> **Evidence status: 🟢 official.** Every number below is from the SSC Combined Graduate Level
+> Examination, 2026 notice (F. No. HQ-C11018/1/2026-C-1), fetched from ssc.gov.in on 2026-09-27.
 
 SSC CGL recruits graduates for Group B and C posts in central ministries and departments (for example
 Assistant Section Officer, Inspector of Income Tax/Customs/GST, Auditor). It is one of the most-attempted
@@ -23,18 +22,23 @@ graduate exams in India. Its four subjects are the core of almost every SSC, rai
 | | |
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
-| Stages | Tier 1 (CBT, qualifying) → Tier 2 (CBT, merit) → document verification / skill tests as per post |
+| Stages | Tier 1 (CBT, shortlists for Tier 2) → Tier 2 (CBT; final merit on Tier 2 only) → document verification / skill tests as per post |
+| 2026 cycle (per notice) | Online applications 21.05.2026–22.06.2026; Tier 1 Aug–Sep 2026 (tentative), Tier 2 Dec 2026 (tentative) |
 | Qualification | Graduate degree (some posts need specific subjects; see notice) |
 | Age | Depends on the post (see notice) |
 
 ## Official sources
 
 - SSC official website (notice, syllabus, answer keys): <https://ssc.gov.in>
+- SSC CGL 2026 notice (132-page PDF, F. No. HQ-C11018/1/2026-C-1):
+  <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf>
 
 ## Exam pattern
 
-**Tier 1:** computer-based, 60 minutes, 100 questions, 200 marks, **−0.50** per wrong answer. Tier 1 is
-qualifying; its marks do not count in the final merit.
+**Tier 1:** computer-based, 60 minutes with a 15-minute timer on each section, 100 questions,
+200 marks, **−0.50** per wrong answer. Objective multiple-choice questions, set in English and Hindi
+except English Comprehension. Tier 1 shortlists candidates for Tier 2 (category-wise cut-offs);
+its marks do not count in the final merit.
 
 | Section | Questions | Marks |
 |---|---:|---:|
@@ -43,9 +47,26 @@ qualifying; its marks do not count in the final merit.
 | Quantitative Aptitude | 25 | 50 |
 | English Comprehension | 25 | 50 |
 
-**Tier 2:** computer-based. It covers mathematical abilities, reasoning, English, general awareness, a
-computer-knowledge module and a data-entry speed test, plus extra papers for some posts (such as statistics
-for JSO). Its exact sections, marks and marking scheme are in the current notice.
+**Tier 2, Paper 1 (compulsory for all posts):** computer-based, in two sessions on the same day.
+Every question carries 3 marks; **−1** per wrong answer in Sections 1–3. Candidates must qualify
+each section separately; Sections 3 and 4 are qualifying only, and the merit for most posts is the
+aggregate of Sections 1 and 2.
+
+| Session | Section | Questions | Marks | Time |
+|---|---|---:|---:|---|
+| Session 1 (2 h 15 m) | 1: Mathematical Abilities (30) + Reasoning and General Intelligence (30) | 60 | 180 | 1 hour |
+| Session 1 | 2: English Language and Comprehension (45) + General Awareness (25) | 70 | 210 | 1 hour |
+| Session 1 | 3: Computer Knowledge Test | 20 | 60 | 15 minutes |
+| Session 2 (15 m) | 4: Data Entry Speed Test (about 2000 key depressions) | one task | qualifying | 15 minutes |
+
+**Tier 2, extra papers (only for shortlisted post preferences):** Paper 2 Statistics for Junior
+Statistical Officer / Statistical Investigator Grade 2, and Paper 3 General Studies (Finance and
+Economics) for Assistant Audit Officer / Assistant Accounts Officer. Each is 100 questions,
+200 marks (2 marks each), 2 hours, **−0.50** per wrong answer.
+
+**Minimum qualifying marks:** Tier 1 and Tier 2 Sections 1–3 / Papers 2–3 need 30% (UR), 25%
+(OBC/EWS), 20% (other categories). For the Data Entry Speed Test the maximum errors allowed are
+20% (UR), 25% (OBC/EWS), 30% (other categories).
 
 ## Syllabus
 
@@ -68,4 +89,8 @@ for JSO). Its exact sections, marks and marking scheme are in the current notice
 
 - NCERT textbooks for static GK and science: <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>
-- Shared modules and the other exams they cover: [overlap map](../../resources/overlap-map.md)
+- Shared modules this exam uses: [Quantitative aptitude](../../modules/quant-aptitude.md),
+  [Reasoning](../../modules/reasoning.md), [English](../../modules/english-language.md),
+  [General awareness](../../modules/general-awareness.md),
+  [Computer awareness](../../modules/computer-awareness.md) — and the other exams they cover:
+  [overlap map](../../resources/overlap-map.md)
