@@ -122,7 +122,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | TGPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | TNPSC Group 4 (latest) | ⚪ unverified | 2026-09-27 |
-| [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS (latest) | ⚪ unverified | 2026-09-27 |
+| [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-28 |
 | [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | PCS 2025 (Advt. A-1/E-1/2025) | 🟡 secondary | 2026-09-28 |
 | [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS (latest) | ⚪ unverified | 2026-09-27 |
 
@@ -182,10 +182,10 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | 🟡 secondary | 2026-09-27 |
-| [CTET (Central Teacher Eligibility Test)](exams/teaching/ctet.md) | Central Board of Secondary Education | CTET (latest session) | 🟡 secondary | 2026-09-27 |
-| [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | DSSSB (rolling advertisements) | ⚪ unverified | 2026-09-27 |
+| [CTET (Central Teacher Eligibility Test)](exams/teaching/ctet.md) | Central Board of Secondary Education | CTET September 2026 | ✅ official | 2026-09-28 |
+| [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | Rolling advertisements | ✅ official | 2026-09-27 |
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
-| [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
+| [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | Recruitment Notification 01/2025 (joint KVS+NVS, via CBSE) | ✅ official | 2026-09-28 |
 | [State TETs (UPTET, REET, MAHA TET and others)](exams/teaching/state-tet.md) | State education boards (under the NCTE framework) | Varies by state (each state notifies its own TET) | ⚪ unverified | 2026-09-27 |
 | [UGC NET](exams/teaching/ugc-net.md) | National Testing Agency (NTA) | UGC NET (latest session) | 🟡 secondary | 2026-09-27 |
 
@@ -196,24 +196,24 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CUET PG](exams/university-entrance/cuet-pg.md) | National Testing Agency | CUET PG 2026 | ⚪ unverified | 2026-09-27 |
 | [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | 🟡 secondary | 2026-09-27 |
 | [IIT JAM (Joint Admission Test for Masters)](exams/university-entrance/iit-jam.md) | IITs and IISc (IIT Kharagpur for JAM 2027) | JAM 2027 (IIT Kharagpur, 14 February 2027) | ⚪ unverified | 2026-09-27 |
-| [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | 🟡 secondary | 2026-09-27 |
+| [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | ✅ official | 2026-09-28 |
 | [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE (latest) | ⚪ unverified | 2026-09-27 |
 | [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT (latest) | 🟡 secondary | 2026-09-27 |
-| [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFT (latest admission cycle) | 🟡 secondary | 2026-09-27 |
-| [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | 🟡 secondary | 2026-09-27 |
+| [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-28 |
+| [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-28 |
 
 ### School-level entrance
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [AISSEE (Sainik School entrance)](exams/school/aissee.md) | National Testing Agency | AISSEE (latest) | ⚪ unverified | 2026-09-27 |
+| [AISSEE (Sainik School entrance)](exams/school/aissee.md) | National Testing Agency | AISSEE 2026 | ✅ official | 2026-09-28 |
 | [JNV Selection Test (Navodaya, Class 6)](exams/school/jnvst.md) | Navodaya Vidyalaya Samiti | JNVST Class VI (latest) | ⚪ unverified | 2026-09-27 |
 
 ### Law entrance
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [AILET (NLU Delhi)](exams/law/ailet.md) | National Law University Delhi | AILET 2027 | 🟡 secondary | 2026-09-27 |
+| [AILET (NLU Delhi)](exams/law/ailet.md) | National Law University Delhi | AILET 2027 | ✅ official | 2026-09-28 |
 | [CLAT (Common Law Admission Test)](exams/law/clat.md) | Consortium of National Law Universities | CLAT 2027 | 🟡 secondary | 2026-09-27 |
 | [MAH CET Law](exams/law/mh-cet-law.md) | State CET Cell, Maharashtra | MAH CET Law (latest) | ⚪ unverified | 2026-09-27 |
 
@@ -221,22 +221,22 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | 🟡 secondary | 2026-09-27 |
+| [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-27 |
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT (latest) | ⚪ unverified | 2026-09-27 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2027 | 🟡 secondary | 2026-09-27 |
-| [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA CET (latest) | 🟡 secondary | 2026-09-27 |
-| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | MAT (latest session) | 🟡 secondary | 2026-09-27 |
-| [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026 (test window 2 November – 20 December 2026) | 🟡 secondary | 2026-09-27 |
-| [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | 🟡 secondary | 2026-09-27 |
+| [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-27 |
+| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Multiple sessions per year | ⚪ unverified | 2024-05-22 |
+| [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
+| [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | ✅ official | 2026-09-28 |
 | [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2027 (3 January 2027) | 🟡 secondary | 2026-09-27 |
 
 ### Professional courses: CA, CS, CMA
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [CA Foundation](exams/professional/ca-foundation.md) | Institute of Chartered Accountants of India | CA Foundation (new scheme) | 🟡 secondary | 2026-09-27 |
-| [CMA Foundation](exams/professional/cma-foundation.md) | Institute of Cost Accountants of India | CMA Foundation (latest) | 🟡 secondary | 2026-09-27 |
-| [CSEET (CS Executive Entrance Test)](exams/professional/cseet.md) | Institute of Company Secretaries of India | CSEET (latest session) | 🟡 secondary | 2026-09-27 |
+| [CA Foundation](exams/professional/ca-foundation.md) | Institute of Chartered Accountants of India | Thrice a year (January, May, September) | ✅ official | 2026-09-28 |
+| [CMA Foundation](exams/professional/cma-foundation.md) | Institute of Cost Accountants of India | December 2026 term (Syllabus 2022) | ✅ official | 2026-09-28 |
+| [CSEET (CS Executive Entrance Test)](exams/professional/cseet.md) | Institute of Company Secretaries of India | CSEET October 2026 | ✅ official | 2026-09-28 |
 <!-- EXAMS:END -->
 
 **Evidence status:** ✅ official = checked against the official notification · 🟡 secondary = cross-checked
