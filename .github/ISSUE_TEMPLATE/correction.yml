@@ -1,0 +1,24 @@
+name: "Galti mili? · Report a mistake"
+description: "Wrong date, number, link or syllabus on a page? Tell us with the official link. हिंदी या English, दोनों चलेंगे।"
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: "Page · कौन-सा पेज"
+      description: "The page link or the exam name, e.g. SSC CGL"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: "What is wrong · क्या गलत है"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Official link · आधिकारिक लिंक"
+      description: "The official notification or website that shows the right information"
+    validations:
+      required: true

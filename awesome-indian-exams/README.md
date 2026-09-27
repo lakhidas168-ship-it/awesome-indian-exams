@@ -1,5 +1,8 @@
 # Awesome Indian Exams ⚡
 
+**हिंदी में पढ़ें → [शुरू करें](hi/index.md)** · **[आज का सवाल · Question of the day](tools/daily.md)** ·
+**No internet? [Offline copy](https://lakhidas168-ship-it.github.io/awesome-indian-exams/download/awesome-indian-exams-offline.zip)**
+
 **Free, evidence-gated preparation maps for India's most-attempted competitive exams:** GATE, ESE, JEE,
 NEET, UPSC, state PSCs, SSC, RRB, IBPS/SBI/RBI, defence, CTET/NET, CUET, CLAT, CAT and more.
 
@@ -34,7 +37,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
    notes vaults.
 9. **[How to study](resources/study-methods.md):** the methods with the strongest research evidence, and the
    aspirant tips that keep coming up.
-10. **[Free study tools](tools/index.md):** a study planner for your exam with a focus timer and streaks,
+10. **[Free study tools](tools/index.md):** the daily question, a study planner for your exam with a focus timer and streaks,
    spaced-repetition flashcards, a marks calculator, and AI study prompts. No login, no ads; progress stays in
    your browser, and they work in the offline copy too.
 11. **Open data:** every exam, module and page status as one JSON file, built by

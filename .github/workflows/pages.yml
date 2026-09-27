@@ -38,6 +38,8 @@ jobs:
       - run: pip install "mkdocs==1.6.1" "mkdocs-material==9.*"
       - run: mkdocs build
       - run: python3 awesome-indian-exams/scripts/export_json.py --out site/data/exams.json --js site/data/data.js
+      # A new service-worker version per deploy, so installed copies pick up the new pages.
+      - run: sed -i "s/__BUILD__/${GITHUB_SHA::12}/" site/sw.js
       # The same site as a download that opens from disk, for students with patchy internet.
       - run: |
           mkdocs build -f mkdocs.offline.yml

@@ -1,0 +1,20 @@
+{#- Adds the installable-app manifest and link previews (WhatsApp, Telegram, X) to every page. -#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}">
+  <meta name="theme-color" content="#303f9f">
+  <link rel="apple-touch-icon" href="{{ 'assets/icons/icon-192.png' | url }}">
+  {%- set title = (page.title ~ " · " ~ config.site_name) if page and page.title else config.site_name %}
+  {%- set desc = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ desc }}">
+  {%- if page and page.canonical_url %}
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  {%- endif %}
+  <meta property="og:image" content="{{ config.site_url }}assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+{% endblock %}
