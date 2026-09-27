@@ -2,7 +2,8 @@ name: ai-accounts
 
 # Checks the Hugging Face and Kaggle logins used by the exam AI (awesome-indian-exams/ops/plan/exam-llm.md), and
 # publishes the open data as a free Hugging Face dataset. By hand only: Actions tab → ai-accounts → Run workflow.
-# Never give it a schedule. Secrets: HF_TOKEN (Hugging Face, write), KAGGLE_API_TOKEN (Kaggle API token).
+# Never give it a schedule. Secrets: HF_TOKEN (Hugging Face, write), KAGGLE_API_TOKEN (Kaggle API token); the
+# names HUGGING_FACE and KAGGLE are accepted too.
 on:
   workflow_dispatch:
     inputs:
@@ -19,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN || secrets.HUGGING_FACE }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN || secrets.KAGGLE }}
     steps:
       - uses: actions/setup-python@v5
         with:
