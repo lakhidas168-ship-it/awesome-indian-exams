@@ -1,0 +1,51 @@
+name: ai-accounts
+
+# Checks the Hugging Face and Kaggle logins used by the exam AI (awesome-indian-exams/ops/plan/exam-llm.md), and
+# publishes the open data as a free Hugging Face dataset. By hand only: Actions tab → ai-accounts → Run workflow.
+# Never give it a schedule. Secrets: HF_TOKEN (Hugging Face, write), KAGGLE_API_TOKEN (Kaggle API token).
+on:
+  workflow_dispatch:
+    inputs:
+      publish_data:
+        description: "Also publish the open data to the Hugging Face dataset <account>/awesome-indian-exams"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  huggingface:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install "huggingface_hub==0.36.0"
+      - name: Check the Hugging Face login
+        run: python3 awesome-indian-exams/scripts/hf_publish.py --check
+      - name: Publish the open data
+        if: inputs.publish_data
+        run: python3 awesome-indian-exams/scripts/hf_publish.py --publish
+
+  kaggle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install kaggle
+      - name: Check the Kaggle login
+        run: |
+          if [ -z "$KAGGLE_API_TOKEN" ]; then
+            echo "::error::KAGGLE_API_TOKEN is not set: add it as a repository secret"; exit 1
+          fi
+          kaggle datasets list --mine > /dev/null
+          echo "Kaggle login works"
