@@ -4,11 +4,13 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 
 - **2026-09-27 21:13 UTC** · `T-304` · hermes · [Verify the CSEET (Company Secretary Executive Entrance Test) page (exams/professional/cseet.md) against its current official notification](ops/done/T-304.md)
 - **2026-09-27 21:12 UTC** · `T-305` · hermes · [Verify the CMA Foundation page (exams/professional/cma-foundation.md) against its current official notification](ops/done/T-305.md)
+- **2026-09-27 21:11 UTC** · `T-314` · hermes · [AI study prompts: an exam-family pack (SSC/banking, JEE/NEET, GATE/ESE, state PSC) added to tools/ai-study-prompts.md](ops/done/T-314.md)
 - **2026-09-27 21:10 UTC** · `T-291` · hermes · [Verify the AISSEE (Sainik School entrance) page (exams/school/aissee.md) against its current official notification](ops/done/T-291.md)
 - **2026-09-27 21:07 UTC** · `T-303` · hermes · [Verify the CA Foundation page (exams/professional/ca-foundation.md) against its current official notification](ops/done/T-303.md)
 - **2026-09-27 20:58 UTC** · `T-401` · hermes · [Review modules/hindi-language.md (Hindi language) against the official syllabi of the exams it counts for](ops/done/T-401.md)
 - **2026-09-27 20:53 UTC** · `T-310` · hermes · [Daily current affairs: resources/current-affairs/<date>.md, a digest of that day's PIB releases for UPSC/SSC/banking with 5 original MCQs, each linking its PIB release](ops/done/T-310.md)
 - **2026-09-27 20:53 UTC** · `T-316` · hermes · [Community insights: read the most-upvoted threads on free preparation in r/UPSC, r/JEENEETards, r/GATE, r/SSC and similar forums; add the legal, repeatable tips to resources/study-methods.md with thread links](ops/done/T-316.md)
+- **2026-09-27 20:49 UTC** · `T-404` · hermes · [Review modules/banking-awareness.md (Banking and financial awareness) against the official syllabi of the exams it counts for](ops/done/T-404.md)
 - **2026-09-27 20:47 UTC** · `T-312` · hermes · [Hindi versions of the most-used pages (README start, overlap map, free coaching, previous papers) as <page>.hi.md with a language link](ops/done/T-312.md)
 - **2026-09-27 20:46 UTC** · `T-313` · hermes · [Flashcard deck for one more module in data/flashcards/<module>-<topic>.json, every card from a named official source (NCERT, an official report or act)](ops/done/T-313.md)
 - **2026-09-27 20:46 UTC** · `T-293` · hermes · [Verify the AILET (NLU Delhi) page (exams/law/ailet.md) against its current official notification](ops/done/T-293.md)
