@@ -30,3 +30,7 @@ the Mac. The cloud session cannot see the Mac; everything it needs to know is in
   `gh api -X POST repos/lakhidas168-ship-it/awesome-indian-exams/pages -f build_type=workflow`
   (HTTP 409 means it is already on). `.github/workflows/pages.yml` then deploys on the next push to `main`, to
   https://lakhidas168-ship-it.github.io/awesome-indian-exams/ with the open data at `/data/exams.json`.
+- **More free LLM providers** (docs in `awesome-indian-exams/docs/FREE-LLM-APIS.md`): wire Cerebras, NVIDIA NIM,
+  Mistral, SambaNova, Cloudflare Workers AI and Ollama Cloud into `ops/free_agent.py` PROVIDERS and
+  `ops/hive.toml` (you hold the newer local copies of both files), with a test, then add the owner's keys to
+  `~/.hive/agents.env` under the env var names listed there. Never schedule the hive on GitHub.
