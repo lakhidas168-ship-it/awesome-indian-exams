@@ -1,10 +1,12 @@
 ## Sources opened
-- https://mat.aima.in: Confirmed the conducting body and the availability of multiple test modes (PBT, CBT, IBT). Could not find a single, consolidated official information bulletin on the main landing page that explicitly details the current exam pattern (number of questions, marking scheme, duration) for all modes.
+- https://gate2027.iitm.ac.in/question_paper_pattern: Confirmed exam pattern, marking scheme, and duration.
+- https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf: Confirmed syllabus sections.
 
 ## Could not confirm
-- The specific exam pattern (number of questions, marking scheme, duration) via an official document.
+- Exact exam dates (the official site lists them as subject to change/postponement, so I removed the specific dates to be safe).
 
 ## Changed
-- Updated `exams/management/mat.md` to reflect the lack of a consolidated official document for the exam pattern.
-- Set `verification` to `unverified` and updated the evidence status note.
-- Removed specific, unverified numbers (150 questions, 120 minutes, marking scheme) from the page.
+- Updated `last_verified` to 2025-08-07 (date of the official documents).
+- Updated `verification` to `official`.
+- Refined `## Exam pattern` and `## Syllabus` sections based on the fetched official documents.
+- Added links to official documents in `## Official sources`.
