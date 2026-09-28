@@ -109,7 +109,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [APPSC Group 1](exams/state-psc/appsc-group-1.md) | Andhra Pradesh Public Service Commission | APPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
 | [APSC Combined Competitive Examination (Assam)](exams/state-psc/apsc-cce.md) | Assam Public Service Commission | APSC CCE (latest) | ⚪ unverified | 2026-09-27 |
 | [BPSC Combined Competitive Examination](exams/state-psc/bpsc-cce.md) | Bihar Public Service Commission | BPSC 71st CCE (2025) | 🟡 secondary | 2026-09-27 |
-| [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Exam (latest) | ⚪ unverified | 2026-09-27 |
+| [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Examination 2025 (Advt 06/2025) | ✅ official | 2026-09-28 |
 | [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-28 |
 | [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HPSC HCS (latest) | ⚪ unverified | 2026-09-27 |
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE (latest) | ⚪ unverified | 2026-09-27 |
@@ -147,7 +147,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [RPF Constable](exams/railways/rpf-constable.md) | Railway Protection Force (through RRBs) | CEN RPF 02/2024 | ✅ official | 2026-09-28 |
 | [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | CEN RPF 01/2024 | ✅ official | 2026-09-28 |
 | [RRB Assistant Loco Pilot (ALP)](exams/railways/rrb-alp.md) | Railway Recruitment Boards | RRB ALP (CEN 01/2026) | 🟡 secondary | 2026-09-27 |
-| [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | RRB Group D (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | CEN 09/2025 (Level-1) | ✅ official | 2026-09-28 |
 | [RRB NTPC (Non-Technical Popular Categories)](exams/railways/rrb-ntpc.md) | Railway Recruitment Boards | RRB NTPC (latest CEN) | 🟡 secondary | 2026-09-27 |
 | [RRB Technician (Grade 1 Signal and Grade 3)](exams/railways/rrb-technician.md) | Railway Recruitment Boards | CEN 02/2026 | ✅ official | 2026-09-28 |
 

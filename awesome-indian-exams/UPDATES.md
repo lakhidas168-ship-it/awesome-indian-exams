@@ -2,9 +2,11 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 00:20 UTC** · `T-255` · hermes · [Verify the RRB Group D (Level 1) page (exams/railways/rrb-group-d.md) against its current official notification](ops/done/T-255.md)
 - **2026-09-28 00:17 UTC** · `T-273` · hermes · [Verify the Agniveer Vayu (Air Force) page (exams/defence/agniveer-vayu.md) against its current official notification](ops/done/T-273.md)
 - **2026-09-28 00:14 UTC** · `T-245` · hermes · [Verify the GPSC Class 1–2 (Gujarat) page (exams/state-psc/gpsc-class-1-2.md) against its current official notification](ops/done/T-245.md)
 - **2026-09-28 00:14 UTC** · `T-271` · hermes · [Verify the Agniveer (Army) page (exams/defence/agniveer-army.md) against its current official notification](ops/done/T-271.md)
+- **2026-09-28 00:14 UTC** · `T-239` · hermes · [Verify the CGPSC State Service Examination page (exams/state-psc/cgpsc-sse.md) against its current official notification](ops/done/T-239.md)
 - **2026-09-28 00:12 UTC** · `T-120` · opencode · [Ask the list: a website tool that retrieves the best corpus sections in the browser and answers with an in-browser open model (WebLLM), citing each section; falls back to showing the sections when the device cannot run a model](ops/done/T-120.md)
 - **2026-09-28 00:11 UTC** · `T-110` · opencode · [CBT mock engine in the website (tools/): NTA-style question palette, mark for review, section timer, negative marking, auto-submit; runs the T-101 question format offline](ops/done/T-110.md)
 - **2026-09-28 00:11 UTC** · `T-225` · hermes · [Verify the UPSC Combined Geo-Scientist page (exams/upsc/upsc-geoscientist.md) against its current official notification](ops/done/T-225.md)
