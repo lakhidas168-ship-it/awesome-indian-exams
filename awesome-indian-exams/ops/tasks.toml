@@ -389,6 +389,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; official_site=https://nbe.edu.in; pattern_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; syllabus_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf"]
 
 [[task]]
 id = "T-216"
@@ -1211,6 +1212,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://exams.nta.nic.in/admit-card-for-nchm-jee-2026/; official_site=https://exams.nta.nic.in/nchm-jee/; pattern_url=https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf; syllabus_url=https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf"]
 
 [[task]]
 id = "T-289"
@@ -1222,6 +1224,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; official_site=https://www.nata.in; pattern_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; syllabus_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf"]
 
 [[task]]
 id = "T-290"
