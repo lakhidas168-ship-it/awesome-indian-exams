@@ -181,7 +181,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | 🟡 secondary | 2026-09-27 |
+| [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | ⚪ unverified | 2026-09-28 |
 | [CTET (Central Teacher Eligibility Test)](exams/teaching/ctet.md) | Central Board of Secondary Education | CTET September 2026 | ✅ official | 2026-09-28 |
 | [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | Rolling advertisements | ✅ official | 2026-09-27 |
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | KVS & NVS combined recruitment (latest) | 🟡 secondary | 2026-09-27 |
