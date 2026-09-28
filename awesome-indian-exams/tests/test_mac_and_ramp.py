@@ -215,5 +215,104 @@ class ContinuousMode(unittest.TestCase):
             shutil.rmtree(tmp, ignore_errors=True)
 
 
+class JEVXLocalMode(unittest.TestCase):
+    """Test the JEVX lane when HIVE_OPEN_PR=0 (Mac local mode)."""
+
+    def setUp(self) -> None:
+        self.tmp = Path(tempfile.mkdtemp())
+        self.repo = make_remote(self.tmp, ("repo",))[0]
+        # Simple mock agent that appends a plan entry
+        self.agent = self.tmp / "jevx-agent.sh"
+        self.agent.write_text("""#!/bin/bash
+# Mock JEVX agent: append a plan entry and update tasks.toml
+cat >> ops/plan/$(date -u +%Y-%m-%d).md <<'EOF'
+
+## $(date -u +%H:%M) UTC · local jevx run
+- Added test task T-999
+EOF
+cat >> ops/tasks.toml <<'EOF'
+
+[[task]]
+id = "T-999"
+lane = "opencode"
+priority = 1
+title = "test task from jevx"
+accept = ["verify it appears"]
+EOF
+""", encoding="utf-8")
+        self.agent.chmod(0o755)
+
+    def tearDown(self) -> None:
+        shutil.rmtree(self.tmp)
+
+    def run_jevx_local(self, **extra_env: str) -> subprocess.CompletedProcess:
+        base = {k: v for k, v in ENV.items() if k not in KEY_ENVS}
+        full = {**base, "HIVE_OPEN_PR": "0", "HIVE_HOME": str(self.tmp / "hive"),
+                "HIVE_SLOT": "1", "HIVE_CMD_JEVX": str(self.agent), **extra_env}
+        return subprocess.run(
+            ["bash", f"{CONTENT.name}/ops/run-hourly.sh", "jevx"],
+            cwd=self.repo, env=full, text=True, capture_output=True, timeout=120
+        )
+
+    def test_jevx_local_pushes_branch_with_judge_trailer(self) -> None:
+        """JEVX lane with HIVE_OPEN_PR=0 pushes agent/jevx/plan-* branch with Hive-Publish: judge trailer."""
+        res = self.run_jevx_local()
+        self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
+        self.assertIn("pushed agent/jevx/plan-", res.stdout)
+        self.assertIn("for the local judge", res.stdout)
+
+        # Verify branch exists on remote with correct commit message
+        refs = subprocess.run(
+            ["git", "ls-remote", "origin", "refs/heads/agent/jevx/plan-*"],
+            cwd=self.repo, env=ENV, capture_output=True, text=True
+        ).stdout
+        self.assertTrue(refs.strip(), "no jevx plan branch pushed")
+        branch = refs.split()[1]
+        self.assertTrue(branch.startswith("refs/heads/agent/jevx/plan-"))
+
+        # Verify commit has Hive-Publish: judge trailer
+        sha = refs.split()[0]
+        log = subprocess.run(
+            ["git", "show", "-s", "--format=%B", sha],
+            cwd=self.repo, env=ENV, capture_output=True, text=True
+        ).stdout
+        self.assertIn("Hive-Publish: judge", log)
+        self.assertIn("hive(jevx): plan and backlog update", log)
+
+    def test_jevx_local_branch_passes_hive_gate(self) -> None:
+        """The JEVX local branch only touches allowed paths (ops/tasks.toml, ops/plan/, README, UPDATES.md)."""
+        res = self.run_jevx_local()
+        self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
+
+        refs = subprocess.run(
+            ["git", "ls-remote", "origin", "refs/heads/agent/jevx/plan-*"],
+            cwd=self.repo, env=ENV, capture_output=True, text=True
+        ).stdout
+        branch = refs.split()[1].replace("refs/heads/", "")
+        sha = refs.split()[0]
+
+        # Get changed files
+        diff = subprocess.run(
+            ["git", "diff", "--name-only", f"{sha}^..{sha}"],
+            cwd=self.repo, env=ENV, capture_output=True, text=True
+        ).stdout.strip().splitlines()
+
+        # Run hive_gate.py on the branch
+        gate_res = subprocess.run(
+            [sys.executable, str(CONTENT / "scripts" / "hive_gate.py"), "--branch", branch],
+            cwd=self.repo, env=ENV, input="\n".join(diff), text=True, capture_output=True
+        )
+        self.assertEqual(gate_res.returncode, 0, f"hive_gate failed: {gate_res.stdout} {gate_res.stderr}")
+        self.assertIn("PASS", gate_res.stdout)
+
+    def test_jevx_local_does_not_call_gh(self) -> None:
+        """JEVX lane with HIVE_OPEN_PR=0 should not invoke gh CLI."""
+        res = self.run_jevx_local()
+        self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
+        # gh pr list, gh pr create, gh pr close should not appear in output
+        self.assertNotIn("gh pr", res.stdout)
+        self.assertNotIn("gh pr", res.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
