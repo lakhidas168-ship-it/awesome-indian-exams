@@ -3,6 +3,7 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-28 11:08 UTC** · `T-280` · opencode · [Verify the State TETs (UPTET, REET, MAHATET and others) page (exams/teaching/state-tet.md) against its current official notification](ops/done/T-280.md)
+- **2026-09-28 11:08 UTC** · `T-001` · opencode · [Verify the GATE EE page against the official GATE 2027 information brochure](ops/done/T-001.md)
 - **2026-09-28 11:04 UTC** · `T-272` · opencode · [Verify the Agniveer (Navy) page (exams/defence/agniveer-navy.md) against its current official notification](ops/done/T-272.md)
 - **2026-09-28 10:50 UTC** · `T-243` · hermes · [Verify the APPSC Group 1 page (exams/state-psc/appsc-group-1.md) against its current official notification](ops/done/T-243.md)
 - **2026-09-28 09:43 UTC** · `T-298` · hermes · [Verify the CMAT page (exams/management/cmat.md) against its current official notification](ops/done/T-298.md)
