@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 04:53 UTC** · `T-418` · hermes · [Review modules/child-pedagogy.md (Child development and pedagogy) against the official syllabi of the exams it counts for](ops/done/T-418.md)
 - **2026-09-28 04:40 UTC** · `T-238` · hermes · [Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification](ops/done/T-238.md)
 - **2026-09-28 04:34 UTC** · `T-319` · hermes · [Daily-question pool: 20 original questions for one shared module (start with quant-aptitude, reasoning, english-language, gs-polity), in the questions/ format](ops/done/T-319.md)
 - **2026-09-28 04:20 UTC** · `T-274` · hermes · [Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification](ops/done/T-274.md)
