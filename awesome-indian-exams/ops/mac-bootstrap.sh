@@ -7,8 +7,10 @@
 #
 # What it does:
 #   1. checks the basics (git, Python 3.11+, perl, gh) and opens the GitHub login in the browser if needed
-#   2. detects the agents on this Mac (OpenCode + OpenCode Go, Hermes, Gemini CLI, Antigravity CLI, JEVX, Ollama)
-#      and writes ~/.hive/agents.env (your edits there are kept; the detected version goes to agents.env.detected)
+#   2. detects the agents on this Mac (OpenCode + OpenCode Go, Hermes, Command Code, Gemini CLI, Antigravity CLI,
+#      JEVX, Ollama), installs and logs in Command Code (GOAT plan) when npm is present, and writes ~/.hive/agents.env
+#      (your edits there are kept; the detected version goes to agents.env.detected; missing Command Code lines are
+#      appended)
 #   3. installs the hourly schedule in crontab (a managed block; the rest of your crontab is untouched)
 #   4. starts a first scan of your past work (private, stays on this Mac) and runs the health check
 # Compatible with macOS bash 3.2.
@@ -33,6 +35,14 @@ gh auth status >/dev/null 2>&1 || gh auth login --web --git-protocol https --hos
 git -C "$REPO" fetch --quiet origin
 
 say "2/4 agents on this Mac"
+# Command Code (GOAT plan): install once, log in once (opens the browser). Skip with HIVE_NO_COMMANDCODE=1.
+if [ -z "${HIVE_NO_COMMANDCODE:-}" ]; then
+  if ! have command-code && have npm; then npm i -g command-code || echo "Command Code install failed; skipping it"; fi
+  if have command-code && ! command-code status >/dev/null 2>&1; then
+    echo "Command Code is not logged in: a browser window opens; sign in with the account that has the GOAT plan"
+    command-code login || echo "Command Code login did not finish; run  command-code login  later"
+  fi
+fi
 DET="$HIVE_HOME/agents.env.detected"
 {
   echo "# Detected by mac-bootstrap.sh on $(date). Copy lines into agents.env to change what runs."
@@ -44,6 +54,13 @@ DET="$HIVE_HOME/agents.env.detected"
     echo 'export HIVE_CMD_OPENCODE=free-agent'
   fi
   if have hermes; then echo 'export HIVE_CMD_HERMES="hermes -z"'; else echo 'export HIVE_CMD_HERMES=free-agent'; fi
+  if have command-code; then
+    echo "export HIVE_CMD_COMMANDCODE=\"bash ops/commandcode.sh\"   # Command Code GOAT plan (ops/commandcode.sh)"
+    echo 'export HIVE_LOOP_COMMANDCODE=6   # continuous mode: parallel Command Code workers'
+    echo 'export HIVE_COMMANDCODE_LANE=hermes   # hermes = content pages, opencode = tooling'
+    echo 'export HIVE_COMMANDCODE_MODEL=   # empty = account default; list: command-code --list-models'
+    echo 'export HIVE_COMMANDCODE_MAX_RUNS_PER_DAY=0   # 0 = no cap; set one if credits must last the month'
+  fi
   if have gemini; then echo 'export HIVE_CMD_GEMINI="gemini --yolo -p"          # extra hermes-lane worker'; fi
   # agy hangs without a terminal (known issue); `script` gives it a pseudo-terminal.
   if have agy; then echo 'export HIVE_CMD_ANTIGRAVITY="script -q /dev/null agy --dangerously-skip-permissions -p"'; fi
@@ -59,6 +76,9 @@ DET="$HIVE_HOME/agents.env.detected"
   echo 'export HIVE_LOOP_OPENCODE=6    # continuous mode: parallel OpenCode-lane workers'
 } > "$DET"
 [ -f "$HIVE_HOME/agents.env" ] || cp "$DET" "$HIVE_HOME/agents.env"
+if ! grep -q HIVE_CMD_COMMANDCODE "$HIVE_HOME/agents.env" && grep -q HIVE_CMD_COMMANDCODE "$DET"; then
+  { echo "# Command Code, added by mac-bootstrap.sh on $(date)"; grep COMMANDCODE "$DET"; } >> "$HIVE_HOME/agents.env"
+fi
 cat "$HIVE_HOME/agents.env"
 
 say "3/4 hourly schedule"
@@ -68,6 +88,7 @@ BLOCK="$HIVE_HOME/cron.block"
   echo "# >>> hive >>> managed by awesome-indian-exams/ops/mac-bootstrap.sh (edit ~/.hive/agents.env instead)"
   echo "5 * * * * $CRON hermes"
   echo "5 * * * * $CRON opencode"
+  have command-code && echo "11 * * * * $CRON hermes commandcode"
   have gemini && echo "7 * * * * $CRON hermes gemini"
   have agy && echo "9 * * * * $CRON hermes antigravity"
   echo "40 * * * * $CRON jevx"
@@ -87,7 +108,7 @@ nohup /bin/bash "$HERE/hive-cron.sh" harvest >/dev/null 2>&1 &
 HIVE_WHERE=mac python3 "$HERE/doctor.py" --mac || true
 
 if [ "${1:-}" = "--loop" ]; then
-  say "continuous mode: 6 Hermes + 6 OpenCode workers (and Gemini/Antigravity if present), Mac kept awake"
+  say "continuous mode: 6 Hermes + 6 OpenCode + 6 Command Code workers (and Gemini/Antigravity if present), Mac kept awake"
   /bin/bash "$HERE/hive-loop.sh" start
 fi
 

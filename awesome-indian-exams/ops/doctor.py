@@ -88,6 +88,7 @@ def mac_checks() -> None:
         ("perl", ("-v",), True, "perl ships with macOS; reinstall Command Line Tools"),
         ("opencode", ("--version",), False, "curl -fsSL https://opencode.ai/install | bash"),
         ("hermes", ("--version",), False, "install Hermes Agent (see its docs)"),
+        ("command-code", ("--version",), False, "npm i -g command-code && command-code login (GOAT plan account)"),
         ("gemini", ("--version",), False, "npm install -g @google/gemini-cli && gemini (sign in once)"),
         ("agy", ("--version",), False, "install the Antigravity CLI and sign in once"),
         ("ollama", ("--version",), False, "brew install ollama (optional: unlimited local model)"),
@@ -103,6 +104,13 @@ def mac_checks() -> None:
             report("OK", "github login", "gh is logged in")
         else:
             report("FAIL", "github login", "gh is not logged in", "OWNER: run `gh auth login --web` once")
+    if shutil.which("command-code"):
+        cc = run("command-code", "status", timeout=60)
+        if cc.returncode == 0:
+            report("OK", "command code login", "logged in")
+        else:
+            report("FAIL", "command code login", "not logged in",
+                   "OWNER: run `command-code login` once (the Command Code workers fall back to free-agent)")
     env = HIVE_HOME / "agents.env"
     report("OK" if env.exists() else "FAIL", "agents.env", str(env),
            "" if env.exists() else "run ops/mac-bootstrap.sh")

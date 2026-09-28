@@ -10,6 +10,8 @@
 #   HIVE_LOOP_HERMES [6]    parallel Hermes-lane workers (hermes-1..N, command HIVE_CMD_HERMES)
 #   HIVE_LOOP_OPENCODE [6]  parallel OpenCode-lane workers (opencode-1..N, command HIVE_CMD_OPENCODE)
 #   HIVE_LOOP_EXTRA ["hermes:gemini hermes:antigravity" when those commands are set]  extra lane:worker loops
+#   HIVE_LOOP_COMMANDCODE [6 when HIVE_CMD_COMMANDCODE is set, else 0]  parallel Command Code workers
+#                           (commandcode-1..N) in lane HIVE_COMMANDCODE_LANE [hermes]
 #   HIVE_LOOP_JEVX_EVERY [1800]  seconds between JEVX review/plan/merge runs
 #   HIVE_LOOP_IDLE [600]    seconds a worker waits when there is no ready task (or no LLM capacity)
 # Workers never collide: every task claim is atomic on GitHub. Compatible with macOS bash 3.2.
@@ -54,6 +56,10 @@ start() {
     worker_loop hermes "hermes-$i" >> "$L" 2>&1 < /dev/null & echo $! >> "$PIDS"; i=$((i + 1)); done
   i=1; while [ "$i" -le "${HIVE_LOOP_OPENCODE:-6}" ]; do
     worker_loop opencode "opencode-$i" >> "$L" 2>&1 < /dev/null & echo $! >> "$PIDS"; i=$((i + 1)); done
+  i=1; n=0; [ -n "${HIVE_CMD_COMMANDCODE:-}" ] && n="${HIVE_LOOP_COMMANDCODE:-6}"
+  while [ "$i" -le "$n" ]; do
+    worker_loop "${HIVE_COMMANDCODE_LANE:-hermes}" "commandcode-$i" >> "$L" 2>&1 < /dev/null & echo $! >> "$PIDS"
+    i=$((i + 1)); done
   for pair in $extra; do worker_loop "${pair%%:*}" "${pair#*:}" >> "$L" 2>&1 < /dev/null & echo $! >> "$PIDS"; done
   jevx_loop >> "$L" 2>&1 < /dev/null & echo $! >> "$PIDS"
   # Keep the Mac awake (display may sleep) for as long as the first loop lives.
