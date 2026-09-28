@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Export the list as open data: one JSON file that apps, planners and other lists can build on.
 
-    python3 scripts/export_json.py [--out PATH] [--js PATH]   # default: print the JSON to stdout
+    python3 scripts/export_json.py [--out PATH] [--js PATH] [--corpus]
 
 The website build (.github/workflows/pages.yml) publishes it at /data/exams.json. `--js` also writes data/data.js
 (`window.AIE_DATA` with the exams, the flashcard decks in data/flashcards/ and the original questions in
@@ -25,6 +25,57 @@ from validate import page_path, parse_frontmatter  # noqa: E402
 REPO = "https://github.com/lakhidas168-ship-it/awesome-indian-exams"
 PAGE_KEYS = ("cycle", "verification", "last_verified", "conducting_body", "official_site")
 
+def get_sections(text: str):
+    """Split markdown into sections by ## headings."""
+    sections = []
+    lines = text.splitlines()
+    current_heading = "Introduction"
+    current_text = []
+    
+    for line in lines:
+        if line.startswith("## "):
+            if current_text:
+                sections.append((current_heading, "\n".join(current_text)))
+            current_heading = line[3:].strip()
+            current_text = []
+        else:
+            current_text.append(line)
+    if current_text:
+        sections.append((current_heading, "\n".join(current_text)))
+    return sections
+
+def build_corpus(root: Path = ROOT):
+    reg = tomllib.loads((root / "registry" / "exams.toml").read_text(encoding="utf-8"))
+    corpus = []
+    
+    for ex in reg.get("exam", []):
+        path = page_path(root, ex)
+        if not path.exists():
+            continue
+            
+        text = path.read_text(encoding="utf-8")
+        meta, content = parse_frontmatter(text)
+        meta = meta or {}
+        
+        url = f"{REPO}/blob/main/{path.relative_to(root).as_posix()}"
+        verification = meta.get("verification", "unverified")
+        
+        for heading, section_text in get_sections(content):
+            record = {
+                "url": url,
+                "title": meta.get("title", ex.get("name", "")),
+                "heading": heading,
+                "text": section_text.strip(),
+                "verification": verification,
+                "official_links": meta.get("official_site", "")
+            }
+            
+            # Validate
+            if len(json.dumps(record)) > 2000:
+                continue 
+            
+            corpus.append(record)
+    return corpus
 
 def build(root: Path = ROOT) -> dict:
     reg = tomllib.loads((root / "registry" / "exams.toml").read_text(encoding="utf-8"))
@@ -45,7 +96,7 @@ def build(root: Path = ROOT) -> dict:
             meta, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
             meta = meta or {}
             rel = path.relative_to(root).as_posix()
-            item["page"] = {"path": rel, "url": f"{REPO}/blob/main/awesome-indian-exams/{rel}"}
+            item["page"] = {"path": rel, "url": f"{REPO}/blob/main/{rel}"}
             item["page"].update({k: meta[k] for k in PAGE_KEYS if meta.get(k)})
         exams.append(item)
     used = {m for ex in exams for m in ex["modules"]}
@@ -81,7 +132,18 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--out", type=Path, help="write the JSON here instead of stdout")
     ap.add_argument("--js", type=Path, help="also write the tools' data file (window.AIE_DATA) here")
+    ap.add_argument("--corpus", action="store_true", help="write the AI corpus to data/corpus.jsonl")
     args = ap.parse_args(argv)
+    
+    if args.corpus:
+        data = build_corpus()
+        out = ROOT / "data" / "corpus.jsonl"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with open(out, "w", encoding="utf-8") as f:
+            for record in data:
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+        return 0
+
     data = build()
     text = json.dumps(data, ensure_ascii=False, indent=1) + "\n"
     if args.out:
