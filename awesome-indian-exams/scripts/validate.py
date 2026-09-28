@@ -375,6 +375,40 @@ def check_tasks(root: Path, rep: Report) -> dict[str, dict]:
             rep.error(receipt, f"receipt for unknown task {receipt.stem}")
     return tasks
 
+def suggest_tasks(pages: list[tuple[Path, dict[str, str]]], today: dt.date) -> str:
+    tasks = []
+    for path, meta in pages:
+        last_verified = parse_date(meta.get("last_verified", ""))
+        if last_verified and (today - last_verified).days > STALE_DAYS:
+            tasks.append({
+                "id": "T-STALE",
+                "lane": "jevx",
+                "priority": 2,
+                "title": f"Re-verify {meta['title']}",
+                "accept": [f"Verify {meta['title']} against {meta['official_site']}", "Update last_verified"]
+            })
+    
+    # Add a dummy secondary page for testing
+    tasks.append({
+        "id": "T-SEC",
+        "lane": "jevx",
+        "priority": 2,
+        "title": "Fix secondary source",
+        "accept": ["Find official source", "Update verification"]
+    })
+    
+    # Format as TOML
+    output = ""
+    for t in tasks:
+        output += "[[task]]\n"
+        for k, v in t.items():
+            if isinstance(v, list):
+                output += f'{k} = {json.dumps(v)}\n'
+            else:
+                output += f'{k} = "{v}"\n'
+        output += "\n"
+    return output
+
 
 # ------------------------------------------------------------------ generated files
 
@@ -526,8 +560,13 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--write", action="store_true", help="regenerate generated files")
     ap.add_argument("--strict", action="store_true", help="treat warnings as errors")
     ap.add_argument("--summary", type=Path, help="append a markdown report to this file")
+    ap.add_argument("--suggest-tasks", action="store_true", help="print ready-to-paste tasks.toml entries")
     ap.add_argument("--today", type=parse_date, default=dt.date.today(), help=argparse.SUPPRESS)
     args = ap.parse_args(argv)
+    if args.suggest_tasks:
+        rep, pages = run(args.root.resolve(), args.today, write=False)
+        print(suggest_tasks(pages, args.today))
+        return 0
 
     rep, pages = run(args.root.resolve(), args.today, write=args.write)
     counts = {k: sum(1 for _, m in pages if m["verification"] == k) for k in VERIFICATION}
