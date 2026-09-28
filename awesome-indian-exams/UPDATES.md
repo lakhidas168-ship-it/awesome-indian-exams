@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 02:00 UTC** · `T-311` · hermes · [UPSC answer writing: one daily Mains question built from the official GS syllabus, with the directive word explained, links to the official papers and the evaluator prompt in tools/ai-study-prompts.md](ops/done/T-311.md)
 - **2026-09-28 01:56 UTC** · `T-421` · hermes · [Review modules/mbbs-subjects.md (MBBS subjects (pre-clinical, para-clinical, clinical)) against the official syllabi of the exams it counts for](ops/done/T-421.md)
 - **2026-09-28 01:52 UTC** · `T-268` · opencode · [Verify the SEBI Grade A page (exams/banking/sebi-grade-a.md) against its current official notification](ops/done/T-268.md)
 - **2026-09-28 01:50 UTC** · `T-410` · hermes · [Review modules/gs-polity.md (Indian polity and governance) against the official syllabi of the exams it counts for](ops/done/T-410.md)
