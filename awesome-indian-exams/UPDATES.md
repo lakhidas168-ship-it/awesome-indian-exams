@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 13:44 UTC** · `T-002` · opencode · [Verify the UPSC ESE EE page against the ESE 2027 notification on upsc.gov.in](ops/done/T-002.md)
 - **2026-09-28 12:52 UTC** · `T-222` · opencode · [Verify the UPSC Combined Medical Services (CMS) page (exams/upsc/upsc-cms.md) against its current official notification](ops/done/T-222.md)
 - **2026-09-28 11:14 UTC** · `T-296` · opencode · [Verify the XAT page (exams/management/xat.md) against its current official notification](ops/done/T-296.md)
 - **2026-09-28 11:08 UTC** · `T-280` · opencode · [Verify the State TETs (UPTET, REET, MAHATET and others) page (exams/teaching/state-tet.md) against its current official notification](ops/done/T-280.md)
