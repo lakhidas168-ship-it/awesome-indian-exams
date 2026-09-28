@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-27 23:52 UTC** · `T-252` · opencode · [Verify the SSC Junior Hindi Translator (JHT) page (exams/ssc/ssc-jht.md) against its current official notification](ops/done/T-252.md)
 - **2026-09-27 23:38 UTC** · `T-208` · opencode · [Verify the WBJEE page (exams/engineering-entrance/wbjee.md) against its current official notification](ops/done/T-208.md)
 - **2026-09-27 23:02 UTC** · `T-216` · opencode · [Verify the INI-CET page (exams/medical/ini-cet.md) against its current official notification](ops/done/T-216.md)
 - **2026-09-27 22:56 UTC** · `T-124` · opencode · [Publish the exam AI to Hugging Face Hub (adapter, merged weights, GGUF, WebLLM build, model card with evaluations and limits) from a manual workflow using the HF_TOKEN secret](ops/done/T-124.md)
