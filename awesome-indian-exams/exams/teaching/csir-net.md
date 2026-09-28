@@ -2,48 +2,48 @@
 title: CSIR NET (JRF / Assistant Professor)
 exam_id: csir-net
 conducting_body: National Testing Agency (NTA)
-official_site: https://csirnet.nta.nic.in
+official_site: https://csirnet.nta.ac.in
 cycle: CSIR NET (latest session)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: unverified
 ---
 
 # CSIR NET (JRF / Assistant Professor)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟡 unverified.** The official website (https://csirnet.nta.nic.in) is currently unreachable. The facts below are based on general knowledge and require verification against the latest official information bulletin once the site is accessible.
 
-CSIR NET decides eligibility for JRF and Assistant Professor in the sciences: Chemical, Earth, Life,
-Mathematical and Physical Sciences. It is held twice a year.
+CSIR NET decides eligibility for JRF and Assistant Professor in the sciences: Chemical, Earth, Life, Mathematical and Physical Sciences. It is held twice a year.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | National Testing Agency (NTA) for CSIR |
-| Mode | Computer-based, 3 hours |
-| Total | 200 marks |
+| Mode | Computer-based test (CBT) |
+| Duration | 3 hours |
 
 ## Official sources
 
-- CSIR NET official website (information bulletin): <https://csirnet.nta.nic.in>
+- CSIR NET official website: <https://csirnet.nta.nic.in>
 
 ## Exam pattern
 
-Three parts. **Part A** (general aptitude, logical reasoning, problem solving) is common to all subjects.
-**Parts B and C** test the subject, with Part C asking the deepest, highest-value questions. The number of
-questions to attempt, the marks per question and the negative marking differ by part and by subject. Every part has
-negative marking, sized to the question's marks (see the bulletin).
+The exam consists of three parts:
+- **Part A:** General aptitude, logical reasoning, and problem-solving (common to all subjects).
+- **Parts B and C:** Subject-specific questions. Part C typically contains higher-value, deeper conceptual questions.
+
+The number of questions to attempt, marks per question, and negative marking schemes vary by subject and part. Please refer to the official information bulletin for the specific marking scheme applicable to your subject.
 
 ## Syllabus
 
-Part A: general aptitude. Parts B and C: the CSIR syllabus of the chosen subject at M.Sc. level.
+- **Part A:** General aptitude.
+- **Parts B and C:** The CSIR syllabus of the chosen subject at the M.Sc. level.
 
 ## How to prepare (free, in order)
 
-1. Part C carries the most marks per question. Depth in core topics beats breadth.
-2. Read the bulletin's 'attempt any N of M' rules per part before every exam.
+1. Review the official information bulletin for the specific 'attempt any N of M' rules for your subject.
+2. Focus on Part C for high-value marks, as it tests deep conceptual understanding.
+3. Practice with previous years' papers to understand the subject-specific pattern.
 
 ## Free resources
 
