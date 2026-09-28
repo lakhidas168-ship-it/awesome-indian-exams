@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 16:26 UTC** · `T-125` · opencode · [Hindi and regional pages with AI4Bharat IndicTrans2 (MIT): translate the most-used pages as drafts for T-312, keeping official names, numbers and links unchanged](ops/done/T-125.md)
 - **2026-09-28 14:25 UTC** · `T-276` · opencode · [Verify the UGC NET page (exams/teaching/ugc-net.md) against its current official notification](ops/done/T-276.md)
 - **2026-09-28 13:44 UTC** · `T-254` · opencode · [Verify the RRB NTPC page (exams/railways/rrb-ntpc.md) against its current official notification](ops/done/T-254.md)
 - **2026-09-28 13:44 UTC** · `T-002` · opencode · [Verify the UPSC ESE EE page against the ESE 2027 notification on upsc.gov.in](ops/done/T-002.md)
