@@ -2,6 +2,15 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 04:53 UTC** · `T-418` · hermes · [Review modules/child-pedagogy.md (Child development and pedagogy) against the official syllabi of the exams it counts for](ops/done/T-418.md)
+- **2026-09-28 04:40 UTC** · `T-238` · hermes · [Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification](ops/done/T-238.md)
+- **2026-09-28 04:34 UTC** · `T-319` · hermes · [Daily-question pool: 20 original questions for one shared module (start with quant-aptitude, reasoning, english-language, gs-polity), in the questions/ format](ops/done/T-319.md)
+- **2026-09-28 04:20 UTC** · `T-274` · hermes · [Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification](ops/done/T-274.md)
+- **2026-09-28 04:10 UTC** · `T-282` · hermes · [Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification](ops/done/T-282.md)
+- **2026-09-28 04:08 UTC** · `T-278` · hermes · [Verify the KVS teacher and staff recruitment page (exams/teaching/kvs-recruitment.md) against its current official notification](ops/done/T-278.md)
+- **2026-09-28 04:03 UTC** · `T-230` · hermes · [Verify the MPPSC State Service Examination page (exams/state-psc/mppsc-sse.md) against its current official notification](ops/done/T-230.md)
+- **2026-09-28 03:48 UTC** · `T-235` · hermes · [Verify the TNPSC Group 4 page (exams/state-psc/tnpsc-group-4.md) against its current official notification](ops/done/T-235.md)
+- **2026-09-28 03:42 UTC** · `T-408` · hermes · [Review modules/ncert-mathematics.md (Mathematics (NCERT Class 11–12)) against the official syllabi of the exams it counts for](ops/done/T-408.md)
 - **2026-09-28 02:10 UTC** · `T-102` · opencode · [Staleness report: validate.py --suggest-tasks prints ready-to-paste tasks.toml entries for stale or non-official pages](ops/done/T-102.md)
 - **2026-09-28 02:00 UTC** · `T-311` · hermes · [UPSC answer writing: one daily Mains question built from the official GS syllabus, with the directive word explained, links to the official papers and the evaluator prompt in tools/ai-study-prompts.md](ops/done/T-311.md)
 - **2026-09-28 01:56 UTC** · `T-421` · hermes · [Review modules/mbbs-subjects.md (MBBS subjects (pre-clinical, para-clinical, clinical)) against the official syllabi of the exams it counts for](ops/done/T-421.md)

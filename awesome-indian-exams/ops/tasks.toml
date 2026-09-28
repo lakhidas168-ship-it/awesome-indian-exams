@@ -257,7 +257,7 @@ hints = ["Spark (Google accounts monojitdeb7775) found candidate official links 
 
 [[task]]
 id = "T-204"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the JEE Main page (exams/engineering-entrance/jee-main.md) against its current official notification"
@@ -265,6 +265,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.nta.ac.in/Download/Notice/Notice_20260916195948.pdf; official_site=https://jeemain.nta.nic.in; pattern_url=https://jeemain.nta.nic.in/information-bulletin/; syllabus_url=https://jeemain.nta.nic.in/document/syllabus-2026/"]
 
 [[task]]
 id = "T-205"
@@ -276,6 +277,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; official_site=https://jeeadv.ac.in; pattern_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; syllabus_url=https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf"]
 
 [[task]]
 id = "T-206"
@@ -368,6 +370,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.comedk.org/uploads/Information-brochure-2026-version-1.0.pdf; official_site=https://www.comedk.org; pattern_url=https://www.comedk.org/about-uget-and-notification-2026; syllabus_url=https://www.comedk.org/uploads/Mathematics-syllabus-2026_final.pdf"]
 
 [[task]]
 id = "T-214"
@@ -507,7 +510,7 @@ accept = [
 
 [[task]]
 id = "T-226"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the UPSC Indian Economic / Statistical Service (IES/ISS) page (exams/upsc/upsc-ies-iss.md) against its current official notification"
@@ -548,10 +551,11 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: official_site=https://rpsc.rajasthan.gov.in"]
 
 [[task]]
 id = "T-230"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the MPPSC State Service Examination page (exams/state-psc/mppsc-sse.md) against its current official notification"
@@ -597,7 +601,7 @@ accept = [
 
 [[task]]
 id = "T-234"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the TNPSC Group 1 page (exams/state-psc/tnpsc-group-1.md) against its current official notification"
@@ -643,7 +647,7 @@ hints = ["Spark (Google accounts monojitdeb7775) found candidate official links 
 
 [[task]]
 id = "T-238"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification"
@@ -651,6 +655,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: official_site=https://hpsc.gov.in"]
 
 [[task]]
 id = "T-239"
@@ -688,7 +693,7 @@ accept = [
 
 [[task]]
 id = "T-242"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the Kerala PSC exams (LDC, KAS and others) page (exams/state-psc/kerala-psc.md) against its current official notification"
@@ -731,10 +736,11 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: official_site=https://gpsc.gujarat.gov.in"]
 
 [[task]]
 id = "T-246"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the SSC CHSL (Combined Higher Secondary Level) page (exams/ssc/ssc-chsl.md) against its current official notification"
@@ -853,6 +859,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/01/Hindi.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/01/Hindi.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/01/Hindi.pdf"]
 
 [[task]]
 id = "T-257"
@@ -887,10 +894,11 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Sub-Inspector-01-2024_English.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Sub-Inspector-01-2024_English.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Sub-Inspector-01-2024_English.pdf"]
 
 [[task]]
 id = "T-260"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the IBPS Clerk page (exams/banking/ibps-clerk.md) against its current official notification"
@@ -898,6 +906,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.ibps.in/wp-content/uploads/CRP_Clerks_XIV_Final_Notification_28.6.24.pdf; official_site=https://www.ibps.in; pattern_url=https://www.ibps.in/wp-content/uploads/CRP_Clerks_XIV_Final_Notification_28.6.24.pdf; syllabus_url=https://www.ibps.in/wp-content/uploads/CRP_Clerks_XIV_Final_Notification_28.6.24.pdf"]
 
 [[task]]
 id = "T-261"
@@ -1006,7 +1015,7 @@ hints = ["Spark (Google accounts monojitdeb7775, rajon369963) found candidate of
 
 [[task]]
 id = "T-270"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the AFCAT (Air Force Common Admission Test) page (exams/defence/afcat.md) against its current official notification"
@@ -1054,7 +1063,7 @@ hints = ["Spark (Google accounts dasmonaj190, senp06341) found candidate officia
 
 [[task]]
 id = "T-274"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification"
@@ -1096,10 +1105,11 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://csirnet.nta.nic.in/documents/; official_site=https://csirnet.nta.nic.in; pattern_url=https://csirnet.nta.nic.in/about-department/introduction/; syllabus_url=https://csirhrdg.res.in/Home/Index/1/Default/3485/78"]
 
 [[task]]
 id = "T-278"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the KVS teacher and staff recruitment page (exams/teaching/kvs-recruitment.md) against its current official notification"
@@ -1146,7 +1156,7 @@ hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate offi
 
 [[task]]
 id = "T-282"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification"
@@ -1192,7 +1202,7 @@ hints = ["Spark (Google accounts lakhidas168) found candidate official links - f
 
 [[task]]
 id = "T-286"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the NID Design Aptitude Test (DAT) page (exams/university-entrance/nid-dat.md) against its current official notification"
@@ -1239,7 +1249,7 @@ hints = ["Spark (Google accounts dasmonaj190, monojitdeb7775) found candidate of
 
 [[task]]
 id = "T-290"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 4
 title = "Verify the JNV Selection Test (Navodaya, Class 6 and 9) page (exams/school/jnvst.md) against its current official notification"
@@ -1287,7 +1297,7 @@ hints = ["Spark (Google accounts shadaloverlover) found candidate official links
 
 [[task]]
 id = "T-294"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the MAH CET Law page (exams/law/mh-cet-law.md) against its current official notification"
@@ -1333,7 +1343,7 @@ hints = ["Spark (Google accounts debdebojit28) found candidate official links - 
 
 [[task]]
 id = "T-298"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the CMAT page (exams/management/cmat.md) against its current official notification"
@@ -1411,6 +1421,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.icsi.edu/media/webmodules/Mocktest29042025.pdf; official_site=https://www.icsi.edu; pattern_url=https://www.icsi.edu/media/webmodules/FAQ_on_CSEET_to_be_held_through_Remote_Proctored_Mode.pdf; syllabus_url=https://www.icsi.edu/students/cseet/"]
 
 [[task]]
 id = "T-305"

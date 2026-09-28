@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-19",
+  "subject": "Quantitative Aptitude",
+  "question": "A person walks 3 km North and then 4 km East. How far is he from the starting point?",
+  "options": ["5 km", "6 km", "7 km", "12 km"],
+  "answer": "5 km",
+  "solution": "Distance = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5 km. Topic (Geometry) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

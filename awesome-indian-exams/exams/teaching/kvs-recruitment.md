@@ -3,27 +3,24 @@ title: KVS teacher and staff recruitment
 exam_id: kvs-recruitment
 conducting_body: Kendriya Vidyalaya Sangathan
 official_site: https://kvsangathan.nic.in
-cycle: KVS & NVS combined recruitment (latest)
-last_verified: 2026-09-27
-verification: secondary
+cycle: Varies by recruitment notification
+last_verified: 2026-09-28
+verification: unverified
 ---
 
 # KVS teacher and staff recruitment
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟡 unverified.** The official website is reachable, but the specific recruitment notification for the current cycle could not be fetched. The details below are placeholders; always refer to the latest official notification on the KVS website before applying.
 
-Kendriya Vidyalaya Sangathan recruits PRT, TGT and PGT teachers and non-teaching staff. The latest cycle was
-held jointly with Navodaya Vidyalaya Samiti.
+Kendriya Vidyalaya Sangathan (KVS) recruits PRT, TGT, PGT teachers and non-teaching staff through direct recruitment notifications.
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | Kendriya Vidyalaya Sangathan (with NVS in the latest cycle) |
-| Stages | Tier 1 (qualifying) → Tier 2 → interview/skill test, depending on the post |
-| Eligibility | Degree + B.Ed and CTET where required (see the notice) |
+| Conducted by | Kendriya Vidyalaya Sangathan |
+| Stages | See official notification |
+| Eligibility | See official notification |
 
 ## Official sources
 
@@ -31,23 +28,20 @@ held jointly with Navodaya Vidyalaya Samiti.
 
 ## Exam pattern
 
-**Tier 1:** a common objective test (reasoning, general awareness, language, and teaching-related areas) that is
-qualifying. In the latest cycle each question carried 3 marks with a penalty of 1 mark per wrong answer. **Tier 2:**
-post-specific (subject knowledge and pedagogy). Principal and PGT posts may include an interview. The notice has the
-post-wise pattern.
+The exam pattern varies by post and is defined in the specific recruitment notification. Please check the official website for the latest details.
 
 ## Syllabus
 
-Tier 1: reasoning, general awareness, languages, perspectives on education, child development and
-pedagogy. Tier 2: the subject taught, at the level of the post.
+The syllabus is provided in the official recruitment notification for each post.
 
 ## How to prepare (free, in order)
 
-1. CTET preparation covers most of the pedagogy.
-2. Prepare the Tier 2 subject from NCERT textbooks up to Class 12.
+1. Check the official notification for the specific post requirements.
+2. Use NCERT textbooks for subject-specific preparation.
+3. Utilize shared modules for common subjects.
 
 ## Free resources
 
 - Shared modules for this exam: [Child development and pedagogy](../../modules/child-pedagogy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- NCERT textbooks (school subjects the teaching exams test): <https://ncert.nic.in/textbook.php>
+- NCERT textbooks: <https://ncert.nic.in/textbook.php>

@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-05",
+  "subject": "Quantitative Aptitude",
+  "question": "What is the simple interest on ₹2000 at 5% per annum for 3 years?",
+  "options": ["₹200", "₹300", "₹400", "₹500"],
+  "answer": "₹300",
+  "solution": "Simple Interest = (Principal * Rate * Time) / 100 = (2000 * 5 * 3) / 100 = 300. Topic (Simple and Compound Interest) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

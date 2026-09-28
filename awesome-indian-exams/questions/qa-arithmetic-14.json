@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-14",
+  "subject": "Quantitative Aptitude",
+  "question": "What is the HCF of 12 and 18?",
+  "options": ["2", "3", "6", "12"],
+  "answer": "6",
+  "solution": "Factors of 12: 1, 2, 3, 4, 6, 12. Factors of 18: 1, 2, 3, 6, 9, 18. Common factors: 1, 2, 3, 6. HCF = 6. Topic (Number System) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

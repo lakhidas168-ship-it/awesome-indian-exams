@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-02",
+  "subject": "Quantitative Aptitude",
+  "question": "If 15 men can complete a work in 20 days, how many days will 10 men take to complete the same work?",
+  "options": ["15 days", "25 days", "30 days", "35 days"],
+  "answer": "30 days",
+  "solution": "Total work = 15 men * 20 days = 300 man-days. For 10 men, time = 300 / 10 = 30 days. Topic (Time and Work) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

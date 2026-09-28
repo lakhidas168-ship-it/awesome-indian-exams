@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-18",
+  "subject": "Quantitative Aptitude",
+  "question": "If a circle has a radius of 7 cm, what is its circumference? (Take pi = 22/7)",
+  "options": ["22 cm", "44 cm", "88 cm", "154 cm"],
+  "answer": "44 cm",
+  "solution": "Circumference = 2 * pi * r = 2 * (22/7) * 7 = 44 cm. Topic (Mensuration) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

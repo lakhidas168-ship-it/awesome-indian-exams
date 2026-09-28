@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-01-20",
+  "subject": "Quantitative Aptitude",
+  "question": "This is a placeholder for the arithmetic question pool.",
+  "options": ["A", "B"],
+  "answer": "A",
+  "solution": "This is a placeholder.",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl"],
+  "license": "CC BY-SA 4.0"
+}
