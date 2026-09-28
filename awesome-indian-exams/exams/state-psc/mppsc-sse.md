@@ -4,41 +4,40 @@ exam_id: mppsc-sse
 conducting_body: Madhya Pradesh Public Service Commission
 official_site: https://mppsc.mp.gov.in
 cycle: MPPSC State Service Exam (latest)
-last_verified: 2026-09-27
-verification: unverified
+last_verified: 2026-09-28
+verification: secondary
 ---
 
 # MPPSC State Service Examination
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: ⚠️ secondary.** The official website is accessible, but the specific notification documents (PDFs) are currently unreachable. This page provides the structure based on the commission's official portal.
 
-MPPSC's State Service Examination recruits Madhya Pradesh's
-administrative and allied officers.
+MPPSC's State Service Examination recruits Madhya Pradesh's administrative and allied officers.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Madhya Pradesh Public Service Commission |
-| Stages | Preliminary (objective) → Main (descriptive) → interview |
+| Stages | Preliminary (objective) → Main (descriptive) → Interview |
 
 ## Official sources
 
 - Commission's official website (notifications, syllabus, previous papers): <https://mppsc.mp.gov.in>
+- Examination Rules: <https://mppsc.mp.gov.in/examination-rules>
 
 ## Exam pattern
 
-Most state civil services exams follow the UPSC model: an objective **preliminary** exam (general
-studies, and often an aptitude/CSAT paper that is only qualifying) that screens candidates, a descriptive **main**
-exam, and an **interview**. The state adds its own history, geography, economy and culture, and often a state-language
-paper. The notification sets the number of papers, marks, time, negative marking and qualifying rules.
+The exam follows a three-stage process:
+1. **Preliminary Examination:** Objective type (MCQs).
+2. **Main Examination:** Descriptive type.
+3. **Interview:** Personality test.
+
+*Note: Specific details regarding the number of papers, marks, time, and negative marking are defined in the latest official notification available on the commission's website.*
 
 ## Syllabus
 
-General studies as in UPSC CSE (polity, history, geography, economy, environment, science and
-technology, current affairs), with **state-specific** history, geography, economy and culture. The main exam adds
-essays, a language paper and GS papers. The commission's notification has the exact syllabus.
+The syllabus covers General Studies (polity, history, geography, economy, environment, science and technology, current affairs) with a significant focus on Madhya Pradesh-specific history, geography, economy, and culture. The Main exam includes descriptive papers. The detailed syllabus is available on the commission's website.
 
 ## How to prepare (free, in order)
 
