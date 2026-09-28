@@ -4,7 +4,7 @@ exam_id: tnpsc-group-1
 conducting_body: Tamil Nadu Public Service Commission
 official_site: https://www.tnpsc.gov.in
 cycle: TNPSC Group 1 (latest)
-last_verified: 2026-09-27
+last_verified: 2026-09-28
 verification: unverified
 ---
 
@@ -29,10 +29,11 @@ officers.
 
 ## Exam pattern
 
-Most state civil services exams follow the UPSC model: an objective **preliminary** exam (general
-studies, and often an aptitude/CSAT paper that is only qualifying) that screens candidates, a descriptive **main**
-exam, and an **interview**. The state adds its own history, geography, economy and culture, and often a state-language
-paper. The notification sets the number of papers, marks, time, negative marking and qualifying rules.
+TNPSC Group 1 has three stages: an objective **preliminary** exam (General Studies at degree standard plus
+Aptitude and Mental Ability at SSLC standard, used only to screen candidates for the main exam), a descriptive
+**main** exam (a qualifying Tamil Eligibility Test plus General Studies papers I, II and III), and an
+**interview**. The Commission's notification and scheme of examination set the number of questions, marks, time
+and qualifying rules for the cycle, and the Commission can revise them.
 
 ## Syllabus
 
