@@ -151,7 +151,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | CEN RPF 01/2024 | ✅ official | 2026-09-28 |
 | [RRB Assistant Loco Pilot (ALP)](exams/railways/rrb-alp.md) | Railway Recruitment Boards | RRB ALP (CEN 01/2026) | ✅ official | 2026-09-28 |
 | [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | CEN 09/2025 (Level-1) | ✅ official | 2026-09-28 |
-| [RRB NTPC (Non-Technical Popular Categories)](exams/railways/rrb-ntpc.md) | Railway Recruitment Boards | RRB NTPC (latest CEN) | 🟡 secondary | 2026-09-27 |
+| [RRB NTPC (Non-Technical Popular Categories)](exams/railways/rrb-ntpc.md) | Railway Recruitment Boards | CEN 06/2025 | ✅ official | 2026-09-28 |
 | [RRB Technician (Grade 1 Signal and Grade 3)](exams/railways/rrb-technician.md) | Railway Recruitment Boards | CEN 02/2026 | ✅ official | 2026-09-28 |
 
 ### Banking, insurance and regulators
@@ -190,7 +190,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | Varies by recruitment notification | ⚪ unverified | 2026-09-28 |
 | [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | Recruitment Notification 01/2025 (joint KVS+NVS, via CBSE) | ✅ official | 2026-09-28 |
 | [State TETs (UPTET, REET, MAHA TET and others)](exams/teaching/state-tet.md) | State education boards (under the NCTE framework) | Varies by state (each state notifies its own TET) | ✅ official | 2026-09-28 |
-| [UGC NET](exams/teaching/ugc-net.md) | National Testing Agency (NTA) | UGC NET (latest session) | 🟡 secondary | 2026-09-27 |
+| [UGC NET](exams/teaching/ugc-net.md) | National Testing Agency (NTA) | UGC NET (latest session) | 🟡 secondary | 2026-09-28 |
 
 ### University and design entrance: CUET, JAM, NIFT, NID
 

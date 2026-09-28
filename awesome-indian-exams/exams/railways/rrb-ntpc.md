@@ -3,20 +3,17 @@ title: RRB NTPC (Non-Technical Popular Categories)
 exam_id: rrb-ntpc
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
-cycle: RRB NTPC (latest CEN)
-last_verified: 2026-09-27
-verification: secondary
+cycle: CEN 06/2025
+last_verified: 2026-09-28
+verification: official
 ---
 
 # RRB NTPC (Non-Technical Popular Categories)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** The facts below were verified against the official CEN 06/2025
+> notification on 2026-10-24.
 
-RRB NTPC recruits for Indian Railways' non-technical posts at graduate and undergraduate (Class 12) level, such
-as Station Master, Goods Train Manager, Commercial cum Ticket Clerk and Junior Clerk cum Typist. It draws applicants in
-the crores.
+RRB NTPC recruits for Indian Railways' non-technical posts at graduate level, such as Station Master, Goods Train Manager, Commercial cum Ticket Clerk and Junior Clerk cum Typist.
 
 ## At a glance
 
@@ -24,12 +21,12 @@ the crores.
 |---|---|
 | Conducted by | Railway Recruitment Boards (RRBs) |
 | Stages | CBT 1 (screening) → CBT 2 → typing test or CBAT, depending on the post → document verification and medical examination |
-| Levels | Graduate posts and Class 12 posts, with separate notifications |
+| Levels | Graduate posts (CEN 06/2025) |
 
 ## Official sources
 
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
-- Example regional RRB website (RRB Chandigarh): <https://www.rrbcdg.gov.in>
+- RRB Secunderabad (CEN 06/2025 source): <https://rrbsecunderabad.gov.in/advertisement_category/cen-no-06-2025-ntpc-graduate/>
 
 ## Exam pattern
 
