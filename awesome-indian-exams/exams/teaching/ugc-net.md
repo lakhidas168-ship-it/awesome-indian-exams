@@ -4,13 +4,13 @@ exam_id: ugc-net
 conducting_body: National Testing Agency (NTA)
 official_site: https://ugcnet.nta.nic.in
 cycle: UGC NET (latest session)
-last_verified: 2026-09-27
+last_verified: 2026-09-28
 verification: secondary
 ---
 
 # UGC NET
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
+> **Evidence status: 🔴 unverified.** The facts below were cross-checked against several non-official sources on
 > 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
 > before you apply or pay a fee.
 
