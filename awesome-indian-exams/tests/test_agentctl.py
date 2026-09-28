@@ -151,6 +151,21 @@ class AgentCtl(unittest.TestCase):
         self.assertIn(f"reaped {task} (done)", ctl(a, "reap").stdout)
         self.assertNotEqual(json.loads(ctl(a, "next", "hermes").stdout)["id"], task)
 
+    def test_receipt_criteria_are_not_rendered_as_review_checkboxes(self) -> None:
+        repo = self.repos[0]
+        validator_log = repo / "validator.log"
+        validator_log.write_text("PASS: sample validation\n", encoding="utf-8")
+        result = ctl(repo, "receipt", "T-001", "--lane", "hermes", "--agent-cmd", "sample-agent",
+                     "--started", "2026-09-28T00:00:00Z", "--validator-log", str(validator_log))
+        self.assertEqual(result.returncode, 0, result.stderr)
+        receipt = (repo / CONTENT.name / "ops" / "done" / "T-001.md").read_text(encoding="utf-8")
+        self.assertIn("Acceptance criteria (task requirements)", receipt)
+        self.assertIn("not individual review checkboxes", receipt)
+        self.assertIn("Historical receipts", receipt)
+        self.assertIn("ops/plan/<date>.md", receipt)
+        self.assertIn("- a", receipt)
+        self.assertNotIn("- [ ]", receipt)
+
 
 if __name__ == "__main__":
     unittest.main()
