@@ -103,7 +103,8 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
     # still run. This keeps the judge at seconds per page instead of ~12 minutes (Mac, 2026-09-28: 47 branches queued).
     inner = [p[len(prefix()) + 1:] if p.startswith(prefix() + "/") else "/" + p for p in diff.split()]
     tooling = [p for p in inner if p.startswith(("/", "scripts/", "tests/", ".agents/", "opencode.json"))
-               or (p.startswith("ops/") and not p.startswith("ops/done/"))]
+               or (p.startswith("ops/") and not p.startswith(("ops/done/", "ops/plan/")) and p != "ops/tasks.toml")]
+    # (the backlog and plan notes are data for the self-tests' fixed fixtures, not code: planner branches skip them too)
     if not tooling and os.environ.get("HIVE_JUDGE_FULL_TESTS") != "1":
         steps = [s for s in steps if "self-tests" not in s[0]]
     for name, cmd, stdin in steps:
