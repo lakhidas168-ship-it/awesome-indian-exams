@@ -4,15 +4,11 @@ exam_id: gate-ee
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # GATE Electrical Engineering (EE)
-
-> **Evidence status: 🟡 secondary.** Cross-checked against multiple non-official sources on 2026-09-27.
-> Checking it against the official GATE 2027 brochure is hive task `T-001`. Until then, confirm every number
-> on the official site before you act on it.
 
 GATE is the core of every circuital-branch plan. The same EE syllabus decides M.Tech/PhD admission, is the
 recruitment filter for many PSUs, and covers most of the ESE technical syllabus.
@@ -32,6 +28,11 @@ recruitment filter for many PSUs, and covers most of the ESE technical syllabus.
 ## Official sources
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
+- GATE 2027 Information Brochure (PDF): <https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf>
+- Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
+- Test papers and syllabus: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
+- Electrical Engineering (EE) syllabus (PDF): <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf>
+- Important dates: <https://gate2027.iitm.ac.in/important_dates>
 - Each year's organising IIT publishes the official question papers and answer keys on its GATE site. Start PYQ
   practice there, not from reposted PDFs.
 
@@ -43,7 +44,8 @@ recruitment filter for many PSUs, and covers most of the ESE technical syllabus.
 | Engineering Mathematics + Electrical Engineering | 55 | 85 |
 | **Total** | **65** | **100** |
 
-- Engineering Mathematics is usually about 13 of the 85 subject marks.
+- Engineering Mathematics is a paper-specific section of 13 of the 85 subject marks; the Electrical Engineering
+  questions are the remaining 72.
 - Question types: **MCQ** (one correct option), **MSQ** (one or more correct options, no partial credit),
   **NAT** (numerical answer typed in).
 - Negative marking applies to **MCQ only**: −1/3 for a 1-mark MCQ, −2/3 for a 2-mark MCQ. MSQ and NAT have none.
@@ -61,20 +63,23 @@ Ten sections. The list below is a topic summary; the official syllabus PDF on th
 3. **Electromagnetic Fields:** Coulomb, Gauss, Biot–Savart, Ampère and Faraday laws, fields and potentials of
    standard charge distributions, dielectrics, capacitance, inductance, magnetic circuits, Lorentz force.
 4. **Signals and Systems:** continuous and discrete signals, LTI and causal systems, Fourier series and
-   transform, Laplace and z-transform, sampling theorem.
+   transform, Laplace and z-transform, sampling theorem, r.m.s. and average value of any periodic waveform.
 5. **Electrical Machines:** single- and three-phase transformers, auto-transformer, electromechanical energy
    conversion, DC machines, three-phase and single-phase induction machines, synchronous machines, losses
    and efficiency.
 6. **Power Systems:** generation concepts, AC/DC transmission, line and cable models, insulators,
-   distribution, per-unit system, bus admittance matrix, Gauss–Seidel and Newton–Raphson load flow, voltage and
-   frequency control, power factor correction, symmetrical components, fault analysis, protection principles,
+   distribution, per-unit system, bus admittance matrix, Gauss–Seidel and Newton–Raphson load flow, series and
+   shunt compensation, voltage and frequency control, power factor correction, symmetrical components,
+   symmetrical and unsymmetrical fault analysis, over-current/differential/directional/distance protection,
    circuit breakers, stability and the equal-area criterion, economic load dispatch.
 7. **Control Systems:** modelling, block diagrams and signal flow graphs, transient and steady-state response,
    Routh–Hurwitz, root locus, Bode and Nyquist, lag/lead compensators, P/PI/PID, state-space models.
 8. **Electrical and Electronic Measurements:** bridges and potentiometers, measurement of V, I, power, energy
-   and power factor, instrument transformers, digital meters, oscilloscopes, error analysis.
-9. **Analog and Digital Electronics:** diode circuits, amplifiers, op-amps and active filters, oscillators,
-   timers and VCOs, combinational and sequential logic, multiplexers, Schmitt trigger, sample-and-hold, ADC/DAC.
+   and power factor, instrument transformers, digital meters, phase/time/frequency measurement, oscilloscopes,
+   error analysis.
+9. **Analog and Digital Electronics:** diode circuits, amplifiers, op-amps and single-stage active filters
+   (Sallen-Key, Butterworth), oscillators, timers and VCOs, combinational and sequential logic, multiplexers,
+   Schmitt trigger, sample-and-hold, ADC/DAC.
 10. **Power Electronics:** thyristor, MOSFET and IGBT characteristics and gating, DC-DC converters, controlled
     and uncontrolled rectifiers, inverters and PWM, harmonics, power factor and distortion factor.
 
