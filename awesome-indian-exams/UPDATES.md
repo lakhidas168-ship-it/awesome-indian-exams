@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 01:18 UTC** · `T-266` · opencode · [Verify the RBI Assistant page (exams/banking/rbi-assistant.md) against its current official notification](ops/done/T-266.md)
 - **2026-09-28 00:56 UTC** · `T-256` · opencode · [Verify the RRB Assistant Loco Pilot (ALP) page (exams/railways/rrb-alp.md) against its current official notification](ops/done/T-256.md)
 - **2026-09-28 00:47 UTC** · `T-250` · opencode · [Verify the SSC Stenographer (Grade C and D) page (exams/ssc/ssc-stenographer.md) against its current official notification](ops/done/T-250.md)
 - **2026-09-28 00:41 UTC** · `T-414` · hermes · [Review modules/gs-environment.md (Environment and ecology) against the official syllabi of the exams it counts for](ops/done/T-414.md)

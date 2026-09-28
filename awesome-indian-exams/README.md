@@ -161,7 +161,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL, latest) | ⚪ unverified | 2026-09-27 |
 | [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | LIC AAO (latest) | ⚪ unverified | 2026-09-27 |
 | [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | NABARD Grade A (latest) | ⚪ unverified | 2026-09-27 |
-| [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant (latest) | 🟡 secondary | 2026-09-27 |
+| [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant (latest) | 🟡 secondary | 2026-09-28 |
 | [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |
 | [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk 2026 (Advt CRPD/CR/2026-27/17) | 🟡 secondary | 2026-09-28 |
 | [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO 2026 (Advt CRPD/PO/2026-27/09) | 🟡 secondary | 2026-09-28 |
