@@ -2,7 +2,7 @@
 title: CUET UG
 exam_id: cuet-ug
 conducting_body: National Testing Agency (NTA)
-official_site: https://nta.ac.in
+official_site: https://cuet.nta.ac.in
 cycle: CUET UG 2026
 last_verified: 2026-09-28
 verification: unverified
@@ -25,7 +25,7 @@ BHU and JNU) and many state and private universities that accept its scores.
 
 ## Official sources
 
-- NTA official website: <https://nta.ac.in>
+- CUET UG official website: <https://cuet.nta.ac.in>
 
 ## Exam pattern
 

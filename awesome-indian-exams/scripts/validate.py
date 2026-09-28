@@ -155,6 +155,15 @@ def load_registry(root: Path, official: tuple[str, ...], rep: Report) -> dict:
         site = ex.get("official_site", "")
         if site and not host_matches(urlparse(site).netloc, official):
             rep.error(path, f"exam {eid}: official_site host '{urlparse(site).netloc}' is not in ops/official-domains.txt")
+        
+        # New check: match registry official_site with page official_site
+        page_path = ROOT / "exams" / ex.get("family", "") / f"{eid}.md"
+        if page_path.exists():
+            page_meta, _ = parse_frontmatter(page_path.read_text(encoding="utf-8"))
+            if page_meta:
+                page_site = page_meta.get("official_site", "")
+                if site and page_site and site != page_site:
+                    rep.error(path, f"exam {eid}: registry official_site '{site}' does not match page official_site '{page_site}'")
     return reg
 
 
