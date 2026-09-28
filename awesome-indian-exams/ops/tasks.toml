@@ -242,6 +242,7 @@ accept = [
   "every number under 'At a glance' and 'Exam pattern' matches the official notification; its URL is under Official sources",
   "verification = official only if the official notification was fetched this run",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf"]
 
 [[task]]
 id = "T-203"
@@ -752,6 +753,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2026.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2026.pdf"]
 
 [[task]]
 id = "T-247"
@@ -1374,6 +1376,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.snaptest.org/snap-important-dates; official_site=https://www.snaptest.org; pattern_url=https://www.snaptest.org/snap-exam-syllabus; syllabus_url=https://www.snaptest.org/snap-exam-syllabus"]
 
 [[task]]
 id = "T-300"
