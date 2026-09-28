@@ -2,6 +2,9 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 00:39 UTC** · `T-411` · hermes · [Review modules/gs-history.md (Indian history and culture) against the official syllabi of the exams it counts for](ops/done/T-411.md)
+- **2026-09-28 00:38 UTC** · `T-425` · hermes · [Review modules/ece-core.md (Electronics and communication core) against the official syllabi of the exams it counts for](ops/done/T-425.md)
+- **2026-09-28 00:31 UTC** · `T-403` · hermes · [Review modules/computer-awareness.md (Computer awareness) against the official syllabi of the exams it counts for](ops/done/T-403.md)
 - **2026-09-28 00:29 UTC** · `T-405` · hermes · [Review modules/descriptive-writing.md (Essay and descriptive writing) against the official syllabi of the exams it counts for](ops/done/T-405.md)
 - **2026-09-28 00:29 UTC** · `T-224` · opencode · [Verify the UPSC EPFO (EO/AO, APFC) page (exams/upsc/upsc-epfo.md) against its current official notification](ops/done/T-224.md)
 - **2026-09-28 00:26 UTC** · `T-301` · hermes · [Verify the IPMAT (IIM Indore) page (exams/management/ipmat-indore.md) against its current official notification](ops/done/T-301.md)
