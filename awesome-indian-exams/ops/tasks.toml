@@ -257,7 +257,7 @@ hints = ["Spark (Google accounts monojitdeb7775) found candidate official links 
 
 [[task]]
 id = "T-204"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the JEE Main page (exams/engineering-entrance/jee-main.md) against its current official notification"
@@ -507,7 +507,7 @@ accept = [
 
 [[task]]
 id = "T-226"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the UPSC Indian Economic / Statistical Service (IES/ISS) page (exams/upsc/upsc-ies-iss.md) against its current official notification"
@@ -551,7 +551,7 @@ accept = [
 
 [[task]]
 id = "T-230"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the MPPSC State Service Examination page (exams/state-psc/mppsc-sse.md) against its current official notification"
@@ -597,7 +597,7 @@ accept = [
 
 [[task]]
 id = "T-234"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the TNPSC Group 1 page (exams/state-psc/tnpsc-group-1.md) against its current official notification"
@@ -643,7 +643,7 @@ hints = ["Spark (Google accounts monojitdeb7775) found candidate official links 
 
 [[task]]
 id = "T-238"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification"
@@ -688,7 +688,7 @@ accept = [
 
 [[task]]
 id = "T-242"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the Kerala PSC exams (LDC, KAS and others) page (exams/state-psc/kerala-psc.md) against its current official notification"
@@ -734,7 +734,7 @@ accept = [
 
 [[task]]
 id = "T-246"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the SSC CHSL (Combined Higher Secondary Level) page (exams/ssc/ssc-chsl.md) against its current official notification"
@@ -890,7 +890,7 @@ accept = [
 
 [[task]]
 id = "T-260"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 2
 title = "Verify the IBPS Clerk page (exams/banking/ibps-clerk.md) against its current official notification"
@@ -1006,7 +1006,7 @@ hints = ["Spark (Google accounts monojitdeb7775, rajon369963) found candidate of
 
 [[task]]
 id = "T-270"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the AFCAT (Air Force Common Admission Test) page (exams/defence/afcat.md) against its current official notification"
@@ -1054,7 +1054,7 @@ hints = ["Spark (Google accounts dasmonaj190, senp06341) found candidate officia
 
 [[task]]
 id = "T-274"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification"
@@ -1099,7 +1099,7 @@ accept = [
 
 [[task]]
 id = "T-278"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the KVS teacher and staff recruitment page (exams/teaching/kvs-recruitment.md) against its current official notification"
@@ -1146,7 +1146,7 @@ hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate offi
 
 [[task]]
 id = "T-282"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification"
@@ -1192,7 +1192,7 @@ hints = ["Spark (Google accounts lakhidas168) found candidate official links - f
 
 [[task]]
 id = "T-286"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the NID Design Aptitude Test (DAT) page (exams/university-entrance/nid-dat.md) against its current official notification"
@@ -1239,7 +1239,7 @@ hints = ["Spark (Google accounts dasmonaj190, monojitdeb7775) found candidate of
 
 [[task]]
 id = "T-290"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 4
 title = "Verify the JNV Selection Test (Navodaya, Class 6 and 9) page (exams/school/jnvst.md) against its current official notification"
@@ -1287,7 +1287,7 @@ hints = ["Spark (Google accounts shadaloverlover) found candidate official links
 
 [[task]]
 id = "T-294"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the MAH CET Law page (exams/law/mh-cet-law.md) against its current official notification"
@@ -1333,7 +1333,7 @@ hints = ["Spark (Google accounts debdebojit28) found candidate official links - 
 
 [[task]]
 id = "T-298"
-lane = "opencode"
+lane = "hermes"
 focus = "india"
 priority = 3
 title = "Verify the CMAT page (exams/management/cmat.md) against its current official notification"
