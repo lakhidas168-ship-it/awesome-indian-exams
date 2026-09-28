@@ -4,15 +4,11 @@ exam_id: agniveer-army
 conducting_body: Indian Army
 official_site: https://joinindianarmy.nic.in
 cycle: Agnipath Army CEE (latest)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # Agniveer (Army) Common Entrance Exam
-
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
 
 The Army's Agnipath scheme recruits Agniveers (General Duty, Technical, Clerk/Store Keeper Technical,
 Tradesman) for four years of service. The online Common Entrance Exam (CEE) comes first.
@@ -23,27 +19,32 @@ Tradesman) for four years of service. The online Common Entrance Exam (CEE) come
 |---|---|
 | Conducted by | Indian Army |
 | Stages | Online CEE → recruitment rally (physical tests, medical) |
-| Agniveer GD CEE | 50 questions, 100 marks, 1 hour (other categories have longer papers) |
+| Age limit | 17½ – 22 years |
+| Agniveer GD CEE | 50 questions, 100 marks, 1 hour |
 
 ## Official sources
 
+- Recruitment Notification for AGNIVEER 2027: <https://www.telangana.gov.in/wp-content/uploads/2026/02/Recruitment-Notification-for-AGNIVEER-2027.pdf>
 - Join Indian Army (official): <https://joinindianarmy.nic.in>
 
 ## Exam pattern
 
-**Agniveer GD:** 50 objective questions for 100 marks in 1 hour, on general knowledge, general science,
-mathematics, and logical reasoning. Technical and clerk categories have 100-question, 2-hour papers with different
-subjects (for example physics, chemistry, maths, or English and computer science). Negative marking applies as per
-the notification. The rally then tests running, pull-ups, a balance beam and a ditch jump, followed by a medical.
+The selection process involves an online Common Entrance Exam (CEE) followed by a recruitment rally (physical fitness test and medical).
+
+- **Agniveer GD:** 50 objective questions for 100 marks in 1 hour.
+- **Other categories:** Refer to the official notification for specific paper patterns for Technical, Clerk/Store Keeper Technical, and Tradesman categories.
+- **Negative marking:** Applies as per the notification.
 
 ## Syllabus
 
-Class 10 level for GD; Class 12 (PCM or relevant) for technical and clerk categories.
+- **Agniveer GD:** Class 10 level.
+- **Technical/Clerk:** Class 12 level (PCM or relevant streams).
+- Refer to the official notification for detailed subject-wise syllabus.
 
 ## How to prepare (free, in order)
 
-1. Start physical training on day one: the physical tests decide many selections.
-2. Class 10 NCERT science and maths cover most of the GD paper.
+1. Start physical training on day one: the physical tests are a critical part of the selection.
+2. Use NCERT textbooks for the CEE syllabus (Class 10 for GD, Class 12 for Technical/Clerk).
 
 ## Free resources
 
