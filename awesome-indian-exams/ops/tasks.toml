@@ -776,7 +776,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"]
+hints = ["Spark (Google accounts debdebojit28, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_01122025.pdf"]
 
 [[task]]
 id = "T-249"
@@ -788,7 +788,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf"]
+hints = ["Spark (Google accounts debdebojit28, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf"]
 
 [[task]]
 id = "T-250"
@@ -822,7 +822,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf"]
+hints = ["Spark (Google accounts debdebojit28, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf"]
 
 [[task]]
 id = "T-253"
@@ -954,6 +954,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353; official_site=https://sbi.co.in; pattern_url=https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353; syllabus_url=https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353"]
 
 [[task]]
 id = "T-264"
@@ -965,6 +966,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf; official_site=https://sbi.co.in; pattern_url=https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf; syllabus_url=https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf"]
 
 [[task]]
 id = "T-265"
@@ -1012,6 +1014,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf; official_site=https://www.sebi.gov.in; pattern_url=https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf; syllabus_url=https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf"]
 
 [[task]]
 id = "T-269"
