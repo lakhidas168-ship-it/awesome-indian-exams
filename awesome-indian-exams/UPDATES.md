@@ -3,6 +3,7 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-28 00:14 UTC** · `T-271` · hermes · [Verify the Agniveer (Army) page (exams/defence/agniveer-army.md) against its current official notification](ops/done/T-271.md)
+- **2026-09-28 00:12 UTC** · `T-120` · opencode · [Ask the list: a website tool that retrieves the best corpus sections in the browser and answers with an in-browser open model (WebLLM), citing each section; falls back to showing the sections when the device cannot run a model](ops/done/T-120.md)
 - **2026-09-28 00:11 UTC** · `T-225` · hermes · [Verify the UPSC Combined Geo-Scientist page (exams/upsc/upsc-geoscientist.md) against its current official notification](ops/done/T-225.md)
 - **2026-09-28 00:07 UTC** · `T-011` · hermes · [Verify the GATE EC and GATE IN pages (exams/engineering/gate-ec.md, gate-in.md) against the official GATE 2027 brochure and syllabus](ops/done/T-011.md)
 - **2026-09-28 00:05 UTC** · `T-012` · hermes · [Verify the GATE CS page (exams/engineering/gate-cs.md) against the official GATE 2027 brochure and syllabus](ops/done/T-012.md)
