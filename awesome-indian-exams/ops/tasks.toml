@@ -1984,6 +1984,47 @@ accept = [
 ]
 
 [[task]]
+id = "T-318"
+lane = "opencode"
+where = "mac"
+priority = 3
+title = "Telegram channel post once a day from the Mac (Bot API): the day's question link and the newest verified pages from UPDATES.md; never from GitHub Actions"
+accept = [
+  "reads TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID from ~/.hive/agents.env and does nothing when they are missing",
+  "posts at most once a day, never repeats a page, and a unit test covers the message builder without network",
+]
+
+[[task]]
+id = "T-319"
+lane = "hermes"
+focus = "india"
+priority = 3
+title = "Daily-question pool: 20 original questions for one shared module (start with quant-aptitude, reasoning, english-language, gs-polity), in the questions/ format"
+accept = [
+  "each question has a worked solution, author and source = original, and passes validate.py",
+  "facts in a question come from NCERT or an official source named in the solution",
+]
+
+[[task]]
+id = "T-322"
+lane = "jevx"
+priority = 4
+title = "Monthly growth review: add one line to ops/plan/growth-plan.md with the repository's traffic (views, unique visitors, top referrers) and Search Console clicks when available"
+accept = [
+  "aggregates only, no per-person data",
+  "names the one loop to improve next month",
+]
+
+[[task]]
+id = "H-007"
+lane = "human"
+priority = 4
+title = "Growth accounts (optional, once): create a Telegram channel and a bot with @BotFather for T-318; add the site to Google Search Console and submit its sitemap; set the repository topics and social preview image"
+accept = [
+  "see docs/OWNER-CLICKS.md section D",
+]
+
+[[task]]
 id = "T-105"
 lane = "opencode"
 priority = 2

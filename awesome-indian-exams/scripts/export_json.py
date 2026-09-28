@@ -4,7 +4,8 @@
     python3 scripts/export_json.py [--out PATH] [--js PATH]   # default: print the JSON to stdout
 
 The website build (.github/workflows/pages.yml) publishes it at /data/exams.json. `--js` also writes data/data.js
-(`window.AIE_DATA` with the exams and the flashcard decks in data/flashcards/), which the study tools read, so they
+(`window.AIE_DATA` with the exams, the flashcard decks in data/flashcards/ and the original questions in
+questions/), which the study tools read, so they
 work even in the offline copy opened from disk. Nothing here is committed, so the files can never go stale or
 conflict with the hive: they are rebuilt from the registry, the pages and the decks on every deploy. Stdlib only.
 """
@@ -71,6 +72,11 @@ def load_decks(root: Path = ROOT) -> dict:
     return decks
 
 
+def load_questions(root: Path = ROOT) -> list:
+    """Original practice questions (questions/*.json, format in questions/README.md)."""
+    return [json.loads(p.read_text(encoding="utf-8")) for p in sorted((root / "questions").glob("*.json"))]
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--out", type=Path, help="write the JSON here instead of stdout")
@@ -84,7 +90,8 @@ def main(argv: list[str] | None = None) -> int:
     elif not args.js:
         sys.stdout.write(text)
     if args.js:
-        payload = json.dumps({"exams": data, "decks": load_decks()}, ensure_ascii=False, separators=(",", ":"))
+        payload = json.dumps({"exams": data, "decks": load_decks(), "questions": load_questions()},
+                             ensure_ascii=False, separators=(",", ":"))
         args.js.parent.mkdir(parents=True, exist_ok=True)
         # "</" is escaped so the data can never close a script element early.
         args.js.write_text("window.AIE_DATA = " + payload.replace("</", "<\\/") + ";\n", encoding="utf-8")

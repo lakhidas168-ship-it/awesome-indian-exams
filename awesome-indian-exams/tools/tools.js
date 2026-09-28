@@ -282,16 +282,151 @@
     calc();
   }
 
+  // ---------- share bar (WhatsApp first: it is how most Indian students pass links on) ----------
+  var SITE = "https://lakhidas168-ship-it.github.io/awesome-indian-exams/";
+
+  function publicUrl() {   // the page's address on the website, even when read from the offline copy
+    if (/^https?:$/.test(location.protocol)) return location.href.split("#")[0];
+    var rel = location.href.slice(ROOT.href.length).split("#")[0].replace(/(^|\/)index\.html$/, "$1").replace(/\.html$/, "/");
+    return SITE + rel;
+  }
+
+  function shareBar() {
+    var h1 = document.querySelector(".md-content__inner h1, article h1");
+    if (!h1 || document.querySelector(".aie-share")) return;
+    var url = publicUrl(), title = document.title.replace(/ - Awesome Indian Exams$/, "");
+    var text = title + " — free on Awesome Indian Exams: " + url;
+    var bar = el("div", { class: "aie-share", role: "group", "aria-label": "Share this page" }, [
+      el("a", { class: "md-button aie-wa", href: "https://wa.me/?text=" + encodeURIComponent(text), target: "_blank", rel: "noopener", text: "WhatsApp" }),
+      el("a", { class: "md-button", href: "https://t.me/share/url?url=" + encodeURIComponent(url) + "&text=" + encodeURIComponent(title), target: "_blank", rel: "noopener", text: "Telegram" }),
+      el("button", { class: "md-button", type: "button", text: "Copy link", on: { click: function (e) {
+        var b = e.currentTarget;
+        function done() { b.textContent = "Copied ✓"; setTimeout(function () { b.textContent = "Copy link"; }, 2000); }
+        if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { prompt("Copy this link:", url); });
+        else prompt("Copy this link:", url);
+      } } })
+    ]);
+    if (navigator.share) {
+      bar.appendChild(el("button", { class: "md-button", type: "button", text: "Share…", on: { click: function () {
+        navigator.share({ title: title, text: title + " — free on Awesome Indian Exams", url: url }).catch(function () {});
+      } } }));
+    }
+    h1.insertAdjacentElement("afterend", bar);
+  }
+
+  // ---------- daily question (one question a day for everyone, like Wordle; share the result, not the answer) ----------
+  var DKEY = "aie.daily.v1";
+  var EPOCH = "2026-10-01";   // question #1
+
+  function rng(seed) {   // small deterministic generator, so everyone gets the same options in the same order
+    return function () { seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; };
+  }
+
+  function dailyPool(data) {
+    var pool = [];
+    (data.questions || []).forEach(function (q) {
+      pool.push({ id: "q:" + q.id, question: q.question, options: q.options.slice(), answer: q.answer,
+                  explain: q.solution, source: "Original question by " + q.author + " (" + q.license + ")" });
+    });
+    Object.keys(data.decks || {}).sort().forEach(function (did) {
+      var deck = data.decks[did];
+      deck.cards.forEach(function (c) { pool.push({ id: "c:" + did + ":" + c.id, card: c, deck: deck }); });
+    });
+    pool.sort(function (a, b) { return a.id < b.id ? -1 : 1; });
+    return pool;
+  }
+
+  function dailyItem(data, day) {
+    var pool = dailyPool(data);
+    if (!pool.length) return null;
+    // A fixed shuffle, walked one step a day: no repeats until every question has had its day.
+    var mix = rng(20261001);
+    for (var k = pool.length - 1; k > 0; k--) { var x = Math.floor(mix() * (k + 1)); var y = pool[k]; pool[k] = pool[x]; pool[x] = y; }
+    var r = rng(day * 7919 + 17), item = pool[(day - 1) % pool.length];
+    if (item.card) {   // turn a flashcard into a question with three wrong options from the same deck
+      var others = item.deck.cards.filter(function (c) { return c.id !== item.card.id; }).map(function (c) { return c.back; });
+      var opts = [item.card.back];
+      while (opts.length < 4 && others.length) opts.push(others.splice(Math.floor(r() * others.length), 1)[0]);
+      item = { id: item.id, question: item.card.front, options: opts, answer: item.card.back, explain: item.card.back,
+               source: item.deck.source ? item.deck.source.title : item.deck.title, sourceUrl: item.deck.source && item.deck.source.url };
+    } else {
+      item = JSON.parse(JSON.stringify(item));
+      var m = /^[A-Z]$/.exec(item.answer || "");
+      if (m) item.answer = item.options[item.answer.charCodeAt(0) - 65];
+    }
+    for (var i = item.options.length - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)); var t = item.options[i]; item.options[i] = item.options[j]; item.options[j] = t; }
+    return item;
+  }
+
+  function daily(root) {
+    root.innerHTML = "";
+    getData().then(function (data) {
+      var t = today(), day = daysBetween(EPOCH, t) + 1;
+      if (day < 1) day = 1;
+      var item = dailyItem(data, day);
+      if (!item) { fail(root, "No questions yet. Open this page on the website or in the offline copy."); return; }
+      var st = load(DKEY, { last: "", streak: 0, results: {} });
+      var mine = st.results[t];
+      root.innerHTML = "";
+      root.appendChild(el("p", { class: "aie-muted", text: "आज का सवाल · Question of the day #" + day + " · " + t }));
+      root.appendChild(el("div", { class: "aie-card" }, [el("p", { class: "aie-front", text: item.question })]));
+      var list = el("div", { class: "aie-options" });
+      var out = el("div", { class: "aie-result", "aria-live": "polite" });
+      function finish(choice) {
+        var ok = choice === item.answer;
+        if (!st.results[t]) {
+          st.streak = ok ? (st.last === addDays(t, -1) ? st.streak + 1 : 1) : 0;
+          st.last = t; st.results[t] = { choice: choice, ok: ok }; save(DKEY, st);
+        }
+        render();
+      }
+      function render() {
+        list.innerHTML = ""; out.innerHTML = "";
+        var res = st.results[t];
+        item.options.forEach(function (o, i) {
+          var b = el("button", { class: "md-button aie-option", type: "button", text: String.fromCharCode(65 + i) + ". " + o });
+          if (res) {
+            b.disabled = true;
+            if (o === item.answer) b.classList.add("aie-right");
+            else if (o === res.choice) b.classList.add("aie-wrong");
+          } else b.addEventListener("click", function () { finish(o); });
+          list.appendChild(b);
+        });
+        if (!res) return;
+        out.appendChild(el("p", {}, [el("strong", { text: res.ok ? "सही! Correct." : "Not this time. Answer: " + item.answer })]));
+        out.appendChild(el("p", { text: item.explain }));
+        out.appendChild(el("p", { class: "aie-muted" }, ["Source: ", item.sourceUrl ? el("a", { href: item.sourceUrl, rel: "noopener", text: item.source }) : item.source]));
+        var msg = "Awesome Indian Exams · आज का सवाल #" + day + "\n" + (res.ok ? "✅ सही" : "❌ गलत") +
+                  (st.streak > 1 ? " · 🔥 " + st.streak + " दिन" : "") + "\nFree daily question for every exam aspirant: " + SITE + "tools/daily/";
+        out.appendChild(el("p", {}, [
+          el("a", { class: "md-button md-button--primary aie-wa", href: "https://wa.me/?text=" + encodeURIComponent(msg), target: "_blank", rel: "noopener", text: "Share result on WhatsApp" }),
+          " ", el("span", { class: "aie-muted", text: "(the answer stays hidden)" })
+        ]));
+        out.appendChild(el("p", { class: "aie-muted", text: "Come back tomorrow for #" + (day + 1) + ". Streak: " + (st.streak || 0) + " day" + (st.streak === 1 ? "" : "s") + "." }));
+      }
+      root.appendChild(list); root.appendChild(out); render();
+    }).catch(function () { fail(root, "The question could not be loaded. Open this page on the website or in the downloaded offline copy."); });
+  }
+
+  // ---------- installable app and offline reading (service worker; the website only, not the file:// copy) ----------
+  function registerWorker() {
+    if (!("serviceWorker" in navigator) || !/^https?:$/.test(location.protocol)) return;
+    navigator.serviceWorker.register(new URL("sw.js", ROOT).href).catch(function () { /* optional */ });
+  }
+
   // ---------- boot (works with Material's instant navigation and with plain page loads) ----------
   function boot() {
     var p = document.getElementById("aie-planner"); if (p) planner(p);
     var f = document.getElementById("aie-flashcards"); if (f) flashcards(f);
     var c = document.getElementById("aie-calculator"); if (c) calculator(c);
+    var d = document.getElementById("aie-daily"); if (d) daily(d);
+    shareBar();
   }
+  registerWorker();
   if (window.document$ && typeof window.document$.subscribe === "function") window.document$.subscribe(boot);
   else if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
   else boot();
 
   // For tests.
-  window.AIE_TOOLS = { addDays: addDays, daysBetween: daysBetween, INTERVALS: INTERVALS, PRESETS: PRESETS };
+  window.AIE_TOOLS = { addDays: addDays, daysBetween: daysBetween, INTERVALS: INTERVALS, PRESETS: PRESETS, dailyItem: dailyItem };
 })();

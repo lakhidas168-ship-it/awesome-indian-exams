@@ -22,7 +22,7 @@ is the input of the next, all free, offline-capable and official-source-first.
 | 7 | Topic weightage from official previous papers | 🔜 GATE EE, ESE EE tasks |
 | 8 | Formula sheets | 🔜 T-103 |
 | 9 | Concept prerequisite map | 🔜 backlog |
-| 10 | Hindi and regional-language pages | 🔜 T-312 |
+| 10 | Hindi and regional-language pages | ✅ Hindi start page · 🔜 T-312 |
 
 ### B. Previous papers and practice
 
@@ -31,7 +31,7 @@ is the input of the next, all free, offline-capable and official-source-first.
 | 11 | Official previous-paper archives | ✅ |
 | 12 | Topic-wise tagging of previous-year questions | 💡 |
 | 13 | Original practice questions under an open license | 🔜 T-101 |
-| 14 | Daily practice set | 💡 needs 13 |
+| 14 | Daily practice set | ✅ question of the day (`tools/daily`) · 🔜 bigger pool `T-319` |
 | 15 | Custom test builder (pick modules and topics) | 💡 needs 13, 22 |
 | 16 | Bookmarks and a local mistake list | 💡 with 22 |
 | 17 | Links to official answer keys | ✅ via the archives |
@@ -151,7 +151,7 @@ is the input of the next, all free, offline-capable and official-source-first.
 | 91 | Open data (`/data/exams.json`) | ✅ |
 | 92 | Open source: MIT code, CC BY-SA content | ✅ |
 | 93 | Works as an Obsidian vault | ✅ |
-| 94 | Installable app (PWA) | 💡 |
+| 94 | Installable app (PWA) | ✅ manifest and service worker |
 | 95 | Low-data, text-first pages | ✅ mostly · 💡 audit |
 | 96 | Accessibility: keyboard and screen reader | 💡 audit |
 | 97 | Updated every hour by the hive | ✅ |
@@ -190,3 +190,5 @@ files plus the student's own browser.
   selection" claims. Trust is our edge: official sources and honest statuses.
 - **Gap to close:** community threads on Reddit and similar forums could not be read from the cloud session.
   `T-316` mines them from the Mac.
+
+Growth loops (sharing, previews, posters, the daily question) are planned in [growth-plan.md](growth-plan.md).

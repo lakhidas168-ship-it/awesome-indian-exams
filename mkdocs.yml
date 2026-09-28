@@ -10,6 +10,7 @@ site_dir: site
 theme:
   name: material
   language: en
+  custom_dir: overrides   # installable-app manifest and WhatsApp/Telegram link previews
   font: false   # system fonts: no requests to font servers, faster on slow connections
   features:
     - navigation.instant
@@ -36,6 +37,10 @@ theme:
 plugins:
   - search
 
+# Every page gets a search and link-preview description (hooks/seo.py).
+hooks:
+  - hooks/seo.py
+
 # The study tools (tools/): data/data.js is generated at build time by scripts/export_json.py --js.
 extra_javascript:
   - data/data.js
@@ -46,6 +51,8 @@ extra_css:
 markdown_extensions:
   - tables
   - admonition
+  - attr_list
+  - md_in_html
   - toc:
       permalink: true
 
