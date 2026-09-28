@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 06:08 UTC** · `T-419` · hermes · [Review modules/teaching-research-aptitude.md (Teaching and research aptitude) against the official syllabi of the exams it counts for](ops/done/T-419.md)
 - **2026-09-28 05:52 UTC** · `T-234` · hermes · [Verify the TNPSC Group 1 page (exams/state-psc/tnpsc-group-1.md) against its current official notification](ops/done/T-234.md)
 - **2026-09-28 05:20 UTC** · `T-106` · opencode · [Generate a per-family 'start here' section in resources/overlap-map.md: the 3 modules that cover the most exams in each family](ops/done/T-106.md)
 - **2026-09-28 05:19 UTC** · `T-242` · hermes · [Verify the Kerala PSC exams (LDC, KAS and others) page (exams/state-psc/kerala-psc.md) against its current official notification](ops/done/T-242.md)
