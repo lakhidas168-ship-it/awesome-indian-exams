@@ -4,18 +4,16 @@ exam_id: agniveer-navy
 conducting_body: Indian Navy
 official_site: https://www.joinindiannavy.gov.in
 cycle: Navy Agniveer (latest batch)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # Agniveer (Navy) SSR and MR
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** The facts below were verified against the official Indian Navy website
+> on 2026-09-27. Always read the current notice before you apply or pay a fee.
 
-The Navy recruits Agniveers as Senior Secondary Recruits (SSR, Class 12 with maths and physics) and Matric
-Recruits (MR, Class 10) through the Indian Navy Entrance Test (INET).
+The Navy recruits Agniveers as Senior Secondary Recruits (SSR) and Matric Recruits (MR) through the Indian Navy Entrance Test (INET).
 
 ## At a glance
 
@@ -23,20 +21,24 @@ Recruits (MR, Class 10) through the Indian Navy Entrance Test (INET).
 |---|---|
 | Conducted by | Indian Navy |
 | Stages | INET (online) → physical fitness test → written/medical at the recruitment centre |
-| INET | 100 questions, 1 hour |
+| INET (SSR) | 60 minutes |
+| INET (MR) | 30 minutes |
 
 ## Official sources
 
 - Join Indian Navy (official): <https://www.joinindiannavy.gov.in>
+- Selection Procedure: <https://www.joinindiannavy.gov.in/en/page/selection-procedure-agniveer-ssr-and-agniveer-mr.html>
+- Written Exam Instructions: <https://www.joinindiannavy.gov.in/en/page/instructions-for-written-examination.html>
 
 ## Exam pattern
 
-**INET:** 100 objective questions in one hour, in four sections: English, Science, Mathematics and General
-Awareness, at Class 12 level for SSR and Class 10 level for MR. The notification has the marking.
+**INET (SSR):** 60 minutes duration. Comprises four sections: Science, Mathematics, English, and General Awareness. Standard is 12th level.
+
+**INET (MR):** 30 minutes duration. Comprises two sections: 'Science & Mathematics' and 'General Awareness'. Standard is 10th level.
 
 ## Syllabus
 
-NCERT Class 10 (MR) or Class 12 (SSR) science and maths, English grammar, general awareness.
+NCERT Class 10 (MR) or Class 12 (SSR) science and maths, English grammar, general awareness. Detailed syllabi are available in the download section of the official website.
 
 ## How to prepare (free, in order)
 

@@ -176,7 +176,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [AFCAT (Air Force Common Admission Test)](exams/defence/afcat.md) | Indian Air Force | AFCAT (latest) | 🟡 secondary | 2026-09-28 |
 | [Agniveer (Army) Common Entrance Exam](exams/defence/agniveer-army.md) | Indian Army | Agnipath Army CEE (latest) | ✅ official | 2026-09-28 |
-| [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | 🟡 secondary | 2026-09-27 |
+| [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | ✅ official | 2026-09-28 |
 | [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | ✅ official | 2026-09-28 |
 | [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | CGEPT (two batches a year) | ✅ official | 2026-09-28 |
 
@@ -189,7 +189,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | Rolling advertisements | ✅ official | 2026-09-27 |
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | Varies by recruitment notification | ⚪ unverified | 2026-09-28 |
 | [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | Recruitment Notification 01/2025 (joint KVS+NVS, via CBSE) | ✅ official | 2026-09-28 |
-| [State TETs (UPTET, REET, MAHA TET and others)](exams/teaching/state-tet.md) | State education boards (under the NCTE framework) | Varies by state (each state notifies its own TET) | ⚪ unverified | 2026-09-27 |
+| [State TETs (UPTET, REET, MAHA TET and others)](exams/teaching/state-tet.md) | State education boards (under the NCTE framework) | Varies by state (each state notifies its own TET) | ✅ official | 2026-09-28 |
 | [UGC NET](exams/teaching/ugc-net.md) | National Testing Agency (NTA) | UGC NET (latest session) | 🟡 secondary | 2026-09-27 |
 
 ### University and design entrance: CUET, JAM, NIFT, NID
