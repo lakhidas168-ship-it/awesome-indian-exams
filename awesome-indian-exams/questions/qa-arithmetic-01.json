@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-01",
+  "subject": "Quantitative Aptitude",
+  "question": "A shopkeeper sells an item for ₹450 after giving a 10% discount on the marked price. What is the marked price of the item?",
+  "options": ["₹495", "₹500", "₹550", "₹600"],
+  "answer": "₹500",
+  "solution": "Let the marked price be x. Discount = 10% of x = 0.1x. Selling Price = x - 0.1x = 0.9x. Given 0.9x = 450, so x = 450 / 0.9 = 500. Topic (Profit, Loss and Discount) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

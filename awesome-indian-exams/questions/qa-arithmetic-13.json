@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-13",
+  "subject": "Quantitative Aptitude",
+  "question": "A boat travels 12 km downstream in 2 hours. If the speed of the stream is 2 km/hr, what is the speed of the boat in still water?",
+  "options": ["4 km/hr", "5 km/hr", "6 km/hr", "8 km/hr"],
+  "answer": "4 km/hr",
+  "solution": "Downstream speed = 12 / 2 = 6 km/hr. Downstream speed = Boat speed + Stream speed. 6 = Boat speed + 2, so Boat speed = 4 km/hr. Topic (Boats and Streams) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

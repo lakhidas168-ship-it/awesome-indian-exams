@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-12",
+  "subject": "Quantitative Aptitude",
+  "question": "If a square has a side of 5 cm, what is its perimeter?",
+  "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+  "answer": "20 cm",
+  "solution": "Perimeter of a square = 4 * side = 4 * 5 = 20 cm. Topic (Mensuration) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

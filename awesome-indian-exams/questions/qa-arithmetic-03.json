@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-03",
+  "subject": "Quantitative Aptitude",
+  "question": "The average of 5 numbers is 20. If one number is removed, the average of the remaining 4 numbers becomes 18. What is the removed number?",
+  "options": ["25", "28", "30", "32"],
+  "answer": "28",
+  "solution": "Sum of 5 numbers = 5 * 20 = 100. Sum of 4 numbers = 4 * 18 = 72. Removed number = 100 - 72 = 28. Topic (Average) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

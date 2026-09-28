@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-06",
+  "subject": "Quantitative Aptitude",
+  "question": "If the ratio of A:B is 3:4 and B:C is 8:9, what is the ratio of A:C?",
+  "options": ["1:2", "2:3", "3:4", "4:5"],
+  "answer": "2:3",
+  "solution": "A/B = 3/4, B/C = 8/9. A/C = (A/B) * (B/C) = (3/4) * (8/9) = 24/36 = 2/3. Topic (Ratio and Proportion) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

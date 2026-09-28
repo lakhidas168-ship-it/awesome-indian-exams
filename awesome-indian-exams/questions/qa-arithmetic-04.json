@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-04",
+  "subject": "Quantitative Aptitude",
+  "question": "A train 150 meters long is running at a speed of 54 km/hr. How much time will it take to cross a pole?",
+  "options": ["8 seconds", "10 seconds", "12 seconds", "15 seconds"],
+  "answer": "10 seconds",
+  "solution": "Speed in m/s = 54 * (5/18) = 15 m/s. Time = Distance / Speed = 150 / 15 = 10 seconds. Topic (Time, Speed and Distance) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

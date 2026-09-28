@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-16",
+  "subject": "Quantitative Aptitude",
+  "question": "A sum of money doubles itself in 5 years at simple interest. What is the rate of interest per annum?",
+  "options": ["10%", "15%", "20%", "25%"],
+  "answer": "20%",
+  "solution": "Let Principal = P. Amount = 2P. Simple Interest = 2P - P = P. P = (P * R * 5) / 100. R = 100 / 5 = 20%. Topic (Simple Interest) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

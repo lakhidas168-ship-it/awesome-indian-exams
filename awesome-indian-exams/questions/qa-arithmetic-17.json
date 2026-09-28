@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-17",
+  "subject": "Quantitative Aptitude",
+  "question": "What is the LCM of 4, 6, and 8?",
+  "options": ["12", "16", "24", "48"],
+  "answer": "24",
+  "solution": "Multiples of 4: 4, 8, 12, 16, 20, 24... Multiples of 6: 6, 12, 18, 24... Multiples of 8: 8, 16, 24... LCM = 24. Topic (Number System) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

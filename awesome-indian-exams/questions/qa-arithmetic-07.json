@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-07",
+  "subject": "Quantitative Aptitude",
+  "question": "A mixture contains milk and water in the ratio 5:3. If the total quantity of the mixture is 40 liters, how much water is in the mixture?",
+  "options": ["10 liters", "12 liters", "15 liters", "20 liters"],
+  "answer": "15 liters",
+  "solution": "Total parts = 5 + 3 = 8. Water part = 3/8. Water quantity = (3/8) * 40 = 15 liters. Topic (Mixture and Allegation) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

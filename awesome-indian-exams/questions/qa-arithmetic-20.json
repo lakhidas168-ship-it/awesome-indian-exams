@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-20",
+  "subject": "Quantitative Aptitude",
+  "question": "If x + y = 10 and x - y = 2, what is the value of x?",
+  "options": ["4", "5", "6", "8"],
+  "answer": "6",
+  "solution": "Adding the two equations: (x + y) + (x - y) = 10 + 2 => 2x = 12 => x = 6. Topic (Algebra) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

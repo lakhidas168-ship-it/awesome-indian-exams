@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-10",
+  "subject": "Quantitative Aptitude",
+  "question": "A person buys an article for ₹800 and sells it for ₹1000. What is the profit percentage?",
+  "options": ["20%", "25%", "30%", "40%"],
+  "answer": "25%",
+  "solution": "Profit = 1000 - 800 = 200. Profit % = (Profit / Cost Price) * 100 = (200 / 800) * 100 = 25%. Topic (Profit and Loss) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

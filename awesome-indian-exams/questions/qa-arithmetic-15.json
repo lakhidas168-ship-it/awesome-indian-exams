@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-15",
+  "subject": "Quantitative Aptitude",
+  "question": "If 3x + 5 = 20, what is the value of x?",
+  "options": ["3", "4", "5", "6"],
+  "answer": "5",
+  "solution": "3x = 20 - 5 = 15. x = 15 / 3 = 5. Topic (Algebra) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}

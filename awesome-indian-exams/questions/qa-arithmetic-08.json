@@ -1,0 +1,12 @@
+{
+  "id": "qa-arithmetic-08",
+  "subject": "Quantitative Aptitude",
+  "question": "The length of a rectangle is 10 cm and its breadth is 8 cm. What is its area?",
+  "options": ["18 sq cm", "36 sq cm", "80 sq cm", "100 sq cm"],
+  "answer": "80 sq cm",
+  "solution": "Area of rectangle = length * breadth = 10 * 8 = 80 sq cm. Topic (Mensuration) is in the SSC CGL syllabus. Source: https://ssc.gov.in/api/assets/uploads/master-data/Syllabus/Syllabus_CGL_2024.pdf",
+  "author": "Hermes",
+  "source": "original",
+  "exams": ["ssc-cgl", "ssc-chsl", "rrb-ntpc"],
+  "license": "CC BY-SA 4.0"
+}
