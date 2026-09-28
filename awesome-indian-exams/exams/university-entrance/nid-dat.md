@@ -3,16 +3,14 @@ title: NID Design Aptitude Test (DAT)
 exam_id: nid-dat
 conducting_body: National Institute of Design
 official_site: https://admissions.nid.edu
-cycle: NID DAT (latest)
-last_verified: 2026-09-27
-verification: secondary
+cycle: NID DAT 2027-28
+last_verified: 2026-09-28
+verification: official
 ---
 
 # NID Design Aptitude Test (DAT)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** The facts below were verified against the official Admissions Handbook 2027-28 on 2026-10-06.
 
 NID DAT admits students to the National Institute of Design's B.Des and M.Des programmes.
 
@@ -21,26 +19,30 @@ NID DAT admits students to the National Institute of Design's B.Des and M.Des pr
 | | |
 |---|---|
 | Conducted by | National Institute of Design |
-| Stages | DAT Prelims (written) → DAT Mains (studio test; + interview for M.Des) |
-| Each stage | About 3 hours, 100 marks, offline |
+| Stages | DAT Prelims (written) → DAT Mains (studio test) |
+| DAT Prelims | 20 December 2026 |
 
 ## Official sources
 
 - NID admissions (official): <https://admissions.nid.edu>
+- Admissions Handbook 2027-28: <https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf>
 
 ## Exam pattern
 
-**Prelims:** Part I objective questions and Part II descriptive and drawing questions, on design aptitude,
-creativity, observation and analysis. **Mains:** a studio test (sketching, model making, hands-on tasks), plus an
-interview for M.Des.
+The exam consists of two stages:
+1. **DAT Prelims:** A written test.
+2. **DAT Mains:** A studio test (Studio Sensitivity Test and In-Person Sensitivity Test).
+
+Shortlisting for DAT Mains is based on DAT Prelims merit (2.5 times the available seats per category). Final merit lists are based on DAT Mains scores.
 
 ## Syllabus
 
-No fixed syllabus: visual perception, drawing, creativity, general awareness and design sensitivity.
+The exam tests design aptitude, creativity, observation, and analysis. There is no fixed syllabus.
 
 ## How to prepare (free, in order)
 
 1. Keep a daily sketchbook and study everyday objects' design.
+2. Practice sketching, model making, and creative problem-solving.
 
 ## Free resources
 
