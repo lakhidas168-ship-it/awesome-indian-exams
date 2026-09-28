@@ -42,6 +42,9 @@ case "$LANE" in
   *) echo "unknown lane: $LANE" >&2; exit 2 ;;
 esac
 WVAR="HIVE_CMD_$(echo "$WORKER" | tr 'a-z-' 'A-Z_')"
+if [ -z "${!WVAR:-}" ]; then   # numbered loop workers (commandcode-3) share their agent's command
+  WVAR="HIVE_CMD_$(echo "${WORKER%-[0-9]*}" | tr 'a-z-' 'A-Z_')"
+fi
 if [ -n "${!WVAR:-}" ]; then CMD="${!WVAR}"; fi   # a named worker's own command wins over the lane's
 if [ -z "$CMD" ]; then
   echo "set $WVAR (or HIVE_CMD_$(echo "$LANE" | tr a-z A-Z)) to the command that runs $WORKER with a prompt argument" >&2

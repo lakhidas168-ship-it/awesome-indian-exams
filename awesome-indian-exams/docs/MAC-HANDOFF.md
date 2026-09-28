@@ -20,10 +20,12 @@ the exact page for them and wait. Report at the end what ran, what failed, and w
 3. **Set up and start continuous mode.** `bash awesome-indian-exams/ops/mac-bootstrap.sh --loop`
    - It writes `~/.hive/agents.env`. Check that each command works as a one-shot on this Mac, and fix the file if
      not. Test each with a harmless prompt, e.g. `hermes -z "reply with OK"`,
-     `opencode run -m opencode-go/deepseek-v4.1-flash "reply with OK"`, `gemini --yolo -p "reply with OK"`.
+     `opencode run -m opencode-go/deepseek-v4.1-flash "reply with OK"`, `gemini --yolo -p "reply with OK"`,
+     `command-code --yolo --trust --skip-onboarding -p "reply with OK"` (Command Code GOAT plan;
+     `command-code status` must say logged in, otherwise ask the owner to run `command-code login`).
    - If the owner uses JEVX through its own CLI or MCP, put its one-shot command in `HIVE_CMD_JEVX`.
    - Size the parallelism to this Mac: about one worker per 2 GB of free RAM, at most 6 per lane
-     (`HIVE_LOOP_HERMES`, `HIVE_LOOP_OPENCODE` in `agents.env`). Then
+     (`HIVE_LOOP_HERMES`, `HIVE_LOOP_OPENCODE`, `HIVE_LOOP_COMMANDCODE` in `agents.env`). Then
      `bash awesome-indian-exams/ops/hive-loop.sh stop && bash awesome-indian-exams/ops/hive-loop.sh start`.
 4. **Harvest the owner's earlier work.** `python3 awesome-indian-exams/ops/harvest.py scan`, then `summary`.
    - Use the local filesystem MCP and any NotebookLM MCP available on this Mac to find exam material outside the

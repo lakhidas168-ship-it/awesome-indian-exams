@@ -1,11 +1,11 @@
-# For AI agents working on this repo (cloud Claude Code, Codex, OpenCode, Hermes)
+# For AI agents working on this repo (cloud Claude Code, Codex, OpenCode, Hermes, Command Code)
 
 Read this first. It says what runs where, so you don't redo or fight the Mac side.
 
 ## Two halves, one backlog
 - **Mac (owner's laptop, runs while it is on):** `~/code/awesome-indian-exams` is a clone of a LOCAL bare repo
   `~/.hive/hub.git`. `awesome-indian-exams/ops/hive-loop.sh` runs Hermes (Muse 1.3 free), OpenCode (OpenCode Go,
-  DeepSeek V4.1 Flash) and HTTP free-agent workers. They claim tasks and push `agent/*` branches to the LOCAL
+  DeepSeek V4.1 Flash), Command Code (GOAT plan, `ops/commandcode.sh`) and HTTP free-agent workers. They claim tasks and push `agent/*` branches to the LOCAL
   repo; `~/.hive/judge-loop.sh` runs `ops/judge.py --publish` locally. Config: `~/.hive/agents.env`.
 - **GitHub (this repo):** receives ONE gated, batched commit per hour from `~/.hive/publish-github.sh`
   (validate --strict, unit tests, gitleaks, path/PII deny-list). Commits you land on `main` here are merged back
