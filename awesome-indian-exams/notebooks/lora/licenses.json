@@ -1,0 +1,73 @@
+{
+  "schema": "awesome-indian-exams/lora-licenses/1",
+  "checked_at": "2026-09-28",
+  "checked_against": "Official model and dataset pages (URLs below), opened and recorded on 2026-09-28.",
+  "output_license": {
+    "name": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "note": "Matches this list's content license. Attribution: 'Awesome Indian Exams by Rajon Das and contributors', linked to the repository."
+  },
+  "base_models": [
+    {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "params": "1.54B",
+      "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "source_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "verified": "2026-09-28",
+      "used": true,
+      "note": "Chosen base: small enough for a phone/browser build, 29+ languages including Hindi, strong at maths and structured output."
+    },
+    {
+      "id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "params": "1.71B",
+      "license": "apache-2.0",
+      "license_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "source_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "verified": "2026-09-28",
+      "used": false,
+      "reason": "Permissive alternative kept for the in-browser WebLLM build; not needed for the first run."
+    },
+    {
+      "id": "PhysicsWallahAI/Aryabhata-1.0",
+      "params": "7B",
+      "license": "cc-by-nc-4.0",
+      "license_url": "https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0",
+      "source_url": "https://huggingface.co/PhysicsWallahAI/Aryabhata-1.0",
+      "verified": "2026-09-28",
+      "used": false,
+      "reason": "CC BY-NC 4.0 forbids commercial use, so ops/plan/exam-llm.md rules it out as the core model."
+    }
+  ],
+  "datasets": [
+    {
+      "id": "awesome-indian-exams-content",
+      "license": "cc-by-sa-4.0",
+      "license_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams/blob/main/awesome-indian-exams/LICENSE.md",
+      "source_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams",
+      "verified": "2026-09-28",
+      "used": true,
+      "paths": ["exams/", "modules/", "formula-sheets/"],
+      "note": "Every exam page, module page and formula sheet, read fresh from the clone at training time."
+    },
+    {
+      "id": "awesome-indian-exams-original-questions",
+      "license": "cc-by-sa-4.0",
+      "license_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams/blob/main/awesome-indian-exams/LICENSE.md",
+      "source_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams",
+      "verified": "2026-09-28",
+      "used": true,
+      "paths": ["questions/"],
+      "note": "Only the list's own original questions. Files matching *-eval-* (the T-122 sets) are held out and never trained on."
+    },
+    {
+      "id": "HuggingFaceH4/ultrachat_200k",
+      "license": "mit",
+      "license_url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+      "source_url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+      "verified": "2026-09-28",
+      "used": true,
+      "note": "A small replay sample (train_sft) so the adapter keeps general instruction-following; capped by REPLAY_EXAMPLES in the notebook."
+    }
+  ]
+}
