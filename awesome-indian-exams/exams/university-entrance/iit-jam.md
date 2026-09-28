@@ -4,14 +4,13 @@ exam_id: iit-jam
 conducting_body: IITs and IISc (IIT Kharagpur for JAM 2027)
 official_site: https://jam.iitkgp.ac.in
 cycle: JAM 2027 (IIT Kharagpur, 14 February 2027)
-last_verified: 2026-09-27
-verification: unverified
+last_verified: 2026-09-28
+verification: official
 ---
 
 # IIT JAM (Joint Admission Test for Masters)
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: ✅ verified.** This page gives the structure and the official links.
 
 JAM is the entrance for M.Sc., joint M.Sc.-PhD and similar programmes at the IITs and IISc, and is accepted by
 NITs and other institutes. IIT Kharagpur organises JAM 2027.
@@ -21,6 +20,7 @@ NITs and other institutes. IIT Kharagpur organises JAM 2027.
 | | |
 |---|---|
 | Conducted by | IITs and IISc (IIT Kharagpur for JAM 2027) |
+| Exam Date | 14 February 2027 |
 | Stages | Computer-based test → joint admission (JOAPS) |
 
 ## Official sources
@@ -29,9 +29,12 @@ NITs and other institutes. IIT Kharagpur organises JAM 2027.
 
 ## Exam pattern
 
-One computer-based paper per subject (biotechnology, chemistry, economics, geology, mathematics, mathematical
-statistics, physics), mixing multiple-choice, multiple-select and numerical questions. The brochure has the marks and
-negative marking.
+The JAM 2027 examination is a Computer-Based Test (CBT) with seven papers: Biotechnology (BT), Chemistry (CY), Economics (EN), Geology (GG), Mathematical Statistics (MS), Mathematics (MA), and Physics (PH).
+
+Each test paper consists of three sections:
+- **Section A**: Multiple Choice Questions (MCQs) with negative marking for incorrect answers.
+- **Section B**: Multiple Select Questions (MSQs) with no negative marking.
+- **Section C**: Numerical Answer Type (NAT) questions.
 
 ## Syllabus
 
