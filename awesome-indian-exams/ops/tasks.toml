@@ -389,7 +389,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; official_site=https://nbe.edu.in; pattern_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; syllabus_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf"]
+hints = ["Spark (Google accounts dasmonaj190, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ftp.natboard.edu.in/viewNotice.php?NBE=d2JKTFM0d0Y1SS9BK1kzRWZFYXZ1UT09; notification_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; official_site=https://nbe.edu.in; pattern_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; pattern_url=https://nbe.edu.in/IB/Information%20Bulletin%20NEET-PG%202022%20-%20Final%20Version%20for%20NBEMS%20Website.pdf; syllabus_url=https://nbe.edu.in/IB/IB%20NEET-PG%202025.pdf; syllabus_url=https://nbe.edu.in/IB/Information%20Bulletin%20NEET-PG%202022%20-%20Final%20Version%20for%20NBEMS%20Website.pdf"]
 
 [[task]]
 id = "T-216"
@@ -1212,7 +1212,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://exams.nta.nic.in/admit-card-for-nchm-jee-2026/; official_site=https://exams.nta.nic.in/nchm-jee/; pattern_url=https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf; syllabus_url=https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf"]
+hints = ["Spark (Google accounts dasmonaj190, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://exams.nta.nic.in/admit-card-for-nchm-jee-2026/; notification_url=https://nta.ac.in/Download/Notice/Notice_20241230130020.pdf; official_site=https://exams.nta.nic.in/nchm-jee/; pattern_url=https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf; pattern_url=https://nta.ac.in/Download/Notice/Notice_20241230130020.pdf; syllabus_url=https://exams.nta.nic.in/nchm-jee/; syllabus_url=https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf"]
 
 [[task]]
 id = "T-289"
@@ -1224,7 +1224,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; official_site=https://www.nata.in; pattern_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; syllabus_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf"]
+hints = ["Spark (Google accounts dasmonaj190, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; notification_url=https://www.nata.in/assets/pdf/nata-brochure-final.pdf; official_site=https://www.nata.in; pattern_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; pattern_url=https://www.nata.in/assets/pdf/nata-brochure-final.pdf; syllabus_url=https://nata.in/assets/pdf/NATA%20BROCHURE%202026%20Final-V1.0%20(1).pdf; syllabus_url=https://www.nata.in/assets/pdf/nata-brochure-final.pdf"]
 
 [[task]]
 id = "T-290"
