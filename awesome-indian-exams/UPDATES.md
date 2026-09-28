@@ -7,6 +7,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-28 00:12 UTC** · `T-120` · opencode · [Ask the list: a website tool that retrieves the best corpus sections in the browser and answers with an in-browser open model (WebLLM), citing each section; falls back to showing the sections when the device cannot run a model](ops/done/T-120.md)
 - **2026-09-28 00:11 UTC** · `T-110` · opencode · [CBT mock engine in the website (tools/): NTA-style question palette, mark for review, section timer, negative marking, auto-submit; runs the T-101 question format offline](ops/done/T-110.md)
 - **2026-09-28 00:11 UTC** · `T-225` · hermes · [Verify the UPSC Combined Geo-Scientist page (exams/upsc/upsc-geoscientist.md) against its current official notification](ops/done/T-225.md)
+- **2026-09-28 00:08 UTC** · `T-258` · opencode · [Verify the RPF Constable page (exams/railways/rpf-constable.md) against its current official notification](ops/done/T-258.md)
 - **2026-09-28 00:07 UTC** · `T-011` · hermes · [Verify the GATE EC and GATE IN pages (exams/engineering/gate-ec.md, gate-in.md) against the official GATE 2027 brochure and syllabus](ops/done/T-011.md)
 - **2026-09-28 00:05 UTC** · `T-012` · hermes · [Verify the GATE CS page (exams/engineering/gate-cs.md) against the official GATE 2027 brochure and syllabus](ops/done/T-012.md)
 - **2026-09-28 00:04 UTC** · `T-006` · hermes · [State AE/JE tracker: confirm every commission/utility domain and add the latest EE AE/JE advertisement per state (Assam first)](ops/done/T-006.md)
