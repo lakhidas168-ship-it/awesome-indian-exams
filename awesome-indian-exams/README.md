@@ -115,14 +115,14 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Examination 2025 (Advt 06/2025) | ✅ official | 2026-09-28 |
 | [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-28 |
 | [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination 2025 (Advt. No. 22/2026) | ⚪ unverified | 2026-09-28 |
-| [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE (latest) | ⚪ unverified | 2026-09-27 |
+| [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE-2025 (Advt. No. 01/2026) | ✅ official | 2026-09-28 |
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ⚪ unverified | 2026-09-27 |
 | [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-28 |
 | [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | 🟡 secondary | 2026-09-28 |
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-28 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS 2025 (Advt. No. 05 of 2025-26) | ⚪ unverified | 2026-09-28 |
 | [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | ⚪ unverified | 2026-09-27 |
-| [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | TGPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
+| [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | Group-I Services, Notification No. 02/2024 (dated 19/02/2024) | ✅ official | 2026-09-28 |
 | [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-28 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | CCSE-IV (Group IV Services) | ✅ official | 2026-09-28 |
 | [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-28 |
@@ -174,7 +174,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [AFCAT (Air Force Common Admission Test)](exams/defence/afcat.md) | Indian Air Force | AFCAT (latest) | 🟡 secondary | 2026-09-27 |
+| [AFCAT (Air Force Common Admission Test)](exams/defence/afcat.md) | Indian Air Force | AFCAT (latest) | 🟡 secondary | 2026-09-28 |
 | [Agniveer (Army) Common Entrance Exam](exams/defence/agniveer-army.md) | Indian Army | Agnipath Army CEE (latest) | ✅ official | 2026-09-28 |
 | [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | 🟡 secondary | 2026-09-27 |
 | [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | ✅ official | 2026-09-28 |
@@ -218,7 +218,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [AILET (NLU Delhi)](exams/law/ailet.md) | National Law University Delhi | AILET 2027 | ✅ official | 2026-09-28 |
 | [CLAT (Common Law Admission Test)](exams/law/clat.md) | Consortium of National Law Universities | CLAT 2027 | 🟡 secondary | 2026-09-27 |
-| [MAH CET Law](exams/law/mh-cet-law.md) | State CET Cell, Maharashtra | MAH CET Law (latest) | ⚪ unverified | 2026-09-27 |
+| [MAH CET Law](exams/law/mh-cet-law.md) | State CET Cell, Maharashtra | A.Y. 2026-27 | ✅ official | 2026-09-28 |
 
 ### Management entrance: CAT, XAT and others
 
