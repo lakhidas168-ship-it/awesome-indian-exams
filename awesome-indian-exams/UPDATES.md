@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 06:39 UTC** · `T-270` · hermes · [Verify the AFCAT (Air Force Common Admission Test) page (exams/defence/afcat.md) against its current official notification](ops/done/T-270.md)
 - **2026-09-28 06:38 UTC** · `T-294` · hermes · [Verify the MAH CET Law page (exams/law/mh-cet-law.md) against its current official notification](ops/done/T-294.md)
 - **2026-09-28 06:31 UTC** · `T-240` · opencode · [Verify the JPSC Combined Civil Services page (exams/state-psc/jpsc-cce.md) against its current official notification](ops/done/T-240.md)
 - **2026-09-28 06:25 UTC** · `T-244` · opencode · [Verify the TGPSC (Telangana) Group 1 page (exams/state-psc/tgpsc-group-1.md) against its current official notification](ops/done/T-244.md)
