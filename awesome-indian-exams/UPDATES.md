@@ -3,6 +3,7 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-28 01:56 UTC** · `T-421` · hermes · [Review modules/mbbs-subjects.md (MBBS subjects (pre-clinical, para-clinical, clinical)) against the official syllabi of the exams it counts for](ops/done/T-421.md)
+- **2026-09-28 01:52 UTC** · `T-268` · opencode · [Verify the SEBI Grade A page (exams/banking/sebi-grade-a.md) against its current official notification](ops/done/T-268.md)
 - **2026-09-28 01:50 UTC** · `T-410` · hermes · [Review modules/gs-polity.md (Indian polity and governance) against the official syllabi of the exams it counts for](ops/done/T-410.md)
 - **2026-09-28 01:45 UTC** · `T-283` · hermes · [Verify the CUET PG page (exams/university-entrance/cuet-pg.md) against its current official notification](ops/done/T-283.md)
 - **2026-09-28 01:38 UTC** · `T-407` · hermes · [Review modules/ncert-chemistry.md (Chemistry (NCERT Class 11–12)) against the official syllabi of the exams it counts for](ops/done/T-407.md)
