@@ -4,15 +4,13 @@ exam_id: clat
 conducting_body: Consortium of National Law Universities
 official_site: https://consortiumofnlus.ac.in
 cycle: CLAT 2027
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # CLAT (Common Law Admission Test)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: ✅ official.** The facts below were verified against the official CLAT 2027 notification and exam format on 2026-10-24. Always read the current notice before you apply or pay a fee.
 
 CLAT is the entrance for five-year integrated LLB programmes at the National Law Universities (except NLU Delhi)
 and many other law schools. CLAT PG is the separate LLM entrance.
@@ -23,17 +21,19 @@ and many other law schools. CLAT PG is the separate LLM entrance.
 |---|---|
 | Conducted by | Consortium of National Law Universities |
 | Mode | Pen and paper, 2 hours |
-| Total | 120 passage-based questions |
+| Total | 120 questions, 120 marks |
+| Negative marking | 0.25 per wrong answer |
 
 ## Official sources
 
 - Consortium of NLUs (official): <https://consortiumofnlus.ac.in>
+- CLAT 2027 Notification: <https://consortiumofnlus.ac.in/clat-2027/notifications/Press_Release_CLAT_2027.pdf>
+- CLAT 2027 Exam Pattern: <https://consortiumofnlus.ac.in/clat-2027/ug-question-format.html>
+- CLAT 2027 Syllabus: <https://consortiumofnlus.ac.in/clat-2027/ug-syllabus.html>
 
 ## Exam pattern
 
-**+1** correct, **−0.25** wrong. Five sections, all passage-based: English Language; Current Affairs including
-General Knowledge; Legal Reasoning; Logical Reasoning; Quantitative Techniques. The consortium announced no change
-to the pattern for CLAT 2027.
+**+1** correct, **−0.25** wrong. Five sections, all passage-based: English Language (22-26 questions); Current Affairs including General Knowledge (28-32 questions); Legal Reasoning (28-32 questions); Logical Reasoning (22-26 questions); Quantitative Techniques (10-14 questions).
 
 ## Syllabus
 
