@@ -231,7 +231,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Multiple sessions per year | ⚪ unverified | 2024-05-22 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | ✅ official | 2026-09-28 |
-| [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2027 (3 January 2027) | 🟡 secondary | 2026-09-27 |
+| [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2026 (4 January 2026) | ✅ official | 2026-09-28 |
 
 ### Professional courses: CA, CS, CMA
 
