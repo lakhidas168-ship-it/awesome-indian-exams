@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 09:35 UTC** · `T-288` · opencode · [Verify the NCHM JEE (hotel management) page (exams/university-entrance/nchm-jee.md) against its current official notification](ops/done/T-288.md)
 - **2026-09-28 09:19 UTC** · `T-204` · hermes · [Verify the JEE Main page (exams/engineering-entrance/jee-main.md) against its current official notification](ops/done/T-204.md)
 - **2026-09-28 08:58 UTC** · `T-284` · opencode · [Verify the IIT JAM page (exams/university-entrance/iit-jam.md) against its current official notification](ops/done/T-284.md)
 - **2026-09-28 08:56 UTC** · `T-260` · hermes · [Verify the IBPS Clerk page (exams/banking/ibps-clerk.md) against its current official notification](ops/done/T-260.md)
