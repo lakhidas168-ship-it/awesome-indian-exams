@@ -2,6 +2,9 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 00:23 UTC** · `T-152` · opencode · [UPSC ESE previous question papers: official upsc.gov.in links for ESE prelims Paper-I/II (EE) and mains, every available year](ops/done/T-152.md)
+- **2026-09-28 00:23 UTC** · `T-402` · hermes · [Review modules/data-interpretation.md (Data interpretation) against the official syllabi of the exams it counts for](ops/done/T-402.md)
+- **2026-09-28 00:22 UTC** · `T-308` · hermes · [Study plans: resources/study-plans/<exam>.md with a 6-month and a 12-month plan for UPSC CSE, SSC CGL, JEE Main and NEET UG, built from the shared modules and each exam's official syllabus](ops/done/T-308.md)
 - **2026-09-28 00:20 UTC** · `T-255` · hermes · [Verify the RRB Group D (Level 1) page (exams/railways/rrb-group-d.md) against its current official notification](ops/done/T-255.md)
 - **2026-09-28 00:17 UTC** · `T-273` · hermes · [Verify the Agniveer Vayu (Air Force) page (exams/defence/agniveer-vayu.md) against its current official notification](ops/done/T-273.md)
 - **2026-09-28 00:14 UTC** · `T-245` · hermes · [Verify the GPSC Class 1–2 (Gujarat) page (exams/state-psc/gpsc-class-1-2.md) against its current official notification](ops/done/T-245.md)

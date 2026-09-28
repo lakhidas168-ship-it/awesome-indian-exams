@@ -60,7 +60,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 04/2026 | ✅ official | 2026-09-28 |
 | [SSC Junior Engineer (JE) — Electrical](exams/engineering/ssc-je-ee.md) | Staff Selection Commission | SSC JE 2026 | ✅ official | 2026-09-28 |
 | [State AE / JE (Electrical) tracker](exams/engineering/state-ae-je.md) | State PSCs and state power utilities | Rolling, per state advertisement | ✅ official | 2026-09-28 |
-| [UPSC Engineering Services (ESE) — Electrical](exams/engineering/upsc-ese-ee.md) | Union Public Service Commission | ESE 2027 | 🟡 secondary | 2026-09-27 |
+| [UPSC Engineering Services (ESE) — Electrical](exams/engineering/upsc-ese-ee.md) | Union Public Service Commission | ESE 2027 | 🟡 secondary | 2026-09-28 |
 
 ### Engineering entrance: JEE and state CETs
 
