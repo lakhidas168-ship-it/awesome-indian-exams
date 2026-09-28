@@ -4,14 +4,15 @@ exam_id: upsc-cms
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: CMS 2026
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: unverified
 ---
 
 # UPSC Combined Medical Services (CMS)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
+> **Evidence status: 🔴 unverified.** The facts below were not verified against the official
+> notification as the UPSC website returned 403 Forbidden errors during the verification attempt.
+> Confirming them against the official notification is a hive task. Always read the current notice
 > before you apply or pay a fee.
 
 CMS recruits medical officers for the Railways, Ordnance Factories, CGHS, municipal bodies and other central
