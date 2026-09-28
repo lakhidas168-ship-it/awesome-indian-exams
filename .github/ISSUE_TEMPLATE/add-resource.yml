@@ -1,0 +1,23 @@
+name: "Free resource suggest karein · Suggest a free resource"
+description: "An official portal, a free government scheme, or an openly licensed project that aspirants should know."
+labels: ["resource"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: "Link"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What it gives, and for which exams · यह क्या देता है, किन परीक्षाओं के लिए"
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: "Rules"
+      options:
+        - label: "It is free, and it is official or openly licensed (no pirated PDFs, no paid coaching material)."
+          required: true

@@ -17,3 +17,22 @@
 .aie-card { padding: 1.2rem; margin: .8rem 0; border-radius: .4rem; border: 1px solid var(--md-default-fg-color--lighter); }
 .aie-front { font-size: 1.15rem; font-weight: 600; }
 .aie-result strong { font-size: 1.2rem; }
+
+/* Share bar under each page title */
+.aie-share { display: flex; flex-wrap: wrap; gap: .4rem; margin: -.4rem 0 1rem; }
+.aie-share .md-button { font-size: .72rem; padding: .3rem .8rem; margin: 0; }
+.aie-share .aie-wa, .aie-result .aie-wa { background: #1f7a3f; border-color: #1f7a3f; color: #fff; }
+
+/* Daily question */
+.aie-options { display: flex; flex-direction: column; gap: .5rem; margin: .8rem 0; }
+.aie-option { text-align: left; margin: 0; white-space: normal; }
+.aie-option.aie-right { background: #1f7a3f; border-color: #1f7a3f; color: #fff; }
+.aie-option.aie-wrong { background: #b3261e; border-color: #b3261e; color: #fff; }
+
+/* Posters print on plain A4 without the site's header and menus */
+.aie-poster { border: 2px solid var(--md-default-fg-color--lighter); border-radius: .5rem; padding: 1.5rem; text-align: center; }
+.aie-poster img { width: 60%; max-width: 18rem; }
+@media print {
+  .md-header, .md-tabs, .md-sidebar, .md-footer, .aie-share, .md-content__button { display: none !important; }
+  .aie-poster { border: none; }
+}

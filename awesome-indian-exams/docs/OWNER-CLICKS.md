@@ -69,6 +69,23 @@ open the new session in the Claude app, and say "Follow awesome-indian-exams/doc
   - To block manual cloud runs too, add a repository variable `HIVE_ENABLED` = `false` at
     <https://github.com/lakhidas168-ship-it/awesome-indian-exams/settings/variables/actions/new>.
 
+## D. Growth accounts (optional, once: `H-007`)
+
+These help the list spread; nothing breaks without them.
+
+1. **Search:** add the website to Google Search Console
+   (<https://search.google.com/search-console>) as a URL-prefix property
+   `https://lakhidas168-ship-it.github.io/awesome-indian-exams/`, then submit `sitemap.xml`.
+2. **Repository card:** on <https://github.com/lakhidas168-ship-it/awesome-indian-exams>:
+   - click the gear next to "About" and add these topics: `india`, `competitive-exams`, `upsc`, `ssc`, `gate`,
+     `jee`, `neet`, `exam-preparation`, `awesome-list`, `hindi`;
+   - under Settings → General → Social preview, upload `awesome-indian-exams/assets/social-card.png`.
+3. **Telegram channel** (for `T-318`):
+   - create a public channel;
+   - in Telegram, message @BotFather with `/newbot` and add the new bot to the channel as an admin;
+   - give the bot token and the channel's `@name` to the Mac session, which saves them in `~/.hive/agents.env`
+     as `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
+
 ## What runs where
 
 | Where | Who | Model |
