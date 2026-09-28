@@ -4,15 +4,16 @@ exam_id: afcat
 conducting_body: Indian Air Force
 official_site: https://afcat.cdac.in
 cycle: AFCAT (latest)
-last_verified: 2026-09-27
+last_verified: 2026-09-28
 verification: secondary
 ---
 
 # AFCAT (Air Force Common Admission Test)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟡 secondary.** Every number below was checked against the official AFCAT 01/2026
+> notification (courses commencing January 2027), fetched on 2026-09-28. It stays secondary because the live
+> AFCAT portal and notification now sit on `afcat.edcil.co.in`, which is not yet on the gate's official-domains
+> allowlist — adding it is a JEVX task. Always read the current cycle's notice before you apply or pay a fee.
 
 AFCAT selects graduates for commissioned officer entries in the Indian Air Force's Flying, Ground Duty
 (Technical) and Ground Duty (Non-Technical) branches. It is held twice a year.
@@ -22,8 +23,12 @@ AFCAT selects graduates for commissioned officer entries in the Indian Air Force
 | | |
 |---|---|
 | Conducted by | Indian Air Force |
-| Stages | AFCAT (+ EKT for technical branches) → Air Force Selection Board → medical |
-| AFCAT | 100 questions, 300 marks, 2 hours |
+| Stages | AFCAT written → Air Force Selection Board (AFSB) testing → medicals |
+| AFCAT written | 100 objective questions, 300 marks, 2 hours, English only |
+| Marking | +3 correct, −1 wrong, 0 for unattempted |
+| Who can apply | Indian citizens; Flying branch 20–24 years (up to 26 with a valid DGCA Commercial Pilot Licence), Ground Duty 20–26 years; graduation with 60% (Flying also needs 50% each in Maths and Physics at 10+2) |
+| Fee | Rs 550 + GST, non-refundable; no fee for NCC Special Entry |
+| NCC Special Entry | No written exam; holders of the NCC Air Wing Senior Division 'C' certificate go straight to AFSB |
 
 ## Official sources
 
@@ -31,21 +36,44 @@ AFCAT selects graduates for commissioned officer entries in the Indian Air Force
 
 ## Exam pattern
 
-**AFCAT:** 100 objective questions, **+3** correct, **−1** wrong, 2 hours, covering verbal ability in English,
-general awareness, numerical ability, and reasoning and military aptitude.
+**AFCAT (all entries):** one online paper of 100 objective questions in English only — general awareness, verbal
+ability in English, numerical ability, and reasoning and military aptitude — to be finished in 2 hours for a
+maximum of 300 marks. **+3** for each correct answer, **−1** for each wrong answer, no marks for unattempted
+questions. When the exam runs in more than one shift, marks are normalised across shifts, and the IAF fixes the
+minimum qualifying marks.
 
-**EKT** (Engineering Knowledge Test, ground duty technical only): 50 questions, 150 marks, 45 minutes.
+**No separate EKT in the current notification:** the AFCAT 01/2026 notification prescribes this single written
+paper for every entry and mentions no Engineering Knowledge Test. Check your own cycle's notice before preparing
+for anything beyond it.
+
+**AFSB testing:** Stage-I is screening (Officer Intelligence Rating Test with the picture perception and
+discussion test) on day one; Stage-II is the psychological test, group tests and interview over the next five
+days. Flying-branch candidates who are recommended also take the Computerised Pilot Selection System, a
+once-in-a-lifetime test. Final merit rests on the written + AFSB total, with separate minimum qualifying marks
+in each.
 
 ## Syllabus
 
-English (comprehension, errors, synonyms/antonyms), general awareness (history, geography, polity, sports,
-defence, current affairs), numerical ability (Class 10 arithmetic), reasoning and military aptitude (verbal and
-spatial). EKT: the engineering discipline (mechanical, electrical or computer/electronics groups).
+Numerical ability is set at matriculation (Class 10) level; the other subjects are at graduation level:
+
+- English: comprehension, error detection, sentence completion, synonyms/antonyms, cloze test, idioms and
+phrases, analogy, sentence rearranging, one-word substitution, transformation of sentences, homonyms.
+- General awareness: history, geography, sports, national and international organisations, art and culture,
+personalities, environment and ecology, Indian polity, economy, basic science, science and technology, current
+affairs (national and international), defence.
+- Numerical ability: decimal fractions, time and work, average and percentage, profit and loss, ratio and
+proportion, simple and compound interest, time–distance (trains, boats and streams), area and perimeter, number
+system and number series, mixture and alligation, HCF and LCM, elementary mensuration, height and distance,
+probability, statistics (mean, median, mode).
+- Reasoning and military aptitude test: verbal and non-verbal reasoning.
 
 ## How to prepare (free, in order)
 
 1. Accuracy over attempts: +3/−1 punishes guessing.
-2. Practise spatial reasoning: the AFSB tests it again.
+2. Rebuild Class 10 arithmetic speed first; it is the only section with a school-level standard.
+3. Practise verbal and spatial reasoning: the AFSB tests both again at Stage-I.
+4. Get running-fit early: the notification asks candidates to aim for 1.6 km in 10 minutes, 10 push-ups and
+3 chin-ups before reporting for AFSB.
 
 ## Free resources
 
