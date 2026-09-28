@@ -4,7 +4,7 @@ exam_id: upsc-ese-ee
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: ESE 2027
-last_verified: 2026-09-27
+last_verified: 2026-09-28
 verification: secondary
 ---
 
@@ -32,8 +32,13 @@ it adds a general studies paper and descriptive mains papers.
 ## Official sources
 
 - UPSC website (notifications under Examinations → Active Examinations): <https://upsc.gov.in>
-- Official previous question papers (filter by *Engineering Services*):
+## Official previous question papers
+
+- UPSC official repository (access may be restricted by IP/region):
   <https://upsc.gov.in/examinations/previous-question-papers>
+
+*Note: As of this run, direct access to the UPSC repository is returning 403 Forbidden. Please check the official site directly for available years.*
+
 
 ## Exam pattern
 
