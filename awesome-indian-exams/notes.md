@@ -1,10 +1,8 @@
 ## Sources opened
-- https://csirnet.nta.nic.in (unreachable, status 403)
-- https://nta.ac.in (official body site, but did not contain the specific CSIR NET bulletin)
+- https://gate2027.iitm.ac.in/index.html: Attempted to fetch, but the site is behind a CAPTCHA/validation wall.
 
 ## Could not confirm
-- Every number under "At a glance" and "Exam pattern" (e.g., total marks, specific number of questions, negative marking details) could not be confirmed because the official information bulletin was inaccessible.
+- I could not verify the GATE 2027 brochure or syllabus details because the official website (gate2027.iitm.ac.in) is currently blocking automated access with a validation challenge.
 
 ## Changed
-- Updated the page to `verification: unverified` and added a note about the site being unreachable.
-- Removed specific numbers (like "200 marks") that could not be verified.
+- None. The page remains `verification: secondary` as I could not access the official documents to upgrade it.
