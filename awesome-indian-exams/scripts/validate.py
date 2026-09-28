@@ -470,6 +470,28 @@ def render_overlap(root: Path, reg: dict) -> str:
     for ex in reg["exam"].values():
         for mod in ex.get("modules", []):
             usage.setdefault(mod, []).append(ex)
+
+    # Add per-family 'start here'
+    for fid, fam in reg["family"].items():
+        fam_exams = [e for e in reg["exam"].values() if e.get("family") == fid]
+        if not fam_exams:
+            continue
+        
+        # Count module usage within this family
+        fam_usage: dict[str, int] = {}
+        for ex in fam_exams:
+            for mod in ex.get("modules", []):
+                fam_usage[mod] = fam_usage.get(mod, 0) + 1
+        
+        top_modules = sorted(fam_usage.items(), key=lambda kv: (-kv[1], kv[0]))[:3]
+        if top_modules:
+            lines += ["", f"## Start here: {fam['title']}", "",
+                      "Most common modules for this family:", ""]
+            for mid, count in top_modules:
+                mod_title = reg["module"].get(mid, {}).get("title", mid)
+                lines.append(f"- **{mod_title}** ({count} exams)")
+
+    lines += ["", "## All modules", "", "| Module | Exams that use it | Count |", "|---|---|---:|"]
     for mid, mod in sorted(reg["module"].items(), key=lambda kv: (-len(usage[kv[0]]), kv[0])):
         mpage = root / "modules" / f"{mid}.md"
         title = f"[{mod['title']}](../modules/{mid}.md)" if mpage.exists() else mod["title"]

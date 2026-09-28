@@ -2,6 +2,10 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 05:52 UTC** · `T-234` · hermes · [Verify the TNPSC Group 1 page (exams/state-psc/tnpsc-group-1.md) against its current official notification](ops/done/T-234.md)
+- **2026-09-28 05:20 UTC** · `T-106` · opencode · [Generate a per-family 'start here' section in resources/overlap-map.md: the 3 modules that cover the most exams in each family](ops/done/T-106.md)
+- **2026-09-28 05:19 UTC** · `T-242` · hermes · [Verify the Kerala PSC exams (LDC, KAS and others) page (exams/state-psc/kerala-psc.md) against its current official notification](ops/done/T-242.md)
+- **2026-09-28 04:59 UTC** · `T-005` · hermes · [Verify the UPSC CSE page (pattern + Electrical Engineering optional syllabus) against the CSE notification](ops/done/T-005.md)
 - **2026-09-28 04:53 UTC** · `T-418` · hermes · [Review modules/child-pedagogy.md (Child development and pedagogy) against the official syllabi of the exams it counts for](ops/done/T-418.md)
 - **2026-09-28 04:40 UTC** · `T-238` · hermes · [Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification](ops/done/T-238.md)
 - **2026-09-28 04:34 UTC** · `T-319` · hermes · [Daily-question pool: 20 original questions for one shared module (start with quant-aptitude, reasoning, english-language, gs-polity), in the questions/ format](ops/done/T-319.md)

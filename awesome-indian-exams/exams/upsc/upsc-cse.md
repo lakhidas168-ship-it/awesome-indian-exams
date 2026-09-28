@@ -3,15 +3,16 @@ title: UPSC Civil Services (CSE) — for engineers
 exam_id: upsc-cse
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
-cycle: CSE 2027
-last_verified: 2026-09-27
-verification: secondary
+cycle: CSE 2026
+last_verified: 2026-09-28
+verification: official
 ---
 
 # UPSC Civil Services Examination (CSE) for engineers
 
-> **Evidence status: 🟡 secondary.** The structure below has been unchanged for many cycles, but it has not yet
-> been checked against the current notification. That check is hive task `T-005`.
+> **Evidence status: 🟢 official.** Pattern, marks and the Electrical Engineering optional
+> topic list below were checked against the official *Rules for Civil Services Examination
+> to be held by UPSC in 2026* (Gazette of India Extraordinary, via DoPT) on 2026-09-28.
 
 Many engineers take CSE. This page covers the structure and the **Electrical Engineering optional**, which
 overlaps heavily with what a GATE/ESE EE aspirant already studies.
@@ -28,8 +29,14 @@ overlaps heavily with what a GATE/ESE EE aspirant already studies.
 
 ## Official sources
 
+- *Rules for Civil Services Examination to be held by UPSC in 2026* (CSE Rules 2026,
+  Gazette of India Extraordinary) — scheme, syllabi and EE optional topics:
+  <https://cseplus.dopt.gov.in/Home/DisplayPDF?streamId=PCsUnEplvZihdzEe8FEMf32i7tqFQEqJQrKRaNIrYpGXASt11SkVl3bSTMs/SW6DIZevSxXtvwRLujiva77SEZKnObTd+0t4BeuvRYpGkbeN3CdhjKedvfX2HIIwrWnY>
+- DoPT CSE candidates' portal (Rules archive, service and cadre allocation):
+  <https://cseplus.dopt.gov.in/>
 - UPSC website (notification, syllabus, results): <https://upsc.gov.in>
-- Official previous question papers: <https://upsc.gov.in/examinations/previous-question-papers>
+- Official previous question papers (includes Electrical Engineering Papers I and II):
+  <https://upsc.gov.in/examinations/previous-question-papers>
 
 ## Exam pattern
 
@@ -50,9 +57,19 @@ overlaps heavily with what a GATE/ESE EE aspirant already studies.
 | General Studies I–IV | 4 × 250 | Yes |
 | Optional subject Paper I and II | 2 × 250 | Yes |
 
+Essay, General Studies and optional papers are evaluated only for candidates who score at
+least 25% in each of Papers A and B.
+
 ## Syllabus
 
 The General Studies syllabus is in the notification. For engineers, the key choice is the optional subject.
+
+- Shared modules this exam uses: [Polity](../../modules/gs-polity.md),
+  [History](../../modules/gs-history.md), [Geography](../../modules/gs-geography.md),
+  [Economy](../../modules/gs-economy.md), [Environment](../../modules/gs-environment.md),
+  [Science and technology](../../modules/gs-science-tech.md),
+  [General awareness](../../modules/general-awareness.md), [CSAT](../../modules/csat.md),
+  [Descriptive writing](../../modules/descriptive-writing.md)
 
 **Electrical Engineering optional** (topic summary; the notification is the authority)
 

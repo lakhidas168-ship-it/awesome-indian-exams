@@ -96,7 +96,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [UPSC CAPF (Assistant Commandant)](exams/upsc/upsc-capf.md) | Union Public Service Commission | CAPF (AC) 2026 | 🟡 secondary | 2026-09-28 |
-| [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2027 | 🟡 secondary | 2026-09-27 |
+| [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2026 | ✅ official | 2026-09-28 |
 | [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | ✅ official | 2026-09-28 |
 | [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2027 | 🟡 secondary | 2026-09-28 |
 | [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | 🟡 secondary | 2026-09-27 |
@@ -117,13 +117,13 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination 2025 (Advt. No. 22/2026) | ⚪ unverified | 2026-09-28 |
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE (latest) | ⚪ unverified | 2026-09-27 |
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ⚪ unverified | 2026-09-27 |
-| [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-27 |
+| [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-28 |
 | [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | 🟡 secondary | 2026-09-28 |
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-28 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS 2025 (Advt. No. 05 of 2025-26) | ⚪ unverified | 2026-09-28 |
 | [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | ⚪ unverified | 2026-09-27 |
 | [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | TGPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
-| [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-27 |
+| [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-28 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | CCSE-IV (Group IV Services) | ✅ official | 2026-09-28 |
 | [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-28 |
 | [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | PCS 2025 (Advt. A-1/E-1/2025) | 🟡 secondary | 2026-09-28 |
