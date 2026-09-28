@@ -531,6 +531,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://uppsc.up.nic.in/; official_site=https://uppsc.up.nic.in; pattern_url=https://uppsc.up.nic.in/"]
 
 [[task]]
 id = "T-228"
@@ -695,6 +696,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://pscuk.net.in/notification?postid=eyJpdiI6ImxxVjU4ZjJzRXZ4Ty84SUoiLCJ2YWx1ZSI6Im5PY0NteTg9IiwibWFjIjoiIiwidGFnIjoicU0yNXhZTkthbzR4TVhmZkI1QmEzQT09In0=; official_site=https://pscuk.net.in; pattern_url=https://pscuk.net.in/notification?postid=eyJpdiI6ImxxVjU4ZjJzRXZ4Ty84SUoiLCJ2YWx1ZSI6Im5PY0NteTg9IiwibWFjIjoiIiwidGFnIjoicU0yNXhZTkthbzR4TVhmZkI1QmEzQT09In0="]
 
 [[task]]
 id = "T-242"
@@ -1112,6 +1114,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ugcnet.nta.nic.in/information-bulletin/; official_site=https://ugcnet.nta.nic.in; pattern_url=https://ugcnet.nta.nic.in/information-bulletin/; syllabus_url=https://www.ugcnetonline.in/syllabus-new.php"]
 
 [[task]]
 id = "T-277"
