@@ -655,6 +655,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: official_site=https://hpsc.gov.in"]
 
 [[task]]
 id = "T-239"
@@ -735,6 +736,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: official_site=https://gpsc.gujarat.gov.in"]
 
 [[task]]
 id = "T-246"
@@ -904,6 +906,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.ibps.in/wp-content/uploads/CRP_Clerks_XIV_Final_Notification_28.6.24.pdf; official_site=https://www.ibps.in; pattern_url=https://www.ibps.in/wp-content/uploads/CRP_Clerks_XIV_Final_Notification_28.6.24.pdf; syllabus_url=https://www.ibps.in/wp-content/uploads/CRP_Clerks_XIV_Final_Notification_28.6.24.pdf"]
 
 [[task]]
 id = "T-261"
