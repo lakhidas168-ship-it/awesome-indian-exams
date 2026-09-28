@@ -361,6 +361,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://tgche.ac.in/announcement/detailed-tg-cets-2026-notification-containing-schedule-eligibility-to-apply-registration-fee-payable-etc-will-be-announced-by-the-concerned-cet-conveners-in-the-month-of-feb-2026-2/; official_site=https://eapcet.tgche.ac.in"]
 
 [[task]]
 id = "T-213"
@@ -614,6 +615,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ==; official_site=https://www.tnpsc.gov.in/"]
 
 [[task]]
 id = "T-235"
@@ -625,6 +627,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ==; official_site=https://www.tnpsc.gov.in"]
 
 [[task]]
 id = "T-236"
@@ -732,6 +735,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://tgche.ac.in/announcement/detailed-tg-cets-2026-notification-containing-schedule-eligibility-to-apply-registration-fee-payable-etc-will-be-announced-by-the-concerned-cet-conveners-in-the-month-of-feb-2026-2/; official_site=https://eapcet.tgche.ac.in"]
 
 [[task]]
 id = "T-245"
@@ -1162,6 +1166,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://par.ncte.gov.in/website/AcademicDivision.aspx; official_site=https://ncte.gov.in/"]
 
 [[task]]
 id = "T-281"
@@ -1243,6 +1248,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf; official_site=https://www.uceed.iitb.ac.in; pattern_url=https://www.uceed.iitb.ac.in/2026/question-paper.html; syllabus_url=https://www.uceed.iitb.ac.in/2026/syllabus.html"]
 
 [[task]]
 id = "T-288"
