@@ -71,7 +71,7 @@ def candidates() -> list[tuple[str, str]]:
     for line in out.splitlines():
         sha, ref = line.split("\t")
         parts = ref.split("/")
-        if len(parts) == 5 and parts[3] in ("hermes", "opencode"):
+        if len(parts) == 5 and parts[3] in ("hermes", "opencode", "jevx"):  # jevx = the Mac planner lane (plan branches)
             found.append((ref[len("refs/heads/"):], sha))
     shard = os.environ.get("HIVE_JUDGE_SHARD", "")  # "i/n": parallel judges take disjoint branch sets
     if re.fullmatch(r"\d+/\d+", shard):
