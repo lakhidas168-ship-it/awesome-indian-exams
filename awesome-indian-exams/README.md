@@ -124,7 +124,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | TNPSC Group 4 (latest) | ⚪ unverified | 2026-09-27 |
 | [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-28 |
 | [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | PCS 2025 (Advt. A-1/E-1/2025) | 🟡 secondary | 2026-09-28 |
-| [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS (latest) | ⚪ unverified | 2026-09-27 |
+| [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS 2024 (Advt. 08/2024) | ✅ official | 2026-09-28 |
 
 ### SSC
 
