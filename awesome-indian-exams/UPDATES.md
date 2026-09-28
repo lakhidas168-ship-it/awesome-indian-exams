@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 00:47 UTC** · `T-250` · opencode · [Verify the SSC Stenographer (Grade C and D) page (exams/ssc/ssc-stenographer.md) against its current official notification](ops/done/T-250.md)
 - **2026-09-28 00:41 UTC** · `T-414` · hermes · [Review modules/gs-environment.md (Environment and ecology) against the official syllabi of the exams it counts for](ops/done/T-414.md)
 - **2026-09-28 00:39 UTC** · `T-309` · hermes · [Review resources/open-source-projects.md: for each project, record its license and confirm it hosts no coaching institutes' paid material; remove any that fail](ops/done/T-309.md)
 - **2026-09-28 00:39 UTC** · `T-411` · hermes · [Review modules/gs-history.md (Indian history and culture) against the official syllabi of the exams it counts for](ops/done/T-411.md)
