@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 06:31 UTC** · `T-240` · opencode · [Verify the JPSC Combined Civil Services page (exams/state-psc/jpsc-cce.md) against its current official notification](ops/done/T-240.md)
+- **2026-09-28 06:25 UTC** · `T-244` · opencode · [Verify the TGPSC (Telangana) Group 1 page (exams/state-psc/tgpsc-group-1.md) against its current official notification](ops/done/T-244.md)
 - **2026-09-28 06:08 UTC** · `T-419` · hermes · [Review modules/teaching-research-aptitude.md (Teaching and research aptitude) against the official syllabi of the exams it counts for](ops/done/T-419.md)
 - **2026-09-28 05:52 UTC** · `T-234` · hermes · [Verify the TNPSC Group 1 page (exams/state-psc/tnpsc-group-1.md) against its current official notification](ops/done/T-234.md)
 - **2026-09-28 05:20 UTC** · `T-106` · opencode · [Generate a per-family 'start here' section in resources/overlap-map.md: the 3 modules that cover the most exams in each family](ops/done/T-106.md)
