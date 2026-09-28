@@ -1,115 +1,85 @@
 {
- "id": "polity-dpsp",
- "title": "Indian polity: Directive Principles of State Policy (DPSP)",
- "modules": [
-  "gs-polity"
- ],
- "license": "Headings from the Constitution of India (a Government of India text); deck arrangement CC BY-SA 4.0 like the rest of this list",
- "source": {
-  "title": "The Constitution of India (Legislative Department, Ministry of Law and Justice)",
-  "url": "https://www.legislative.gov.in/constitution-of-india"
- },
- "note": "Each answer is the Article's heading as in the official text.",
- "cards": [
-  {
-   "id": "art-36",
-   "front": "Article 36 of the Constitution of India: what is it about?",
-   "back": "Definition of the State for Part IV."
+  "id": "polity-dpsp",
+  "title": "Indian polity: Directive Principles of State Policy (DPSP)",
+  "modules": [
+    "gs-polity"
+  ],
+  "license": "Headings from the Constitution of India (a Government of India text); deck arrangement CC BY-SA 4.0 like the rest of this list",
+  "source": {
+    "title": "The Constitution of India (Legislative Department, Ministry of Law and Justice)",
+    "url": "https://www.legislative.gov.in/constitution-of-india"
   },
-  {
-   "id": "art-37",
-   "front": "Article 37 of the Constitution of India: what is it about?",
-   "back": "Application of the principles contained in Part IV."
-  },
-  {
-   "id": "art-38",
-   "front": "Article 38 of the Constitution of India: what is it about?",
-   "back": "State to secure a social order for the promotion of welfare of the people."
-  },
-  {
-   "id": "art-39",
-   "front": "Article 39 of the Constitution of India: what is it about?",
-   "back": "Certain principles of policy to be followed by the State."
-  },
-  {
-   "id": "art-39a",
-   "front": "Article 39A of the Constitution of India: what is it about?",
-   "back": "Equal justice and free legal aid."
-  },
-  {
-   "id": "art-40",
-   "front": "Article 40 of the Constitution of India: what is it about?",
-   "back": "Organisation of village panchayats."
-  },
-  {
-   "id": "art-41",
-   "front": "Article 41 of the Constitution of India: what is it about?",
-   "back": "Right to work, to education and to public assistance in certain cases."
-  },
-  {
-   "id": "art-42",
-   "front": "Article 42 of the Constitution of India: what is it about?",
-   "back": "Provision for just and humane conditions of work and maternity relief."
-  },
-  {
-   "id": "art-43",
-   "front": "Article 43 of the Constitution of India: what is it about?",
-   "back": "Living wage, etc., for workers."
-  },
-  {
-   "id": "art-43a",
-   "front": "Article 43A of the Constitution of India: what is it about?",
-   "back": "Participation of workers in management of undertakings."
-  },
-  {
-   "id": "art-43b",
-   "front": "Article 43B of the Constitution of India: what is it about?",
-   "back": "Promotion of co-operative societies."
-  },
-  {
-   "id": "art-44",
-   "front": "Article 44 of the Constitution of India: what is it about?",
-   "back": "Uniform civil code for the citizens."
-  },
-  {
-   "id": "art-45",
-   "front": "Article 45 of the Constitution of India: what is it about?",
-   "back": "Provision for early childhood care and education to children below the age of six years."
-  },
-  {
-   "id": "art-46",
-   "front": "Article 46 of the Constitution of India: what is it about?",
-   "back": "Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections."
-  },
-  {
-   "id": "art-47",
-   "front": "Article 47 of the Constitution of India: what is it about?",
-   "back": "Duty of the State to raise the level of nutrition and the standard of living and to improve public health."
-  },
-  {
-   "id": "art-48",
-   "front": "Article 48 of the Constitution of India: what is it about?",
-   "back": "Organisation of agriculture and animal husbandry."
-  },
-  {
-   "id": "art-48a",
-   "front": "Article 48A of the Constitution of India: what is it about?",
-   "back": "Protection and improvement of environment and safeguarding of forests and wild life."
-  },
-  {
-   "id": "art-49",
-   "front": "Article 49 of the Constitution of India: what is it about?",
-   "back": "Protection of monuments and places and objects of national importance."
-  },
-  {
-   "id": "art-50",
-   "front": "Article 50 of the Constitution of India: what is it about?",
-   "back": "Separation of judiciary from executive."
-  },
-  {
-   "id": "art-51",
-   "front": "Article 51 of the Constitution of India: what is it about?",
-   "back": "Promotion of international peace and security."
-  }
- ]
+  "note": "Each answer is the Article's heading as in the official text.",
+  "cards": [
+    {
+      "id": "art-36",
+      "front": "Article 36 of the Constitution of India: what is it about?",
+      "back": "Definition of the State for Part IV."
+    },
+    {
+      "id": "art-37",
+      "front": "Article 37 of the Constitution of India: what is it about?",
+      "back": "Application of the principles contained in Part IV."
+    },
+    {
+      "id": "art-38",
+      "front": "Article 38 of the Constitution of India: what is it about?",
+      "back": "State to secure a social order for the promotion of welfare of the people."
+    },
+    {
+      "id": "art-39",
+      "front": "Article 39 of the Constitution of India: what is it about?",
+      "back": "Certain principles of policy to be followed by the State."
+    },
+    {
+      "id": "art-41",
+      "front": "Article 41 of the Constitution of India: what is it about?",
+      "back": "Right to work, to education and to public assistance in certain cases."
+    },
+    {
+      "id": "art-42",
+      "front": "Article 42 of the Constitution of India: what is it about?",
+      "back": "Provision for just and humane conditions of work and maternity relief."
+    },
+    {
+      "id": "art-43",
+      "front": "Article 43 of the Constitution of India: what is it about?",
+      "back": "Living wage, etc., for workers."
+    },
+    {
+      "id": "art-43a",
+      "front": "Article 43A of the Constitution of India: what is it about?",
+      "back": "Participation of workers in management of undertakings."
+    },
+    {
+      "id": "art-43b",
+      "front": "Article 43B of the Constitution of India: what is it about?",
+      "back": "Promotion of co-operative societies."
+    },
+    {
+      "id": "art-45",
+      "front": "Article 45 of the Constitution of India: what is it about?",
+      "back": "Provision for early childhood care and education to children below the age of six years."
+    },
+    {
+      "id": "art-46",
+      "front": "Article 46 of the Constitution of India: what is it about?",
+      "back": "Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections."
+    },
+    {
+      "id": "art-47",
+      "front": "Article 47 of the Constitution of India: what is it about?",
+      "back": "Duty of the State to raise the level of nutrition and the standard of living and to improve public health."
+    },
+    {
+      "id": "art-48",
+      "front": "Article 48 of the Constitution of India: what is it about?",
+      "back": "Organisation of agriculture and animal husbandry."
+    },
+    {
+      "id": "art-49",
+      "front": "Article 49 of the Constitution of India: what is it about?",
+      "back": "Protection of monuments and places and objects of national importance."
+    }
+  ]
 }
