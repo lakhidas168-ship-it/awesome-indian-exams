@@ -4,14 +4,13 @@ exam_id: appsc-group-1
 conducting_body: Andhra Pradesh Public Service Commission
 official_site: https://psc.ap.gov.in
 cycle: APPSC Group 1 (latest)
-last_verified: 2026-09-27
+last_verified: 2026-09-28
 verification: unverified
 ---
 
 # APPSC Group 1
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: ⚪ unverified.** The official website is currently unreachable. This page provides the structure and general information.
 
 APPSC Group 1 recruits Andhra Pradesh's Deputy Collectors, DSPs and other senior
 officers.
@@ -25,7 +24,7 @@ officers.
 
 ## Official sources
 
-- Commission's official website (notifications, syllabus, previous papers): <https://psc.ap.gov.in>
+- Commission's official website: <https://psc.ap.gov.in>
 
 ## Exam pattern
 
@@ -49,6 +48,6 @@ essays, a language paper and GS papers. The commission's notification has the ex
 ## Free resources
 
 - Shared modules for this exam: [Indian polity and governance](../../modules/gs-polity.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
+- Every exam that shares these modules: [overlap-map](../../resources/overlap-map.md)
 - NCERT textbooks (static GK and GS foundation): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>
