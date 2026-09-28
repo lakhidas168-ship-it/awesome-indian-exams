@@ -223,7 +223,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-27 |
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT (latest) | ⚪ unverified | 2026-09-27 |
-| [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2027 | 🟡 secondary | 2026-09-27 |
+| [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2025 | ⚪ unverified | 2026-09-28 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-27 |
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Multiple sessions per year | ⚪ unverified | 2024-05-22 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
