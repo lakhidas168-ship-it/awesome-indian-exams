@@ -9,10 +9,31 @@ Counts for **22 exams** in this list (see the [overlap map](../resources/overlap
 
 ## What it covers
 
-- Constitution: preamble, fundamental rights, DPSP, duties
-- Union and state executive, legislature, judiciary
-- Federalism, local government, constitutional and statutory bodies
-- Governance, elections, amendments, current polity issues
+- Constitution: making, Preamble, salient features, Schedules, citizenship
+- Fundamental Rights, Fundamental Duties, Directive Principles of State Policy
+- Union and state executive, legislature, judiciary; Union Territories; federalism and Centre–State relations
+- Local government (73rd/74th amendments, Panchayat Raj), elections, parties and pressure groups,
+  constitutional and statutory bodies (Election Commission, CAG, CVC)
+- Governance: amendments, civil services, RTI, Lokpal and Lokayukta, e-governance, welfare schemes
+  and current polity issues
+
+## Depth by exam family
+
+| Family | What the exam rewards |
+|---|---|
+| UPSC CSE, IFoS | Factual recall in Prelims; applied, governance-linked answers in Mains |
+| UPSC CAPF, CDS, EPFO | Objective, screening-level polity inside GK and current-events papers |
+| State PSCs (TNPSC, UKPSC checked below) | Prelims factual like UPSC; Mains descriptive polity plus the state's own polity |
+
+## Official syllabi checked
+
+- TNPSC Group-I Services prelims, General Studies (Code 003, UNIT-V Indian Polity):
+  <https://tnpsc.gov.in/static_pdf/syllabus/1_GS.pdf>
+- TNPSC Group-I Services Main Examination, Paper-III (UNIT-I Indian Polity and emerging political trends):
+  <https://tnpsc.gov.in/static_pdf/Syllabus/Gr_I_09_03_2020.pdf>
+- UKPSC Combined State Civil/Upper Subordinate Services Examination 2026 notification with Mains syllabus
+  (Unit-3, Indian polity and governance), Advt A-1/E-1/2026-27:
+  <https://psc.uk.gov.in/public/uploads/recruitment/1843959203.pdf>
 
 ## Where it counts
 
