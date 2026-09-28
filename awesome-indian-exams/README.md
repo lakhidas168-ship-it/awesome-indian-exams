@@ -158,7 +158,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | IBPS Clerk (CRP CSA, latest) | 🟡 secondary | 2026-09-27 |
+| [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | CRP Clerks XIV (vacancies of 2025-26) | 🟡 secondary | 2026-09-28 |
 | [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT 2026 | 🟡 secondary | 2026-09-27 |
 | [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs-XV, 2026) | 🟡 secondary | 2026-09-28 |
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL, latest) | ⚪ unverified | 2026-09-27 |
