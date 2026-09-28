@@ -4,15 +4,11 @@ exam_id: gate-ec
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-28
+verification: official
 ---
 
 # GATE Electronics and Communication (EC)
-
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
 
 GATE Electronics and Communication decides M.Tech/ME/PhD admission and is the recruitment filter for many PSUs. Many electronics and telecom PSU and research posts use it.
 
@@ -27,19 +23,26 @@ GATE Electronics and Communication decides M.Tech/ME/PhD admission and is the re
 
 ## Official sources
 
-- GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
+- Question paper pattern (GATE 2027, IIT Madras): <https://gate2027.iitm.ac.in/question_paper_pattern>
+- Test papers and syllabus index: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
+- EC syllabus PDF: <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EC_GATE2027_Syllabus.pdf>
+- Important dates (exam 6, 7, 13, 14, 20, 21 February 2027): <https://gate2027.iitm.ac.in/important_dates>
+- Eligibility criteria: <https://gate2027.iitm.ac.in/eligibility_criteria>
+- FAQs (no age limit, virtual calculator only): <https://gate2027.iitm.ac.in/faqs>
+- Information Brochure v1.2 (score valid 3 years): <https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf>
 
 ## Exam pattern
 
 | Section | Questions | Marks |
 |---|---:|---:|
 | General Aptitude (common to all papers) | 10 | 15 |
-| Engineering Mathematics + Electronics and Communication | 55 | 85 |
+| Subject: paper-specific Engineering Mathematics (about 13 marks) + Electronics and Communication | 55 | 85 |
 | **Total** | **65** | **100** |
 
 - Question types: **MCQ** (one correct), **MSQ** (one or more correct, no partial credit), **NAT** (numerical).
+  Questions carry 1 or 2 marks.
 - Negative marking for **MCQ only**: −1/3 (1-mark) and −2/3 (2-mark). MSQ and NAT have none.
-- 3 hours, computer-based, virtual scientific calculator only.
+- 3 hours, computer-based, in English; virtual scientific calculator on screen only (physical calculators banned).
 
 ## Syllabus
 

@@ -4,24 +4,22 @@ exam_id: gpsc-class-1-2
 conducting_body: Gujarat Public Service Commission
 official_site: https://gpsc.gujarat.gov.in
 cycle: GPSC Class 1–2 (latest)
-last_verified: 2026-09-27
-verification: unverified
+last_verified: 2026-09-28
+verification: secondary
 ---
 
 # GPSC Class 1–2 (Gujarat)
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: 🟡 secondary.** This page provides an overview. The official site is verified, but specific exam pattern numbers (marks, time, negative marking) are not yet confirmed from a single consolidated notification document in this run.
 
-GPSC's Class 1 and 2 combined exam recruits Gujarat's administrative and allied
-officers.
+GPSC's Class 1 and 2 combined exam recruits Gujarat's administrative and allied officers.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Gujarat Public Service Commission |
-| Stages | Preliminary (objective) → Main (descriptive) → interview |
+| Stages | Preliminary (objective) → Main (descriptive) → Interview |
 
 ## Official sources
 
@@ -29,16 +27,20 @@ officers.
 
 ## Exam pattern
 
-Most state civil services exams follow the UPSC model: an objective **preliminary** exam (general
-studies, and often an aptitude/CSAT paper that is only qualifying) that screens candidates, a descriptive **main**
-exam, and an **interview**. The state adds its own history, geography, economy and culture, and often a state-language
-paper. The notification sets the number of papers, marks, time, negative marking and qualifying rules.
+The exam is conducted in three stages:
+1. **Preliminary Examination**: Objective type.
+2. **Main Examination**: Descriptive type.
+3. **Interview**: Personality test.
+
+*Note: The exact number of papers, marks, time duration, and negative marking criteria are specified in the detailed advertisement for each recruitment cycle.*
 
 ## Syllabus
 
-General studies as in UPSC CSE (polity, history, geography, economy, environment, science and
-technology, current affairs), with **state-specific** history, geography, economy and culture. The main exam adds
-essays, a language paper and GS papers. The commission's notification has the exact syllabus.
+The syllabus generally covers:
+- **Preliminary**: General Studies (History, Geography, Polity, Economy, Science & Technology, Current Affairs, and state-specific topics).
+- **Main**: Descriptive papers including General Studies, Gujarati/English language, and Essay.
+
+*Detailed syllabus for each subject is available on the official website.*
 
 ## How to prepare (free, in order)
 

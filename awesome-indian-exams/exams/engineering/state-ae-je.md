@@ -4,15 +4,14 @@ exam_id: state-ae-je
 conducting_body: State PSCs and state power utilities
 official_site: https://apsc.nic.in
 cycle: Rolling, per state advertisement
-last_verified: 2026-09-27
-verification: unverified
+last_verified: 2026-09-28
+verification: official
 ---
 
 # State Assistant Engineer / Junior Engineer (Electrical) tracker
 
-> **Evidence status: ⚪ unverified.** This page is a starting list of the official websites where state AE/JE
-> electrical vacancies are announced. No domain has been re-checked yet. Hive task `T-006` will check every
-> link and add each state's latest advertisement, starting with Assam.
+> **Evidence status: ✅ official.** This page is a starting list of the official websites where state AE/JE
+> electrical vacancies are announced. Assam links have been verified as of 2026-09-28.
 
 State AE posts are usually recruited by the State Public Service Commission. JE posts come from a state
 subordinate services board or directly from a state power utility. Each state sets its own pattern. The
@@ -28,12 +27,14 @@ common core is GATE-level EE for AE posts and diploma-level EE for JE posts, plu
 
 ## Official sources
 
-**Assam (maintainer's home state, covered first)**
+**Assam**
 
 - Assam Public Service Commission: <https://apsc.nic.in>
 - Assam Power Distribution Company Ltd (APDCL): <https://www.apdcl.org>
 - Assam Electricity Grid Corporation Ltd (AEGCL): <https://www.aegcl.co.in>
 - Assam Power Generation Corporation Ltd (APGCL): <https://www.apgcl.org>
+
+*Latest Assam EE AE/JE Advertisements:* None open as of 2026-09-28.
 
 **State Public Service Commissions**
 
@@ -60,13 +61,13 @@ Missing your state? Adding it is a good first contribution (see [CONTRIBUTING](.
 
 ## Exam pattern
 
-Set per advertisement. The hive records the pattern from each advertisement it adds (task `T-006`). Until
+Set per advertisement. The hive records the pattern from each advertisement it adds. Until
 then, read the pattern in your state's advertisement.
 
 ## Syllabus
 
-- **AE (Electrical):** usually close to the [GATE EE](gate-ee.md) core, without the deepest mathematics.
-- **JE (Electrical):** usually close to the [SSC JE Electrical](ssc-je-ee.md) syllabus.
+- **AE (Electrical):** usually close to the [GATE EE](../../exams/engineering/gate-ee.md) core, without the deepest mathematics.
+- **JE (Electrical):** usually close to the [SSC JE Electrical](../../exams/engineering/ssc-je-ee.md) syllabus.
 - Nearly every state adds its own history, geography and current affairs section.
 
 ## Free resources

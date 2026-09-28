@@ -9,6 +9,7 @@ Counts for **16 exams** in this list (see the [overlap map](../resources/overlap
 
 ## What it covers
 
+- Units & measurement, errors, and experimental skills
 - Mechanics: kinematics, laws of motion, work-energy, rotation, gravitation
 - Properties of matter, thermodynamics, kinetic theory, oscillations and waves
 - Electrostatics, current electricity, magnetism, EMI, AC, EM waves

@@ -3,16 +3,16 @@ title: IPMAT (IIM Indore)
 exam_id: ipmat-indore
 conducting_body: IIM Indore
 official_site: https://www.iimidr.ac.in
-cycle: IPMAT Indore 2027
-last_verified: 2026-09-27
-verification: secondary
+cycle: IPMAT Indore 2025
+last_verified: 2026-09-28
+verification: unverified
 ---
 
 # IPMAT (IIM Indore)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The official notification for the current cycle could not be accessed
+> during this run. The facts below are placeholders and must be verified against the official IIM Indore
+> website before use.
 
 IPMAT Indore is the entrance to IIM Indore's five-year Integrated Programme in Management, taken after
 Class 12.
@@ -22,8 +22,7 @@ Class 12.
 | | |
 |---|---|
 | Conducted by | IIM Indore |
-| Mode | Computer-based, 120 minutes, three timed sections of 40 minutes |
-| Total | 360 marks |
+| Mode | Computer-based |
 
 ## Official sources
 
@@ -31,22 +30,11 @@ Class 12.
 
 ## Exam pattern
 
-| Section | Questions | Negative marking |
-|---|---:|---|
-| Quantitative Aptitude (short answer) | 15 | None |
-| Quantitative Aptitude (MCQ) | 30 | −1 |
-| Verbal Ability (MCQ) | 45 | −1 |
-
-Four marks per correct answer.
+See the official notification for the current exam pattern, including section-wise questions, marks, and negative marking.
 
 ## Syllabus
 
-Class 10–12 mathematics and English verbal ability.
-
-## How to prepare (free, in order)
-
-1. The short-answer quant section has no penalty: attempt every question.
-2. NCERT Class 11–12 maths covers the quant.
+See the official notification for the current syllabus.
 
 ## Free resources
 

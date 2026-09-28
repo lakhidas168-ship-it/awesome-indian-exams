@@ -23,9 +23,12 @@ set -euo pipefail
 
 LANE="${1:?usage: run-hourly.sh hermes|opencode|jevx [worker]}"
 WORKER="${2:-$LANE}"
-HERE="$(cd "$(dirname "$0")" && pwd)"
+HERE="$(cd "$(dirname "$0")" && pwd -P)"
 REPO="$(git -C "$HERE" rev-parse --show-toplevel)"
-PREFIX="$(python3 -c 'import os,sys;print(os.path.relpath(sys.argv[1],sys.argv[2]))' "$(dirname "$HERE")" "$REPO")"
+REPO="$(cd "$REPO" && pwd -P)"
+HERE_DIR="$(dirname "$HERE")"
+HERE_DIR="$(cd "$HERE_DIR" && pwd -P)"
+PREFIX="$(python3 -c 'import os,sys;print(os.path.relpath(sys.argv[1],sys.argv[2]))' "$HERE_DIR" "$REPO")"
 REMOTE="${HIVE_REMOTE:-origin}"
 BASE="${HIVE_BASE:-main}"
 HIVE_HOME="${HIVE_HOME:-$HOME/.hive}"
@@ -152,9 +155,12 @@ open_pr() {  # $1 = branch, $2 = title, $3 = body file
 }
 
 if [ "$LANE" = "jevx" ]; then
-  # Planner + judge. First land what was approved last hour (CI has finished by now), then review and plan
-  # on the fresh main, then merge anything already approved and green.
-  "$C/ops/merge_ready.sh" || log "merge_ready failed"
+  # Planner + judge. On the Mac (HIVE_OPEN_PR=0), the cloud judge (ops/judge.py --publish) handles merging.
+  # This lane only produces a plan branch with the Hive-Publish: judge trailer.
+  if [ "$OPEN_PR" = 1 ]; then
+    # Cloud mode: merge_ready.sh and gh PR operations are available.
+    "$C/ops/merge_ready.sh" || log "merge_ready failed"
+  fi
   sync_to_base
   python3 "$C/ops/agentctl.py" reap --hours 6 || true
   P="$HIVE_HOME/$WORKER.prompt.md"
@@ -170,26 +176,38 @@ if [ "$LANE" = "jevx" ]; then
       printf '```\n\n### Harvest of the owner'"'"'s earlier work (append new entries to ops/tasks.toml; they are where = "mac")\n```toml\n'
       python3 "$C/ops/harvest.py" tasks --top 10 2>&1 || true
     fi
-    printf '```\n\n### Open agent PRs\n```\n'
-    gh pr list --state open --json number,title,headRefName,url \
-      --jq '.[] | select(.headRefName | startswith("agent/")) | "#\(.number) \(.headRefName) \(.title) \(.url)"' || true
-    printf '```\n'
+    if [ "$OPEN_PR" = 1 ]; then
+      printf '```\n\n### Open agent PRs\n```\n'
+      gh pr list --state open --json number,title,headRefName,url \
+        --jq '.[] | select(.headRefName | startswith("agent/")) | "#\(.number) \(.headRefName) \(.title) \(.url)"' || true
+      printf '```\n'
+    fi
   } > "$P"
   run_agent_with_fallback "$P"
   python3 "$C/scripts/validate.py" --write > /dev/null || true
   if [ -n "$(git status --porcelain)" ]; then
     BR="agent/jevx/plan-$(date -u +%Y%m%d-%H%M)"
     git add -A
-    git commit --quiet -m "hive(jevx): plan and backlog update $(date -u +%Y-%m-%dT%H:%MZ)"
-    printf 'Planner update from the JEVX lane. Touches only ops/tasks.toml, ops/plan/, README index and UPDATES.md.\n' > "$HIVE_HOME/jevx.body.md"
-    # An older planner PR still open (CI red or slow) would conflict with this one; this run supersedes it.
-    gh pr list --state open --json number,headRefName \
-      --jq '.[] | select(.headRefName | startswith("agent/jevx/")) | .number' | while read -r n; do
-      gh pr close "$n" --delete-branch --comment "Superseded by the next JEVX run." || true
-    done
-    open_pr "$BR" "hive(jevx): plan $(date -u +%Y-%m-%d\ %H:%M) UTC" "$HIVE_HOME/jevx.body.md" || log "PR creation failed"
+    if [ "$OPEN_PR" = 1 ]; then
+      # Cloud mode: create a PR for JEVX to review.
+      git commit --quiet -m "hive(jevx): plan and backlog update $(date -u +%Y-%m-%dT%H:%MZ)"
+      printf 'Planner update from the JEVX lane. Touches only ops/tasks.toml, ops/plan/, README index and UPDATES.md.\n' > "$HIVE_HOME/jevx.body.md"
+      # An older planner PR still open (CI red or slow) would conflict with this one; this run supersedes it.
+      gh pr list --state open --json number,headRefName \
+        --jq '.[] | select(.headRefName | startswith("agent/jevx/")) | .number' | while read -r n; do
+        gh pr close "$n" --delete-branch --comment "Superseded by the next JEVX run." || true
+      done
+      open_pr "$BR" "hive(jevx): plan $(date -u +%Y-%m-%d\ %H:%M) UTC" "$HIVE_HOME/jevx.body.md" || log "PR creation failed"
+    else
+      # Mac mode (HIVE_OPEN_PR=0): push a branch for the local judge (ops/judge.py --publish).
+      git commit --quiet -m "hive(jevx): plan and backlog update $(date -u +%Y-%m-%dT%H:%MZ)" -m "Hive-Publish: judge"
+      git push --quiet -u "$REMOTE" "HEAD:refs/heads/$BR" || log "push failed"
+      log "pushed $BR for the local judge"
+    fi
   fi
-  "$C/ops/merge_ready.sh" || log "merge_ready failed"
+  if [ "$OPEN_PR" = 1 ]; then
+    "$C/ops/merge_ready.sh" || log "merge_ready failed"
+  fi
   exit 0
 fi
 
@@ -218,6 +236,22 @@ P="$HIVE_HOME/$WORKER.prompt.md"
   printf '\nWork only inside the content folder (your current directory). Write your notes (sources opened, what you confirmed, what you could not) to ops/.notes.md there.\n'
 } > "$P"
 run_agent_with_fallback "$P"
+
+# last_verified = the day the page was checked, i.e. this run. Agents kept writing the notification's date there
+# (2025-05-14, 2024-05-22), which the content gate then flags as stale. Normalise every exam page changed in this run.
+python3 - "$C" <<'PY' || true
+import datetime, re, subprocess, sys
+from pathlib import Path
+c = Path(sys.argv[1]); today = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+changed = subprocess.run(["git", "status", "--porcelain", "--", "exams"], cwd=c, capture_output=True, text=True).stdout
+for line in changed.splitlines():
+    p = c / line[3:].strip().split(" -> ")[-1].removeprefix(c.name + "/")
+    if p.suffix == ".md" and p.exists():
+        t = p.read_text(encoding="utf-8")
+        n = re.sub(r"^last_verified: \S+$", f"last_verified: {today}", t, count=1, flags=re.M)
+        if n != t:
+            p.write_text(n, encoding="utf-8")
+PY
 
 # Workers never regenerate README index / UPDATES.md (the JEVX lane does), so parallel PRs don't conflict.
 GATE_LOG="$HIVE_HOME/$WORKER.gate.log"

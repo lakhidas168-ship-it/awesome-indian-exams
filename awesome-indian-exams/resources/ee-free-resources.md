@@ -22,22 +22,18 @@ outdated or wrong.
 - **Paul's Online Math Notes** (calculus, differential equations, linear algebra):
   <https://tutorial.math.lamar.edu>
 
-## By subject
+## NPTEL Courses mapped to GATE EE syllabus
 
-To find the matching NPTEL course, search the NPTEL catalogue for the subject name.
-
-| Subject | Start here |
-|---|---|
-| Engineering Mathematics | Paul's Online Math Notes; MIT 18.06 for linear algebra; NPTEL "Engineering Mathematics" |
-| Electric Circuits | MIT 6.002; All About Circuits (DC, AC); NPTEL "Basic Electrical Circuits" / "Network Analysis" |
-| Electromagnetic Fields | MIT 6.013; NPTEL "Electromagnetic Theory" |
-| Signals and Systems | MIT 6.003; NPTEL "Signals and Systems" |
-| Control Systems | NPTEL "Control Engineering" / "Control Systems" |
-| Electrical Machines | MIT 6.685 (advanced); NPTEL "Electrical Machines" |
-| Power Systems | NPTEL "Power System Analysis" / "Power System Protection" |
-| Power Electronics | MIT 6.334; NPTEL "Power Electronics" |
-| Analog and Digital Electronics | MIT 6.002; NPTEL "Analog Electronic Circuits" / "Digital Circuits" |
-| Measurements | NPTEL "Electrical Measurement and Electronic Instruments" |
+| Subject | Course Name | Instructor(s) | Institute | Link |
+|---|---|---|---|---|
+| Basic Electrical | Fundamentals of Electrical Engineering | Prof. Debapriya Das | IIT Kharagpur | <https://nptel.ac.in/courses/108105112> |
+| Circuit Theory | Circuit Theory | Prof. S.C. Dutta Roy | IIT Delhi | <https://nptel.ac.in/courses/108102042> |
+| Electrical Machines | Electrical Machines - I | Prof. Tapas Kumar Bhattacharya | IIT Kharagpur | <https://nptel.ac.in/courses/108105155> |
+| Control Systems | Control Engineering | Prof. S.D. Agashe | IIT Bombay | <https://nptel.ac.in/courses/108101037> |
+| Power Electronics | Power Electronics | Prof. D. Prasad, et al. | IIT Kharagpur | <https://nptel.ac.in/courses/108105066> |
+| Digital Electronics | Digital Electronic Circuits | Prof. Goutam Saha | IIT Kharagpur | <https://nptel.ac.in/courses/108105132> |
+| Power Systems | Power Systems Operation and Control | Dr. S.N. Singh | IIT Kanpur | <https://nptel.ac.in/courses/108104052> |
+| Instrumentation | Industrial Instrumentation | Prof. Alok Barua | IIT Kharagpur | <https://nptel.ac.in/courses/108105064> |
 
 ## Practice by simulation
 

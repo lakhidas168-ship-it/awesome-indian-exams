@@ -5,14 +5,36 @@ module_id: gs-history
 
 # Indian history and culture
 
-Counts for **22 exams** in this list (see the [overlap map](../resources/overlap-map.md)). Prepare it once.
+Counts for **22 exams** in this list — UPSC examinations and state PSC civil services. Prepare it once; see
+the [overlap map](../resources/overlap-map.md) for every exam that shares it.
 
 ## What it covers
 
-- Ancient and medieval India: sources, dynasties, culture
-- Modern India: colonial rule, freedom struggle, reformers
-- Art and culture: architecture, painting, music, dance, literature
-- State history (for state PSC exams)
+- **Ancient India:** sources, Harappan civilisation, Vedic age, Mauryan and Gupta periods, early medieval dynasties
+- **Medieval India:** Sultanate and Mughal rule, Bhakti and Sufi movements, Marathas and regional kingdoms
+- **Modern India:** colonial rule, 1857, social reformers, the freedom movement and its leaders, post-1947 consolidation
+- **Art and culture:** architecture, sculpture, painting, music, dance, literature and heritage sites
+- **State history and culture** (for state PSC exams, alongside the core above)
+
+## Official syllabi this matches
+
+- [UPSC Civil Services](../exams/upsc/upsc-cse.md): Prelims GS I (history of India, Indian national movement);
+  Mains GS I (art forms, literature, architecture; modern history; freedom struggle; post-independence).
+  Notification via <https://upsc.gov.in>, applications at <https://upsconline.nic.in>
+- [UPSC NDA and NA](../exams/upsc/upsc-nda.md): GAT Part B gives history and the freedom movement about 20%.
+  Notice: <https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf>
+- [UPSC CAPF (Assistant Commandant)](../exams/upsc/upsc-capf.md): Paper I tests history with polity, economy
+  and geography. Notice: <https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf>
+- [BPSC Combined Competitive Examination](../exams/state-psc/bpsc-cce.md): general history plus
+  Bihar-specific history and culture. Syllabus at <https://bpsc.bih.nic.in>
+
+## Depth by exam family
+
+| Family | What the exam rewards |
+|---|---|
+| UPSC CSE | Deepest: factual Prelims plus analytical Mains answers on art, modern India and post-1947 |
+| UPSC CAPF, CDS, NDA, IFoS | Factual GS questions; freedom movement and the basics of ancient and medieval India |
+| State PSC civil services | The same core plus state-specific history, art and culture |
 
 ## Where it counts
 
@@ -23,9 +45,11 @@ Counts for **22 exams** in this list (see the [overlap map](../resources/overlap
 
 ## Free resources
 
-- NCERT textbooks: <https://ncert.nic.in/textbook.php> (Class 6–12 history, including old NCERTs)
-- Ministry of Culture: <https://www.indiaculture.gov.in>
+- NCERT history textbooks, Class 6–12 (the base of every topic above): <https://ncert.nic.in/textbook.php>
+- Archaeological Survey of India, for monuments and heritage sites: <https://asi.nic.in>
+- NPTEL humanities courses, for free video lectures on Indian history and culture: <https://nptel.ac.in>
 
 ## How to practise
 
-Make a timeline per period; revise it weekly.
+Make one timeline per period and revise it weekly; pin every art form and monument to its period on a map.
+Then solve the official previous papers of your target exam topic by topic.

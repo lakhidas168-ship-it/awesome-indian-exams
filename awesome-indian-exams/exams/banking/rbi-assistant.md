@@ -4,7 +4,7 @@ exam_id: rbi-assistant
 conducting_body: Reserve Bank of India
 official_site: https://www.rbi.org.in
 cycle: RBI Assistant (latest)
-last_verified: 2026-09-27
+last_verified: 2026-09-28
 verification: secondary
 ---
 
@@ -14,33 +14,23 @@ verification: secondary
 > 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
 > before you apply or pay a fee.
 
-RBI Assistant recruits assistants for the Reserve Bank of India's offices. Its prelims is IBPS Clerk-like, and
-its mains has five equal sections.
+RBI Assistant recruits assistants for the Reserve Bank of India's offices.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Reserve Bank of India |
-| Stages | Prelims → Mains → language proficiency test |
+| Stages | Prelims → Mains → Language Proficiency Test (LPT) |
 | Qualification | Graduate degree |
 
 ## Official sources
 
-- RBI official website (Opportunities@RBI): <https://www.rbi.org.in>
+- RBI official website (Opportunities@RBI): <https://opportunities.rbi.org.in>
 
 ## Exam pattern
 
-**Prelims:** 100 questions, 100 marks, 60 minutes, **−0.25** per wrong answer.
-
-| Section | Questions |
-|---|---:|
-| English Language | 30 |
-| Numerical Ability | 35 |
-| Reasoning Ability | 35 |
-
-**Mains:** 200 questions, 200 marks, 135 minutes, five sections of 40 questions each: English, reasoning, numerical
-ability, general awareness, computer knowledge. Then the language proficiency test in the state's language.
+**Note:** The exam pattern is subject to change based on the official notification for the current recruitment cycle.
 
 ## Syllabus
 
