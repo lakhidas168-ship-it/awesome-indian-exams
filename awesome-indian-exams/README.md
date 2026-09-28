@@ -97,7 +97,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | ✅ official | 2026-09-28 |
 | [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2027 | 🟡 secondary | 2026-09-28 |
 | [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | 🟡 secondary | 2026-09-27 |
-| [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | 🟡 secondary | 2026-09-27 |
+| [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | ⚪ unverified | 2026-09-28 |
 | [UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)](exams/upsc/upsc-ies-iss.md) | Union Public Service Commission | IES/ISS 2026 | 🟡 secondary | 2026-09-27 |
 | [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | 🟡 secondary | 2026-09-28 |
 | [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | 🟡 secondary | 2026-09-28 |
@@ -163,7 +163,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | NABARD Grade A (latest) | ⚪ unverified | 2026-09-27 |
 | [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant (latest) | 🟡 secondary | 2026-09-27 |
 | [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |
-| [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk (latest) | 🟡 secondary | 2026-09-27 |
+| [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk 2026 (Advt CRPD/CR/2026-27/17) | 🟡 secondary | 2026-09-28 |
 | [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO 2026 (Advt CRPD/PO/2026-27/09) | 🟡 secondary | 2026-09-28 |
 | [SEBI Grade A (Assistant Manager)](exams/banking/sebi-grade-a.md) | Securities and Exchange Board of India | SEBI Grade A (latest) | 🟡 secondary | 2026-09-27 |
 
