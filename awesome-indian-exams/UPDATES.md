@@ -3,6 +3,7 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-28 07:18 UTC** · `T-226` · hermes · [Verify the UPSC Indian Economic / Statistical Service (IES/ISS) page (exams/upsc/upsc-ies-iss.md) against its current official notification](ops/done/T-226.md)
+- **2026-09-28 07:14 UTC** · `T-236` · opencode · [Verify the KPSC KAS (Karnataka Administrative Service) page (exams/state-psc/kpsc-kas.md) against its current official notification](ops/done/T-236.md)
 - **2026-09-28 07:07 UTC** · `T-422` · hermes · [Review modules/nursing-subjects.md (Nursing subjects) against the official syllabi of the exams it counts for](ops/done/T-422.md)
 - **2026-09-28 07:06 UTC** · `T-014` · hermes · [Verify the GATE ME page (exams/engineering/gate-me.md) against the official GATE 2027 brochure and syllabus](ops/done/T-014.md)
 - **2026-09-28 06:53 UTC** · `T-123` · opencode · [LoRA fine-tuning notebook for Kaggle's free GPUs: one permissively licensed small base model, one adapter per exam family, trained only on this list's content, original questions and datasets whose license allows it](ops/done/T-123.md)
