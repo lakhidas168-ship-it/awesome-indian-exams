@@ -2,7 +2,12 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 09:43 UTC** · `T-298` · hermes · [Verify the CMAT page (exams/management/cmat.md) against its current official notification](ops/done/T-298.md)
+- **2026-09-28 09:35 UTC** · `T-288` · opencode · [Verify the NCHM JEE (hotel management) page (exams/university-entrance/nchm-jee.md) against its current official notification](ops/done/T-288.md)
+- **2026-09-28 09:31 UTC** · `T-286` · hermes · [Verify the NID Design Aptitude Test (DAT) page (exams/university-entrance/nid-dat.md) against its current official notification](ops/done/T-286.md)
+- **2026-09-28 09:19 UTC** · `T-204` · hermes · [Verify the JEE Main page (exams/engineering-entrance/jee-main.md) against its current official notification](ops/done/T-204.md)
 - **2026-09-28 08:58 UTC** · `T-284` · opencode · [Verify the IIT JAM page (exams/university-entrance/iit-jam.md) against its current official notification](ops/done/T-284.md)
+- **2026-09-28 08:56 UTC** · `T-260` · hermes · [Verify the IBPS Clerk page (exams/banking/ibps-clerk.md) against its current official notification](ops/done/T-260.md)
 - **2026-09-28 08:55 UTC** · `T-112` · opencode · [RSS feed of UPDATES.md in the website build (/feed.xml), so students can follow new pages and verified changes in any reader](ops/done/T-112.md)
 - **2026-09-28 08:30 UTC** · `T-105` · opencode · [validate.py: check that every exam page's official_site matches its registry entry (or the registry one is blank)](ops/done/T-105.md)
 - **2026-09-28 08:29 UTC** · `T-246` · hermes · [Verify the SSC CHSL (Combined Higher Secondary Level) page (exams/ssc/ssc-chsl.md) against its current official notification](ops/done/T-246.md)

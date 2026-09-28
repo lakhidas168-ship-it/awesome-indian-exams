@@ -73,7 +73,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [BITSAT](exams/engineering-entrance/bitsat.md) | BITS Pilani | BITSAT 2026 | ✅ official | 2026-09-28 |
 | [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | ✅ official | 2026-09-28 |
 | [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | ✅ official | 2026-09-27 |
-| [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | 🟡 secondary | 2026-09-27 |
+| [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | ✅ official | 2026-09-28 |
 | [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | ✅ official | 2026-09-28 |
 | [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | ✅ official | 2026-09-28 |
 | [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | ✅ official | 2026-09-28 |
@@ -158,7 +158,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | IBPS Clerk (CRP CSA, latest) | 🟡 secondary | 2026-09-27 |
+| [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | CRP Clerks XIV (vacancies of 2025-26) | 🟡 secondary | 2026-09-28 |
 | [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT 2026 | 🟡 secondary | 2026-09-27 |
 | [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs-XV, 2026) | 🟡 secondary | 2026-09-28 |
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL, latest) | ⚪ unverified | 2026-09-27 |
@@ -200,8 +200,8 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | ⚪ unverified | 2026-09-28 |
 | [IIT JAM (Joint Admission Test for Masters)](exams/university-entrance/iit-jam.md) | IITs and IISc (IIT Kharagpur for JAM 2027) | JAM 2027 (IIT Kharagpur, 14 February 2027) | ✅ official | 2026-09-28 |
 | [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | ✅ official | 2026-09-28 |
-| [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE (latest) | ⚪ unverified | 2026-09-27 |
-| [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT (latest) | 🟡 secondary | 2026-09-27 |
+| [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE 2025 | ✅ official | 2026-09-28 |
+| [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT 2027-28 | ✅ official | 2026-09-28 |
 | [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-28 |
 | [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-28 |
 
@@ -225,7 +225,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-27 |
-| [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT (latest) | ⚪ unverified | 2026-09-27 |
+| [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT 2025 | ✅ official | 2026-09-28 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2025 | ⚪ unverified | 2026-09-28 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-27 |
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Multiple sessions per year | ⚪ unverified | 2024-05-22 |
