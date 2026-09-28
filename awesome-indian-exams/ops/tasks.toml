@@ -551,6 +551,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: official_site=https://rpsc.rajasthan.gov.in"]
 
 [[task]]
 id = "T-230"
@@ -856,6 +857,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/01/Hindi.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/01/Hindi.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/01/Hindi.pdf"]
 
 [[task]]
 id = "T-257"
@@ -890,6 +892,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Sub-Inspector-01-2024_English.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Sub-Inspector-01-2024_English.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Sub-Inspector-01-2024_English.pdf"]
 
 [[task]]
 id = "T-260"
