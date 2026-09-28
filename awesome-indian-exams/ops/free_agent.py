@@ -68,9 +68,15 @@ def load_config() -> dict:
 class LLM:
     def __init__(self, config: dict, lane: str | None = None) -> None:
         self.routes: list[tuple[str, str, str, str]] = []  # (provider, base, key, model)
+        custom = None
         if os.environ.get("HIVE_LLM_BASE_URL"):
-            self.routes.append(("custom", os.environ["HIVE_LLM_BASE_URL"], os.environ.get("HIVE_LLM_API_KEY", ""),
-                                os.environ.get("HIVE_LLM_MODEL", "default")))
+            custom = ("custom", os.environ["HIVE_LLM_BASE_URL"], os.environ.get("HIVE_LLM_API_KEY", ""),
+                      os.environ.get("HIVE_LLM_MODEL", "default"))
+        # HIVE_LLM_CUSTOM_LAST=1: the lane's own providers first (e.g. OpenCode Go DeepSeek), the extra endpoint only
+        # as the last fallback (Mac, 2026-09-28: DeepSeek must lead; its rolling limit falls back to CLIProxyAPI)
+        custom_last = os.environ.get("HIVE_LLM_CUSTOM_LAST") == "1"
+        if custom and not custom_last:
+            self.routes.append(custom)
         models = config.get("models", {})
         order = config.get("lane_providers", {}).get(lane) or config.get("providers", list(PROVIDERS))
         for name in order:
@@ -82,6 +88,8 @@ class LLM:
                 continue  # no key configured: skip silently
             for model in models.get(name, []):
                 self.routes.append((name, base, key, model))
+        if custom and custom_last:
+            self.routes.append(custom)
         self.dead: set[tuple[str, str]] = set()
         self.last_route = ""
         # OpenCode Go's HTTP API rejects requests without a session id (HTTP 400 MissingSessionID, 2026-09-28).
