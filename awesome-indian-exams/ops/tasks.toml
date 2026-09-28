@@ -846,7 +846,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2025/10/Final-CEN-06-2025-21-10-2025-Publish.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2025/10/Final-CEN-06-2025-21-10-2025-Publish.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2025/10/Final-CEN-06-2025-21-10-2025-Publish.pdf"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-no-06-2025-ntpc-graduate/; notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2025/10/Final-CEN-06-2025-21-10-2025-Publish.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-no-06-2025-ntpc-graduate/; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2025/10/Final-CEN-06-2025-21-10-2025-Publish.pdf; syllabus_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-no-06-2025-ntpc-graduate/; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2025/10/Final-CEN-06-2025-21-10-2025-Publish.pdf"]
 
 [[task]]
 id = "T-255"
@@ -858,7 +858,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Detailed-CEN-09-25-in-hindi-07.02.2026.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Detailed-CEN-09-25-in-hindi-07.02.2026.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Detailed-CEN-09-25-in-hindi-07.02.2026.pdf"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-09-2025-level-1/; notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Detailed-CEN-09-25-in-hindi-07.02.2026.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-09-2025-level-1/; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Detailed-CEN-09-25-in-hindi-07.02.2026.pdf; syllabus_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-09-2025-level-1/; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Detailed-CEN-09-25-in-hindi-07.02.2026.pdf"]
 
 [[task]]
 id = "T-256"
@@ -882,7 +882,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.rrbbnc.gov.in/notifications/Detailed%20CEN%2002-2024%20-%20English.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://www.rrbbnc.gov.in/notifications/Detailed%20CEN%2002-2024%20-%20English.pdf; syllabus_url=https://www.rrbbnc.gov.in/notifications/Detailed%20CEN%2002-2024%20-%20English.pdf"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-02-2026-technician/; notification_url=https://www.rrbbnc.gov.in/notifications/Detailed%20CEN%2002-2024%20-%20English.pdf; official_site=https://www.rrbapply.gov.in; pattern_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-02-2026-technician/; pattern_url=https://www.rrbbnc.gov.in/notifications/Detailed%20CEN%2002-2024%20-%20English.pdf; syllabus_url=https://rrbsecunderabad.gov.in/advertisement_category/cen-02-2026-technician/; syllabus_url=https://www.rrbbnc.gov.in/notifications/Detailed%20CEN%2002-2024%20-%20English.pdf"]
 
 [[task]]
 id = "T-258"
