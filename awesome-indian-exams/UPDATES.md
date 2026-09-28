@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 01:45 UTC** · `T-283` · hermes · [Verify the CUET PG page (exams/university-entrance/cuet-pg.md) against its current official notification](ops/done/T-283.md)
+- **2026-09-28 01:38 UTC** · `T-407` · hermes · [Review modules/ncert-chemistry.md (Chemistry (NCERT Class 11–12)) against the official syllabi of the exams it counts for](ops/done/T-407.md)
 - **2026-09-28 01:37 UTC** · `T-406` · hermes · [Review modules/ncert-physics.md (Physics (NCERT Class 11–12)) against the official syllabi of the exams it counts for](ops/done/T-406.md)
 - **2026-09-28 01:34 UTC** · `T-277` · hermes · [Verify the CSIR NET (JRF / Assistant Professor) page (exams/teaching/csir-net.md) against its current official notification](ops/done/T-277.md)
 - **2026-09-28 01:34 UTC** · `T-237` · hermes · [Verify the OPSC Odisha Civil Services page (exams/state-psc/opsc-ocs.md) against its current official notification](ops/done/T-237.md)

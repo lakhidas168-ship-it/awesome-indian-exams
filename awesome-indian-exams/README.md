@@ -193,7 +193,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [CUET PG](exams/university-entrance/cuet-pg.md) | National Testing Agency | CUET PG 2026 | ⚪ unverified | 2026-09-27 |
+| [CUET PG](exams/university-entrance/cuet-pg.md) | National Testing Agency | CUET PG 2026 | ✅ official | 2026-09-28 |
 | [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | 🟡 secondary | 2026-09-27 |
 | [IIT JAM (Joint Admission Test for Masters)](exams/university-entrance/iit-jam.md) | IITs and IISc (IIT Kharagpur for JAM 2027) | JAM 2027 (IIT Kharagpur, 14 February 2027) | ⚪ unverified | 2026-09-27 |
 | [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | ✅ official | 2026-09-28 |
