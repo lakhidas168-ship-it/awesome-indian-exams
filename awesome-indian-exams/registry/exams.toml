@@ -958,7 +958,7 @@ id = "csir-net"
 name = "CSIR NET (JRF / Assistant Professor)"
 family = "teaching"
 body = "National Testing Agency"
-official_site = "https://csirnet.nta.nic.in"
+official_site = "https://csirnet.nta.ac.in"
 modules = ["reasoning", "quant-aptitude", "data-interpretation"]
 
 [[exam]]
@@ -1000,7 +1000,7 @@ id = "cuet-ug"
 name = "CUET UG"
 family = "university-entrance"
 body = "National Testing Agency"
-official_site = "https://cuet.nta.nic.in"
+official_site = "https://cuet.nta.ac.in"
 modules = ["english-language", "general-awareness", "quant-aptitude", "reasoning", "ncert-physics", "ncert-chemistry", "ncert-mathematics", "ncert-biology"]
 
 [[exam]]
@@ -1074,8 +1074,7 @@ id = "aissee"
 name = "AISSEE (Sainik School entrance)"
 family = "school"
 body = "National Testing Agency"
-official_site = "https://exams.nta.nic.in"
-modules = ["quant-aptitude", "reasoning", "english-language", "general-science", "general-awareness"]
+official_site = "https://exams.nta.nic.in/sainik-school-society/"
 
 # ------------------------------------------------------------------ law
 
