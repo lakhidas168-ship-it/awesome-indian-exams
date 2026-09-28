@@ -104,6 +104,11 @@ links the exact page in [`docs/OWNER-CLICKS.md`](../docs/OWNER-CLICKS.md).
 | done | `ops/done/<id>.md` on `main` | the runner writes it; it counts once published |
 | plan / judge log | `ops/plan/<date>.md` | JEVX |
 
+Acceptance criteria in receipts are copied from the task definition; they are not individually ticked review results.
+Older receipts display these static criteria with unchecked `[ ]` marks, which do not mean review is pending or that
+a criterion was skipped. The judge's publish verdict is recorded separately in the dated plan; detailed judge logs
+are local and may not be available in the public repository.
+
 - Two agents can never hold the same task: a claim is a push that only succeeds if the ref doesn't exist yet
   (stress-tested with 12 parallel agents and 80 tasks, each taken exactly once).
 - A claim with no work branch for 6 hours is freed, so a crashed agent never blocks a task. A run that finds no
