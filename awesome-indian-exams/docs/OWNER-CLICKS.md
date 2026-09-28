@@ -24,7 +24,7 @@ usual fixes:
 2. **Keep the Mac awake on the charger:** paste `sudo pmset -c sleep 0` in Terminal, or System Settings →
    Battery → Options → "Prevent automatic sleeping on power adapter when the display is off".
 3. **Sign in once in each agent** so it can run unattended: `opencode auth login` (choose OpenCode Go), `gemini`
-   (sign in with Google), `agy` (sign in), and Hermes as you already set it up.
+   (sign in with Google), `agy` (sign in), `command-code login` (the account with the GOAT plan), and Hermes as you already set it up.
 
 **Easiest:** in Terminal run `cd ~/code/awesome-indian-exams 2>/dev/null || cd ~ ; claude remote-control`,
 open the new session in the Claude app, and say "Follow awesome-indian-exams/docs/MAC-HANDOFF.md".
@@ -92,6 +92,7 @@ These help the list spread; nothing breaks without them.
 |---|---|---|
 | Mac, continuous | Hermes lane: Hermes (`hermes -z`), plus Gemini CLI and Antigravity when signed in | Hermes on free models; each tool's own login |
 | Mac, continuous | OpenCode lane: `opencode run` | OpenCode Go: DeepSeek V4.1 Flash |
+| Mac, continuous | Command Code workers (`commandcode-1..6`, Hermes lane by default) | Command Code GOAT plan: open models, `HIVE_COMMANDCODE_MODEL` |
 | Mac, continuous | Free-agent workers (HTTP) | Free tiers, with the owner's own proxy first when configured |
 | Mac, recurring | JEVX judge (`ops/judge.py --publish`) against the local hub | OpenCode Go first, free tiers after |
 | Mac, hourly | `~/.hive/publish-github.sh`: one gated commit to GitHub | none (validate, tests, secret and path checks) |

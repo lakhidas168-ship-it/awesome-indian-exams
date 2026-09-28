@@ -15,7 +15,7 @@ logs in and pays for anything that isn't free. By default nothing needs paying f
 
 **Mac (where the hive runs):** the owner's Mac runs every lane continuously
 ([`hive-loop.sh`](hive-loop.sh), set up by [`mac-bootstrap.sh`](mac-bootstrap.sh)): the real Hermes and OpenCode,
-Gemini CLI and Antigravity when signed in, plus workers on the built-in zero-cost agent ([`free_agent.py`](free_agent.py)).
+Command Code (GOAT plan), Gemini CLI and Antigravity when signed in, plus workers on the built-in zero-cost agent ([`free_agent.py`](free_agent.py)).
 They claim tasks and push `agent/*` branches to a **local** bare repository (`~/.hive/hub.git`), and the JEVX
 judge ([`judge.py`](judge.py)) runs every code gate and an LLM review there. Once an hour, `~/.hive/publish-github.sh`
 publishes **one** gated, batched commit (validate, tests, secret and path checks) to GitHub, and merges anything
@@ -57,14 +57,17 @@ idling. `agentctl.py status` prints the current share.
 `run-hourly.sh <lane> [worker]`: several agents can serve one lane in parallel, each with its own worktree, lock
 and log. On the Mac the Hermes lane has three workers (Hermes `hermes -z`, Gemini CLI `gemini --yolo -p`,
 Antigravity `agy -p` behind a pseudo-terminal), and the OpenCode lane runs `opencode run` on the OpenCode Go plan
-(DeepSeek V4.1 Flash). A worker that fails without changing anything retries once on the free agent
+(DeepSeek V4.1 Flash). Command Code (GOAT plan) runs as its own workers, `commandcode-1..N` in the Hermes lane
+by default, through [`commandcode.sh`](commandcode.sh): a headless `command-code -p` run that exits 75 (back off,
+task back to the queue) when credits or rate limits run out. A worker that fails without changing anything retries once on the free agent
 (`HIVE_FALLBACK`), so one logged-out tool never stalls a lane. Tasks marked `where = "mac"` (they need local files)
 run only on the Mac.
 
 ## Continuous mode (use the whole machine)
 
 [`hive-loop.sh`](hive-loop.sh) `start|stop|status` runs many workers per lane back-to-back instead of hourly: by
-default 6 Hermes-lane and 6 OpenCode-lane workers, plus Gemini and Antigravity when installed, and a JEVX
+default 6 Hermes-lane and 6 OpenCode-lane workers, 6 Command Code workers when `HIVE_CMD_COMMANDCODE` is set
+(`HIVE_LOOP_COMMANDCODE`, lane `HIVE_COMMANDCODE_LANE`), plus Gemini and Antigravity when installed, and a JEVX
 review/merge loop every 30 minutes. It keeps the Mac awake and backs off when there is no ready task or no LLM
 capacity. `stop` ends only the process groups it started. A manual cloud run uses a 6 + 6 job
 matrix. Tested: parallel loops took every task exactly once and left no processes after
