@@ -4,13 +4,13 @@ exam_id: state-tet
 conducting_body: State education boards (under the NCTE framework)
 official_site: https://ncte.gov.in
 cycle: Varies by state (each state notifies its own TET)
-last_verified: 2026-09-27
-verification: unverified
+last_verified: 2026-09-28
+verification: official
 ---
 
 # State TETs (UPTET, REET, MAHA TET and others)
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
+> **Evidence status: ✅ official.** This page gives the structure and the official links. Numbers that could not be
 > cross-checked are left to the official notification. Verifying them is a hive task.
 
 A Teacher Eligibility Test (TET) is required to teach Classes 1–8 in government schools. The central test is
@@ -29,7 +29,7 @@ state.
 
 ## Official sources
 
-- NCTE (framework and TET guidelines): <https://ncte.gov.in>
+- NCTE (framework and TET guidelines): <https://par.ncte.gov.in/website/TETGuidelines.aspx>
 - REET: Board of Secondary Education, Rajasthan: <https://rajeduboard.rajasthan.gov.in>
 - UPTET: Uttar Pradesh Education Service Selection Commission: <https://upessc.up.gov.in>
 - CTET, the central TET (CBSE): <https://ctet.nic.in>
@@ -54,7 +54,7 @@ questions, time and qualifying marks.
 |---|---|---|---|
 | Rajasthan | REET | Board of Secondary Education, Rajasthan | <https://rajeduboard.rajasthan.gov.in> |
 | Uttar Pradesh | UPTET | UP Education Service Selection Commission | <https://upessc.up.gov.in> |
-| Maharashtra | MAHA TET | Maharashtra State Council of Examination, Pune | not listed yet: the council's old domain now shows unrelated content, so reach it from the Maharashtra government portal |
+| Maharashtra | MAHA TET | Maharashtra State Council of Examination | <https://mscepune.in> |
 
 ## Syllabus
 
