@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 00:29 UTC** · `T-405` · hermes · [Review modules/descriptive-writing.md (Essay and descriptive writing) against the official syllabi of the exams it counts for](ops/done/T-405.md)
 - **2026-09-28 00:26 UTC** · `T-301` · hermes · [Verify the IPMAT (IIM Indore) page (exams/management/ipmat-indore.md) against its current official notification](ops/done/T-301.md)
 - **2026-09-28 00:23 UTC** · `T-152` · opencode · [UPSC ESE previous question papers: official upsc.gov.in links for ESE prelims Paper-I/II (EE) and mains, every available year](ops/done/T-152.md)
 - **2026-09-28 00:23 UTC** · `T-402` · hermes · [Review modules/data-interpretation.md (Data interpretation) against the official syllabi of the exams it counts for](ops/done/T-402.md)
