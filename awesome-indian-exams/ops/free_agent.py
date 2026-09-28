@@ -13,7 +13,7 @@ Env:
   HIVE_NOTES       where finish() writes the agent's notes (default ops/.notes.md)
   HIVE_LLM_BASE_URL / HIVE_LLM_API_KEY / HIVE_LLM_MODEL   extra OpenAI-compatible endpoint, tried first
   OPENCODE_API_KEY (OpenCode Go), GITHUB_MODELS_TOKEN or GITHUB_TOKEN, GEMINI_API_KEY, OPENROUTER_API_KEY,
-  GROQ_API_KEY, OLLAMA_BASE_URL. Provider order per lane: ops/hive.toml [free_agent.lane_providers].
+  GROQ_API_KEY, FREELLMAPI_KEY (+ FREELLMAPI_BASE_URL), OLLAMA_BASE_URL. Provider order per lane: ops/hive.toml [free_agent.lane_providers].
 
 Exit: 0 finished · 75 no provider available (rate limits etc.; the runner frees the task) · 2 bad usage.
 """
@@ -50,6 +50,8 @@ PROVIDERS = {
     "gemini": ("https://generativelanguage.googleapis.com/v1beta/openai", ("GEMINI_API_KEY",)),
     "openrouter": ("https://openrouter.ai/api/v1", ("OPENROUTER_API_KEY",)),
     "groq": ("https://api.groq.com/openai/v1", ("GROQ_API_KEY",)),
+    # FreeLLMAPI router on the owner's Mac: one key in front of 30+ free tiers with its own failover (2026-09-28).
+    "freellmapi": (os.environ.get("FREELLMAPI_BASE_URL", "http://127.0.0.1:3301/v1"), ("FREELLMAPI_KEY",)),
     "ollama": (os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434/v1"), ()),
 }
 

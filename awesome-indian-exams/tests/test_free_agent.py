@@ -19,7 +19,7 @@ sys.path.insert(0, str(CONTENT / "ops"))
 import free_agent  # noqa: E402
 
 KEY_ENVS = ("GITHUB_TOKEN", "GITHUB_MODELS_TOKEN", "GEMINI_API_KEY", "OPENROUTER_API_KEY", "GROQ_API_KEY",
-            "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL")
+            "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL", "FREELLMAPI_KEY", "FREELLMAPI_BASE_URL", "OPENCODE_API_KEY")
 
 
 def clean_env(**extra: str) -> dict:
@@ -120,6 +120,19 @@ class FreeAgent(unittest.TestCase):
         limited.fail_with = 429
         env = clean_env(HIVE_LLM_BASE_URL=limited.url, OLLAMA_BASE_URL="http://127.0.0.1:9/v1")
         self.assertEqual(self.run_agent(env).returncode, free_agent.EX_TEMPFAIL)
+
+    def test_freellmapi_router_is_a_fallback_only_when_its_key_is_set(self) -> None:
+        limited = self.mock(lambda body: {})
+        limited.fail_with = 429
+        router = self.mock(lambda body: tool_call("finish", {"notes": "from freellmapi"}, 0))
+        dead_ollama = "http://127.0.0.1:9/v1"
+        env = clean_env(HIVE_LLM_BASE_URL=limited.url, FREELLMAPI_BASE_URL=router.url, OLLAMA_BASE_URL=dead_ollama)
+        self.assertEqual(self.run_agent(env).returncode, free_agent.EX_TEMPFAIL)  # no key: router skipped
+        self.assertFalse(router.requests)
+        res = self.run_agent({**env, "FREELLMAPI_KEY": "test-key"})
+        self.assertEqual(res.returncode, 0, res.stderr)
+        self.assertEqual(router.requests[0]["model"], "auto")
+        self.assertIn("from freellmapi", self.notes.read_text(encoding="utf-8"))
 
     def test_trim_keeps_requests_under_budget(self) -> None:
         messages = [{"role": "system", "content": "s"}, {"role": "user", "content": "u"}]

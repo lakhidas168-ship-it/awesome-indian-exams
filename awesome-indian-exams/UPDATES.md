@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 10:50 UTC** · `T-243` · hermes · [Verify the APPSC Group 1 page (exams/state-psc/appsc-group-1.md) against its current official notification](ops/done/T-243.md)
 - **2026-09-28 09:43 UTC** · `T-298` · hermes · [Verify the CMAT page (exams/management/cmat.md) against its current official notification](ops/done/T-298.md)
 - **2026-09-28 09:35 UTC** · `T-288` · opencode · [Verify the NCHM JEE (hotel management) page (exams/university-entrance/nchm-jee.md) against its current official notification](ops/done/T-288.md)
 - **2026-09-28 09:31 UTC** · `T-286` · hermes · [Verify the NID Design Aptitude Test (DAT) page (exams/university-entrance/nid-dat.md) against its current official notification](ops/done/T-286.md)
