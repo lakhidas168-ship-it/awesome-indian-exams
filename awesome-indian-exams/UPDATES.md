@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 04:20 UTC** · `T-274` · hermes · [Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification](ops/done/T-274.md)
 - **2026-09-28 04:10 UTC** · `T-282` · hermes · [Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification](ops/done/T-282.md)
 - **2026-09-28 04:08 UTC** · `T-278` · hermes · [Verify the KVS teacher and staff recruitment page (exams/teaching/kvs-recruitment.md) against its current official notification](ops/done/T-278.md)
 - **2026-09-28 04:03 UTC** · `T-230` · hermes · [Verify the MPPSC State Service Examination page (exams/state-psc/mppsc-sse.md) against its current official notification](ops/done/T-230.md)

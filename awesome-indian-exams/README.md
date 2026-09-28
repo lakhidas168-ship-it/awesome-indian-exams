@@ -175,7 +175,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [Agniveer (Army) Common Entrance Exam](exams/defence/agniveer-army.md) | Indian Army | Agnipath Army CEE (latest) | ✅ official | 2026-09-28 |
 | [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | 🟡 secondary | 2026-09-27 |
 | [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | ✅ official | 2026-09-28 |
-| [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | ICG (CGEPT, latest batch) | 🟡 secondary | 2026-09-27 |
+| [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | CGEPT (two batches a year) | ✅ official | 2026-09-28 |
 
 ### Teaching and research: TET, NET, KVS
 
