@@ -3,15 +3,14 @@ title: CMAT
 exam_id: cmat
 conducting_body: National Testing Agency
 official_site: https://exams.nta.nic.in
-cycle: CMAT (latest)
-last_verified: 2026-09-27
-verification: unverified
+cycle: CMAT 2025
+last_verified: 2026-09-28
+verification: official
 ---
 
 # CMAT
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: 🟢 official.** Verified against the CMAT 2025 Information Bulletin.
 
 CMAT is NTA's national test for admission to AICTE-approved MBA/PGDM programmes.
 
@@ -20,24 +19,37 @@ CMAT is NTA's national test for admission to AICTE-approved MBA/PGDM programmes.
 | | |
 |---|---|
 | Conducted by | National Testing Agency |
-| Stages | Computer-based test → institute-wise admission |
+| Stages | Computer-based test (CBT) |
+| Questions | 100 |
+| Marks | 400 |
+| Time | 3 hours |
+| Negative marking | -1 for each wrong answer |
 
 ## Official sources
 
-- NTA exams portal: <https://exams.nta.nic.in>
+- CMAT 2025 Information Bulletin: <https://nta.ac.in/Download/Notice/Notice_20251017143944.pdf>
 
 ## Exam pattern
 
-One computer-based test on quantitative techniques and data interpretation, logical reasoning, language
-comprehension, general awareness, and innovation and entrepreneurship. The bulletin has the marks and time.
+The exam consists of 100 objective-type questions. Each correct answer carries 4 marks, and each incorrect answer results in a deduction of 1 mark.
+
+| Section | Questions | Marks |
+|---|---|---|
+| Quantitative Techniques and Data Interpretation | 20 | 80 |
+| Logical Reasoning | 20 | 80 |
+| Language Comprehension | 20 | 80 |
+| General Awareness | 20 | 80 |
+| Innovation and Entrepreneurship | 20 | 80 |
+| **Total** | **100** | **400** |
 
 ## Syllabus
 
-Standard MBA aptitude plus general awareness and entrepreneurship.
-
-## How to prepare (free, in order)
-
-1. The MBA aptitude modules apply; add innovation and entrepreneurship basics.
+The syllabus covers:
+- **Quantitative Techniques and Data Interpretation:** Algebra, Time & Work, Percentages, Ratio & Proportion, Geometry, Data Interpretation, etc.
+- **Logical Reasoning:** Analytical reasoning, linear/circular arrangements, coding-decoding, series, etc.
+- **Language Comprehension:** Reading comprehension, grammar, vocabulary, etc.
+- **General Awareness:** Current affairs, static GK, history, geography, etc.
+- **Innovation and Entrepreneurship:** Basics of entrepreneurship, business models, innovation, etc.
 
 ## Free resources
 
