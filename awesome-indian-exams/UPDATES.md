@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-28 04:40 UTC** · `T-238` · hermes · [Verify the HPSC HCS (Haryana Civil Services) page (exams/state-psc/hpsc-hcs.md) against its current official notification](ops/done/T-238.md)
 - **2026-09-28 04:34 UTC** · `T-319` · hermes · [Daily-question pool: 20 original questions for one shared module (start with quant-aptitude, reasoning, english-language, gs-polity), in the questions/ format](ops/done/T-319.md)
 - **2026-09-28 04:20 UTC** · `T-274` · hermes · [Verify the Indian Coast Guard Navik / Yantrik page (exams/defence/icg-navik.md) against its current official notification](ops/done/T-274.md)
 - **2026-09-28 04:10 UTC** · `T-282` · hermes · [Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification](ops/done/T-282.md)
