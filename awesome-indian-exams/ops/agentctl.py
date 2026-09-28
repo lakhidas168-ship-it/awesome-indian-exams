@@ -236,6 +236,18 @@ def cmd_reap(args: argparse.Namespace) -> int:
     return 0
 
 
+def render_acceptance_section(criteria: list[str]) -> str:
+    items = "\n".join(f"- {item}" for item in criteria) or "- (none listed)"
+    return f"""## Acceptance criteria (task requirements)
+
+These bullets are copied from the task definition; they are not individual review checkboxes. Historical receipts
+rendered this same static list with `[ ]` marks, which do not mean review is pending or a criterion was skipped.
+The JEVX publish verdict is recorded separately in `ops/plan/<date>.md`; detailed judge logs are local and may not
+be available here.
+
+{items}"""
+
+
 def cmd_receipt(args: argparse.Namespace) -> int:
     task = next((t for t in load_tasks() if t["id"] == args.id), {"title": ""})
     diffstat = git("diff", "--cached", "--stat", base_ref()).stdout.strip() or "(no staged diff)"
@@ -246,7 +258,6 @@ def cmd_receipt(args: argparse.Namespace) -> int:
     fetched = ""
     if args.fetch_log and Path(args.fetch_log).exists():
         fetched = Path(args.fetch_log).read_text(encoding="utf-8").strip()
-    accept = "\n".join(f"- [ ] {a}" for a in task.get("accept", []))
     body = f"""---
 task: {args.id}
 lane: {args.lane}
@@ -259,9 +270,7 @@ finished_at: {now_iso()}
 
 Receipt written by `ops/run-hourly.sh`. Sections marked *code* were produced by the runner, not by the agent.
 
-## Acceptance criteria (JEVX ticks these during review)
-
-{accept or '- (none listed)'}
+{render_acceptance_section(task.get('accept', []))}
 
 ## Diff against {BASE} (code)
 
