@@ -5,29 +5,54 @@ module_id: descriptive-writing
 
 # Essay and descriptive writing
 
-Counts for **23 exams** in this list (see the [overlap map](../resources/overlap-map.md)). Prepare it once.
+UPSC and State PSC mains, SSC translator exams, and banking, insurance and regulator mains all test
+writing directly. The [overlap map](../resources/overlap-map.md) has the full list.
 
 ## What it covers
 
-- Essay: structure, argument, examples
-- Letter, report and précis writing
-- Answer writing for UPSC/PSC mains
-- Time management in descriptive papers
+- **Essay:** structure, thesis, argument, examples, conclusion (UPSC CSE Essay paper; UPSC CAPF
+  Paper-II essay; SSC JHT essays in Hindi and English).
+- **Letters and emails, reports, précis and comprehension** (SBI PO descriptive: email, situation
+  analysis, report or précis; CAPF Paper-II comprehension and précis; IBPS PO letter and essay).
+- **Translation** Hindi↔English (SSC JHT Paper-II: one passage each way).
+- **Mains answer writing** for UPSC and State PSC: GS and optional papers reward structured,
+  demand-specific answers.
+- **Descriptive answers in economics, finance and rural development** (RBI Grade B Phase-II papers;
+  NABARD Grade A Phase-II English and ESI/ARD descriptive).
+- **Time management** in typed, strictly timed descriptive papers with sectional qualifying marks.
 
-## Where it counts
+## Depth by exam family
 
-| Family | Exams |
+| Family | What the exam rewards |
 |---|---|
-| UPSC | [UPSC CAPF (Assistant Commandant)](../exams/upsc/upsc-capf.md), [UPSC Civil Services (CSE)](../exams/upsc/upsc-cse.md), [UPSC Indian Economic / Statistical Service (IES/ISS)](../exams/upsc/upsc-ies-iss.md) |
-| State PSC civil services | [APPSC Group 1](../exams/state-psc/appsc-group-1.md), [APSC Combined Competitive Examination (Assam)](../exams/state-psc/apsc-cce.md), [BPSC Combined Competitive Examination](../exams/state-psc/bpsc-cce.md), [GPSC Class 1–2 (Gujarat)](../exams/state-psc/gpsc-class-1-2.md), [HPSC HCS (Haryana Civil Services)](../exams/state-psc/hpsc-hcs.md), [KPSC KAS (Karnataka Administrative Service)](../exams/state-psc/kpsc-kas.md), [MPSC State Services (Rajyaseva)](../exams/state-psc/mpsc-rajyaseva.md), [OPSC Odisha Civil Services](../exams/state-psc/opsc-ocs.md), [RPSC RAS/RTS](../exams/state-psc/rpsc-ras.md), [TGPSC (Telangana) Group 1](../exams/state-psc/tgpsc-group-1.md), [TNPSC Group 1](../exams/state-psc/tnpsc-group-1.md), [UPPSC PCS (Combined State/Upper Subordinate Services)](../exams/state-psc/uppsc-pcs.md), [WBCS (West Bengal Civil Service)](../exams/state-psc/wbcs.md) |
-| SSC | [SSC Junior Hindi Translator (JHT)](../exams/ssc/ssc-jht.md) |
-| Banking, insurance and regulators | [IBPS PO](../exams/banking/ibps-po.md), [NABARD Grade A](../exams/banking/nabard-grade-a.md), [RBI Grade B](../exams/banking/rbi-grade-b.md), [SBI PO](../exams/banking/sbi-po.md), [SEBI Grade A](../exams/banking/sebi-grade-a.md) |
-| Management entrance: CAT, XAT and others | [XAT](../exams/management/xat.md) |
+| UPSC and State PSC mains | Long analytical essays and GS answers: structure, depth, examples |
+| SSC translator (JHT) | Translation both ways plus an essay in each language (Paper-II: 200 marks, 2 hours) |
+| Banking, insurance and regulators | Short typed tasks under time: emails, précis/report, essays, descriptive ESI answers |
+
+Official syllabi this matches (read 2026-09-28; each exam's current notice is the final word):
+
+- SSC Combined Hindi Translators Examination, 2026 notice (Paper-II descriptive):
+  <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf>
+- RBI Grade B (DR) General PY2026 notice, Advt. No. RBISB/DA/01/2026-27 (Phase-II Papers I–III):
+  <https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997>
+- SBI PO 2026 advertisement (Mains descriptive: 3 communication-skills tasks, 30 marks, 30 minutes):
+  <https://sbi.co.in/web/careers/current-openings>
+- UPSC CAPF (AC) 2026, Notice No. 08/2026-CAPF (Paper-II: essay, comprehension, précis):
+  <https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf>
 
 ## Free resources
 
-- Press Information Bureau: <https://pib.gov.in> (formal writing models)
+- NCERT English textbooks (grammar and reading base): <https://ncert.nic.in/textbook.php>
+- NIOS study material (self-paced English writing): <https://www.nios.ac.in>
+- Yojana and Kurukshetra magazines, Publications Division (essay content models):
+  <https://www.publicationsdivision.nic.in>
+- Press Information Bureau releases (formal writing models): <https://pib.gov.in>
+- RBI publications for banking and economy descriptive answers: <https://www.rbi.org.in>
+- Official previous papers, linked from each exam page in this list, are the best practice material.
 
 ## How to practise
 
-Write one essay or letter a week, and review it against the question's demand.
+Write one timed piece a week in your target exam's exact format (essay, letter, précis or
+translation), and get it checked against the question's demand. Keep an error log of grammar and
+word-choice mistakes and revise it weekly. Read one formal editorial or PIB release a day and
+summarise it in three lines.
