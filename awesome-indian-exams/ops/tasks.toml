@@ -265,6 +265,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.nta.ac.in/Download/Notice/Notice_20260916195948.pdf; official_site=https://jeemain.nta.nic.in; pattern_url=https://jeemain.nta.nic.in/information-bulletin/; syllabus_url=https://jeemain.nta.nic.in/document/syllabus-2026/"]
 
 [[task]]
 id = "T-205"
@@ -276,6 +277,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; official_site=https://jeeadv.ac.in; pattern_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; syllabus_url=https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf"]
 
 [[task]]
 id = "T-206"
@@ -368,6 +370,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.comedk.org/uploads/Information-brochure-2026-version-1.0.pdf; official_site=https://www.comedk.org; pattern_url=https://www.comedk.org/about-uget-and-notification-2026; syllabus_url=https://www.comedk.org/uploads/Mathematics-syllabus-2026_final.pdf"]
 
 [[task]]
 id = "T-214"
@@ -1096,6 +1099,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://csirnet.nta.nic.in/documents/; official_site=https://csirnet.nta.nic.in; pattern_url=https://csirnet.nta.nic.in/about-department/introduction/; syllabus_url=https://csirhrdg.res.in/Home/Index/1/Default/3485/78"]
 
 [[task]]
 id = "T-278"
@@ -1411,6 +1415,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.icsi.edu/media/webmodules/Mocktest29042025.pdf; official_site=https://www.icsi.edu; pattern_url=https://www.icsi.edu/media/webmodules/FAQ_on_CSEET_to_be_held_through_Remote_Proctored_Mode.pdf; syllabus_url=https://www.icsi.edu/students/cseet/"]
 
 [[task]]
 id = "T-305"
