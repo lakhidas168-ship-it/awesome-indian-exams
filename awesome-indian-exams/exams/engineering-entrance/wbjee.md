@@ -5,39 +5,38 @@ conducting_body: West Bengal Joint Entrance Examinations Board
 official_site: https://wbjeeb.nic.in
 cycle: WBJEE 2026
 last_verified: 2026-09-27
-verification: secondary
+verification: official
 ---
 
 # WBJEE
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** The facts below were cross-checked against the official 2026 information bulletin and board notifications on 2026-09-26.
 
-WBJEE is West Bengal's entrance for engineering, technology and pharmacy seats in the state.
+WBJEE is West Bengal's entrance for engineering, technology, pharmacy, and architecture seats in the state.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | West Bengal Joint Entrance Examinations Board |
-| Mode | Pen and paper (OMR), two papers of 2 hours each |
-| Total | 155 questions, 200 marks |
+| Mode | Pen and paper (OMR) |
+| Exam Date | 24th May 2026 |
 
 ## Official sources
 
 - WBJEE Board (official): <https://wbjeeb.nic.in>
+- Information Bulletin: <https://wbjeeb.nic.in/information-bulletin/>
 
 ## Exam pattern
 
-| Paper | Content | Questions |
-|---|---|---:|
-| Paper 1 | Mathematics | 75 |
-| Paper 2 | Physics 40 + Chemistry 40 | 80 |
+The exam consists of two papers:
+- **Paper 1:** Mathematics
+- **Paper 2:** Physics and Chemistry
 
-Questions come in three categories: Category I (1 mark, negative marking for a wrong answer), Category II (2 marks,
-negative marking) and Category III (2 marks, one or more correct options, no negative marking, partial credit).
-The information bulletin has the exact rules.
+Questions are divided into three categories:
+- **Category I:** 1 mark, negative marking for wrong answers.
+- **Category II:** 2 marks, negative marking for wrong answers.
+- **Category III:** 2 marks, one or more correct options, no negative marking, partial credit.
 
 ## Syllabus
 
