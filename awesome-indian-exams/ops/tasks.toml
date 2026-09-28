@@ -230,6 +230,7 @@ accept = [
   "every number under 'At a glance' and 'Exam pattern' matches the official notification; its URL is under Official sources",
   "verification = official only if the official notification was fetched this run",
 ]
+hints = ["Spark (Google accounts lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://neet.nta.nic.in/documents/page/4/; official_site=https://neet.nta.nic.in; pattern_url=https://neet.nta.nic.in/document/information-bulletin-english/; syllabus_url=https://neet.nta.nic.in/document/information-bulletin-english/"]
 
 [[task]]
 id = "T-202"
@@ -558,6 +559,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mppsc.mp.gov.in/"]
 
 [[task]]
 id = "T-231"
@@ -569,6 +571,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mpsc.gov.in/"]
 
 [[task]]
 id = "T-232"
@@ -636,6 +639,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cdn-images.prepp.in/public/image/OPSC_OCS_Official_notification_2025_26_7c6822cf67d0da6efc3a34ebde5f9090.pdf; official_site=https://opsc.gov.in; pattern_url=https://cdn-images.prepp.in/public/image/OPSC_OCS_Official_notification_2025_26_7c6822cf67d0da6efc3a34ebde5f9090.pdf; syllabus_url=https://cdn-images.prepp.in/public/image/OPSC_OCS_Official_notification_2025_26_7c6822cf67d0da6efc3a34ebde5f9090.pdf"]
 
 [[task]]
 id = "T-238"
@@ -871,6 +875,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Constable-02-2024_English.pdf; official_site=https://www.rrbapply.gov.in; official_site=https://www.rrbapply.gov.in/; pattern_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Constable-02-2024_English.pdf; syllabus_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Constable-02-2024_English.pdf"]
 
 [[task]]
 id = "T-259"
@@ -950,6 +955,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.rbi.org.in/scripts/Bs_viewcontent.aspx?Id=5147; official_site=https://www.rbi.org.in; pattern_url=https://rbi.org.in/scripts/Bs_viewcontent.aspx?Id=5113; pattern_url=https://www.rbi.org.in/scripts/Result_Officers_Grade_B_General_DR_PY_2026.aspx; syllabus_url=https://rbi.org.in/scripts/Bs_viewcontent.aspx?Id=5113"]
 
 [[task]]
 id = "T-266"
@@ -961,6 +967,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rbi.org.in/scripts/Bs_viewcontent.aspx?Id=4404; official_site=https://www.rbi.org.in; pattern_url=https://rbi.org.in/scripts/Bs_viewcontent.aspx?Id=4353"]
 
 [[task]]
 id = "T-267"
@@ -972,6 +979,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://www.nabard.org/"]
 
 [[task]]
 id = "T-268"
@@ -1111,6 +1119,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2025/11/2025111348.pdf; official_site=https://navodaya.gov.in; pattern_url=https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2025/11/2025111348.pdf; syllabus_url=https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2025/11/2025111348.pdf"]
 
 [[task]]
 id = "T-280"
@@ -1179,6 +1188,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.nift.ac.in/sites/default/files/2026-08/Admission-Prospectus-2026_1.pdf; official_site=https://www.nift.ac.in; pattern_url=https://www.nift.ac.in/sites/default/files/2026-08/Admission-Prospectus-2026_1.pdf; syllabus_url=https://www.nift.ac.in/sites/default/files/2026-08/Admission-Prospectus-2026_1.pdf"]
 
 [[task]]
 id = "T-286"
@@ -1190,6 +1200,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.nid.edu/academics/programmes/bachelor-of-design-bdes; official_site=https://admissions.nid.edu; pattern_url=https://www.nid.edu/academics/programmes/bachelor-of-design-bdes; syllabus_url=https://www.nid.edu/academics/programmes/bachelor-of-design-bdes"]
 
 [[task]]
 id = "T-287"
