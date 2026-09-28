@@ -1,8 +1,8 @@
 ## Sources opened
-- https://gate2027.iitm.ac.in/index.html: Attempted to fetch, but the site is behind a CAPTCHA/validation wall.
+- https://upsc.gov.in (Attempted to fetch, but received 403 Forbidden. The site is unreachable for automated tools.)
 
 ## Could not confirm
-- I could not verify the GATE 2027 brochure or syllabus details because the official website (gate2027.iitm.ac.in) is currently blocking automated access with a validation challenge.
+- Every number under At a glance and Exam pattern could not be verified against the official notification because the UPSC website is currently blocking automated access.
 
 ## Changed
-- None. The page remains `verification: secondary` as I could not access the official documents to upgrade it.
+- None. The page remains `unverified` as I could not fetch the official notification.
