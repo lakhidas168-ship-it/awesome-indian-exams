@@ -6,6 +6,131 @@ syllabus decides the depth.
 
 | Module | Exams that use it | Count |
 |---|---|---:|
+
+## Start here: Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
+
+Most common modules for this family:
+
+- **Engineering mathematics** (10 exams)
+- **Logical and analytical reasoning** (10 exams)
+- **Quantitative aptitude** (8 exams)
+
+## Start here: Engineering entrance: JEE and state CETs
+
+Most common modules for this family:
+
+- **Chemistry (NCERT Class 11–12)** (11 exams)
+- **Mathematics (NCERT Class 11–12)** (11 exams)
+- **Physics (NCERT Class 11–12)** (11 exams)
+
+## Start here: Medical: NEET and medical PG
+
+Most common modules for this family:
+
+- **MBBS subjects (pre-clinical, para-clinical, clinical)** (3 exams)
+- **General awareness and current affairs** (1 exams)
+- **Biology (NCERT Class 11–12)** (1 exams)
+
+## Start here: UPSC
+
+Most common modules for this family:
+
+- **General awareness and current affairs** (7 exams)
+- **Indian economy** (5 exams)
+- **Geography of India and the world** (5 exams)
+
+## Start here: State PSC civil services
+
+Most common modules for this family:
+
+- **General awareness and current affairs** (19 exams)
+- **Indian economy** (17 exams)
+- **Geography of India and the world** (17 exams)
+
+## Start here: SSC
+
+Most common modules for this family:
+
+- **English language and comprehension** (8 exams)
+- **General awareness and current affairs** (8 exams)
+- **Logical and analytical reasoning** (8 exams)
+
+## Start here: Railways: RRB and RPF
+
+Most common modules for this family:
+
+- **General awareness and current affairs** (6 exams)
+- **Quantitative aptitude** (6 exams)
+- **Logical and analytical reasoning** (6 exams)
+
+## Start here: Banking, insurance and regulators
+
+Most common modules for this family:
+
+- **English language and comprehension** (11 exams)
+- **Quantitative aptitude** (11 exams)
+- **Logical and analytical reasoning** (11 exams)
+
+## Start here: Defence (non-UPSC entries)
+
+Most common modules for this family:
+
+- **General awareness and current affairs** (5 exams)
+- **Logical and analytical reasoning** (4 exams)
+- **English language and comprehension** (3 exams)
+
+## Start here: Teaching and research: TET, NET, KVS
+
+Most common modules for this family:
+
+- **Child development and pedagogy** (5 exams)
+- **English language and comprehension** (5 exams)
+- **Hindi language** (5 exams)
+
+## Start here: University and design entrance: CUET, JAM, NIFT, NID
+
+Most common modules for this family:
+
+- **Logical and analytical reasoning** (7 exams)
+- **English language and comprehension** (5 exams)
+- **General awareness and current affairs** (5 exams)
+
+## Start here: School-level entrance
+
+Most common modules for this family:
+
+- **English language and comprehension** (2 exams)
+- **Quantitative aptitude** (2 exams)
+- **Logical and analytical reasoning** (2 exams)
+
+## Start here: Law entrance
+
+Most common modules for this family:
+
+- **English language and comprehension** (3 exams)
+- **General awareness and current affairs** (3 exams)
+- **Legal reasoning** (3 exams)
+
+## Start here: Management entrance: CAT, XAT and others
+
+Most common modules for this family:
+
+- **English language and comprehension** (8 exams)
+- **Quantitative aptitude** (8 exams)
+- **Logical and analytical reasoning** (7 exams)
+
+## Start here: Professional courses: CA, CS, CMA
+
+Most common modules for this family:
+
+- **Indian economy** (3 exams)
+- **Accounting and business basics** (2 exams)
+- **Quantitative aptitude** (2 exams)
+
+## All modules
+
+| Module | Exams that use it | Count |
+|---|---|---:|
 | [Logical and analytical reasoning](../modules/reasoning.md) | AFCAT (Air Force Common Admission Test), AIIMS NORCET (Nursing Officer), AILET (NLU Delhi), AISSEE (Sainik School entrance), Agniveer (Army), Agniveer Vayu (Air Force), BITSAT, CAT, CLAT, CMAT, CSEET (Company Secretary Executive Entrance Test), CSIR NET (JRF / Assistant Professor), CUET PG, CUET UG, DSSSB teacher and staff recruitment (Delhi), Delhi Police Constable (conducted by SSC), GATE Civil Engineering (CE), GATE Computer Science (CS), GATE Data Science and AI (DA), GATE Electrical Engineering (EE), GATE Electronics and Communication (EC), GATE Instrumentation Engineering (IN), GATE Mechanical Engineering (ME), IBPS Clerk, IBPS PO, IBPS RRB (Officer Scale I and Office Assistant), IBPS SO (Specialist Officer), Indian Coast Guard Navik / Yantrik, JNV Selection Test (Navodaya, Class 6 and 9), KVS teacher and staff recruitment, Kerala PSC exams (LDC, KAS and others), LIC AAO, MAH CET Law, MAH MBA/MMS CET, MAT, NABARD Grade A, NATA (architecture aptitude), NCHM JEE (hotel management), NID Design Aptitude Test (DAT), NIFT entrance, NMAT, NVS teacher and staff recruitment, RBI Assistant, RBI Grade B, RPF Constable, RPF Sub-Inspector, RRB Assistant Loco Pilot (ALP), RRB Group D (Level 1), RRB Junior Engineer (JE), Electrical, RRB NTPC, RRB Technician, SBI Clerk (Junior Associate), SBI PO, SEBI Grade A, SNAP, SSC CGL (Combined Graduate Level), SSC CHSL (Combined Higher Secondary Level), SSC CPO (Sub-Inspector in Delhi Police and CAPFs), SSC GD Constable, SSC Junior Engineer (JE), Electrical, SSC MTS and Havaldar, SSC Selection Posts, SSC Stenographer (Grade C and D), TNPSC Group 1, TNPSC Group 4, UCEED, UGC NET, UPSC CAPF (Assistant Commandant), UPSC EPFO (EO/AO, APFC), UPSC Engineering Services (ESE), Electrical, VITEEE, WBCS (West Bengal Civil Service), XAT | 73 |
 | [General awareness and current affairs](../modules/general-awareness.md) | AFCAT (Air Force Common Admission Test), AIIMS NORCET (Nursing Officer), AILET (NLU Delhi), AISSEE (Sainik School entrance), APPSC Group 1, APSC Combined Competitive Examination (Assam), Agniveer (Army), Agniveer (Navy), Agniveer Vayu (Air Force), BPSC Combined Competitive Examination, CGPSC State Service Examination, CLAT, CMAT, CSEET (Company Secretary Executive Entrance Test), CUET PG, CUET UG, DSSSB teacher and staff recruitment (Delhi), Delhi Police Constable (conducted by SSC), GPSC Class 1–2 (Gujarat), HPSC HCS (Haryana Civil Services), Indian Coast Guard Navik / Yantrik, JPSC Combined Civil Services, KPSC KAS (Karnataka Administrative Service), KVS teacher and staff recruitment, Kerala PSC exams (LDC, KAS and others), LIC AAO, MAH CET Law, MAT, MPPSC State Service Examination, MPSC State Services (Rajyaseva), NABARD Grade A, NCHM JEE (hotel management), NID Design Aptitude Test (DAT), NIFT entrance, NVS teacher and staff recruitment, OPSC Odisha Civil Services, RBI Assistant, RBI Grade B, RPF Constable, RPF Sub-Inspector, RPSC RAS/RTS, RRB Assistant Loco Pilot (ALP), RRB Group D (Level 1), RRB Junior Engineer (JE), Electrical, RRB NTPC, RRB Technician, SEBI Grade A, SSC CGL (Combined Graduate Level), SSC CHSL (Combined Higher Secondary Level), SSC CPO (Sub-Inspector in Delhi Police and CAPFs), SSC GD Constable, SSC Junior Engineer (JE), Electrical, SSC MTS and Havaldar, SSC Selection Posts, SSC Stenographer (Grade C and D), State AE / JE (Electrical), TGPSC (Telangana) Group 1, TNPSC Group 1, TNPSC Group 4, UKPSC Combined State Civil Services, UPPSC PCS (Combined State/Upper Subordinate Services), UPSC CAPF (Assistant Commandant), UPSC Civil Services (CSE), UPSC Combined Defence Services (CDS), UPSC Combined Geo-Scientist, UPSC EPFO (EO/AO, APFC), UPSC Engineering Services (ESE), Electrical, UPSC Indian Economic / Statistical Service (IES/ISS), UPSC NDA and NA, WBCS (West Bengal Civil Service), XAT | 71 |
 | [Quantitative aptitude](../modules/quant-aptitude.md) | AFCAT (Air Force Common Admission Test), AISSEE (Sainik School entrance), Agniveer (Army), CA Foundation, CAT, CLAT, CMA Foundation, CMAT, CSIR NET (JRF / Assistant Professor), CTET, CUET UG, DSSSB teacher and staff recruitment (Delhi), Delhi Police Constable (conducted by SSC), GATE Civil Engineering (CE), GATE Computer Science (CS), GATE Data Science and AI (DA), GATE Electrical Engineering (EE), GATE Electronics and Communication (EC), GATE Instrumentation Engineering (IN), GATE Mechanical Engineering (ME), IBPS Clerk, IBPS PO, IBPS RRB (Officer Scale I and Office Assistant), IBPS SO (Specialist Officer), IPMAT (IIM Indore), Indian Coast Guard Navik / Yantrik, JNV Selection Test (Navodaya, Class 6 and 9), Kerala PSC exams (LDC, KAS and others), LIC AAO, MAH MBA/MMS CET, MAT, NABARD Grade A, NCHM JEE (hotel management), NIFT entrance, NMAT, RBI Assistant, RBI Grade B, RPF Constable, RPF Sub-Inspector, RRB Assistant Loco Pilot (ALP), RRB Group D (Level 1), RRB Junior Engineer (JE), Electrical, RRB NTPC, RRB Technician, SBI Clerk (Junior Associate), SBI PO, SEBI Grade A, SNAP, SSC CGL (Combined Graduate Level), SSC CHSL (Combined Higher Secondary Level), SSC CPO (Sub-Inspector in Delhi Police and CAPFs), SSC GD Constable, SSC MTS and Havaldar, SSC Selection Posts, State TETs (UPTET, REET, MAHATET and others), TNPSC Group 4, UPSC CAPF (Assistant Commandant), UPSC Combined Defence Services (CDS), UPSC EPFO (EO/AO, APFC), XAT | 60 |

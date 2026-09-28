@@ -117,7 +117,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination 2025 (Advt. No. 22/2026) | ⚪ unverified | 2026-09-28 |
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE (latest) | ⚪ unverified | 2026-09-27 |
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ⚪ unverified | 2026-09-27 |
-| [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-27 |
+| [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-28 |
 | [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | 🟡 secondary | 2026-09-28 |
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-28 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS 2025 (Advt. No. 05 of 2025-26) | ⚪ unverified | 2026-09-28 |
