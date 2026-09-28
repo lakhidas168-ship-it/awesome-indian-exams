@@ -160,7 +160,7 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| CSIR NET (JRF / Assistant Professor) | National Testing Agency | <https://csirnet.nta.nic.in> | [open](../exams/teaching/csir-net.md) |
+| CSIR NET (JRF / Assistant Professor) | National Testing Agency | <https://csirnet.nta.ac.in> | [open](../exams/teaching/csir-net.md) |
 | CTET | Central Board of Secondary Education | <https://ctet.nic.in> | [open](../exams/teaching/ctet.md) |
 | DSSSB teacher and staff recruitment (Delhi) | Delhi Subordinate Services Selection Board | <https://dsssb.delhi.gov.in> | [open](../exams/teaching/dsssb.md) |
 | KVS teacher and staff recruitment | Kendriya Vidyalaya Sangathan | <https://kvsangathan.nic.in> | [open](../exams/teaching/kvs-recruitment.md) |
@@ -175,7 +175,7 @@ has to find the official one.
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
 | CUET PG | National Testing Agency | <https://exams.nta.nic.in/cuet-pg/> | [open](../exams/university-entrance/cuet-pg.md) |
-| CUET UG | National Testing Agency | <https://cuet.nta.nic.in> | [open](../exams/university-entrance/cuet-ug.md) |
+| CUET UG | National Testing Agency | <https://cuet.nta.ac.in> | [open](../exams/university-entrance/cuet-ug.md) |
 | IIT JAM | IITs and IISc (IIT Kharagpur for JAM 2027) | <https://jam.iitkgp.ac.in> | [open](../exams/university-entrance/iit-jam.md) |
 | NATA (architecture aptitude) | Council of Architecture | <https://www.nata.in> | [open](../exams/university-entrance/nata.md) |
 | NCHM JEE (hotel management) | National Testing Agency | <https://exams.nta.nic.in> | [open](../exams/university-entrance/nchm-jee.md) |
@@ -189,7 +189,7 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
-| AISSEE (Sainik School entrance) | National Testing Agency | <https://exams.nta.nic.in> | [open](../exams/school/aissee.md) |
+| AISSEE (Sainik School entrance) | National Testing Agency | <https://exams.nta.nic.in/sainik-school-society/> | [open](../exams/school/aissee.md) |
 | JNV Selection Test (Navodaya, Class 6 and 9) | Navodaya Vidyalaya Samiti | <https://navodaya.gov.in> | [open](../exams/school/jnvst.md) |
 
 ## Law entrance
