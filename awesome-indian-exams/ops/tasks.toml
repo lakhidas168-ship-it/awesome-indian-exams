@@ -2359,3 +2359,225 @@ accept = [
   "no plain http:// link remains on the page; each replacement opens with HTTP 200 from fetch_url and is recorded under Sources fetched",
   "verification updated honestly and the content gate passes with no plain-http warning on the page",
 ]
+
+# 2026-09-29, cloud Claude: official sites that answered 403 to the old user-agent (fixed in PR #9) can be verified now.
+
+[[task]]
+id = "T-330"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC NDA & NA page (exams/upsc/upsc-nda.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-331"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC CAPF (AC) page (exams/upsc/upsc-capf.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-332"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC Combined Medical Services page (exams/upsc/upsc-cms.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-333"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC EPFO page (exams/upsc/upsc-epfo.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-334"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC Combined Geo-Scientist page (exams/upsc/upsc-geoscientist.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-335"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC IES/ISS page (exams/upsc/upsc-ies-iss.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-336"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UPSC Indian Forest Service page (exams/upsc/upsc-ifos.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-337"
+lane = "hermes"
+focus = "core"
+priority = 1
+title = "Verify the UPSC ESE (Electrical) page (exams/engineering/upsc-ese-ee.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-338"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the CUET UG page (exams/university-entrance/cuet-ug.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-339"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the UGC NET page (exams/teaching/ugc-net.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+[[task]]
+id = "T-340"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Verify the CSIR NET page (exams/teaching/csir-net.md) against its current official notification; the site no longer blocks the hive"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run (HTTP 200 recorded under Sources fetched); its URL is under Official sources",
+  "verification = official only with that fetch; otherwise the page stays secondary or unverified and the notes say which URL failed and how",
+  "last_verified changes only when the page was checked against the fetched notification",
+]
+
+# 2026-09-29, cloud Claude: the four shared modules that feed the most exams are the thinnest (about 180-220 words). One fix lifts 58-72 exam pages each.
+
+[[task]]
+id = "T-341"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Deepen the shared module modules/reasoning.md (used by 72 exams, about 200 words today) into a real study map"
+accept = [
+  "a topic list with the official syllabus wording of at least three exams that use the module (SSC, IBPS/SBI, RRB where they apply), each official syllabus URL fetched this run and listed",
+  "per topic: what the official patterns ask and a free official or open resource (NCERT, NPTEL, PIB, e-books) linked, never coaching material",
+  "at least 600 words of original text; no invented weightages or numbers; the Where it counts table still generated from the registry",
+]
+
+[[task]]
+id = "T-342"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Deepen the shared module modules/general-awareness.md (used by 70 exams, about 200 words today) into a real study map"
+accept = [
+  "a topic list with the official syllabus wording of at least three exams that use the module (SSC, IBPS/SBI, RRB where they apply), each official syllabus URL fetched this run and listed",
+  "per topic: what the official patterns ask and a free official or open resource (NCERT, NPTEL, PIB, e-books) linked, never coaching material",
+  "at least 600 words of original text; no invented weightages or numbers; the Where it counts table still generated from the registry",
+]
+
+[[task]]
+id = "T-343"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Deepen the shared module modules/quant-aptitude.md (used by 59 exams, about 200 words today) into a real study map"
+accept = [
+  "a topic list with the official syllabus wording of at least three exams that use the module (SSC, IBPS/SBI, RRB where they apply), each official syllabus URL fetched this run and listed",
+  "per topic: what the official patterns ask and a free official or open resource (NCERT, NPTEL, PIB, e-books) linked, never coaching material",
+  "at least 600 words of original text; no invented weightages or numbers; the Where it counts table still generated from the registry",
+]
+
+[[task]]
+id = "T-344"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Deepen the shared module modules/english-language.md (used by 58 exams, about 200 words today) into a real study map"
+accept = [
+  "a topic list with the official syllabus wording of at least three exams that use the module (SSC, IBPS/SBI, RRB where they apply), each official syllabus URL fetched this run and listed",
+  "per topic: what the official patterns ask and a free official or open resource (NCERT, NPTEL, PIB, e-books) linked, never coaching material",
+  "at least 600 words of original text; no invented weightages or numbers; the Where it counts table still generated from the registry",
+]
+
+# 2026-09-29, cloud Claude: practice questions for the modules above (58 real questions exist for 118 exams).
+
+[[task]]
+id = "T-345"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "20 original practice questions for modules/quant-aptitude.md in questions/ (ids qa-...), with worked solutions"
+accept = [
+  "20 new JSON files that pass the question schema and tests; exams lists only exams whose official syllabus includes the topic",
+  "each answer re-computed by a short Python expression written in the solution, and the worked steps agree with it",
+  "no question copied or paraphrased from a paper, book or coaching source; source = original",
+]
+
+[[task]]
+id = "T-346"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "20 original practice questions for modules/reasoning.md in questions/ (ids rs-...), with worked solutions"
+accept = [
+  "20 new JSON files that pass the question schema and tests; exams lists only exams whose official syllabus includes the topic",
+  "each question has exactly one defensible answer that follows from the stated facts alone (series, coding-decoding, syllogism, direction, blood relation)",
+  "no question copied or paraphrased from a paper, book or coaching source; source = original",
+]
+
+[[task]]
+id = "T-347"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "20 original practice questions for modules/english-language.md in questions/ (ids en-...), with worked solutions"
+accept = [
+  "20 new JSON files that pass the question schema and tests; exams lists only exams whose official syllabus includes the topic",
+  "each item is original text written for this list, with the rule it tests named in the solution",
+  "no question copied or paraphrased from a paper, book or coaching source; source = original",
+]

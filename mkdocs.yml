@@ -63,7 +63,8 @@ exclude_docs: |
   tests_main/
   ops/*
   !ops/HIVE.md
-  docs/MAC-HANDOFF.md
+  docs/
+  notes.md
   .agents/
   opencode.json
 
