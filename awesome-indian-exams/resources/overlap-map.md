@@ -11,9 +11,9 @@ syllabus decides the depth.
 
 Most common modules for this family:
 
-- **Engineering mathematics** (10 exams)
+- **Engineering mathematics** (11 exams)
 - **Logical and analytical reasoning** (10 exams)
-- **Quantitative aptitude** (8 exams)
+- **Electrical engineering core** (8 exams)
 
 ## Start here: Engineering entrance: JEE and state CETs
 
@@ -145,12 +145,12 @@ Most common modules for this family:
 | [Physics (NCERT Class 11–12)](../modules/ncert-physics.md) | AP EAPCET, Agniveer (Navy), Agniveer Vayu (Air Force), BITSAT, COMEDK UGET, CUET UG, Indian Coast Guard Navik / Yantrik, JEE Advanced, JEE Main, KEAM, Karnataka CET (KCET), MHT CET, NEET UG, TG (Telangana) EAPCET, VITEEE, WBJEE | 16 |
 | [Chemistry (NCERT Class 11–12)](../modules/ncert-chemistry.md) | AP EAPCET, BITSAT, COMEDK UGET, CUET UG, JEE Advanced, JEE Main, KEAM, Karnataka CET (KCET), MHT CET, NEET UG, TG (Telangana) EAPCET, VITEEE, WBJEE | 13 |
 | [CSAT: comprehension, reasoning, basic numeracy](../modules/csat.md) | APSC Combined Competitive Examination (Assam), CGPSC State Service Examination, HPSC HCS (Haryana Civil Services), KPSC KAS (Karnataka Administrative Service), MPPSC State Service Examination, MPSC State Services (Rajyaseva), OPSC Odisha Civil Services, UKPSC Combined State Civil Services, UPPSC PCS (Combined State/Upper Subordinate Services), UPSC Civil Services (CSE), UPSC Indian Forest Service (IFoS) | 11 |
+| [Engineering mathematics](../modules/engineering-mathematics.md) | BARC OCES/DGFS (Scientific Officer), GATE Civil Engineering (CE), GATE Computer Science (CS), GATE Data Science and AI (DA), GATE Electrical Engineering (EE), GATE Electronics and Communication (EC), GATE Instrumentation Engineering (IN), GATE Mechanical Engineering (ME), PSU recruitment for EE graduates, State AE / JE (Electrical), UPSC Engineering Services (ESE), Electrical | 11 |
 | [Computer awareness](../modules/computer-awareness.md) | Delhi Police Constable (conducted by SSC), IBPS Clerk, IBPS PO, IBPS RRB (Officer Scale I and Office Assistant), RBI Assistant, RRB Junior Engineer (JE), Electrical, SBI Clerk (Junior Associate), SBI PO, SSC CGL (Combined Graduate Level), SSC CHSL (Combined Higher Secondary Level) | 10 |
-| [Engineering mathematics](../modules/engineering-mathematics.md) | GATE Civil Engineering (CE), GATE Computer Science (CS), GATE Data Science and AI (DA), GATE Electrical Engineering (EE), GATE Electronics and Communication (EC), GATE Instrumentation Engineering (IN), GATE Mechanical Engineering (ME), PSU recruitment for EE graduates, State AE / JE (Electrical), UPSC Engineering Services (ESE), Electrical | 10 |
 | [General science (NCERT Class 6–10 level)](../modules/general-science.md) | Agniveer (Army), CTET, RRB Assistant Loco Pilot (ALP), RRB Group D (Level 1), RRB Junior Engineer (JE), Electrical, RRB NTPC, RRB Technician, State TETs (UPTET, REET, MAHATET and others), UPSC Combined Defence Services (CDS), UPSC NDA and NA | 10 |
 | [Banking and financial awareness](../modules/banking-awareness.md) | IBPS Clerk, IBPS PO, IBPS RRB (Officer Scale I and Office Assistant), IBPS SO (Specialist Officer), NABARD Grade A, RBI Grade B, SBI Clerk (Junior Associate), SBI PO, SEBI Grade A | 9 |
 | [Data interpretation](../modules/data-interpretation.md) | CAT, CSIR NET (JRF / Assistant Professor), IBPS PO, MAT, SBI PO, SNAP, UGC NET, XAT | 8 |
-| [Electrical engineering core](../modules/ee-core.md) | GATE Electrical Engineering (EE), GATE Instrumentation Engineering (IN), PSU recruitment for EE graduates, RRB Junior Engineer (JE), Electrical, SSC Junior Engineer (JE), Electrical, State AE / JE (Electrical), UPSC Engineering Services (ESE), Electrical | 7 |
+| [Electrical engineering core](../modules/ee-core.md) | BARC OCES/DGFS (Scientific Officer), GATE Electrical Engineering (EE), GATE Instrumentation Engineering (IN), PSU recruitment for EE graduates, RRB Junior Engineer (JE), Electrical, SSC Junior Engineer (JE), Electrical, State AE / JE (Electrical), UPSC Engineering Services (ESE), Electrical | 8 |
 | [Biology (NCERT Class 11–12)](../modules/ncert-biology.md) | AP EAPCET, CUET UG, Karnataka CET (KCET), MHT CET, NEET UG, TG (Telangana) EAPCET | 6 |
 | [Child development and pedagogy](../modules/child-pedagogy.md) | CTET, DSSSB teacher and staff recruitment (Delhi), KVS teacher and staff recruitment, NVS teacher and staff recruitment, State TETs (UPTET, REET, MAHATET and others) | 5 |
 | [Environment and ecology](../modules/gs-environment.md) | UPPSC PCS (Combined State/Upper Subordinate Services), UPSC Civil Services (CSE), UPSC Engineering Services (ESE), Electrical, UPSC Indian Forest Service (IFoS) | 4 |
