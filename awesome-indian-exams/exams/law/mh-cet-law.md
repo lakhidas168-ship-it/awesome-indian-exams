@@ -31,7 +31,7 @@ universities. The two programmes have separate tests, brochures and schedules.
 | 2026 cycle (per brochures) | 3-year CET on 01–02.04.2026 (tentative); 5-year CET on 08.05.2026 (tentative) |
 | Qualification | 3-year: any bachelor's degree (10+2+3 pattern); 5-year: 10+2 (HSC) |
 | Minimum marks | 45% aggregate for Open/SEBC/EWS/OMS; 42% for VJNT/SBC/OBC (Maharashtra); 40% for SC/ST (Maharashtra) |
-| Age | No upper age limit for the 2026-27 cycle (subject to pending court cases) |
+| Age | No upper age limit for the 2026-27 cycle (subject to pending court cases); if a limit is imposed, 30 / 35 years (3-year) and 20 / 22 years (5-year), as on 01.07.2026 |
 | CET fee | Rs. 1300 (Open/OMS/J&K migrant); Rs. 1000 (Maharashtra backward classes, orphan, transgender, PWD) |
 
 ## Official sources
@@ -96,7 +96,12 @@ only on producing all mark lists); 5-year needs 10+2, with 3-year engineering di
 holders accepted on producing an equivalence certificate. Minimum aggregate marks are
 45% (Open, SEBC, EWS, OMS/All-India), 42% (VJNT, SBC, OBC of Maharashtra) and 40%
 (SC, ST of Maharashtra); rounding (44.50–44.99% is not 45%) is decided per the
-brochure rule upheld by the Bombay High Court in 2019.
+brochure rule upheld by the Bombay High Court in 2019. Both papers have no upper age
+limit for A.Y. 2026-27, a position that rests on writ petitions pending before the Supreme
+Court (WP (Civil) 1023/2016) and the Bombay High Court (WP 3235/2016); if a limit is
+imposed it would be 30 years (Open) and 35 years (SC, ST of Maharashtra) for the 3-year
+paper, and 20 years (Open, EWS) and 22 years (SC, ST of Maharashtra) for the 5-year paper,
+counted as on 1 July 2026.
 
 ## How to prepare (free, in order)
 
