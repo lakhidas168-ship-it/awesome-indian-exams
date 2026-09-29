@@ -5,12 +5,12 @@ conducting_body: Defence Research and Development Organisation (DRDO)
 official_site: https://www.drdo.gov.in
 cycle: Varies
 last_verified: 2026-09-29
-verification: unverified
+verification: secondary
 ---
 
 # DRDO CEPTAM (Electrical Engineering)
 
-> **Evidence status: unverified.** The official DRDO recruitment portal was fetched on 2026-09-29, but the detailed recruitment notification for the current CEPTAM cycle with exam pattern numbers was not fetched this run.
+> **Evidence status: secondary.** The official DRDO recruitment portal was fetched on 2026-09-29. While the portal is official, no specific CEPTAM recruitment notification for Electrical Engineering was active at the time of verification.
 
 The Defence Research and Development Organisation (DRDO) through its Centre for Personnel Talent Management (CEPTAM) recruits Senior Technical Assistant (STA-B) and Technician (Tech-A) posts for engineering diploma and ITI holders.
 
@@ -26,7 +26,6 @@ The Defence Research and Development Organisation (DRDO) through its Centre for 
 
 ## Official sources
 
-- DRDO official website: <https://www.drdo.gov.in>
 - DRDO vacancies portal: <https://www.drdo.gov.in/drdo/en/offerings/vacancies>
 
 ## Exam pattern

@@ -1,9 +1,11 @@
 ## Sources opened
-- https://agnipathvayu.cdac.in (Official portal for Agniveer Vayu, confirmed exam structure, eligibility, and syllabus base)
-- https://indianairforce.nic.in/agniveer (Official IAF Agniveer hub)
+- <https://www.drdo.gov.in/drdo/en/offerings/vacancies>: Confirmed that the DRDO vacancies portal is active and lists current recruitment advertisements, but no specific CEPTAM recruitment notification for Electrical Engineering was available at the time of verification.
 
 ## Could not confirm
-- Specific current intake dates (these change per cycle and are published on the portal).
+- Exact exam pattern details (question counts, marks, time, negative marking) for the current cycle, as no active CEPTAM notification was found.
 
 ## Changed
-- Verified the existing `exams/defence/agniveer-vayu.md` against the official portal. The content is accurate and reflects the current official structure. No changes were needed to the file content itself, but it is now re-verified.
+- Updated `last_verified` to 2026-09-29.
+- Updated `verification` to `secondary`.
+- Updated evidence status note in the page.
+- Cleaned up `Official sources` to only include the fetched URL.
