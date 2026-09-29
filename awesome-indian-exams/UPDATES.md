@@ -2,6 +2,10 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 15:43 UTC** · `T-515` · hermes · [Harvest inv:8ee61f3a into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-515.md)
+- **2026-09-29 15:42 UTC** · `T-511` · hermes · [Harvest inv:23d50db7 into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-511.md)
+- **2026-09-29 15:42 UTC** · `T-714` · hermes · [Verify exams/engineering/rrb-je-ee.md against official RRB CEN notification and update pattern](ops/done/T-714.md)
+- **2026-09-29 15:40 UTC** · `T-533` · hermes · [Harvest inv:d6eca5c4 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-533.md)
 - **2026-09-29 15:39 UTC** · `T-710` · opencode · [Add regression unit test for State AE/JE Electrical registry validation in tests/](ops/done/T-710.md)
 - **2026-09-29 15:38 UTC** · `T-613` · hermes · [Re-verify exams/engineering/psu-ee.md against current official notification and upgrade verification status](ops/done/T-613.md)
 - **2026-09-29 15:38 UTC** · `T-716` · hermes · [Verify exams/engineering/barc-oces-ee.md against official BARC OCES/DGFS brochure](ops/done/T-716.md)
