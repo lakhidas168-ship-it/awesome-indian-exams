@@ -224,6 +224,14 @@ title = "Civil engineering core"
 # ------------------------------------------------------------------ engineering (core focus)
 
 [[exam]]
+id = "nhpc-je-ee"
+name = "NHPC Junior Engineer (Electrical)"
+family = "engineering"
+body = "NHPC Limited"
+official_site = "https://www.nhpcindia.com"
+modules = ["ee-core", "general-awareness", "reasoning"]
+
+[[exam]]
 id = "ntpc-et-ee"
 name = "NTPC Engineering Executive Trainee (EET)"
 family = "engineering"
