@@ -23,9 +23,9 @@ covers in depth, plus non-technical reasoning and general awareness in Paper I, 
 | | |
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
-| Stages | Paper I (CBT, qualifying) → Paper II (CBT, determines final merit) → document verification |
-| 2026 cycle (per notice) | Online applications 02.09.2026–22.09.2026 (fee payment up to 23.09.2026, 23:00); Paper I Oct–Nov 2026 (tentative), Paper II Dec 2026 (tentative) |
-| Qualification | Degree in Electrical Engineering OR 3-year Diploma in Electrical Engineering (some organisations like BRO require 2 years experience with diploma; see notice) |
+| Stages | Paper I (CBT, qualifying) → Paper II (CBT, determines final merit) |
+| 2026 cycle (per notice) | Online applications 02.09.2026–22.09.2026; Paper I Oct–Nov 2026 (tentative), Paper II Dec 2026 (tentative) |
+| Qualification | Degree in Electrical Engineering OR 3-year Diploma in Electrical Engineering (some organisations require 2 years experience; see notice) |
 | Age | Up to 30 years for most departments; up to 32 years for CPWD (see notice) |
 
 ## Official sources
@@ -57,9 +57,7 @@ The **final merit list is determined solely on normalized marks in Paper II**.
 |---|---:|---:|
 | Part-B General Engineering (Electrical) | 100 | 300 |
 
-*Exam tools on console:* A virtual scientific calculator and relevant engineering tables (such as IS 456
-and steam tables) are integrated directly into the computer console interface during CBT. Physical calculators
-and paper tables are strictly prohibited in the exam lab.
+*Exam tools on console:* A virtual scientific calculator and relevant engineering tables are integrated directly into the computer console interface during CBT. Physical calculators and paper tables are strictly prohibited.
 
 ## Syllabus
 
@@ -77,7 +75,7 @@ The official syllabus covers general non-technical abilities and diploma-level e
 ### General Engineering (Electrical) (Paper I & Paper II)
 
 Covered under the shared [Electrical Engineering core module](../../modules/ee-core.md). The official
-curriculum specifies eleven subject areas:
+curriculum specifies:
 
 1. **Fundamentals of Electrical Engineering:** circuit elements (resistors, capacitors, inductors, batteries)
    and factors affecting their values; concepts of voltage, current, power, energy, flux, and standard units;
@@ -90,97 +88,26 @@ curriculum specifies eleven subject areas:
 4. **Measurement and Measuring Instruments:** measurement of voltage, current, power, and power factor;
    classification of instruments and types of errors; PMMC (galvanometer, ammeter, voltmeter); moving iron;
    dynamometer wattmeter; resistance bridges (Wheatstone bridge, Kelvin's double bridge); Megger;
-   induction energy meter construction and calibration of single-phase electronic energy meters;
-   instrument transformers (current transformers CT and potential transformers PT) and their operating precautions.
-5. **Electrical Machines:** single-phase and three-phase transformers (construction, equivalent circuit, losses,
-   efficiency, all-day efficiency, parallel operation); DC machines (types, characteristics, losses, efficiency,
-   speed control, starters); AC machines (single-phase and three-phase induction motors, starting methods,
-   torque-speed characteristics, electrical braking).
-6. **Special Electric Machines and Synchronous Generators:** fractional-kilowatt motors and servomotors;
-   synchronous generators (alternator EMF equation, pitch and distribution factors, armature reaction,
-   voltage regulation, parallel operation, and synchronization).
-7. **Generation, Transmission and Distribution:** power plant types and economics (load factor, demand factor,
-   diversity factor); power factor improvement; types of transmission and distribution lines; transmission line
-   parameters, corona phenomenon, and Ferranti effect; circuit breakers and protection schemes for generators
-   and transformers; underground cables, coaxial cables, ratings, dielectric stress, and cable grading.
-8. **Estimation & Costing:** estimation of internal wiring and lighting schemes; electrical installation of
-   machines; earthing practices and relevant Indian Electricity (IE) Rules.
-9. **Utilization of Electrical Energy:** illumination laws and lighting design; electric heating methods;
-   electric welding; electroplating; electric traction mechanics and industrial electric drives.
-10. **Basic Electronics:** P-N junction diodes, rectifiers, wave-shaping circuits (clipping and clamping);
-    bipolar junction transistors (BJT) and field-effect transistors (FET), configurations, characteristics,
-    small-signal amplifiers, and oscillators.
-11. **Power Electronics:** static V-I characteristics of thyristors (SCR); firing and gating circuits;
-    DC-to-DC converters (Buck, Boost, and Buck-Boost converters); single-phase half-controlled, full-controlled,
-    and midpoint-controlled rectifiers.
-
-## How to prepare (free, in order)
-
-### 1. 5-Pillar technical distribution
-
-Analysis of historical CBT question sets reveals a consistent distribution across five core pillars:
-- **Pillar 1: Electrical Machines (~30%):** Transformers, DC machines, 3-phase induction motors, and synchronous
-  machines account for nearly a third of technical marks. Focus on equivalent circuits, loss formulas, torque-speed
-  characteristics, and starting methods.
-- **Pillar 2: Basic Electrical & Networks (~25%):** Circuit laws, network theorems (Thevenin, Norton, Superposition),
-  transients, resonance conditions, and magnetic circuits.
-- **Pillar 3: Power Systems (~25%):** Generation plant economics (diversity and load factors), line parameters,
-  underground cables, symmetrical/unsymmetrical faults, and protection switchgear.
-- **Pillar 4: Measurements & Instrumentation (~15%):** Deflection torques, PMMC vs moving iron instruments,
-  ammeter shunts ($R_{sh} = R_m / (m - 1)$), voltmeter multipliers ($R_{se} = R_m (m - 1)$), two-wattmeter method,
-  and bridge circuits.
-- **Pillar 5: Electronics, Power Electronics & Applied Topics (~5–10%):** Semiconductor basics, thyristor gating,
-  DC-DC converters, and the SSC-specific applied topics.
-
-### 2. Bridge the SSC-specific gaps
-
-Candidates coming from GATE or engineering college backgrounds often miss marks on subjects that are excluded
-from GATE but heavily tested in SSC JE:
-- **Estimation and Costing & IE Rules:** Memorize Indian Electricity Rules for domestic and industrial wiring.
-  Key rules include maximum points and wattage on sub-circuits (lighting: $\le 800\text{ W}$ across $\le 10$ points;
-  power: $\le 3000\text{ W}$ across $\le 2$ points), minimum insulation resistance standards, and substation
-  earthing limits ($< 0.5\ \Omega$ for large stations, $< 1\ \Omega$ for major substations).
-- **Utilization of Electrical Energy:** Master illumination definitions (luminous flux, candela, lux), the inverse
-  square law ($E = I / d^2$), Lambert's cosine law ($E = (I / h^2) \cos^3 \theta$), and comparative characteristics
-  of electric heating (dielectric vs induction) and electric welding.
-- **Instrument Transformers & Energy Meters:** Know why a CT secondary must never be open-circuited while energized,
-  and understand creeping prevention in induction energy meters (two diametrically opposite holes drilled in the disc).
-
-### 3. Master the 36-second reflex execution
-
-In Paper I CBT, you face 200 questions in 120 minutes — an average budget of **36 seconds per question**:
-- Allocate roughly 60 minutes for Technical (100 Qs), 35 minutes for Reasoning (50 Qs), and 25 minutes for General
-  Awareness (50 Qs).
-- Look for physical invariants before executing calculations: for example, maximum torque ($T_{max}$) of an induction
-  motor is independent of rotor resistance $R_2$; eddy current loss ($P_e$) is independent of frequency if supply
-  voltage $V$ is constant; and Tellegen's theorem holds for any lumped network regardless of linearity.
-- Be vigilant of common setter traps: confusing line and phase quantities in Star vs Delta, swapping ammeter shunt
-  and voltmeter multiplier scaling factors, and confusing transformer unit utilization (86.6%) with bank capacity (57.7%)
-  in open-delta (V-V) systems.
-
-### 4. Non-technical discipline for Paper I qualification
-
-Because Paper I requires clearing competitive cut-offs to reach Paper II, technical strength alone is insufficient:
-- General Intelligence & Reasoning (50 marks) and General Awareness (50 marks) represent 50% of Paper I.
-- Practice daily sectional tests in reasoning to achieve 42+ marks within 35 minutes.
-- Target steady scores in General Science, Polity, and Geography to comfortably surpass the qualifying threshold.
-
-### 5. Paper II precision focus
-
-Since **100% of the final merit is determined by Paper II**, precision is paramount:
-- Paper II has 100 questions for 300 marks with a heavy −1.00 negative penalty (33.3% deduction).
-- Avoid speculative guessing. Use the on-screen scientific calculator for multi-step calculations, but rely on
-  ratio comparisons and order-of-magnitude estimates where possible to maintain momentum.
+   induction energy meter; CT, PT and their uses.
+5. **Electrical Machines:** Single-phase and Three-phase Transformers; DC Machines (types, characteristics,
+   losses, efficiency, applications); AC Machines (Induction Motors: starting, speed control, braking,
+   torque-speed characteristics); Special Electric Machines and Synchronous Generators (fractional motors,
+   servomotors, armature reaction, parallel operation, synchronization).
+6. **Generation, Transmission and Distribution:** power stations, load/demand/diversity factors; power factor
+   improvement; transmission/distribution lines, parameters, Corona and Ferranti effects; circuit breakers;
+   protection of generators and transformers; coaxial cables.
+7. **Estimation & Costing:** estimation of lighting schemes; electric installation of machines; IE Rules;
+   earthing practices.
+8. **Utilization of Electrical Energy:** illumination, electric heating, welding, electroplating, traction,
+   and drives.
+9. **Basic Electronics:** P-N Junction Diodes, rectifiers, wave-shapers, clipping, clamping; BJT and FET
+   transistors (characteristics, amplifiers, oscillators).
+10. **Power Electronics:** static V-I characteristics of Thyristor; firing/gating circuits; DC-DC conversion
+    (Buck, Boost, Buck-Boost); single-phase rectifiers.
 
 ## Free resources
 
-- [EE free resources](../../resources/ee-free-resources.md) · [EE subject map](../../resources/ee-subject-map.md)
-- [General Intelligence and Reasoning module](../../modules/reasoning.md)
-- [General Awareness module](../../modules/general-awareness.md)
-- [Electrical Engineering core module](../../modules/ee-core.md)
-- NPTEL open video courses for Core EE:
-  - Basic Electrical Technology (IIT Kharagpur / Prof. L. Umanand, IISc)
-  - Electrical Machines (IIT Kharagpur / Prof. D. Kastha)
-  - Power System Engineering (IIT Kharagpur / Prof. D. Das)
-  - Electrical Measurement and Electronic Instruments (IIT Kharagpur / Prof. A. Chatterjee)
-- Official previous years' question papers and answer keys directly on <https://ssc.gov.in>.
+- [SSC official website](https://ssc.gov.in) (for previous year papers and official notices).
+- [Electrical Engineering core module](../../modules/ee-core.md) (for technical concepts).
+- [Reasoning module](../../modules/reasoning.md) (for non-technical preparation).
+- [General Awareness module](../../modules/general-awareness.md) (for general knowledge).
