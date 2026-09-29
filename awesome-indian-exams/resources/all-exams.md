@@ -18,6 +18,7 @@ has to find the official one.
 | GATE Electronics and Communication (EC) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-ec.md) |
 | GATE Instrumentation Engineering (IN) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-in.md) |
 | GATE Mechanical Engineering (ME) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-me.md) |
+| POWERGRID Diploma Trainee (Electrical) | Power Grid Corporation of India Limited | <https://www.powergrid.in> | [open](../exams/engineering/pgcil-dt-ee.md) |
 | PSU recruitment for EE graduates | Central PSUs | <https://www.ntpc.co.in> | [open](../exams/engineering/psu-ee.md) |
 | RRB Junior Engineer (JE), Electrical | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/engineering/rrb-je-ee.md) |
 | SSC Junior Engineer (JE), Electrical | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/engineering/ssc-je-ee.md) |

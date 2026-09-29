@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 15:45 UTC** · `T-719` · hermes · [Verify exams/engineering/pgcil-dt-ee.md against official PGCIL Diploma Trainee notification](ops/done/T-719.md)
 - **2026-09-29 15:43 UTC** · `T-515` · hermes · [Harvest inv:8ee61f3a into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-515.md)
 - **2026-09-29 15:42 UTC** · `T-511` · hermes · [Harvest inv:23d50db7 into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-511.md)
 - **2026-09-29 15:42 UTC** · `T-714` · hermes · [Verify exams/engineering/rrb-je-ee.md against official RRB CEN notification and update pattern](ops/done/T-714.md)

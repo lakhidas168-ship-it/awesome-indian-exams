@@ -46,7 +46,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 119 exam pages written, 119 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 120 exam pages written, 120 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -60,6 +60,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [GATE Electronics and Communication (EC)](exams/engineering/gate-ec.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Instrumentation Engineering (IN)](exams/engineering/gate-in.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
+| [POWERGRID Diploma Trainee (Electrical)](exams/engineering/pgcil-dt-ee.md) | POWERGRID (Power Grid Corporation of India Limited) | POWERGRID/CTUIL Non-Executive Trainee 2026 (Advt CC/01/2026) | ✅ official | 2026-09-29 |
 | [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ✅ official | 2026-09-29 |
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 04/2026 | ✅ official | 2026-09-29 |
 | [SSC Junior Engineer (JE) — Electrical](exams/engineering/ssc-je-ee.md) | Staff Selection Commission | SSC JE 2026 | ✅ official | 2026-09-29 |
