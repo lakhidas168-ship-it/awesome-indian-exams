@@ -105,7 +105,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2026 | ✅ official | 2026-09-29 |
 | [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | ✅ official | 2026-09-29 |
 | [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2027 | 🟡 secondary | 2026-09-28 |
-| [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | ⚪ unverified | 2026-09-28 |
+| [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | ⚪ unverified | 2026-09-29 |
 | [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO EO/AO (Special Advt 52/2025) and APFC (Special Advt 52/2026) | ✅ official | 2026-09-29 |
 | [UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)](exams/upsc/upsc-ies-iss.md) | Union Public Service Commission | IES/ISS 2026 | 🟡 secondary | 2026-09-29 |
 | [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | ✅ official | 2026-09-29 |
@@ -119,7 +119,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [APSC Combined Competitive Examination (Assam)](exams/state-psc/apsc-cce.md) | Assam Public Service Commission | CCE 2025 (Advt. 01/2026) | ⚪ unverified | 2026-09-29 |
 | [BPSC Combined Competitive Examination](exams/state-psc/bpsc-cce.md) | Bihar Public Service Commission | BPSC 71st CCE (2025) | 🟡 secondary | 2026-09-27 |
 | [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Examination 2025 (Advt 06/2025) | ✅ official | 2026-09-28 |
-| [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-28 |
+| [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-29 |
 | [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination (Advt. No. 22/2026, published 30.01.2026) | ⚪ unverified | 2026-09-29 |
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE-2025 (Advt. No. 01/2026) | ✅ official | 2026-09-28 |
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ✅ official | 2026-09-28 |
