@@ -18,17 +18,17 @@ GATE Electrical Engineering (EE) is a national-level examination used for M.Tech
 |---|---|
 | Conducted by | IISc Bengaluru and seven IITs for NCB-GATE (IIT Madras organises GATE 2027) |
 | Application window | 2 September to 5 October 2026 (regular, without late fee); extended to 12 October 2026 (with late fee) |
-| Correction window | 14 to 21 October 2026 |
-| Exam dates | 6, 7, 13, 14, 20 and 21 February 2027; paper-wise schedule on the official site |
+| Last date for changes | 21 October 2026 — category, paper and exam-city choices, adding a paper, and personal details (an extra fee may apply) |
+| Exam dates | 6, 7, 13, 14, 20 and 21 February 2027, in forenoon and afternoon sessions; paper-wise schedule on the official site |
 | Result | 19 March 2027 |
-| Who can apply | Candidates in the 3rd or higher year of any government-approved undergraduate programme, or who have completed one, in Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities; no age limit and no limit on the number of attempts |
+| Who can apply | Candidates in the 3rd or higher year of any government-approved undergraduate programme, or who have completed one, in Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities; no age limit |
 | Score validity | 3 years |
 | Used for | M.Tech/ME/PhD admission with financial assistance at MoE-supported institutes, and PSU recruitment |
 
 ## Official sources
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
-- GATE 2027 Information Brochure: <https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf>
+- GATE 2027 Information Brochure, revised 27 September 2026 (pattern, eligibility, important dates, syllabus and the "Use of GATE Score for Employment" list): <https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf>
 - Test papers and syllabus index: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
 - EE syllabus PDF (GATE 2027): <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf>
 - Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
@@ -46,14 +46,15 @@ GATE Electrical Engineering (EE) is a national-level examination used for M.Tech
 | **Total** | **100** |
 
 - **Questions:** 65 in total — 10 in General Aptitude and 55 in the EE paper. Engineering Mathematics is a paper-specific section of 13 marks inside the subject paper's 85; the Electrical Engineering questions are the remaining 72.
-- **Duration:** 3 hours (180 minutes).
+- **Duration:** 3 hours (180 minutes). PwD candidates are allowed compensatory time of 20 minutes per hour.
 - **Question types:** MCQ (Multiple Choice Question), MSQ (Multiple Select Question) and NAT (Numerical Answer Type). Questions carry 1 or 2 marks.
-- **Negative marking:** Only for MCQs. 1/3 mark is deducted for a wrong 1-mark MCQ and 2/3 mark for a wrong 2-mark MCQ. There is no negative marking for MSQ or NAT, and no partial marking in MSQ.
-- **Mode:** Computer Based Test (CBT) in English; only the on-screen virtual scientific calculator may be used for rough work.
+- **Negative marking:** Only for MCQs. 1/3 mark is deducted for a wrong 1-mark MCQ and 2/3 mark for a wrong 2-mark MCQ. There is no negative marking for MSQ or NAT.
+- **No partial marking:** There is no partial marking for any question — an MSQ is either fully correct or scores nothing.
+- **Mode:** Computer Based Test (CBT) in English; only the on-screen virtual calculator may be used for calculations.
 
 ## Syllabus
 
-The GATE 2027 syllabi have been revised. The official EE syllabus consists of 10 sections:
+The GATE 2027 syllabi have been revised. The official EE syllabus (Information Brochure, Appendix D) consists of 10 sections:
 
 1. **Engineering Mathematics:** Linear Algebra, Calculus, Differential Equations, Complex Variables, Probability and Statistics.
 2. **Electric Circuits:** Network elements, KCL, KVL, nodal and mesh analysis, network theorems (Thevenin's, Norton's, Superposition, Maximum Power Transfer), transient response, sinusoidal steady-state analysis, resonance, two-port networks, balanced three-phase circuits, star-delta transformation, complex power and power factor.
@@ -68,6 +69,12 @@ The GATE 2027 syllabi have been revised. The official EE syllabus consists of 10
 
 For detailed topics, refer to the [official GATE EE syllabus PDF](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf).
 
+## What a GATE EE score opens up
+
+A qualifying GATE score does more than unlock postgraduate admission. The official GATE 2027 Information Brochure notes that several Public Sector Undertakings (PSUs) use GATE scores in recruitment, and it lists those that have done so in recent years — a long roll that includes NTPC, POWERGRID, NPCIL, NLC India, Coal India, DVC, IOCL, ONGC, GAIL, BHEL, SAIL, RINL, NALCO, AAI and NHAI. Direct recruitment to some central Group-A posts (for example Senior Field Officer (Tele) and Senior Research Officer) is now made on the GATE score as well.
+
+Qualifying alone does not guarantee a job: each employer runs its own shortlisting, and often a group discussion and/or interview on top of the score. The [PSU recruitment tracker](psu-ee.md) records the current EE channel and advertisement for each PSU.
+
 ## How to prepare (free, in order)
 
 1. **Start from the syllabus:** Work through the revised official syllabus section by section, so nothing is under-covered or over-studied.
@@ -76,6 +83,7 @@ For detailed topics, refer to the [official GATE EE syllabus PDF](https://gate20
 4. **Machines and power:** Study Electrical Machines before Power Systems, then keep Electrical and Electronic Measurements and Electromagnetic Fields as weekly blocks.
 5. **Devices before converters:** Cover Analog and Digital Electronics before Power Electronics.
 6. **Practise past papers:** Solve official GATE EE previous-year papers topic by topic using only the on-screen virtual calculator, and finish with full-length 3-hour CBT sessions.
+7. **Think about the score, not just the cut-off:** Since many PSUs shortlist on the GATE score, aim for a strong rank rather than merely qualifying.
 
 ## Free resources
 
