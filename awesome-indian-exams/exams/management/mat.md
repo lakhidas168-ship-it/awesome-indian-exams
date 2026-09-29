@@ -3,32 +3,35 @@ title: MAT (Management Aptitude Test)
 exam_id: mat
 conducting_body: All India Management Association
 official_site: https://mat.aima.in
-cycle: Multiple sessions per year
+cycle: Four times a year (February, May, September, December)
 last_verified: 2026-09-29
 verification: official
 ---
 
 # MAT (Management Aptitude Test)
 
-> **Evidence status: 🟢 official.** All exam pattern and eligibility details are verified against the official AIMA information page for the December 2026 cycle.
+> **Evidence status: 🟢 official.** All exam pattern, eligibility, mode, and fee details are verified against the official AIMA "Information to Candidates for MAT December 2026" page fetched this run.
 
-MAT is AIMA's management entrance, held several times a year and accepted by many business schools.
+MAT is AIMA's management entrance, conducted four times a year and accepted by 600+ business schools.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | All India Management Association (AIMA) |
-| Mode | Paper-based (PBT), Computer-based (CBT) |
+| Mode | Paper-based (PBT), Computer-based (CBT), or Both (PBT+CBT) |
 | Duration | 120 minutes |
 | Total Questions | 150 |
 | Negative Marking | -0.25 marks per incorrect answer |
 | Eligibility | Graduates in any discipline; final year students can apply |
+| Fee (PBT or CBT) | ₹2,300 |
+| Fee (PBT + CBT) | ₹4,000 |
+| Score Validity | 1 year (best score from multiple attempts accepted) |
 
 ## Official sources
 
 - MAT official website: <https://mat.aima.in>
-- MAT information page (AIMA): <https://www.aima.in/content/testing-and-assessment/mat/mat>
+- AIMA "Information to Candidates for MAT December 2026": <https://www.aima.in/content/testing-and-assessment/mat/mat>
 
 ## Exam pattern
 
