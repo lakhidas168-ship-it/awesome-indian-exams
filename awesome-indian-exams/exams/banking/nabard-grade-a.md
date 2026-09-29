@@ -4,13 +4,13 @@ exam_id: nabard-grade-a
 conducting_body: National Bank for Agriculture and Rural Development
 official_site: https://www.nabard.org
 cycle: NABARD Grade A (latest)
-last_verified: 2026-09-27
+last_verified: 2026-09-29
 verification: unverified
 ---
 
 # NABARD Grade A (Assistant Manager)
 
-> **Evidence status: 🔴 unverified.** The official career page of NABARD is currently unreachable or not returning the expected notification documents. The facts below are based on historical data and require verification against the latest official notification. Always read the current notice before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The official career page of NABARD is currently not hosting a live notification for the Grade A exam. The facts below are based on historical data and require verification against the latest official notification. Always read the current notice before you apply or pay a fee.
 
 NABARD Grade A recruits Assistant Managers for the National Bank for Agriculture and Rural Development.
 Economic and social issues and agriculture and rural development (ESI and ARD) are the core of Phase II.
