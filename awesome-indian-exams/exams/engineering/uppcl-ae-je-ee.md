@@ -42,10 +42,3 @@ See the official notification for the detailed syllabus.
 ## Free resources
 
 - [UPPCL Official Website](https://uppcl.up.nic.in) (for notifications and results)
-
-## How to prepare (free, in order)
-
-1. **Understand the pattern:** Download the latest notification from the official website.
-2. **Core Subjects:** Focus on the [EE Core](../../modules/ee-core.md) module.
-3. **General Awareness:** Study [General Awareness](../../modules/general-awareness.md).
-4. **Practice:** Solve previous years' papers available on the official website or through standard engineering preparation resources.
