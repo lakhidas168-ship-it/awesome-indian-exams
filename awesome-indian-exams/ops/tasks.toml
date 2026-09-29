@@ -3865,6 +3865,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, lakhidas168, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: official_site=https://apsc.nic.in"]
 
 [[task]]
 id = "T-645"
@@ -3877,6 +3878,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mpsc.gov.in; official_site=https://mpsc.gov.in/"]
 
 [[task]]
 id = "T-646"
@@ -3889,6 +3891,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts dasmonaj190) found candidate official links - fetch each with the fetch tool before using it: official_site=https://hpsc.gov.in"]
 
 [[task]]
 id = "T-647"
@@ -3901,6 +3904,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: official_site=https://rpsc.rajasthan.gov.in"]
 
 [[task]]
 id = "T-648"
@@ -3913,6 +3917,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.keralapsc.gov.in/extra-ordinary-gazette-date-31082026; official_site=https://www.keralapsc.gov.in; pattern_url=https://keralapsc.gov.in/syllabus-kerala-administrative-service-preliminary-examination; pattern_url=https://www.keralapsc.gov.in/kerala-administrative-service; syllabus_url=https://keralapsc.gov.in/syllabus-kerala-administrative-service-preliminary-examination; syllabus_url=https://www.keralapsc.gov.in/kerala-administrative-service"]
 
 [[task]]
 id = "T-649"
@@ -3925,6 +3930,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications; official_site=https://portal-psc.ap.gov.in/; pattern_url=https://portal-psc.ap.gov.in/HomePages/Group-ISyllabus18; syllabus_url=https://portal-psc.ap.gov.in/HomePages/Group-ISyllabus18"]
 
 [[task]]
 id = "T-650"
@@ -3937,6 +3943,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; notification_url=https://www.aima.in/content/testing-and-assessment/mat/mat; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/; pattern_url=https://www.aima.in/content/testing-and-assessment/mat/mat"]
 
 [[task]]
 id = "T-651"
@@ -3949,6 +3956,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; notification_url=https://www.aima.in/content/testing-and-assessment/mat/mat; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/; pattern_url=https://www.aima.in/content/testing-and-assessment/mat/mat"]
 
 [[task]]
 id = "T-652"
@@ -3961,6 +3969,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353; official_site=https://sbi.co.in; pattern_url=https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353; syllabus_url=https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353"]
 
 [[task]]
 id = "T-653"
@@ -3973,6 +3982,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, monojitdeb7775, rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final; official_site=https://licindia.in; official_site=https://licindia.in/; pattern_url=https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final; syllabus_url=https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final; syllabus_url=https://licindia.in/documents/d/guest/syllabus-for-main-examination"]
 
 [[task]]
 id = "T-654"
@@ -3985,6 +3995,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ibpsreg.ibps.in/nbardamoct25/; official_site=https://www.nabard.org; official_site=https://www.nabard.org/"]
 
 [[task]]
 id = "T-655"
@@ -3997,6 +4008,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, monojitdeb7775, rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://kvsangathan.nic.in/en/document/recruitment-notification-no-1-2025-filling-up-the-teaching-and-non-teaching-posts-in-kvs-through-direct-recruitment/; official_site=https://kvsangathan.nic.in; official_site=https://kvsangathan.nic.in/; pattern_url=https://kvsangathan.nic.in/en/recruitment/; pattern_url=https://kvsangathan.nic.in/en/syllabus/?_archive=1; syllabus_url=https://kvsangathan.nic.in/en/document/syllabus-of-tier-ii-examination-for-direct-recruitment-recruitment-notification-01-2025/; syllabus_url=https://kvsangathan.nic.in/en/syllabus/?_archive=1"]
 
 [[task]]
 id = "T-656"
@@ -4009,6 +4021,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf; official_site=https://navodaya.gov.in; pattern_url=https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf; syllabus_url=https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf"]
 
 [[task]]
 id = "T-657"
@@ -4045,6 +4058,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts rajon369963, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; syllabus_url=https://www.upsc.gov.in/examinations/revised-syllabus-scheme"]
 
 [[task]]
 id = "T-660"
@@ -4057,6 +4071,7 @@ accept = [
   "frontmatter verification upgraded to official only if the official page was fetched with HTTP 200",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts lakhidas168, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; notification_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; official_site=https://upsc.gov.in; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; pattern_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; syllabus_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf"]
 
 [[task]]
 id = "T-019"
