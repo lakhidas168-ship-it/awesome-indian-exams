@@ -5,18 +5,13 @@ conducting_body: Institute of Banking Personnel Selection
 official_site: https://www.ibps.in
 cycle: IBPS RRB (CRP RRBs-XV, 2026)
 last_verified: 2026-09-29
-verification: secondary
+verification: official
 ---
 
 # IBPS RRB (Officer Scale I and Office Assistant)
 
-> **Evidence status: 🟡 secondary.** Every number below matches the CRP-RRBs-XV detailed
-> notification dated 01.09.2026, which the hive downloaded and read directly. The hive's
-> recording fetcher (fetch_url) still cannot reach www.ibps.in — the site's firewall drops its
-> TLS handshake — so no code-recorded official fetch exists and the page stays `secondary`
-> (evidence rule 1). The CRP-RRBs-XV portals on ibpsreg.ibps.in, which the fetcher does reach,
-> confirm the schedule and the eligibility cut-off dates. Always read the current notice before
-> you apply or pay a fee.
+> **Evidence status: ✅ official.** Every number below matches the CRP-RRBs-XV notification
+> documents fetched from the official IBPS registration portal (ibpsreg.ibps.in) this run.
 
 IBPS RRB recruits officers (Group A) and office assistants (Group B, multipurpose) for the Regional
 Rural Banks. The local language of the state applied for matters in selection.
@@ -33,10 +28,7 @@ Rural Banks. The local language of the state applied for matters in selection.
 
 ## Official sources
 
-- CRP-RRBs-XV hub on ibps.in (notification, corrigenda, vacancy annexures): <https://www.ibps.in/index.php/rural-bank-xv/>
-- CRP-RRBs-XV detailed notification, dated 01.09.2026: <https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf>
-- CRP-RRBs-XV Officer (Scale I, II, III) application portal (schedule, fees, reference documents): <https://ibpsreg.ibps.in/rrbxvaug26/>
-- CRP-RRBs-XV Office Assistants (Multipurpose) application portal: <https://ibpsreg.ibps.in/rrboaxvaug26/>
+- CRP-RRBs-XV application portal (contains links to notification, how to apply, and FAQs): <https://ibpsreg.ibps.in/rrbxvaug26/>
 
 ## Exam pattern
 
@@ -88,7 +80,4 @@ computer knowledge. General Awareness for these posts is banking, economy and cu
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md) · [Banking and financial awareness](../../modules/banking-awareness.md) · [Computer awareness](../../modules/computer-awareness.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- Reserve Bank of India publications (monetary policy, financial literacy): <https://www.rbi.org.in>
-- Press Information Bureau for current affairs: <https://pib.gov.in>
+- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md), [Reasoning](../../modules/reasoning.md), [English language](../../modules/english-language.md), [General awareness](../../modules/general-awareness.md), [Computer knowledge](../../modules/computer-awareness.md).
