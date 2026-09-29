@@ -18,7 +18,7 @@ GATE Electrical Engineering (EE) is a premier national-level examination used fo
 |---|---|
 | Conducted by | IISc Bengaluru and seven IITs for NCB-GATE (IIT Madras organises GATE 2027) |
 | Exam dates | 6, 7, 13, 14, 20 and 21 February 2027; paper-wise schedule on the official site |
-| Who can apply | Students in the 3rd year or higher of a UG programme, and graduates; no age limit |
+| Who can apply | Students currently in the 3rd year or higher of a government-approved bachelor's programme, and graduates, in Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities; no age limit and no limit on the number of attempts |
 | Score validity | 3 years |
 
 ## Official sources
@@ -30,18 +30,21 @@ GATE Electrical Engineering (EE) is a premier national-level examination used fo
 - Important dates: <https://gate2027.iitm.ac.in/important_dates>
 - Eligibility criteria: <https://gate2027.iitm.ac.in/eligibility_criteria>
 - FAQs: <https://gate2027.iitm.ac.in/faqs>
+- Notifications and updates: <https://gate2027.iitm.ac.in/notifications>
 
 ## Exam pattern
 
-| Section | Questions | Marks |
-|---|---:|---:|
-| General Aptitude (GA) | 10 | 15 |
-| Subject Questions (EE) | 55 | 85 |
-| **Total** | **65** | **100** |
+| Section | Marks |
+|---|---:|
+| General Aptitude (GA) | 15 |
+| Engineering Mathematics | 13 |
+| Subject Questions (EE) | 72 |
+| **Total** | **100** |
 
-- **Duration:** 3 hours.
+- **Questions:** 65 in total — 10 in General Aptitude and 55 in the EE paper.
+- **Duration:** 3 hours (180 minutes).
 - **Question types:** MCQ (Multiple Choice Question), MSQ (Multiple Select Question), NAT (Numerical Answer Type). Questions carry 1 or 2 marks.
-- **Negative marking:** Only for MCQs. 1/3 mark deducted for 1-mark MCQs, 2/3 mark for 2-mark MCQs. No negative marking for MSQ or NAT.
+- **Negative marking:** Only for MCQs. 1/3 mark deducted for 1-mark MCQs, 2/3 mark for 2-mark MCQs. No negative marking for MSQ or NAT, and no partial marking in MSQ.
 - **Mode:** Computer Based Test (CBT) in English, with an on-screen virtual scientific calculator.
 
 ## Syllabus
