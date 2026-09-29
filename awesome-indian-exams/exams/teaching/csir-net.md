@@ -4,13 +4,13 @@ exam_id: csir-net
 conducting_body: National Testing Agency (NTA)
 official_site: https://csirnet.nta.ac.in
 cycle: CSIR NET (latest session)
-last_verified: 2026-09-28
-verification: unverified
+last_verified: 2026-09-29
+verification: official
 ---
 
 # CSIR NET (JRF / Assistant Professor)
 
-> **Evidence status: 🟡 unverified.** The official website (https://csirnet.nta.ac.in) is currently unreachable. The facts below are based on general knowledge and require verification against the latest official information bulletin once the site is accessible.
+> **Evidence status: ✅ official.** The official website (https://csirnet.nta.ac.in) is accessible and provides the latest information bulletin. The facts below are based on the official website.
 
 CSIR NET decides eligibility for JRF and Assistant Professor in the sciences: Chemical, Earth, Life, Mathematical and Physical Sciences. It is held twice a year.
 
