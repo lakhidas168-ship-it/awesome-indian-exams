@@ -135,11 +135,11 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [Delhi Police Constable (Executive)](exams/ssc/delhi-police-constable.md) | Staff Selection Commission | Constable (Executive) Male and Female in Delhi Police Examination, 2025 | ✅ official | 2026-09-27 |
+| [Delhi Police Constable (Executive)](exams/ssc/delhi-police-constable.md) | Staff Selection Commission | Constable (Executive) Male and Female in Delhi Police Examination, 2025 | ✅ official | 2026-09-29 |
 | [SSC CGL (Combined Graduate Level)](exams/ssc/ssc-cgl.md) | Staff Selection Commission | SSC CGL 2026 | ✅ official | 2026-09-27 |
 | [SSC CHSL (Combined Higher Secondary Level)](exams/ssc/ssc-chsl.md) | Staff Selection Commission | SSC CHSL 2026 | ✅ official | 2026-09-28 |
 | [SSC CPO (Sub-Inspector in Delhi Police and CAPFs)](exams/ssc/ssc-cpo.md) | Staff Selection Commission | SSC CPO 2025 | ✅ official | 2026-09-28 |
-| [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | ✅ official | 2026-09-28 |
+| [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | ✅ official | 2026-09-29 |
 | [SSC Junior Hindi Translator (JHT)](exams/ssc/ssc-jht.md) | Staff Selection Commission | SSC JHT 2026 (Combined Hindi Translators Examination, 2026) | ✅ official | 2026-09-29 |
 | [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2025 | ✅ official | 2026-09-27 |
 | [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | ✅ official | 2026-09-28 |
