@@ -4,7 +4,6 @@ A scripted local LLM plays both the worker and the JEVX judge. Skipped inside th
 """
 from __future__ import annotations
 
-import datetime as dt
 import os
 import shutil
 import subprocess
@@ -19,9 +18,9 @@ from test_free_agent import KEY_ENVS
 PAGE = "exams/engineering/gate-ee.md"
 
 
-def worker_script(edits: list[tuple[str, str]]):
-    steps = [("read_file", {"path": PAGE, "limit": 300})]
-    steps += [("replace_in_file", {"path": PAGE, "old": old, "new": new}) for old, new in edits]
+def worker_script(edits: list[tuple[str, str]], page: str = PAGE):
+    steps = [("read_file", {"path": page, "limit": 300})]
+    steps += [("replace_in_file", {"path": page, "old": old, "new": new}) for old, new in edits]
     steps += [("run_gate", {}), ("finish", {"notes": "## Changed\n- dry run"})]
 
     def script(body: dict) -> dict:
@@ -75,9 +74,9 @@ class CloudDryRun(unittest.TestCase):
         self.assertNotIn("claim/T-001", refs)
 
     def test_official_claim_without_fetched_evidence_is_stopped(self) -> None:
-        today = dt.date.today().isoformat()
-        self.mock = MockLLM(worker_script([("verification: secondary", "verification: official"),
-                                           ("last_verified: 2026-09-27", f"last_verified: {today}")]))
+        # An exam page that is still unverified may not become "official" without a code-recorded official fetch.
+        page = "exams/engineering/psu-ee.md"
+        self.mock = MockLLM(worker_script([("verification: unverified", "verification: official")], page=page))
         run = self.sh("bash", f"{CONTENT.name}/ops/run-hourly.sh", "hermes")
         self.assertNotEqual(run.returncode, 0)
         self.assertIn("evidence", run.stdout + run.stderr)

@@ -1,9 +1,9 @@
 name: hive-cloud
 
-# Free 24/7 cloud hive: runs every 3 hours at :41 when the Mac is away (>2 h).
-# ONE job, 6 workers (3 hermes-lane + 3 opencode-lane) in parallel against a LOCAL bare repo
-# so claims/agent branches NEVER reach GitHub. After ~40 min, judge publishes approved work
-# and pushes at most ONE commit to origin/main.
+# Free 24/7 cloud hive: runs every 3 hours at :41, only while the Mac is away (last seen > 2 h ago).
+# ONE job, 6 workers (3 hermes-lane + 3 opencode-lane) in parallel against a LOCAL bare hub, so claims and
+# agent/* branches NEVER reach GitHub. After ~40 min the judge publishes approved work and pushes at most ONE
+# commit to origin/main. Orchestration lives in awesome-indian-exams/ops/cloud_batch.sh.
 # Providers: GitHub Models via GITHUB_TOKEN (free) + optional secrets OPENCODE_API_KEY / GEMINI_API_KEY / OPENROUTER_API_KEY.
 
 on:
@@ -21,7 +21,6 @@ concurrency:
 
 jobs:
   cloud-batch:
-    if: vars.HIVE_ENABLED != 'false'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     env:
@@ -32,16 +31,29 @@ jobs:
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - name: Skip unless the Mac is away
+        id: mac
+        run: |
+          last="${HIVE_MAC_LAST_SEEN:-0}"
+          now=$(date +%s)
+          if [ -n "$last" ] && [ "$last" -gt 0 ] && [ $((now - last)) -lt 7200 ]; then
+            echo "away=false" >> "$GITHUB_OUTPUT"
+            echo "Mac seen $((now - last))s ago (< 7200); skipping the cloud run."
+          else
+            echo "away=true" >> "$GITHUB_OUTPUT"
+            echo "Mac last seen ${last}s ago (0 = never); running the cloud hive."
+          fi
       - uses: actions/checkout@v4
+        if: steps.mac.outputs.away == 'true'
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v5
+        if: steps.mac.outputs.away == 'true'
         with:
           python-version: "3.11"
       - name: Optional PDF text extraction for official notifications
+        if: steps.mac.outputs.away == 'true'
         run: pip install --quiet pypdf || true
-      - name: Run cloud batch (6 workers, judge, at most one push)
-        run: |
-          git config --global user.name "hive-bot"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          bash awesome-indian-exams/ops/cloud_batch.sh
+      - name: Run the cloud batch (6 workers, judge, at most one push)
+        if: steps.mac.outputs.away == 'true'
+        run: bash awesome-indian-exams/ops/cloud_batch.sh
