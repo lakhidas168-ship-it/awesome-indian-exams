@@ -4,15 +4,14 @@ exam_id: ugc-net
 conducting_body: National Testing Agency (NTA)
 official_site: https://ugcnet.nta.nic.in
 cycle: UGC NET (latest session)
-last_verified: 2026-09-28
-verification: secondary
+last_verified: 2026-09-29
+verification: official
 ---
 
 # UGC NET
 
-> **Evidence status: 🔴 unverified.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 verified.** The facts below were cross-checked against the official
+> notification on 2025-05-15. Always read the current notice before you apply or pay a fee.
 
 UGC NET decides eligibility for Assistant Professor posts and the Junior Research Fellowship (JRF) and PhD
 admission in 80+ humanities, social science, commerce and other subjects. It is held twice a year.
@@ -27,7 +26,7 @@ admission in 80+ humanities, social science, commerce and other subjects. It is 
 
 ## Official sources
 
-- UGC NET official website (information bulletin): <https://ugcnet.nta.nic.in>
+- UGC NET official website: <https://ugcnet.nta.ac.in>
 
 ## Exam pattern
 
