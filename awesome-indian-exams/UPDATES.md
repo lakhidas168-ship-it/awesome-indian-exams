@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 15:57 UTC** · `T-506` · hermes · [Harvest inv:ffffe7e6 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-506.md)
 - **2026-09-29 15:52 UTC** · `T-522` · hermes · [Harvest inv:eb73eded into exams/upsc/upsc-ies-iss.md (owner's earlier work, local)](ops/done/T-522.md)
 - **2026-09-29 15:51 UTC** · `T-628` · opencode · [Re-verify exams/state-psc/opsc-ocs.md against current official notification and upgrade verification status](ops/done/T-628.md)
 - **2026-09-29 15:45 UTC** · `T-719` · hermes · [Verify exams/engineering/pgcil-dt-ee.md against official PGCIL Diploma Trainee notification](ops/done/T-719.md)
