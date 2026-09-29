@@ -447,7 +447,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; official_site=https://upsc.gov.in"]
+hints = ["Spark (Google accounts rajon369963, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; syllabus_url=https://www.upsc.gov.in/examinations/revised-syllabus-scheme"]
 
 [[task]]
 id = "T-220"
@@ -495,7 +495,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Indian%20Forest%20Service%20%28Main%29%20Examination%2C%202026; official_site=https://upsc.gov.in"]
+hints = ["Spark (Google accounts rajon369963, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Indian%20Forest%20Service%20%28Main%29%20Examination%2C%202026; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/revised-syllabus-scheme; syllabus_url=https://www.upsc.gov.in/examinations/revised-syllabus-scheme"]
 
 [[task]]
 id = "T-224"
@@ -531,7 +531,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Indian%20Economic%20Service%20-%20Indian%20Statistical%20Service%20Examination%2C%202026; official_site=https://upsc.gov.in"]
+hints = ["Spark (Google accounts rajon369963, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Indian%20Economic%20Service%20-%20Indian%20Statistical%20Service%20Examination%2C%202026; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/Indian%20Economic%20Service%20-%20Indian%20Statistical%20Service%20Examination%2C%202026; syllabus_url=https://www.upsc.gov.in/examinations/revised-syllabus-scheme"]
 
 [[task]]
 id = "T-227"
