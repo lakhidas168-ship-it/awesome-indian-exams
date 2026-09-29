@@ -5,12 +5,12 @@ conducting_body: Uttar Pradesh Public Service Commission
 official_site: https://uppsc.up.nic.in
 cycle: PCS 2025 (Advt. A-1/E-1/2025)
 last_verified: 2026-09-29
-verification: official
+verification: secondary
 ---
 
 # UPPSC PCS (Combined State/Upper Subordinate Services)
 
-> **Evidence status: 🟢 official (2026-09-29).** The three-stage structure (Preliminary Examination, Main Examination & Interview) for the Combined State / Upper Subordinate Services Examination was confirmed directly against official UPPSC commission pages and PDF (`https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf`) fetched this run (see Official sources).
+> **Evidence status: 🟡 secondary (2025-01-24).** The three-stage structure (Preliminary Examination, Main Examination & Interview) for the Combined State / Upper Subordinate Services Examination is based on standard commission procedures. The specific PDF link (`https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf`) is currently unreachable.
 
 UPPSC's Combined State/Upper Subordinate Services exam recruits officers for Uttar Pradesh's state and upper subordinate services. It is one of the most-attempted state exams. See the advertisement for the exact post list.
 
@@ -20,7 +20,7 @@ UPPSC's Combined State/Upper Subordinate Services exam recruits officers for Utt
 |---|---|
 | Conducted by | Uttar Pradesh Public Service Commission |
 | Stages | Preliminary (objective) → Main (written) → interview |
-| Current cycle | Advt. A-1/E-1/2025; interviews in progress (notice board, September 2026) |
+| Current cycle | Advt. A-1/E-1/2025 (see official notifications page) |
 
 ## Official sources
 
