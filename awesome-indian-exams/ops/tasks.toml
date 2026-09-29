@@ -1119,6 +1119,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ctet.nic.in/document/ctet-sept-2026-information-bulletin/; official_site=https://ctet.nic.in/; pattern_url=https://ctet.nic.in/information-bulletin/; syllabus_url=https://ctet.nic.in/information-bulletin/"]
 
 [[task]]
 id = "T-276"
@@ -1202,6 +1203,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cuet.nta.nic.in/information-bulletin/; official_site=https://cuet.nta.nic.in; pattern_url=https://cuet.nta.nic.in/information-bulletin/; syllabus_url=https://cuet.nta.nic.in/cuetug-2026-syllabus/"]
 
 [[task]]
 id = "T-283"
@@ -1213,6 +1215,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.nta.ac.in/Download/Notice/Notice_20251214103313.pdf; official_site=https://exams.nta.nic.in/cuet-pg/; pattern_url=https://exams.nta.nic.in/cuet-pg/; syllabus_url=https://exams.nta.nic.in/cuet-pg/syllabus/"]
 
 [[task]]
 id = "T-284"
