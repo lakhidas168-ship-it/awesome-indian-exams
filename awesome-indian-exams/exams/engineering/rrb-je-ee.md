@@ -4,19 +4,18 @@ exam_id: rrb-je-ee
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
 cycle: CEN 04/2026
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
 # RRB Junior Engineer (JE): Electrical
 
-> **Evidence status: 🟢 official.** On 2026-09-28 this page was verified against the detailed CEN No. 04/2026
-> (JE/DMS) for the current cycle; the CBT-1 and CBT-2 patterns below are as stated in that CEN. The previous
-> cycle (CEN 05/2025) used the same pattern.
+> **Evidence status: 🟢 official.** On 2026-09-29 this page was re-verified against the detailed CEN No. 04/2026
+> (JE/DMS); the CBT-1 and CBT-2 patterns below are as stated in that CEN (Paras 13.1 and 13.2).
 
 The Railway Recruitment Boards (RRBs) recruit Junior Engineers for Indian Railways through a Centralised
 Employment Notification (CEN). The current cycle is CEN 04/2026 (Junior Engineer and Depot Material
-Superintendent), whose detailed notification was published in August 2026.
+Superintendent), whose detailed notification opened online applications on 14.08.2026.
 
 ## At a glance
 
@@ -25,6 +24,7 @@ Superintendent), whose detailed notification was published in August 2026.
 | Conducted by | Railway Recruitment Boards (RRBs), Ministry of Railways |
 | Stages | CBT-1 (screening) → CBT-2 (merit) → document verification → medical examination |
 | Applications | Centralised portal (below); results and notices also appear on each regional RRB's website |
+| 2026 cycle (per CEN) | Online applications 14.08.2026–13.09.2026; CBT, DV and medical dates are notified later on the RRB websites |
 | Marks normalisation | Across shifts, as described in the CEN |
 
 ## Official sources
@@ -57,7 +57,10 @@ Superintendent), whose detailed notification was published in August 2026.
 | Basics of Environment and Pollution Control | 10 |
 | Technical Abilities (Electrical) | 100 |
 
-Minimum qualifying marks in each CBT: UR and EWS 40%, OBC-NCL and SC 30%, ST 25%.
+Minimum qualifying marks in each CBT: UR and EWS 40%, OBC-NCL and SC 30%, ST 25% (relaxable by 2 marks for
+PwBD candidates if reserved vacancies are short). Candidates are shortlisted for CBT-2 at 15 times the
+community-wise vacancies, and the document-verification list is called at 1:1 against vacancies; both use the
+normalised CBT marks.
 
 ## Syllabus
 
