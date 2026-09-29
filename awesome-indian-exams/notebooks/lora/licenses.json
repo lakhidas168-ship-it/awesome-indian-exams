@@ -3,9 +3,9 @@
   "checked_at": "2026-09-28",
   "checked_against": "Official model and dataset pages (URLs below), opened and recorded on 2026-09-28.",
   "output_license": {
-    "name": "CC BY-SA 4.0",
-    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "note": "Matches this list's content license. Attribution: 'Awesome Indian Exams by Rajon Das and contributors', linked to the repository."
+    "name": "CC BY-NC-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "note": "Matches this list's content license since 29 Sep 2026: free for study, no commercial use. Attribution: 'Awesome Indian Exams by Rajon Das and contributors', linked to the repository."
   },
   "base_models": [
     {
@@ -42,22 +42,28 @@
   "datasets": [
     {
       "id": "awesome-indian-exams-content",
-      "license": "cc-by-sa-4.0",
+      "license": "cc-by-nc-sa-4.0",
       "license_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams/blob/main/awesome-indian-exams/LICENSE.md",
       "source_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams",
       "verified": "2026-09-28",
       "used": true,
-      "paths": ["exams/", "modules/", "formula-sheets/"],
+      "paths": [
+        "exams/",
+        "modules/",
+        "formula-sheets/"
+      ],
       "note": "Every exam page, module page and formula sheet, read fresh from the clone at training time."
     },
     {
       "id": "awesome-indian-exams-original-questions",
-      "license": "cc-by-sa-4.0",
+      "license": "cc-by-nc-sa-4.0",
       "license_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams/blob/main/awesome-indian-exams/LICENSE.md",
       "source_url": "https://github.com/lakhidas168-ship-it/awesome-indian-exams",
       "verified": "2026-09-28",
       "used": true,
-      "paths": ["questions/"],
+      "paths": [
+        "questions/"
+      ],
       "note": "Only the list's own original questions. Files matching *-eval-* (the T-122 sets) are held out and never trained on."
     },
     {

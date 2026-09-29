@@ -39,11 +39,11 @@ phase 3 (`T-124`) publishes the winning adapter by hand.
 | base | `Qwen/Qwen2.5-1.5B-Instruct` | Apache-2.0 |
 | alternative | `HuggingFaceTB/SmolLM2-1.7B-Instruct` | Apache-2.0 |
 | rejected | `PhysicsWallahAI/Aryabhata-1.0` | CC BY-NC 4.0 (blocks commercial use) |
-| data | this list's pages, modules, formula sheets | CC BY-SA 4.0 |
-| data | this list's original questions | CC BY-SA 4.0 |
+| data | this list's pages, modules, formula sheets | CC BY-NC-SA 4.0 |
+| data | this list's original questions | CC BY-NC-SA 4.0 |
 | replay | `HuggingFaceH4/ultrachat_200k` (capped sample) | MIT |
 
-The adapters are released under CC BY-SA 4.0, matching the content they learn from; attribution
+The adapters are released under CC BY-NC-SA 4.0 (free for study, no commercial use), matching the content they learn from; attribution
 "Awesome Indian Exams by Rajon Das and contributors".
 
 ## Outputs

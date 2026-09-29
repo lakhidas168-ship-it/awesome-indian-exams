@@ -55,7 +55,7 @@ competitive exams.
 check the current notification before applying or paying a fee.
 
 Built from the repository by `scripts/hf_publish.py`; the same data is on the website at `/data/exams.json`.
-License: CC BY-SA 4.0 (attribution: "Awesome Indian Exams by Rajon Das and contributors"). Links to third-party
+License: CC BY-NC-SA 4.0, free for study, no commercial use (attribution: "Awesome Indian Exams by Rajon Das and contributors"). Links to third-party
 websites are not covered; their content belongs to its publishers.
 """
 

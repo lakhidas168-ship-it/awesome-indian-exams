@@ -7,6 +7,6 @@
   "answer": "0",
   "solution": "G(s) has a single pole at the origin, so it is a type-1 system. The position error constant is Kp = lim(s->0) G(s) = infinity, and the steady-state error to a unit step is 1/(1 + Kp) = 0. A type-1 system tracks a step with zero error and a ramp with a finite error (here Kv = 5, so 0.2).",
   "author": "Rajon Das",
-  "license": "CC BY-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
   "source": "original"
 }

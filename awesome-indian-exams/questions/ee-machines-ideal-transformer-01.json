@@ -7,6 +7,6 @@
   "answer": "44 V",
   "solution": "For an ideal transformer the voltage ratio equals the turns ratio: V2/V1 = N2/N1. So V2 = 220 x 100/500 = 44 V. The secondary current would be 5 times the primary current, but the voltage steps down by the same factor.",
   "author": "Rajon Das",
-  "license": "CC BY-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
   "source": "original"
 }

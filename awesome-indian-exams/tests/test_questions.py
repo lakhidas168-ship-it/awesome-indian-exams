@@ -46,7 +46,7 @@ GOOD_QUESTION = {
     "answer": "1 A",
     "solution": "Series R = 2 ohm, I = V/R = 2/2 = 1 A.",
     "author": "Test Author",
-    "license": "CC BY-SA 4.0",
+    "license": "CC BY-NC-SA 4.0",
     "source": "original",
 }
 

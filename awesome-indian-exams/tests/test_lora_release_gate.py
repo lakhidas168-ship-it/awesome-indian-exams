@@ -216,9 +216,9 @@ class ModelCard(unittest.TestCase):
         card = gate.render_model_card(REGISTRY, good_results(questions), "engineering")
         self.assertIn("Qwen/Qwen2.5-1.5B-Instruct", card)
         self.assertIn("apache-2.0", card)
-        self.assertIn("cc-by-sa-4.0", card)
+        self.assertIn("cc-by-nc-sa-4.0", card)
         self.assertIn("mit", card)
-        self.assertIn("CC BY-SA 4.0", card)
+        self.assertIn("CC BY-NC-SA 4.0", card)
         self.assertIn("not sure", card.lower())
 
 

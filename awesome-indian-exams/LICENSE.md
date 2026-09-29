@@ -1,39 +1,52 @@
-# License
+# License — free for students, protected from theft
 
-## Content
+**Plain-English promise:** Any individual may use this entire project — every map, dataset,
+rubric, tool and app — **completely free, end to end, forever, for personal study and preparation.**
+No payment, no sign-up wall, no catch. What is *not* allowed is someone taking this work and
+**selling it or building a closed commercial product on it** without permission.
 
-All written content in this folder (everything except the code listed below) is licensed under the
-**Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
-Full text: <https://creativecommons.org/licenses/by-sa/4.0/legalcode>
+---
 
-Attribution: "Awesome Indian Exams by Rajon Das and contributors", with a link to this repository.
+## 1. Content (maps, datasets, rubrics, notes, analysis, taxonomy — everything except code)
 
-Links to third-party websites are not covered by this license. Their content belongs to its publishers.
+Licensed under **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)**. Full text: <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
 
-## Code
+You are free to **use, copy, share, and adapt** this content, provided you:
+- **Attribution** — credit "Awesome Indian Exams by Rajon Das and contributors" with a link to this repository;
+- **NonCommercial** — do **not** use it for commercial advantage or paid products/services;
+- **ShareAlike** — distribute any adaptations under this same CC BY-NC-SA 4.0 license.
 
-The code in `scripts/`, `ops/` (`*.py`, `*.sh`), `tools/` (`*.js`, `*.css`) and `tests/` is licensed under the MIT License:
+Individual students using it for their own study are always in the clear — that is exactly what it is for.
 
-```
-MIT License
+## 2. Code (`scripts/`, `ops/`, `tools/`, `tests/`, apps — `*.py`, `*.sh`, `*.js`, `*.ts`, `*.rs`, `*.css`)
 
-Copyright (c) 2026 Rajon Das
+Licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+Full text: <https://www.gnu.org/licenses/agpl-3.0.txt>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You may use, study, modify and redistribute the code freely. But under AGPL, **anyone who runs a
+modified version — including as a network/web service — must make their complete source available
+under the same AGPL-3.0 license.** This keeps every derivative open and free; it blocks anyone from
+taking the code closed-source into a paid product.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Earlier versions stay under the licenses they were published with (content CC BY-SA 4.0, code MIT, up to
+29 Sep 2026); those grants cannot be withdrawn. Everything from this version on is under the terms above.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Copyright (c) 2026 Rajon Das. As the copyright holder, Rajon may additionally offer the work under
+other terms (dual-licensing) — the licenses above bind everyone else, not the author.
+
+## 3. Third-party material (IMPORTANT — this protects you too)
+
+This project does **not** own and does **not** redistribute third-party copyrighted material:
+- **Topper answer copies / handwritten scripts** (UPSC Mains, State PSC Mains, ESE, etc.),
+- **Previous-year question papers** (belong to the conducting bodies),
+- **Teacher lecture videos** (belong to the educators / YouTube).
+
+These are only **referenced** — official links, exact citations, and exact YouTube video + timestamp —
+never copied or re-hosted. All rights to that material remain with its owners; this project provides
+navigation and analysis (transformative use), giving credit to the source and driving students to it.
+
+## 4. No warranty
+
+Provided "as is", without warranty of any kind. Study material is aggregated best-effort; always verify
+against the official source before relying on it.

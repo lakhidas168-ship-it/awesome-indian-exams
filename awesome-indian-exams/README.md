@@ -268,7 +268,7 @@ coaching.
 
 ## License
 
-Content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Share and adapt it freely with credit.
+Content: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): free for every student, share and adapt it with credit, no commercial use. Code: AGPL-3.0. See [LICENSE](LICENSE.md).
 Code (`scripts/`, `ops/`, `tests/`): MIT. See [LICENSE.md](LICENSE.md).
 
 *Not affiliated with any exam body, commission, university or employer listed here.*
