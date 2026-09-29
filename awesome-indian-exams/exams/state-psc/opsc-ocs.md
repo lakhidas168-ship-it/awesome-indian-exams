@@ -4,13 +4,13 @@ exam_id: opsc-ocs
 conducting_body: Odisha Public Service Commission
 official_site: https://www.opsc.gov.in
 cycle: OPSC OCS 2025 (Advt. No. 05 of 2025-26)
-last_verified: 2026-09-28
-verification: unverified
+last_verified: 2026-09-29
+verification: official
 ---
 
 # OPSC Odisha Civil Services
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
+> **Evidence status: ✅ official.** This page gives the structure and the official links. Numbers that could not be
 > cross-checked are left to the official notification. Verifying them is a hive task.
 
 OPSC's Odisha Civil Services exam recruits Odisha's administrative, police and allied
@@ -21,7 +21,7 @@ officers.
 | | |
 |---|---|
 | Conducted by | Odisha Public Service Commission |
-| Current cycle | OCS 2025 (Advt. No. 05 of 2025-26); Preliminary Written Examination done, Main Written Examination stage underway (OPSC notices, Sep 2026) |
+| Current cycle | OCS 2025 (Advt. No. 05 of 2025-26); Main Written Examination stage underway (OPSC notices, Sep 2026) |
 | Stages | Preliminary Written Examination → Main Written Examination, as named in OPSC's OCS 2025 notices; exact papers, marks and any interview scheme are in the notification |
 
 ## Official sources
