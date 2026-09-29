@@ -3396,3 +3396,114 @@ accept = [
   "content gate passes with 0 errors",
 ]
 
+
+[[task]]
+id = "T-701"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for GATE EE exam pattern table validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-702"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for UPSC ESE EE syllabus section validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-703"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for SSC JE EE official domain URL check in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-704"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for RRB JE EE frontmatter date format validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-705"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for PSU EE cutoff and recruitment link validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-706"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for BARC OCES EE official brochure validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-707"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for ISRO ICRB EE exam pattern validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-708"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for PGCIL Diploma Trainee EE validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-709"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for NTPC Executive Trainee EE validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
+[[task]]
+id = "T-710"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add regression unit test for State AE/JE Electrical registry validation in tests/"
+accept = [
+  "unit test added in tests/ and passes with python3 -m unittest",
+  "content gate passes with 0 errors and no existing checks weakened",
+]
+
