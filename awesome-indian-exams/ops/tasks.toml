@@ -579,7 +579,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mppsc.mp.gov.in/"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mppsc.mp.gov.in; official_site=https://mppsc.mp.gov.in/"]
 
 [[task]]
 id = "T-231"
@@ -591,7 +591,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mpsc.gov.in/"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://mpsc.gov.in; official_site=https://mpsc.gov.in/"]
 
 [[task]]
 id = "T-232"
@@ -1023,7 +1023,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: official_site=https://www.nabard.org/"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ibpsreg.ibps.in/nbardamoct25/; official_site=https://www.nabard.org; official_site=https://www.nabard.org/"]
 
 [[task]]
 id = "T-268"
