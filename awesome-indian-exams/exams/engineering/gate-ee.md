@@ -18,12 +18,12 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 |---|---|
 | Conducted by | IISc Bengaluru and IITs Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee (one organises each year) for the National Coordination Board – GATE, Ministry of Education |
 | This cycle | GATE 2027, organised by **IIT Madras** |
-| Registration dates | 2 September 2026 – 5 October 2026 (Regular, without late fee); extended up to 12 October 2026 (with late fee). Application rectification 14–21 October 2026. |
+| Registration dates | 2 September 2026 – 5 October 2026 (Regular); extended up to 12 October 2026 (with late fee). Application rectification 14–21 October 2026. |
 | City allotment | 4 January 2027 |
 | Exam dates | 6, 7, 13, 14, 20 and 21 February 2027 |
 | Result date | 19 March 2027 |
 | Mode | Computer-based test, 3 hours, 100 marks |
-| Who can apply | Students in the 3rd year or higher of an undergraduate programme, and graduates. No age limit. Mandatory DigiLocker account verification for all Indian nationals. |
+| Who can apply | Students in the 3rd year or higher of an undergraduate programme, and graduates. No age limit. |
 | Score validity | 3 years from the result |
 | Used for | M.Tech/ME/PhD admission (COAP, CCMT), PSU recruitment ([PSU tracker](psu-ee.md)), some fellowships |
 
@@ -32,6 +32,7 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
 - Important dates: <https://gate2027.iitm.ac.in/important_dates>
 - Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
+- Syllabus: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
 
 ## Exam pattern
 
@@ -49,28 +50,20 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 
 ## Syllabus
 
-The GATE 2027 syllabi are available on the official site. It has ten sections:
+The GATE 2027 syllabus is available on the official site. It covers:
 
-1. **Engineering Mathematics:** linear algebra, calculus, differential equations, complex variables, probability and statistics.
-2. **Electric Circuits:** network elements, KCL/KVL, nodal and mesh analysis, network theorems, transient response, sinusoidal steady state, resonance, two-port networks, balanced three-phase circuits, star-delta, complex power and power factor.
+1. **Engineering Mathematics:** Linear Algebra, Calculus, Differential Equations, Complex Variables, Probability and Statistics.
+2. **Electric Circuits:** Network elements, KCL/KVL, nodal and mesh analysis, network theorems, transient response, sinusoidal steady state, resonance, two-port networks, balanced three-phase circuits, star-delta, complex power and power factor.
 3. **Electromagnetic Fields:** Coulomb, Gauss, Biot–Savart, Ampère and Faraday laws, fields and potentials of standard charge distributions, dielectrics, capacitance, inductance, magnetic circuits, Lorentz force.
-4. **Signals and Systems:** continuous and discrete signals, LTI and causal systems, Fourier series and transform, Laplace and z-transform, sampling theorem, r.m.s. and average value of any periodic waveform.
-5. **Electrical Machines:** single- and three-phase transformers, auto-transformer, electromechanical energy conversion, DC machines, three-phase and single-phase induction machines, synchronous machines, losses and efficiency.
-6. **Power Systems:** generation concepts, AC/DC transmission, line and cable models, insulators, distribution, per-unit system, bus admittance matrix, Gauss–Seidel and Newton–Raphson load flow, series and shunt compensation, voltage and frequency control, power factor correction, symmetrical components, symmetrical and unsymmetrical fault analysis, over-current/differential/directional/distance protection, circuit breakers, stability and the equal-area criterion, economic load dispatch.
-7. **Control Systems:** modelling, block diagrams and signal flow graphs, transient and steady-state response, Routh–Hurwitz, root locus, Bode and Nyquist, lag/lead compensators, state-space models, controllability and observability.
-8. **Electrical and Electronic Measurements:** bridges and potentiometers, measurement of voltage, current, power, energy and power factor, instrument transformers, digital voltmeters and multimeters, phase, time and frequency measurement, oscilloscopes, error analysis.
-9. **Analog and Digital Electronics:** characteristics of diodes, BJTs, MOSFETs, simple diode circuits, clipping, clamping, rectifiers, amplifiers, biasing, equivalent circuit and frequency response, oscillators, feedback amplifiers, operational amplifiers, Boolean algebra, combinational and sequential circuits, data converters, microprocessors and microcontrollers.
-10. **Power Electronics:** characteristics of semiconductor power devices, diode, thyristor, triac, gate turn-off thyristor (GTO), MOSFET, IGBT, DC-to-DC converters, buck, boost, buck-boost, single- and three-phase uncontrolled and controlled rectifiers, sinusoidal pulse width modulation, VSI and CSI, single-phase and three-phase inverters, AC-to-DC converters.
+4. **Signals and Systems:** Continuous and discrete signals, LTI and causal systems, Fourier series and transform, Laplace and z-transform, sampling theorem, r.m.s. and average value of any periodic waveform.
+5. **Electrical Machines:** Single- and three-phase transformers, auto-transformer, electromechanical energy conversion, DC machines, three-phase and single-phase induction machines, synchronous machines, losses and efficiency.
+6. **Power Systems:** Generation concepts, AC/DC transmission, line and cable models, insulators, distribution, per-unit system, bus admittance matrix, Gauss–Seidel and Newton–Raphson load flow, series and shunt compensation, voltage and frequency control, power factor correction, symmetrical components, symmetrical and unsymmetrical fault analysis, over-current/differential/directional/distance protection, circuit breakers, stability and the equal-area criterion, economic load dispatch.
+7. **Control Systems:** Modelling, block diagrams and signal flow graphs, transient and steady-state response, Routh–Hurwitz, root locus, Bode and Nyquist, lag/lead compensators, state-space models, controllability and observability.
+8. **Electrical and Electronic Measurements:** Bridges and potentiometers, measurement of voltage, current, power, energy and power factor, instrument transformers, digital voltmeters and multimeters, phase, time and frequency measurement, oscilloscopes, error analysis.
+9. **Analog and Digital Electronics:** Characteristics of diodes, BJTs, MOSFETs, simple diode circuits, clipping, clamping, rectifiers, amplifiers, biasing, equivalent circuit and frequency response, oscillators, feedback amplifiers, operational amplifiers, Boolean algebra, combinational and sequential circuits, data converters, microprocessors and microcontrollers.
+10. **Power Electronics:** Characteristics of power semiconductor devices, diode rectifiers, thyristor-based converters, DC-DC converters, buck/boost/buck-boost converters, single-phase and three-phase inverters, PWM techniques, AC voltage controllers.
 
 ## Free resources
 
-- Official GATE 2027 site: <https://gate2027.iitm.ac.in>
-- NPTEL (National Programme on Technology Enhanced Learning): Free video lectures from IITs/IISc for all GATE subjects.
-- GATE official mock tests: Available on the official website closer to the exam.
-
-## How to prepare (free, in order)
-
-1. **Understand the syllabus:** Download the official EE syllabus from the GATE 2027 website.
-2. **Build concepts:** Use NPTEL lectures for core subjects (Electric Circuits, Machines, Power Systems).
-3. **Practice:** Solve previous year questions (PYQs) from the official GATE website or standard archives.
-4. **Mock tests:** Use the official mock test interface to get comfortable with the virtual calculator and exam environment.
+- Shared modules: [Engineering mathematics](../../modules/engineering-mathematics.md) · [Electrical engineering core](../../modules/ee-core.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md)
+- NPTEL (free IIT/IISc courses): <https://nptel.ac.in/courses>
