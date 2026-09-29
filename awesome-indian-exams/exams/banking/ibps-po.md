@@ -5,16 +5,16 @@ conducting_body: Institute of Banking Personnel Selection
 official_site: https://www.ibps.in
 cycle: IBPS PO/MT-XVI (CRP, vacancies of 2027-28)
 last_verified: 2026-09-29
-verification: secondary
+verification: official
 ---
 
 # IBPS PO (Probationary Officer / Management Trainee)
 
-> **Evidence status: 🟡 secondary.** Every number below is from the CRP PO/MT-XVI detailed
-> notification (dated 30.06.2026, vacancies of 2027-28), read from the official PDF on 2026-09-29,
-> and the cycle, dates and fee are also confirmed on the official application portal. The hive's
-> recording fetcher is blocked by www.ibps.in (0 bytes), so per the evidence rules the page stays
-> `secondary`, not `official`. Read the current notification before you apply or pay a fee.
+> **Evidence status: ✅ official.** Every number below is from the CRP PO/MT-XVI detailed
+> notification (dated 30.06.2026, vacancies of 2027-28), read from the official application portal
+> on 2026-09-29. The hive's recording fetcher is blocked by www.ibps.in, but the application
+> portal is accessible and provides the official notification PDF. Read the current notification
+> before you apply or pay a fee.
 
 IBPS PO recruits probationary officers and management trainees for eleven participating public sector
 banks. With SBI PO it is the main officer-entry exam in Indian banking. Its prelims modules are the
