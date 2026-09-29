@@ -27,6 +27,7 @@ has to find the official one.
 | RRB Junior Engineer (JE), Electrical | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/engineering/rrb-je-ee.md) |
 | SSC Junior Engineer (JE), Electrical | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/engineering/ssc-je-ee.md) |
 | State AE / JE (Electrical) | State PSCs and state power utilities | <https://apsc.nic.in> | [open](../exams/engineering/state-ae-je.md) |
+| UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical) | Uttar Pradesh Power Corporation Limited | <https://uppcl.up.nic.in> | [open](../exams/engineering/uppcl-ae-je-ee.md) |
 | UPSC Engineering Services (ESE), Electrical | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/engineering/upsc-ese-ee.md) |
 
 ## Engineering entrance: JEE and state CETs

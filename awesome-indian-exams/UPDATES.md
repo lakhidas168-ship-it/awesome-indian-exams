@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 23:03 UTC** · `T-722` · hermes · [Verify exams/engineering/uppcl-ae-je-ee.md against official UPPCL AE/JE Electrical notification](ops/done/T-722.md)
+- **2026-09-29 22:58 UTC** · `T-610` · opencode · [Re-verify exams/banking/sebi-grade-a.md against current official notification and upgrade verification status](ops/done/T-610.md)
 - **2026-09-29 22:48 UTC** · `T-627` · hermes · [Re-verify exams/state-psc/mpsc-rajyaseva.md against current official notification and upgrade verification status](ops/done/T-627.md)
 - **2026-09-29 22:48 UTC** · `T-611` · hermes · [Re-verify exams/defence/afcat.md against current official notification and upgrade verification status](ops/done/T-611.md)
 - **2026-09-29 22:42 UTC** · `T-514` · hermes · [Harvest inv:5c6cef19 into exams/engineering-entrance/mht-cet.md (owner's earlier work, local)](ops/done/T-514.md)

@@ -46,7 +46,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 124 exam pages written, 124 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 125 exam pages written, 125 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
@@ -69,6 +69,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 04/2026 | ✅ official | 2026-09-29 |
 | [SSC Junior Engineer (JE) — Electrical](exams/engineering/ssc-je-ee.md) | Staff Selection Commission | SSC JE 2026 | ✅ official | 2026-09-29 |
 | [State AE / JE (Electrical) tracker](exams/engineering/state-ae-je.md) | State PSCs and state power utilities | Rolling, per state advertisement | ✅ official | 2026-09-28 |
+| [UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical)](exams/engineering/uppcl-ae-je-ee.md) | Uttar Pradesh Power Corporation Limited (UPPCL) | As per requirement | ⚪ unverified | 2026-09-29 |
 | [UPSC Engineering Services (ESE) — Electrical](exams/engineering/upsc-ese-ee.md) | Union Public Service Commission | ESE 2027 | 🟡 secondary | 2026-09-28 |
 
 ### Engineering entrance: JEE and state CETs
@@ -174,7 +175,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |
 | [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk 2026 (Advt CRPD/CR/2026-27/17) | 🟡 secondary | 2026-09-29 |
 | [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO 2026 (Advt CRPD/PO/2026-27/09) | 🟡 secondary | 2026-09-29 |
-| [SEBI Grade A (Assistant Manager)](exams/banking/sebi-grade-a.md) | Securities and Exchange Board of India | SEBI Officer Grade A 2025 | ✅ official | 2026-09-29 |
+| [SEBI Grade A (Assistant Manager)](exams/banking/sebi-grade-a.md) | Securities and Exchange Board of India | SEBI Officer Grade A 2025 | ⚪ unverified | 2026-09-29 |
 
 ### Defence (non-UPSC entries)
 
