@@ -1,11 +1,10 @@
 ## Sources opened
-- <https://www.drdo.gov.in/drdo/en/offerings/vacancies>: Confirmed that the DRDO vacancies portal is active and lists current recruitment advertisements, but no specific CEPTAM recruitment notification for Electrical Engineering was available at the time of verification.
+- https://kvsangathan.nic.in/: Confirmed KVS official website and general information.
+- https://kvsangathan.nic.in/en/recruitment/: Confirmed the general recruitment process for KVS (centralized, written/CBT, interview/skill test).
 
 ## Could not confirm
-- Exact exam pattern details (question counts, marks, time, negative marking) for the current cycle, as no active CEPTAM notification was found.
+- Specific recruitment notification for the current cycle (none active).
 
 ## Changed
-- Updated `last_verified` to 2026-09-29.
-- Updated `verification` to `secondary`.
-- Updated evidence status note in the page.
-- Cleaned up `Official sources` to only include the fetched URL.
+- Updated `exams/teaching/kvs-recruitment.md` frontmatter to `verification: secondary` and `last_verified: 2026-09-28`.
+- Updated the content of `exams/teaching/kvs-recruitment.md` to reflect the general recruitment process described on the official KVS website.

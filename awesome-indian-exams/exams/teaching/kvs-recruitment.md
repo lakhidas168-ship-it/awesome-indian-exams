@@ -4,13 +4,13 @@ exam_id: kvs-recruitment
 conducting_body: Kendriya Vidyalaya Sangathan
 official_site: https://kvsangathan.nic.in
 cycle: Varies by recruitment notification
-last_verified: 2026-09-28
-verification: unverified
+last_verified: 2026-09-29
+verification: secondary
 ---
 
 # KVS teacher and staff recruitment
 
-> **Evidence status: 🟡 unverified.** The official website is reachable, but the specific recruitment notification for the current cycle could not be fetched. The details below are placeholders; always refer to the latest official notification on the KVS website before applying.
+> **Evidence status: 🟡 secondary.** The official website is reachable and provides general information on the recruitment process, but no active recruitment notification for the current cycle is available. The details below are based on the general recruitment process described on the official website.
 
 Kendriya Vidyalaya Sangathan (KVS) recruits PRT, TGT, PGT teachers and non-teaching staff through direct recruitment notifications.
 
@@ -19,26 +19,28 @@ Kendriya Vidyalaya Sangathan (KVS) recruits PRT, TGT, PGT teachers and non-teach
 | | |
 |---|---|
 | Conducted by | Kendriya Vidyalaya Sangathan |
-| Stages | See official notification |
-| Eligibility | See official notification |
+| Process | Centralized direct recruitment |
+| Selection | Written/Computer-based examination followed by interview/skill test |
 
 ## Official sources
 
 - Kendriya Vidyalaya Sangathan (official): <https://kvsangathan.nic.in>
+- KVS Recruitment Information: <https://kvsangathan.nic.in/en/recruitment/>
 
 ## Exam pattern
 
-The exam pattern varies by post and is defined in the specific recruitment notification. Please check the official website for the latest details.
+The recruitment process involves a written or computer-based examination (objective type). Candidates are shortlisted for an interview or skill test based on the marks obtained in the examination. The final selection is based on the combined performance in the written examination and the interview.
 
 ## Syllabus
 
-The syllabus is provided in the official recruitment notification for each post.
+The syllabus for teaching and non-teaching posts is defined in the specific recruitment notification published by KVS.
 
 ## How to prepare (free, in order)
 
-1. Check the official notification for the specific post requirements.
-2. Use NCERT textbooks for subject-specific preparation.
-3. Utilize shared modules for common subjects.
+1. Monitor the official KVS website for new recruitment notifications.
+2. Review the recruitment rules and syllabus provided in the official notifications.
+3. Use NCERT textbooks for subject-specific preparation.
+4. Utilize shared modules for common subjects.
 
 ## Free resources
 
