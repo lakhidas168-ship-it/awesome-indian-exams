@@ -120,7 +120,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [BPSC Combined Competitive Examination](exams/state-psc/bpsc-cce.md) | Bihar Public Service Commission | BPSC 71st CCE (2025) | 🟡 secondary | 2026-09-27 |
 | [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Examination 2025 (Advt 06/2025) | ✅ official | 2026-09-28 |
 | [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-28 |
-| [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination 2025 (Advt. No. 22/2026) | ⚪ unverified | 2026-09-28 |
+| [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination (Advt. No. 22/2026, published 30.01.2026) | ✅ official | 2026-09-29 |
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE-2025 (Advt. No. 01/2026) | ✅ official | 2026-09-28 |
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ✅ official | 2026-09-28 |
 | [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-29 |
