@@ -77,6 +77,10 @@ These help the list spread; nothing breaks without them.
    (<https://search.google.com/search-console>) as a URL-prefix property
    `https://lakhidas168-ship-it.github.io/awesome-indian-exams/`, then submit `sitemap.xml`.
 
+## E. Troubleshooting worker lane issues
+
+If a worker (like `free-o16` or `free-o4`) is rejected by the gate, ensure it is using one of the allowed lanes: `hermes`, `opencode`, `jevx`, or `human`. The gate checks the branch name `agent/<lane>/<task>`. If the lane is not one of these, the gate will reject the work.
+
 ## E. Troubleshooting
 
 - **Insufficient funds:** If a worker (like `zen-2`) reports "insufficient account funds", please check the
