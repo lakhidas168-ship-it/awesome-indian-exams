@@ -4,7 +4,7 @@ exam_id: mat
 conducting_body: All India Management Association
 official_site: https://mat.aima.in
 cycle: Multiple sessions per year
-last_verified: 2024-05-22
+last_verified: 2026-09-29
 verification: unverified
 ---
 
