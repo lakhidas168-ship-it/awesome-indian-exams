@@ -16,6 +16,11 @@
 # bash 3.2 compatible (macOS default): no arrays, no [[ ]], no ${var,,}.
 set -eu
 
+if [ "${HIVE_IN_JUDGE:-0}" = "1" ]; then
+  echo "[cloud_batch] refusing nested cloud_batch invocation inside judge (HIVE_IN_JUDGE)"
+  exit 2
+fi
+
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 CONTENT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REPO_ROOT="$(cd "$CONTENT/.." && pwd)"

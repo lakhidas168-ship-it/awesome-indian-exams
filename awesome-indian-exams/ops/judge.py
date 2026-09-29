@@ -109,6 +109,11 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
     shutil.copytree(CONTENT / "tests", c / "tests_main", dirs_exist_ok=True)
     problems = []
     diff = git("diff", "--name-only", f"{base_sha}...HEAD", cwd=wt).stdout
+    inner = [p[len(prefix()) + 1:] if p.startswith(prefix() + "/") else "/" + p for p in diff.split()]
+    for harness in ("test_cloud_batch.py", "test_commandcode.py", "test_agentctl.py", "test_free_agent.py",
+                    "test_registry_validation.py", "test_staleness.py"):
+        if f"tests/{harness}" not in inner and (CONTENT / "tests" / harness).exists() and (c / "tests").is_dir():
+            shutil.copy2(CONTENT / "tests" / harness, c / "tests" / harness)
     steps = [
         ("lane scope", [sys.executable, str(trusted / "hive_gate.py"), "--branch", branch], diff),
         ("content gate", [sys.executable, str(trusted / "validate.py"), "--root", str(c)], None),
@@ -118,12 +123,13 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
                            "--branch", branch, "--worktree", str(wt)], None),
     ]
     # A branch may still contain older end-to-end tests. Do not let their nested judges inherit the
-    # outer judge's full-suite override while the candidate is being checked.
-    env = {**os.environ, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": ".:tests:tests_main"}
+    # outer judge's full-suite override while the candidate is being checked, and strip BASH_ENV so
+    # bash shims never override fake test PATHs with real CLIs.
+    base_env = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
+    env = {**base_env, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": ".:tests_main:tests"}
     # Content-only branches (no path under scripts/, tests/, ops/ except the receipt, .agents/, opencode.json, or
     # outside the content folder) cannot change what the self-tests exercise; the content, scope and evidence gates
     # still run. This keeps the judge at seconds per page instead of ~12 minutes (Mac, 2026-09-28: 47 branches queued).
-    inner = [p[len(prefix()) + 1:] if p.startswith(prefix() + "/") else "/" + p for p in diff.split()]
     tooling = [p for p in inner if p.startswith(("/", "scripts/", "tests/", ".agents/", "opencode.json"))
                or (p.startswith("ops/") and not p.startswith(("ops/done/", "ops/plan/")) and p != "ops/tasks.toml")]
     # (the backlog and plan notes are data for the self-tests' fixed fixtures, not code: planner branches skip them too)

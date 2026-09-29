@@ -44,6 +44,7 @@ class Wrapper(unittest.TestCase):
     def run_cc(self, mode: str = "ok", prompt: str = "do task T-001", **env: str) -> subprocess.CompletedProcess:
         base = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
         full = {**base, "PATH": f"{self.tmp / 'bin'}:{os.environ['PATH']}", "HIVE_HOME": str(self.tmp / "hive"),
+                "HIVE_COMMANDCODE_BIN": str(self.tmp / "bin" / "command-code"),
                 "FAKE_CC_LOG": str(self.log), "FAKE_CC_MODE": mode, **env}
         return subprocess.run(["bash", str(WRAPPER), prompt], env=full, text=True, capture_output=True, timeout=60)
 
@@ -106,8 +107,8 @@ class NumberedWorker(unittest.TestCase):
             env = {**{k: v for k, v in ENV.items() if k not in KEY_ENVS},
                    "PATH": f"{tmp / 'bin'}:{os.environ['PATH']}", "HIVE_HOME": str(tmp / "hive"),
                    "HIVE_OPEN_PR": "0", "HIVE_SLOT": "1", "HIVE_CMD_HERMES": "false",
-                   "HIVE_CMD_COMMANDCODE": "bash ops/commandcode.sh", "FAKE_CC_MODE": "edit",
-                   "FAKE_CC_LOG": str(tmp / "calls.log")}
+                   "HIVE_CMD_COMMANDCODE": "bash ops/commandcode.sh", "HIVE_COMMANDCODE_BIN": str(fake),
+                   "FAKE_CC_MODE": "edit", "FAKE_CC_LOG": str(tmp / "calls.log")}
             res = subprocess.run(["bash", f"{CONTENT.name}/ops/run-hourly.sh", "hermes", "commandcode-2"], cwd=repo,
                                  env=env, text=True, capture_output=True, timeout=300)
             self.assertEqual(res.returncode, 0, res.stdout + res.stderr)

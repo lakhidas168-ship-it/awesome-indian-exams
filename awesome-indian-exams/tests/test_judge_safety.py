@@ -26,6 +26,16 @@ class JudgeSafety(unittest.TestCase):
         self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
         self.assertIn("refusing nested judge invocation", result.stdout)
 
+    def test_nested_cloud_batch_refuses_when_in_judge(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            result = subprocess.run(
+                ["bash", str(CONTENT / "ops" / "cloud_batch.sh")],
+                cwd=tmp, env={**os.environ, "HIVE_IN_JUDGE": "1"},
+                text=True, capture_output=True, timeout=5,
+            )
+        self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
+        self.assertIn("refusing nested cloud_batch invocation", result.stdout)
+
     def test_gate_command_has_a_deadline(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaises(subprocess.TimeoutExpired):
