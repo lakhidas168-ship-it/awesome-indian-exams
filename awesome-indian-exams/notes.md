@@ -1,10 +1,12 @@
 ## Sources opened
-- https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf: Fetched, but it is for Class IX, not Class VI.
-- https://navodaya.gov.in: Official portal.
+- https://gate2024.iisc.ac.in/ (GATE 2024 official site)
+- https://gate.iitk.ac.in/ (GATE 2023 official site)
+- https://gate.iitkgp.ac.in/ (GATE 2022 official site)
+- https://gate.iitb.ac.in/ (GATE 2021 official site)
+- https://gate.iitd.ac.in/ (GATE 2020 official site)
 
 ## Could not confirm
-- The current JNVST Class VI notification (the provided link was for Class IX). The page currently describes Class VI, but the verification status needs to be downgraded as I could not fetch the official Class VI prospectus this run.
+- The exact subject-wise breakdown for every single question in the last 5 years was not verified against a single official document, as official bodies do not publish subject-wise weightage tables. The data provided is based on standard subject categorization of the official question papers.
 
 ## Changed
-- Downgraded `verification` to `secondary` and updated `last_verified` to today's date.
-- Added a note about the verification status.
+- Created `resources/gate-ee-weightage.md` with the requested subject-wise marks table for GATE EE.
