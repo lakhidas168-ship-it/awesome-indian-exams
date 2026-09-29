@@ -166,7 +166,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [IBPS Clerk](exams/banking/ibps-clerk.md) | Institute of Banking Personnel Selection | CRP Clerks XIV (vacancies of 2025-26) | 🟡 secondary | 2026-09-28 |
-| [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT-XVI (CRP, vacancies of 2027-28) | 🟡 secondary | 2026-09-29 |
+| [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT-XVI (CRP, vacancies of 2027-28) | ✅ official | 2026-09-29 |
 | [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs-XV, 2026) | ✅ official | 2026-09-29 |
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL-XVI, vacancies of 2027-28) | 🟡 secondary | 2026-09-29 |
 | [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | 32nd Batch (2025-2026) | ✅ official | 2026-09-29 |
