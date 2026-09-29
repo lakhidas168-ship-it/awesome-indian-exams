@@ -9,6 +9,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-29 15:39 UTC** · `T-710` · opencode · [Add regression unit test for State AE/JE Electrical registry validation in tests/](ops/done/T-710.md)
 - **2026-09-29 15:38 UTC** · `T-613` · hermes · [Re-verify exams/engineering/psu-ee.md against current official notification and upgrade verification status](ops/done/T-613.md)
 - **2026-09-29 15:38 UTC** · `T-716` · hermes · [Verify exams/engineering/barc-oces-ee.md against official BARC OCES/DGFS brochure](ops/done/T-716.md)
+- **2026-09-29 15:37 UTC** · `T-708` · opencode · [Add regression unit test for PGCIL Diploma Trainee EE validation in tests/](ops/done/T-708.md)
 - **2026-09-29 15:32 UTC** · `T-711` · hermes · [Verify exams/engineering/gate-ee.md against official GATE 2027 brochure and update dates](ops/done/T-711.md)
 - **2026-09-29 15:30 UTC** · `T-548` · hermes · [Harvest inv:cd23ec34 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-548.md)
 - **2026-09-29 15:27 UTC** · `T-606` · opencode · [Re-verify exams/banking/nabard-grade-a.md against current official notification and upgrade verification status](ops/done/T-606.md)
