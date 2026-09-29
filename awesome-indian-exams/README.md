@@ -126,7 +126,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS 2025 (Advt. No. 05 of 2025-26) | ✅ official | 2026-09-29 |
 | [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | ⚪ unverified | 2026-09-27 |
 | [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | Group-I Services, Notification No. 02/2024 (dated 19/02/2024) | ✅ official | 2026-09-28 |
-| [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-28 |
+| [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | CCSE-I (Group I Services), Notification 05/2026 | ✅ official | 2026-09-29 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | CCSE-IV (Group IV Services) | ✅ official | 2026-09-28 |
 | [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-29 |
 | [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | PCS 2025 (Advt. A-1/E-1/2025) | ✅ official | 2026-09-29 |
