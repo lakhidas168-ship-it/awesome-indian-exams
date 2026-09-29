@@ -19,7 +19,7 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 | Conducted by | IISc Bengaluru and IITs Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee (one organises each year) for the National Coordination Board – GATE, Ministry of Education |
 | This cycle | GATE 2027, organised by **IIT Madras** |
 | Registration dates | 2 September 2026 – 5 October 2026 (Regular, without late fee); extended up to 12 October 2026 (with late fee). Application rectification 14–21 October 2026. |
-| City allotment | 4 January 2027 (admit card download date to be announced) |
+| City allotment | 4 January 2027 |
 | Exam dates | 6, 7, 13, 14, 20 and 21 February 2027 |
 | Result date | 19 March 2027 |
 | Mode | Computer-based test, 3 hours, 100 marks |
@@ -30,11 +30,8 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 ## Official sources
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
-- Important dates & notifications: <https://gate2027.iitm.ac.in/important_dates>
-- Eligibility criteria: <https://gate2027.iitm.ac.in/eligibility_criteria>
+- Important dates: <https://gate2027.iitm.ac.in/important_dates>
 - Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
-- Test papers & syllabus: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
-- Electrical Engineering syllabus (PDF): <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf>
 
 ## Exam pattern
 
@@ -52,7 +49,7 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 
 ## Syllabus
 
-The GATE 2027 syllabi were revised for this cycle, so this page follows the revised Electrical Engineering syllabus. It has ten sections; the list below is a topic summary and the official [EE syllabus PDF](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf) is the authority.
+The GATE 2027 syllabi are available on the official site. It has ten sections:
 
 1. **Engineering Mathematics:** linear algebra, calculus, differential equations, complex variables, probability and statistics.
 2. **Electric Circuits:** network elements, KCL/KVL, nodal and mesh analysis, network theorems, transient response, sinusoidal steady state, resonance, two-port networks, balanced three-phase circuits, star-delta, complex power and power factor.
@@ -60,23 +57,20 @@ The GATE 2027 syllabi were revised for this cycle, so this page follows the revi
 4. **Signals and Systems:** continuous and discrete signals, LTI and causal systems, Fourier series and transform, Laplace and z-transform, sampling theorem, r.m.s. and average value of any periodic waveform.
 5. **Electrical Machines:** single- and three-phase transformers, auto-transformer, electromechanical energy conversion, DC machines, three-phase and single-phase induction machines, synchronous machines, losses and efficiency.
 6. **Power Systems:** generation concepts, AC/DC transmission, line and cable models, insulators, distribution, per-unit system, bus admittance matrix, Gauss–Seidel and Newton–Raphson load flow, series and shunt compensation, voltage and frequency control, power factor correction, symmetrical components, symmetrical and unsymmetrical fault analysis, over-current/differential/directional/distance protection, circuit breakers, stability and the equal-area criterion, economic load dispatch.
-7. **Control Systems:** modelling, block diagrams and signal flow graphs, transient and steady-state response, Routh–Hurwitz, root locus, Bode and Nyquist, lag/lead compensators, P/PI/PID, state-space models.
-8. **Electrical and Electronic Measurements:** bridges and potentiometers, measurement of V, I, power, energy and power factor, instrument transformers, digital meters, phase/time/frequency measurement, oscilloscopes, error analysis.
-9. **Analog and Digital Electronics:** diode circuits, amplifiers, op-amps and single-stage active filters (Sallen-Key, Butterworth), oscillators, timers and VCOs, combinational and sequential logic, multiplexers, Schmitt trigger, sample-and-hold, ADC/DAC.
-10. **Power Electronics:** thyristor, MOSFET and IGBT characteristics and gating, DC-DC converters, controlled and uncontrolled rectifiers, inverters and PWM, harmonics, power factor and distortion factor.
-
-## How to prepare (free, in order)
-
-A structured study sequence synthesized from foundational planning (incorporating local guidance from inventory item `inv:265b04f9`):
-
-1. **Engineering Mathematics + Electric Circuits** first. Every other circuital subject builds directly upon network theorems and mathematical modeling.
-2. **Signals and Systems → Control Systems.** Both rely heavily on transform domain analysis (Laplace and Fourier).
-3. **Electrical Machines → Power Systems.** Master electromechanical energy conversion and transformers before tackling per-unit systems, load flow, and fault analysis.
-4. **Analog and Digital Electronics → Power Electronics.** Solid-state device fundamentals feed directly into power converter topologies.
-5. **Measurements** and **Electromagnetic Fields** studied concurrently in weekly modular blocks.
-6. **Practice & PYQs:** Practice official previous year questions topic-by-topic from week one, transitioning to full 3-hour CBT simulations in the final 8 weeks.
+7. **Control Systems:** modelling, block diagrams and signal flow graphs, transient and steady-state response, Routh–Hurwitz, root locus, Bode and Nyquist, lag/lead compensators, state-space models, controllability and observability.
+8. **Electrical and Electronic Measurements:** bridges and potentiometers, measurement of voltage, current, power, energy and power factor, instrument transformers, digital voltmeters and multimeters, phase, time and frequency measurement, oscilloscopes, error analysis.
+9. **Analog and Digital Electronics:** characteristics of diodes, BJTs, MOSFETs, simple diode circuits, clipping, clamping, rectifiers, amplifiers, biasing, equivalent circuit and frequency response, oscillators, feedback amplifiers, operational amplifiers, Boolean algebra, combinational and sequential circuits, data converters, microprocessors and microcontrollers.
+10. **Power Electronics:** characteristics of semiconductor power devices, diode, thyristor, triac, gate turn-off thyristor (GTO), MOSFET, IGBT, DC-to-DC converters, buck, boost, buck-boost, single- and three-phase uncontrolled and controlled rectifiers, sinusoidal pulse width modulation, VSI and CSI, single-phase and three-phase inverters, AC-to-DC converters.
 
 ## Free resources
 
-- Subject-wise free courses, simulators and official references: [free resources](../../resources/ee-free-resources.md)
-- Which subjects also count for ESE, SSC JE, RRB JE and CSE: [subject map](../../resources/ee-subject-map.md)
+- Official GATE 2027 site: <https://gate2027.iitm.ac.in>
+- NPTEL (National Programme on Technology Enhanced Learning): Free video lectures from IITs/IISc for all GATE subjects.
+- GATE official mock tests: Available on the official website closer to the exam.
+
+## How to prepare (free, in order)
+
+1. **Understand the syllabus:** Download the official EE syllabus from the GATE 2027 website.
+2. **Build concepts:** Use NPTEL lectures for core subjects (Electric Circuits, Machines, Power Systems).
+3. **Practice:** Solve previous year questions (PYQs) from the official GATE website or standard archives.
+4. **Mock tests:** Use the official mock test interface to get comfortable with the virtual calculator and exam environment.
