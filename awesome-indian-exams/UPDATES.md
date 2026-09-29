@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 00:18 UTC** · `T-111` · opencode · [JEE college predictor from the official JoSAA opening/closing rank archive: data/josaa/<year>.csv fetched from josaa.admissions.nic.in plus a tool page](ops/done/T-111.md)
 - **2026-09-28 22:57 UTC** · `T-113` · opencode · [Normalisation calculator for multi-shift exams, only with the formula published by the exam body (SSC or RRB notice), linked from the tool](ops/done/T-113.md)
 - **2026-09-28 21:55 UTC** · `T-121` · opencode · [Exam AI corpus: export_json.py --corpus writes data/corpus.jsonl (one record per page section: url, title, heading, text, evidence status, official links); built with the website](ops/done/T-121.md)
 - **2026-09-28 16:26 UTC** · `T-125` · opencode · [Hindi and regional pages with AI4Bharat IndicTrans2 (MIT): translate the most-used pages as drafts for T-312, keeping official names, numbers and links unchanged](ops/done/T-125.md)
