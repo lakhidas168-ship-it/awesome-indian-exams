@@ -72,7 +72,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [AP EAPCET](exams/engineering-entrance/ap-eapcet.md) | JNT University Kakinada on behalf of APSCHE | AP EAPCET 2026 | ✅ official | 2026-09-27 |
 | [BITSAT](exams/engineering-entrance/bitsat.md) | BITS Pilani | BITSAT 2026 | ✅ official | 2026-09-28 |
 | [COMEDK UGET](exams/engineering-entrance/comedk-uget.md) | COMEDK | COMEDK UGET 2026 | ✅ official | 2026-09-28 |
-| [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | ✅ official | 2026-09-27 |
+| [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | ✅ official | 2026-09-29 |
 | [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | ✅ official | 2026-09-28 |
 | [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | ✅ official | 2026-09-28 |
 | [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | ✅ official | 2026-09-28 |
