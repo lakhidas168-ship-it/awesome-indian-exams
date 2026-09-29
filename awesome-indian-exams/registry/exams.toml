@@ -232,6 +232,15 @@ official_site = "https://gate2027.iitm.ac.in"
 modules = ["engineering-mathematics", "ee-core", "quant-aptitude", "reasoning", "english-language"]
 
 [[exam]]
+id = "barc-oces-ee"
+name = "BARC OCES/DGFS (Scientific Officer)"
+family = "engineering"
+body = "Bhabha Atomic Research Centre"
+official_site = "https://barc.gov.in"
+modules = ["ee-core", "engineering-mathematics"]
+
+
+[[exam]]
 id = "gate-ec"
 name = "GATE Electronics and Communication (EC)"
 family = "engineering"
