@@ -5,12 +5,12 @@ conducting_body: Maharashtra Public Service Commission
 official_site: https://mpsc.gov.in
 cycle: MPSC Rajyaseva (latest)
 last_verified: 2026-09-29
-verification: secondary
+verification: unverified
 ---
 
 # MPSC State Services (Rajyaseva)
 
-> **Evidence status: 🟡 secondary.** The commission's site (mpsc.gov.in) is a JavaScript
+> **Evidence status: 🟡 unverified.** The commission's site (mpsc.gov.in) is a JavaScript
 > application that does not provide direct, static links to current notification PDFs. While the
 > site was reached, the specific exam details (marks, time, negative marking) could not be
 > extracted from the provided links. Confirm all numbers in the official notification for your
