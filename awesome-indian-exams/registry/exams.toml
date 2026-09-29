@@ -329,6 +329,14 @@ official_site = "https://apsc.nic.in"
 modules = ["ee-core", "engineering-mathematics", "general-awareness"]
 
 [[exam]]
+id = "drdo-ceiptm-ee"
+name = "DRDO CEPTAM (Electrical Engineering)"
+family = "engineering"
+body = "Defence Research and Development Organisation"
+official_site = "https://www.drdo.gov.in"
+modules = ["ee-core", "quant-aptitude", "reasoning", "general-awareness"]
+
+[[exam]]
 id = "psu-ee"
 name = "PSU recruitment for EE graduates"
 family = "engineering"
