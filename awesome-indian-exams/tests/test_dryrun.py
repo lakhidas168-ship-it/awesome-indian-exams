@@ -5,6 +5,7 @@ A scripted local LLM plays both the worker and the JEVX judge. Skipped inside th
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import subprocess
 import tempfile
@@ -12,7 +13,7 @@ import unittest
 from pathlib import Path
 
 from mock_llm import MockLLM, tool_call, tools_used
-from test_agentctl import CONTENT, ENV, make_remote
+from test_agentctl import CONTENT, ENV, make_remote, sh
 from test_free_agent import KEY_ENVS
 
 PAGE = "exams/engineering/gate-ee.md"
@@ -51,6 +52,16 @@ class CloudDryRun(unittest.TestCase):
     def sh(self, *args: str) -> subprocess.CompletedProcess:
         return subprocess.run(args, cwd=self.repo, env=self.env(), text=True, capture_output=True, timeout=600)
 
+    def pin(self, page: str, field: str, value: str) -> None:
+        """Pin one front-matter field on the remote, so the test keeps passing as the hive verifies the live page."""
+        path = self.repo / CONTENT.name / page
+        text = path.read_text(encoding="utf-8")
+        pinned = re.sub(rf"^{field}: .*$", f"{field}: {value}", text, count=1, flags=re.M)
+        if pinned != text:
+            path.write_text(pinned, encoding="utf-8")
+            sh("git", "commit", "-qam", f"fixture: {field} {value}", cwd=self.repo)
+            sh("git", "push", "-q", "origin", "main", cwd=self.repo)
+
     def remote_file(self, path: str) -> str:
         self.sh("git", "fetch", "-q", "origin", "main")
         return self.sh("git", "show", f"origin/main:{CONTENT.name}/{path}").stdout
@@ -75,8 +86,8 @@ class CloudDryRun(unittest.TestCase):
 
     def test_official_claim_without_fetched_evidence_is_stopped(self) -> None:
         # An exam page that is still unverified may not become "official" without a code-recorded official fetch.
-        page = "exams/engineering/psu-ee.md"
-        self.mock = MockLLM(worker_script([("verification: unverified", "verification: official")], page=page))
+        self.pin(PAGE, "verification", "unverified")
+        self.mock = MockLLM(worker_script([("verification: unverified", "verification: official")]))
         run = self.sh("bash", f"{CONTENT.name}/ops/run-hourly.sh", "hermes")
         self.assertNotEqual(run.returncode, 0)
         self.assertIn("evidence", run.stdout + run.stderr)
