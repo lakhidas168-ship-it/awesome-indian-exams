@@ -303,7 +303,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cetcell.mahacet.org/cms-download/information-brochure-for-mht-cet-pcmpcb-group-a-y-2026-27/; official_site=https://cetcell.mahacet.org/; pattern_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/; syllabus_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/"]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cetcell.mahacet.org/cms-download/information-brochure-for-mht-cet-pcmpcb-group-a-y-2026-27/; notification_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/MHT-CET-2026-Information-Brochure.pdf; official_site=https://cetcell.mahacet.org/; pattern_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/; pattern_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/MHT-CET-2026-Information-Brochure.pdf; syllabus_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/; syllabus_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/Syllabus-Technical-2026.pdf"]
 
 [[task]]
 id = "T-208"
@@ -1347,7 +1347,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cetcell.mahacet.org/cms-download/information-brochure-for-mah-l-l-b-3-yrs-cet-a-y-2026-27/; official_site=https://cetcell.mahacet.org/; pattern_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/; syllabus_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/"]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cetcell.mahacet.org/cms-download/information-brochure-for-mah-l-l-b-3-yrs-cet-a-y-2026-27/; notification_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET-IB-3-Years-LLB-_2026.pdf; official_site=https://cetcell.mahacet.org/; pattern_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/; pattern_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET-IB-3-Years-LLB-_2026.pdf; syllabus_url=https://cetcell.mahacet.org/syllabus-and-marking-scheme/; syllabus_url=https://cetcell.mahacet.org/wp-content/uploads/2023/12/DHE_Syllabus_2024-1.pdf"]
 
 [[task]]
 id = "T-295"
@@ -1383,7 +1383,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/"]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; notification_url=https://www.aima.in/content/testing-and-assessment/mat/mat; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/; pattern_url=https://www.aima.in/content/testing-and-assessment/mat/mat"]
 
 [[task]]
 id = "T-298"
@@ -1419,7 +1419,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/"]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; notification_url=https://www.aima.in/content/testing-and-assessment/mat/mat; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/; pattern_url=https://www.aima.in/content/testing-and-assessment/mat/mat"]
 
 [[task]]
 id = "T-301"
@@ -1431,7 +1431,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts debdebojit28) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/"]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; notification_url=https://www.aima.in/content/testing-and-assessment/mat/mat; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/; pattern_url=https://www.aima.in/content/testing-and-assessment/mat/mat"]
 
 [[task]]
 id = "T-302"
