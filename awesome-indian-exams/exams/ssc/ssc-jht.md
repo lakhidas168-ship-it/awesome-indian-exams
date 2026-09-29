@@ -4,7 +4,7 @@ exam_id: ssc-jht
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC JHT 2026 (Combined Hindi Translators Examination, 2026)
-last_verified: 2026-09-27
+last_verified: 2026-09-29
 verification: official
 ---
 
@@ -12,7 +12,7 @@ verification: official
 
 > **Evidence status: 🟢 official.** Every number below is from the Combined Hindi Translators
 > Examination, 2026 notice (F. No. HQ-C11017/1/2026-C-1) and the Commission's examination-schedule
-> notice dated 12.08.2026, fetched from ssc.gov.in on 2026-09-28.
+> notice dated 12.08.2026, fetched from ssc.gov.in on 2026-09-29.
 
 SSC JHT (officially the Combined Hindi Translators Examination) recruits Group B non-gazetted staff for
 various central government ministries, departments and organisations: Junior Hindi Translator, Junior
