@@ -4,7 +4,7 @@ exam_id: mh-cet-law
 conducting_body: State CET Cell, Maharashtra
 official_site: https://cetcell.mahacet.org
 cycle: A.Y. 2026-27
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
@@ -12,7 +12,7 @@ verification: official
 
 > **Evidence status: 🟢 official.** Every number below is from the State CET Cell's
 > information brochures for MAH-LL.B. 3 Yrs. CET 2026 and MAH-LL.B. 5 Yrs. CET 2026
-> (academic year 2026-27), fetched from cetcell.mahacet.org on 2026-09-28.
+> (academic year 2026-27), fetched from cetcell.mahacet.org on 2026-09-29.
 
 MAH CET Law is Maharashtra's online entrance for admission to the three-year LLB
 and the five-year integrated law programmes (BBA-LLB, BLS-LLB, BA-LLB and similar)
@@ -28,7 +28,7 @@ universities. The two programmes have separate tests, brochures and schedules.
 | Tests | Separate CETs for 3-year LLB and 5-year integrated LLB |
 | 3-year LLB CET 2026 | 120 questions, 120 marks, 2 hours, no negative marking |
 | 5-year LLB CET 2026 | 120 questions, 120 marks, 2 hours, no negative marking |
-| 2026 cycle (per brochures) | 3-year CET on 01–02.04.2026; 5-year CET on 08.05.2026 (both now held; CAP rounds ran Aug 2026) |
+| 2026 cycle (per brochures) | 3-year CET on 01–02.04.2026 (tentative); 5-year CET on 08.05.2026 (tentative) |
 | Qualification | 3-year: any bachelor's degree (10+2+3 pattern); 5-year: 10+2 (HSC) |
 | Minimum marks | 45% aggregate for Open/SEBC/EWS/OMS; 42% for VJNT/SBC/OBC (Maharashtra); 40% for SC/ST (Maharashtra) |
 | Age | No upper age limit for the 2026-27 cycle (subject to pending court cases) |
@@ -67,10 +67,11 @@ in English and Marathi, and the time allowed is 2 hours (120 minutes).
 | English | 24 | 24 |
 | Mathematical Aptitude | 8 | 8 |
 
-The 3-year CET 2026 was held on 1 and 2 April 2026 in multiple sessions where needed;
-the 5-year CET 2026 was held on 8 May 2026. Entry is strictly per the date and session
-on the hall ticket. Registration for the 2026 cycle ran 08–23.01.2026 (3-year) and
-09–24.01.2026 (5-year). The next cycle's brochure is awaited on the official site.
+The brochures schedule the 3-year CET 2026 on 1 and 2 April 2026 and the 5-year CET 2026
+on 8 May 2026, both marked tentative and run online in multiple sessions where needed, at
+centres in Maharashtra only. Entry is strictly per the date and session on the hall ticket.
+Registration for the 2026 cycle was 08–23.01.2026 (3-year) and 09–24.01.2026 (5-year).
+The next cycle's brochure is awaited on the official site.
 
 ## Syllabus
 
@@ -99,8 +100,8 @@ brochure rule upheld by the Bombay High Court in 2019.
 
 ## How to prepare (free, in order)
 
-1. Master **Legal reasoning** first — it is the highest-weight section in both papers
-   (24 and 32 marks) and unlike anything in school exams (see the
+1. Master **Legal reasoning** first — it is the part of the paper that is unlike anything
+   in school exams (24 marks in the 3-year paper, 32 in the 5-year one; see the
    [overlap map](../../resources/overlap-map.md)).
 2. Do **Reasoning** daily in timed sets; accuracy matters more than attempts since there
    is no negative marking — attempt everything.
