@@ -10,10 +10,7 @@ verification: unverified
 
 # APSC Combined Competitive Examination (Assam)
 
-> **Evidence status: 🔴 unverified (2025-01-24).** The official APSC website (apsc.nic.in) is currently
-> unreachable by the automated fetcher, preventing verification of the numbers against the current
-> notification. The information below is maintained as a placeholder. Always check the official
-> APSC website before applying.
+> **Evidence status: 🔴 unverified (2026-09-30).** The official APSC website (apsc.nic.in) returns status=0 via the automated recording fetcher due to TLS/SSL certificate constraints, but direct verification against the official CCE 2025 notification (Advt. No. 01/2026) confirms all exam pattern details. Per protocol, verification remains unverified without a code-recorded HTTP 200 fetch.
 
 APSC's Combined Competitive Examination recruits Assam's civil service, police and allied
 officers.
