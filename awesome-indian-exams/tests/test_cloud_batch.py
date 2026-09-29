@@ -1,44 +1,70 @@
-"""Offline tests for ops/cloud_batch.sh using the mock LLM.
+"""Offline tests for ops/cloud_batch.sh -- the free GitHub Actions cloud hive, using the scripted mock LLM.
+
+A dry run (HIVE_CLOUD_DRY=1) copies the content folder to a throwaway repo, runs the six workers against a
+LOCAL bare hub with the mock LLM playing both the worker and the JEVX judge, then computes the single
+candidate commit that GitHub would receive -- without ever touching a real remote.
 
 Tests:
   1. A dry run completes a task end to end and produces exactly one candidate commit.
-  2. The skip-when-Mac-alive check works (exits 0 if HIVE_MAC_LAST_SEEN < 7200 ago).
-  3. Claim refs never appear on the 'origin' remote (only on the local hub).
+  2. Claim and agent refs never appear on the 'origin' remote (they live on the local 'hub' only).
+  3. The run is skipped entirely while the Mac is active (HIVE_MAC_LAST_SEEN < 7200 s ago).
 """
 from __future__ import annotations
 
-import json
 import os
+import re
 import shutil
 import subprocess
-import sys
 import tempfile
 import threading
 import time
 import unittest
-from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
 
 from mock_llm import MockLLM, tool_call, tools_used
 
 CONTENT = Path(__file__).resolve().parents[1]
+# An exam page that is still `verification: unverified`: the evidence gate only guards pages that claim to be
+# official, so a mock edit here stays valid whatever the calendar date.
+PAGE = "exams/engineering/psu-ee.md"
+FIXTURE_TASKS = """
+[[task]]
+id = "T-901"
+lane = "hermes"
+priority = 0
+title = "Offline cloud test: verify the PSU EE page"
+accept = ["a"]
+
+[[task]]
+id = "T-951"
+lane = "opencode"
+priority = 0
+title = "Offline cloud test: tooling check"
+accept = ["a"]
+"""
+CLEAN = ("GITHUB_TOKEN", "GITHUB_MODELS_TOKEN", "GEMINI_API_KEY", "OPENROUTER_API_KEY", "GROQ_API_KEY",
+         "FREELLMAPI_KEY", "FREELLMAPI_BASE_URL", "OPENCODE_API_KEY", "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL",
+         "HIVE_MAC_LAST_SEEN", "HIVE_CMD_HERMES", "HIVE_CMD_OPENCODE", "HIVE_FALLBACK", "HIVE_WHERE",
+         "HIVE_OPEN_PR", "HIVE_SANDBOX", "HIVE_REMOTE", "HIVE_BASE", "HIVE_HOME", "HIVE_TASK_ID", "HIVE_NOTES",
+         "HIVE_FETCH_LOG", "HIVE_TIMEOUT", "HIVE_NO_TASK_EXIT", "HIVE_CLOUD_DRY", "HIVE_CLOUD_DIR",
+         "HIVE_CLOUD_MAX_TASKS")
 
 
 def clean_env(**extra: str) -> dict:
-    env = {k: v for k, v in os.environ.items() if k not in (
-        "GITHUB_TOKEN", "GITHUB_MODELS_TOKEN", "GEMINI_API_KEY", "OPENROUTER_API_KEY",
-        "GROQ_API_KEY", "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL", "OPENCODE_API_KEY",
-        "HIVE_MAC_LAST_SEEN", "HIVE_CMD_HERMES", "HIVE_CMD_OPENCODE", "HIVE_FALLBACK",
-        "HIVE_WHERE", "HIVE_OPEN_PR", "HIVE_SANDBOX", "HIVE_REMOTE", "HIVE_BASE",
-        "HIVE_HOME", "HIVE_TASK_ID", "HIVE_NOTES", "HIVE_FETCH_LOG", "HIVE_TIMEOUT",
-        "HIVE_NO_TASK_EXIT"
-    )}
-    return {**env, **extra}
+    env = {k: v for k, v in os.environ.items() if k not in CLEAN}
+    env.update({"GIT_AUTHOR_NAME": "hive-bot",
+                "GIT_AUTHOR_EMAIL": "41898282+github-actions[bot]@users.noreply.github.com",
+                "GIT_COMMITTER_NAME": "hive-bot",
+                "GIT_COMMITTER_EMAIL": "41898282+github-actions[bot]@users.noreply.github.com",
+                "GIT_CONFIG_GLOBAL": os.devnull, "GIT_CONFIG_NOSYSTEM": "1"})
+    env.update(extra)
+    return env
 
 
 class MockFetchHandler(BaseHTTPRequestHandler):
     def do_GET(self):  # noqa: N802
-        body = b"<html><body><h1>GATE 2027 EE Brochure</h1><p>Exam pattern: 65 questions, 100 marks.</p></body></html>"
+        body = b"<html><body><h1>PSU EE recruitment</h1><p>GATE-based hiring, official portal.</p></body></html>"
         self.send_response(200)
         self.send_header("Content-Type", "text/html")
         self.send_header("Content-Length", str(len(body)))
@@ -49,129 +75,102 @@ class MockFetchHandler(BaseHTTPRequestHandler):
         pass
 
 
-class CloudBatchTest(unittest.TestCase):
-    """Integration test for the cloud batch script in dry-run mode."""
+class CloudBatchDryRunTest(unittest.TestCase):
+    """Runs the cloud batch once in dry-run mode; the tests assert on its real output and remotes."""
 
-    def setUp(self) -> None:
-        self.tmp = Path(tempfile.mkdtemp())
-        # Replicate the real repo structure: repo_root/awesome-indian-exams (content)
-        self.repo_root = self.tmp / "awesome-indian-exams"
-        self.content = self.repo_root / "awesome-indian-exams"
-        shutil.copytree(CONTENT, self.content, ignore=shutil.ignore_patterns("__pycache__", "tests_main", ".git"))
-        # Start mock fetch server
-        self.fetch_server = ThreadingHTTPServer(("127.0.0.1", 0), MockFetchHandler)
-        self.fetch_url = f"http://127.0.0.1:{self.fetch_server.server_address[1]}/brochure"
-        self.fetch_thread = threading.Thread(target=self.fetch_server.serve_forever, daemon=True)
-        self.fetch_thread.start()
-        # Mock LLM for the test
-        self.mocks: list[MockLLM] = []
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.tmp = Path(tempfile.mkdtemp())
+        # Replicate the real repo layout: <repo_root>/awesome-indian-exams (the content folder).
+        cls.repo_root = cls.tmp / "awesome-indian-exams"
+        cls.content = cls.repo_root / "awesome-indian-exams"
+        shutil.copytree(CONTENT, cls.content, ignore=shutil.ignore_patterns("__pycache__", "tests_main", ".git"))
+        # Deterministic ready work: the live backlog shrinks as the hive works.
+        with (cls.content / "ops" / "tasks.toml").open("a", encoding="utf-8") as fh:
+            fh.write(FIXTURE_TASKS)
+        cls.cloud_dir = cls.tmp / "cloud"
+        cls.fetch_server = ThreadingHTTPServer(("127.0.0.1", 0), MockFetchHandler)
+        fetch_url = f"http://127.0.0.1:{cls.fetch_server.server_address[1]}/psu"
+        threading.Thread(target=cls.fetch_server.serve_forever, daemon=True).start()
 
-    def tearDown(self) -> None:
-        for m in self.mocks:
-            m.close()
-        self.fetch_server.shutdown()
-        self.fetch_server.server_close()
-        shutil.rmtree(self.tmp)
+        steps = [("read_file", {"path": PAGE, "limit": 400}), ("fetch_url", {"url": fetch_url}),
+                 ("replace_in_file", {"path": PAGE, "old": "verification: unverified\n",
+                                      "new": "verification: secondary\n"}),
+                 ("run_gate", {}),
+                 ("finish", {"notes": "## Sources opened\n- local mock page\n## Changed\n- mock edit"})]
 
-    def mock(self, script) -> MockLLM:
-        m = MockLLM(script)
-        self.mocks.append(m)
-        return m
+        def script(body: dict) -> dict:
+            if "You are JEVX" in body["messages"][0]["content"]:
+                return {"role": "assistant", "content": '{"approve": true, "reason": "offline cloud test"}'}
+            n = tools_used(body)
+            return tool_call(*steps[min(n, len(steps) - 1)], n)
 
-    def run_dry(self, env: dict) -> subprocess.CompletedProcess:
-        """Run cloud_batch.sh in dry-run mode with the given env."""
-        env = {
-            **env,
-            "HIVE_CLOUD_DRY": "1",
-            "HIVE_LLM_BASE_URL": "http://127.0.0.1:0/v1",  # will be overridden by first mock
-            "HIVE_TASK_ID": "T-201",
-        }
-        # The script expects to be run from repo_root (parent of content)
-        script = self.content / "ops" / "cloud_batch.sh"
-        return subprocess.run(
-            ["bash", str(script)],
-            cwd=self.repo_root,
-            env=env,
-            text=True,
-            capture_output=True,
-            timeout=180
-        )
+        cls.mock = MockLLM(script)
+        env = clean_env(HIVE_CLOUD_DRY="1", HIVE_CLOUD_DIR=str(cls.cloud_dir), HIVE_CLOUD_MAX_TASKS="1",
+                        HIVE_LLM_BASE_URL=cls.mock.url, HIVE_MAC_LAST_SEEN="0")
+        cls.res = subprocess.run(["bash", str(cls.content / "ops" / "cloud_batch.sh")], cwd=cls.repo_root,
+                                 env=env, text=True, capture_output=True, timeout=600)
 
-    def test_dry_run_completes_task_and_produces_candidate_commit(self) -> None:
-        """A dry run should complete one task end-to-end and produce a candidate commit."""
-        page = "exams/gate/gate-ee.md"
-        steps = [
-            ("read_file", {"path": page, "limit": 400}),
-            ("fetch_url", {"url": self.fetch_url}),
-            ("replace_in_file", {"path": page, "old": "verification: unverified\n", "new": "verification: official\n"}),
-            ("replace_in_file", {"path": page, "old": "last_verified: 2025-01-01\n", "new": "last_verified: 2026-09-28\n"}),
-            ("run_gate", {}),
-            ("finish", {"notes": "## Sources opened\n- GATE 2027 brochure confirmed pattern\n## Could not confirm\n- nothing\n## Changed\n- updated verification to official with last_verified today"}),
-        ]
-        m = self.mock(lambda body: tool_call(*steps[tools_used(body)], tools_used(body)))
-        env = clean_env(HIVE_LLM_BASE_URL=m.url, HIVE_MAC_LAST_SEEN="0")  # Mac away
-        res = self.run_dry(env)
-        print("STDOUT:", res.stdout[-3000:] if len(res.stdout) > 3000 else res.stdout)
-        print("STDERR:", res.stderr[-3000:] if len(res.stderr) > 3000 else res.stderr)
-        self.assertEqual(res.returncode, 0, f"cloud_batch.sh failed: {res.stderr}")
-        # Check that the script logged the candidate commit
-        output = (res.stdout + res.stderr).lower()
-        self.assertIn("candidate commit", output, "Script should log candidate commit creation")
+    @classmethod
+    def tearDownClass(cls) -> None:
+        cls.mock.close()
+        cls.fetch_server.shutdown()
+        cls.fetch_server.server_close()
+        shutil.rmtree(cls.tmp)
+
+    def out(self) -> str:
+        return self.res.stdout + self.res.stderr
+
+    def ls_remote(self, repo: Path, *patterns: str) -> str:
+        return subprocess.run(["git", "ls-remote", str(repo), *patterns],
+                              text=True, capture_output=True).stdout
+
+    def test_dry_run_completes_a_task_and_produces_one_candidate_commit(self) -> None:
+        out = self.out()
+        self.assertEqual(self.res.returncode, 0, out)
+        low = out.lower()
+        # A real candidate commit: exactly one, never a fabricated placeholder.
+        self.assertEqual(low.count("candidate commit"), 1, out)
+        self.assertIsNotNone(re.search(r"candidate commit ([0-9a-f]{40})", low), out)
+        # End to end: workers pushed branches for the hub's judge, which published approved work onto hub main.
+        self.assertIn("published", low, out)
+        base = re.search(r"base commit ([0-9a-f]{40})", low)
+        self.assertIsNotNone(base, out)
+        hub_main = self.ls_remote(self.cloud_dir / "hub.git", "refs/heads/main").split()[0]
+        self.assertNotEqual(hub_main, base.group(1), "the hub's main should have advanced past the base commit")
+
+    def test_claim_and_agent_refs_never_reach_origin(self) -> None:
+        out = self.out()
+        self.assertEqual(self.res.returncode, 0, out)
+        origin = re.search(r"ORIGIN_REPO=(\S+)", self.res.stdout)
+        self.assertIsNotNone(origin, out)
+        leaked = self.ls_remote(Path(origin.group(1)), "refs/heads/agent/*", "refs/heads/claim/*")
+        self.assertEqual(leaked.strip(), "", f"refs leaked to origin: {leaked}")
+
+
+class CloudBatchSkipTest(unittest.TestCase):
+    """The Mac-alive check exits before any work, without copying the repo or building a hub."""
 
     def test_skip_when_mac_alive(self) -> None:
-        """If HIVE_MAC_LAST_SEEN is recent (< 7200s), the script exits 0 immediately."""
-        now = int(time.time())
-        env = clean_env(HIVE_MAC_LAST_SEEN=str(now - 3600))  # 1 hour ago
-        res = self.run_dry(env)
-        self.assertEqual(res.returncode, 0, f"script failed: {res.stderr}")
-        output = (res.stdout + res.stderr).lower()
-        self.assertIn("skipping cloud run", output, "Script should log skip message")
-
-    def test_claim_refs_never_on_origin(self) -> None:
-        """In dry run, claims go to the local hub, not to 'origin'."""
-        page = "exams/gate/gate-ee.md"
-        steps = [
-            ("read_file", {"path": page, "limit": 400}),
-            ("fetch_url", {"url": self.fetch_url}),
-            ("replace_in_file", {"path": page, "old": "verification: unverified\n", "new": "verification: official\n"}),
-            ("replace_in_file", {"path": page, "old": "last_verified: 2025-01-01\n", "new": "last_verified: 2026-09-28\n"}),
-            ("run_gate", {}),
-            ("finish", {"notes": "## Sources opened\n- GATE 2027 brochure confirmed pattern\n## Changed\n- updated verification"}),
-        ]
-        m = self.mock(lambda body: tool_call(*steps[tools_used(body)], tools_used(body)))
-        env = clean_env(HIVE_LLM_BASE_URL=m.url, HIVE_MAC_LAST_SEEN="0")
-        res = self.run_dry(env)
-        self.assertEqual(res.returncode, 0, f"cloud_batch.sh failed: {res.stderr}")
-        # The script uses 'hub' remote for all claims/pushes in dry run
-        # 'origin' is never configured in dry run mode (only the local checkout)
-        # So claim refs can never appear on 'origin'
-        # We verify the script logs show pushes to 'hub'
-        output = (res.stdout + res.stderr).lower()
-        self.assertIn("hub", output, "Script should reference hub remote")
+        tmp = Path(tempfile.mkdtemp())
+        try:
+            env = clean_env(HIVE_CLOUD_DRY="1", HIVE_CLOUD_DIR=str(tmp / "cloud"),
+                            HIVE_MAC_LAST_SEEN=str(int(time.time()) - 3600))  # seen 1 hour ago
+            res = subprocess.run(["bash", str(CONTENT / "ops" / "cloud_batch.sh")], cwd=CONTENT.parent,
+                                 env=env, text=True, capture_output=True, timeout=120)
+            self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
+            self.assertIn("skipping cloud run", (res.stdout + res.stderr).lower())
+            self.assertFalse((tmp / "cloud").exists(), "nothing should be set up when the Mac is active")
+        finally:
+            shutil.rmtree(tmp)
 
 
 class CloudBatchUnitTests(unittest.TestCase):
-    """Unit tests for the skip logic and remote isolation."""
-
     def test_mac_alive_check_logic(self) -> None:
-        """Test the time comparison logic directly."""
-        now = 1000000
-        # Mac seen 1 hour ago (3600s) -> skip
-        self.assertTrue(now - (now - 3600) < 7200)
-        # Mac seen 3 hours ago (10800s) -> don't skip
-        self.assertFalse(now - (now - 10800) < 7200)
-        # Mac seen exactly 7200s ago -> don't skip (strict <)
-        self.assertFalse(now - (now - 7200) < 7200)
-
-    def test_remote_isolation_design(self) -> None:
-        """Verify the design: dry run uses 'hub' remote, never 'origin'."""
-        # In dry run mode, the script:
-        # 1. Creates a bare repo at /tmp/hive-hub-$$
-        # 2. Adds it as remote 'hub'
-        # 3. Runs all workers against 'hub' (HIVE_REMOTE=hub)
-        # 4. Judge runs against 'hub'
-        # 5. Final push compares hub/main vs origin/main trees
-        self.assertTrue(True)  # design verified by inspection
+        now = 1_000_000
+        self.assertTrue(now - (now - 3600) < 7200)       # seen 1 h ago -> skip
+        self.assertFalse(now - (now - 10800) < 7200)     # seen 3 h ago -> run
+        self.assertFalse(now - (now - 7200) < 7200)      # exactly 7200 s -> run (strict <)
 
 
 if __name__ == "__main__":
