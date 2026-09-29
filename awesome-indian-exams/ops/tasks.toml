@@ -176,7 +176,7 @@ accept = [
   "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
   "verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf"]
+hints = ["Spark (Google accounts rajon369963das, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027.iitm.ac.in/notifications; notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CS_GATE2027_Syllabus.pdf"]
 
 [[task]]
 id = "T-013"
@@ -187,7 +187,7 @@ accept = [
   "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
   "verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf"]
+hints = ["Spark (Google accounts rajon369963das, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027.iitm.ac.in/notifications; notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf"]
 
 [[task]]
 id = "T-014"
@@ -198,6 +198,7 @@ accept = [
   "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
   "verification = official only with a fetched official source",
 ]
+hints = ["Spark (Google accounts rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2026.iitg.ac.in/doc/IB/GATE2026-IB-10102025.pdf; official_site=https://gate2026.iitg.ac.in/; pattern_url=https://gate2026.iitg.ac.in/exam-papers-and-syllabus.html; syllabus_url=https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/ME_2026_Syllabus.pdf"]
 
 [[task]]
 id = "T-015"
@@ -208,7 +209,7 @@ accept = [
   "pattern and syllabus sections match the official brochure and syllabus PDF; their URLs are under Official sources",
   "verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CE_GATE2027_Syllabus.pdf"]
+hints = ["Spark (Google accounts rajon369963das, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027.iitm.ac.in/notifications; notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/CE_GATE2027_Syllabus.pdf"]
 
 [[task]]
 id = "T-016"
@@ -434,7 +435,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04; official_site=https://aiimsexams.ac.in; pattern_url=https://docs.aiimsexams.ac.in/sites/1_Advertisement_NORCET_-8.Ver_2.0[1].pdf; syllabus_url=https://docs.aiimsexams.ac.in/sites/1_Advertisement_NORCET_-8.Ver_2.0[1].pdf"]
+hints = ["Spark (Google accounts jada10656, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04; official_site=https://aiimsexams.ac.in; official_site=https://www.aiimsexams.ac.in; pattern_url=https://aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04; pattern_url=https://docs.aiimsexams.ac.in/sites/1_Advertisement_NORCET_-8.Ver_2.0[1].pdf; syllabus_url=https://docs.aiimsexams.ac.in/sites/1_Advertisement_NORCET_-8.Ver_2.0[1].pdf"]
 
 [[task]]
 id = "T-219"
@@ -1331,7 +1332,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nationallawuniversitydelhi.in/notification/AILET_2027.pdf; official_site=https://nationallawuniversitydelhi.in; pattern_url=https://nationallawuniversitydelhi.in/ballb/exam-details.html; syllabus_url=https://nationallawuniversitydelhi.in/ballb/exam-details.html"]
+hints = ["Spark (Google accounts jada10656, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://nationallawuniversitydelhi.in/notification/AILET_2027.pdf; official_site=https://nationallawuniversitydelhi.in; official_site=https://nationallawuniversitydelhi.in/; pattern_url=https://nationallawuniversitydelhi.in/ballb/exam-details.html; syllabus_url=https://nationallawuniversitydelhi.in/ballb/exam-details.html"]
 
 [[task]]
 id = "T-294"
