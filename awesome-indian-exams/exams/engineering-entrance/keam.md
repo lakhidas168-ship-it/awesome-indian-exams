@@ -29,8 +29,8 @@ covers the engineering paper.
 
 ## Official sources
 
-- KEAM 2026 Prospectus (all numbers on this page; Annexure I is the syllabus): <http://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf>
-- CEE Kerala KEAM 2026 portal (notifications, answer key, rank lists): <http://cee.kerala.gov.in/keam2026/>
+- KEAM 2026 Prospectus (all numbers on this page; Annexure I is the syllabus): <https://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf>
+- CEE Kerala KEAM 2026 portal (notifications, answer key, rank lists): <https://cee.kerala.gov.in/keam2026/>
 
 ## Exam pattern
 

@@ -143,6 +143,10 @@ class FreeAgent(unittest.TestCase):
         self.assertLessEqual(sum(len(json.dumps(m)) for m in messages), 20000)
         self.assertEqual(messages[-1]["content"], "x" * 5000)  # the newest output is kept
 
+    def test_user_agent_has_no_url_suffix(self) -> None:
+        # Government WAFs (UPSC, NTA) return 403 to a "(+https://...)" suffix, which blocks every official fetch.
+        self.assertNotIn("(+", free_agent.USER_AGENT)
+
 
 if __name__ == "__main__":
     unittest.main()

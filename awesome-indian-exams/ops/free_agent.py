@@ -42,7 +42,8 @@ import hive_gate  # noqa: E402
 import validate  # noqa: E402
 
 EX_TEMPFAIL = 75
-USER_AGENT = "awesome-indian-exams-hive/1.0 (+https://github.com/lakhidas168-ship-it)"
+# No "(+url)" suffix: upsc.gov.in, neet.nta.nic.in and jeemain.nta.nic.in answer 403 to it (docs/UPSC-FETCH-UA.md).
+USER_AGENT = "awesome-indian-exams-hive/1.0"
 
 PROVIDERS = {
     "opencode-go": ("https://opencode.ai/zen/go/v1", ("OPENCODE_API_KEY",)),
