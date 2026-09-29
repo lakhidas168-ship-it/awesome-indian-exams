@@ -215,6 +215,7 @@ class ContinuousMode(unittest.TestCase):
             shutil.rmtree(tmp, ignore_errors=True)
 
 
+@unittest.skipIf(os.environ.get("HIVE_IN_JUDGE"), "end-to-end local judge tests are not repeated inside the judge")
 class JEVXLocalMode(unittest.TestCase):
     """Test the JEVX lane when HIVE_OPEN_PR=0 (Mac local mode)."""
 
