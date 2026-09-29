@@ -291,7 +291,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf; official_site=https://www.bitsadmission.com; pattern_url=https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf; syllabus_url=https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf"]
+hints = ["Spark (Google accounts lakhidas168, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf; notification_url=https://www.bitsadmission.com/FD/FD_brochure.html?06012025; official_site=https://www.bitsadmission.com; pattern_url=https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf; pattern_url=https://www.bitsadmission.com/FD/FD_brochure.html?06012025; syllabus_url=https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT-2026_brochure.pdf; syllabus_url=https://www.bitsadmission.com/FD/FD_brochure.html?06012025"]
 
 [[task]]
 id = "T-207"
@@ -375,7 +375,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.comedk.org/uploads/Information-brochure-2026-version-1.0.pdf; official_site=https://www.comedk.org; pattern_url=https://www.comedk.org/about-uget-and-notification-2026; syllabus_url=https://www.comedk.org/uploads/Mathematics-syllabus-2026_final.pdf"]
+hints = ["Spark (Google accounts rajon369963das, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.comedk.org/uploads/Information-brochure-2026-version-1.0.pdf; official_site=https://www.comedk.org; pattern_url=https://www.comedk.org/about-uget-and-notification-2026; pattern_url=https://www.comedk.org/uploads/Information-brochure-2026-version-1.0.pdf; syllabus_url=https://www.comedk.org/about-uget-and-notification-2026; syllabus_url=https://www.comedk.org/uploads/Mathematics-syllabus-2026_final.pdf"]
 
 [[task]]
 id = "T-214"
@@ -555,7 +555,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://bpsc.bihar.gov.in/advertisement/; official_site=https://bpsc.bihar.gov.in/; pattern_url=https://bpsc.bihar.gov.in/syllabus/; syllabus_url=https://bpsc.bihar.gov.in/syllabus/"]
+hints = ["Spark (Google accounts lakhidas168, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://bpsc.bihar.gov.in/; notification_url=https://bpsc.bihar.gov.in/advertisement/; official_site=https://bpsc.bihar.gov.in; official_site=https://bpsc.bihar.gov.in/; pattern_url=https://bpsc.bihar.gov.in/overview/; pattern_url=https://bpsc.bihar.gov.in/syllabus/; syllabus_url=https://bpsc.bihar.gov.in/syllabus/"]
 
 [[task]]
 id = "T-229"
@@ -603,7 +603,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: official_site=https://apsc.nic.in"]
+hints = ["Spark (Google accounts lakhidas168, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: official_site=https://apsc.nic.in"]
 
 [[task]]
 id = "T-233"
@@ -1143,7 +1143,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://csirnet.nta.nic.in/documents/; official_site=https://csirnet.nta.nic.in; pattern_url=https://csirnet.nta.nic.in/about-department/introduction/; syllabus_url=https://csirhrdg.res.in/Home/Index/1/Default/3485/78"]
+hints = ["Spark (Google accounts rajon369963das, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://csirnet.nta.nic.in/documents/; notification_url=https://nta.ac.in/Download/Notice/Notice_20260527215534.pdf; official_site=https://csirnet.nta.nic.in; official_site=https://csirnet.nta.nic.in/; pattern_url=https://csirhrdg.res.in/Home/Index/1/Default/3485/78; pattern_url=https://csirnet.nta.nic.in/about-department/introduction/; syllabus_url=https://csirhrdg.res.in/Home/Index/1/Default/3485/78"]
 
 [[task]]
 id = "T-278"
@@ -1467,7 +1467,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.icsi.edu/media/webmodules/Mocktest29042025.pdf; official_site=https://www.icsi.edu; pattern_url=https://www.icsi.edu/media/webmodules/FAQ_on_CSEET_to_be_held_through_Remote_Proctored_Mode.pdf; syllabus_url=https://www.icsi.edu/students/cseet/"]
+hints = ["Spark (Google accounts rajon369963das, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.icsi.edu/media/webmodules/Mocktest29042025.pdf; official_site=https://www.icsi.edu; pattern_url=https://www.icsi.edu/media/webmodules/FAQ_on_CSEET_to_be_held_through_Remote_Proctored_Mode.pdf; syllabus_url=https://www.icsi.edu/cseet-academics; syllabus_url=https://www.icsi.edu/students/cseet/"]
 
 [[task]]
 id = "T-305"
