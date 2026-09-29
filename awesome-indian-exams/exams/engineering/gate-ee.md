@@ -4,7 +4,7 @@ exam_id: gate-ee
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
@@ -19,7 +19,7 @@ recruitment filter for many PSUs, and covers most of the ESE technical syllabus.
 |---|---|
 | Conducted by | IISc Bengaluru and IITs Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee (one organises each year) for the National Coordination Board – GATE, Ministry of Education |
 | This cycle | GATE 2027, organised by **IIT Madras** |
-| Exam dates (announced) | 6, 7, 13, 14, 20 and 21 February 2027 (EE's exact date and session are fixed in the schedule) |
+| Exam dates (announced) | 6, 7, 13, 14, 20 and 21 February 2027 |
 | Mode | Computer-based test, 3 hours, 100 marks |
 | Who can apply | Students in the 3rd year or higher of an undergraduate programme, and graduates. No age limit |
 | Score validity | 3 years from the result |
