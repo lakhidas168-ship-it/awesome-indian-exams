@@ -5,7 +5,7 @@ conducting_body: Securities and Exchange Board of India
 official_site: https://www.sebi.gov.in
 cycle: SEBI Officer Grade A 2025
 last_verified: 2026-09-29
-verification: official
+verification: unverified
 ---
 
 # SEBI Grade A (Assistant Manager)
