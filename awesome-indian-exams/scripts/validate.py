@@ -114,6 +114,10 @@ def parse_date(value: str) -> dt.date | None:
 
 # ------------------------------------------------------------------ registry
 
+def check_eligibility_entry(entry: dict, rep: Report, path: Path) -> None:
+    if not entry.get("official_source_url"):
+        rep.error(path, "eligibility entry missing official_source_url")
+
 def load_registry(root: Path, official: tuple[str, ...], rep: Report) -> dict:
     path = root / "registry" / "exams.toml"
     empty = {"family": {}, "module": {}, "exam": {}}
@@ -149,6 +153,11 @@ def load_registry(root: Path, official: tuple[str, ...], rep: Report) -> dict:
                 rep.error(path, f"exam {eid}: {key} missing")
         if ex.get("family") and ex["family"] not in reg["family"]:
             rep.error(path, f"exam {eid}: unknown family '{ex['family']}'")
+        
+        # Check eligibility
+        if "eligibility" in ex:
+            check_eligibility_entry(ex["eligibility"], rep, path)
+
         for mod in ex.get("modules", []):
             if mod not in reg["module"]:
                 rep.error(path, f"exam {eid}: unknown module '{mod}'")
