@@ -4,7 +4,7 @@ exam_id: ukpsc-pcs
 conducting_body: Uttarakhand Public Service Commission
 official_site: https://psc.uk.gov.in
 cycle: UKPSC PCS 2026 (Advt A-1/E-1/2026-27)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
