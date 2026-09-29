@@ -5,6 +5,8 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-29 15:57 UTC** · `T-506` · hermes · [Harvest inv:ffffe7e6 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-506.md)
 - **2026-09-29 15:52 UTC** · `T-522` · hermes · [Harvest inv:eb73eded into exams/upsc/upsc-ies-iss.md (owner's earlier work, local)](ops/done/T-522.md)
 - **2026-09-29 15:51 UTC** · `T-628` · opencode · [Re-verify exams/state-psc/opsc-ocs.md against current official notification and upgrade verification status](ops/done/T-628.md)
+- **2026-09-29 15:50 UTC** · `T-518` · hermes · [Harvest inv:60a0569c into exams/state-psc/uppsc-pcs.md (owner's earlier work, local)](ops/done/T-518.md)
+- **2026-09-29 15:50 UTC** · `T-626` · opencode · [Re-verify exams/state-psc/mppsc-sse.md against current official notification and upgrade verification status](ops/done/T-626.md)
 - **2026-09-29 15:45 UTC** · `T-719` · hermes · [Verify exams/engineering/pgcil-dt-ee.md against official PGCIL Diploma Trainee notification](ops/done/T-719.md)
 - **2026-09-29 15:43 UTC** · `T-515` · hermes · [Harvest inv:8ee61f3a into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-515.md)
 - **2026-09-29 15:42 UTC** · `T-511` · hermes · [Harvest inv:23d50db7 into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-511.md)
