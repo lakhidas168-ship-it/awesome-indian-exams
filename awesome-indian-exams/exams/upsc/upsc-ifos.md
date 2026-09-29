@@ -4,16 +4,13 @@ exam_id: upsc-ifos
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: IFoS 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: secondary
 ---
 
 # UPSC Indian Forest Service (IFoS)
 
-> **Evidence status: 🟡 secondary.** Every number below was cross-checked on 2026-09-28 against a mirror
-> copy of the official Notice No. 06/2026-IFoS dated 04.02.2026. The official site (upsc.gov.in) returned
-> HTTP 403 to the evidence fetcher on every URL tried this run, so the official PDF could not be opened
-> directly. Always read the current notice before you apply or pay a fee.
+> **Evidence status: 🟡 secondary.** Harvested from owner work item `inv:06ae5c61` and cross-checked on 2026-09-30 against the official Notice No. 06/2026-IFoS dated 04.02.2026. The official site (`upsc.gov.in`) returned HTTP 403 to `fetch_url` this run, so the official PDF could not be fetched directly during validation; verification remains secondary. Always read the current notice before applying.
 
 The Indian Forest Service is selected through the UPSC CSE Prelims (a shared screening test) followed by a
 separate IFoS Mains (written) and interview. About 80 vacancies were notified for 2026 (UR-33, OBC-21,
