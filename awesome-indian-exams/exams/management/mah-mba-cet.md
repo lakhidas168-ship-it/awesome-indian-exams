@@ -11,7 +11,7 @@ verification: official
 # MAH MBA/MMS CET
 
 > **Evidence status: 🟢 official.** Every number below is from the MAH-MBA/MMS CET 2026 Information
-> Brochure (for Academic Year 2026-27), fetched from cetcell.mahacet.org on 2026-09-29.
+> Brochure (for Academic Year 2026-27), fetched from cetcell.mahacet.org on 2026-09-30.
 
 MAH MBA/MMS CET is Maharashtra's online entrance for first-year MBA/MMS seats in the state's management
 institutes: government institutes, university departments, university-managed institutes, and unaided
