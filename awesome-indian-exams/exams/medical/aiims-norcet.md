@@ -4,15 +4,15 @@ exam_id: aiims-norcet
 conducting_body: AIIMS New Delhi
 official_site: https://www.aiimsexams.ac.in
 cycle: NORCET-11 (Notice No. 103/2026, 24 July 2026)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
 # AIIMS NORCET (Nursing Officer)
 
-> **Evidence status: 🟢 official.** Every number below is from the NORCET-11 advertisement (Notice No.
-> 103/2026, dated 24 July 2026), fetched from the AIIMS examinations portal on 2026-09-28. Always read the
-> current notice before you apply or pay a fee.
+> **Evidence status: 🟢 official.** Every number below is from the NORCET-11 detailed advertisement
+> (Notice No. 103/2026, dated 24 July 2026), fetched from the AIIMS examinations portal on 2026-09-29.
+> Always read the current notice before you apply or pay a fee.
 
 NORCET recruits Nursing Officers for AIIMS New Delhi, other AIIMS and the other participating central
 institutes/hospitals.
@@ -31,7 +31,7 @@ institutes/hospitals.
 
 ## Official sources
 
-- NORCET-11 advertisement PDF, Notice No. 103/2026 dated 24.07.2026 (fetched 2026-09-28; the portal's download link is signed and time-limited): <https://rrpdocuments.aiimsexams.ac.in/1784982741213-632229433.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260927%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T201929Z&X-Amz-Expires=604800&X-Amz-Signature=7894a6f62ff6fa35b5efb7da062f67cf51b385a934fa9b408e83cf2142a0d239&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf>
+- NORCET-11 detailed advertisement PDF, Notice No. 103/2026 dated 24.07.2026 (fetched 2026-09-29; the portal's download link is signed and time-limited, so it may stop opening after a few days): <https://rrpdocuments.aiimsexams.ac.in/1784982741213-632229433.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260927%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T201929Z&X-Amz-Expires=604800&X-Amz-Signature=7894a6f62ff6fa35b5efb7da062f67cf51b385a934fa9b408e83cf2142a0d239&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf>
 - NORCET-11 advertisement page — stable entry point; download the PDF under "AIIMS New Delhi and Other AIIMS": <https://www.aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04>
 - AIIMS examinations portal (official): <https://www.aiimsexams.ac.in>
 
@@ -57,6 +57,21 @@ Stage I → older candidate → alphabetical order of name.
 
 As per the notification, the syllabus is that of the essential qualification — the nursing courses taught at
 B.Sc. Nursing / GNM level. Stage I additionally has 20 general knowledge and aptitude questions.
+
+## Applying (per the notice)
+
+- Apply online only, between 24 July and 13 August 2026 (up to 5:00 pm). Dates are never extended and the
+  registered details cannot be corrected after the window closes, so fill the form carefully.
+- Anyone who already holds a One Time Registration (OTR) ID from an earlier AIIMS examination must apply
+  with that same ID; applying with a different registration ID is rejected and can cancel the candidature.
+- Candidates already serving in Government / semi-Government / PSU / autonomous-body / Government-funded
+  employment must upload a No Objection Certificate by 18 August 2026. Without it the candidature is not
+  considered, and the candidate may not be allowed to sit the examination.
+- Fee: General/OBC ₹3,000 · SC/ST/EWS ₹2,400 · PwBD exempt. SC/ST candidates who actually appear in the
+  examination get the fee refunded after the results, subject to verification of their certificate.
+- Stage I only qualifies a candidate for Stage II. Merit, the single round of seat allocation and the
+  choice of institute are decided on Stage II alone; there is no waiting list, as NORCET is planned to be
+  held twice a year.
 
 ## How to prepare (free, in order)
 
