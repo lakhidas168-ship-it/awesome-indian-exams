@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 15:11 UTC** · `T-510` · hermes · [Harvest inv:3c85926d into exams/upsc/upsc-cds.md (owner's earlier work, local)](ops/done/T-510.md)
 - **2026-09-29 15:05 UTC** · `T-504` · hermes · [Harvest inv:7ab37183 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-504.md)
 - **2026-09-29 15:04 UTC** · `T-502` · hermes · [Harvest inv:1cce4821 into exams/ssc/ssc-jht.md (owner's earlier work, local)](ops/done/T-502.md)
 - **2026-09-29 11:49 UTC** · `T-318` · opencode · [Telegram channel post once a day from the Mac (Bot API): the day's question link and the newest verified pages from UPDATES.md; never from GitHub Actions](ops/done/T-318.md)
