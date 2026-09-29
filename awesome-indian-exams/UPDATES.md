@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 19:55 UTC** · `T-647` · hermes · [Verify exams/state-psc/rpsc-ras.md against official RPSC RAS notification and upgrade verification status](ops/done/T-647.md)
+- **2026-09-29 19:54 UTC** · `T-645` · hermes · [Verify exams/state-psc/mpsc-rajyaseva.md against official MPSC Rajyaseva notification and upgrade verification status](ops/done/T-645.md)
 - **2026-09-29 19:52 UTC** · `T-560` · hermes · [Harvest inv:decc56d0 into exams/engineering-entrance/ap-eapcet.md (owner's earlier work, local)](ops/done/T-560.md)
 - **2026-09-29 19:50 UTC** · `T-633` · hermes · [Re-verify exams/teaching/kvs-recruitment.md against current official notification and upgrade verification status](ops/done/T-633.md)
 - **2026-09-29 19:31 UTC** · `T-555` · hermes · [Harvest inv:6551b8da into exams/engineering/gate-cs.md (owner's earlier work, local)](ops/done/T-555.md)
