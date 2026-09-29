@@ -2,6 +2,10 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 19:59 UTC** · `T-639` · hermes · [Re-verify exams/upsc/upsc-epfo.md against current official notification and upgrade verification status](ops/done/T-639.md)
+- **2026-09-29 19:59 UTC** · `T-551` · hermes · [Harvest inv:adbc2583 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-551.md)
+- **2026-09-29 19:59 UTC** · `T-652` · hermes · [Verify exams/banking/sbi-po.md against official SBI PO notification and upgrade verification status](ops/done/T-652.md)
+- **2026-09-29 19:59 UTC** · `T-527` · hermes · [Harvest inv:06ae5c61 into exams/upsc/upsc-ifos.md (owner's earlier work, local)](ops/done/T-527.md)
 - **2026-09-29 19:57 UTC** · `T-650` · hermes · [Verify exams/management/mat.md against official MAT notification and upgrade verification status](ops/done/T-650.md)
 - **2026-09-29 19:55 UTC** · `T-647` · hermes · [Verify exams/state-psc/rpsc-ras.md against official RPSC RAS notification and upgrade verification status](ops/done/T-647.md)
 - **2026-09-29 19:54 UTC** · `T-645` · hermes · [Verify exams/state-psc/mpsc-rajyaseva.md against official MPSC Rajyaseva notification and upgrade verification status](ops/done/T-645.md)
