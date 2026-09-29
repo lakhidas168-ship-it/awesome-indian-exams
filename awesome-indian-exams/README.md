@@ -112,7 +112,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [APPSC Group 1](exams/state-psc/appsc-group-1.md) | Andhra Pradesh Public Service Commission | APPSC Group 1 (latest) | ⚪ unverified | 2026-09-28 |
-| [APSC Combined Competitive Examination (Assam)](exams/state-psc/apsc-cce.md) | Assam Public Service Commission | CCE 2025 (Advt. 01/2026) | 🟡 secondary | 2026-09-29 |
+| [APSC Combined Competitive Examination (Assam)](exams/state-psc/apsc-cce.md) | Assam Public Service Commission | CCE 2025 (Advt. 01/2026) | ⚪ unverified | 2026-09-29 |
 | [BPSC Combined Competitive Examination](exams/state-psc/bpsc-cce.md) | Bihar Public Service Commission | BPSC 71st CCE (2025) | 🟡 secondary | 2026-09-27 |
 | [CGPSC State Service Examination](exams/state-psc/cgpsc-sse.md) | Chhattisgarh Public Service Commission | CGPSC State Service Examination 2025 (Advt 06/2025) | ✅ official | 2026-09-28 |
 | [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-28 |
@@ -127,7 +127,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | Group-I Services, Notification No. 02/2024 (dated 19/02/2024) | ✅ official | 2026-09-28 |
 | [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | TNPSC Group 1 (latest) | ⚪ unverified | 2026-09-28 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | CCSE-IV (Group IV Services) | ✅ official | 2026-09-28 |
-| [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-28 |
+| [UKPSC Combined State Civil Services](exams/state-psc/ukpsc-pcs.md) | Uttarakhand Public Service Commission | UKPSC PCS 2026 (Advt A-1/E-1/2026-27) | ✅ official | 2026-09-29 |
 | [UPPSC PCS (Combined State/Upper Subordinate Services)](exams/state-psc/uppsc-pcs.md) | Uttar Pradesh Public Service Commission | PCS 2025 (Advt. A-1/E-1/2025) | ✅ official | 2026-09-29 |
 | [WBCS (West Bengal Civil Service)](exams/state-psc/wbcs.md) | Public Service Commission, West Bengal | WBCS 2024 (Advt. 08/2024) | ✅ official | 2026-09-28 |
 
