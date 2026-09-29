@@ -3,6 +3,7 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-29 20:06 UTC** · `T-654` · hermes · [Verify exams/banking/nabard-grade-a.md against official NABARD Grade A notification and upgrade verification status](ops/done/T-654.md)
+- **2026-09-29 20:02 UTC** · `T-554` · hermes · [Harvest inv:78ca5ed0 into exams/state-psc/opsc-ocs.md (owner's earlier work, local)](ops/done/T-554.md)
 - **2026-09-29 20:01 UTC** · `T-653` · hermes · [Verify exams/banking/lic-aao.md against official LIC AAO notification and upgrade verification status](ops/done/T-653.md)
 - **2026-09-29 19:59 UTC** · `T-639` · hermes · [Re-verify exams/upsc/upsc-epfo.md against current official notification and upgrade verification status](ops/done/T-639.md)
 - **2026-09-29 19:59 UTC** · `T-551` · hermes · [Harvest inv:adbc2583 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-551.md)
