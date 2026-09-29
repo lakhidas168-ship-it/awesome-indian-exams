@@ -305,6 +305,27 @@ EOF
         self.assertEqual(gate_res.returncode, 0, f"hive_gate failed: {gate_res.stdout} {gate_res.stderr}")
         self.assertIn("PASS", gate_res.stdout)
 
+    def test_jevx_local_plan_is_landed_by_the_local_judge(self) -> None:
+        """The local judge accepts a jevx plan branch (scope: ops/tasks.toml + ops/plan/) and lands it on main."""
+        res = self.run_jevx_local()
+        self.assertEqual(res.returncode, 0, res.stdout + res.stderr)
+
+        judge = subprocess.run(
+            [sys.executable, f"{CONTENT.name}/ops/judge.py", "--publish", "--no-llm"],
+            cwd=self.repo, env=ENV, text=True, capture_output=True, timeout=600
+        )
+        self.assertEqual(judge.returncode, 0, judge.stdout + judge.stderr)
+        self.assertIn("published", judge.stdout, judge.stdout)
+
+        refs = subprocess.run(["git", "ls-remote", "origin", "refs/heads/agent/jevx/*"],
+                              cwd=self.repo, env=ENV, capture_output=True, text=True).stdout
+        self.assertEqual(refs.strip(), "", "the judged plan branch should be consumed")
+
+        subprocess.run(["git", "fetch", "-q", "origin", "main"], cwd=self.repo, env=ENV, check=True)
+        tasks = subprocess.run(["git", "show", f"origin/main:{CONTENT.name}/ops/tasks.toml"],
+                               cwd=self.repo, env=ENV, capture_output=True, text=True).stdout
+        self.assertIn("T-999", tasks, "the planner's new task did not reach main")
+
     def test_jevx_local_does_not_call_gh(self) -> None:
         """JEVX lane with HIVE_OPEN_PR=0 should not invoke gh CLI."""
         res = self.run_jevx_local()

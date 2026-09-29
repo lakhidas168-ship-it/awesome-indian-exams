@@ -21,6 +21,12 @@ judge ([`judge.py`](judge.py)) runs every code gate and an LLM review there. Onc
 publishes **one** gated, batched commit (validate, tests, secret and path checks) to GitHub, and merges anything
 that landed on GitHub's `main` back into the local hub.
 
+On the Mac the runner sets `HIVE_OPEN_PR=0`: the JEVX planner lane skips every `gh`/PR step and pushes its plan
+branch `agent/jevx/plan-<ts>` with the `Hive-Publish: judge` trailer, exactly like a worker branch, for
+[`judge.py`](judge.py) to land onto `main`. Its lane scope is `ops/tasks.toml`, `ops/plan/`, `README.md`,
+`UPDATES.md`, `resources/all-exams.md` and `resources/overlap-map.md`. With `HIVE_OPEN_PR=1` (cloud) it opens a
+pull request instead.
+
 **Never use git as a message bus.** Claim refs, heartbeat commits or per-task pushes to GitHub every few minutes
 look like spam; the owner's previous GitHub account was flagged for exactly that.
 

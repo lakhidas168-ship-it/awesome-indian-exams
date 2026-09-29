@@ -130,7 +130,10 @@ class NumberedWorker(unittest.TestCase):
                    "PATH": f"{tmp / 'bin'}:{os.environ['PATH']}", "HIVE_HOME": str(tmp / "hive"),
                    "HIVE_OPEN_PR": "0", "HIVE_CMD_COMMANDCODE": "bash ops/commandcode.sh",
                    "HIVE_LOOP_COMMANDCODE": "2", "HIVE_LOOP_HERMES": "0", "HIVE_LOOP_OPENCODE": "0",
-                   "HIVE_CMD_JEVX": "true", "HIVE_LOOP_IDLE": "1", "HIVE_LOOP_JEVX_EVERY": "999"}
+                   "HIVE_CMD_JEVX": "true", "HIVE_LOOP_IDLE": "1", "HIVE_LOOP_JEVX_EVERY": "999",
+                   # hive-cron.sh prepends $HOME/.local/bin (the real CLI) ahead of our PATH, so name the fake
+                   # by absolute path: the test must never invoke an installed command-code.
+                   "HIVE_COMMANDCODE_BIN": str(fake)}
             loop = [f"{CONTENT.name}/ops/hive-loop.sh"]
             subprocess.run(["bash", *loop, "start"], cwd=repo, env=env, check=True, capture_output=True, timeout=60)
             deadline = time.time() + 120
