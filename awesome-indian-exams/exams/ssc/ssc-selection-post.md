@@ -4,15 +4,13 @@ exam_id: ssc-selection-post
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC Selection Post Phase 14 (2026)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
 # SSC Selection Posts
 
-SSC Selection Posts recruit for many small, post-specific Group B and C vacancies across central
-departments, at Matriculation, Higher Secondary (10+2) and Graduation-and-above levels, with a separate
-computer-based examination for each level in every phase.
+SSC Selection Posts recruit for many small, post-specific Group B and C vacancies across central departments, at Matriculation, Higher Secondary (10+2) and Graduation-and-above levels, with a separate computer-based examination for each level in every phase.
 
 ## At a glance
 
@@ -31,10 +29,7 @@ computer-based examination for each level in every phase.
 
 ## Exam pattern
 
-**CBE (one per level):** 100 objective multiple-choice questions, 200 marks, 60 minutes with a sectional
-timer of 15 minutes for each part (80 minutes with a 20-minute timer per part for scribe-eligible
-candidates). **−0.50** marks per wrong answer. The paper is held in Hindi and English only, and scores
-from multiple shifts are normalized.
+**CBE (one per level):** 100 objective multiple-choice questions, 200 marks, 60 minutes with a sectional timer of 15 minutes for each part (80 minutes with a 20-minute timer per part for scribe-eligible candidates). **−0.50** marks per wrong answer. The paper is held in Hindi and English only, and scores from multiple shifts are normalized.
 
 | Part | Subject | Questions | Marks |
 |---|---|---:|---:|
@@ -43,21 +38,15 @@ from multiple shifts are normalized.
 | C | Quantitative Aptitude (Basic Arithmetic Skill) | 25 | 50 |
 | D | English Language (Basic Knowledge) | 25 | 50 |
 
-**After the CBE:** shortlisted candidates upload documents on the portal; scrutiny and document
-verification are done by the user departments. Skill tests (typing, data entry, computer proficiency)
-where prescribed in the essential qualification are qualifying in nature.
+**After the CBE:** shortlisted candidates upload documents on the portal; scrutiny and document verification are done by the user departments. Skill tests (typing, data entry, computer proficiency) where prescribed in the essential qualification are qualifying in nature.
 
 ## Syllabus
 
-Indicative level-wise syllabus is in para 15.9 of the Phase-XIV notice: General Intelligence (verbal and
-non-verbal reasoning), General Awareness (static GK plus current affairs), Quantitative Aptitude
-(arithmetic at Matriculation level, rising to algebra, geometry, mensuration, trigonometry and
-statistical charts at Graduation level) and English Language (vocabulary, grammar, comprehension).
+Indicative level-wise syllabus is in para 15.9 of the Phase-XIV notice: General Intelligence (verbal and non-verbal reasoning), General Awareness (static GK plus current affairs), Quantitative Aptitude (arithmetic at Matriculation level, rising to algebra, geometry, mensuration, trigonometry and statistical charts at Graduation level) and English Language (vocabulary, grammar, comprehension).
 
 ## How to prepare (free, in order)
 
-1. Read your post's essential qualification carefully: selection posts are post-specific, and ineligible
-candidature is cancelled at any stage.
+1. Read your post's essential qualification carefully: selection posts are post-specific, and ineligible candidature is cancelled at any stage.
 2. Practise 15-minute sectional blocks: the timer locks each part.
 3. Attempt previous SSC papers in Hindi or English under 60-minute conditions.
 
