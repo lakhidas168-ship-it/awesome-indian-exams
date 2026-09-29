@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 19:22 UTC** · `T-512` · hermes · [Harvest inv:49a7abb9 into exams/banking/sbi-clerk.md (owner's earlier work, local)](ops/done/T-512.md)
 - **2026-09-29 19:19 UTC** · `T-631` · hermes · [Re-verify exams/state-psc/uppsc-pcs.md against current official notification and upgrade verification status](ops/done/T-631.md)
 - **2026-09-29 19:17 UTC** · `T-629` · hermes · [Re-verify exams/state-psc/rpsc-ras.md against current official notification and upgrade verification status](ops/done/T-629.md)
 - **2026-09-29 19:17 UTC** · `T-020` · hermes · [Add one more state commission's official question-paper archive to resources/previous-papers.md](ops/done/T-020.md)
