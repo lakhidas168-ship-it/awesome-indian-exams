@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 16:09 UTC** · `T-535` · hermes · [Harvest inv:0f0ec47c into exams/professional/cseet.md (owner's earlier work, local)](ops/done/T-535.md)
+- **2026-09-29 16:07 UTC** · `T-530` · hermes · [Harvest inv:b8483fc2 into exams/upsc/upsc-nda.md (owner's earlier work, local)](ops/done/T-530.md)
 - **2026-09-29 16:05 UTC** · `T-517` · hermes · [Harvest inv:59e3d847 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-517.md)
 - **2026-09-29 15:58 UTC** · `T-519` · hermes · [Harvest inv:2d0e7a60 into exams/law/mh-cet-law.md (owner's earlier work, local)](ops/done/T-519.md)
 - **2026-09-29 15:57 UTC** · `T-506` · hermes · [Harvest inv:ffffe7e6 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-506.md)

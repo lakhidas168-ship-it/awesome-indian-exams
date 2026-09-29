@@ -105,7 +105,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | ⚪ unverified | 2026-09-28 |
 | [UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)](exams/upsc/upsc-ies-iss.md) | Union Public Service Commission | IES/ISS 2026 | 🟡 secondary | 2026-09-29 |
 | [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | 🟡 secondary | 2026-09-28 |
-| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | 🟡 secondary | 2026-09-28 |
+| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | ✅ official | 2026-09-29 |
 
 ### State PSC civil services
 
@@ -241,7 +241,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [CA Foundation](exams/professional/ca-foundation.md) | Institute of Chartered Accountants of India | Thrice a year (January, May, September) | ✅ official | 2026-09-28 |
 | [CMA Foundation](exams/professional/cma-foundation.md) | Institute of Cost Accountants of India | December 2026 term (Syllabus 2022) | ✅ official | 2026-09-28 |
-| [CSEET (CS Executive Entrance Test)](exams/professional/cseet.md) | Institute of Company Secretaries of India | CSEET October 2026 | ✅ official | 2026-09-28 |
+| [CSEET (CS Executive Entrance Test)](exams/professional/cseet.md) | Institute of Company Secretaries of India | CSEET October 2026 | ✅ official | 2026-09-29 |
 <!-- EXAMS:END -->
 
 **Evidence status:** ✅ official = checked against the official notification · 🟡 secondary = cross-checked
