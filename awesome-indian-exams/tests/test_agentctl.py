@@ -101,6 +101,7 @@ def ctl(repo: Path, *args: str, env: dict | None = None) -> subprocess.Completed
 class AgentCtl(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)  # runs even if setUp or the test fails
         self.repos = make_remote(self.tmp, ("a", "b"))
 
     def tearDown(self) -> None:

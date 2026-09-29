@@ -459,7 +459,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf"]
+hints = ["Spark (Google accounts lakhidas168, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20%28II%29%2C%202026; notification_url=https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf; official_site=https://upsc.gov.in; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20%28II%29%2C%202026; pattern_url=https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf; syllabus_url=https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20%28II%29%2C%202026; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf"]
 
 [[task]]
 id = "T-221"
@@ -471,7 +471,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf; syllabus_url=https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf"]
+hints = ["Spark (Google accounts lakhidas168, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Central%20Armed%20Police%20Forces%20%28ACs%29%20Examination%2C%202026; notification_url=https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf; official_site=https://upsc.gov.in; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/Central%20Armed%20Police%20Forces%20%28ACs%29%20Examination%2C%202026; pattern_url=https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf; syllabus_url=https://www.upsc.gov.in/examinations/Central%20Armed%20Police%20Forces%20%28ACs%29%20Examination%2C%202026; syllabus_url=https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf"]
 
 [[task]]
 id = "T-222"
@@ -483,7 +483,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf"]
+hints = ["Spark (Google accounts lakhidas168, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; notification_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; official_site=https://upsc.gov.in; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; pattern_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; syllabus_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf"]
 
 [[task]]
 id = "T-223"
@@ -627,7 +627,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ==; official_site=https://www.tnpsc.gov.in/"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ==; official_site=https://www.tnpsc.gov.in; official_site=https://www.tnpsc.gov.in/"]
 
 [[task]]
 id = "T-235"
@@ -1179,7 +1179,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://par.ncte.gov.in/website/AcademicDivision.aspx; official_site=https://ncte.gov.in/"]
+hints = ["Spark (Google accounts lakhidas168, rajon369963) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://par.ncte.gov.in/website/AcademicDivision.aspx; notification_url=https://scert.cg.gov.in/pdf/TET2024/TETGuidelines-ncte-11.02.2011.pdf; official_site=https://ncte.gov.in; official_site=https://ncte.gov.in/; pattern_url=https://scert.cg.gov.in/pdf/TET2024/TETGuidelines-ncte-11.02.2011.pdf; syllabus_url=https://scert.cg.gov.in/pdf/TET2024/TETGuidelines-ncte-11.02.2011.pdf"]
 
 [[task]]
 id = "T-281"

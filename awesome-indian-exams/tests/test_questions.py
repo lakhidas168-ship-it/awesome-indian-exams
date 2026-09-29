@@ -54,6 +54,7 @@ GOOD_QUESTION = {
 class Questions(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)  # runs even if setUp or the test fails
         (self.tmp / "exams").mkdir()
         (self.tmp / "ops" / "done").mkdir(parents=True)
         (self.tmp / "registry").mkdir()

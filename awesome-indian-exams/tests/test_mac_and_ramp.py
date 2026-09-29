@@ -79,6 +79,7 @@ class MacOnlyTasks(unittest.TestCase):
 class WorkersFallbackSandbox(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)  # runs even if setUp or the test fails
         self.repo = make_remote(self.tmp, ("repo",))[0]
         steps = [("replace_in_file", {"path": "exams/engineering/gate-ee.md", "old": "## Free resources\n",
                                       "new": "## Free resources\n\n- Fallback worked.\n"}),
@@ -131,6 +132,7 @@ class WorkersFallbackSandbox(unittest.TestCase):
 class Harvest(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)  # runs even if setUp or the test fails
         root = self.tmp / "Documents"
         (root / "prep").mkdir(parents=True)
         (root / "prep" / "ssc_cgl_plan.md").write_text("SSC CGL tier 1 syllabus plan: quant daily, reasoning puzzles.\n" * 3)

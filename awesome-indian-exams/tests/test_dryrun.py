@@ -36,6 +36,7 @@ def worker_script(edits: list[tuple[str, str]], page: str = PAGE):
 class CloudDryRun(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)  # runs even if setUp or the test fails
         self.repo = make_remote(self.tmp, ("repo",))[0]
         self.mock: MockLLM | None = None
 

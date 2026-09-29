@@ -30,6 +30,7 @@ class TestOverlapMap(unittest.TestCase):
         
         # Mock root
         tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, tmp, ignore_errors=True)  # runs even if setUp or the test fails
         (tmp / "modules").mkdir()
         (tmp / "modules" / "m1.md").write_text("---", encoding="utf-8")
         (tmp / "modules" / "m2.md").write_text("---", encoding="utf-8")
