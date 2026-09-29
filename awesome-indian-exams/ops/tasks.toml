@@ -2155,3 +2155,203 @@ accept = [
   "only NPTEL/SWAYAM/IIT official course pages, fetched this run; course code + instructor + institute per subject",
   "added to resources/ee-free-resources.md under the matching subject",
 ]
+
+[[task]]
+id = "T-501"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:3ab8c0d0 into exams/engineering-entrance/jee-advanced.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-502"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:1cce4821 into exams/ssc/ssc-jht.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-503"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:0d530fc8 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-504"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:7ab37183 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-505"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:1f3335c2 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-506"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:ffffe7e6 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-507"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:265b04f9 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-508"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:91341021 into exams/upsc/upsc-cds.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-509"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:bd4fe042 into exams/management/cat.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-510"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:3c85926d into exams/upsc/upsc-cds.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-017"
+lane = "hermes"
+focus = "core"
+priority = 3
+title = "Refresh docs/FREE-COMPUTE.md for October 2026: check each free tier and credit programme on its official page, remove dead ones, add new ones"
+accept = [
+  "every entry links the provider's official page and says what is free and its limit",
+  "entries that could not be confirmed are marked so",
+  "the content gate passes on the file",
+]
+
+[[task]]
+id = "T-018"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Re-verify the GATE EE page exam-pattern numbers against the GATE 2027 brochure (October refresh)"
+accept = [
+  "every number under 'Exam pattern' and 'At a glance' matches the brochure fetched this run; brochure URL listed under Official sources",
+  "frontmatter verification = official and last_verified = the run date, only if the official brochure was opened this run",
+  "the content gate passes with no new warnings on the page",
+]
+
+[[task]]
+id = "T-155"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "free_agent: clean fallback when a provider returns HTTP 402 (opencode-go:deepseek-v4-flash failed on five workers)"
+accept = [
+  "a unit test proves an HTTP 402 from one provider moves to the next provider without crashing and logs the failed provider name",
+  "no task is left claimed by a crashed run; the worker log line names the failed provider and the fallback taken",
+]
+
+[[task]]
+id = "T-156"
+lane = "opencode"
+focus = "core"
+where = "mac"
+priority = 3
+title = "Harden spark-to-hive and the publish push: fix the spark-to-hive traceback and the failed push of some refs"
+accept = [
+  "the spark-to-hive traceback in ~/.hive/spark-to-hive.log is fixed at its root cause with a regression unit test",
+  "a push that the remote rejects is retried after a fetch/merge-back instead of failing the run, or the exact manual recovery is logged",
+]
+
+[[task]]
+id = "T-320"
+lane = "hermes"
+focus = "india"
+priority = 1
+title = "Re-verify the MAT page (exams/management/mat.md, last_verified 2024-05-22) against its current official notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official AIMA MAT notification fetched this run; its URL is under Official sources",
+  "frontmatter last_verified updated to the run date and verification = official only with a fetched official source",
+  "the content gate no longer warns that the page is stale",
+]
+
+[[task]]
+id = "T-321"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Fix the KEAM page plain-http links (exams/engineering-entrance/keam.md) to https and re-verify"
+accept = [
+  "no plain http:// link remains on the page; each replacement opens with HTTP 200 from fetch_url and is recorded under Sources fetched",
+  "verification updated honestly and the content gate passes with no plain-http warning on the page",
+]
