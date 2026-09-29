@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 18:05 UTC** · `T-713` · hermes · [Verify exams/engineering/ssc-je-ee.md against official SSC JE notification and update syllabus](ops/done/T-713.md)
 - **2026-09-29 18:00 UTC** · `T-520` · hermes · [Harvest inv:092c0b68 into exams/law/mh-cet-law.md (owner's earlier work, local)](ops/done/T-520.md)
 - **2026-09-29 17:57 UTC** · `T-718` · hermes · [Verify exams/engineering/drdo-ceiptm-ee.md against official DRDO recruitment notification](ops/done/T-718.md)
 - **2026-09-29 17:56 UTC** · `T-720` · hermes · [Verify exams/engineering/ntpc-et-ee.md against official NTPC Executive Trainee notification](ops/done/T-720.md)
