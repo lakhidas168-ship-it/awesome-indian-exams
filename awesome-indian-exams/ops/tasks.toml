@@ -3518,6 +3518,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts jada10656, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://gate2027.iitm.ac.in/notifications; notification_url=https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf; official_site=https://gate2027.iitm.ac.in; official_site=https://gate2027.iitm.ac.in/; pattern_url=https://gate2027.iitm.ac.in/question_paper_pattern; syllabus_url=https://gate2027.iitm.ac.in/exam_papers_and_syllabus; syllabus_url=https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf"]
 
 [[task]]
 id = "T-712"
@@ -3529,6 +3530,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts monojitdeb7775, rajondas7002318699) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf"]
 
 [[task]]
 id = "T-713"
@@ -3540,6 +3542,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts monojitdeb7775, rajondas7002318699) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf; official_site=https://ssc.gov.in; pattern_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf; pattern_url=https://ssc.gov.in/for-candidates/scheme-of-examination; syllabus_url=https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf"]
 
 [[task]]
 id = "T-714"
@@ -3551,6 +3554,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://rrbsecunderabad.gov.in/wp-content/uploads/2026/07/Results-Cut-Off_03-2024_English.pdf; official_site=https://www.rrbapply.gov.in/; pattern_url=https://www.rrbapply.gov.in/"]
 
 [[task]]
 id = "T-715"
@@ -3562,6 +3566,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
   "content gate passes with 0 errors",
 ]
+hints = ["Spark (Google accounts rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://careers.ntpc.co.in/recruitment/results/; official_site=https://ntpc.co.in/jobs-ntpc; pattern_url=https://ntpc.co.in/recruitment-system-ntpc"]
 
 [[task]]
 id = "T-716"
