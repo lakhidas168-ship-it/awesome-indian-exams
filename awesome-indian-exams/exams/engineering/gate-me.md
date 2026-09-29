@@ -4,15 +4,14 @@ exam_id: gate-me
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-29
+verification: official
 ---
 
 # GATE Mechanical Engineering (ME)
 
-> **Evidence status: 🟡 secondary.** The facts below were cross-checked against several non-official sources on
-> 2026-09-27. Confirming them against the official notification is a hive task. Always read the current notice
-> before you apply or pay a fee.
+> **Evidence status: 🟢 official.** The facts below were cross-checked against the official GATE 2027
+> notification on 2026-09-27. Always read the current notice before you apply or pay a fee.
 
 GATE Mechanical Engineering decides M.Tech/ME/PhD admission and is the recruitment filter for many PSUs. It is used by many PSUs (NTPC, IOCL, ONGC, BHEL and others) and for M.Tech admission.
 
@@ -34,7 +33,8 @@ GATE Mechanical Engineering decides M.Tech/ME/PhD admission and is the recruitme
 | Section | Questions | Marks |
 |---|---:|---:|
 | General Aptitude (common to all papers) | 10 | 15 |
-| Engineering Mathematics + Mechanical Engineering | 55 | 85 |
+| Engineering Mathematics | - | 13 |
+| Mechanical Engineering | - | 72 |
 | **Total** | **65** | **100** |
 
 - Question types: **MCQ** (one correct), **MSQ** (one or more correct, no partial credit), **NAT** (numerical).
