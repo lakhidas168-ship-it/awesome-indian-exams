@@ -89,7 +89,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [FMGE (Foreign Medical Graduate Examination)](exams/medical/fmge.md) | National Board of Examinations in Medical Sciences (NBEMS) | FMGE October 2026 | ✅ official | 2026-09-28 |
 | [INI-CET](exams/medical/ini-cet.md) | AIIMS New Delhi | INI-CET (latest session) | ⚪ unverified | 2026-09-27 |
 | [NEET PG](exams/medical/neet-pg.md) | National Board of Examinations in Medical Sciences (NBEMS) | NEET PG 2026 | 🟡 secondary | 2026-09-28 |
-| [NEET UG](exams/medical/neet-ug.md) | National Testing Agency (NTA) | NEET UG 2026 | 🟡 secondary | 2026-09-27 |
+| [NEET UG](exams/medical/neet-ug.md) | National Testing Agency (NTA) | NEET UG 2026 | ✅ official | 2026-09-29 |
 
 ### UPSC
 
@@ -268,7 +268,7 @@ coaching.
 
 ## License
 
-Content: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): free for every student, share and adapt it with credit, no commercial use. Code: AGPL-3.0. See [LICENSE](LICENSE.md).
+Content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Share and adapt it freely with credit.
 Code (`scripts/`, `ops/`, `tests/`): MIT. See [LICENSE.md](LICENSE.md).
 
 *Not affiliated with any exam body, commission, university or employer listed here.*

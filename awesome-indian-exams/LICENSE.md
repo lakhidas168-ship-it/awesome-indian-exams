@@ -29,9 +29,6 @@ modified version — including as a network/web service — must make their comp
 under the same AGPL-3.0 license.** This keeps every derivative open and free; it blocks anyone from
 taking the code closed-source into a paid product.
 
-Earlier versions stay under the licenses they were published with (content CC BY-SA 4.0, code MIT, up to
-29 Sep 2026); those grants cannot be withdrawn. Everything from this version on is under the terms above.
-
 Copyright (c) 2026 Rajon Das. As the copyright holder, Rajon may additionally offer the work under
 other terms (dual-licensing) — the licenses above bind everyone else, not the author.
 

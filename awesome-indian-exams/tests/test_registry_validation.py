@@ -2,8 +2,8 @@ import unittest
 import sys
 from pathlib import Path
 
-# Add the scripts directory to the path to import validate
-sys.path.append(str(Path(__file__).resolve().parents[1] / "scripts"))
+# Add the scripts directory to the start of path to import local validate
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import validate
 
 class TestRegistryValidation(unittest.TestCase):

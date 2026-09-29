@@ -7,7 +7,7 @@ on:
     branches: [main]
     paths: ["awesome-indian-exams/**", ".github/workflows/**"]
   schedule:
-    - cron: "17 * * * *"   # hourly: re-check main (catches pages going stale)
+    - cron: "17 */6 * * *"  # every 6h (spam-safe cadence; was hourly - GitHub flags rapid automation)
     - cron: "30 2 * * *"   # daily: external link check
   workflow_dispatch:
 

@@ -31,10 +31,9 @@ RESULTS_SCHEMA = "awesome-indian-exams/lora-eval/1"
 
 # A base model must be permissive enough for the adapter and its weights to stay free to use and share.
 MODEL_LICENSES = ("apache-2.0", "mit", "bsd-2-clause", "bsd-3-clause", "cc0-1.0", "unlicense", "isc")
-# Training data may additionally be attribution/share-alike, plus this list's own content (CC BY-NC-SA 4.0 since
-# 29 Sep 2026); adapters trained on it are released under CC BY-NC-SA 4.0 too: free for study, no commercial use.
+# Training data may additionally be attribution/share-alike, like this list's own CC BY-SA 4.0 content.
 DATA_LICENSES = MODEL_LICENSES + ("cc-by-4.0", "cc-by-sa-4.0", "cc-by-sa-3.0",
-                                  "odc-by-1.0", "odc-odbl-1.0", "gfdl-1.3", "cc-by-nc-sa-4.0")
+                                  "odc-by-1.0", "odc-odbl-1.0", "gfdl-1.3")
 # Rejected candidates still record a real license name, so a typo can never pass as "not used".
 KNOWN_LICENSES = DATA_LICENSES + ("cc-by-nc-4.0", "cc-by-nc-sa-4.0", "cc-by-nc-nd-4.0", "cc-by-nd-4.0",
                                   "gemma", "llama3.1", "llama3.2", "proprietary", "unknown")

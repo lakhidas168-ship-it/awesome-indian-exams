@@ -37,4 +37,4 @@ registry and frontmatter `title` + `module_id`. See [`modules/quant-aptitude.md`
 
 ## Licensing of contributions
 
-By contributing, you agree that your content is published under CC BY-NC-SA 4.0 and your code under AGPL-3.0 (see LICENSE.md).
+By contributing, you agree that your content is published under CC BY-SA 4.0 and your code under MIT.

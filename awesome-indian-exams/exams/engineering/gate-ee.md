@@ -19,7 +19,7 @@ recruitment filter for many PSUs, and covers most of the ESE technical syllabus.
 |---|---|
 | Conducted by | IISc Bengaluru and IITs Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee (one organises each year) for the National Coordination Board – GATE, Ministry of Education |
 | This cycle | GATE 2027, organised by **IIT Madras** |
-| Exam dates (announced) | 6, 7, 13, 14, 20 and 21 February 2027 |
+| Exam dates | 6, 7, 13, 14, 20 and 21 February 2027 |
 | Mode | Computer-based test, 3 hours, 100 marks |
 | Who can apply | Students in the 3rd year or higher of an undergraduate programme, and graduates. No age limit |
 | Score validity | 3 years from the result |
@@ -28,10 +28,7 @@ recruitment filter for many PSUs, and covers most of the ESE technical syllabus.
 ## Official sources
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
-- GATE 2027 Information Brochure (PDF): <https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf>
 - Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
-- Test papers and syllabus: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
-- Electrical Engineering (EE) syllabus (PDF): <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf>
 - Important dates: <https://gate2027.iitm.ac.in/important_dates>
 - Each year's organising IIT publishes the official question papers and answer keys on its GATE site. Start PYQ
   practice there, not from reposted PDFs.

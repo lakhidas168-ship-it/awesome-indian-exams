@@ -70,7 +70,7 @@ class Notebook(unittest.TestCase):
     def test_records_licenses_in_the_notebook_itself(self) -> None:
         for marker in ("Qwen/Qwen2.5-1.5B-Instruct", "HuggingFaceTB/SmolLM2-1.7B-Instruct",
                        "PhysicsWallahAI/Aryabhata-1.0", "ultrachat_200k", "Apache-2.0", "CC BY-NC 4.0",
-                       "CC BY-NC-SA 4.0", "MIT", "licenses.json", "T-122", "2026-09-28"):
+                       "CC BY-SA 4.0", "MIT", "licenses.json", "T-122", "2026-09-28"):
             self.assertIn(marker, self.text)
 
     def test_eval_files_are_the_held_out_set(self) -> None:
@@ -105,7 +105,7 @@ class Registry(unittest.TestCase):
 
     def test_readme_records_the_release_rule_and_licenses(self) -> None:
         text = README.read_text(encoding="utf-8")
-        for marker in ("T-122", "beats the base model", "Apache-2.0", "CC BY-NC 4.0", "CC BY-NC-SA 4.0", "MIT"):
+        for marker in ("T-122", "beats the base model", "Apache-2.0", "CC BY-NC 4.0", "CC BY-SA 4.0", "MIT"):
             self.assertIn(marker, text)
 
 

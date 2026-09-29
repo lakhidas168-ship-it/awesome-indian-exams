@@ -18,6 +18,7 @@ import hashlib
 import json
 import os
 import re
+import signal
 import shutil
 import subprocess
 import sys
@@ -30,6 +31,7 @@ REMOTE = os.environ.get("HIVE_REMOTE", "origin")
 BASE = os.environ.get("HIVE_BASE", "main")
 TRAILER = "Hive-Publish: judge"
 MAX_DIFF = 14000
+GATE_TIMEOUT_SECONDS = 900
 
 sys.path.insert(0, str(CONTENT / "ops"))
 import free_agent  # noqa: E402
@@ -80,6 +82,24 @@ def candidates() -> list[tuple[str, str]]:
     return sorted(found)
 
 
+def run_gate_command(cmd: list[str], cwd: Path, stdin: str | None, env: dict[str, str],
+                     timeout: float = GATE_TIMEOUT_SECONDS) -> subprocess.CompletedProcess:
+    """Bound a gate and its descendants to one process group and one deadline."""
+    with subprocess.Popen(cmd, cwd=cwd, stdin=subprocess.PIPE if stdin is not None else subprocess.DEVNULL,
+                          stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env,
+                          start_new_session=True) as proc:
+        try:
+            stdout, stderr = proc.communicate(input=stdin, timeout=timeout)
+        except subprocess.TimeoutExpired:
+            try:
+                os.killpg(proc.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            proc.communicate(timeout=5)
+            raise
+    return subprocess.CompletedProcess(cmd, proc.returncode, stdout, stderr)
+
+
 def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
     """Code gates. The gates themselves always come from main (this checkout), never from the branch, so a
     branch cannot pass by loosening them. Main's self-tests also run against the branch's code: a change that
@@ -89,6 +109,11 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
     shutil.copytree(CONTENT / "tests", c / "tests_main", dirs_exist_ok=True)
     problems = []
     diff = git("diff", "--name-only", f"{base_sha}...HEAD", cwd=wt).stdout
+    inner = [p[len(prefix()) + 1:] if p.startswith(prefix() + "/") else "/" + p for p in diff.split()]
+    for harness in ("test_cloud_batch.py", "test_commandcode.py", "test_agentctl.py", "test_free_agent.py",
+                    "test_registry_validation.py", "test_staleness.py"):
+        if f"tests/{harness}" not in inner and (CONTENT / "tests" / harness).exists() and (c / "tests").is_dir():
+            shutil.copy2(CONTENT / "tests" / harness, c / "tests" / harness)
     steps = [
         ("lane scope", [sys.executable, str(trusted / "hive_gate.py"), "--branch", branch], diff),
         ("content gate", [sys.executable, str(trusted / "validate.py"), "--root", str(c)], None),
@@ -97,18 +122,25 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
         ("evidence gate", [sys.executable, str(trusted / "evidence_gate.py"), "--base", base_sha,
                            "--branch", branch, "--worktree", str(wt)], None),
     ]
-    env = {**os.environ, "HIVE_IN_JUDGE": "1"}  # heavy end-to-end tests don't recurse into the judge
+    # A branch may still contain older end-to-end tests. Do not let their nested judges inherit the
+    # outer judge's full-suite override while the candidate is being checked, and strip BASH_ENV so
+    # bash shims never override fake test PATHs with real CLIs.
+    base_env = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
+    env = {**base_env, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": "."}
     # Content-only branches (no path under scripts/, tests/, ops/ except the receipt, .agents/, opencode.json, or
     # outside the content folder) cannot change what the self-tests exercise; the content, scope and evidence gates
     # still run. This keeps the judge at seconds per page instead of ~12 minutes (Mac, 2026-09-28: 47 branches queued).
-    inner = [p[len(prefix()) + 1:] if p.startswith(prefix() + "/") else "/" + p for p in diff.split()]
     tooling = [p for p in inner if p.startswith(("/", "scripts/", "tests/", ".agents/", "opencode.json"))
                or (p.startswith("ops/") and not p.startswith(("ops/done/", "ops/plan/")) and p != "ops/tasks.toml")]
     # (the backlog and plan notes are data for the self-tests' fixed fixtures, not code: planner branches skip them too)
     if not tooling and os.environ.get("HIVE_JUDGE_FULL_TESTS") != "1":
         steps = [s for s in steps if "self-tests" not in s[0]]
     for name, cmd, stdin in steps:
-        res = subprocess.run(cmd, cwd=c, input=stdin, text=True, capture_output=True, env=env)
+        try:
+            res = run_gate_command(cmd, c, stdin, env)
+        except subprocess.TimeoutExpired:
+            problems.append(f"{name} timed out after {GATE_TIMEOUT_SECONDS}s")
+            return problems
         if res.returncode != 0:
             tail = "\n".join((res.stdout + res.stderr).strip().splitlines()[-8:])
             problems.append(f"{name} failed:\n{tail}")
@@ -177,6 +209,10 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--no-llm", action="store_true", help="code gates only")
     ap.add_argument("--limit", type=int, default=6, help="max branches per run")
     args = ap.parse_args(argv)
+
+    if os.environ.get("HIVE_IN_JUDGE"):
+        log("refusing nested judge invocation (HIVE_IN_JUDGE)")
+        return 2
 
     git("fetch", "--quiet", REMOTE, BASE)
     llm = None if args.no_llm else free_agent.LLM(free_agent.load_config(), "jevx")

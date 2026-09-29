@@ -4,25 +4,22 @@ exam_id: neet-ug
 conducting_body: National Testing Agency (NTA)
 official_site: https://neet.nta.nic.in
 cycle: NEET UG 2026
-last_verified: 2026-09-27
-verification: secondary
+last_verified: 2026-09-29
+verification: official
 ---
 
 # NEET UG
 
-> **Evidence status: 🟡 secondary.** On 2026-09-27 this pattern was cross-checked against several non-official
-> sources that agree with each other. Confirming it against the NTA information bulletin is a hive task.
-> Always read the current bulletin on the official site before you apply.
+> **Evidence status: 🟢 official.** Verified against the official NMC syllabus notification and NTA public notice for NEET UG 2026.
 
 NEET UG is the single entrance test for MBBS, BDS, AYUSH (BAMS, BUMS, BSMS, BHMS) and some nursing courses in
-India. More students take it than almost any other entrance exam, and its syllabus is essentially NCERT
-Physics, Chemistry and Biology for Class 11 and 12.
+India. Its syllabus is based on the curriculum prescribed by the National Medical Commission (NMC).
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | National Testing Agency (NTA) for the National Medical Commission |
+| Conducted by | National Testing Agency (NTA) |
 | Mode | Pen and paper (OMR), one paper |
 | Duration | 3 hours (180 minutes) |
 | Questions | 180, all compulsory |
@@ -31,8 +28,8 @@ Physics, Chemistry and Biology for Class 11 and 12.
 
 ## Official sources
 
-- NEET UG official site (information bulletin, syllabus, answer key, result): <https://neet.nta.nic.in>
-- NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>
+- NTA Public Notice (NEET UG 2026): <https://nta.ac.in/Download/Notice/Notice_20260308191448.pdf>
+- NMC Public Notice (NEET UG 2026 Syllabus): <https://www.nta.ac.in/Download/Notice/Notice_20260108180635.pdf>
 
 ## Exam pattern
 
@@ -47,21 +44,17 @@ Physics, Chemistry and Biology for Class 11 and 12.
 
 ## Syllabus
 
-The National Medical Commission publishes the NEET UG syllabus. It follows the NCERT Class 11 and 12
-textbooks for Physics, Chemistry and Biology. The information bulletin has the chapter list.
+The National Medical Commission (NMC) publishes the NEET UG syllabus. It is available in the official NMC notification linked above.
 
 ## How to prepare (free, in order)
 
-1. **NCERT line by line**, Biology above all: half the paper is Biology, and questions follow NCERT wording closely.
-2. Physics and Chemistry from NCERT first, then the NCERT exemplar problems.
-3. Official NTA answer keys and past papers for timed practice. With −1 per wrong answer, skipping a guess is often
-   the better choice.
-4. Shared preparation: the same Physics and Chemistry modules count for JEE Main, state CETs and CUET domain
-   subjects. See the [overlap map](../../resources/overlap-map.md).
+1. **Study the official syllabus** provided by the NMC to ensure all topics are covered.
+2. **NCERT textbooks**: The syllabus is aligned with the curriculum prescribed by the NMC, which heavily relies on NCERT content.
+3. **Official NTA resources**: Use past papers and official notifications for practice and updates.
+4. **Shared preparation**: Physics and Chemistry modules often overlap with other exams like JEE Main and CUET. See the [overlap map](../../resources/overlap-map.md).
 
 ## Free resources
 
 - Shared modules (Physics, Chemistry, Biology) and the other exams they cover:
   [overlap map](../../resources/overlap-map.md)
-- NCERT textbooks and exemplars (free, official): <https://ncert.nic.in/textbook.php>
-- NIOS senior secondary study material (free, official): <https://www.nios.ac.in>
+- NCERT textbooks (free, official): <https://ncert.nic.in/textbook.php>

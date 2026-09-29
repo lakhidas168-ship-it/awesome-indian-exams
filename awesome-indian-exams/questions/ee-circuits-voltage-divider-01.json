@@ -7,6 +7,6 @@
   "answer": "12 V",
   "solution": "The series resistance is 4 + 6 = 10 ohm, so the current is 20/10 = 2 A and it is the same through both resistors. Voltage across the 6 ohm resistor = 2 x 6 = 12 V. Shortcut (voltage divider): 20 x 6/10 = 12 V.",
   "author": "Rajon Das",
-  "license": "CC BY-NC-SA 4.0",
+  "license": "CC BY-SA 4.0",
   "source": "original"
 }

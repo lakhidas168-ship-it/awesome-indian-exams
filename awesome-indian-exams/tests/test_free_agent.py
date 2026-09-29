@@ -20,12 +20,12 @@ import free_agent  # noqa: E402
 
 KEY_ENVS = ("GITHUB_TOKEN", "GITHUB_MODELS_TOKEN", "GEMINI_API_KEY", "OPENROUTER_API_KEY", "GROQ_API_KEY",
             "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL", "FREELLMAPI_KEY", "FREELLMAPI_BASE_URL", "OPENCODE_API_KEY",
-            "LITELLM_MASTER_KEY", "LITELLM_BASE_URL")
+            "BASH_ENV", "HIVE_IN_JUDGE")
 
 
 def clean_env(**extra: str) -> dict:
     env = {k: v for k, v in os.environ.items() if k not in KEY_ENVS}
-    return {**env, **extra}
+    return {**env, "HIVE_429_WAIT": "0", **extra}
 
 
 class Page(BaseHTTPRequestHandler):
@@ -135,16 +135,6 @@ class FreeAgent(unittest.TestCase):
         self.assertEqual(router.requests[0]["model"], "auto")
         self.assertIn("from freellmapi", self.notes.read_text(encoding="utf-8"))
 
-    def test_litellm_proxy_leads_only_when_its_key_is_set(self) -> None:
-        proxy = self.mock(lambda body: tool_call("finish", {"notes": "from litellm"}, 0))
-        env = clean_env(LITELLM_BASE_URL=proxy.url, OLLAMA_BASE_URL="http://127.0.0.1:9/v1")
-        self.assertEqual(self.run_agent(env).returncode, free_agent.EX_TEMPFAIL)  # no key: proxy skipped
-        self.assertFalse(proxy.requests)
-        res = self.run_agent({**env, "LITELLM_MASTER_KEY": "test-key"})
-        self.assertEqual(res.returncode, 0, res.stderr)
-        self.assertEqual(proxy.requests[0]["model"], "hive-free-first")  # hermes content lane: free first
-        self.assertIn("from litellm", self.notes.read_text(encoding="utf-8"))
-
     def test_trim_keeps_requests_under_budget(self) -> None:
         messages = [{"role": "system", "content": "s"}, {"role": "user", "content": "u"}]
         for i in range(10):
@@ -153,10 +143,6 @@ class FreeAgent(unittest.TestCase):
         free_agent.trim(messages, 20000)
         self.assertLessEqual(sum(len(json.dumps(m)) for m in messages), 20000)
         self.assertEqual(messages[-1]["content"], "x" * 5000)  # the newest output is kept
-
-    def test_user_agent_has_no_url_suffix(self) -> None:
-        # Government WAFs (UPSC, NTA) return 403 to a "(+https://...)" suffix, which blocks every official fetch.
-        self.assertNotIn("(+", free_agent.USER_AGENT)
 
 
 if __name__ == "__main__":

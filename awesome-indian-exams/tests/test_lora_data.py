@@ -27,7 +27,7 @@ def question(qid: str, answer: str = "10 V", options: list[str] | None = None) -
         "answer": answer,
         "solution": "V = IR.",
         "author": "Test",
-        "license": "CC BY-NC-SA 4.0",
+        "license": "CC BY-SA 4.0",
         "source": "original",
     }
 

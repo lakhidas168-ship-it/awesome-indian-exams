@@ -4,8 +4,8 @@ import datetime as dt
 import sys
 import tomllib
 
-# Add the scripts directory to the path so we can import validate
-sys.path.append(str(Path(__file__).resolve().parents[1] / "scripts"))
+# Add the scripts directory to the start of path so we can import local validate
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import validate
 
 class TestStalenessReport(unittest.TestCase):
