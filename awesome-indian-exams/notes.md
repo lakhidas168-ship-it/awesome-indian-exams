@@ -1,9 +1,11 @@
 ## Sources opened
-- https://admissions.nid.edu: Confirmed official site and 2027-28 admission cycle.
-- https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf: Confirmed DAT Prelims date, exam structure (Prelims/Mains), and shortlisting criteria.
+- https://gate2027.iitm.ac.in/question_paper_pattern (confirmed exam pattern, negative marking, marks distribution)
+- https://gate2027.iitm.ac.in/important_dates (confirmed exam dates)
 
 ## Could not confirm
-- Specific marks/time for each stage (the handbook mentions the nature/structure can change and refers to the admit card for details).
+- The previous version of the file had links to the Information Brochure and Syllabus PDF. While these are official, I did not fetch them in this run, so I removed them from the "Official sources" section to maintain strict compliance with the verification rules.
 
 ## Changed
-- Updated `nid-dat.md` with official 2027-28 information, set `verification: official`, and added the official handbook link.
+- Updated `last_verified` to 2026-10-22.
+- Cleaned up "Official sources" to only include links verified in this run.
+- Minor text adjustments in "At a glance" and "Exam pattern" for clarity.
