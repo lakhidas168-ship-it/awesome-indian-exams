@@ -4,15 +4,15 @@ exam_id: rrb-alp
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
 cycle: RRB ALP (CEN 01/2026)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
 # RRB Assistant Loco Pilot (ALP)
 
 > **Evidence status: 🟢 official.** Every number below is from the Detailed Centralised Employment Notice
-> CEN No. 01/2026 for Assistant Loco Pilot (11,127 posts) and its official FAQ, verified against official RRB
-> sources on 2026-09-28. Read the current notice before you apply.
+> CEN No. 01/2026 for Assistant Loco Pilot (11,127 posts) and its official FAQ, both fetched from official RRB
+> websites on 2026-09-29. Read the current notice and any corrigendum before you apply.
 
 RRB ALP recruits Assistant Loco Pilots (Pay Level-2, ₹19,900, medical standard A-1). Candidates need
 Matriculation plus ITI / Act Apprenticeship, or a diploma / degree in the engineering trades listed in
@@ -35,13 +35,14 @@ Annexure-A of the CEN. Selection is CBT 1 (screening) → CBT 2 (Part A for meri
 
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
 - CEN 01/2026 FAQ (application dates, fee, age reckoning, medical): <https://www.rrbapply.gov.in/assets/forms/FAQs_CEN%2001-2026_ALP.pdf>
-- Detailed Centralised Employment Notice CEN 01/2026, English (pattern, syllabus, vacancies):
-  <https://www.rrbcdg.gov.in/uploads/2026/01-ALP/012026ALP-CEN.pdf>
+- Detailed Centralised Employment Notice CEN 01/2026, English — post count, pattern, syllabus and vacancy table
+  (official RRB Ajmer copy): <https://rrbajmer.gov.in/Upload_PDF/CEN%2001-2026%20Eng-639143539720035538.pdf>
 
 ## Exam pattern
 
 Both CBTs carry **−1/3** per wrong answer; there is no negative marking in CBAT. CBT 1 marks are not
-counted in the final panel. Final merit is **50% CBT 2 Part A + 50% CBAT**.
+counted in the final panel. Final merit is **50% CBT 2 Part A + 50% CBAT**. Because each CBT runs in many
+shifts, the notice provides for normalisation of marks across shifts.
 
 | Stage | Questions | Marks | Time | Content |
 |---|---:|---:|---|---|
@@ -71,6 +72,18 @@ Only Part A marks count for shortlisting, provided the candidate scores 35% in P
   IT literacy. Part A has no general-awareness section.
 - **CBT 2 Part B:** the candidate's trade per the Directorate General of Training syllabi (see the CEN's
   qualification-wise trade grouping); degree/diploma candidates choose one trade against their discipline.
+
+## Applying (per the official FAQ)
+
+- Apply online only, and to **one RRB only**. Submitting multiple applications to the same RRB, or to more
+  than one RRB, rejects all of them and can debar the candidate from future RRB/RRC exams.
+- Modifications are allowed only in the 17–26.06.2026 window, at ₹250 per change; the 'Create an Account'
+  details (including mobile, email and chosen RRB) can never be changed.
+- PwBD candidates are not eligible for this post, and candidates who have had LASIK surgery are not eligible
+  for posts requiring medical standard A-1.
+- SC and ST candidates who opt for it get a free travel authority (sleeper-class pass) printed on the e-call
+  letter.
+- The examination fee is refunded, less bank charges, only to candidates who actually appear in CBT-1.
 
 ## How to prepare (free, in order)
 
