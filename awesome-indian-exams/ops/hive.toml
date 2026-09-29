@@ -21,7 +21,7 @@ jevx = 0
 [free_agent]
 # Zero-cost agent used when a lane's command is "free-agent" (ops/free_agent.py).
 # Providers are tried in order; one without a key, or rate-limited, is skipped.
-providers = ["github", "gemini", "openrouter", "groq", "freellmapi", "opencode-go", "ollama"]
+providers = ["gemini", "openrouter", "groq", "freellmapi", "opencode-go", "ollama"]
 max_steps = 14
 # Free tiers cap tokens per request (GitHub Models: about 8k in / 4k out), so the agent keeps its context under this.
 context_chars = 22000
@@ -29,15 +29,19 @@ context_chars = 22000
 [free_agent.lane_providers]
 # The owner's paid OpenCode Go plan (DeepSeek V4.1 Flash) goes where quality matters most: tooling and judging.
 # Content work runs on free tiers first and uses OpenCode Go only as a fallback.
-hermes = ["github", "gemini", "openrouter", "groq", "freellmapi", "opencode-go", "ollama"]
-opencode = ["opencode-go", "github", "gemini", "openrouter", "groq", "freellmapi", "ollama"]
-jevx = ["opencode-go", "github", "gemini", "openrouter", "groq", "freellmapi", "ollama"]
+# "litellm"/"litellm-free" lead when the Mac's LiteLLM proxy is running (LITELLM_MASTER_KEY set); otherwise they are
+# skipped and the direct providers below work as before. The proxy's own config decides the fallback order.
+hermes = ["litellm-free", "gemini", "openrouter", "groq", "freellmapi", "opencode-go", "ollama"]
+opencode = ["litellm", "opencode-go", "gemini", "openrouter", "groq", "freellmapi", "ollama"]
+jevx = ["litellm", "opencode-go", "gemini", "openrouter", "groq", "freellmapi", "ollama"]
 
 [free_agent.models]
 opencode-go = ["deepseek-v4.1-flash", "deepseek-v4-flash"]
-github = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini"]
+# github: GitHub Models was retired on 30 Jul 2026 (docs.github.com/en/github-models; hive receipt T-017)
 gemini = ["gemini-flash-latest", "gemini-3-flash-preview"]   # 2.5-flash retired (404, 2026-09-27)
 openrouter = ["nvidia/nemotron-3-super-120b-a12b:free", "nvidia/nemotron-3-ultra-550b-a55b:free"]   # old :free ids 404 (2026-09-27)
 groq = ["llama-3.3-70b-versatile"]
 freellmapi = ["auto"]   # the router picks the best free model and fails over by itself
+litellm = ["hive-paid-first"]        # model groups defined in the proxy config (rajon-agent-context/router)
+litellm-free = ["hive-free-first"]
 ollama = ["qwen2.5:7b-instruct"]

@@ -53,6 +53,10 @@ PROVIDERS = {
     "groq": ("https://api.groq.com/openai/v1", ("GROQ_API_KEY",)),
     # FreeLLMAPI router on the owner's Mac: one key in front of 30+ free tiers with its own failover (2026-09-28).
     "freellmapi": (os.environ.get("FREELLMAPI_BASE_URL", "http://127.0.0.1:3301/v1"), ("FREELLMAPI_KEY",)),
+    # LiteLLM proxy on the owner's Mac: every paid and free key behind one endpoint, with ordered fallbacks and a
+    # token ledger per provider (2026-09-29). Two names so a lane can ask for paid-first or free-first routing.
+    "litellm": (os.environ.get("LITELLM_BASE_URL", "http://127.0.0.1:4000/v1"), ("LITELLM_MASTER_KEY",)),
+    "litellm-free": (os.environ.get("LITELLM_BASE_URL", "http://127.0.0.1:4000/v1"), ("LITELLM_MASTER_KEY",)),
     "ollama": (os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434/v1"), ()),
 }
 
