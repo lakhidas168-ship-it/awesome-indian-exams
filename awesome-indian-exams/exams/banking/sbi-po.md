@@ -4,16 +4,13 @@ exam_id: sbi-po
 conducting_body: State Bank of India
 official_site: https://sbi.co.in
 cycle: SBI PO 2026 (Advt CRPD/PO/2026-27/09)
-last_verified: 2026-09-28
-verification: secondary
+last_verified: 2026-09-29
+verification: unverified
 ---
 
 # SBI PO (Probationary Officer)
 
-> **Evidence status: 🟡 secondary.** Every number below is from SBI's official PO 2026 advertisement
-> (CRPD/PO/2026-27/09, 1,500 vacancies), read on 2026-09-28. Kept at secondary because SBI now hosts
-> recruitment on sbi.bank.in, which is not yet in the repo's official-domain allow-list. Always confirm on
-> the SBI careers portal before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The official SBI careers portal has moved to `sbi.bank.in`, which is not yet in the repo's official-domain allow-list. This page requires a new official notification to be fetched and verified.
 
 SBI PO recruits probationary officers (Junior Management Grade Scale-I) for the State Bank of India. It is
 one of India's most sought-after banking exams. Selection runs in three phases: prelims (qualifying),
