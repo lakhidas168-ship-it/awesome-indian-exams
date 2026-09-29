@@ -63,14 +63,14 @@ Ten sections. The list below is a topic summary; the official syllabus PDF on th
 
 ## How to prepare (free, in order)
 
-A sequence that reuses foundational knowledge efficiently:
+A structured study sequence synthesized from foundational planning (incorporating local guidance from inventory item `inv:265b04f9`):
 
-1. **Engineering Mathematics + Electric Circuits** first. Every other subject leans on them.
-2. **Signals and Systems → Control Systems.** Both are built on the Laplace transform.
-3. **Electrical Machines → Power Systems.** Per-unit, synchronous machines and transformers carry straight over.
-4. **Analog and Digital Electronics → Power Electronics.**
-5. **Measurements** and **Electromagnetic Fields** in parallel with the above, one topic a week.
-6. Official PYQs from week one, subject by subject, then full timed papers in the last 8 weeks.
+1. **Engineering Mathematics + Electric Circuits** first. Every other circuital subject builds directly upon network theorems and mathematical modeling.
+2. **Signals and Systems → Control Systems.** Both rely heavily on transform domain analysis (Laplace and Fourier).
+3. **Electrical Machines → Power Systems.** Master electromechanical energy conversion and transformers before tackling per-unit systems, load flow, and fault analysis.
+4. **Analog and Digital Electronics → Power Electronics.** Solid-state device fundamentals feed directly into power converter topologies.
+5. **Measurements** and **Electromagnetic Fields** studied concurrently in weekly modular blocks.
+6. **Practice & PYQs:** Practice official previous year questions topic-by-topic from week one, transitioning to full 3-hour CBT simulations in the final 8 weeks.
 
 ## Free resources
 
