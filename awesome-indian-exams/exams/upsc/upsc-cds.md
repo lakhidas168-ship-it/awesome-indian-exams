@@ -12,9 +12,10 @@ verification: official
 
 > **Evidence status: ✅ official.** Every number below is taken from the CDS (II), 2026 examination notice
 > (No. 11/2026-CDS-II, dated 20.05.2026) and the accompanying examination page on upsc.gov.in, both fetched and
-> recorded on 2026-09-29; the CDS (I), 2026 notice is listed for cross-check. (upsc.gov.in rejects the hive's
-> default user-agent string, so the fetches used the hive's short user-agent.) CDS runs twice a year, so always
-> read the current cycle's notice before you apply or pay a fee.
+> recorded on 2026-09-29; the CDS (I), 2026 notice is listed for cross-check, and the application portal was
+> fetched on the same day. (upsc.gov.in rejects the hive's default user-agent string, so the fetches used the
+> hive's short user-agent.) CDS runs twice a year, so always read the current cycle's notice before you apply or
+> pay a fee.
 
 CDS selects graduates for the Indian Military Academy (IMA), the Indian Naval Academy (INA), the Air Force
 Academy (AFA) and the Officers' Training Academy (OTA). It is held twice a year, as CDS (I) and CDS (II).
@@ -24,7 +25,7 @@ Academy (AFA) and the Officers' Training Academy (OTA). It is held twice a year,
 | | |
 |---|---|
 | Conducted by | UPSC, followed by the Services Selection Board (SSB) |
-| Current cycle | CDS (II) 2026 — written exam held 13 September 2026 |
+| Current cycle | CDS (II) 2026 — notified 20 May 2026; written examination held 13 September 2026 |
 | Courses (II/2026) | IMA Dehradun (163rd DE); INA Ezhimala (Executive Branch); Air Force Academy Hyderabad (222 F(P)); OTA Chennai (126th SSC Men and Women, non-technical) |
 | Stages | Written (2 or 3 papers) → SSB interview and medical |
 | Vacancies (II/2026) | 451, tentative — IMA 100 (incl. 13 NCC ‘C’ Army), INA 26 (incl. 6 NCC ‘C’ Naval and 1 Hydro), AFA 32 (incl. 3 NCC ‘C’ Air), OTA 275 men and 18 women |
@@ -40,6 +41,7 @@ Academy (AFA) and the Officers' Training Academy (OTA). It is held twice a year,
 - CDS (II), 2026 examination page (notification and exam date 13/09/2026): <https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20(II),%202026>
 - Official previous question papers (English, General Knowledge, Elementary Mathematics): <https://www.upsc.gov.in/examinations/previous-question-papers>
 - UPSC website (notifications under Examinations): <https://www.upsc.gov.in/>
+- Online application portal (account creation, Universal Registration and the common application form): <https://upsconline.nic.in/>
 
 ## Exam pattern
 
