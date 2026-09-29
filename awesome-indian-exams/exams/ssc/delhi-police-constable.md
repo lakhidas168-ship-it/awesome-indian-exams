@@ -4,11 +4,15 @@ exam_id: delhi-police-constable
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: Constable (Executive) Male and Female in Delhi Police Examination, 2025
-last_verified: 2026-09-27
+last_verified: 2026-09-29
 verification: official
 ---
 
 # Delhi Police Constable (Executive)
+
+> **Evidence status: 🟢 official.** Every number below is from the SSC notice for the Constable (Executive)
+> Male and Female in Delhi Police Examination, 2025 (applications 22-09-2025 to 21-10-2025), fetched from
+> ssc.gov.in on 2026-09-29.
 
 SSC conducts the recruitment of Constables (Executive) Male and Female for Delhi Police, under an MoU
 between Delhi Police and SSC. Selection is through a Computer-Based Examination, then a qualifying
@@ -26,6 +30,7 @@ examination. Final merit is on CBE marks, subject to qualifying PE&MT.
 | Pay | Pay Level-3 (Rs. 21700–69100), Group C |
 | Vacancies (2025 notice) | 7565 tentative (4408 Male + 285 Male Ex-Servicemen (Others) + 376 Male Ex-Servicemen (Commando) + 2496 Female) |
 | Medium | English and Hindi only |
+| Fee | Rs. 100; women, SC, ST and ex-servicemen eligible for reservation are exempt (online payment up to 22-10-2025) |
 
 ## Official sources
 
@@ -45,6 +50,10 @@ Question paper is of Matriculation level.
 | C | Numerical Ability | 15 | 15 |
 | D | Computer Fundamentals, MS Excel, MS Word, Communication, Internet, WWW and Web Browsers etc. | 10 | 10 |
 | | Total (90 minutes, no sectional timing stated) | 100 | 100 |
+
+On top of the normalized CBE score the notice adds incentive marks: NCC 'A'/'B'/'C' certificate holders get
+2%/3%/5% of the maximum marks (not available to ex-servicemen), and holders of a Degree or Post Graduate
+Diploma from Rashtriya Raksha University get 2–5% by class, on production of the certificate at PE&MT.
 
 PE&MT is qualifying only: race (1600 m), long jump, high jump, then height/chest measurement; standards
 differ by sex and age group and are in paras 12.12–12.19 of the notice.
