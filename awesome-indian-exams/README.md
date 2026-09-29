@@ -165,7 +165,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT 2026 | 🟡 secondary | 2026-09-27 |
 | [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs-XV, 2026) | 🟡 secondary | 2026-09-29 |
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL-XVI, vacancies of 2027-28) | 🟡 secondary | 2026-09-29 |
-| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | LIC AAO (latest) | ⚪ unverified | 2026-09-27 |
+| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | LIC AAO (latest) | ⚪ unverified | 2026-09-29 |
 | [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | NABARD Grade A (latest) | ⚪ unverified | 2026-09-29 |
 | [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant (latest) | 🟡 secondary | 2026-09-28 |
 | [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |
