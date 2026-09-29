@@ -216,7 +216,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [AISSEE (Sainik School entrance)](exams/school/aissee.md) | National Testing Agency | AISSEE 2026 | ✅ official | 2026-09-28 |
-| [JNV Selection Test (Navodaya, Class 6)](exams/school/jnvst.md) | Navodaya Vidyalaya Samiti | JNVST Class VI (latest) | ⚪ unverified | 2026-09-27 |
+| [JNV Selection Test (Navodaya, Class 6)](exams/school/jnvst.md) | Navodaya Vidyalaya Samiti | 2026-27 | ✅ official | 2026-09-29 |
 
 ### Law entrance
 
