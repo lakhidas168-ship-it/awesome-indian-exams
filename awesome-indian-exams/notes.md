@@ -1,8 +1,10 @@
 ## Sources opened
-- https://hpsc.gov.in: The official website is currently unreachable (status 0).
+- https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf: Fetched, but it is for Class IX, not Class VI.
+- https://navodaya.gov.in: Official portal.
 
 ## Could not confirm
-- I could not fetch the official HPSC HCS notification or syllabus documents this run because the HPSC website is unreachable.
+- The current JNVST Class VI notification (the provided link was for Class IX). The page currently describes Class VI, but the verification status needs to be downgraded as I could not fetch the official Class VI prospectus this run.
 
 ## Changed
-- None. I have kept the existing content as it was, but since I could not verify it against a live official document, I have updated the evidence status note to reflect that the official site is currently unreachable.
+- Downgraded `verification` to `secondary` and updated `last_verified` to today's date.
+- Added a note about the verification status.

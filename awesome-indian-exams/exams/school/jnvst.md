@@ -5,10 +5,12 @@ conducting_body: Navodaya Vidyalaya Samiti
 official_site: https://navodaya.gov.in
 cycle: 2026-27
 last_verified: 2026-09-29
-verification: official
+verification: secondary
 ---
 
 # JNV Selection Test (Navodaya, Class 6)
+
+*Evidence status: secondary (official Class VI prospectus not fetched this run).*
 
 JNVST admits students (mostly from rural areas) to Class 6 in the residential Jawahar Navodaya Vidyalayas,
 where education, boarding and lodging are free. Lateral entry to Classes 9 and 11 has its own test.
@@ -76,16 +78,13 @@ Based on 12 basic competency topics at Class 5 level:
 ### Section 3: Language Test (20 questions, 25 marks)
 Assesses reading comprehension in the candidate's chosen medium/language. Consists of 4 passages, each followed by 5 multiple-choice questions testing factual comprehension, contextual vocabulary, and elementary grammar.
 
+## Free resources
+
+- **NCERT Math-Magic (Class 5)**: The primary source for the Arithmetic section.
+- **Navodaya Vidyalaya Samiti (Official Portal)**: For updates and sample papers.
+
 ## How to prepare (free, in order)
 
 1. **Mental Ability Daily Drills**: Non-verbal reasoning makes up 50% of the total marks (40/80 questions). Practise figure puzzles daily across all 10 standard archetypes (mirror images, fold patterns, series, odd-man out).
 2. **NCERT Class 5 Mathematics**: Complete all fundamental arithmetic operations, factors/multiples, fractions, perimeter, and area from NCERT Class 5 Math-Magic.
-3. **Daily Passage Reading**: Read Class 4-5 level stories in your test language (Hindi, English, or regional language) and answer 5 comprehension questions daily.
-4. **Official Specimen Papers & OMR Practice**: Download sample questions from the official NVS website and practice bubbling on a printed OMR sheet using blue/black ballpoint pen to avoid negative time pressure.
-
-## Free resources
-
-- Shared modules for this exam: [Logical and analytical reasoning](../../modules/reasoning.md) · [Quantitative aptitude](../../modules/quant-aptitude.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language](../../modules/hindi-language.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- NCERT textbooks (the syllabus base): <https://ncert.nic.in/textbook.php>
-- Navodaya Vidyalaya Samiti official admission portal & sample questions: <https://navodaya.gov.in>
+3. **Daily Passage Reading**: Read Class 4-5 level stories in your test language (Hindi, English, or regional language) and answer 5 comprehension questions per passage.
