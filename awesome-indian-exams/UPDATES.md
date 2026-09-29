@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 23:14 UTC** · `T-320` · hermes · [Re-verify the MAT page (exams/management/mat.md, last_verified 2024-05-22) against its current official notification](ops/done/T-320.md)
 - **2026-09-29 23:05 UTC** · `T-602` · opencode · [Re-verify exams/banking/ibps-po.md against current official notification and upgrade verification status](ops/done/T-602.md)
 - **2026-09-29 23:03 UTC** · `T-722` · hermes · [Verify exams/engineering/uppcl-ae-je-ee.md against official UPPCL AE/JE Electrical notification](ops/done/T-722.md)
 - **2026-09-29 22:58 UTC** · `T-610` · opencode · [Re-verify exams/banking/sebi-grade-a.md against current official notification and upgrade verification status](ops/done/T-610.md)

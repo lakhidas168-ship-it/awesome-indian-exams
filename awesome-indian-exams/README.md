@@ -235,7 +235,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT 2025 | ✅ official | 2026-09-28 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2025 | ⚪ unverified | 2026-09-28 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-29 |
-| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Multiple sessions per year | ✅ official | 2026-09-29 |
+| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Four times a year (February, May, September, December) | ✅ official | 2026-09-29 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | ✅ official | 2026-09-28 |
 | [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2026 (4 January 2026) | ✅ official | 2026-09-28 |
