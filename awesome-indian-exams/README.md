@@ -126,7 +126,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | ✅ official | 2026-09-29 |
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-28 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS 2025 (Advt. No. 05 of 2025-26) | ✅ official | 2026-09-29 |
-| [RPSC RAS/RTS](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RPSC RAS/RTS (latest) | ⚪ unverified | 2026-09-27 |
+| [RPSC RAS/RTS (Rajasthan State and Subordinate Services)](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RAS/RTS 2026 (Advt. No. 02/2026-27) | ✅ official | 2026-09-29 |
 | [TGPSC (Telangana) Group 1](exams/state-psc/tgpsc-group-1.md) | Telangana Public Service Commission | Group-I Services, Notification No. 02/2024 (dated 19/02/2024) | ✅ official | 2026-09-28 |
 | [TNPSC Group 1](exams/state-psc/tnpsc-group-1.md) | Tamil Nadu Public Service Commission | CCSE-I (Group I Services), Notification 05/2026 | ✅ official | 2026-09-29 |
 | [TNPSC Group 4](exams/state-psc/tnpsc-group-4.md) | Tamil Nadu Public Service Commission | CCSE-IV (Group IV Services) | ✅ official | 2026-09-28 |

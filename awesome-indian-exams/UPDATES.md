@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 19:17 UTC** · `T-629` · hermes · [Re-verify exams/state-psc/rpsc-ras.md against current official notification and upgrade verification status](ops/done/T-629.md)
+- **2026-09-29 19:16 UTC** · `T-019` · hermes · [Add resources/ee-free-resources.md entries: map NPTEL courses to SSC JE and RRB JE EE syllabi](ops/done/T-019.md)
 - **2026-09-29 19:14 UTC** · `T-657` · hermes · [Verify exams/engineering/drdo-ceiptm-ee.md against official DRDO notification and upgrade verification status](ops/done/T-657.md)
 - **2026-09-29 19:10 UTC** · `T-537` · hermes · [Harvest inv:d3cdf0ad into exams/defence/agniveer-vayu.md (owner's earlier work, local)](ops/done/T-537.md)
 - **2026-09-29 18:23 UTC** · `T-536` · hermes · [Harvest inv:dbad0897 into exams/ssc/ssc-mts.md (owner's earlier work, local)](ops/done/T-536.md)
