@@ -4,14 +4,13 @@ How this project keeps running 24/7 with no budget. Every entry is something the
 owner can apply for. Free tiers change often, so the Hermes lane re-checks this page against each provider's
 official page every month.
 
-> **Status:** verified 2025-05-14 against official pages.
+> **Status:** verified 2026-10-01 against official pages.
 
 ## Already wired in (no setup)
 
 | What | What is free | How the hive uses it | Caveat |
 |---|---|---|---|
 | **GitHub Actions** | Standard runners are free for public repositories | Validates every push and pull request; runs the cloud hive by hand when the Mac is off (`.github/workflows/hive-cloud.yml`) | Never schedule the hive: frequent automated pushes look like spam. Scheduled checks pause after 60 days without repository activity |
-| **GitHub Models** | Free, rate-limited inference with the workflow's `GITHUB_TOKEN` | Default provider of the free agent and the judge | Per-request limits and daily request caps. The agent keeps its context small to fit. Official: [docs.github.com/en/github-models/prototyping-with-ai-models#about-rate-limits](https://docs.github.com/en/github-models/prototyping-with-ai-models#about-rate-limits) |
 
 ## One-time owner steps that add free capacity (repository secrets)
 
@@ -43,7 +42,7 @@ skips any that is missing or rate-limited, so each extra key adds capacity.
 
 | Programme | What it can give | Fit |
 |---|---|---|
-| **GitHub Student Developer Pack** | Free GitHub Copilot Pro for verified students, which raises GitHub Models limits | Needs current student verification. Official: [education.github.com/pack](https://education.github.com/pack) |
+| **GitHub Student Developer Pack** | Free GitHub Copilot Pro for verified students | Needs current student verification. Official: [education.github.com/pack](https://education.github.com/pack) |
 | **Oracle Cloud Always Free** | Always-free Arm VM capacity, enough to host Ollama with a small model 24/7 | Needs a card for identity verification; no charge on the always-free tier. Official: [oracle.com/cloud/free](https://www.oracle.com/cloud/free/) |
 | **Google Cloud free trial / free tier** | Trial credits for new accounts plus always-free products | Needs a card. Official: [cloud.google.com/free](https://cloud.google.com/free) |
 | **Kaggle / Google Colab** | Free notebook GPUs with weekly quotas | Good for training and evaluating the future JEV+LLM model, not for 24/7 serving. Official: [kaggle.com](https://www.kaggle.com/), [colab.research.google.com](https://colab.research.google.com/) |
