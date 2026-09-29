@@ -59,18 +59,25 @@ class JudgeSafety(unittest.TestCase):
             self.assertFalse(marker.exists(), "the gate left a descendant running")
 
     def test_both_tests_main_and_tests_discover_without_import_collision(self) -> None:
-        import shutil
         with tempfile.TemporaryDirectory() as tmp:
             p = Path(tmp)
-            for sub in ("scripts", "ops", "tests"):
-                shutil.copytree(CONTENT / sub, p / sub)
-            shutil.copytree(CONTENT / "tests", p / "tests_main")
+            for suite in ("tests_main", "tests"):
+                sd = p / suite
+                sd.mkdir()
+                (sd / "test_agentctl.py").write_text("SUITE = " + repr(suite) + "\n", encoding="utf-8")
+                (sd / "test_sample.py").write_text(
+                    "import unittest, test_agentctl\n"
+                    "class T(unittest.TestCase):\n"
+                    "    def test_ok(self):\n"
+                    f"        self.assertEqual(test_agentctl.SUITE, {suite!r})\n",
+                    encoding="utf-8",
+                )
             base_env = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
             env = {**base_env, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": "."}
             for suite in ("tests_main", "tests"):
                 res = judge.run_gate_command(
-                    [sys.executable, "-m", "unittest", "discover", "-s", suite, "-p", "test_judge_safety.py"],
-                    p, None, env, timeout=30,
+                    [sys.executable, "-m", "unittest", "discover", "-s", suite],
+                    p, None, env, timeout=10,
                 )
                 self.assertEqual(res.returncode, 0, f"{suite} failed: {res.stdout}\n{res.stderr}")
 
