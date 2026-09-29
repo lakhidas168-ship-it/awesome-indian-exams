@@ -224,7 +224,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-27 |
+| [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-29 |
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT 2025 | ✅ official | 2026-09-28 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2025 | ⚪ unverified | 2026-09-28 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-27 |
