@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 11:49 UTC** · `T-318` · opencode · [Telegram channel post once a day from the Mac (Bot API): the day's question link and the newest verified pages from UPDATES.md; never from GitHub Actions](ops/done/T-318.md)
 - **2026-09-29 11:16 UTC** · `T-315` · opencode · [Eligibility in the registry: age limits, qualification and attempts per exam from its official notification, plus an eligibility checker tool](ops/done/T-315.md)
 - **2026-09-29 10:48 UTC** · `T-201` · hermes · [Verify the NEET UG page against its current official notification](ops/done/T-201.md)
 - **2026-09-29 01:22 UTC** · `T-505` · hermes · [Harvest inv:1f3335c2 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-505.md)
