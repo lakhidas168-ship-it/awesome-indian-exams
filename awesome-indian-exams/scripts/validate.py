@@ -405,15 +405,15 @@ def suggest_tasks(pages: list[tuple[Path, dict[str, str]]], today: dt.date) -> s
                 "title": f"Re-verify {meta['title']}",
                 "accept": [f"Verify {meta['title']} against {meta['official_site']}", "Update last_verified"]
             })
-    
-    # Add a dummy secondary page for testing
-    tasks.append({
-        "id": "T-SEC",
-        "lane": "jevx",
-        "priority": 2,
-        "title": "Fix secondary source",
-        "accept": ["Find official source", "Update verification"]
-    })
+        if meta.get("verification") == "secondary":  # was a hard-coded test task on every run (removed 2026-09-29)
+            tasks.append({
+                "id": "T-SEC",
+                "lane": "jevx",
+                "priority": 2,
+                "title": f"Replace the secondary source of {meta['title']} with an official one",
+                "accept": [f"Cite the official notice on {meta.get('official_site', 'the official site')}", "Set verification: official"]
+            })
+
     
     # Format as TOML
     output = ""

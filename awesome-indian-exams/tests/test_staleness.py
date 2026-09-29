@@ -24,7 +24,8 @@ class TestStalenessReport(unittest.TestCase):
             (Path("exams/secondary.md"), {
                 "title": "Secondary Exam",
                 "last_verified": "2024-01-01",
-                "official_site": "https://example.com"
+                "official_site": "https://example.com",
+                "verification": "secondary"
             })
         ]
         
@@ -39,6 +40,13 @@ class TestStalenessReport(unittest.TestCase):
             self.assertTrue(any(t["id"] == "T-SEC" for t in tasks))
         except Exception as e:
             self.fail(f"Output is not valid TOML: {e}")
+
+    def test_no_secondary_task_without_a_secondary_page(self):
+        pages = [(Path("exams/official.md"), {"title": "Official Exam", "last_verified": "2024-01-01",
+                                              "official_site": "https://example.com", "verification": "official"})]
+        tasks = tomllib.loads(validate.suggest_tasks(pages, self.today) or "").get("task", [])
+        self.assertFalse(any(t["id"] == "T-SEC" for t in tasks))
+
 
 if __name__ == "__main__":
     unittest.main()
