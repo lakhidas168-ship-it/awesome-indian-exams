@@ -4,16 +4,13 @@ exam_id: afcat
 conducting_body: Indian Air Force
 official_site: https://afcat.cdac.in
 cycle: AFCAT (latest)
-last_verified: 2026-09-28
-verification: secondary
+last_verified: 2026-09-29
+verification: unverified
 ---
 
 # AFCAT (Air Force Common Admission Test)
 
-> **Evidence status: 🟡 secondary.** Every number below was checked against the official AFCAT 01/2026
-> notification (courses commencing January 2027), fetched on 2026-09-28. It stays secondary because the live
-> AFCAT portal and notification now sit on `afcat.edcil.co.in`, which is not yet on the gate's official-domains
-> allowlist — adding it is a JEVX task. Always read the current cycle's notice before you apply or pay a fee.
+> **Evidence status: 🔴 unverified.** The official portal `afcat.cdac.in` is currently unreachable. The exam is now managed via `afcat.edcil.co.in`, which is not yet on the official-domains allowlist. This page cannot be verified against an official document this run.
 
 AFCAT selects graduates for commissioned officer entries in the Indian Air Force's Flying, Ground Duty
 (Technical) and Ground Duty (Non-Technical) branches. It is held twice a year.
@@ -41,10 +38,6 @@ ability in English, numerical ability, and reasoning and military aptitude — t
 maximum of 300 marks. **+3** for each correct answer, **−1** for each wrong answer, no marks for unattempted
 questions. When the exam runs in more than one shift, marks are normalised across shifts, and the IAF fixes the
 minimum qualifying marks.
-
-**No separate EKT in the current notification:** the AFCAT 01/2026 notification prescribes this single written
-paper for every entry and mentions no Engineering Knowledge Test. Check your own cycle's notice before preparing
-for anything beyond it.
 
 **AFSB testing:** Stage-I is screening (Officer Intelligence Rating Test with the picture perception and
 discussion test) on day one; Stage-II is the psychological test, group tests and interview over the next five
