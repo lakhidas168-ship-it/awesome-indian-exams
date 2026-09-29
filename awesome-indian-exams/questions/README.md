@@ -20,7 +20,7 @@ has no `options`, whose `answer` is not one of the options, that points at an ex
 | `answer` | string | One of the options, or its single letter (`A`, `B`, ...). |
 | `solution` | string | Short worked solution with the formula used. |
 | `author` | string | Who wrote it. Required, so credit is always clear. |
-| `license` | string | `CC BY-SA 4.0` (matches the rest of the written content). |
+| `license` | string | `CC BY-NC-SA 4.0` (matches the rest of the written content). |
 | `source` | string | Must be `original`. Copied questions are refused. |
 | `source_url` | string | Official URL the answer was checked against (T-122 eval sets). Optional for older files, required for `*-eval-*`. |
 
@@ -51,7 +51,7 @@ copied from an exam paper or coaching material.
   "answer": "12 V",
   "solution": "Series R = 10 ohm, I = 2 A, V = 2 x 6 = 12 V.",
   "author": "Rajon Das",
-  "license": "CC BY-SA 4.0",
+  "license": "CC BY-NC-SA 4.0",
   "source": "original"
 }
 ```
