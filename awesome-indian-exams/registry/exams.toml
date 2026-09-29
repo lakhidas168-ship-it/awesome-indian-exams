@@ -345,6 +345,14 @@ official_site = "https://apsc.nic.in"
 modules = ["ee-core", "engineering-mathematics", "general-awareness"]
 
 [[exam]]
+id = "uppcl-ae-je-ee"
+name = "UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical)"
+family = "engineering"
+body = "Uttar Pradesh Power Corporation Limited"
+official_site = "https://uppcl.up.nic.in"
+modules = ["ee-core", "general-awareness", "reasoning", "hindi-language"]
+
+[[exam]]
 id = "drdo-ceiptm-ee"
 name = "DRDO CEPTAM (Electrical Engineering)"
 family = "engineering"
