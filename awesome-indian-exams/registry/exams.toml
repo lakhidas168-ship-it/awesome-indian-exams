@@ -328,6 +328,14 @@ body = "Central PSUs"
 official_site = "https://www.ntpc.co.in"
 modules = ["ee-core", "engineering-mathematics"]
 
+[[exam]]
+id = "pgcil-dt-ee"
+name = "POWERGRID Diploma Trainee (Electrical)"
+family = "engineering"
+body = "Power Grid Corporation of India Limited"
+official_site = "https://www.powergrid.in"
+modules = ["ee-core", "engineering-mathematics", "quant-aptitude", "reasoning", "english-language", "general-awareness"]
+
 # ------------------------------------------------------------------ engineering entrance
 
 [[exam]]
