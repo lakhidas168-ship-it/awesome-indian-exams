@@ -315,7 +315,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf; official_site=https://wbjeeb.nic.in; pattern_url=https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf; syllabus_url=https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf"]
+hints = ["Spark (Google accounts debdebojit28, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf; notification_url=https://wbjeeb.nic.in/current-events/; official_site=https://wbjeeb.nic.in; pattern_url=https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf; pattern_url=https://wbjeeb.nic.in/wbjee/; syllabus_url=https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf; syllabus_url=https://wbjeeb.nic.in/wbjee/"]
 
 [[task]]
 id = "T-209"
@@ -387,7 +387,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://chennai.vit.ac.in/wp-content/uploads/2026/01/VITEEE_Prospectus_compressed.pdf; official_site=https://viteee.vit.ac.in; pattern_url=https://viteee.vit.ac.in/; syllabus_url=https://viteee.vit.ac.in/"]
+hints = ["Spark (Google accounts debdebojit28, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://chennai.vit.ac.in/wp-content/uploads/2026/01/VITEEE_Prospectus_compressed.pdf; notification_url=https://viteee.vit.ac.in/; official_site=https://viteee.vit.ac.in; pattern_url=https://viteee.vit.ac.in/; syllabus_url=https://viteee.vit.ac.in/"]
 
 [[task]]
 id = "T-215"
@@ -543,7 +543,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts dasmonaj190, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://uppsc.up.nic.in/; official_site=https://uppsc.up.nic.in; pattern_url=https://uppsc.up.nic.in/; syllabus_url=https://uppsc.up.nic.in/FooterPages/SiteMap.aspx"]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://uppsc.up.nic.in/; official_site=https://uppsc.up.nic.in; pattern_url=https://uppsc.up.nic.in/; syllabus_url=https://uppsc.up.nic.in/; syllabus_url=https://uppsc.up.nic.in/FooterPages/SiteMap.aspx"]
 
 [[task]]
 id = "T-228"
@@ -615,7 +615,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://psc.wb.gov.in/Download?param1=An_20250816135627_WBCS_NOTICE_2.pdf&param2=advertisement; official_site=https://psc.wb.gov.in; pattern_url=https://psc.wb.gov.in/Download?param1=An_20220226175656_advt_02-2022.pdf&param2=advertisement; syllabus_url=https://psc.wb.gov.in/Download?param1=An_20220226175656_advt_02-2022.pdf&param2=advertisement"]
+hints = ["Spark (Google accounts debdebojit28, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://psc.wb.gov.in/Download?param1=An_20250816135627_WBCS_NOTICE_2.pdf&param2=advertisement; notification_url=https://psc.wb.gov.in/Download?param1=An_20250816135627_WBCS_NOTICE_2.pdf¶m2=advertisement; official_site=https://psc.wb.gov.in; pattern_url=https://psc.wb.gov.in/Download?param1=An_20220226175656_advt_02-2022.pdf&param2=advertisement; pattern_url=https://psc.wb.gov.in/Download?param1=An_20250816135627_WBCS_NOTICE_2.pdf¶m2=advertisement; syllabus_url=https://psc.wb.gov.in/Download?param1=An_20220226175656_advt_02-2022.pdf&param2=advertisement; syllabus_url=https://psc.wb.gov.in/Download?param1=An_20250816135627_WBCS_NOTICE_2.pdf¶m2=advertisement"]
 
 [[task]]
 id = "T-234"
@@ -711,7 +711,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts dasmonaj190, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://pscuk.net.in/notification?postid=eyJpdiI6ImxxVjU4ZjJzRXZ4Ty84SUoiLCJ2YWx1ZSI6Im5PY0NteTg9IiwibWFjIjoiIiwidGFnIjoicU0yNXhZTkthbzR4TVhmZkI1QmEzQT09In0=; official_site=https://psc.uk.gov.in; official_site=https://pscuk.net.in; pattern_url=https://ndl.iitkgp.ac.in/cd_document/ukpsc/ukpsc/root; pattern_url=https://pscuk.net.in/notification?postid=eyJpdiI6ImxxVjU4ZjJzRXZ4Ty84SUoiLCJ2YWx1ZSI6Im5PY0NteTg9IiwibWFjIjoiIiwidGFnIjoicU0yNXhZTkthbzR4TVhmZkI1QmEzQT09In0=; syllabus_url=https://ndl.iitkgp.ac.in/cd_document/ukpsc/ukpsc/root"]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://pscuk.net.in/notification?postid=eyJpdiI6ImxxVjU4ZjJzRXZ4Ty84SUoiLCJ2YWx1ZSI6Im5PY0NteTg9IiwibWFjIjoiIiwidGFnIjoicU0yNXhZTkthbzR4TVhmZkI1QmEzQT09In0=; official_site=https://psc.uk.gov.in; official_site=https://pscuk.net.in; pattern_url=https://ndl.iitkgp.ac.in/cd_document/ukpsc/ukpsc/root; pattern_url=https://pscuk.net.in/notification?postid=eyJpdiI6ImxxVjU4ZjJzRXZ4Ty84SUoiLCJ2YWx1ZSI6Im5PY0NteTg9IiwibWFjIjoiIiwidGFnIjoicU0yNXhZTkthbzR4TVhmZkI1QmEzQT09In0=; syllabus_url=https://ndl.iitkgp.ac.in/cd_document/ukpsc/ukpsc/root"]
 
 [[task]]
 id = "T-242"
@@ -1371,7 +1371,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts dasmonaj190, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://xatonline.in/assets/pdf/XAT-e_Bulletin-2026.pdf; notification_url=https://xatonline.in/registration; official_site=https://xatonline.in; pattern_url=https://xatonline.in/blog/xat-2026-syllabus-exam-pattern; syllabus_url=https://xatonline.in/blog/xat-2026-syllabus-exam-pattern"]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://xatonline.in/assets/pdf/XAT-e_Bulletin-2026.pdf; notification_url=https://xatonline.in/registration; official_site=https://xatonline.in; pattern_url=https://xatonline.in/blog/xat-2026-syllabus-exam-pattern; syllabus_url=https://xatonline.in/blog/xat-2026-syllabus-exam-pattern"]
 
 [[task]]
 id = "T-297"
