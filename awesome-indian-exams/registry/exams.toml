@@ -224,6 +224,14 @@ title = "Civil engineering core"
 # ------------------------------------------------------------------ engineering (core focus)
 
 [[exam]]
+id = "ntpc-et-ee"
+name = "NTPC Engineering Executive Trainee (EET)"
+family = "engineering"
+body = "NTPC Limited"
+official_site = "https://www.ntpc.co.in"
+modules = ["ee-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
 id = "isro-icrb-ee"
 name = "ISRO Scientist/Engineer 'SC' (ICRB)"
 family = "engineering"
