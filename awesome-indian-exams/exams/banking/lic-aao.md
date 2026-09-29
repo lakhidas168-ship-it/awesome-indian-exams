@@ -4,7 +4,7 @@ exam_id: lic-aao
 conducting_body: Life Insurance Corporation of India
 official_site: https://licindia.in
 cycle: LIC AAO (latest)
-last_verified: 2026-09-27
+last_verified: 2026-09-29
 verification: unverified
 ---
 
@@ -25,7 +25,7 @@ Corporation of India.
 
 ## Official sources
 
-- LIC careers (official): <https://licindia.in>
+- LIC careers (official): <https://licindia.in/web/guest/careers>
 
 ## Exam pattern
 
