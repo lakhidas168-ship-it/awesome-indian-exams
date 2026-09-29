@@ -5,14 +5,12 @@ conducting_body: Haryana Public Service Commission
 official_site: https://hpsc.gov.in
 cycle: HCS (Ex. Br.) & Other Allied Services Examination (Advt. No. 22/2026, published 30.01.2026)
 last_verified: 2026-09-29
-verification: official
+verification: unverified
 ---
 
 # HPSC HCS (Haryana Civil Services)
 
-> **Evidence status: 🟢 official.** Every number below is taken from two documents fetched with the
-> evidence-recording tool on 2026-09-29: HPSC Advertisement No. 22/2026 (published 30.01.2026) and the
-> Haryana Government Gazette syllabus notification of 07.01.2026, both on hpsc.gov.in.
+> **Evidence status: ⚠️ unverified.** The official HPSC website (hpsc.gov.in) is currently unreachable. The information below is based on previous records; please verify with the official site when it becomes available.
 
 HPSC's Haryana Civil Services (Executive Branch) and Allied Services exam recruits Haryana's
 officers (HCS Ex. Br., DSP, ETO, AETO, Tehsildar/Naib Tehsildar and others). The current

@@ -1,10 +1,8 @@
 ## Sources opened
-- https://kvsangathan.nic.in/: Confirmed KVS official website and general information.
-- https://kvsangathan.nic.in/en/recruitment/: Confirmed the general recruitment process for KVS (centralized, written/CBT, interview/skill test).
+- https://hpsc.gov.in: The official website is currently unreachable (status 0).
 
 ## Could not confirm
-- Specific recruitment notification for the current cycle (none active).
+- I could not fetch the official HPSC HCS notification or syllabus documents this run because the HPSC website is unreachable.
 
 ## Changed
-- Updated `exams/teaching/kvs-recruitment.md` frontmatter to `verification: secondary` and `last_verified: 2026-09-28`.
-- Updated the content of `exams/teaching/kvs-recruitment.md` to reflect the general recruitment process described on the official KVS website.
+- None. I have kept the existing content as it was, but since I could not verify it against a live official document, I have updated the evidence status note to reflect that the official site is currently unreachable.
