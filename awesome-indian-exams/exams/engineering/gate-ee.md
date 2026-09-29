@@ -18,7 +18,8 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 |---|---|
 | Conducted by | IISc Bengaluru and IITs Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras, Roorkee (one organises each year) for the National Coordination Board – GATE, Ministry of Education |
 | This cycle | GATE 2027, organised by **IIT Madras** |
-| Registration dates | 2 September 2026 – 5 October 2026 (Regular, without late fee); extended up to 12 October 2026 (with late fee) |
+| Registration dates | 2 September 2026 – 5 October 2026 (Regular, without late fee); extended up to 12 October 2026 (with late fee). Application rectification 14–21 October 2026. |
+| City allotment | 4 January 2027 (admit card download date to be announced) |
 | Exam dates | 6, 7, 13, 14, 20 and 21 February 2027 |
 | Result date | 19 March 2027 |
 | Mode | Computer-based test, 3 hours, 100 marks |
@@ -30,8 +31,10 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
 - Important dates & notifications: <https://gate2027.iitm.ac.in/important_dates>
+- Eligibility criteria: <https://gate2027.iitm.ac.in/eligibility_criteria>
 - Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
 - Test papers & syllabus: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
+- Electrical Engineering syllabus (PDF): <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf>
 
 ## Exam pattern
 
@@ -45,10 +48,11 @@ GATE is the core of every circuital-branch plan. The same EE syllabus decides M.
 - Question types: **MCQ** (one correct option), **MSQ** (one or more correct options, no partial credit), **NAT** (numerical answer typed in).
 - Negative marking applies to **MCQ only**: −1/3 for a 1-mark MCQ, −2/3 for a 2-mark MCQ. MSQ and NAT have none.
 - Only the on-screen virtual scientific calculator is allowed.
+- Candidates with blindness, locomotor disability (both arms only) or cerebral palsy may request one hour of compensatory time with a valid disability certificate or UDID card; other specified disabilities are considered against a functional-limitation certificate.
 
 ## Syllabus
 
-Ten sections. The list below is a topic summary; the official syllabus PDF on the GATE site is the authority.
+The GATE 2027 syllabi were revised for this cycle, so this page follows the revised Electrical Engineering syllabus. It has ten sections; the list below is a topic summary and the official [EE syllabus PDF](https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf) is the authority.
 
 1. **Engineering Mathematics:** linear algebra, calculus, differential equations, complex variables, probability and statistics.
 2. **Electric Circuits:** network elements, KCL/KVL, nodal and mesh analysis, network theorems, transient response, sinusoidal steady state, resonance, two-port networks, balanced three-phase circuits, star-delta, complex power and power factor.
