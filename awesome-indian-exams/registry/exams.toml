@@ -224,6 +224,14 @@ title = "Civil engineering core"
 # ------------------------------------------------------------------ engineering (core focus)
 
 [[exam]]
+id = "isro-icrb-ee"
+name = "ISRO Scientist/Engineer 'SC' (ICRB)"
+family = "engineering"
+body = "Indian Space Research Organisation"
+official_site = "https://www.isro.gov.in"
+modules = ["engineering-mathematics", "ee-core", "ece-core", "me-core", "cs-core", "reasoning"]
+
+[[exam]]
 id = "gate-ee"
 name = "GATE Electrical Engineering (EE)"
 family = "engineering"
