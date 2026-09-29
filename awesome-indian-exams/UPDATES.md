@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 20:40 UTC** · `T-644` · hermes · [Verify exams/state-psc/apsc-cce.md against official APSC notification and upgrade verification status](ops/done/T-644.md)
 - **2026-09-29 20:33 UTC** · `T-516` · hermes · [Harvest inv:7921191c into exams/upsc/upsc-ies-iss.md (owner's earlier work, local)](ops/done/T-516.md)
 - **2026-09-29 20:20 UTC** · `T-607` · hermes · [Re-verify exams/banking/rbi-assistant.md against current official notification and upgrade verification status](ops/done/T-607.md)
 - **2026-09-29 20:18 UTC** · `T-158` · opencode · [Fix zen-2 worker: upstream request failed - insufficient account funds](ops/done/T-158.md)
