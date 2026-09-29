@@ -3,6 +3,8 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-29 01:14 UTC** · `T-232` · opencode · [Verify the APSC Combined Competitive Examination (Assam) page (exams/state-psc/apsc-cce.md) against its current official notification](ops/done/T-232.md)
+- **2026-09-29 01:10 UTC** · `T-503` · hermes · [Harvest inv:0d530fc8 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-503.md)
+- **2026-09-29 01:08 UTC** · `T-018` · hermes · [Re-verify the GATE EE page exam-pattern numbers against the GATE 2027 brochure (October refresh)](ops/done/T-018.md)
 - **2026-09-29 01:07 UTC** · `T-017` · hermes · [Refresh docs/FREE-COMPUTE.md for October 2026: check each free tier and credit programme on its official page, remove dead ones, add new ones](ops/done/T-017.md)
 - **2026-09-29 00:34 UTC** · `T-262` · opencode · [Verify the IBPS SO (Specialist Officer) page (exams/banking/ibps-so.md) against its current official notification](ops/done/T-262.md)
 - **2026-09-29 00:18 UTC** · `T-111` · opencode · [JEE college predictor from the official JoSAA opening/closing rank archive: data/josaa/<year>.csv fetched from josaa.admissions.nic.in plus a tool page](ops/done/T-111.md)

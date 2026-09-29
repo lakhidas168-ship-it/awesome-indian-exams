@@ -55,7 +55,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [GATE Civil Engineering (CE)](exams/engineering/gate-ce.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Computer Science and Information Technology (CS)](exams/engineering/gate-cs.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Data Science and Artificial Intelligence (DA)](exams/engineering/gate-da.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
-| [GATE Electrical Engineering (EE)](exams/engineering/gate-ee.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
+| [GATE Electrical Engineering (EE)](exams/engineering/gate-ee.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-29 |
 | [GATE Electronics and Communication (EC)](exams/engineering/gate-ec.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Instrumentation Engineering (IN)](exams/engineering/gate-in.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | 🟡 secondary | 2026-09-27 |
