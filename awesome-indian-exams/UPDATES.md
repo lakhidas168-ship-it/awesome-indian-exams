@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 15:51 UTC** · `T-628` · opencode · [Re-verify exams/state-psc/opsc-ocs.md against current official notification and upgrade verification status](ops/done/T-628.md)
 - **2026-09-29 15:45 UTC** · `T-719` · hermes · [Verify exams/engineering/pgcil-dt-ee.md against official PGCIL Diploma Trainee notification](ops/done/T-719.md)
 - **2026-09-29 15:43 UTC** · `T-515` · hermes · [Harvest inv:8ee61f3a into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-515.md)
 - **2026-09-29 15:42 UTC** · `T-511` · hermes · [Harvest inv:23d50db7 into exams/engineering/ssc-je-ee.md (owner's earlier work, local)](ops/done/T-511.md)
@@ -11,6 +12,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 - **2026-09-29 15:38 UTC** · `T-613` · hermes · [Re-verify exams/engineering/psu-ee.md against current official notification and upgrade verification status](ops/done/T-613.md)
 - **2026-09-29 15:38 UTC** · `T-716` · hermes · [Verify exams/engineering/barc-oces-ee.md against official BARC OCES/DGFS brochure](ops/done/T-716.md)
 - **2026-09-29 15:37 UTC** · `T-708` · opencode · [Add regression unit test for PGCIL Diploma Trainee EE validation in tests/](ops/done/T-708.md)
+- **2026-09-29 15:36 UTC** · `T-706` · opencode · [Add regression unit test for BARC OCES EE official brochure validation in tests/](ops/done/T-706.md)
 - **2026-09-29 15:32 UTC** · `T-711` · hermes · [Verify exams/engineering/gate-ee.md against official GATE 2027 brochure and update dates](ops/done/T-711.md)
 - **2026-09-29 15:30 UTC** · `T-548` · hermes · [Harvest inv:cd23ec34 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-548.md)
 - **2026-09-29 15:27 UTC** · `T-606` · opencode · [Re-verify exams/banking/nabard-grade-a.md against current official notification and upgrade verification status](ops/done/T-606.md)
