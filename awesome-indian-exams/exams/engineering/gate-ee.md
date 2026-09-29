@@ -18,19 +18,20 @@ GATE Electrical Engineering (EE) is a premier national-level examination used fo
 |---|---|
 | Conducted by | IISc Bengaluru and seven IITs for NCB-GATE (IIT Madras organises GATE 2027) |
 | Exam dates | 6, 7, 13, 14, 20 and 21 February 2027; paper-wise schedule on the official site |
-| Who can apply | Students currently in the 3rd year or higher of a government-approved bachelor's programme, and graduates, in Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities; no age limit and no limit on the number of attempts |
+| Who can apply | Candidates in the 3rd or higher year of an undergraduate degree, or who have completed a UGC/AICTE-approved degree, in Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities; no age limit |
 | Score validity | 3 years |
 
 ## Official sources
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
+- GATE 2027 Information Brochure: <https://gate2027ib.iitm.ac.in/GATE2027-IB.pdf>
 - Test papers and syllabus index: <https://gate2027.iitm.ac.in/exam_papers_and_syllabus>
 - EE syllabus PDF (GATE 2027): <https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EE_GATE2027_Syllabus.pdf>
 - Question paper pattern: <https://gate2027.iitm.ac.in/question_paper_pattern>
 - Important dates: <https://gate2027.iitm.ac.in/important_dates>
 - Eligibility criteria: <https://gate2027.iitm.ac.in/eligibility_criteria>
+- Downloads (brochure and past papers): <https://gate2027.iitm.ac.in/download>
 - FAQs: <https://gate2027.iitm.ac.in/faqs>
-- Notifications and updates: <https://gate2027.iitm.ac.in/notifications>
 
 ## Exam pattern
 
@@ -44,7 +45,7 @@ GATE Electrical Engineering (EE) is a premier national-level examination used fo
 - **Questions:** 65 in total — 10 in General Aptitude and 55 in the EE paper.
 - **Duration:** 3 hours (180 minutes).
 - **Question types:** MCQ (Multiple Choice Question), MSQ (Multiple Select Question), NAT (Numerical Answer Type). Questions carry 1 or 2 marks.
-- **Negative marking:** Only for MCQs. 1/3 mark deducted for 1-mark MCQs, 2/3 mark for 2-mark MCQs. No negative marking for MSQ or NAT, and no partial marking in MSQ.
+- **Negative marking:** Only for MCQs. 1/3 mark deducted for a wrong 1-mark MCQ, 2/3 mark for a wrong 2-mark MCQ. No negative marking for MSQ or NAT, and no partial marking for any question.
 - **Mode:** Computer Based Test (CBT) in English, with an on-screen virtual scientific calculator.
 
 ## Syllabus
