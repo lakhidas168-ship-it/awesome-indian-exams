@@ -42,7 +42,8 @@ class Wrapper(unittest.TestCase):
         shutil.rmtree(self.tmp)
 
     def run_cc(self, mode: str = "ok", prompt: str = "do task T-001", **env: str) -> subprocess.CompletedProcess:
-        full = {**os.environ, "PATH": f"{self.tmp / 'bin'}:{os.environ['PATH']}", "HIVE_HOME": str(self.tmp / "hive"),
+        base = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
+        full = {**base, "PATH": f"{self.tmp / 'bin'}:{os.environ['PATH']}", "HIVE_HOME": str(self.tmp / "hive"),
                 "FAKE_CC_LOG": str(self.log), "FAKE_CC_MODE": mode, **env}
         return subprocess.run(["bash", str(WRAPPER), prompt], env=full, text=True, capture_output=True, timeout=60)
 

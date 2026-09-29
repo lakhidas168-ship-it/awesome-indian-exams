@@ -48,7 +48,7 @@ CLEAN = ("GITHUB_TOKEN", "GITHUB_MODELS_TOKEN", "GEMINI_API_KEY", "OPENROUTER_AP
          "HIVE_MAC_LAST_SEEN", "HIVE_CMD_HERMES", "HIVE_CMD_OPENCODE", "HIVE_FALLBACK", "HIVE_WHERE",
          "HIVE_OPEN_PR", "HIVE_SANDBOX", "HIVE_REMOTE", "HIVE_BASE", "HIVE_HOME", "HIVE_TASK_ID", "HIVE_NOTES",
          "HIVE_FETCH_LOG", "HIVE_TIMEOUT", "HIVE_NO_TASK_EXIT", "HIVE_CLOUD_DRY", "HIVE_CLOUD_DIR",
-         "HIVE_CLOUD_MAX_TASKS")
+         "HIVE_CLOUD_MAX_TASKS", "HIVE_IN_JUDGE", "BASH_ENV", "HIVE_429_WAIT", "HIVE_CPA_BASE_URL", "HIVE_CPA_KEY_FILE")
 
 
 def clean_env(**extra: str) -> dict:
@@ -75,6 +75,7 @@ class MockFetchHandler(BaseHTTPRequestHandler):
         pass
 
 
+@unittest.skipIf(os.environ.get("HIVE_IN_JUDGE"), "the cloud batch dry run is not repeated inside the judge")
 class CloudBatchDryRunTest(unittest.TestCase):
     """Runs the cloud batch once in dry-run mode; the tests assert on its real output and remotes."""
 

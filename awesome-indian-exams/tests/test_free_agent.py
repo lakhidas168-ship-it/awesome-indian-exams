@@ -19,12 +19,13 @@ sys.path.insert(0, str(CONTENT / "ops"))
 import free_agent  # noqa: E402
 
 KEY_ENVS = ("GITHUB_TOKEN", "GITHUB_MODELS_TOKEN", "GEMINI_API_KEY", "OPENROUTER_API_KEY", "GROQ_API_KEY",
-            "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL", "FREELLMAPI_KEY", "FREELLMAPI_BASE_URL", "OPENCODE_API_KEY")
+            "HIVE_LLM_BASE_URL", "OLLAMA_BASE_URL", "FREELLMAPI_KEY", "FREELLMAPI_BASE_URL", "OPENCODE_API_KEY",
+            "BASH_ENV", "HIVE_IN_JUDGE")
 
 
 def clean_env(**extra: str) -> dict:
     env = {k: v for k, v in os.environ.items() if k not in KEY_ENVS}
-    return {**env, **extra}
+    return {**env, "HIVE_429_WAIT": "0", **extra}
 
 
 class Page(BaseHTTPRequestHandler):

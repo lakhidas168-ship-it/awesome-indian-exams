@@ -119,7 +119,7 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
     ]
     # A branch may still contain older end-to-end tests. Do not let their nested judges inherit the
     # outer judge's full-suite override while the candidate is being checked.
-    env = {**os.environ, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0"}
+    env = {**os.environ, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": ".:tests:tests_main"}
     # Content-only branches (no path under scripts/, tests/, ops/ except the receipt, .agents/, opencode.json, or
     # outside the content folder) cannot change what the self-tests exercise; the content, scope and evidence gates
     # still run. This keeps the judge at seconds per page instead of ~12 minutes (Mac, 2026-09-28: 47 branches queued).
