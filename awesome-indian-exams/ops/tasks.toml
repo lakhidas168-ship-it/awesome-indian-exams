@@ -3507,3 +3507,136 @@ accept = [
   "content gate passes with 0 errors and no existing checks weakened",
 ]
 
+
+[[task]]
+id = "T-711"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/gate-ee.md against official GATE 2027 brochure and update dates"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-712"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/upsc-ese-ee.md against official UPSC ESE notification and update dates"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-713"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/ssc-je-ee.md against official SSC JE notification and update syllabus"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-714"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/rrb-je-ee.md against official RRB CEN notification and update pattern"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-715"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/psu-ee.md against official PSU recruitment notifications"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-716"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/barc-oces-ee.md against official BARC OCES/DGFS brochure"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-717"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/isro-icrb-ee.md against official ISRO Scientist/Engineer notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-718"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/drdo-ceiptm-ee.md against official DRDO recruitment notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-719"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/pgcil-dt-ee.md against official PGCIL Diploma Trainee notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-720"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/ntpc-et-ee.md against official NTPC Executive Trainee notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-721"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/nhpc-je-ee.md against official NHPC JE Electrical notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-722"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/uppcl-ae-je-ee.md against official UPPCL AE/JE Electrical notification"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "content gate passes with 0 errors",
+]
+
