@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 23:58 UTC** · `T-008` · hermes · [GATE EE subject-wise marks for the last 5 official papers → resources/gate-ee-weightage.md](ops/done/T-008.md)
 - **2026-09-29 23:44 UTC** · `T-634` · opencode · [Re-verify exams/teaching/ugc-net.md against current official notification and upgrade verification status](ops/done/T-634.md)
 - **2026-09-29 23:19 UTC** · `T-159` · opencode · [Fix free-h15 gate failure: uppcl-ae-je-ee.md has non-official link under Official sources](ops/done/T-159.md)
 - **2026-09-29 23:14 UTC** · `T-320` · hermes · [Re-verify the MAT page (exams/management/mat.md, last_verified 2024-05-22) against its current official notification](ops/done/T-320.md)
