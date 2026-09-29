@@ -99,7 +99,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [UPSC CAPF (Assistant Commandant)](exams/upsc/upsc-capf.md) | Union Public Service Commission | CAPF (AC) 2026 | 🟡 secondary | 2026-09-28 |
 | [UPSC Civil Services (CSE) — for engineers](exams/upsc/upsc-cse.md) | Union Public Service Commission | CSE 2026 | ✅ official | 2026-09-28 |
-| [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | 🟡 secondary | 2026-09-29 |
+| [UPSC Combined Defence Services (CDS)](exams/upsc/upsc-cds.md) | Union Public Service Commission | CDS (I/II) 2026 | ✅ official | 2026-09-29 |
 | [UPSC Combined Geo-Scientist](exams/upsc/upsc-geoscientist.md) | Union Public Service Commission | Combined Geo-Scientist 2027 | 🟡 secondary | 2026-09-28 |
 | [UPSC Combined Medical Services (CMS)](exams/upsc/upsc-cms.md) | Union Public Service Commission | CMS 2026 | ⚪ unverified | 2026-09-28 |
 | [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | 🟡 secondary | 2026-09-29 |
@@ -205,7 +205,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE 2025 | ✅ official | 2026-09-28 |
 | [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT 2027-28 | ✅ official | 2026-09-28 |
 | [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-28 |
-| [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-28 |
+| [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-29 |
 
 ### School-level entrance
 
