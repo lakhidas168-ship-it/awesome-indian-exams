@@ -267,7 +267,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.nta.ac.in/Download/Notice/Notice_20260916195948.pdf; official_site=https://jeemain.nta.nic.in; pattern_url=https://jeemain.nta.nic.in/information-bulletin/; syllabus_url=https://jeemain.nta.nic.in/document/syllabus-2026/"]
+hints = ["Spark (Google accounts jada10656, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://jeemain.nta.nic.in/information-bulletin/; notification_url=https://www.nta.ac.in/Download/Notice/Notice_20260916195948.pdf; official_site=https://jeemain.nta.nic.in; pattern_url=https://jeemain.nta.nic.in/information-bulletin/; syllabus_url=https://jeemain.nta.nic.in/document/syllabus-2026/"]
 
 [[task]]
 id = "T-205"
@@ -279,7 +279,7 @@ accept = [
   "every number under At a glance and Exam pattern matches the official notification; its URL is under Official sources",
   "anything the notification does not confirm is removed or marked; verification = official only with a fetched official source",
 ]
-hints = ["Spark (Google accounts shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; official_site=https://jeeadv.ac.in; pattern_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; syllabus_url=https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf"]
+hints = ["Spark (Google accounts jada10656, shadaloverlover) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; official_site=https://jeeadv.ac.in; pattern_url=https://jeeadv.ac.in/documents/IBEnglish_2026_1.pdf; syllabus_url=https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf"]
 
 [[task]]
 id = "T-206"
