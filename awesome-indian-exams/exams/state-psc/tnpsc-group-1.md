@@ -3,49 +3,95 @@ title: TNPSC Group 1
 exam_id: tnpsc-group-1
 conducting_body: Tamil Nadu Public Service Commission
 official_site: https://www.tnpsc.gov.in
-cycle: TNPSC Group 1 (latest)
-last_verified: 2026-09-28
-verification: unverified
+cycle: CCSE-I (Group I Services), Notification 05/2026
+last_verified: 2026-09-29
+verification: official
 ---
 
 # TNPSC Group 1
 
-> **Evidence status: ⚪ unverified.** This page gives the structure and the official links. Numbers that could not be
-> cross-checked are left to the official notification. Verifying them is a hive task.
+> **Evidence status: 🟢 official.** Every number below is from TNPSC Notification No. 05/2026
+> (Combined Civil Services Examination – I, dated 23.06.2026), Addendum 5A/2026 (dated 16.07.2026),
+> the commission's scheme-of-examination page, and the 2026 Annual Planner — all fetched from
+> tnpsc.gov.in on 2026-09-29.
 
-TNPSC Group 1 recruits Deputy Collectors, DSPs and other senior Tamil Nadu
-officers.
+TNPSC Group 1 recruits Deputy Collectors, Assistant Commissioners (Commercial Taxes), Deputy
+Registrars of Co-operative Societies, District Registrars and Assistant Commissioners of Labour —
+senior officers across Tamil Nadu. Selection runs in three stages: a qualifying objective
+preliminary exam, a descriptive main exam, and an interview.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | Tamil Nadu Public Service Commission |
-| Stages | Preliminary (objective) → Main (descriptive) → interview |
+| Posts | Deputy Collector, Assistant Commissioner (Commercial Taxes), Deputy Registrar of Co-operative Societies, District Registrar, Assistant Commissioner of Labour — 26 vacancies in Notification 05/2026 |
+| Stages | Preliminary (objective, qualifying) → Main (descriptive) → interview |
+| 2026 cycle (per notification) | Notified 23.06.2026; online applications 30.06.2026–29.07.2026 (correction window 02–04.08.2026); preliminary exam 27.09.2026, 09:30 A.M.–12:30 P.M. (postponed from 06.09.2026); main exam date to be announced after prelims results |
+| Qualification | A degree (any discipline) for all posts; age and other eligibility details in the notification |
+| Age (as on 01.07.2026) | Minimum 21 for all posts; maximum 34 for unreserved candidates and 39 for SC/ST/MBC/BC candidates (35/40 for Assistant Commissioner (Commercial Taxes) depending on degree type); higher concessions for persons with benchmark disability, ex-servicemen and destitute widows — see the notification's age tables |
+| Application | Online only, via the commission's One Time Registration portal at tnpscexams.in |
 
 ## Official sources
 
 - Commission's official website (notifications, syllabus, previous papers): <https://www.tnpsc.gov.in>
+- Notification No. 05/2026, dated 23.06.2026 (62-page PDF — posts, vacancies, eligibility, dates): <https://tnpsc.gov.in/document/english/Group%20I%20Notification%202026_E.pdf>
+- Addendum 5A/2026, dated 16.07.2026 (postpones preliminary exam to 27.09.2026): <https://tnpsc.gov.in/Document/english/ADDENDUM%205A_16.07.2026.pdf>
+- Scheme of examination (confirms paper-wise questions, marks and qualifying rules): <https://tnpsc.gov.in/English/scheme.html>
+- Syllabus (Prelims GS + Mains Tamil Eligibility Test and GS papers): <https://tnpsc.gov.in/English/Syllabus.html>
+- Annual Planner 2026, published 03.12.2025 (tentative schedule): <https://tnpsc.gov.in/English/annual_planner.html>
 
 ## Exam pattern
 
-TNPSC Group 1 has three stages: an objective **preliminary** exam (General Studies at degree standard plus
-Aptitude and Mental Ability at SSLC standard, used only to screen candidates for the main exam), a descriptive
-**main** exam (a qualifying Tamil Eligibility Test plus General Studies papers I, II and III), and an
-**interview**. The Commission's notification and scheme of examination set the number of questions, marks, time
-and qualifying rules for the cycle, and the Commission can revise them.
+**Preliminary examination** — one objective paper, qualifying only (marks do not count toward the
+final merit):
+
+| Part | Subject | Standard | Questions | Marks |
+|---|---|---|---:|---:|
+| A | General Studies | Degree | 175 | 300 |
+| B | Aptitude and Mental Ability | SSLC | 25 | — |
+| | **Total** | | **200** | **300** |
+
+**Main examination** — four descriptive papers plus interview:
+
+| Paper | Subject | Standard | Type | Marks | Role |
+|---|---|---|---:|---:|---|
+| I | Tamil Eligibility Test | SSLC | Descriptive | 100 | Qualifying |
+| II | General Studies I | Degree | Descriptive | 250 | Scoring |
+| III | General Studies II | Degree | Descriptive | 250 | Scoring |
+| IV | General Studies III | Degree | Descriptive | 250 | Scoring |
+| | Interview | | | 100 | Scoring |
+| | **Total (Papers II–IV + interview)** | | | **850** | |
+
+- The preliminary exam is a screening stage; only candidates who qualify are eligible for the main exam.
+- The Tamil Eligibility Test (Paper I) is qualifying — candidates must pass it, but its marks do not
+  add to the final score.
+- Final merit is the sum of Papers II, III, IV and the interview (850 marks).
 
 ## Syllabus
 
-General studies as in UPSC CSE (polity, history, geography, economy, environment, science and
-technology, current affairs), with **state-specific** history, geography, economy and culture. The main exam adds
-essays, a language paper and GS papers. The commission's notification has the exact syllabus.
+- **Prelims — General Studies (degree standard):** current events, history and culture of India and
+  Tamil Nadu, geography, Indian polity, economy, general science and technology, and Tamil Nadu-specific
+  history, geography, economy and culture.
+- **Prelims — Aptitude and Mental Ability (SSLC standard):** quantitative aptitude, logical and
+  analytical reasoning, puzzles, series and data interpretation at school level.
+- **Mains — Tamil Eligibility Test (SSLC standard):** Tamil grammar, vocabulary, comprehension and
+  writing ability.
+- **Mains — GS Papers I–III (degree standard):** essay-style descriptive answers on general studies
+  including polity, history, geography, economy, science, technology and current affairs, with
+  emphasis on Tamil Nadu.
+- The commission's syllabus page links the detailed unit-wise syllabus PDFs for each paper.
 
 ## How to prepare (free, in order)
 
-1. Prepare the shared UPSC GS modules once. They cover most of every state PSC.
-2. Add the state's own history, geography, economy and schemes from official state sources.
-3. Solve the commission's own previous papers from its website: each commission has its own style.
+1. Build the shared UPSC GS foundation first — polity, history, geography, economy and science —
+   using NCERT textbooks and the shared modules below. This covers most of the Prelims GS paper.
+2. Add Tamil Nadu-specific history, geography, economy and culture from official state sources
+   (state-board textbooks, Tamil Nadu government portals).
+3. Practise aptitude and reasoning daily at SSLC standard; then solve the commission's own previous
+   question papers from tnpsc.gov.in in timed sittings — each commission has its own style.
+4. For the main exam, practise descriptive answer writing (essays and GS answers) and revise the
+   Tamil Eligibility Test at SSLC level.
 
 ## Free resources
 
