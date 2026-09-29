@@ -4,7 +4,7 @@ exam_id: ssc-mts
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC MTS 2025
-last_verified: 2026-09-27
+last_verified: 2026-09-29
 verification: official
 ---
 
