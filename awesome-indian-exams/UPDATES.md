@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 01:22 UTC** · `T-505` · hermes · [Harvest inv:1f3335c2 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-505.md)
 - **2026-09-29 01:14 UTC** · `T-232` · opencode · [Verify the APSC Combined Competitive Examination (Assam) page (exams/state-psc/apsc-cce.md) against its current official notification](ops/done/T-232.md)
 - **2026-09-29 01:10 UTC** · `T-503` · hermes · [Harvest inv:0d530fc8 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-503.md)
 - **2026-09-29 01:08 UTC** · `T-018` · hermes · [Re-verify the GATE EE page exam-pattern numbers against the GATE 2027 brochure (October refresh)](ops/done/T-018.md)
