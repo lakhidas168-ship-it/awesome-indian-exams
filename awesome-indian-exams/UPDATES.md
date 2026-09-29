@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 16:37 UTC** · `T-546` · hermes · [Harvest inv:1474c67d into exams/ssc/ssc-cpo.md (owner's earlier work, local)](ops/done/T-546.md)
 - **2026-09-29 16:36 UTC** · `T-542` · hermes · [Harvest inv:fc5aeced into exams/state-psc/kerala-psc.md (owner's earlier work, local)](ops/done/T-542.md)
 - **2026-09-29 16:35 UTC** · `T-545` · hermes · [Harvest inv:74f3b3a3 into exams/state-psc/ukpsc-pcs.md (owner's earlier work, local)](ops/done/T-545.md)
 - **2026-09-29 16:33 UTC** · `T-621` · hermes · [Re-verify exams/state-psc/apsc-cce.md against current official notification and upgrade verification status](ops/done/T-621.md)
