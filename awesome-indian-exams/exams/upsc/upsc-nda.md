@@ -12,9 +12,10 @@ verification: official
 
 > **Evidence status: ✅ official.** Every number below is taken from the official NDA & NA
 > Examination-II, 2026 notice (No. 10/2026-NDA-II) and the accompanying examination page on
-> upsc.gov.in, both fetched and recorded on 2026-09-29. (upsc.gov.in rejects the hive's default
-> user-agent string, so the fetches used the hive's short user-agent.) The exam runs twice a year,
-> so always read the current cycle's notice before you apply or pay a fee.
+> upsc.gov.in, both re-fetched and recorded on 2026-09-29 and re-checked against every figure on
+> this page. (upsc.gov.in rejects the hive's default user-agent string, so the fetches used the
+> hive's short user-agent.) The exam runs twice a year, so always read the current cycle's notice
+> before you apply or pay a fee.
 
 The NDA and NA examination selects Class 12 students (and those still appearing) for the Army, Navy and
 Air Force wings of the National Defence Academy and for the Naval Academy's 10+2 cadet entry. It is held
@@ -60,18 +61,28 @@ Mathematics at Class 11–12 level (Appendix-I of the notice): algebra; matrices
 trigonometry; analytical geometry of two and three dimensions; differential calculus; integral calculus and
 differential equations; vector algebra; statistics and probability. GAT Part A — English, 200 marks:
 grammar and usage, vocabulary, comprehension and cohesion in extended text. GAT Part B — general
-knowledge, 400 marks: physics (about 25%), chemistry (about 15%), general science (about 10%), history
-and the freedom movement (about 20%), geography (about 20%) and current events (about 10%).
+knowledge, 400 marks, is split into six sections, with the approximate weightages the notice gives for
+each: physics 25% (matter, motion, heat, sound, light, magnetism, electricity); chemistry 15% (physical and
+chemical changes, elements and compounds, air and water, acids and salts, carbon, fertilizers, the atom);
+general science 10% (living and non-living things, the human body, food, common epidemics, the solar
+system); history and the freedom movement 20% (a broad survey of Indian history with emphasis on culture
+and civilisation, the freedom movement, the Constitution and administration, the Five Year Plans,
+Panchayati Raj and Sarvodaya); geography 20% (the Earth, its movements, rocks, oceans, atmosphere and
+climate, and the regional geography of India); current events 10% (recent events in India and the world,
+and prominent personalities).
 
 ## How to prepare (free, in order)
 
 1. Mathematics is 300 marks at Class 12 level: finish NCERT Class 11–12 once, then shift to timed papers.
-2. The GAT's general knowledge section is 400 marks and rewards NCERT science and social science from Class 6–10; the 200-mark English part improves with daily reading and vocabulary.
-3. The SSB is worth as much as the entire written exam (900 of 1800). Train communication, fitness and officer-like qualities alongside the written work, not after it.
+2. In the 400-mark general knowledge paper, history and the freedom movement is the largest single section (about 20%, roughly 80 marks). Take the periods in order — ancient India, medieval India, then modern India and the freedom movement — and pin every dynasty, art form and monument to its period on a timeline; NCERT history for Classes 6–12 is the base, and the shared history module below gives the full structure.
+3. Science (physics 25%, chemistry 15%, general science 10%) and geography (20%) reward NCERT science and social science from Class 6–10; the 200-mark English part improves with daily reading and vocabulary.
+4. The SSB is worth as much as the entire written exam (900 of 1800). Train communication, fitness and officer-like qualities alongside the written work, not after it.
 
 ## Free resources
 
 - Shared modules for this exam: [Mathematics (NCERT Class 11–12)](../../modules/ncert-mathematics.md) · [English language and comprehension](../../modules/english-language.md) · [General science (NCERT Class 6–10 level)](../../modules/general-science.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [General awareness and current affairs](../../modules/general-awareness.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the base for general studies and science): <https://ncert.nic.in/textbook.php>
+- Archaeological Survey of India, for monuments and heritage sites (the art-and-culture part of the history section): <https://asi.nic.in>
+- NPTEL humanities courses, free video lectures on Indian history and culture: <https://nptel.ac.in>
 - Press Information Bureau for current affairs: <https://pib.gov.in>
