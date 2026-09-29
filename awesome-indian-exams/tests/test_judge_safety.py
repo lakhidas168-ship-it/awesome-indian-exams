@@ -58,6 +58,23 @@ class JudgeSafety(unittest.TestCase):
             time.sleep(2.2)
             self.assertFalse(marker.exists(), "the gate left a descendant running")
 
+    def test_both_tests_main_and_tests_discover_without_import_collision(self) -> None:
+        import shutil
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp)
+            for sub in ("scripts", "ops", "tests"):
+                shutil.copytree(CONTENT / sub, p / sub)
+            shutil.copytree(CONTENT / "tests", p / "tests_main")
+            base_env = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
+            env = {**base_env, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": "."}
+            for suite in ("tests_main", "tests"):
+                res = judge.run_gate_command(
+                    [sys.executable, "-m", "unittest", "discover", "-s", suite, "-p", "test_judge_safety.py"],
+                    p, None, env, timeout=30,
+                )
+                self.assertEqual(res.returncode, 0, f"{suite} failed: {res.stdout}\n{res.stderr}")
+
 
 if __name__ == "__main__":
     unittest.main()
+

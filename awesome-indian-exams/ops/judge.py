@@ -126,7 +126,7 @@ def run_gates(wt: Path, branch: str, base_sha: str) -> list[str]:
     # outer judge's full-suite override while the candidate is being checked, and strip BASH_ENV so
     # bash shims never override fake test PATHs with real CLIs.
     base_env = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
-    env = {**base_env, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": ".:tests_main:tests"}
+    env = {**base_env, "HIVE_IN_JUDGE": "1", "HIVE_JUDGE_FULL_TESTS": "0", "PYTHONPATH": "."}
     # Content-only branches (no path under scripts/, tests/, ops/ except the receipt, .agents/, opencode.json, or
     # outside the content folder) cannot change what the self-tests exercise; the content, scope and evidence gates
     # still run. This keeps the judge at seconds per page instead of ~12 minutes (Mac, 2026-09-28: 47 branches queued).
