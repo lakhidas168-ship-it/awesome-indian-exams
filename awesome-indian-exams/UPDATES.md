@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-29 17:57 UTC** · `T-718` · hermes · [Verify exams/engineering/drdo-ceiptm-ee.md against official DRDO recruitment notification](ops/done/T-718.md)
 - **2026-09-29 17:45 UTC** · `T-605` · hermes · [Re-verify exams/banking/lic-aao.md against current official notification and upgrade verification status](ops/done/T-605.md)
 - **2026-09-29 17:43 UTC** · `T-616` · opencode · [Re-verify exams/management/mat.md against current official notification and upgrade verification status](ops/done/T-616.md)
 - **2026-09-29 16:58 UTC** · `T-524` · hermes · [Harvest inv:80d8eece into exams/medical/aiims-norcet.md (owner's earlier work, local)](ops/done/T-524.md)

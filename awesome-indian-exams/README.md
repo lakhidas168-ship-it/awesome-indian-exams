@@ -46,13 +46,14 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 121 exam pages written, 121 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 122 exam pages written, 122 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [BARC OCES/DGFS (Scientific Officer)](exams/engineering/barc-oces-ee.md) | Bhabha Atomic Research Centre (BARC) | 2025 | ⚪ unverified | 2026-09-29 |
+| [DRDO CEPTAM (Electrical Engineering)](exams/engineering/drdo-ceiptm-ee.md) | Defence Research and Development Organisation (DRDO) | Varies | ⚪ unverified | 2026-09-29 |
 | [GATE Civil Engineering (CE)](exams/engineering/gate-ce.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Computer Science and Information Technology (CS)](exams/engineering/gate-cs.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Data Science and Artificial Intelligence (DA)](exams/engineering/gate-da.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |

@@ -11,6 +11,7 @@ has to find the official one.
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
 | BARC OCES/DGFS (Scientific Officer) | Bhabha Atomic Research Centre | <https://barc.gov.in> | [open](../exams/engineering/barc-oces-ee.md) |
+| DRDO CEPTAM (Electrical Engineering) | Defence Research and Development Organisation | <https://www.drdo.gov.in> | [open](../exams/engineering/drdo-ceiptm-ee.md) |
 | GATE Civil Engineering (CE) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-ce.md) |
 | GATE Computer Science (CS) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-cs.md) |
 | GATE Data Science and AI (DA) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-da.md) |
