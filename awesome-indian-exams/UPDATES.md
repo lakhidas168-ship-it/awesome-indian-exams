@@ -4,6 +4,7 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 
 - **2026-09-29 18:23 UTC** · `T-536` · hermes · [Harvest inv:dbad0897 into exams/ssc/ssc-mts.md (owner's earlier work, local)](ops/done/T-536.md)
 - **2026-09-29 18:22 UTC** · `T-632` · opencode · [Re-verify exams/teaching/csir-net.md against current official notification and upgrade verification status](ops/done/T-632.md)
+- **2026-09-29 18:20 UTC** · `T-643` · hermes · [Re-verify exams/upsc/upsc-nda.md against current official notification and upgrade verification status](ops/done/T-643.md)
 - **2026-09-29 18:18 UTC** · `T-635` · hermes · [Re-verify exams/university-entrance/cuet-ug.md against current official notification and upgrade verification status](ops/done/T-635.md)
 - **2026-09-29 18:12 UTC** · `T-715` · hermes · [Verify exams/engineering/psu-ee.md against official PSU recruitment notifications](ops/done/T-715.md)
 - **2026-09-29 18:11 UTC** · `T-203` · hermes · [Verify the IBPS PO page against its current official notification](ops/done/T-203.md)

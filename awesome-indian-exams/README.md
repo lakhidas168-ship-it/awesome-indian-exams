@@ -108,7 +108,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [UPSC EPFO (EO/AO and APFC)](exams/upsc/upsc-epfo.md) | Union Public Service Commission | EPFO (latest notice) | 🟡 secondary | 2026-09-29 |
 | [UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)](exams/upsc/upsc-ies-iss.md) | Union Public Service Commission | IES/ISS 2026 | 🟡 secondary | 2026-09-29 |
 | [UPSC Indian Forest Service (IFoS)](exams/upsc/upsc-ifos.md) | Union Public Service Commission | IFoS 2026 | 🟡 secondary | 2026-09-28 |
-| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I/II) 2026 | ✅ official | 2026-09-29 |
+| [UPSC NDA and NA](exams/upsc/upsc-nda.md) | Union Public Service Commission | NDA & NA (I) 2025 | ⚪ unverified | 2026-09-29 |
 
 ### State PSC civil services
 
