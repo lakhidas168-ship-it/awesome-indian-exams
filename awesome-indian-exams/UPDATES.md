@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 23:14 UTC** · `T-563` · hermes · [Harvest inv:3560c439 into exams/banking/sbi-po.md (owner's earlier work, local)](ops/done/T-563.md)
 - **2026-09-30 23:08 UTC** · `P-077` · hermes · [80/20 core for nid-dat: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-077.md)
 - **2026-09-30 23:05 UTC** · `P-023` · hermes · [80/20 core for cma-foundation: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-023.md)
 - **2026-09-30 22:46 UTC** · `P-015` · hermes · [80/20 core for upsc-capf: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-015.md)
