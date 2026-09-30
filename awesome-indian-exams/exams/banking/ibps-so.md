@@ -44,6 +44,7 @@ interview for the final merit.
 - Combined tentative schedule for CRP PO/MT-XVI and CRP SPL-XVI (dated 01.07.2026): <https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf>
 - Edit-window notice for CRP PO/MT-XVI and CRP SPL-XVI (dated 28.07.2026): <https://www.ibps.in/wp-content/uploads/IMPORTANT-NOTICE_Edit_Window_28.07.26.pdf>
 - IBPS official website (notifications, call letters, results): <https://www.ibps.in>
+- Note: IBPS does not publish official previous-year question papers or answer keys on its website.
 
 ## Exam pattern
 
@@ -82,16 +83,14 @@ Mains: the professional syllabus of the post (for example networking, databases 
 agronomy and agri-finance for AFO; banking law for Law Officer), with the remaining Mains tests
 qualifying only.
 
+## Free resources
+
+- IBPS official website: <https://www.ibps.in> (for notifications, mock tests, and results).
+
 ## How to prepare (free, in order)
 
 1. Your mains subject is your degree subject: revise it from standard textbooks and NPTEL, since
    Mains merit rests on Professional Knowledge.
-2. Prelims marks do not count toward the final merit, but you must clear each section's cut-off, so
-   practise all four sections under the 20-minute sectional timing.
-3. Practise descriptive English writing (two questions, 30 minutes) for the Mains second paper.
-
-## Free resources
-
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Banking and financial awareness](../../modules/banking-awareness.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- Reserve Bank of India publications (monetary policy, financial literacy): <https://www.rbi.org.in>
+2. Prelims marks do not count toward the final merit; focus on clearing the sectional cut-offs by
+   practicing the shared modules: [English Language](../../modules/english-language.md), [Reasoning](../../modules/reasoning.md),
+   [Quant Aptitude](../../modules/quant-aptitude.md), and [General Awareness](../../modules/general-awareness.md).
