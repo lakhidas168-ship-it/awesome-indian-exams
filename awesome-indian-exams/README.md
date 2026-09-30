@@ -92,7 +92,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [AIIMS NORCET (Nursing Officer)](exams/medical/aiims-norcet.md) | AIIMS New Delhi | NORCET-11 (Notice No. 103/2026, 24 July 2026) | ✅ official | 2026-09-29 |
+| [AIIMS NORCET (Nursing Officer)](exams/medical/aiims-norcet.md) | AIIMS New Delhi | NORCET-11 (Notice No. 103/2026, 24 July 2026) | ✅ official | 2026-09-30 |
 | [FMGE (Foreign Medical Graduate Examination)](exams/medical/fmge.md) | National Board of Examinations in Medical Sciences (NBEMS) | FMGE October 2026 | ✅ official | 2026-09-28 |
 | [INI-CET](exams/medical/ini-cet.md) | AIIMS New Delhi | INI-CET (July 2025 Session) | ✅ official | 2026-09-29 |
 | [NEET PG](exams/medical/neet-pg.md) | National Board of Examinations in Medical Sciences (NBEMS) | NEET PG 2026 | 🟡 secondary | 2026-09-28 |
