@@ -1,19 +1,39 @@
 import unittest
+import datetime as dt
 from pathlib import Path
-from scripts.validate import Report, check_eligibility_entry
+import sys
 
-class TestEligibility(unittest.TestCase):
-    def test_eligibility_missing_source(self):
-        rep = Report(Path("."))
-        entry = {"age_limit": "21-30"}
-        check_eligibility_entry(entry, rep, Path("registry/exams.toml"))
-        self.assertTrue(any("missing official_source_url" in err for err in rep.errors))
+# Mocking the environment for the test
+class MockReport:
+    def __init__(self):
+        self.errors = []
+    def error(self, path, msg):
+        self.errors.append(msg)
 
-    def test_eligibility_with_source(self):
-        rep = Report(Path("."))
-        entry = {"age_limit": "21-30", "official_source_url": "https://example.com"}
-        check_eligibility_entry(entry, rep, Path("registry/exams.toml"))
-        self.assertFalse(any("missing official_source_url" in err for err in rep.errors))
+# We need to import the function to test.
+# Since validate.py is a script, we can import it if we add the directory to sys.path
+sys.path.append(str(Path(__file__).resolve().parent.parent / "scripts"))
+from validate import check_eligibility_entry
 
-if __name__ == '__main__':
+class TestEligibilityCheck(unittest.TestCase):
+    def test_missing_source_url(self):
+        rep = MockReport()
+        # The function now checks for both next_notification_source_url and exam_window_source_url
+        entry = {"next_notification": "2026-01-01", "exam_window": "2026-06-01"}
+        check_eligibility_entry(entry, rep, Path("test.toml"), "test-exam")
+        self.assertIn("exam test-exam: eligibility next_notification missing next_notification_source_url", rep.errors)
+        self.assertIn("exam test-exam: eligibility exam_window missing exam_window_source_url", rep.errors)
+
+    def test_valid_entry(self):
+        rep = MockReport()
+        entry = {
+            "next_notification": "2026-01-01", 
+            "next_notification_source_url": "https://example.com",
+            "exam_window": "2026-06-01",
+            "exam_window_source_url": "https://example.com"
+        }
+        check_eligibility_entry(entry, rep, Path("test.toml"), "test-exam")
+        self.assertEqual(len(rep.errors), 0)
+
+if __name__ == "__main__":
     unittest.main()
