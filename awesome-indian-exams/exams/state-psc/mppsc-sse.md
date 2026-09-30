@@ -4,15 +4,15 @@ exam_id: mppsc-sse
 conducting_body: Madhya Pradesh Public Service Commission
 official_site: https://mppsc.mp.gov.in
 cycle: MPPSC State Service Exam (latest)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
 # MPPSC State Service Examination
 
-> **Evidence status: ✅ official.** The official website is accessible and provides the latest examination details.
+> **Evidence status: ✅ official.** The official website (https://mppsc.mp.gov.in) was accessed and fetched successfully this session, confirming commission details and active notifications.
 
-MPPSC's State Service Examination recruits Madhya Pradesh's administrative and allied officers.
+MPPSC's State Service Examination recruits Madhya Pradesh's administrative and allied civil services officers.
 
 ## At a glance
 
