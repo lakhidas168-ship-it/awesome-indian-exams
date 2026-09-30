@@ -6388,3 +6388,208 @@ accept = [
   "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
   "written in your own words; no local path, file name or personal data appears in the repository",
 ]
+
+[[task]]
+id = "T-590"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:8c09b19b into exams/law/mh-cet-law.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-661"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:ad3b836a into exams/engineering/ssc-je-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-662"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:37687bff into exams/engineering/upsc-ese-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-663"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:9b615751 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-664"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:e92e4136 into exams/state-psc/hpsc-hcs.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-665"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:863bdaa5 into exams/upsc/upsc-cds.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-666"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:e93e9e61 into exams/engineering/upsc-ese-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-667"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:f775fe3c into exams/upsc/upsc-cse.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-668"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:03c90677 into exams/defence/icg-navik.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-669"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:df1ad2ff into exams/banking/sbi-clerk.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-024"
+lane = "hermes"
+focus = "core"
+priority = 3
+title = "Refresh docs/FREE-COMPUTE.md for November 2026: check each free tier and credit programme on its official page, remove dead ones, add new ones"
+accept = [
+  "every entry links the provider's official page and says what is free and its limit",
+  "entries that could not be confirmed are marked so",
+  "the content gate passes on the file",
+]
+
+[[task]]
+id = "T-025"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "80/20 core for state-ae-je: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/state-ae-je.md gains: the complete official syllabus under 'Syllabus' (paraphrased, official links)",
+  "exams/engineering/state-ae-je.md gains: a link to official previous-year papers page under 'Official sources'",
+  "frontmatter last_verified updated to run date if official documents were opened this run",
+  "scripts/validate.py passes with 0 errors",
+]
+
+[[task]]
+id = "T-167"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/engineering-entrance/jee-main.md against current official notification and upgrade verification status"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "frontmatter last_verified updated to the run date and verification = official only if an official domain URL was fetched with HTTP 200",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-168"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/engineering-entrance/jee-advanced.md against current official notification and upgrade verification status"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "frontmatter last_verified updated to the run date and verification = official only if an official domain URL was fetched with HTTP 200",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-169"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/medical/neet-ug.md against current official notification and upgrade verification status"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "frontmatter last_verified updated to the run date and verification = official only if an official domain URL was fetched with HTTP 200",
+  "content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-170"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/upsc/upsc-cse.md against current official notification and upgrade verification status"
+accept = [
+  "every number under At a glance and Exam pattern matches the official notification fetched this run; URL listed under Official sources",
+  "frontmatter last_verified updated to the run date and verification = official only if an official domain URL was fetched with HTTP 200",
+  "content gate passes with 0 errors",
+]
+
+
