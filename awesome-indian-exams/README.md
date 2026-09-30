@@ -208,7 +208,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CUET UG](exams/university-entrance/cuet-ug.md) | National Testing Agency (NTA) | CUET UG 2026 | 🟡 secondary | 2026-09-29 |
 | [IIT JAM (Joint Admission Test for Masters)](exams/university-entrance/iit-jam.md) | IITs and IISc (IIT Kharagpur for JAM 2027) | JAM 2027 (IIT Kharagpur, 14 February 2027) | ✅ official | 2026-09-28 |
 | [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | ✅ official | 2026-09-28 |
-| [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE 2025 | ✅ official | 2026-09-28 |
+| [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE 2025 | ✅ official | 2026-09-30 |
 | [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT 2027-28 | ✅ official | 2026-09-28 |
 | [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-28 |
 | [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-29 |
