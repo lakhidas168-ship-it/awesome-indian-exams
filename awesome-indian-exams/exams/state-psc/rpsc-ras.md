@@ -4,13 +4,11 @@ exam_id: rpsc-ras
 conducting_body: Rajasthan Public Service Commission
 official_site: https://rpsc.rajasthan.gov.in
 cycle: RAS/RTS (Latest cycle)
-last_verified: 2026-09-29
-verification: secondary
+last_verified: 2026-09-30
+verification: official
 ---
 
 # RPSC RAS/RTS (Rajasthan State and Subordinate Services)
-
-> **Evidence status: ⚠️ secondary.** The official RPSC website was accessed, but the specific notification for the latest RAS/RTS cycle could not be parsed as a PDF this run. The page is maintained as secondary until the latest notification details are verified.
 
 RPSC's RAS/RTS exam recruits Rajasthan's administrative, police, accounts and allied services officers.
 
@@ -19,32 +17,43 @@ RPSC's RAS/RTS exam recruits Rajasthan's administrative, police, accounts and al
 | | |
 |---|---|
 | Conducted by | Rajasthan Public Service Commission |
-| Stages | Preliminary (objective, screening) → Main (descriptive) → interview |
-| Current cycle | See official RPSC website for latest advertisement |
+| Stages | Preliminary (objective) → Main (descriptive) → Interview |
+| Prelims | 150 questions, 200 marks, 3 hours, 1/3 negative marking |
+| Mains | 4 papers, 200 marks each |
 | Minimum qualification | Bachelor's degree |
 
 ## Official sources
 
 - RPSC Recruitment Advertisements: <https://rpsc.rajasthan.gov.in/advertisements?Pie=352>
-- RPSC Exam Dashboard: <https://rpsc.rajasthan.gov.in/examdashboard>
+- RPSC Syllabus Page: <https://rpsc.rajasthan.gov.in/syllabus?Pie=352>
+- RPSC Question Papers: <https://rpsc.rajasthan.gov.in/quespapers?Pie=352>
 
 ## Exam pattern
 
-**Preliminary:** one objective paper, "General Knowledge and General Science". It is a screening test only: the prelims marks of candidates who qualify do not count towards the final order of merit.
+### Preliminary Examination
+The Preliminary Examination is a screening test. Marks obtained do not count towards the final merit.
 
-**Main:** four descriptive/analytical papers — General Studies I, General Studies II, General Studies III, and General Hindi & General English.
+| Paper | Questions | Marks | Duration | Negative Marking |
+|---|---|---|---|---|
+| General Knowledge and General Science | 150 | 200 | 3 Hours | 1/3 mark per wrong answer |
 
-**Interview:** candidates are selected through the competitive examination and an interview.
+### Main Examination
+The Main Examination consists of four descriptive papers.
+
+| Paper | Marks |
+|---|---|
+| Paper-I | 200 |
+| Paper-II | 200 |
+| Paper-III | 200 |
+| Paper-IV | 200 |
 
 ## Syllabus
 
-General studies (polity, history, geography, economy, environment, science and technology, current affairs), with a strong **Rajasthan** component: the history, art, culture, literature, tradition and heritage of Rajasthan, and the state's geography, economy and current affairs.
+The syllabus covers History, Art, Culture, Literature, Tradition & Heritage of Rajasthan, Indian History, Geography (World, India, Rajasthan), Indian Constitution, Political System & Governance, Political and Administrative System of Rajasthan, Economic Concepts and Indian Economy, Economy of Rajasthan, Science and Technology, Reasoning and Mental Ability.
 
-## How to prepare (free, in order)
-
-1. Prepare the shared UPSC GS modules once. They cover most of every state PSC.
-2. Add the state's own history, geography, economy and schemes from official state sources.
-3. Solve the commission's own previous papers from its website: each commission has its own style.
+For the complete, detailed syllabus, refer to the official documents:
+- [Prelims Syllabus (English)](https://rpsc.rajasthan.gov.in/Static/Syllabus/7D943B35-2D9E-4E50-BC3E-3726268AE18B.pdf)
+- [Mains Scheme](https://rpsc.rajasthan.gov.in/Static/Syllabus/C112D918-2998-45A0-BE42-3A7A82DFF032.pdf)
 
 ## Free resources
 
