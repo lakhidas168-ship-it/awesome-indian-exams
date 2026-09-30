@@ -210,7 +210,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | ✅ official | 2026-09-28 |
 | [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE 2025 | ✅ official | 2026-09-30 |
 | [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT 2027-28 | ✅ official | 2026-09-28 |
-| [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-28 |
+| [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-30 |
 | [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-29 |
 
 ### School-level entrance
@@ -239,7 +239,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Four times a year (February, May, September, December) | ✅ official | 2026-09-30 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | ✅ official | 2026-09-30 |
-| [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2026 (4 January 2026) | ✅ official | 2026-09-28 |
+| [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2026 (4 January 2026) | ✅ official | 2026-09-30 |
 
 ### Professional courses: CA, CS, CMA
 
