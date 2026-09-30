@@ -209,7 +209,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [IIT JAM (Joint Admission Test for Masters)](exams/university-entrance/iit-jam.md) | IITs and IISc (IIT Kharagpur for JAM 2027) | JAM 2027 (IIT Kharagpur, 14 February 2027) | ✅ official | 2026-09-30 |
 | [NATA (National Aptitude Test in Architecture)](exams/university-entrance/nata.md) | Council of Architecture | NATA 2026 | ✅ official | 2026-09-28 |
 | [NCHM JEE (hotel management)](exams/university-entrance/nchm-jee.md) | National Testing Agency | NCHM JEE 2025 | ✅ official | 2026-09-30 |
-| [NID Design Aptitude Test (DAT)](exams/university-entrance/nid-dat.md) | National Institute of Design | NID DAT 2027-28 | ✅ official | 2026-09-28 |
+| [NID DAT](exams/university-entrance/nid-dat.md) | National Institute of Design | Annual | ✅ official | 2026-09-30 |
 | [NIFT entrance (B.Des, B.FTech)](exams/university-entrance/nift-entrance.md) | National Institute of Fashion Technology | NIFTEE 2026 | ✅ official | 2026-09-30 |
 | [UCEED](exams/university-entrance/uceed.md) | IIT Bombay | UCEED 2026 | ✅ official | 2026-09-29 |
 
@@ -246,7 +246,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [CA Foundation](exams/professional/ca-foundation.md) | Institute of Chartered Accountants of India | Thrice a year (January, May, September) | ✅ official | 2026-09-28 |
-| [CMA Foundation](exams/professional/cma-foundation.md) | Institute of Cost Accountants of India | December 2026 term (Syllabus 2022) | ✅ official | 2026-09-28 |
+| [CMA Foundation](exams/professional/cma-foundation.md) | Institute of Cost Accountants of India | December 2026 term (Syllabus 2022) | ✅ official | 2026-09-30 |
 | [CSEET (CS Executive Entrance Test)](exams/professional/cseet.md) | Institute of Company Secretaries of India | CSEET October 2026 | ✅ official | 2026-09-29 |
 <!-- EXAMS:END -->
 
