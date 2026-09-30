@@ -4,16 +4,13 @@ exam_id: sbi-po
 conducting_body: State Bank of India
 official_site: https://sbi.co.in
 cycle: SBI PO 2026 (Advt CRPD/PO/2026-27/09)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: secondary
 ---
 
 # SBI PO (Probationary Officer)
 
-> **Evidence status: 🟡 secondary.** Every number below is from SBI's official PO 2026 advertisement
-> (CRPD/PO/2026-27/09, 1,500 vacancies), read on 2026-09-28. Kept at secondary because SBI now hosts
-> recruitment on sbi.bank.in, which is not yet in the repo's official-domain allow-list. Always confirm on
-> the SBI careers portal before you apply or pay a fee.
+> **Evidence status: 🟡 secondary.** The official notification is hosted on `sbi.bank.in`, which is not yet in the repo's official-domain allow-list. The page content is based on the provided notification.
 
 SBI PO recruits probationary officers (Junior Management Grade Scale-I) for the State Bank of India. It is
 one of India's most sought-after banking exams. Selection runs in three phases: prelims (qualifying),
@@ -33,8 +30,8 @@ mains, then a psychometric test, group exercise and interview.
 
 ## Official sources
 
-- SBI official website (announces the move to the new careers portal; start here): <https://sbi.co.in>
-- SBI careers, current openings (applications, notices, results): <https://sbi.co.in/web/careers/current-openings>
+- SBI official website: <https://sbi.co.in>
+- SBI careers, current openings: <https://sbi.co.in/web/careers/current-openings>
 
 ## Exam pattern
 
@@ -95,7 +92,4 @@ rest), use the shared modules below; the notification itself is the final word o
 
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Data interpretation](../../modules/data-interpretation.md) · [Banking and financial awareness](../../modules/banking-awareness.md) · [Computer awareness](../../modules/computer-awareness.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- Reserve Bank of India publications (monetary policy, financial literacy): <https://www.rbi.org.in>
-- Press Information Bureau for current affairs: <https://pib.gov.in>
+- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Data interpretation](../../modules/data-interpretation.md) · [General awareness](../../modules/general-awareness.md)

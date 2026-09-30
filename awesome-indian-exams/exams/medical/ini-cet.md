@@ -3,42 +3,47 @@ title: INI-CET
 exam_id: ini-cet
 conducting_body: AIIMS New Delhi
 official_site: https://www.aiimsexams.ac.in
-cycle: INI-CET (latest session)
-last_verified: 2026-09-27
-verification: unverified
+cycle: INI-CET (July 2025 Session)
+last_verified: 2026-09-29
+verification: official
 ---
 
 # INI-CET
 
-> **Evidence status: 🔴 unverified.** The facts below could not be verified against the official notification.
-> Always read the current notice before you apply or pay a fee.
-
-INI-CET is the combined entrance for postgraduate medical seats (MD, MS, MCh, DM (6 yr), MDS) at AIIMS, JIPMER,
-PGIMER Chandigarh and NIMHANS. It is held twice a year.
+INI-CET is the combined entrance for postgraduate medical seats (MD, MS, MCh, DM (6 yr), MDS, and MD (Hospital Administration)) at AIIMS, JIPMER, PGIMER Chandigarh, NIMHANS, and SCTIMST Trivandrum. It is held twice a year.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | AIIMS New Delhi |
-| Mode | Computer-based, 3 hours |
-| Total | 200 questions |
+| Mode | Computer-based test (CBT), 3 hours (180 minutes) |
+| Total Questions | 200 objective-type questions (4 parts of 50 questions, 45 minutes each) |
+| Marking Scheme | +1 for correct, −1/3 for incorrect, 0 for unattempted |
 
 ## Official sources
 
-- AIIMS exams (official): <https://www.aiimsexams.ac.in>
+- AIIMS exams (official portal): <https://www.aiimsexams.ac.in>
+- INI-CET Prospectus Part-A (July 2025 Session): <https://docs.aiimsexams.ac.in/sites/2_PROSPECTUS%20PART-A%20INI-CET%20JULY%202025%20SESSION.pdf>
 
 ## Exam pattern
 
-200 MCQs in four blocks of 50 questions, about 45 minutes each. **+1** correct, **−1/3** wrong.
+- **Mode:** Computer Based Test (CBT).
+- **Duration:** 3 hours (180 minutes).
+- **Structure:** 200 questions divided into 4 parts of 50 questions each (45 minutes per part). Parts appear sequentially; once a part's time expires, it auto-submits and cannot be revisited.
+- **Question Types:** Objective type of varying types, including Single Correct Choice and Multiple Correct Choice questions.
+- **Marking Scheme:** **+1** for correct answer, **−1/3** for incorrect answer, **0** for unanswered or marked for review.
+- **Tie-breaker:** 1) Less negative marks, 2) Older by age.
 
 ## Syllabus
 
-The MBBS curriculum, with a strong emphasis on clinical application.
+The MBBS curriculum (pre-clinical, para-clinical, and clinical subjects), with a strong emphasis on clinical application and case-based problem solving.
 
 ## How to prepare (free, in order)
 
-1. Questions are concept- and case-based: practise application, not only recall.
+1. Master standard MBBS core subjects (anatomy, physiology, pathology, pharmacology, medicine, surgery, obstetrics & gynaecology, paediatrics, etc.).
+2. Practise clinical application and multi-correct conceptual questions rather than rote recall.
+3. Solve previous years' official INI-CET questions under timed conditions to adapt to the 4-part 45-minute strict section pacing.
 
 ## Free resources
 

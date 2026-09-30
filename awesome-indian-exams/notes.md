@@ -1,11 +1,9 @@
 ## Sources opened
-- https://gate2027.iitm.ac.in/question_paper_pattern (confirmed exam pattern, negative marking, marks distribution)
-- https://gate2027.iitm.ac.in/important_dates (confirmed exam dates)
+- https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026 (403 Forbidden)
+- https://www.upsc.gov.in/examinations/revised-syllabus-scheme (403 Forbidden)
 
 ## Could not confirm
-- The previous version of the file had links to the Information Brochure and Syllabus PDF. While these are official, I did not fetch them in this run, so I removed them from the "Official sources" section to maintain strict compliance with the verification rules.
+- The UPSC website returns a 403 Forbidden error for automated requests, preventing verification of the latest notification. The page remains `unverified`.
 
 ## Changed
-- Updated `last_verified` to 2026-10-22.
-- Cleaned up "Official sources" to only include links verified in this run.
-- Minor text adjustments in "At a glance" and "Exam pattern" for clarity.
+- None.

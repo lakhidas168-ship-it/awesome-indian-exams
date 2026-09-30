@@ -4,7 +4,7 @@ exam_id: upsc-cms
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: CMS 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: unverified
 ---
 

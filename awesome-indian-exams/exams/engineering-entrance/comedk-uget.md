@@ -4,14 +4,15 @@ exam_id: comedk-uget
 conducting_body: COMEDK
 official_site: https://www.comedk.org
 cycle: COMEDK UGET 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
 # COMEDK UGET
 
-> **Evidence status: ✅ official.** Every number below is from the COMEDK UGET 2026 Information Brochure
-> (notified 03 Feb 2026), fetched from comedk.org on 2026-09-28.
+> **Evidence status: ✅ official.** Every number below is from the COMEDK UGET 2026 pages on
+> comedk.org (About UGET and Notification 2026, plus the official Physics, Chemistry and Mathematics
+> syllabus PDFs), fetched on 2026-09-30.
 
 COMEDK UGET is the entrance test for B.E. seats in the engineering colleges participating in the COMEDK
 process (around 150 colleges). Its scores are valid for admissions in the academic year 2026-27 only.
@@ -48,10 +49,11 @@ One computer-based paper of 180 one-mark multiple-choice questions, with no nega
 | Mathematics | 60 |
 | Total | 180 questions, 180 marks |
 
-The medium is English only. The merit rank is generated from the entrance-test score only. The exam may run
-in multiple sessions with different question sets; scores are then expressed as percentiles normalized across
-sessions. Diploma candidates are not eligible (no lateral entry), and a candidate scoring zero is assigned no
-rank.
+The medium is English only. Selection for seats in member institutions is based on merit in this
+entrance test, followed by online counselling. The session and test centre are allotted through a
+computer-assisted randomization process and printed on the Test Admission Ticket; requests for a
+change of city or slot are not entertained. Diploma candidates are not eligible (no lateral entry),
+and a candidate scoring zero is assigned no rank.
 
 ## Syllabus
 
@@ -65,7 +67,7 @@ The test follows the CBSE syllabus: about 33% from Class 11 (2024-25) and about 
    paper), giving extra weight to Class 12 topics.
 2. Since there is no negative marking, practise to attempt all 180 questions: timed MCQ sets, accuracy first,
    then speed.
-3. Use COMEDK's official mock tests (available in candidate login after successful payment) to get used to the
+3. Use COMEDK's official mock tests (published online before the exam) to get used to the
    computer-based format.
 
 ## Free resources

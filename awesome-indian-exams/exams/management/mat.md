@@ -3,35 +3,56 @@ title: MAT (Management Aptitude Test)
 exam_id: mat
 conducting_body: All India Management Association
 official_site: https://mat.aima.in
-cycle: Multiple sessions per year
-last_verified: 2024-05-22
-verification: unverified
+cycle: Four times a year (February, May, September, December)
+last_verified: 2026-09-29
+verification: official
 ---
 
 # MAT (Management Aptitude Test)
 
-> **Evidence status: 🟡 unverified.** The official website provides registration and general information, but does not currently host a single consolidated information bulletin confirming the exam pattern (number of questions, marking scheme, duration).
+> **Evidence status: 🟢 official.** All exam pattern, eligibility, mode, and fee details are verified against the official AIMA "Information to Candidates for MAT December 2026" page fetched this run.
 
-MAT is AIMA's management entrance, held several times a year and accepted by many business schools.
+MAT is AIMA's management entrance, conducted four times a year and accepted by 600+ business schools.
 
 ## At a glance
 
 | | |
 |---|---|
 | Conducted by | All India Management Association (AIMA) |
-| Mode | Paper-based (PBT), Computer-based (CBT), Remote-proctored (IBT) |
+| Mode | Paper-based (PBT), Computer-based (CBT), or Both (PBT+CBT) |
+| Duration | 120 minutes |
+| Total Questions | 150 |
+| Negative Marking | -0.25 marks per incorrect answer |
+| Eligibility | Graduates in any discipline; final year students can apply |
+| Fee (PBT or CBT) | ₹2,300 |
+| Fee (PBT + CBT) | ₹4,000 |
+| Score Validity | 1 year (best score from multiple attempts accepted) |
 
 ## Official sources
 
-- MAT official website (AIMA): <https://mat.aima.in>
+- MAT official website: <https://mat.aima.in>
+- AIMA "Information to Candidates for MAT December 2026": <https://www.aima.in/content/testing-and-assessment/mat/mat>
 
 ## Exam pattern
 
-The exam typically consists of five sections: Language Comprehension, Data Analysis and Sufficiency, Mathematical Skills, Intelligence and Critical Reasoning, and Indian and Global Environment. Please refer to the official AIMA website for the specific pattern applicable to the current session.
+The exam consists of five sections, each containing 30 questions, for a total of 150 questions.
+
+| Section | Name | Questions |
+| :--- | :--- | :--- |
+| I | Language Comprehension | 30 |
+| II | Intelligence and Critical Reasoning | 30 |
+| III | Mathematical Skills | 30 |
+| IV | Data Analysis and Sufficiency | 30 |
+| V | Economic and Business Environment | 30 |
 
 ## Syllabus
 
-Standard MBA aptitude topics plus economic and business awareness.
+The syllabus covers five core areas:
+- **Language Comprehension:** Reading comprehension, verbal ability, grammar.
+- **Intelligence and Critical Reasoning:** Logical reasoning, analytical reasoning.
+- **Mathematical Skills:** Arithmetic, algebra, geometry, and basic quantitative topics.
+- **Data Analysis and Sufficiency:** Data interpretation (charts, graphs, tables) and data sufficiency.
+- **Economic and Business Environment:** Current affairs, business awareness, and economic concepts.
 
 ## How to prepare (free, in order)
 

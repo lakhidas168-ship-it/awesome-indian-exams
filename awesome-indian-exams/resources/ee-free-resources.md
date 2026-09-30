@@ -35,6 +35,10 @@ outdated or wrong.
 | Power Systems | Power Systems Operation and Control | Dr. S.N. Singh | IIT Kanpur | <https://nptel.ac.in/courses/108104052> |
 | Instrumentation | Industrial Instrumentation | Prof. Alok Barua | IIT Kharagpur | <https://nptel.ac.in/courses/108105064> |
 
+## NPTEL Courses mapped to SSC JE and RRB JE (EE) syllabi
+
+See [ee-nptel-map.md](ee-nptel-map.md) for the full mapping of NPTEL courses to SSC JE and RRB JE topics.
+
 ## Practice by simulation
 
 Seeing a circuit behave is often faster than re-reading a derivation.

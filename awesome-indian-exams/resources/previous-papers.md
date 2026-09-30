@@ -25,6 +25,7 @@ useful at most for practice, never as the source of a fact.
 | Commission | Official papers |
 |---|---|
 | Bihar (BPSC) | [Question booklets](https://bpsc.bihar.gov.in/question-booklets/) |
+| Karnataka (KPSC) | [Previous question papers](https://kpsc.kar.nic.in/questionpaper.html) |
 | Maharashtra (MPSC) | [Previous question papers](https://mpsc.gov.in/prev_que_papers/9) |
 | Tamil Nadu (TNPSC) | [Previous year question papers](https://tnpsc.gov.in/english/previous-questions.html) |
 | Uttar Pradesh (UPPSC) | [Previous year question papers](https://uppsc.up.nic.in/OuterPages/PreQuesPapers.aspx?ID=PrevQues) |

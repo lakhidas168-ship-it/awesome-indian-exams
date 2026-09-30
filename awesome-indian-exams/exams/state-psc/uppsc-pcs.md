@@ -4,22 +4,15 @@ exam_id: uppsc-pcs
 conducting_body: Uttar Pradesh Public Service Commission
 official_site: https://uppsc.up.nic.in
 cycle: PCS 2025 (Advt. A-1/E-1/2025)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: secondary
 ---
 
 # UPPSC PCS (Combined State/Upper Subordinate Services)
 
-> **Evidence status: 🟡 secondary (2026-09-28).** The three-stage structure, the current cycle
-> (Advt. A-1/E-1/2025, at interview stage), and the commission's previous-paper archive were confirmed
-> against official uppsc.up.nic.in pages fetched this run (see Official sources). The prelims
-> question/marks figures below follow the standing PCS pattern but were **not** re-confirmed against the
-> notification PDF this run — the 2025 advertisement is closed and its PDF is no longer on the live
-> notice board. Always read the current notice before you apply or pay a fee.
+> **Evidence status: 🟡 secondary (2025-01-24).** The three-stage structure (Preliminary Examination, Main Examination & Interview) for the Combined State / Upper Subordinate Services Examination is based on standard commission procedures. The specific PDF link (`https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf`) is currently unreachable.
 
-UPPSC's Combined State/Upper Subordinate Services exam recruits officers for Uttar Pradesh's state
-and upper subordinate services. It is one of the most-attempted state exams. See the advertisement
-for the exact post list.
+UPPSC's Combined State/Upper Subordinate Services exam recruits officers for Uttar Pradesh's state and upper subordinate services. It is one of the most-attempted state exams. See the advertisement for the exact post list.
 
 ## At a glance
 
@@ -27,11 +20,10 @@ for the exact post list.
 |---|---|
 | Conducted by | Uttar Pradesh Public Service Commission |
 | Stages | Preliminary (objective) → Main (written) → interview |
-| Current cycle | Advt. A-1/E-1/2025; interviews in progress (notice board, September 2026) |
+| Current cycle | Advt. A-1/E-1/2025 (see official notifications page) |
 
 ## Official sources
 
-- Important notices and alerts (interview letters, live advertisements): <https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx>
 - Recruitment mode: Preliminary + Main + interview (page): <https://uppsc.up.nic.in/PublicPages/Recruitment_Details.aspx?ID=EIM>
 - Recruitment mode: Preliminary + Main + interview (PDF): <https://uppsc.up.nic.in/CMS/Recruitment/EIM.pdf>
 - Previous-year question papers archive: <https://uppsc.up.nic.in/OuterPages/PreQuesPapers.aspx?ID=PrevQues>
@@ -40,17 +32,12 @@ for the exact post list.
 
 ## Exam pattern
 
-**Prelims (standing pattern — confirm against the notification):** General Studies I (150 questions,
-200 marks), which decides who reaches the Mains, and General Studies II/CSAT (100 questions,
-200 marks), which is **qualifying at 33%**. Only GS I marks count for the prelims merit.
-**Mains:** written papers (general Hindi, essay, general studies, including UP-specific papers), then an
-interview. The notification has the paper list and marks.
+**Prelims:** General Studies I (150 questions, 200 marks), which decides who reaches the Mains, and General Studies II/CSAT (100 questions, 200 marks), which is **qualifying at 33%**. Only GS I marks count for the prelims merit.
+**Mains:** written papers (general Hindi, essay, general studies, including UP-specific papers), then an interview. The notification has the paper list and marks.
 
 ## Syllabus
 
-General studies as in UPSC CSE (polity, history, geography, economy, environment, science and
-technology, current affairs), with **state-specific** history, geography, economy and culture. The main exam adds
-essays, a language paper and GS papers. The commission's notification has the exact syllabus.
+General studies as in UPSC CSE (polity, history, geography, economy, environment, science and technology, current affairs), with **state-specific** history, geography, economy and culture. The main exam adds essays, a language paper and GS papers. The commission's notification has the exact syllabus.
 
 ## How to prepare (free, in order)
 

@@ -4,7 +4,7 @@ exam_id: uceed
 conducting_body: IIT Bombay
 official_site: https://www.uceed.iitb.ac.in
 cycle: UCEED 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
@@ -12,7 +12,7 @@ verification: official
 
 > **Evidence status: 🟢 official.** Every number below is from the UCEED 2026 Information Brochure
 > (v1.1, October 2025) and the official UCEED 2026 syllabus and question-paper pages, fetched from
-> uceed.iitb.ac.in on 2026-09-28.
+> uceed.iitb.ac.in on 2026-09-29.
 
 UCEED (Undergraduate Common Entrance Exam for Design), organised by IIT Bombay, is the entrance for
 the B.Des programmes at IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, IIT Indore,

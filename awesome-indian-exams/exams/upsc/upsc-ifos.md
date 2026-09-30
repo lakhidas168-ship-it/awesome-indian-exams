@@ -4,90 +4,111 @@ exam_id: upsc-ifos
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: IFoS 2026
-last_verified: 2026-09-28
-verification: secondary
+last_verified: 2026-09-30
+verification: unverified
 ---
 
 # UPSC Indian Forest Service (IFoS)
 
-> **Evidence status: 🟡 secondary.** Every number below was cross-checked on 2026-09-28 against a mirror
-> copy of the official Notice No. 06/2026-IFoS dated 04.02.2026. The official site (upsc.gov.in) returned
-> HTTP 403 to the evidence fetcher on every URL tried this run, so the official PDF could not be opened
-> directly. Always read the current notice before you apply or pay a fee.
+> **Evidence status: ⚪ unverified.** The scheme, marks, eligibility, fees and syllabus on this page were last
+> checked on 2026-05-22. Always read the current notice before you apply or pay a fee.
 
-The Indian Forest Service is selected through the UPSC CSE Prelims (a shared screening test) followed by a
-separate IFoS Mains (written) and interview. About 80 vacancies were notified for 2026 (UR-33, OBC-21,
-SC-12, EWS-8, ST-6; number liable to change).
+The Indian Forest Service is recruited by the UPSC in two stages: the **Civil Services (Preliminary) Examination**
+runs as the screening test, and the **Indian Forest Service (Main) Examination** — written papers plus an interview
+— decides the final merit. The 2026 notification expects about **80 vacancies** (33 unreserved, 21 OBC, 12 SC,
+8 EWS, 6 ST), a number liable to change.
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | UPSC |
-| Stages | CSE Prelims (screening) → IFoS Mains (6 papers, written) → interview |
-| Screening | Prelims: 2 papers × 200 marks; marks not counted for merit; ~12–13× vacancies admitted to Mains; separate IFoS cut-off |
-| Final merit | Mains 1400 + interview 300 = 1700 |
-| Age (as on 1 Aug 2026) | 21–32 years (born 2 Aug 1994 – 1 Aug 2005); relaxation for SC/ST/OBC/defence/ex-servicemen/PwBD as per notice |
-| Qualification | Bachelor's degree with at least one of Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics, Zoology — or a degree in Agriculture, Forestry or Engineering (see notice) |
-| Attempts | 6 (General); 9 (OBC, and General/EWS with benchmark disability); no cap for SC/ST |
-| Fee | Rs 100 for Prelims + Rs 200 for Mains; no fee for women, SC, ST and PwBD candidates |
+| Conducted by | Union Public Service Commission |
+| Stages | CSE Preliminary (screening) → IFoS Main (6 written papers) → Personality Test |
+| Screening | CSE Prelims: two objective papers of 200 marks each. Paper II (CSAT) is qualifying at 33%; Paper I sets the cut-off. Prelims marks carry no weight in the final merit. About 12–13 times the vacancies reach the Main exam, on a separate IFoS list drawn from the shared CSE candidates |
+| Final merit | Main written 1400 + interview 300 = **1700** |
+| Age (as on 1 August 2026) | 21–32 years (born 2 August 1994 – 1 August 2005); upper limit relaxable for SC/ST/OBC/defence/ex-servicemen/PwBD as per the notice |
+| Qualification | A Bachelor's degree with at least one of Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics, Zoology — or a Bachelor's degree in Agriculture, Forestry or Engineering |
+| Attempts | 6 for all other candidates; 9 for OBC and for General/EWS candidates with benchmark disability; no limit for SC/ST |
+| Fee | Rs 100 (Prelims) + Rs 200 (Main); female, SC, ST and PwBD candidates pay nothing |
 
 ## Official sources
 
-- UPSC website (notices under Examinations): <https://upsc.gov.in>
+- *Indian Forest Service Examination, 2026* notification — scheme, marks, eligibility, fees and syllabi
+  (Notice No. 06/2026-IFoSE, revised copy): <https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf>
+- UPSC "Indian Forest Service (Main) Examination, 2026" examination page:
+  <https://www.upsc.gov.in/examinations/Indian%20Forest%20Service%20(Main)%20Examination,%202026>
+- UPSC "Civil Services (Preliminary) Examination, 2026" page — the shared screening test:
+  <https://www.upsc.gov.in/examinations/Civil%20Services%20(Preliminary)%20Examination,%202026>
 - UPSC examination-notification archive: <https://www.upsc.gov.in/exams-related-info/exam-notification/archives>
-- Official previous question papers: <https://upsc.gov.in/examinations/previous-question-papers>
+- UPSC previous question papers (official, free): <https://www.upsc.gov.in/examinations/previous-question-papers>
 - Online application portal: <https://upsconline.nic.in/>
 
 ## Exam pattern
 
-**Prelims (objective, screening only):** two compulsory papers of 200 marks each, two hours each.
+**Preliminary (screening only).** Two objective papers of 200 marks each, two hours each. Both papers are set in
+Hindi and English, and a candidate must sit both — skipping a paper disqualifies the candidature.
 
-| Paper | Marks | Notes |
+| Paper | Marks | Role |
 |---|---:|---|
-| General Studies Paper I | 200 | Decides the screening cut-off (with Paper II qualifying) |
-| General Studies Paper II (CSAT) | 200 | Qualifying: minimum 33% required |
+| General Studies Paper I | 200 | Decides the screening cut-off |
+| General Studies Paper II (CSAT) | 200 | Qualifying only — 33% needed |
 
-Wrong answers cost one-third of the question's marks; blank answers cost nothing. Question papers are set
-in Hindi and English. Commission fixes the Paper I cut-off; about twelve to thirteen times the vacancies
-are admitted to the Mains.
+Each wrong answer costs one-third of the marks assigned to that question; a blank answer costs nothing. The
+Commission admits about twelve to thirteen times the vacancies to the Main examination, drawing a separate IFoS
+list from the candidates who sat the shared CSE Prelims.
 
-**Mains (conventional essay-type, answers in English only, 3 hours per paper):**
+**Main (written).** Six conventional (essay-type) papers, three hours each, answered in English only.
 
 | Paper | Marks |
 |---|---:|
-| I: General English | 300 |
-| II: General Knowledge | 300 |
-| III–VI: two optional subjects, two papers each | 4 × 200 |
+| Paper I: General English | 300 |
+| Paper II: General Knowledge | 300 |
+| Papers III–VI: two optional subjects, two papers each | 4 × 200 = 800 |
 
-The written part totals 1400. Candidates who clear the Commission's qualifying marks are called for the
-**interview (300 marks, no qualifying floor)** — about twice the vacancies. Final ranking is on written +
-interview = 1700. Ties break on General English + General Knowledge + interview, then age.
+The written papers total **1400**, and the Commission may fix qualifying marks in any paper. Candidates who clear
+the written stage are summoned for the **Personality Test (interview) of 300 marks, with no minimum qualifying
+marks**; about twice the vacancies are called. Final ranking is on written + interview = **1700**. Ties are broken
+first on the two common papers (General English and General Knowledge) plus the interview together, then on the two
+common papers alone, and finally in favour of the older candidate.
 
 ## Syllabus
 
-**Prelims:** Paper I covers current events, Indian history and freedom movement, Indian and world geography,
-polity and governance, economic and social development, environment and biodiversity, and general science.
-Paper II (CSAT) covers comprehension, communication and interpersonal skills, logical reasoning and
-analytical ability, decision-making, general mental ability, and Class-X numeracy and data interpretation.
+**Preliminary (shared with the CSE):** Paper I covers current events, Indian history and the national movement,
+Indian and world geography, Indian polity and governance, economic and social development, environmental ecology,
+biodiversity and climate change, and general science. Paper II (CSAT) covers comprehension, interpersonal and
+communication skills, logical reasoning and analytical ability, decision-making and problem-solving, general
+mental ability, and Class-X numeracy and data interpretation. The full syllabi are in Section III of the notification.
 
-**Mains:** General English, General Knowledge, and any two optional subjects from the 14-subject IFoS list:
-Agriculture, Agricultural Engineering, Animal Husbandry & Veterinary Science, Botany, Chemistry, Chemical
-Engineering, Civil Engineering, Forestry, Geology, Mathematics, Mechanical Engineering, Physics, Statistics,
-Zoology. Barred combinations: Agriculture with Agricultural Engineering / Animal Husbandry & Veterinary
-Science / Forestry; Chemistry with Chemical Engineering; Mathematics with Statistics; and at most one of
-the four engineering subjects. Full subject syllabi are in Section III of the notice.
+**Main:** General English tests essay writing, comprehension and precis; General Knowledge covers current events,
+Indian polity, Indian history and geography. The standard of these two papers is that of a science or engineering
+graduate. Each candidate then offers **two optional subjects** from the 14-subject list:
+
+Agriculture · Agricultural Engineering · Animal Husbandry & Veterinary Science · Botany · Chemistry ·
+Chemical Engineering · Civil Engineering · Forestry · Geology · Mathematics · Mechanical Engineering ·
+Physics · Statistics · Zoology
+
+Barred combinations: Agriculture with Agricultural Engineering, Animal Husbandry & Veterinary Science, or
+Forestry; Chemistry with Chemical Engineering; Mathematics with Statistics; and not more than one of the four
+engineering subjects. Optional papers are set at honours-degree level (bachelor's level for the engineering
+subjects) with no practical examination; each paper has eight questions in two parts, of which five are to be
+attempted with one compulsory question in each part.
 
 ## How to prepare (free, in order)
 
-1. Prepare with UPSC CSE for prelims, but clear the CSAT 33% floor deliberately — it eliminates candidates every year.
-2. Choose IFoS optionals from your degree subjects; check the barred combinations before committing.
-3. Practise 3-hour written answers in English from day one — four of six Mains papers reward structured, economical writing.
-4. Static GK and science from NCERT Class 6–10 books; current affairs from PIB; timed practice on official previous papers.
+1. **Use the CSE Prelims as your first target.** IFoS entry is the same screening test as Civil Services, so build
+   the general-studies base from NCERT Class 6–12 and add daily current affairs from PIB. Do not treat CSAT as
+   optional: the 33% floor eliminates candidates every year even though the paper is only qualifying.
+2. **Choose your two optionals from degree subjects you have already studied.** Check the barred combinations
+   before you commit — one wrong pair can invalidate the form.
+3. **Train the answer format, not just the content.** Four of the six Main papers are optional-subject papers, and
+   every paper is three hours of structured English writing; begin timed answer-writing early rather than at the
+   end.
+4. **Practise on the official papers.** UPSC publishes past question papers free; solve them under time and score
+   yourself with the one-third negative marking.
 
 ## Free resources
 
-- Shared modules for this exam: [Indian polity and governance](../../modules/gs-polity.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [Environment and ecology](../../modules/gs-environment.md) · [Science and technology (current)](../../modules/gs-science-tech.md) · [CSAT: comprehension, reasoning, basic numeracy](../../modules/csat.md)
+- Shared modules for this exam: [Polity and governance](../../modules/gs-polity.md) · [History and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [Environment and ecology](../../modules/gs-environment.md) · [Science and technology (current)](../../modules/gs-science-tech.md) · [CSAT: comprehension, reasoning, basic numeracy](../../modules/csat.md)
 - Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
 - NCERT textbooks (the base for general studies and science): <https://ncert.nic.in/textbook.php>
 - Press Information Bureau for current affairs: <https://pib.gov.in>

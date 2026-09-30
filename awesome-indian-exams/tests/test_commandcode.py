@@ -42,7 +42,7 @@ class Wrapper(unittest.TestCase):
         shutil.rmtree(self.tmp)
 
     def run_cc(self, mode: str = "ok", prompt: str = "do task T-001", **env: str) -> subprocess.CompletedProcess:
-        base = {k: v for k, v in os.environ.items() if k != "BASH_ENV"}
+        base = {k: v for k, v in os.environ.items() if k not in ("BASH_ENV", "HIVE_COMMANDCODE_MODEL")}
         full = {**base, "PATH": f"{self.tmp / 'bin'}:{os.environ['PATH']}", "HIVE_HOME": str(self.tmp / "hive"),
                 "HIVE_COMMANDCODE_BIN": str(self.tmp / "bin" / "command-code"),
                 "FAKE_CC_LOG": str(self.log), "FAKE_CC_MODE": mode, **env}

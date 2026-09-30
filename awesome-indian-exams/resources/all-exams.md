@@ -10,6 +10,8 @@ has to find the official one.
 
 | Exam | Conducted by | Official website | Page |
 |---|---|---|---|
+| BARC OCES/DGFS (Scientific Officer) | Bhabha Atomic Research Centre | <https://barc.gov.in> | [open](../exams/engineering/barc-oces-ee.md) |
+| DRDO CEPTAM (Electrical Engineering) | Defence Research and Development Organisation | <https://www.drdo.gov.in> | [open](../exams/engineering/drdo-ceiptm-ee.md) |
 | GATE Civil Engineering (CE) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-ce.md) |
 | GATE Computer Science (CS) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-cs.md) |
 | GATE Data Science and AI (DA) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-da.md) |
@@ -17,10 +19,15 @@ has to find the official one.
 | GATE Electronics and Communication (EC) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-ec.md) |
 | GATE Instrumentation Engineering (IN) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-in.md) |
 | GATE Mechanical Engineering (ME) | IISc and IITs for NCB-GATE | <https://gate2027.iitm.ac.in> | [open](../exams/engineering/gate-me.md) |
+| ISRO Scientist/Engineer 'SC' (ICRB) | Indian Space Research Organisation | <https://www.isro.gov.in> | [open](../exams/engineering/isro-icrb-ee.md) |
+| NHPC Junior Engineer (Electrical) | NHPC Limited | <https://www.nhpcindia.com> | [open](../exams/engineering/nhpc-je-ee.md) |
+| NTPC Engineering Executive Trainee (EET) | NTPC Limited | <https://www.ntpc.co.in> | [open](../exams/engineering/ntpc-et-ee.md) |
+| POWERGRID Diploma Trainee (Electrical) | Power Grid Corporation of India Limited | <https://www.powergrid.in> | [open](../exams/engineering/pgcil-dt-ee.md) |
 | PSU recruitment for EE graduates | Central PSUs | <https://www.ntpc.co.in> | [open](../exams/engineering/psu-ee.md) |
 | RRB Junior Engineer (JE), Electrical | Railway Recruitment Boards | <https://www.rrbapply.gov.in> | [open](../exams/engineering/rrb-je-ee.md) |
 | SSC Junior Engineer (JE), Electrical | Staff Selection Commission | <https://ssc.gov.in> | [open](../exams/engineering/ssc-je-ee.md) |
 | State AE / JE (Electrical) | State PSCs and state power utilities | <https://apsc.nic.in> | [open](../exams/engineering/state-ae-je.md) |
+| UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical) | Uttar Pradesh Power Corporation Limited | <https://uppcl.up.nic.in> | [open](../exams/engineering/uppcl-ae-je-ee.md) |
 | UPSC Engineering Services (ESE), Electrical | Union Public Service Commission | <https://upsc.gov.in> | [open](../exams/engineering/upsc-ese-ee.md) |
 
 ## Engineering entrance: JEE and state CETs
@@ -152,6 +159,7 @@ has to find the official one.
 | Agniveer (Army) | Indian Army | <https://joinindianarmy.nic.in> | [open](../exams/defence/agniveer-army.md) |
 | Agniveer (Navy) | Indian Navy | <https://www.joinindiannavy.gov.in> | [open](../exams/defence/agniveer-navy.md) |
 | Agniveer Vayu (Air Force) | Indian Air Force | <https://agnipathvayu.cdac.in> | [open](../exams/defence/agniveer-vayu.md) |
+| Indian Coast Guard Assistant Commandant (CGCAT) | Indian Coast Guard | <https://joinindiancoastguard.cdac.in> | [open](../exams/defence/icg-assistant-commandant.md) |
 | Indian Coast Guard Navik / Yantrik | Indian Coast Guard | <https://joinindiancoastguard.cdac.in> | [open](../exams/defence/icg-navik.md) |
 
 ## Teaching and research: TET, NET, KVS

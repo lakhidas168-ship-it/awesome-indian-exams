@@ -4,7 +4,7 @@ exam_id: ssc-cpo
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC CPO 2025
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 

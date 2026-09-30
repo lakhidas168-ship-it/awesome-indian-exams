@@ -4,14 +4,14 @@ exam_id: cat
 conducting_body: IIMs (convening IIM rotates)
 official_site: https://iimcat.ac.in
 cycle: CAT 2026
-last_verified: 2026-09-27
+last_verified: 2026-09-29
 verification: official
 ---
 
 # CAT (Common Admission Test)
 
 > **Evidence status: 🟢 official.** Every number below is from the CAT 2026 Information Bulletin
-> (dated 26-07-2026), the official notification published on the CAT website, fetched on 2026-09-27.
+> (dated 26-07-2026), the official notification, fetched from the CAT website on 2026-09-29.
 > The bulletin states no question count, duration, sectional timings, marking scheme or syllabus —
 > confirm the current test structure in the official mock test before the exam.
 
@@ -29,13 +29,13 @@ the bulletin) and its scores are also used by other listed non-IIM business scho
 | Fee (one payment, non-refundable) | ₹2,700 for all candidates except ₹1,350 for SC, ST and PwBD candidates |
 | Admit card | Download from the CAT website, November 4–29, 2026; the test centre is named on it |
 | Result and validity | Likely by the first week of January 2027; the CAT 2026 score is valid till December 31, 2027 |
-| Qualification | Bachelor's degree with 50% (45% for SC/ST/PwBD); final-year students may apply; CA/CS/ICWA (CMA) professional degrees accepted with the required percentage |
+| Qualification | Bachelor's degree with 50% (45% for SC/ST/PwBD); final-year students may apply; CA/CS/ICWA (CMA) or FIAI professional degrees accepted with the required percentage |
 | Test cities | About 170; choose any five preferences at registration; one is allotted subject to availability |
 
 ## Official sources
 
 - CAT official website (registration, admit card, official mock test, scorecard): <https://iimcat.ac.in>
-- CAT 2026 Information Bulletin dated 26-07-2026, published on the CAT website (see the notes file for the exact file URL).
+- CAT 2026 Information Bulletin dated 26-07-2026 (PDF, serves all the numbers below): <https://iimcat.ac.in/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Information_Bulletin_26-07-26.pdf>
 
 ## Exam pattern
 

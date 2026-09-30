@@ -4,7 +4,7 @@ exam_id: cseet
 conducting_body: Institute of Company Secretaries of India
 official_site: https://www.icsi.edu
 cycle: CSEET October 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 

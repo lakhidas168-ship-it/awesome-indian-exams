@@ -4,13 +4,13 @@ exam_id: gpsc-class-1-2
 conducting_body: Gujarat Public Service Commission
 official_site: https://gpsc.gujarat.gov.in
 cycle: GPSC Class 1–2 (latest)
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: secondary
 ---
 
 # GPSC Class 1–2 (Gujarat)
 
-> **Evidence status: 🟡 secondary.** This page provides an overview. The official site is verified, but specific exam pattern numbers (marks, time, negative marking) are not yet confirmed from a single consolidated notification document in this run.
+> **Evidence status: 🟡 secondary.** This page provides an overview. The official site is verified, and the exam schedule is confirmed from the latest commission document, but specific exam pattern numbers (marks, time, negative marking) are not yet confirmed from a single consolidated notification document in this run.
 
 GPSC's Class 1 and 2 combined exam recruits Gujarat's administrative and allied officers.
 
@@ -24,6 +24,7 @@ GPSC's Class 1 and 2 combined exam recruits Gujarat's administrative and allied 
 ## Official sources
 
 - Commission's official website (notifications, syllabus, previous papers): <https://gpsc.gujarat.gov.in>
+- Latest exam schedule (2026-07-04): <https://gpsc.gujarat.gov.in/Documents/ES-04072026.pdf>
 
 ## Exam pattern
 

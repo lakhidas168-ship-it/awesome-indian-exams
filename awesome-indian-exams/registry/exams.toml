@@ -224,12 +224,45 @@ title = "Civil engineering core"
 # ------------------------------------------------------------------ engineering (core focus)
 
 [[exam]]
+id = "nhpc-je-ee"
+name = "NHPC Junior Engineer (Electrical)"
+family = "engineering"
+body = "NHPC Limited"
+official_site = "https://www.nhpcindia.com"
+modules = ["ee-core", "general-awareness", "reasoning"]
+
+[[exam]]
+id = "ntpc-et-ee"
+name = "NTPC Engineering Executive Trainee (EET)"
+family = "engineering"
+body = "NTPC Limited"
+official_site = "https://www.ntpc.co.in"
+modules = ["ee-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "isro-icrb-ee"
+name = "ISRO Scientist/Engineer 'SC' (ICRB)"
+family = "engineering"
+body = "Indian Space Research Organisation"
+official_site = "https://www.isro.gov.in"
+modules = ["engineering-mathematics", "ee-core", "ece-core", "me-core", "cs-core", "reasoning"]
+
+[[exam]]
 id = "gate-ee"
 name = "GATE Electrical Engineering (EE)"
 family = "engineering"
 body = "IISc and IITs for NCB-GATE"
 official_site = "https://gate2027.iitm.ac.in"
 modules = ["engineering-mathematics", "ee-core", "quant-aptitude", "reasoning", "english-language"]
+
+[[exam]]
+id = "barc-oces-ee"
+name = "BARC OCES/DGFS (Scientific Officer)"
+family = "engineering"
+body = "Bhabha Atomic Research Centre"
+official_site = "https://barc.gov.in"
+modules = ["ee-core", "engineering-mathematics"]
+
 
 [[exam]]
 id = "gate-ec"
@@ -312,12 +345,36 @@ official_site = "https://apsc.nic.in"
 modules = ["ee-core", "engineering-mathematics", "general-awareness"]
 
 [[exam]]
+id = "uppcl-ae-je-ee"
+name = "UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical)"
+family = "engineering"
+body = "Uttar Pradesh Power Corporation Limited"
+official_site = "https://uppcl.up.nic.in"
+modules = ["ee-core", "general-awareness", "reasoning", "hindi-language"]
+
+[[exam]]
+id = "drdo-ceiptm-ee"
+name = "DRDO CEPTAM (Electrical Engineering)"
+family = "engineering"
+body = "Defence Research and Development Organisation"
+official_site = "https://www.drdo.gov.in"
+modules = ["ee-core", "quant-aptitude", "reasoning", "general-awareness"]
+
+[[exam]]
 id = "psu-ee"
 name = "PSU recruitment for EE graduates"
 family = "engineering"
 body = "Central PSUs"
 official_site = "https://www.ntpc.co.in"
 modules = ["ee-core", "engineering-mathematics"]
+
+[[exam]]
+id = "pgcil-dt-ee"
+name = "POWERGRID Diploma Trainee (Electrical)"
+family = "engineering"
+body = "Power Grid Corporation of India Limited"
+official_site = "https://www.powergrid.in"
+modules = ["ee-core", "engineering-mathematics", "quant-aptitude", "reasoning", "english-language", "general-awareness"]
 
 # ------------------------------------------------------------------ engineering entrance
 
@@ -894,6 +951,14 @@ official_site = "https://licindia.in"
 modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness"]
 
 # ------------------------------------------------------------------ defence (non-UPSC)
+
+[[exam]]
+id = "icg-assistant-commandant"
+name = "Indian Coast Guard Assistant Commandant (CGCAT)"
+family = "defence"
+body = "Indian Coast Guard"
+official_site = "https://joinindiancoastguard.cdac.in"
+modules = ["english-language", "reasoning", "quant-aptitude", "general-awareness", "general-science"]
 
 [[exam]]
 id = "afcat"

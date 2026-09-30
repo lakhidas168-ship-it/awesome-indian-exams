@@ -4,14 +4,14 @@ exam_id: ssc-stenographer
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC Stenographer 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-29
 verification: official
 ---
 
 # SSC Stenographer (Grade C and D)
 
 > **Evidence status: 🟢 official.** Every number below is from the Stenographer Grade 'C' and 'D'
-> Examination, 2026 notice (F. No. E/13/2026-C-2), fetched from ssc.gov.in on 2026-09-28.
+> Examination, 2026 notice (F. No. E/13/2026-C-2), fetched from ssc.gov.in on 2026-09-29.
 
 SSC Stenographer recruits Grade C and Grade D stenographers for central ministries and departments.
 
