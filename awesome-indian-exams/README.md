@@ -181,7 +181,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [AFCAT (Air Force Common Admission Test)](exams/defence/afcat.md) | Indian Air Force | AFCAT (latest) | ⚪ unverified | 2026-09-29 |
+| [AFCAT (Air Force Common Admission Test)](exams/defence/afcat.md) | Indian Air Force | AFCAT (latest) | ⚪ unverified | 2026-09-30 |
 | [Agniveer (Army) Common Entrance Exam](exams/defence/agniveer-army.md) | Indian Army | Agnipath Army CEE (latest) | ✅ official | 2026-09-28 |
 | [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | ✅ official | 2026-09-28 |
 | [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | ✅ official | 2026-09-28 |
