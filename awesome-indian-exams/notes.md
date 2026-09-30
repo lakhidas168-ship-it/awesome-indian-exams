@@ -1,12 +1,10 @@
 ## Sources opened
-- https://gate2024.iisc.ac.in/ (GATE 2024 official site)
-- https://gate.iitk.ac.in/ (GATE 2023 official site)
-- https://gate.iitkgp.ac.in/ (GATE 2022 official site)
-- https://gate.iitb.ac.in/ (GATE 2021 official site)
-- https://gate.iitd.ac.in/ (GATE 2020 official site)
+- https://www.upsc.gov.in/ (403 Forbidden)
+- https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf (403 Forbidden)
+- https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20(II),%202026 (403 Forbidden)
 
 ## Could not confirm
-- The exact subject-wise breakdown for every single question in the last 5 years was not verified against a single official document, as official bodies do not publish subject-wise weightage tables. The data provided is based on standard subject categorization of the official question papers.
+- Could not fetch any official UPSC pages due to 403 Forbidden errors. The existing page `exams/upsc/upsc-cds.md` remains as is, but I cannot verify the numbers against the current official notification this run.
 
 ## Changed
-- Created `resources/gate-ee-weightage.md` with the requested subject-wise marks table for GATE EE.
+- None.

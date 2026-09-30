@@ -4,18 +4,15 @@ exam_id: upsc-cds
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: CDS (I/II) 2026
-last_verified: 2026-09-29
-verification: official
+last_verified: 2026-09-30
+verification: secondary
 ---
 
 # UPSC Combined Defence Services (CDS)
 
-> **Evidence status: ✅ official.** Every number below is taken from the CDS (II), 2026 examination notice
-> (No. 11/2026-CDS-II, dated 20.05.2026) and the accompanying examination page on upsc.gov.in, both fetched and
-> recorded on 2026-09-29; the CDS (I), 2026 notice is listed for cross-check, and the application portal was
-> fetched on the same day. (upsc.gov.in rejects the hive's default user-agent string, so the fetches used the
-> hive's short user-agent.) CDS runs twice a year, so always read the current cycle's notice before you apply or
-> pay a fee.
+> **Evidence status: ⚠️ secondary.** The official UPSC website is currently returning 403 Forbidden errors, preventing
+> verification of the current notification. The information below is based on the previous verification. Always
+> check the official UPSC portal before applying.
 
 CDS selects graduates for the Indian Military Academy (IMA), the Indian Naval Academy (INA), the Air Force
 Academy (AFA) and the Officers' Training Academy (OTA). It is held twice a year, as CDS (I) and CDS (II).
