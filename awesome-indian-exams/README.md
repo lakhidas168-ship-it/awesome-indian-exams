@@ -82,7 +82,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [JEE Advanced](exams/engineering-entrance/jee-advanced.md) | IITs (organising IIT rotates) | JEE Advanced 2026 (IIT Roorkee) | ✅ official | 2026-09-29 |
 | [JEE Main](exams/engineering-entrance/jee-main.md) | National Testing Agency (NTA) | JEE Main 2026 | ✅ official | 2026-09-28 |
 | [KEAM (Engineering)](exams/engineering-entrance/keam.md) | Commissioner for Entrance Examinations, Kerala | KEAM 2026 | ✅ official | 2026-09-28 |
-| [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2026 | ✅ official | 2026-09-28 |
+| [Karnataka CET (KCET)](exams/engineering-entrance/kcet.md) | Karnataka Examinations Authority | KCET 2025 | ✅ official | 2026-09-30 |
 | [MHT CET (PCM)](exams/engineering-entrance/mht-cet.md) | State Common Entrance Test Cell, Maharashtra | MHT CET 2026 | ✅ official | 2026-09-29 |
 | [TG (Telangana) EAPCET](exams/engineering-entrance/ts-eapcet.md) | JNTUH (on behalf of TGCHE) | TG EAPCET 2026 | ✅ official | 2026-09-27 |
 | [VITEEE](exams/engineering-entrance/viteee.md) | Vellore Institute of Technology | VITEEE 2026 | ✅ official | 2026-09-27 |
@@ -236,7 +236,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT 2025 | ✅ official | 2026-09-28 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2026 | ⚪ unverified | 2026-09-30 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-30 |
-| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Four times a year (February, May, September, December) | ✅ official | 2026-09-29 |
+| [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Four times a year (February, May, September, December) | ✅ official | 2026-09-30 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | ✅ official | 2026-09-30 |
 | [XAT](exams/management/xat.md) | XLRI Jamshedpur | XAT 2026 (4 January 2026) | ✅ official | 2026-09-28 |

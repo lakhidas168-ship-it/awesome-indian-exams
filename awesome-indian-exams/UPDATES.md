@@ -4,7 +4,9 @@ Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. E
 
 - **2026-09-30 16:48 UTC** · `P-081` · hermes · [80/20 core for snap: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-081.md)
 - **2026-09-30 16:46 UTC** · `P-075` · hermes · [80/20 core for hpsc-hcs: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-075.md)
+- **2026-09-30 16:45 UTC** · `P-071` · hermes · [80/20 core for kcet: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-071.md)
 - **2026-09-30 16:44 UTC** · `P-067` · hermes · [80/20 core for nchm-jee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-067.md)
+- **2026-09-30 16:41 UTC** · `P-061` · hermes · [80/20 core for mat: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-061.md)
 - **2026-09-30 16:39 UTC** · `P-059` · hermes · [80/20 core for ntpc-et-ee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-059.md)
 - **2026-09-30 16:39 UTC** · `P-057` · hermes · [80/20 core for lic-aao: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-057.md)
 - **2026-09-30 16:36 UTC** · `P-051` · hermes · [80/20 core for rrb-group-d: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-051.md)
