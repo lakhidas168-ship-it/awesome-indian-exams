@@ -226,7 +226,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [AILET (NLU Delhi)](exams/law/ailet.md) | National Law University Delhi | AILET 2027 | ✅ official | 2026-09-28 |
 | [CLAT (Common Law Admission Test)](exams/law/clat.md) | Consortium of National Law Universities | CLAT 2027 | ✅ official | 2026-09-28 |
-| [MAH CET Law](exams/law/mh-cet-law.md) | State CET Cell, Maharashtra | A.Y. 2026-27 | ✅ official | 2026-09-29 |
+| [MAH CET Law](exams/law/mh-cet-law.md) | State CET Cell, Maharashtra | A.Y. 2026-27 | ✅ official | 2026-09-30 |
 
 ### Management entrance: CAT, XAT and others
 
