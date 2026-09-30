@@ -4,7 +4,7 @@ exam_id: hpsc-hcs
 conducting_body: Haryana Public Service Commission
 official_site: https://hpsc.gov.in
 cycle: HCS (Ex. Br.) & Other Allied Services Examination (Advt. No. 22/2026, published 30.01.2026)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: unverified
 ---
 
@@ -32,6 +32,7 @@ advertisement (Advt. No. 22/2026, published 30.01.2026) covers 102 posts.
 ## Official sources
 
 - HPSC official website (advertisements, syllabus, results): <https://hpsc.gov.in>
+- Previous Year Question Papers: The HPSC does not publish official previous-year question papers or answer keys on its website.
 - Advt. No. 22 of 2026 — HCS (Ex. Br.) & Other Allied Services (published 30.01.2026; read 2026-09-29): <https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf>
 - Syllabi for the Preliminary and Main Written Examinations, Haryana Government Gazette notification 07.01.2026 (read 2026-09-29): <https://hpsc.gov.in/Portals/0/Syllabus_HCS_2025_28_01_2026.pdf>
 
