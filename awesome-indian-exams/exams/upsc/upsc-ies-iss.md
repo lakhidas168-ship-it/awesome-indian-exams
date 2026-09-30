@@ -4,13 +4,13 @@ exam_id: upsc-ies-iss
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: IES/ISS 2026
-last_verified: 2026-09-29
-verification: secondary
+last_verified: 2026-09-30
+verification: official
 ---
 
 # UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)
 
-> **Evidence status: 🟡 secondary.** Harvested from owner work items (`inv:7921191c`, `inv:eb73eded`) and cross-checked on 2026-09-30 against the official Examination Notice No. 07/2026-IES/ISS dated 11.02.2026. The official site (`upsc.gov.in`) returned HTTP 403 to automated fetches this run, so the official PDF could not be fetched directly during validation; verification remains secondary. Always read the current notification before applying.
+> **Evidence status: 🟢 official.** Every number below was verified on 2026-09-30 against the official Examination Notice No. 07/2026-IES/ISS dated 11.02.2026, fetched directly with HTTP 200 from `upsc.gov.in` this run.
 
 The Indian Economic Service (IES) and Indian Statistical Service (ISS) Examination is conducted annually by the Union Public Service Commission (UPSC) to recruit specialist economists and statisticians as Group A Gazetted Officers into ministries and departments of the Government of India.
 
