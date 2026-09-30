@@ -1,10 +1,9 @@
 ## Sources opened
-- https://www.upsc.gov.in/ (403 Forbidden)
-- https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf (403 Forbidden)
-- https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20(II),%202026 (403 Forbidden)
+- https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026 (403 Forbidden)
+- https://www.upsc.gov.in/examinations/revised-syllabus-scheme (403 Forbidden)
 
 ## Could not confirm
-- Could not fetch any official UPSC pages due to 403 Forbidden errors. The existing page `exams/upsc/upsc-cds.md` remains as is, but I cannot verify the numbers against the current official notification this run.
+- The UPSC website returns a 403 Forbidden error for automated requests, preventing verification of the latest notification. The page remains `unverified`.
 
 ## Changed
 - None.
