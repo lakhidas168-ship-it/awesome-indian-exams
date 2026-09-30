@@ -4,7 +4,7 @@ exam_id: ssc-je-ee
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC JE 2026
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -31,6 +31,7 @@ covers in depth, plus non-technical reasoning and general awareness in Paper I, 
 ## Official sources
 
 - SSC official website (notices, syllabus, answer keys): <https://ssc.gov.in>
+- SSC official previous year question papers and answer keys: <https://ssc.gov.in/candidate-corner/answer-key>
 - SSC Junior Engineer Examination, 2026 notice (97-page PDF, F. No. HQ-C-3019/1/2026-C-3):
   <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf>
 
