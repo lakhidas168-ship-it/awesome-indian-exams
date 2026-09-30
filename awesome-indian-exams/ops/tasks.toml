@@ -4095,3 +4095,106 @@ accept = [
   "content gate passes with 0 errors",
 ]
 
+[[task]]
+id = "T-723"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Registry: add up to 5 state Assistant/Junior Engineer (Electrical) recruitment exams of states not yet listed (family engineering)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"engineering\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: BARC OCES/DGFS (Scientific Officer); DRDO CEPTAM (Electrical Engineering); GATE Civil Engineering (CE); GATE Computer Science (CS); GATE Data Science and AI (DA); GATE Electrical Engineering (EE); GATE Electronics and Communication (EC); GATE Instrumentation Engineering (IN); GATE Mechanical Engineering (ME); ISRO Scientist/Engineer 'SC' (ICRB); NHPC Junior Engineer (Electrical); NTPC Engineering Executive Trainee (EET); POWERGRID Diploma Trainee (Electrical); PSU recruitment for EE graduates; RRB Junior Engineer (JE), Electrical; SSC Junior Engineer (JE), Electrical; State AE / JE (Electrical); UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical); UPSC Engineering Services (ESE), Electrical",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-724"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Registry: add up to 5 electrical-engineering PSU and central recruitment exams (power, railways, defence PSUs) not yet listed (family engineering)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"engineering\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: BARC OCES/DGFS (Scientific Officer); DRDO CEPTAM (Electrical Engineering); GATE Civil Engineering (CE); GATE Computer Science (CS); GATE Data Science and AI (DA); GATE Electrical Engineering (EE); GATE Electronics and Communication (EC); GATE Instrumentation Engineering (IN); GATE Mechanical Engineering (ME); ISRO Scientist/Engineer 'SC' (ICRB); NHPC Junior Engineer (Electrical); NTPC Engineering Executive Trainee (EET); POWERGRID Diploma Trainee (Electrical); PSU recruitment for EE graduates; RRB Junior Engineer (JE), Electrical; SSC Junior Engineer (JE), Electrical; State AE / JE (Electrical); UPPCL Assistant Engineer (AE) and Junior Engineer (JE) (Electrical); UPSC Engineering Services (ESE), Electrical",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-725"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Registry: add up to 5 state public service commission civil services exams of states and UTs not yet listed (family state-psc)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"state-psc\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: APPSC Group 1; APSC Combined Competitive Examination (Assam); BPSC Combined Competitive Examination; CGPSC State Service Examination; GPSC Class 1–2 (Gujarat); HPSC HCS (Haryana Civil Services); JPSC Combined Civil Services; KPSC KAS (Karnataka Administrative Service); Kerala PSC exams (LDC, KAS and others); MPPSC State Service Examination; MPSC State Services (Rajyaseva); OPSC Odisha Civil Services; RPSC RAS/RTS; TGPSC (Telangana) Group 1; TNPSC Group 1; TNPSC Group 4; UKPSC Combined State Civil Services; UPPSC PCS (Combined State/Upper Subordinate Services); WBCS (West Bengal Civil Service)",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-726"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Registry: add up to 5 Railway Recruitment Board and RPF exams not yet listed (family railways)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"railways\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: RPF Constable; RPF Sub-Inspector; RRB Assistant Loco Pilot (ALP); RRB Group D (Level 1); RRB NTPC; RRB Technician",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-727"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Registry: add up to 5 defence and paramilitary entry exams not yet listed (e.g. Coast Guard, CAPF, Territorial Army) (family defence)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"defence\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: AFCAT (Air Force Common Admission Test); Agniveer (Army); Agniveer (Navy); Agniveer Vayu (Air Force); Indian Coast Guard Navik / Yantrik",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-728"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Registry: add up to 5 national medical and allied-health exams not yet listed (family medical)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"medical\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: AIIMS NORCET (Nursing Officer); FMGE (Foreign Medical Graduate Examination); INI-CET; NEET PG; NEET UG",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-729"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Registry: add up to 5 banking, insurance and financial-regulator officer exams not yet listed (family banking)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"banking\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: IBPS Clerk; IBPS PO; IBPS RRB (Officer Scale I and Office Assistant); IBPS SO (Specialist Officer); LIC AAO; NABARD Grade A; RBI Assistant; RBI Grade B; SBI Clerk (Junior Associate); SBI PO; SEBI Grade A",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
+
+[[task]]
+id = "T-730"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Registry: add up to 5 central teacher recruitment exams not yet listed (e.g. KVS, NVS, EMRS) (family teaching)"
+accept = [
+  "each new [[exam]] in registry/exams.toml has id, name, family = \"teaching\", body, modules and an official_site you fetched yourself on the body's own domain",
+  "only exams with an official notification from 2023 or later; the receipt lists each notification URL you fetched",
+  "no duplicate of an exam already listed: CSIR NET (JRF / Assistant Professor); CTET; DSSSB teacher and staff recruitment (Delhi); KVS teacher and staff recruitment; NVS teacher and staff recruitment; State TETs (UPTET, REET, MAHATET and others); UGC NET",
+  "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
+]
