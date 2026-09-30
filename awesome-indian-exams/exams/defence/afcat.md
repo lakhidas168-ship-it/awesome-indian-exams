@@ -4,13 +4,13 @@ exam_id: afcat
 conducting_body: Indian Air Force
 official_site: https://afcat.cdac.in
 cycle: AFCAT (latest)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: unverified
 ---
 
 # AFCAT (Air Force Common Admission Test)
 
-> **Evidence status: 🔴 unverified.** The official portal `afcat.cdac.in` is currently unreachable. The exam is now managed via `afcat.edcil.co.in`, which is not yet on the official-domains allowlist. This page cannot be verified against an official document this run.
+> **Evidence status: ⚪ unverified.** The official portal `afcat.cdac.in` is currently unreachable. The exam is managed via `afcat.edcil.co.in`, which is not on the official-domains allowlist. This page cannot be verified against an official document this run.
 
 AFCAT selects graduates for commissioned officer entries in the Indian Air Force's Flying, Ground Duty
 (Technical) and Ground Duty (Non-Technical) branches. It is held twice a year.
@@ -23,7 +23,7 @@ AFCAT selects graduates for commissioned officer entries in the Indian Air Force
 | Stages | AFCAT written → Air Force Selection Board (AFSB) testing → medicals |
 | AFCAT written | 100 objective questions, 300 marks, 2 hours, English only |
 | Marking | +3 correct, −1 wrong, 0 for unattempted |
-| Who can apply | Indian citizens; Flying branch 20–24 years (up to 26 with a valid DGCA Commercial Pilot Licence), Ground Duty 20–26 years; graduation with 60% (Flying also needs 50% each in Maths and Physics at 10+2) |
+| Who can apply | Indian citizens; Flying branch 20–24 years (up to 26 with a valid DGCA Commercial Pilot Licence), Ground Duty 20–26 years |
 | Fee | Rs 550 + GST, non-refundable; no fee for NCC Special Entry |
 | NCC Special Entry | No written exam; holders of the NCC Air Wing Senior Division 'C' certificate go straight to AFSB |
 
