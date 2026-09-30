@@ -1,9 +1,8 @@
 ## Sources opened
-- https://www.aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04 (Confirmed NORCET-11 details, exam pattern, syllabus, and fee structure)
-- https://www.aiimsexams.ac.in (Confirmed official portal)
+- https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final: Confirmed vacancies, stages, age limit, qualification, application fee, exam pattern (Prelims/Mains structure, questions, marks, duration, negative marking policy).
 
 ## Could not confirm
-- AIIMS does not publish official previous-year question papers or answer keys for public access.
+- Official previous-year question papers (LIC does not publish these).
 
 ## Changed
-- Updated `exams/medical/aiims-norcet.md` with a structured exam pattern table, detailed syllabus, and official sources.
+- Updated `exams/banking/lic-aao.md` with the official exam pattern table and clarified the status of PYQs.

@@ -4,7 +4,7 @@ exam_id: lic-aao
 conducting_body: Life Insurance Corporation of India
 official_site: https://licindia.in
 cycle: 32nd Batch (2025-2026)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -28,30 +28,41 @@ LIC AAO recruits Assistant Administrative Officers (Generalist) for the Life Ins
 ## Official sources
 
 - Official notification (32nd Batch Generalist): <https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final>
-- Main Examination syllabus: <https://licindia.in/documents/d/guest/syllabus-for-main-examination>
 - LIC official website: <https://licindia.in/>
+- Note: LIC does not publish official previous-year question papers or answer keys.
 
 ## Exam pattern
 
 Selection is a three-tiered process: Preliminary Exam (Phase I), Main Exam (Phase II), and Interview. Marks in Prelims are not counted for final ranking.
 
-**Phase I: Preliminary Examination (Online, Objective, No Negative Marking)**
-- **Reasoning Ability:** 35 questions, 35 marks, 20 minutes (English & Hindi)
-- **Quantitative Aptitude:** 35 questions, 35 marks, 20 minutes (English & Hindi)
-- **English Language:** 30 questions, 30 marks (qualifying, marks not counted for ranking), 20 minutes (English)
-- **Total:** 100 questions, 70 marks (for ranking), 1 hour duration.
+### Phase I: Preliminary Examination
+*Objective test, online, no negative marking.*
 
-**Phase II: Main Examination (Online, Objective + Descriptive, No Negative Marking)**
-- **Reasoning Ability:** 30 questions, 90 marks, 40 minutes (English & Hindi)
-- **General Knowledge & Current Affairs:** 30 questions, 60 marks, 20 minutes (English & Hindi)
-- **Data Analysis & Interpretation:** 30 questions, 90 marks, 40 minutes (English & Hindi)
-- **Insurance and Financial Market Awareness:** 30 questions, 60 marks, 20 minutes (English & Hindi)
-- **Total Objective:** 120 questions, 300 marks, 2 hours duration.
-- **English Language Descriptive Paper (Communication Skills: Emails, Reports, Situation Analysis & Precis Writing):** 2 questions, 25 marks, 30 minutes (qualifying, marks not counted for ranking).
+| Section | Questions | Marks | Duration |
+| :--- | :--- | :--- | :--- |
+| Reasoning Ability | 35 | 35 | 20 min |
+| Quantitative Aptitude | 35 | 35 | 20 min |
+| English Language | 30 | 30* | 20 min |
+| **Total** | **100** | **70** | **1 hour** |
+
+*\*Qualifying nature; marks not counted for ranking.*
+
+### Phase II: Main Examination
+*Objective (300 marks) and Descriptive (25 marks) tests, online, no negative marking.*
+
+| Section | Questions | Marks | Duration |
+| :--- | :--- | :--- | :--- |
+| Reasoning Ability | 30 | 90 | 40 min |
+| General Knowledge, Current Affairs | 30 | 60 | 20 min |
+| Data Analysis & Interpretation | 30 | 90 | 40 min |
+| Insurance and Financial Market Awareness | 30 | 60 | 20 min |
+| **Total Objective** | **120** | **300** | **2 hours** |
+| English Language (Descriptive) | 2 | 25* | 30 min |
+
+*\*Qualifying nature; marks not counted for ranking.*
 
 ## Syllabus
 
-Shared modules plus specialized insurance awareness:
 - **Reasoning Ability & Quantitative Aptitude:** Standard banking-level modules.
 - **General Knowledge & Current Affairs:** National and international current affairs, economic updates.
 - **Data Analysis & Interpretation:** Tables, graphs, data interpretation sets.
