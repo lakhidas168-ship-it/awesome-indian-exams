@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 19:31 UTC** · `P-043` · hermes · [80/20 core for iit-jam: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-043.md)
 - **2026-09-30 19:16 UTC** · `P-033` · hermes · [80/20 core for gate-me: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-033.md)
 - **2026-09-30 19:14 UTC** · `P-013` · hermes · [80/20 core for csir-net: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-013.md)
 - **2026-09-30 19:09 UTC** · `T-521` · hermes · [Harvest inv:6f2b5fbf into exams/ssc/ssc-jht.md (owner's earlier work, local)](ops/done/T-521.md)
