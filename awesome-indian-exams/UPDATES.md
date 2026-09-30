@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 16:17 UTC** · `P-011` · hermes · [80/20 core for delhi-police-constable: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-011.md)
 - **2026-09-30 16:15 UTC** · `P-007` · hermes · [80/20 core for aiims-norcet: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-007.md)
 - **2026-09-30 13:20 UTC** · `T-659` · hermes · [Verify exams/upsc/upsc-nda.md against official UPSC NDA notification and upgrade verification status](ops/done/T-659.md)
 - **2026-09-30 08:07 UTC** · `T-734` · hermes · [Verify exams/defence/afcat.md against official AFCAT notification and upgrade verification to official](ops/done/T-734.md)
