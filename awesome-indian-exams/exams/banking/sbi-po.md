@@ -4,7 +4,7 @@ exam_id: sbi-po
 conducting_body: State Bank of India
 official_site: https://sbi.co.in
 cycle: SBI PO 2026 (Advt CRPD/PO/2026-27/09)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: secondary
 ---
 
@@ -32,6 +32,7 @@ mains, then a psychometric test, group exercise and interview.
 
 - SBI official website: <https://sbi.co.in>
 - SBI careers, current openings: <https://sbi.co.in/web/careers/current-openings>
+- Note: SBI does not publish official previous-year question papers or answer keys.
 
 ## Exam pattern
 
