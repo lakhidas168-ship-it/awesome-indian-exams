@@ -4,7 +4,7 @@ exam_id: sbi-clerk
 conducting_body: State Bank of India
 official_site: https://sbi.co.in
 cycle: SBI Clerk 2026 (Advt CRPD/CR/2026-27/17)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: secondary
 ---
 
