@@ -46,14 +46,14 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 ## Exams
 
 <!-- EXAMS:START -->
-**Coverage:** 125 exam pages written, 125 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
+**Coverage:** 126 exam pages written, 126 exams in the [registry](resources/all-exams.md). The hive adds pages every hour.
 
 ### Engineering jobs: GATE, ESE, JE, PSU, state AE/JE
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
 | [BARC OCES/DGFS (Scientific Officer)](exams/engineering/barc-oces-ee.md) | Bhabha Atomic Research Centre (BARC) | 2026 | 🟡 secondary | 2026-09-29 |
-| [DRDO CEPTAM (Electrical Engineering)](exams/engineering/drdo-ceiptm-ee.md) | Defence Research and Development Organisation (DRDO) | Varies | 🟡 secondary | 2026-09-29 |
+| [DRDO CEPTAM (Electrical Engineering)](exams/engineering/drdo-ceiptm-ee.md) | Defence Research and Development Organisation (DRDO) | Varies | 🟡 secondary | 2026-09-30 |
 | [GATE Civil Engineering (CE)](exams/engineering/gate-ce.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Computer Science and Information Technology (CS)](exams/engineering/gate-cs.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-29 |
 | [GATE Data Science and Artificial Intelligence (DA)](exams/engineering/gate-da.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
@@ -185,6 +185,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [Agniveer (Army) Common Entrance Exam](exams/defence/agniveer-army.md) | Indian Army | Agnipath Army CEE (latest) | ✅ official | 2026-09-28 |
 | [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | ✅ official | 2026-09-28 |
 | [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | ✅ official | 2026-09-28 |
+| [Indian Coast Guard Assistant Commandant (CGCAT)](exams/defence/icg-assistant-commandant.md) | Indian Coast Guard | Annual | ✅ official | 2026-09-30 |
 | [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | CGEPT (two batches a year) | ✅ official | 2026-09-28 |
 
 ### Teaching and research: TET, NET, KVS

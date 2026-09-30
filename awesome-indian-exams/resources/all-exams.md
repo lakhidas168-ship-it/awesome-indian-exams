@@ -159,6 +159,7 @@ has to find the official one.
 | Agniveer (Army) | Indian Army | <https://joinindianarmy.nic.in> | [open](../exams/defence/agniveer-army.md) |
 | Agniveer (Navy) | Indian Navy | <https://www.joinindiannavy.gov.in> | [open](../exams/defence/agniveer-navy.md) |
 | Agniveer Vayu (Air Force) | Indian Air Force | <https://agnipathvayu.cdac.in> | [open](../exams/defence/agniveer-vayu.md) |
+| Indian Coast Guard Assistant Commandant (CGCAT) | Indian Coast Guard | <https://joinindiancoastguard.cdac.in> | [open](../exams/defence/icg-assistant-commandant.md) |
 | Indian Coast Guard Navik / Yantrik | Indian Coast Guard | <https://joinindiancoastguard.cdac.in> | [open](../exams/defence/icg-navik.md) |
 
 ## Teaching and research: TET, NET, KVS
