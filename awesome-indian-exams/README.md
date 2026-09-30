@@ -157,7 +157,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [RPF Constable](exams/railways/rpf-constable.md) | Railway Protection Force (through RRBs) | CEN RPF 02/2024 | ✅ official | 2026-09-28 |
 | [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | CEN RPF 01/2024 | ✅ official | 2026-09-28 |
 | [RRB Assistant Loco Pilot (ALP)](exams/railways/rrb-alp.md) | Railway Recruitment Boards | RRB ALP (CEN 01/2026) | ✅ official | 2026-09-29 |
-| [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | CEN 09/2025 (Level-1) | ✅ official | 2026-09-28 |
+| [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | CEN 09/2025 (Level-1) | ✅ official | 2026-09-30 |
 | [RRB NTPC (Non-Technical Popular Categories)](exams/railways/rrb-ntpc.md) | Railway Recruitment Boards | CEN 06/2025 | ✅ official | 2026-09-28 |
 | [RRB Technician (Grade 1 Signal and Grade 3)](exams/railways/rrb-technician.md) | Railway Recruitment Boards | CEN 02/2026 | ✅ official | 2026-09-28 |
 
@@ -235,7 +235,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-29 |
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT 2025 | ✅ official | 2026-09-28 |
 | [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2026 | ⚪ unverified | 2026-09-30 |
-| [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-29 |
+| [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-30 |
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Four times a year (February, May, September, December) | ✅ official | 2026-09-29 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
 | [SNAP](exams/management/snap.md) | Symbiosis International University | SNAP 2026 | ✅ official | 2026-09-28 |
