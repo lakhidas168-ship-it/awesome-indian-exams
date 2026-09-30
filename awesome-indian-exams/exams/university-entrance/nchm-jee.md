@@ -4,7 +4,7 @@ exam_id: nchm-jee
 conducting_body: National Testing Agency
 official_site: https://exams.nta.nic.in
 cycle: NCHM JEE 2025
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -35,8 +35,10 @@ cycle are announced by NTA in a fresh public notice and Information Bulletin.
 
 ## Official sources
 
-- NTA public notice for NCHM JEE-2025 (PDF): <https://nta.ac.in/Download/Notice/Notice_20241230130020.pdf>
 - NCHMCT NCHM JEE 2025 brochure (PDF): <https://nchm.gov.in/sites/default/files/2024-12/NCHM_JEE.pdf>
+- NCHMCT official website: <https://nchm.gov.in>
+
+(Note: The conducting body does not publish previous-year question papers for NCHM JEE on its official website.)
 
 ## Exam pattern
 
@@ -57,9 +59,15 @@ Information Bulletin for those.
 
 ## Syllabus
 
-The five test sections define the syllabus: numerical ability and analytical aptitude, reasoning and
-logical deduction, general knowledge and current affairs, English language, and aptitude for the service
-sector. The Information Bulletin lists the detailed topics under each.
+The NCHM JEE syllabus covers five sections:
+
+1. **Numerical Ability and Analytical Aptitude**: Arithmetic, algebra, geometry, and data interpretation.
+2. **Reasoning and Logical Deduction**: Verbal and non-verbal reasoning, coding-decoding, series, and puzzles.
+3. **General Knowledge and Current Affairs**: National and international events, sports, awards, and static GK.
+4. **English Language**: Reading comprehension, grammar, vocabulary, and sentence correction.
+5. **Aptitude for Service Sector**: Situational judgment, hospitality awareness, and interpersonal skills.
+
+Detailed topics are provided in the NCHM JEE Information Bulletin available on the official NTA/NCHMCT websites.
 
 ## How to prepare (free, in order)
 
