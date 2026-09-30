@@ -186,7 +186,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [Agniveer (Navy) SSR and MR](exams/defence/agniveer-navy.md) | Indian Navy | Navy Agniveer (latest batch) | ✅ official | 2026-09-28 |
 | [Agniveer Vayu (Air Force)](exams/defence/agniveer-vayu.md) | Indian Air Force | Agniveer Vayu (latest intake) | ✅ official | 2026-09-28 |
 | [Indian Coast Guard Assistant Commandant (CGCAT)](exams/defence/icg-assistant-commandant.md) | Indian Coast Guard | Annual | ✅ official | 2026-09-30 |
-| [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | CGEPT (two batches a year) | ✅ official | 2026-09-28 |
+| [Indian Coast Guard Navik (GD) / Yantrik](exams/defence/icg-navik.md) | Indian Coast Guard | CGEPT (two batches a year) | ✅ official | 2026-09-30 |
 
 ### Teaching and research: TET, NET, KVS
 
