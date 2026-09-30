@@ -4342,6 +4342,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, monojitdeb7775, rajondas7002318699) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf"]
 
 [[task]]
 id = "T-732"
@@ -4384,6 +4385,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts dasmonaj190, debdebojit28, senp06341) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://afcat.cdac.in; notification_url=https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2025/Notification_AFCAT_01-2026.pdf; official_site=https://afcat.cdac.in; official_site=https://afcat.edcil.co.in; pattern_url=https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2025/Notification_AFCAT_01-2026.pdf; syllabus_url=https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2025/Notification_AFCAT_01-2026.pdf"]
 
 [[task]]
 id = "T-735"
@@ -4398,6 +4400,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, lakhidas168) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.keralapsc.gov.in/extra-ordinary-gazette-date-31082026; official_site=https://www.keralapsc.gov.in; pattern_url=https://keralapsc.gov.in/syllabus-kerala-administrative-service-preliminary-examination; pattern_url=https://www.keralapsc.gov.in/kerala-administrative-service; syllabus_url=https://keralapsc.gov.in/syllabus-kerala-administrative-service-preliminary-examination; syllabus_url=https://www.keralapsc.gov.in/kerala-administrative-service"]
 
 [[task]]
 id = "T-736"
@@ -4412,6 +4415,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts rajon369963, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; official_site=https://upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026; syllabus_url=https://www.upsc.gov.in/examinations/revised-syllabus-scheme"]
 
 [[task]]
 id = "T-737"
@@ -4426,6 +4430,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts lakhidas168, rams968844) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; notification_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; official_site=https://upsc.gov.in; official_site=https://www.upsc.gov.in; pattern_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; pattern_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf; syllabus_url=https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026; syllabus_url=https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf"]
 
 [[task]]
 id = "T-738"
@@ -4440,6 +4445,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, monojitdeb7775) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf; official_site=https://www.sebi.gov.in; pattern_url=https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf; syllabus_url=https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf"]
 
 [[task]]
 id = "T-739"
@@ -4454,6 +4460,7 @@ accept = [
   "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
   "scripts/validate.py --write passes with 0 errors",
 ]
+hints = ["Spark (Google accounts debdebojit28, rajon369963das) found candidate official links - fetch each with the fetch tool before using it: notification_url=https://aima.in/mat/; notification_url=https://www.aima.in/content/testing-and-assessment/mat/mat; official_site=https://mat.aima.in/; pattern_url=https://aima.in/mat/faq/; pattern_url=https://www.aima.in/content/testing-and-assessment/mat/mat"]
 
 [[task]]
 id = "T-740"
