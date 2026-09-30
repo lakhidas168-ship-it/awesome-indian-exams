@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 16:48 UTC** · `P-081` · hermes · [80/20 core for snap: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-081.md)
 - **2026-09-30 16:46 UTC** · `P-075` · hermes · [80/20 core for hpsc-hcs: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-075.md)
 - **2026-09-30 16:44 UTC** · `P-067` · hermes · [80/20 core for nchm-jee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-067.md)
 - **2026-09-30 16:39 UTC** · `P-059` · hermes · [80/20 core for ntpc-et-ee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-059.md)
