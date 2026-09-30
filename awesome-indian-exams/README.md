@@ -63,7 +63,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-29 |
 | [ISRO Scientist/Engineer 'SC' (ICRB)](exams/engineering/isro-icrb-ee.md) | Indian Space Research Organisation (ISRO) | 2026 | ✅ official | 2026-09-29 |
 | [NHPC Junior Engineer (Electrical)](exams/engineering/nhpc-je-ee.md) | NHPC Limited | Advt. NH/Rectt./04/2025 (online 02.09.2025–01.10.2025) | ✅ official | 2026-09-29 |
-| [NTPC Engineering Executive Trainee (EET)](exams/engineering/ntpc-et-ee.md) | NTPC Limited | Annual (via GATE) | ✅ official | 2026-09-29 |
+| [NTPC Engineering Executive Trainee (EET)](exams/engineering/ntpc-et-ee.md) | NTPC Limited | Annual (via GATE) | ✅ official | 2026-09-30 |
 | [POWERGRID Diploma Trainee (Electrical)](exams/engineering/pgcil-dt-ee.md) | POWERGRID (Power Grid Corporation of India Limited) | POWERGRID/CTUIL Non-Executive Trainee 2026 (Advt CC/01/2026) | ✅ official | 2026-09-29 |
 | [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ✅ official | 2026-09-29 |
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 04/2026 | ✅ official | 2026-09-29 |
@@ -169,7 +169,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [IBPS PO (Probationary Officer)](exams/banking/ibps-po.md) | Institute of Banking Personnel Selection | IBPS PO/MT-XVI (CRP, vacancies of 2027-28) | ✅ official | 2026-09-29 |
 | [IBPS RRB (Officer Scale I and Office Assistant)](exams/banking/ibps-rrb.md) | Institute of Banking Personnel Selection | IBPS RRB (CRP RRBs-XV, 2026) | ✅ official | 2026-09-30 |
 | [IBPS SO (Specialist Officer)](exams/banking/ibps-so.md) | Institute of Banking Personnel Selection | IBPS SO (CRP SPL-XVI, vacancies of 2027-28) | 🟡 secondary | 2026-09-30 |
-| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | 32nd Batch (2025-2026) | ✅ official | 2026-09-29 |
+| [LIC AAO (Assistant Administrative Officer)](exams/banking/lic-aao.md) | Life Insurance Corporation of India | 32nd Batch (2025-2026) | ✅ official | 2026-09-30 |
 | [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | Grade A Assistant Manager (RDBS/Legal/Protocol & Security) 2025 — Advertisement No. 05/Grade A/2025-26 | ✅ official | 2026-09-29 |
 | [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant 2023 (Advt. dated October 06, 2023) | ✅ official | 2026-09-29 |
 | [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |

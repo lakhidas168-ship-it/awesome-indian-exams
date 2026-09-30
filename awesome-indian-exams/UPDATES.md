@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 16:39 UTC** · `P-059` · hermes · [80/20 core for ntpc-et-ee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-059.md)
+- **2026-09-30 16:39 UTC** · `P-057` · hermes · [80/20 core for lic-aao: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-057.md)
 - **2026-09-30 16:36 UTC** · `P-051` · hermes · [80/20 core for rrb-group-d: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-051.md)
 - **2026-09-30 16:35 UTC** · `P-049` · hermes · [80/20 core for mah-mba-cet: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-049.md)
 - **2026-09-30 16:24 UTC** · `P-031` · hermes · [80/20 core for ibps-rrb: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-031.md)
