@@ -4,15 +4,14 @@ exam_id: upsc-ifos
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: IFoS 2026
-last_verified: 2026-09-29
-verification: official
+last_verified: 2026-09-30
+verification: unverified
 ---
 
 # UPSC Indian Forest Service (IFoS)
 
-> **Evidence status: 🟢 official.** The scheme, marks, eligibility, fees and syllabus on this page were checked
-> on 2026-09-29 against the UPSC *Indian Forest Service Examination, 2026* notification (Notice No. 06/2026-IFoSE,
-> revised copy), fetched from `upsc.gov.in` this run. Always read the current notice before you apply or pay a fee.
+> **Evidence status: ⚪ unverified.** The scheme, marks, eligibility, fees and syllabus on this page were last
+> checked on 2026-05-22. Always read the current notice before you apply or pay a fee.
 
 The Indian Forest Service is recruited by the UPSC in two stages: the **Civil Services (Preliminary) Examination**
 runs as the screening test, and the **Indian Forest Service (Main) Examination** — written papers plus an interview
