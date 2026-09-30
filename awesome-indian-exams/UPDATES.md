@@ -2,6 +2,9 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 19:16 UTC** · `P-033` · hermes · [80/20 core for gate-me: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-033.md)
+- **2026-09-30 19:14 UTC** · `P-013` · hermes · [80/20 core for csir-net: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-013.md)
+- **2026-09-30 19:09 UTC** · `T-521` · hermes · [Harvest inv:6f2b5fbf into exams/ssc/ssc-jht.md (owner's earlier work, local)](ops/done/T-521.md)
 - **2026-09-30 19:08 UTC** · `P-021` · hermes · [80/20 core for cmat: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-021.md)
 - **2026-09-30 18:58 UTC** · `T-569` · hermes · [Harvest inv:905348c6 into exams/upsc/upsc-geoscientist.md (owner's earlier work, local)](ops/done/T-569.md)
 - **2026-09-30 18:48 UTC** · `T-544` · hermes · [Harvest inv:a7a19c01 into exams/banking/sebi-grade-a.md (owner's earlier work, local)](ops/done/T-544.md)

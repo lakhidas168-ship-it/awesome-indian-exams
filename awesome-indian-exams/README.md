@@ -60,7 +60,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [GATE Electrical Engineering (EE)](exams/engineering/gate-ee.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-29 |
 | [GATE Electronics and Communication (EC)](exams/engineering/gate-ec.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
 | [GATE Instrumentation Engineering (IN)](exams/engineering/gate-in.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-28 |
-| [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-29 |
+| [GATE Mechanical Engineering (ME)](exams/engineering/gate-me.md) | IISc + 7 IITs for NCB-GATE (MoE) | GATE 2027 (IIT Madras) | ✅ official | 2026-09-30 |
 | [ISRO Scientist/Engineer 'SC' (ICRB)](exams/engineering/isro-icrb-ee.md) | Indian Space Research Organisation (ISRO) | 2026 | ✅ official | 2026-09-29 |
 | [NHPC Junior Engineer (Electrical)](exams/engineering/nhpc-je-ee.md) | NHPC Limited | Advt. NH/Rectt./04/2025 (online 02.09.2025–01.10.2025) | ✅ official | 2026-09-29 |
 | [NTPC Engineering Executive Trainee (EET)](exams/engineering/ntpc-et-ee.md) | NTPC Limited | Annual (via GATE) | ✅ official | 2026-09-30 |
@@ -145,7 +145,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [SSC CHSL (Combined Higher Secondary Level)](exams/ssc/ssc-chsl.md) | Staff Selection Commission | SSC CHSL 2026 | ✅ official | 2026-09-28 |
 | [SSC CPO (Sub-Inspector in Delhi Police and CAPFs)](exams/ssc/ssc-cpo.md) | Staff Selection Commission | SSC CPO 2025 | ✅ official | 2026-09-29 |
 | [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | ✅ official | 2026-09-29 |
-| [SSC Junior Hindi Translator (JHT)](exams/ssc/ssc-jht.md) | Staff Selection Commission | SSC JHT 2026 (Combined Hindi Translators Examination, 2026) | ✅ official | 2026-09-29 |
+| [SSC Junior Hindi Translator (JHT)](exams/ssc/ssc-jht.md) | Staff Selection Commission | SSC JHT 2026 (Combined Hindi Translators Examination, 2026) | ✅ official | 2026-09-30 |
 | [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2025 | ✅ official | 2026-09-29 |
 | [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | ✅ official | 2026-09-29 |
 | [SSC Stenographer (Grade C and D)](exams/ssc/ssc-stenographer.md) | Staff Selection Commission | SSC Stenographer 2026 | ✅ official | 2026-09-30 |
@@ -192,7 +192,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | ✅ official | 2026-09-29 |
+| [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | ✅ official | 2026-09-30 |
 | [CTET (Central Teacher Eligibility Test)](exams/teaching/ctet.md) | Central Board of Secondary Education | CTET September 2026 | ✅ official | 2026-09-28 |
 | [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | Rolling advertisements | ✅ official | 2026-09-27 |
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | Varies by recruitment notification | 🟡 secondary | 2026-09-30 |
