@@ -4,13 +4,13 @@ exam_id: kvs-recruitment
 conducting_body: Kendriya Vidyalaya Sangathan
 official_site: https://kvsangathan.nic.in
 cycle: Varies by recruitment notification
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: secondary
 ---
 
 # KVS teacher and staff recruitment
 
-> **Evidence status: 🟡 secondary.** The official website is reachable and provides general information on the recruitment process, but no active recruitment notification for the current cycle is available. The details below are based on the general recruitment process described on the official website.
+> **Evidence status: 🟡 secondary.** The official website provides the general recruitment process, but no active, detailed recruitment notification for the current cycle is available to confirm specific exam patterns or syllabus details.
 
 Kendriya Vidyalaya Sangathan (KVS) recruits PRT, TGT, PGT teachers and non-teaching staff through direct recruitment notifications.
 
