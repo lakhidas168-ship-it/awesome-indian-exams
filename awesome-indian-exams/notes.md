@@ -1,9 +1,11 @@
 ## Sources opened
-- <https://csirnet.nta.ac.in/>: Confirmed as the official NTA portal for CSIR NET. Provided access to the latest information bulletins and final answer keys.
-- <https://csirnet.nta.ac.in/images/FINAL_KEY_CSIR_JUNE_2025.pdf>: Confirmed that NTA publishes final answer keys for the exam.
+- https://jam.iitkgp.ac.in/index.html (Confirmed exam date, organizing institute, and general structure)
+- https://jam.iitkgp.ac.in/test-schedule.html (Confirmed exam date, session timings, and paper distribution)
+- https://jam.iitkgp.ac.in/syllabus.html (Confirmed test pattern sections and syllabus links)
+- https://jam.iitkgp.ac.in/docs/ma_2027_syllabus.pdf (Verified syllabus structure)
 
 ## Could not confirm
-- The exact marking scheme (marks per question, negative marking) for each subject/part, as the PDF information bulletin could not be parsed. The page directs students to the official bulletin for these specific details.
+- Specific marks per question or total marks per paper (not explicitly listed in the current web pages, though the section structure is confirmed).
 
 ## Changed
-- Updated `exams/teaching/csir-net.md` with a structured Exam Pattern table, clarified the Syllabus section, and added a link to the official source for PYQs/Answer Keys.
+- Updated `exams/university-entrance/iit-jam.md` with the requested sections, exam pattern table, and official syllabus links.
