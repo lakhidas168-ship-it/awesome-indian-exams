@@ -1,9 +1,9 @@
 ## Sources opened
-- https://www.rrbapply.gov.in (Official RRB application portal)
-- https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Constable-02-2024_English.pdf (CEN RPF 02/2024)
+- https://navodaya.gov.in/nvs/en/Admission-JNVST/JNVST-class-VI/ (Confirmed NVS official portal for JNVST Class VI)
+- https://navodaya.gov.in/nvs/en/Admission-JNVST/JNVST-class-IX/ (Confirmed NVS official portal for JNVST Class IX)
 
 ## Could not confirm
-- Official link to previous year question papers. The RRB application portal (rrbapply.gov.in) does not currently host a public, direct link to previous year question papers for RPF Constable.
+- The NVS official website does not provide a dedicated, public, and permanent archive page for previous year question papers (PYQs) for JNVST.
 
 ## Changed
-- Updated 'Official sources' section in `exams/railways/rpf-constable.md` to clarify that no official PYQ link is available.
+- Updated the `## Official sources` section in `exams/school/jnvst.md` to clarify the availability of PYQs.
