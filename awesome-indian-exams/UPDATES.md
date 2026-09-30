@@ -3,6 +3,7 @@
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
 - **2026-09-30 06:16 UTC** · `T-727` · hermes · [Registry: add up to 5 defence and paramilitary entry exams not yet listed (e.g. Coast Guard, CAPF, Territorial Army) (family defence)](ops/done/T-727.md)
+- **2026-09-30 06:11 UTC** · `T-562` · hermes · [Harvest inv:08c685bf into exams/ssc/delhi-police-constable.md (owner's earlier work, local)](ops/done/T-562.md)
 - **2026-09-30 06:03 UTC** · `T-733` · hermes · [Verify exams/engineering/drdo-ceiptm-ee.md against official DRDO CEPTAM notification and upgrade verification to official](ops/done/T-733.md)
 - **2026-09-30 05:55 UTC** · `T-567` · hermes · [Harvest inv:28d1bc36 into exams/state-psc/mppsc-sse.md (owner's earlier work, local)](ops/done/T-567.md)
 - **2026-09-30 05:51 UTC** · `T-651` · hermes · [Verify exams/management/ipmat-indore.md against official IPMAT Indore notification and upgrade verification status](ops/done/T-651.md)
