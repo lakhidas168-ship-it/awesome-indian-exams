@@ -4608,3 +4608,1332 @@ accept = [
   "make the criteria more specific about what constitutes a valid fetch and what files must be modified",
   "verify that the updated criteria would have prevented at least 5 of the recent rejections",
 ]
+
+# ---- 2026-09-30 Pareto 80/20 core pass (Rajon): EVERY exam equal weight, same priority, families interleaved.
+
+[[task]]
+id = "P80-001"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ibps-clerk: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/ibps-clerk.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/banking/ibps-clerk.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-002"
+lane = "opencode"
+priority = 2
+title = "80/20 core for afcat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/defence/afcat.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/defence/afcat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-003"
+lane = "hermes"
+priority = 2
+title = "80/20 core for barc-oces-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/barc-oces-ee.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering/barc-oces-ee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering/barc-oces-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-004"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ap-eapcet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/ap-eapcet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/ap-eapcet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-005"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ailet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/law/ailet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/law/ailet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-006"
+lane = "opencode"
+priority = 2
+title = "80/20 core for cat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/cat.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/management/cat.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/management/cat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-007"
+lane = "hermes"
+priority = 2
+title = "80/20 core for aiims-norcet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/medical/aiims-norcet.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/medical/aiims-norcet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/medical/aiims-norcet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-008"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ca-foundation: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/professional/ca-foundation.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-009"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rpf-constable: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/railways/rpf-constable.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-010"
+lane = "opencode"
+priority = 2
+title = "80/20 core for aissee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/school/aissee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/school/aissee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-011"
+lane = "hermes"
+priority = 2
+title = "80/20 core for delhi-police-constable: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/delhi-police-constable.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-012"
+lane = "opencode"
+priority = 2
+title = "80/20 core for appsc-group-1: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/appsc-group-1.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/appsc-group-1.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/appsc-group-1.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-013"
+lane = "hermes"
+priority = 2
+title = "80/20 core for csir-net: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/csir-net.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/teaching/csir-net.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/csir-net.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-014"
+lane = "opencode"
+priority = 2
+title = "80/20 core for cuet-pg: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/cuet-pg.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/university-entrance/cuet-pg.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/university-entrance/cuet-pg.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-015"
+lane = "hermes"
+priority = 2
+title = "80/20 core for upsc-capf: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/upsc/upsc-capf.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/upsc/upsc-capf.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-016"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ibps-po: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/ibps-po.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-017"
+lane = "hermes"
+priority = 2
+title = "80/20 core for agniveer-army: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/defence/agniveer-army.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/defence/agniveer-army.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/defence/agniveer-army.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-018"
+lane = "opencode"
+priority = 2
+title = "80/20 core for drdo-ceiptm-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/drdo-ceiptm-ee.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering/drdo-ceiptm-ee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering/drdo-ceiptm-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-019"
+lane = "hermes"
+priority = 2
+title = "80/20 core for bitsat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/bitsat.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/bitsat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-020"
+lane = "opencode"
+priority = 2
+title = "80/20 core for clat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/law/clat.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/law/clat.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-021"
+lane = "hermes"
+priority = 2
+title = "80/20 core for cmat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/cmat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-022"
+lane = "opencode"
+priority = 2
+title = "80/20 core for fmge: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/medical/fmge.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/medical/fmge.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-023"
+lane = "hermes"
+priority = 2
+title = "80/20 core for cma-foundation: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/professional/cma-foundation.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/professional/cma-foundation.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-024"
+lane = "opencode"
+priority = 2
+title = "80/20 core for rpf-si: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/railways/rpf-si.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/railways/rpf-si.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-025"
+lane = "hermes"
+priority = 2
+title = "80/20 core for jnvst: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/school/jnvst.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-026"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-cgl: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-cgl.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-027"
+lane = "hermes"
+priority = 2
+title = "80/20 core for apsc-cce: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/apsc-cce.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/apsc-cce.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/apsc-cce.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-028"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ctet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/ctet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/ctet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-029"
+lane = "hermes"
+priority = 2
+title = "80/20 core for cuet-ug: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/cuet-ug.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/university-entrance/cuet-ug.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/university-entrance/cuet-ug.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-030"
+lane = "opencode"
+priority = 2
+title = "80/20 core for upsc-cms: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/upsc/upsc-cms.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-031"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ibps-rrb: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/ibps-rrb.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/banking/ibps-rrb.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-032"
+lane = "opencode"
+priority = 2
+title = "80/20 core for agniveer-navy: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/defence/agniveer-navy.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/defence/agniveer-navy.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/defence/agniveer-navy.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-033"
+lane = "hermes"
+priority = 2
+title = "80/20 core for gate-me: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/gate-me.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-034"
+lane = "opencode"
+priority = 2
+title = "80/20 core for comedk-uget: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/comedk-uget.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/comedk-uget.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-035"
+lane = "hermes"
+priority = 2
+title = "80/20 core for mh-cet-law: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/law/mh-cet-law.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-036"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ipmat-indore: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/ipmat-indore.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/management/ipmat-indore.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/management/ipmat-indore.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-037"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ini-cet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/medical/ini-cet.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/medical/ini-cet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/medical/ini-cet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-038"
+lane = "opencode"
+priority = 2
+title = "80/20 core for cseet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/professional/cseet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-039"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rrb-alp: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/railways/rrb-alp.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-040"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-chsl: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-chsl.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/ssc/ssc-chsl.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-041"
+lane = "hermes"
+priority = 2
+title = "80/20 core for bpsc-cce: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/bpsc-cce.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/bpsc-cce.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/bpsc-cce.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-042"
+lane = "opencode"
+priority = 2
+title = "80/20 core for dsssb: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/dsssb.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/teaching/dsssb.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/dsssb.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-043"
+lane = "hermes"
+priority = 2
+title = "80/20 core for iit-jam: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/iit-jam.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/university-entrance/iit-jam.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/university-entrance/iit-jam.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-044"
+lane = "opencode"
+priority = 2
+title = "80/20 core for upsc-geoscientist: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/upsc/upsc-geoscientist.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/upsc/upsc-geoscientist.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/upsc/upsc-geoscientist.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-045"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ibps-so: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/ibps-so.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-046"
+lane = "opencode"
+priority = 2
+title = "80/20 core for agniveer-vayu: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/defence/agniveer-vayu.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/defence/agniveer-vayu.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-047"
+lane = "hermes"
+priority = 2
+title = "80/20 core for nhpc-je-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/nhpc-je-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-048"
+lane = "opencode"
+priority = 2
+title = "80/20 core for jee-advanced: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/jee-advanced.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering-entrance/jee-advanced.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/jee-advanced.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-049"
+lane = "hermes"
+priority = 2
+title = "80/20 core for mah-mba-cet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/mah-mba-cet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-050"
+lane = "opencode"
+priority = 2
+title = "80/20 core for neet-pg: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/medical/neet-pg.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/medical/neet-pg.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/medical/neet-pg.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-051"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rrb-group-d: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/railways/rrb-group-d.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-052"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-cpo: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-cpo.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-053"
+lane = "hermes"
+priority = 2
+title = "80/20 core for cgpsc-sse: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/cgpsc-sse.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-054"
+lane = "opencode"
+priority = 2
+title = "80/20 core for kvs-recruitment: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/kvs-recruitment.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/teaching/kvs-recruitment.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/kvs-recruitment.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-055"
+lane = "hermes"
+priority = 2
+title = "80/20 core for nata: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/nata.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/university-entrance/nata.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-056"
+lane = "opencode"
+priority = 2
+title = "80/20 core for upsc-nda: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/upsc/upsc-nda.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-057"
+lane = "hermes"
+priority = 2
+title = "80/20 core for lic-aao: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/lic-aao.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/banking/lic-aao.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-058"
+lane = "opencode"
+priority = 2
+title = "80/20 core for icg-assistant-commandant: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/defence/icg-assistant-commandant.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/defence/icg-assistant-commandant.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/defence/icg-assistant-commandant.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-059"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ntpc-et-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/ntpc-et-ee.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering/ntpc-et-ee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering/ntpc-et-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-060"
+lane = "opencode"
+priority = 2
+title = "80/20 core for jee-main: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/jee-main.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/jee-main.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-061"
+lane = "hermes"
+priority = 2
+title = "80/20 core for mat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/mat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-062"
+lane = "opencode"
+priority = 2
+title = "80/20 core for neet-ug: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/medical/neet-ug.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/medical/neet-ug.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-063"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rrb-ntpc: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/railways/rrb-ntpc.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-064"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-gd: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-gd.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-065"
+lane = "hermes"
+priority = 2
+title = "80/20 core for gpsc-class-1-2: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/gpsc-class-1-2.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/gpsc-class-1-2.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/gpsc-class-1-2.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-066"
+lane = "opencode"
+priority = 2
+title = "80/20 core for nvs-recruitment: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/nvs-recruitment.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/teaching/nvs-recruitment.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/nvs-recruitment.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-067"
+lane = "hermes"
+priority = 2
+title = "80/20 core for nchm-jee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/nchm-jee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/university-entrance/nchm-jee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-068"
+lane = "opencode"
+priority = 2
+title = "80/20 core for nabard-grade-a: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/nabard-grade-a.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-069"
+lane = "hermes"
+priority = 2
+title = "80/20 core for icg-navik: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/defence/icg-navik.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-070"
+lane = "opencode"
+priority = 2
+title = "80/20 core for pgcil-dt-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/pgcil-dt-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-071"
+lane = "hermes"
+priority = 2
+title = "80/20 core for kcet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/kcet.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering-entrance/kcet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/kcet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-072"
+lane = "opencode"
+priority = 2
+title = "80/20 core for nmat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/nmat.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/management/nmat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-073"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rrb-technician: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/railways/rrb-technician.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/railways/rrb-technician.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-074"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-jht: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-jht.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/ssc/ssc-jht.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-075"
+lane = "hermes"
+priority = 2
+title = "80/20 core for hpsc-hcs: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/hpsc-hcs.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-076"
+lane = "opencode"
+priority = 2
+title = "80/20 core for state-tet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/state-tet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/state-tet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-077"
+lane = "hermes"
+priority = 2
+title = "80/20 core for nid-dat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/nid-dat.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/university-entrance/nid-dat.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/university-entrance/nid-dat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-078"
+lane = "opencode"
+priority = 2
+title = "80/20 core for rbi-assistant: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/rbi-assistant.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-079"
+lane = "hermes"
+priority = 2
+title = "80/20 core for psu-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/psu-ee.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering/psu-ee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering/psu-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-080"
+lane = "opencode"
+priority = 2
+title = "80/20 core for keam: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/keam.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/keam.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-081"
+lane = "hermes"
+priority = 2
+title = "80/20 core for snap: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/snap.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-082"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-mts: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-mts.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-083"
+lane = "hermes"
+priority = 2
+title = "80/20 core for kerala-psc: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/kerala-psc.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-084"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ugc-net: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/teaching/ugc-net.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/teaching/ugc-net.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-085"
+lane = "hermes"
+priority = 2
+title = "80/20 core for nift-entrance: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/university-entrance/nift-entrance.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/university-entrance/nift-entrance.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-086"
+lane = "opencode"
+priority = 2
+title = "80/20 core for rbi-grade-b: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/rbi-grade-b.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/banking/rbi-grade-b.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/banking/rbi-grade-b.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-087"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rrb-je-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/rrb-je-ee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering/rrb-je-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-088"
+lane = "opencode"
+priority = 2
+title = "80/20 core for mht-cet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/mht-cet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/mht-cet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-089"
+lane = "hermes"
+priority = 2
+title = "80/20 core for xat: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/management/xat.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/management/xat.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-090"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ssc-selection-post: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-selection-post.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/ssc/ssc-selection-post.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-091"
+lane = "hermes"
+priority = 2
+title = "80/20 core for kpsc-kas: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/kpsc-kas.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/kpsc-kas.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/kpsc-kas.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-092"
+lane = "opencode"
+priority = 2
+title = "80/20 core for sbi-clerk: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/sbi-clerk.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-093"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ssc-je-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/ssc-je-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-094"
+lane = "opencode"
+priority = 2
+title = "80/20 core for ts-eapcet: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/ts-eapcet.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/ts-eapcet.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-095"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ssc-stenographer: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/ssc/ssc-stenographer.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/ssc/ssc-stenographer.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-096"
+lane = "opencode"
+priority = 2
+title = "80/20 core for mppsc-sse: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/mppsc-sse.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/mppsc-sse.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/mppsc-sse.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-097"
+lane = "hermes"
+priority = 2
+title = "80/20 core for sbi-po: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/sbi-po.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-098"
+lane = "opencode"
+priority = 2
+title = "80/20 core for state-ae-je: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/state-ae-je.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering/state-ae-je.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering/state-ae-je.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-099"
+lane = "hermes"
+priority = 2
+title = "80/20 core for viteee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/viteee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/viteee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-100"
+lane = "opencode"
+priority = 2
+title = "80/20 core for mpsc-rajyaseva: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/mpsc-rajyaseva.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/mpsc-rajyaseva.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/mpsc-rajyaseva.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-101"
+lane = "hermes"
+priority = 2
+title = "80/20 core for sebi-grade-a: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/banking/sebi-grade-a.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/banking/sebi-grade-a.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-102"
+lane = "opencode"
+priority = 2
+title = "80/20 core for uppcl-ae-je-ee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering/uppcl-ae-je-ee.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering/uppcl-ae-je-ee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-103"
+lane = "hermes"
+priority = 2
+title = "80/20 core for wbjee: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/engineering-entrance/wbjee.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/engineering-entrance/wbjee.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/engineering-entrance/wbjee.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-104"
+lane = "opencode"
+priority = 2
+title = "80/20 core for opsc-ocs: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/opsc-ocs.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-105"
+lane = "hermes"
+priority = 2
+title = "80/20 core for rpsc-ras: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/rpsc-ras.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/rpsc-ras.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "exams/state-psc/rpsc-ras.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-106"
+lane = "opencode"
+priority = 2
+title = "80/20 core for tgpsc-group-1: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/tgpsc-group-1.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-107"
+lane = "hermes"
+priority = 2
+title = "80/20 core for tnpsc-group-1: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/tnpsc-group-1.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-108"
+lane = "opencode"
+priority = 2
+title = "80/20 core for tnpsc-group-4: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/tnpsc-group-4.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-109"
+lane = "hermes"
+priority = 2
+title = "80/20 core for ukpsc-pcs: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/ukpsc-pcs.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-110"
+lane = "opencode"
+priority = 2
+title = "80/20 core for uppsc-pcs: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/uppsc-pcs.md gains: an 'Exam pattern' markdown table (stages, papers, questions, marks, duration, negative marking) from the latest official notification",
+  "exams/state-psc/uppsc-pcs.md gains: the complete official syllabus under 'Syllabus' (every paper/section, topics paraphrased, official syllabus PDF linked)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "P80-111"
+lane = "hermes"
+priority = 2
+title = "80/20 core for wbcs: fill pattern / syllabus / official PYQ link from official sources"
+accept = [
+  "exams/state-psc/wbcs.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
+  "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
+  "frontmatter last_verified = run date only if official documents were opened this run",
+]
