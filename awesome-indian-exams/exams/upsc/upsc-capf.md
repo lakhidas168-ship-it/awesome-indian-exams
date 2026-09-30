@@ -4,7 +4,7 @@ exam_id: upsc-capf
 conducting_body: Union Public Service Commission
 official_site: https://upsc.gov.in
 cycle: CAPF (AC) 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: secondary
 ---
 
@@ -31,8 +31,7 @@ CAPF (AC) selects Assistant Commandants (Group A officers) for BSF, CRPF, CISF, 
 
 ## Official sources
 
-- 2026 examination notice (PDF): <https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf>
-- UPSC examination page for CAPF (ACs) 2026 — notice, timetable, question papers, results: <https://www.upsc.gov.in/examinations/Central%20Armed%20Police%20Forces%20%28ACs%29%20Examination%2C%202026>
+- UPSC examination page (for notices, question papers, and results): <https://www.upsc.gov.in/examinations>
 - Online application portal: <https://upsconline.nic.in>
 
 ## Exam pattern
@@ -51,9 +50,19 @@ followed by the interview / personality test (150 marks). The final merit is wri
 
 ## Syllabus
 
-Paper I: general mental ability, general science, current events, polity, economy, history and geography.
-Paper II: essays, comprehension, précis, arguments for and against, and English language skills. The exact
-topic list is Appendix I of the notice.
+The official syllabus is detailed in Appendix I of the examination notice.
+
+**Paper I: General Ability and Intelligence**
+*   **General Mental Ability:** Logical reasoning, quantitative aptitude, data interpretation.
+*   **General Science:** General awareness, scientific temper, scope and significance of science in everyday life, including new areas like information technology, biotechnology, and environmental science.
+*   **Current Events of National and International Importance:** Culture, music, arts, literature, sports, governance, societal and developmental issues, industry, business, and globalization.
+*   **Indian Polity and Economy:** Constitution of India, social systems, public administration, economic development in India, regional and international security issues, and human rights.
+*   **History of India:** Ancient, medieval, and modern history, with a focus on the freedom movement.
+*   **Indian and World Geography:** Physical, social, and economic geography of India and the world.
+
+**Paper II: General Studies, Essay and Comprehension**
+*   **Part A (Essay):** Topics from modern Indian history (freedom struggle), geography, polity, economy, knowledge of security and human rights, and analytical ability.
+*   **Part B (Comprehension, Précis, and Language Skills):** Comprehension passages, précis writing, developing counter-arguments, simple grammar, and other aspects of language testing.
 
 ## How to prepare (free, in order)
 
