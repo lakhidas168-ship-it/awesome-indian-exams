@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 01:30 UTC** · `T-290` · hermes · [Verify the JNV Selection Test (Navodaya, Class 6 and 9) page (exams/school/jnvst.md) against its current official notification](ops/done/T-290.md)
 - **2026-09-30 00:32 UTC** · `T-604` · opencode · [Re-verify exams/banking/ibps-so.md against current official notification and upgrade verification status](ops/done/T-604.md)
 - **2026-09-30 00:15 UTC** · `T-534` · hermes · [Harvest inv:c21e3e62 into exams/engineering-entrance/comedk-uget.md (owner's earlier work, local)](ops/done/T-534.md)
 - **2026-09-30 00:11 UTC** · `T-637` · hermes · [Re-verify exams/upsc/upsc-cds.md against current official notification and upgrade verification status](ops/done/T-637.md)
