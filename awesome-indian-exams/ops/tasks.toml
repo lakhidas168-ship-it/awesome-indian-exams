@@ -4609,6 +4609,80 @@ accept = [
   "verify that the updated criteria would have prevented at least 5 of the recent rejections",
 ]
 
+[[task]]
+id = "T-021"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/pgcil-dt-ee.md against official PGCIL Diploma Trainee notification"
+accept = [
+  "fetch official PGCIL Diploma Trainee recruitment notification from powergrid.in",
+  "verify electrical syllabus, exam pattern, eligibility criteria and marking scheme",
+  "add official notification and previous papers link to Official sources",
+  "ensure last_verified is updated and scripts/validate.py passes with 0 errors",
+]
+
+[[task]]
+id = "T-022"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/isro-icrb-ee.md against official ISRO Scientist/Engineer EE notification"
+accept = [
+  "fetch official ISRO ICRB Scientist/Engineer Electrical notification from isro.gov.in",
+  "verify exam pattern, selection process, syllabus topics and eligibility",
+  "add official notification link under Official sources",
+  "ensure last_verified is updated and scripts/validate.py passes with 0 errors",
+]
+
+[[task]]
+id = "T-023"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/ntpc-et-ee.md against official NTPC Executive Trainee EE notification"
+accept = [
+  "fetch official NTPC Executive Trainee recruitment advertisement from ntpc.co.in or careers.ntpc.co.in",
+  "verify whether recruitment uses GATE EE score or separate exam, pattern and eligibility",
+  "add official notification link under Official sources",
+  "ensure last_verified is updated and scripts/validate.py passes with 0 errors",
+]
+
+[[task]]
+id = "T-164"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Fix KEAM page plain-http links (exams/engineering-entrance/keam.md) triggering gate warnings"
+accept = [
+  "update plain http links in exams/engineering-entrance/keam.md to https where available or verify URL validity",
+  "run scripts/validate.py to ensure zero warnings/errors from keam.md",
+]
+
+[[task]]
+id = "T-165"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and resolve worker antigravity failure (exited with 1) in ~/.hive/antigravity.log"
+accept = [
+  "inspect ~/.hive/antigravity.log for root causes of exit code 1",
+  "fix runner/wrapper script or environment setup to prevent unexpected failures",
+  "verify antigravity worker can execute without errors",
+]
+
+[[task]]
+id = "T-166"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix commandcode exit 5 failures reported in doctor"
+accept = [
+  "inspect ~/.hive/commandcode-1.log and commandcode-2.log for root causes of exit code 5",
+  "update ops/commandcode.sh or task handling to cleanly handle exit code 5 or rate limits",
+  "verify commandcode worker runs or backs off gracefully",
+]
+
 # ---- 2026-09-30 Pareto 80/20 core pass (Rajon): EVERY exam equal weight, same priority, families interleaved.
 
 [[task]]
@@ -6062,6 +6136,136 @@ focus = "india"
 where = "mac"
 priority = 2
 title = "Harvest inv:4c29ba8f into exams/railways/rrb-group-d.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-581"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:0df1ada7 into exams/ssc/delhi-police-constable.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-582"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:ea401865 into exams/ssc/ssc-cgl.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-583"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:7c99de0a into exams/medical/aiims-norcet.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-584"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:d8e875ec into exams/university-entrance/nata.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-585"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:9b7d05a2 into exams/state-psc/rpsc-ras.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-586"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:0a669943 into exams/upsc/upsc-cse.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-587"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:fe012088 into exams/banking/rbi-grade-b.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-588"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:b1febb24 into exams/ssc/ssc-cgl.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-589"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:4a62eabf into exams/university-entrance/uceed.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-590"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:8c09b19b into exams/law/mh-cet-law.md (owner's earlier work, local)"
 accept = [
   "read the item with the harvest_item tool; use it only for structure, study advice and leads",
   "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
