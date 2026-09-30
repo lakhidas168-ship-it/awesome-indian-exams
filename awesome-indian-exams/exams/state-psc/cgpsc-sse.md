@@ -4,7 +4,7 @@ exam_id: cgpsc-sse
 conducting_body: Chhattisgarh Public Service Commission
 official_site: https://psc.cg.gov.in
 cycle: CGPSC State Service Examination 2025 (Advt 06/2025)
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -32,11 +32,12 @@ the post-wise table).
 
 ## Official sources
 
-- Commission's official website (notifications, syllabus, previous papers): <https://psc.cg.gov.in>
-- Advertisement listing (confirms the State Service Examination 2025 row): <https://psc.cg.gov.in/Advertisement.php>
-- Notifications listing (mains and interview notices for the 2025 cycle): <https://psc.cg.gov.in/Notifications.php>
+- Commission's official website: <https://psc.cg.gov.in>
+- Official model answers (includes previous years' prelims papers): <https://psc.cg.gov.in/Modelanswer.php>
+- Advertisement listing: <https://psc.cg.gov.in/Advertisement.php>
+- Notifications listing: <https://psc.cg.gov.in/Notifications.php>
 - State Service Examination 2025 advertisement, Advt 06/2025 dated 26-11-2025 (PDF): <https://psc.cg.gov.in/pdf/Advertisement/ADV_SSE2025_26112025.PDF>
-- State Service Examination 2025 corrigendum dated 12-12-2025, Advt 06/2025 (PDF, 239-post table): <https://psc.cg.gov.in/pdf/Advertisement/CORRIGENDUM_SSE2025_12122025.PDF>
+- State Service Examination 2025 corrigendum dated 12-12-2025, Advt 06/2025 (PDF): <https://psc.cg.gov.in/pdf/Advertisement/CORRIGENDUM_SSE2025_12122025.PDF>
 
 ## Exam pattern
 
