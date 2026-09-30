@@ -1,9 +1,9 @@
 ## Sources opened
-- https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026 (403 Forbidden)
-- https://www.upsc.gov.in/examinations/revised-syllabus-scheme (403 Forbidden)
+- https://www.aiimsexams.ac.in/advertisement/6a6350f7e5a81c4267f4ff04 (Confirmed NORCET-11 details, exam pattern, syllabus, and fee structure)
+- https://www.aiimsexams.ac.in (Confirmed official portal)
 
 ## Could not confirm
-- The UPSC website returns a 403 Forbidden error for automated requests, preventing verification of the latest notification. The page remains `unverified`.
+- AIIMS does not publish official previous-year question papers or answer keys for public access.
 
 ## Changed
-- None.
+- Updated `exams/medical/aiims-norcet.md` with a structured exam pattern table, detailed syllabus, and official sources.
