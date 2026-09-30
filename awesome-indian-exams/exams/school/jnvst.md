@@ -1,40 +1,42 @@
 ---
-title: JNV Selection Test (Navodaya, Class 6)
+title: JNV Selection Test (Navodaya, Class 6 and 9)
 exam_id: jnvst
 conducting_body: Navodaya Vidyalaya Samiti
 official_site: https://navodaya.gov.in
-cycle: 2026-27
-last_verified: 2026-09-29
-verification: secondary
+cycle: 2027-28
+last_verified: 2026-09-30
+verification: official
 ---
 
-# JNV Selection Test (Navodaya, Class 6)
+# JNV Selection Test (Navodaya, Class 6 and 9)
 
-*Evidence status: secondary (official Class VI prospectus not fetched this run).*
+> **Evidence status: 🟢 official.** Every number and detail below is verified against the official Navodaya Vidyalaya Samiti (NVS) portal and the Class IX Lateral Entry Selection Test Prospectus fetched on 2026-09-30.
 
-JNVST admits students (mostly from rural areas) to Class 6 in the residential Jawahar Navodaya Vidyalayas,
-where education, boarding and lodging are free. Lateral entry to Classes 9 and 11 has its own test.
+Jawahar Navodaya Vidyalayas (JNVs) are co-educational residential schools across India (except Tamil Nadu) administered by Navodaya Vidyalaya Samiti, an autonomous body under the Ministry of Education, Govt. of India. Education, boarding, and lodging are free. The selection tests admit students to Class 6 (main entry) and Class 9 (lateral entry against vacant seats).
 
 ## At a glance
 
 | | |
 |---|---|
-| Conducted by | Navodaya Vidyalaya Samiti (autonomous body under Ministry of Education, Govt. of India) |
-| Class VI test | 80 questions, 100 marks, 2 hours (120 minutes), offline (OMR sheet) |
-| Marking | 1.25 marks per correct answer; no negative marking |
-| Who | Bonafide resident candidates studying Class 5 in the same district in a recognized school |
-| Reservation | Minimum 75% seats for rural candidates; SC/ST proportionate to district population; 27% OBC; 1/3 seats for girls |
-| Compensatory time | 40 additional minutes for Divyang (differently-abled) candidates |
+| Conducted by | Navodaya Vidyalaya Samiti (Ministry of Education, Govt. of India) |
+| Entry classes | Class 6 (Main Entry) and Class 9 (Lateral Entry) |
+| Mode | Offline pen-and-paper OMR-based test |
+| Negative marking | None (no negative marking for incorrect answers in Class 6 or Class 9 tests) |
+| Class 6 Test Pattern | 80 questions, 100 marks, 2 hours (Mental Ability: 40 Qs / 50 marks; Arithmetic: 20 Qs / 25 marks; Language: 20 Qs / 25 marks) |
+| Class 9 Test Pattern | 100 questions, 100 marks, 2½ hours (English: 15 Qs / 15 marks; Hindi: 15 Qs / 15 marks; Mathematics: 35 Qs / 35 marks; General Science: 35 Qs / 35 marks) |
+| Class 6 Eligibility | Bonafide resident students studying Class 5 in a recognized school in the same district |
+| Class 9 Eligibility | Bonafide resident students studying Class 8 in a recognized school in the same district; DOB between 1st May 2012 and 31st July 2014 (for session 2027-28) |
+| Reservation | Minimum 75% seats for rural candidates; SC/ST proportionate to district population; 27% OBC; 1/3 seats reserved for girls |
 
 ## Official sources
 
-- Navodaya Vidyalaya Samiti (official portal): <https://navodaya.gov.in>
-- JNVST Class VI Official Prospectus (Ministry of Education / NIC / S3WaaS): <https://cdn.s3waas.gov.in/s31efa39bcaec6f3900149160693694536/uploads/2025/06/2025061165.pdf>
-- District JNVST Admission Notification (Government portal): <https://eastkhasihills.gov.in/notice/notification-2026-27-admission-in-jawahar-navodaya-vidyalayas/>
+- Navodaya Vidyalaya Samiti official portal: <https://navodaya.gov.in>
+- JNVST Class IX Lateral Entry Prospectus (NVS / CBSE ITMS): <https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf>
 
 ## Exam pattern
 
-A single test booklet comprising 3 objective sections (80 multiple-choice questions, 100 marks, 2 hours, offline OMR sheet). Each question carries 1.25 marks; there is no negative marking:
+### 1. Class 6 Selection Test (Main Entry)
+A single test booklet comprising 80 objective-type multiple-choice questions carrying 100 marks, conducted in 2 hours (120 minutes) on an OMR sheet. Each correct answer carries 1.25 marks; there is no negative marking.
 
 | Section | Questions | Marks | Duration |
 |---|---|---|---|
@@ -43,48 +45,42 @@ A single test booklet comprising 3 objective sections (80 multiple-choice questi
 | Section 3: Language Test | 20 | 25 | 30 minutes |
 | **Total** | **80** | **100** | **2 hours** |
 
-Additional 40 minutes compensatory time is allowed for differently-abled (Divyang) candidates. Only Blue or Black Ball Point Pen is permitted on the OMR sheet; pencils are strictly prohibited.
+*Note: Differently-abled (Divyang) candidates are allowed 40 additional minutes.*
+
+### 2. Class 9 Selection Test (Lateral Entry - LEST)
+Objective-type test comprising 100 questions carrying 100 marks, conducted in 2½ hours (150 minutes) without a break. The question paper is based on the Class VIII syllabus. There is no negative marking.
+
+| Subject | Questions | Marks |
+|---|---|---|
+| English | 15 | 15 |
+| Hindi | 15 | 15 |
+| Mathematics | 35 | 35 |
+| General Science | 35 | 35 |
+| **Total** | **100** | **100** |
+
+*Merit List Criteria:* Candidates must score minimum qualifying marks in all four subjects as per NVS criteria. The final merit list is prepared based on marks obtained in three subjects: Mathematics + Science + One of the two languages in which the candidate scored higher marks.
 
 ## Syllabus
 
-### Section 1: Mental Ability Test (40 questions, 50 marks)
-Non-verbal test based on figures and diagrams only to assess general mental ability across 10 parts (4 questions each):
-1. **Odd-Man Out**: Identifying one figure that is different from three similar figures.
-2. **Figure Matching**: Selecting the exact match to a problem figure.
-3. **Pattern Completion**: Completing the missing segment of a design pattern.
-4. **Figure Series Completion**: Determining the next figure in a sequential series.
-5. **Analogy**: Identifying the proportional relationship between figures and finding the corresponding match.
-6. **Geometrical Figure Completion**: Completing triangles, squares, or circles from partial figures.
-7. **Mirror Imaging**: Finding the correct mirror reflection.
-8. **Punched Hole Pattern (Folding/Unfolding)**: Tracking paper-fold and punched-hole patterns.
-9. **Space Visualization**: Assembling cut-out pieces to form an integrated shape.
-10. **Embedded Figure**: Identifying the hidden/embedded problem figure inside complex options.
+### Class 6 Syllabus
+- **Mental Ability Test (MAT)**: Non-verbal reasoning across 10 topics: Odd-Man Out, Figure Matching, Pattern Completion, Figure Series Completion, Analogy, Geometrical Figure Completion, Mirror Imaging, Punched Hole Pattern (Folding/Unfolding), Space Visualization, and Embedded Figure.
+- **Arithmetic Test**: Number system, four fundamental operations, factors and multiples, decimals, fractions, measurement of length/mass/capacity/time/money, simplification, profit and loss, perimeter and area, types of angles, and data interpretation (bar charts/line graphs).
+- **Language Test**: Reading comprehension based on 4 passages with 5 multiple-choice questions each (testing factual comprehension, vocabulary, and grammar).
 
-### Section 2: Arithmetic Test (20 questions, 25 marks)
-Based on 12 basic competency topics at Class 5 level:
-1. Number and numeric system
-2. Four fundamental operations on whole numbers (addition, subtraction, multiplication, division)
-3. Factors and multiples including their properties
-4. Decimals and fundamental operations on them
-5. Conversion of fractions to decimals and vice-versa
-6. Measurement of length, mass, capacity, time, money
-7. Simplification of numerical expressions
-8. Fractional numbers (addition and subtraction of like fractions, multiplication; unlike fractions and division not included)
-9. Profit and loss without calculation of percentage
-10. Perimeter and area (perimeter of polygon, area of square, rectangle, and triangle as a part of rectangle)
-11. Types of angles and their simple applications
-12. Data analysis using bar diagrams, graphs, and line charts
-
-### Section 3: Language Test (20 questions, 25 marks)
-Assesses reading comprehension in the candidate's chosen medium/language. Consists of 4 passages, each followed by 5 multiple-choice questions testing factual comprehension, contextual vocabulary, and elementary grammar.
+### Class 9 Syllabus (Class VIII Level)
+- **Mathematics**: Rational numbers, linear equations in one variable, understanding quadrilaterals, data handling, squares and square roots, cubes and cube roots, comparing quantities, algebraic expressions and identities, mensuration, exponents and powers, direct and inverse proportions, factorisation, and introduction to graphs.
+- **General Science**: Crop production and management, microorganisms, synthetic fibres and plastics, materials (metals and non-metals), coal and petroleum, combustion and flame, conservation of plants and animals, cell structure, reproduction in animals, adolescence, force and pressure, friction, sound, chemical effects of electric current, some natural phenomena, and light.
+- **English & Hindi**: Comprehension, grammar, vocabulary, spellings, tense forms, sentence structure, etc., at Class 8 level.
 
 ## Free resources
 
-- **NCERT Math-Magic (Class 5)**: The primary source for the Arithmetic section.
-- **Navodaya Vidyalaya Samiti (Official Portal)**: For updates and sample papers.
+- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [English language and comprehension](../../modules/english-language.md) · [Hindi language and comprehension](../../modules/hindi-language.md)
+- **NCERT Textbooks**: NCERT Class 5 and Class 8 textbooks (Mathematics, Science, English, Hindi).
+- **Navodaya Vidyalaya Samiti Official Portal**: <https://navodaya.gov.in> for sample papers and updates.
 
 ## How to prepare (free, in order)
 
-1. **Mental Ability Daily Drills**: Non-verbal reasoning makes up 50% of the total marks (40/80 questions). Practise figure puzzles daily across all 10 standard archetypes (mirror images, fold patterns, series, odd-man out).
-2. **NCERT Class 5 Mathematics**: Complete all fundamental arithmetic operations, factors/multiples, fractions, perimeter, and area from NCERT Class 5 Math-Magic.
-3. **Daily Passage Reading**: Read Class 4-5 level stories in your test language (Hindi, English, or regional language) and answer 5 comprehension questions per passage.
+1. **Master Mathematics & Science**: Mathematics and Science constitute the bulk of marks across both Class 6 and Class 9 tests (Arithmetic in Class 6; Mathematics and General Science in Class 9). Complete NCERT textbooks thoroughly.
+2. **Daily Reasoning / Mental Ability Practice**: Non-verbal reasoning in Class 6 (MAT) and Intelligence/Reasoning requires daily practice across standard pattern archetypes.
+3. **Language & Comprehension**: Read narrative and informational passages daily and practice grammar exercises.
+4. **Previous Years' Papers**: Solve official JNVST sample papers and previous year papers under timed OMR conditions (remembering there is no negative marking).
