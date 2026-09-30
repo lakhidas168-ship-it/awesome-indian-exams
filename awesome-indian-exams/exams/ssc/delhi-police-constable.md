@@ -4,7 +4,7 @@ exam_id: delhi-police-constable
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: Constable (Executive) Male and Female in Delhi Police Examination, 2025
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -12,7 +12,7 @@ verification: official
 
 > **Evidence status: 🟢 official.** Every number below is from the SSC notice for the Constable (Executive)
 > Male and Female in Delhi Police Examination, 2025 (applications 22-09-2025 to 21-10-2025), fetched from
-> ssc.gov.in on 2026-09-29.
+> ssc.gov.in on 2026-09-30.
 
 SSC conducts the recruitment of Constables (Executive) Male and Female for Delhi Police, under an MoU
 between Delhi Police and SSC. Selection is through a Computer-Based Examination, then a qualifying
