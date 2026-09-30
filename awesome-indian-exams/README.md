@@ -65,7 +65,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [NHPC Junior Engineer (Electrical)](exams/engineering/nhpc-je-ee.md) | NHPC Limited | Advt. NH/Rectt./04/2025 (online 02.09.2025–01.10.2025) | ✅ official | 2026-09-29 |
 | [NTPC Engineering Executive Trainee (EET)](exams/engineering/ntpc-et-ee.md) | NTPC Limited | Annual (via GATE) | ✅ official | 2026-09-30 |
 | [POWERGRID Diploma Trainee (Electrical)](exams/engineering/pgcil-dt-ee.md) | POWERGRID (Power Grid Corporation of India Limited) | POWERGRID/CTUIL Non-Executive Trainee 2026 (Advt CC/01/2026) | ✅ official | 2026-09-29 |
-| [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ✅ official | 2026-09-29 |
+| [PSU recruitment for EE graduates](exams/engineering/psu-ee.md) | Central PSUs (each recruits separately) | Rolling, per PSU advertisement | ✅ official | 2026-09-30 |
 | [RRB Junior Engineer (JE) — Electrical](exams/engineering/rrb-je-ee.md) | Railway Recruitment Boards | CEN 04/2026 | ✅ official | 2026-09-29 |
 | [SSC Junior Engineer (JE) — Electrical](exams/engineering/ssc-je-ee.md) | Staff Selection Commission | SSC JE 2026 | ✅ official | 2026-09-29 |
 | [State AE / JE (Electrical) tracker](exams/engineering/state-ae-je.md) | State PSCs and state power utilities | Rolling, per state advertisement | ✅ official | 2026-09-28 |
