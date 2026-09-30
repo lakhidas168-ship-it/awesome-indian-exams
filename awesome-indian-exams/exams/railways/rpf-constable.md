@@ -4,7 +4,7 @@ exam_id: rpf-constable
 conducting_body: Railway Protection Force (through RRBs)
 official_site: https://www.rrbapply.gov.in
 cycle: CEN RPF 02/2024
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -33,6 +33,7 @@ below is from CEN RPF 02/2024, the latest Constable notification on the RRB site
 
 - Detailed CEN RPF 02/2024 in English (RRB Secunderabad): <https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Constable-02-2024_English.pdf>
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
+- Previous year question papers: The conducting body does not publish official previous year question papers.
 
 ## Exam pattern
 

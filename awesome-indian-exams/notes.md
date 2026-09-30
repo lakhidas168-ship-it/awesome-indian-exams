@@ -1,11 +1,9 @@
 ## Sources opened
-- https://jam.iitkgp.ac.in/index.html (Confirmed exam date, organizing institute, and general structure)
-- https://jam.iitkgp.ac.in/test-schedule.html (Confirmed exam date, session timings, and paper distribution)
-- https://jam.iitkgp.ac.in/syllabus.html (Confirmed test pattern sections and syllabus links)
-- https://jam.iitkgp.ac.in/docs/ma_2027_syllabus.pdf (Verified syllabus structure)
+- https://www.rrbapply.gov.in (Official RRB application portal)
+- https://rrbsecunderabad.gov.in/wp-content/uploads/2024/04/Final-Notice-RPF-Constable-02-2024_English.pdf (CEN RPF 02/2024)
 
 ## Could not confirm
-- Specific marks per question or total marks per paper (not explicitly listed in the current web pages, though the section structure is confirmed).
+- Official link to previous year question papers. The RRB application portal (rrbapply.gov.in) does not currently host a public, direct link to previous year question papers for RPF Constable.
 
 ## Changed
-- Updated `exams/university-entrance/iit-jam.md` with the requested sections, exam pattern table, and official syllabus links.
+- Updated 'Official sources' section in `exams/railways/rpf-constable.md` to clarify that no official PYQ link is available.
