@@ -4612,7 +4612,7 @@ accept = [
 # ---- 2026-09-30 Pareto 80/20 core pass (Rajon): EVERY exam equal weight, same priority, families interleaved.
 
 [[task]]
-id = "P80-001"
+id = "P-001"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ibps-clerk: fill pattern / syllabus / official PYQ link from official sources"
@@ -4624,7 +4624,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-002"
+id = "P-002"
 lane = "opencode"
 priority = 2
 title = "80/20 core for afcat: fill pattern / syllabus / official PYQ link from official sources"
@@ -4636,7 +4636,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-003"
+id = "P-003"
 lane = "hermes"
 priority = 2
 title = "80/20 core for barc-oces-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -4649,7 +4649,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-004"
+id = "P-004"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ap-eapcet: fill pattern / syllabus / official PYQ link from official sources"
@@ -4661,7 +4661,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-005"
+id = "P-005"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ailet: fill pattern / syllabus / official PYQ link from official sources"
@@ -4673,7 +4673,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-006"
+id = "P-006"
 lane = "opencode"
 priority = 2
 title = "80/20 core for cat: fill pattern / syllabus / official PYQ link from official sources"
@@ -4686,7 +4686,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-007"
+id = "P-007"
 lane = "hermes"
 priority = 2
 title = "80/20 core for aiims-norcet: fill pattern / syllabus / official PYQ link from official sources"
@@ -4699,7 +4699,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-008"
+id = "P-008"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ca-foundation: fill pattern / syllabus / official PYQ link from official sources"
@@ -4710,7 +4710,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-009"
+id = "P-009"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rpf-constable: fill pattern / syllabus / official PYQ link from official sources"
@@ -4721,7 +4721,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-010"
+id = "P-010"
 lane = "opencode"
 priority = 2
 title = "80/20 core for aissee: fill pattern / syllabus / official PYQ link from official sources"
@@ -4733,7 +4733,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-011"
+id = "P-011"
 lane = "hermes"
 priority = 2
 title = "80/20 core for delhi-police-constable: fill pattern / syllabus / official PYQ link from official sources"
@@ -4744,7 +4744,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-012"
+id = "P-012"
 lane = "opencode"
 priority = 2
 title = "80/20 core for appsc-group-1: fill pattern / syllabus / official PYQ link from official sources"
@@ -4757,7 +4757,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-013"
+id = "P-013"
 lane = "hermes"
 priority = 2
 title = "80/20 core for csir-net: fill pattern / syllabus / official PYQ link from official sources"
@@ -4770,7 +4770,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-014"
+id = "P-014"
 lane = "opencode"
 priority = 2
 title = "80/20 core for cuet-pg: fill pattern / syllabus / official PYQ link from official sources"
@@ -4783,7 +4783,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-015"
+id = "P-015"
 lane = "hermes"
 priority = 2
 title = "80/20 core for upsc-capf: fill pattern / syllabus / official PYQ link from official sources"
@@ -4795,7 +4795,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-016"
+id = "P-016"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ibps-po: fill pattern / syllabus / official PYQ link from official sources"
@@ -4806,7 +4806,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-017"
+id = "P-017"
 lane = "hermes"
 priority = 2
 title = "80/20 core for agniveer-army: fill pattern / syllabus / official PYQ link from official sources"
@@ -4819,7 +4819,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-018"
+id = "P-018"
 lane = "opencode"
 priority = 2
 title = "80/20 core for drdo-ceiptm-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -4832,7 +4832,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-019"
+id = "P-019"
 lane = "hermes"
 priority = 2
 title = "80/20 core for bitsat: fill pattern / syllabus / official PYQ link from official sources"
@@ -4844,7 +4844,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-020"
+id = "P-020"
 lane = "opencode"
 priority = 2
 title = "80/20 core for clat: fill pattern / syllabus / official PYQ link from official sources"
@@ -4856,7 +4856,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-021"
+id = "P-021"
 lane = "hermes"
 priority = 2
 title = "80/20 core for cmat: fill pattern / syllabus / official PYQ link from official sources"
@@ -4867,7 +4867,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-022"
+id = "P-022"
 lane = "opencode"
 priority = 2
 title = "80/20 core for fmge: fill pattern / syllabus / official PYQ link from official sources"
@@ -4879,7 +4879,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-023"
+id = "P-023"
 lane = "hermes"
 priority = 2
 title = "80/20 core for cma-foundation: fill pattern / syllabus / official PYQ link from official sources"
@@ -4891,7 +4891,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-024"
+id = "P-024"
 lane = "opencode"
 priority = 2
 title = "80/20 core for rpf-si: fill pattern / syllabus / official PYQ link from official sources"
@@ -4903,7 +4903,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-025"
+id = "P-025"
 lane = "hermes"
 priority = 2
 title = "80/20 core for jnvst: fill pattern / syllabus / official PYQ link from official sources"
@@ -4914,7 +4914,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-026"
+id = "P-026"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-cgl: fill pattern / syllabus / official PYQ link from official sources"
@@ -4925,7 +4925,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-027"
+id = "P-027"
 lane = "hermes"
 priority = 2
 title = "80/20 core for apsc-cce: fill pattern / syllabus / official PYQ link from official sources"
@@ -4938,7 +4938,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-028"
+id = "P-028"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ctet: fill pattern / syllabus / official PYQ link from official sources"
@@ -4950,7 +4950,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-029"
+id = "P-029"
 lane = "hermes"
 priority = 2
 title = "80/20 core for cuet-ug: fill pattern / syllabus / official PYQ link from official sources"
@@ -4963,7 +4963,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-030"
+id = "P-030"
 lane = "opencode"
 priority = 2
 title = "80/20 core for upsc-cms: fill pattern / syllabus / official PYQ link from official sources"
@@ -4974,7 +4974,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-031"
+id = "P-031"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ibps-rrb: fill pattern / syllabus / official PYQ link from official sources"
@@ -4986,7 +4986,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-032"
+id = "P-032"
 lane = "opencode"
 priority = 2
 title = "80/20 core for agniveer-navy: fill pattern / syllabus / official PYQ link from official sources"
@@ -4999,7 +4999,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-033"
+id = "P-033"
 lane = "hermes"
 priority = 2
 title = "80/20 core for gate-me: fill pattern / syllabus / official PYQ link from official sources"
@@ -5010,7 +5010,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-034"
+id = "P-034"
 lane = "opencode"
 priority = 2
 title = "80/20 core for comedk-uget: fill pattern / syllabus / official PYQ link from official sources"
@@ -5022,7 +5022,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-035"
+id = "P-035"
 lane = "hermes"
 priority = 2
 title = "80/20 core for mh-cet-law: fill pattern / syllabus / official PYQ link from official sources"
@@ -5033,7 +5033,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-036"
+id = "P-036"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ipmat-indore: fill pattern / syllabus / official PYQ link from official sources"
@@ -5046,7 +5046,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-037"
+id = "P-037"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ini-cet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5059,7 +5059,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-038"
+id = "P-038"
 lane = "opencode"
 priority = 2
 title = "80/20 core for cseet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5070,7 +5070,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-039"
+id = "P-039"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rrb-alp: fill pattern / syllabus / official PYQ link from official sources"
@@ -5081,7 +5081,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-040"
+id = "P-040"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-chsl: fill pattern / syllabus / official PYQ link from official sources"
@@ -5093,7 +5093,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-041"
+id = "P-041"
 lane = "hermes"
 priority = 2
 title = "80/20 core for bpsc-cce: fill pattern / syllabus / official PYQ link from official sources"
@@ -5106,7 +5106,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-042"
+id = "P-042"
 lane = "opencode"
 priority = 2
 title = "80/20 core for dsssb: fill pattern / syllabus / official PYQ link from official sources"
@@ -5119,7 +5119,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-043"
+id = "P-043"
 lane = "hermes"
 priority = 2
 title = "80/20 core for iit-jam: fill pattern / syllabus / official PYQ link from official sources"
@@ -5132,7 +5132,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-044"
+id = "P-044"
 lane = "opencode"
 priority = 2
 title = "80/20 core for upsc-geoscientist: fill pattern / syllabus / official PYQ link from official sources"
@@ -5145,7 +5145,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-045"
+id = "P-045"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ibps-so: fill pattern / syllabus / official PYQ link from official sources"
@@ -5156,7 +5156,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-046"
+id = "P-046"
 lane = "opencode"
 priority = 2
 title = "80/20 core for agniveer-vayu: fill pattern / syllabus / official PYQ link from official sources"
@@ -5168,7 +5168,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-047"
+id = "P-047"
 lane = "hermes"
 priority = 2
 title = "80/20 core for nhpc-je-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5179,7 +5179,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-048"
+id = "P-048"
 lane = "opencode"
 priority = 2
 title = "80/20 core for jee-advanced: fill pattern / syllabus / official PYQ link from official sources"
@@ -5192,7 +5192,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-049"
+id = "P-049"
 lane = "hermes"
 priority = 2
 title = "80/20 core for mah-mba-cet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5203,7 +5203,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-050"
+id = "P-050"
 lane = "opencode"
 priority = 2
 title = "80/20 core for neet-pg: fill pattern / syllabus / official PYQ link from official sources"
@@ -5216,7 +5216,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-051"
+id = "P-051"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rrb-group-d: fill pattern / syllabus / official PYQ link from official sources"
@@ -5227,7 +5227,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-052"
+id = "P-052"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-cpo: fill pattern / syllabus / official PYQ link from official sources"
@@ -5238,7 +5238,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-053"
+id = "P-053"
 lane = "hermes"
 priority = 2
 title = "80/20 core for cgpsc-sse: fill pattern / syllabus / official PYQ link from official sources"
@@ -5249,7 +5249,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-054"
+id = "P-054"
 lane = "opencode"
 priority = 2
 title = "80/20 core for kvs-recruitment: fill pattern / syllabus / official PYQ link from official sources"
@@ -5262,7 +5262,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-055"
+id = "P-055"
 lane = "hermes"
 priority = 2
 title = "80/20 core for nata: fill pattern / syllabus / official PYQ link from official sources"
@@ -5274,7 +5274,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-056"
+id = "P-056"
 lane = "opencode"
 priority = 2
 title = "80/20 core for upsc-nda: fill pattern / syllabus / official PYQ link from official sources"
@@ -5285,7 +5285,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-057"
+id = "P-057"
 lane = "hermes"
 priority = 2
 title = "80/20 core for lic-aao: fill pattern / syllabus / official PYQ link from official sources"
@@ -5297,7 +5297,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-058"
+id = "P-058"
 lane = "opencode"
 priority = 2
 title = "80/20 core for icg-assistant-commandant: fill pattern / syllabus / official PYQ link from official sources"
@@ -5310,7 +5310,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-059"
+id = "P-059"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ntpc-et-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5323,7 +5323,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-060"
+id = "P-060"
 lane = "opencode"
 priority = 2
 title = "80/20 core for jee-main: fill pattern / syllabus / official PYQ link from official sources"
@@ -5335,7 +5335,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-061"
+id = "P-061"
 lane = "hermes"
 priority = 2
 title = "80/20 core for mat: fill pattern / syllabus / official PYQ link from official sources"
@@ -5346,7 +5346,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-062"
+id = "P-062"
 lane = "opencode"
 priority = 2
 title = "80/20 core for neet-ug: fill pattern / syllabus / official PYQ link from official sources"
@@ -5358,7 +5358,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-063"
+id = "P-063"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rrb-ntpc: fill pattern / syllabus / official PYQ link from official sources"
@@ -5369,7 +5369,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-064"
+id = "P-064"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-gd: fill pattern / syllabus / official PYQ link from official sources"
@@ -5380,7 +5380,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-065"
+id = "P-065"
 lane = "hermes"
 priority = 2
 title = "80/20 core for gpsc-class-1-2: fill pattern / syllabus / official PYQ link from official sources"
@@ -5393,7 +5393,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-066"
+id = "P-066"
 lane = "opencode"
 priority = 2
 title = "80/20 core for nvs-recruitment: fill pattern / syllabus / official PYQ link from official sources"
@@ -5406,7 +5406,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-067"
+id = "P-067"
 lane = "hermes"
 priority = 2
 title = "80/20 core for nchm-jee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5418,7 +5418,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-068"
+id = "P-068"
 lane = "opencode"
 priority = 2
 title = "80/20 core for nabard-grade-a: fill pattern / syllabus / official PYQ link from official sources"
@@ -5429,7 +5429,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-069"
+id = "P-069"
 lane = "hermes"
 priority = 2
 title = "80/20 core for icg-navik: fill pattern / syllabus / official PYQ link from official sources"
@@ -5440,7 +5440,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-070"
+id = "P-070"
 lane = "opencode"
 priority = 2
 title = "80/20 core for pgcil-dt-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5451,7 +5451,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-071"
+id = "P-071"
 lane = "hermes"
 priority = 2
 title = "80/20 core for kcet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5464,7 +5464,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-072"
+id = "P-072"
 lane = "opencode"
 priority = 2
 title = "80/20 core for nmat: fill pattern / syllabus / official PYQ link from official sources"
@@ -5476,7 +5476,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-073"
+id = "P-073"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rrb-technician: fill pattern / syllabus / official PYQ link from official sources"
@@ -5488,7 +5488,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-074"
+id = "P-074"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-jht: fill pattern / syllabus / official PYQ link from official sources"
@@ -5500,7 +5500,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-075"
+id = "P-075"
 lane = "hermes"
 priority = 2
 title = "80/20 core for hpsc-hcs: fill pattern / syllabus / official PYQ link from official sources"
@@ -5511,7 +5511,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-076"
+id = "P-076"
 lane = "opencode"
 priority = 2
 title = "80/20 core for state-tet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5523,7 +5523,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-077"
+id = "P-077"
 lane = "hermes"
 priority = 2
 title = "80/20 core for nid-dat: fill pattern / syllabus / official PYQ link from official sources"
@@ -5536,7 +5536,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-078"
+id = "P-078"
 lane = "opencode"
 priority = 2
 title = "80/20 core for rbi-assistant: fill pattern / syllabus / official PYQ link from official sources"
@@ -5547,7 +5547,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-079"
+id = "P-079"
 lane = "hermes"
 priority = 2
 title = "80/20 core for psu-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5560,7 +5560,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-080"
+id = "P-080"
 lane = "opencode"
 priority = 2
 title = "80/20 core for keam: fill pattern / syllabus / official PYQ link from official sources"
@@ -5572,7 +5572,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-081"
+id = "P-081"
 lane = "hermes"
 priority = 2
 title = "80/20 core for snap: fill pattern / syllabus / official PYQ link from official sources"
@@ -5583,7 +5583,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-082"
+id = "P-082"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-mts: fill pattern / syllabus / official PYQ link from official sources"
@@ -5594,7 +5594,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-083"
+id = "P-083"
 lane = "hermes"
 priority = 2
 title = "80/20 core for kerala-psc: fill pattern / syllabus / official PYQ link from official sources"
@@ -5605,7 +5605,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-084"
+id = "P-084"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ugc-net: fill pattern / syllabus / official PYQ link from official sources"
@@ -5617,7 +5617,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-085"
+id = "P-085"
 lane = "hermes"
 priority = 2
 title = "80/20 core for nift-entrance: fill pattern / syllabus / official PYQ link from official sources"
@@ -5629,7 +5629,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-086"
+id = "P-086"
 lane = "opencode"
 priority = 2
 title = "80/20 core for rbi-grade-b: fill pattern / syllabus / official PYQ link from official sources"
@@ -5642,7 +5642,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-087"
+id = "P-087"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rrb-je-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5654,7 +5654,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-088"
+id = "P-088"
 lane = "opencode"
 priority = 2
 title = "80/20 core for mht-cet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5666,7 +5666,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-089"
+id = "P-089"
 lane = "hermes"
 priority = 2
 title = "80/20 core for xat: fill pattern / syllabus / official PYQ link from official sources"
@@ -5678,7 +5678,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-090"
+id = "P-090"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ssc-selection-post: fill pattern / syllabus / official PYQ link from official sources"
@@ -5690,7 +5690,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-091"
+id = "P-091"
 lane = "hermes"
 priority = 2
 title = "80/20 core for kpsc-kas: fill pattern / syllabus / official PYQ link from official sources"
@@ -5703,7 +5703,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-092"
+id = "P-092"
 lane = "opencode"
 priority = 2
 title = "80/20 core for sbi-clerk: fill pattern / syllabus / official PYQ link from official sources"
@@ -5714,7 +5714,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-093"
+id = "P-093"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ssc-je-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5725,7 +5725,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-094"
+id = "P-094"
 lane = "opencode"
 priority = 2
 title = "80/20 core for ts-eapcet: fill pattern / syllabus / official PYQ link from official sources"
@@ -5737,7 +5737,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-095"
+id = "P-095"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ssc-stenographer: fill pattern / syllabus / official PYQ link from official sources"
@@ -5749,7 +5749,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-096"
+id = "P-096"
 lane = "opencode"
 priority = 2
 title = "80/20 core for mppsc-sse: fill pattern / syllabus / official PYQ link from official sources"
@@ -5762,7 +5762,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-097"
+id = "P-097"
 lane = "hermes"
 priority = 2
 title = "80/20 core for sbi-po: fill pattern / syllabus / official PYQ link from official sources"
@@ -5773,7 +5773,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-098"
+id = "P-098"
 lane = "opencode"
 priority = 2
 title = "80/20 core for state-ae-je: fill pattern / syllabus / official PYQ link from official sources"
@@ -5786,7 +5786,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-099"
+id = "P-099"
 lane = "hermes"
 priority = 2
 title = "80/20 core for viteee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5798,7 +5798,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-100"
+id = "P-100"
 lane = "opencode"
 priority = 2
 title = "80/20 core for mpsc-rajyaseva: fill pattern / syllabus / official PYQ link from official sources"
@@ -5811,7 +5811,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-101"
+id = "P-101"
 lane = "hermes"
 priority = 2
 title = "80/20 core for sebi-grade-a: fill pattern / syllabus / official PYQ link from official sources"
@@ -5823,7 +5823,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-102"
+id = "P-102"
 lane = "opencode"
 priority = 2
 title = "80/20 core for uppcl-ae-je-ee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5835,7 +5835,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-103"
+id = "P-103"
 lane = "hermes"
 priority = 2
 title = "80/20 core for wbjee: fill pattern / syllabus / official PYQ link from official sources"
@@ -5848,7 +5848,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-104"
+id = "P-104"
 lane = "opencode"
 priority = 2
 title = "80/20 core for opsc-ocs: fill pattern / syllabus / official PYQ link from official sources"
@@ -5859,7 +5859,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-105"
+id = "P-105"
 lane = "hermes"
 priority = 2
 title = "80/20 core for rpsc-ras: fill pattern / syllabus / official PYQ link from official sources"
@@ -5872,7 +5872,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-106"
+id = "P-106"
 lane = "opencode"
 priority = 2
 title = "80/20 core for tgpsc-group-1: fill pattern / syllabus / official PYQ link from official sources"
@@ -5883,7 +5883,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-107"
+id = "P-107"
 lane = "hermes"
 priority = 2
 title = "80/20 core for tnpsc-group-1: fill pattern / syllabus / official PYQ link from official sources"
@@ -5894,7 +5894,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-108"
+id = "P-108"
 lane = "opencode"
 priority = 2
 title = "80/20 core for tnpsc-group-4: fill pattern / syllabus / official PYQ link from official sources"
@@ -5905,7 +5905,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-109"
+id = "P-109"
 lane = "hermes"
 priority = 2
 title = "80/20 core for ukpsc-pcs: fill pattern / syllabus / official PYQ link from official sources"
@@ -5916,7 +5916,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-110"
+id = "P-110"
 lane = "opencode"
 priority = 2
 title = "80/20 core for uppsc-pcs: fill pattern / syllabus / official PYQ link from official sources"
@@ -5928,7 +5928,7 @@ accept = [
 ]
 
 [[task]]
-id = "P80-111"
+id = "P-111"
 lane = "hermes"
 priority = 2
 title = "80/20 core for wbcs: fill pattern / syllabus / official PYQ link from official sources"
@@ -5936,4 +5936,134 @@ accept = [
   "exams/state-psc/wbcs.md gains: a link to the OFFICIAL previous-year question papers / answer keys page under 'Official sources' (official domain only; if the body publishes none, say so)",
   "every new fact comes from a page on the conducting body's official domain opened this run, listed under 'Official sources'; nothing invented, unknowns marked unverified",
   "frontmatter last_verified = run date only if official documents were opened this run",
+]
+
+[[task]]
+id = "T-571"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:81d54832 into exams/upsc/upsc-ies-iss.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-572"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:485cbf61 into exams/upsc/upsc-capf.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-573"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:d69423c3 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-574"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:5745717a into exams/state-psc/mpsc-rajyaseva.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-575"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:a4924293 into exams/upsc/upsc-nda.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-576"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:850a39e2 into exams/ssc/ssc-selection-post.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-577"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:a766e854 into exams/teaching/dsssb.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-578"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:acb46356 into exams/state-psc/kerala-psc.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-579"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:0891757d into exams/medical/fmge.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-580"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:4c29ba8f into exams/railways/rrb-group-d.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
 ]
