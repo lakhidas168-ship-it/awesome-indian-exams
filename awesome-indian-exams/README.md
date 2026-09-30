@@ -123,7 +123,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [GPSC Class 1–2 (Gujarat)](exams/state-psc/gpsc-class-1-2.md) | Gujarat Public Service Commission | GPSC Class 1–2 (latest) | 🟡 secondary | 2026-09-29 |
 | [HPSC HCS (Haryana Civil Services)](exams/state-psc/hpsc-hcs.md) | Haryana Public Service Commission | HCS (Ex. Br.) & Other Allied Services Examination (Advt. No. 22/2026, published 30.01.2026) | ⚪ unverified | 2026-09-30 |
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE-2025 (Advt. No. 01/2026) | ✅ official | 2026-09-28 |
-| [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ✅ official | 2026-09-28 |
+| [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ✅ official | 2026-09-30 |
 | [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-29 |
 | [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | ✅ official | 2026-09-30 |
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-29 |
