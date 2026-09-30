@@ -173,7 +173,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [NABARD Grade A (Assistant Manager)](exams/banking/nabard-grade-a.md) | National Bank for Agriculture and Rural Development | Grade A Assistant Manager (RDBS/Legal/Protocol & Security) 2025 — Advertisement No. 05/Grade A/2025-26 | ✅ official | 2026-09-29 |
 | [RBI Assistant](exams/banking/rbi-assistant.md) | Reserve Bank of India | RBI Assistant 2023 (Advt. dated October 06, 2023) | ✅ official | 2026-09-29 |
 | [RBI Grade B (Officer, DR General)](exams/banking/rbi-grade-b.md) | Reserve Bank of India | RBI Grade B (DR) General, PY2026 | ✅ official | 2026-09-27 |
-| [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk 2026 (Advt CRPD/CR/2026-27/17) | 🟡 secondary | 2026-09-29 |
+| [SBI Clerk (Junior Associate)](exams/banking/sbi-clerk.md) | State Bank of India | SBI Clerk 2026 (Advt CRPD/CR/2026-27/17) | 🟡 secondary | 2026-09-30 |
 | [SBI PO (Probationary Officer)](exams/banking/sbi-po.md) | State Bank of India | SBI PO 2026 (Advt CRPD/PO/2026-27/09) | 🟡 secondary | 2026-09-29 |
 | [SEBI Grade A (Assistant Manager)](exams/banking/sebi-grade-a.md) | Securities and Exchange Board of India | SEBI Officer Grade A 2025 | ⚪ unverified | 2026-09-29 |
 
