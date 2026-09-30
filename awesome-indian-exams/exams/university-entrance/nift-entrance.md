@@ -4,7 +4,7 @@ exam_id: nift-entrance
 conducting_body: National Institute of Fashion Technology
 official_site: https://www.nift.ac.in
 cycle: NIFTEE 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -13,8 +13,7 @@ verification: official
 The National Institute of Fashion Technology Entrance Examination (NIFTEE) admits students to design
 (B.Des), fashion technology (B.FTech) and postgraduate programmes at NIFT's 20 campuses. The National
 Testing Agency (NTA) conducts the exam on NIFT's behalf. The 2026 written exam was held on
-8 February 2026; the numbers below are from the NTA information bulletin for NIFTEE 2026, so check the
-next bulletin's dates before you apply or pay a fee.
+8 February 2026; the numbers below are from the NTA information bulletin for NIFTEE 2026.
 
 ## At a glance
 
@@ -33,24 +32,24 @@ next bulletin's dates before you apply or pay a fee.
 
 - NTA information bulletin for NIFTEE 2026 (UG, PG and PhD): <https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2025/12/202512081380584374.pdf>
 - NIFT (official): <https://www.nift.ac.in>
+- NIFT previous-year question papers: NIFT does not publish official previous-year question papers or answer keys.
 
 ## Exam pattern
 
-- The GAT (General Ability Test) is a computer-based objective test; the CAT (Creative Ability Test) is a
-  pen-and-paper test. Both are bilingual (Hindi/English); where the versions differ, English is final.
-- B.Des: GAT — 120 minutes, 100 questions — plus CAT — 180 minutes, 3 questions. Shortlisted candidates
-  then take a situation test: a hands-on model built from a given set of materials (nothing extra allowed),
-  judged on space visualisation, creative use of the material, composition, colour scheme, construction
-  skill, finesse and overall presentation, with a write-up in English explaining the concept.
-- B.FTech: GAT Section A — 120 minutes, 100 questions — plus Section B — 60 minutes, 50 questions
-  including a case study. No CAT and no situation test; shortlisting is on the GAT alone.
-- A B.FTech applicant (with Mathematics) may also opt for B.Des by taking the CAT as well; separate merit
-  ranks are generated for the two programmes.
-- Final merit weights: B.Des — GAT 30%, CAT 50%, situation test 20%; B.FTech — Section A 30%,
-  Section B 70%.
-- PG programmes (M.Des, MFM, M.FTech): written test(s) followed by a personal interview carrying 30%
-  (M.Des also takes the CAT; the MFM/M.FTech GAT runs 180 minutes with 150 questions).
-- The 2026 written exam ran in 100 cities across India.
+| Programme | Stage | Mode | Duration | Questions |
+| :--- | :--- | :--- | :--- | :--- |
+| **B.Des** | GAT | Computer-based | 120 min | 100 |
+| | CAT | Pen-and-paper | 180 min | 3 |
+| | Situation Test | Hands-on | - | - |
+| **B.FTech** | GAT (Sec A) | Computer-based | 120 min | 100 |
+| | GAT (Sec B) | Computer-based | 60 min | 50 |
+
+- **Marking (GAT):** +1 for a correct answer, −0.25 for a wrong one, 0 for unattempted.
+- **Final weightage:**
+    - **B.Des:** GAT 30%, CAT 50%, Situation Test 20%.
+    - **B.FTech:** GAT Section A 30%, GAT Section B 70%.
+- **PG programmes:** Written test(s) followed by a personal interview (30% weightage). M.Des also takes the CAT. MFM/M.FTech GAT is 180 minutes with 150 questions.
+- The GAT is bilingual (Hindi/English); where versions differ, English is final.
 
 ## Syllabus
 
