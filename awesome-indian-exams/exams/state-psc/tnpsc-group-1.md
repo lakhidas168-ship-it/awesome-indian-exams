@@ -4,7 +4,7 @@ exam_id: tnpsc-group-1
 conducting_body: Tamil Nadu Public Service Commission
 official_site: https://www.tnpsc.gov.in
 cycle: CCSE-I (Group I Services), Notification 05/2026
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -35,6 +35,7 @@ preliminary exam, a descriptive main exam, and an interview.
 ## Official sources
 
 - Commission's official website (notifications, syllabus, previous papers): <https://www.tnpsc.gov.in>
+- Previous year question papers and answer keys: <https://www.tnpsc.gov.in/English/home.aspx> (Navigate to 'Question Papers / Answer Keys' in the menu)
 - Notification No. 05/2026, dated 23.06.2026 (62-page PDF — posts, vacancies, eligibility, dates): <https://tnpsc.gov.in/document/english/Group%20I%20Notification%202026_E.pdf>
 - Addendum 5A/2026, dated 16.07.2026 (postpones preliminary exam to 27.09.2026): <https://tnpsc.gov.in/Document/english/ADDENDUM%205A_16.07.2026.pdf>
 - Scheme of examination (confirms paper-wise questions, marks and qualifying rules): <https://tnpsc.gov.in/English/scheme.html>
@@ -82,20 +83,14 @@ final merit):
   emphasis on Tamil Nadu.
 - The commission's syllabus page links the detailed unit-wise syllabus PDFs for each paper.
 
-## How to prepare (free, in order)
-
-1. Build the shared UPSC GS foundation first — polity, history, geography, economy and science —
-   using NCERT textbooks and the shared modules below. This covers most of the Prelims GS paper.
-2. Add Tamil Nadu-specific history, geography, economy and culture from official state sources
-   (state-board textbooks, Tamil Nadu government portals).
-3. Practise aptitude and reasoning daily at SSLC standard; then solve the commission's own previous
-   question papers from tnpsc.gov.in in timed sittings — each commission has its own style.
-4. For the main exam, practise descriptive answer writing (essays and GS answers) and revise the
-   Tamil Eligibility Test at SSLC level.
-
 ## Free resources
 
-- Shared modules for this exam: [Indian polity and governance](../../modules/gs-polity.md) · [Indian history and culture](../../modules/gs-history.md) · [Geography of India and the world](../../modules/gs-geography.md) · [Indian economy](../../modules/gs-economy.md) · [General awareness and current affairs](../../modules/general-awareness.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [Essay and descriptive writing](../../modules/descriptive-writing.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- NCERT textbooks (static GK and GS foundation): <https://ncert.nic.in/textbook.php>
-- Press Information Bureau for current affairs: <https://pib.gov.in>
+- Official previous year question papers and answer keys are available on the commission's website at <https://www.tnpsc.gov.in/English/home.aspx> under the 'Question Papers / Answer Keys' section.
+
+## How to prepare (free, in order)
+
+1. **Understand the pattern:** Review the official [Scheme of Examination](https://tnpsc.gov.in/English/scheme.html).
+2. **Download the syllabus:** Get the detailed syllabus from the official [Syllabus](https://tnpsc.gov.in/English/Syllabus.html) page.
+3. **Analyze PYQs:** Download previous year question papers from the [Question Papers / Answer Keys](https://www.tnpsc.gov.in/English/home.aspx) section on the official website to understand the question style and weightage.
+4. **Study core subjects:** Focus on the General Studies topics listed in the syllabus, emphasizing Tamil Nadu-specific content.
+5. **Practice:** Use the official PYQs for regular practice.
