@@ -4,7 +4,7 @@ exam_id: snap
 conducting_body: Symbiosis International University
 official_site: https://www.snaptest.org
 cycle: SNAP 2026
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -35,6 +35,7 @@ with up to three attempts and the best score counting.
 - SNAP 2026 test structure (sections, marks, negative marking, dates): <https://www.snaptest.org/snap-exam-syllabus>
 - SNAP 2026 programme eligibility (institute-wise criteria): <https://www.snaptest.org/eligibility>
 - SNAP 2026 Bulletin (important dates, admit cards, result): <https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf>
+- Note: Symbiosis International University does not publish official previous-year question papers.
 
 ## Exam pattern
 
