@@ -4,7 +4,7 @@ exam_id: cmat
 conducting_body: National Testing Agency
 official_site: https://exams.nta.nic.in
 cycle: CMAT 2025
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -28,6 +28,7 @@ CMAT is NTA's national test for admission to AICTE-approved MBA/PGDM programmes.
 ## Official sources
 
 - CMAT 2025 Information Bulletin: <https://nta.ac.in/Download/Notice/Notice_20251017143944.pdf>
+- Previous-year question papers: The conducting body (NTA) does not publish official previous-year question papers or answer keys for CMAT.
 
 ## Exam pattern
 

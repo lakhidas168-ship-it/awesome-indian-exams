@@ -1,8 +1,8 @@
 ## Sources opened
-- https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final: Confirmed vacancies, stages, age limit, qualification, application fee, exam pattern (Prelims/Mains structure, questions, marks, duration, negative marking policy).
+- <https://nta.ac.in/Download/Notice/Notice_20251017143944.pdf>: Confirmed CMAT 2025 exam pattern, marks, time, and negative marking.
 
 ## Could not confirm
-- Official previous-year question papers (LIC does not publish these).
+- Official link for previous-year question papers (PYQs). The NTA website does not appear to host a dedicated, functional archive for CMAT PYQs.
 
 ## Changed
-- Updated `exams/banking/lic-aao.md` with the official exam pattern table and clarified the status of PYQs.
+- Updated `exams/management/cmat.md` to clarify that no official PYQ archive is available.
