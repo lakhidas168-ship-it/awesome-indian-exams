@@ -114,9 +114,11 @@ def parse_date(value: str) -> dt.date | None:
 
 # ------------------------------------------------------------------ registry
 
-def check_eligibility_entry(entry: dict, rep: Report, path: Path) -> None:
-    if not entry.get("official_source_url"):
-        rep.error(path, "eligibility entry missing official_source_url")
+def check_eligibility_entry(entry: dict, rep: Report, path: Path, eid: str) -> None:
+    for field in ("next_notification", "exam_window"):
+        if field in entry:
+            if not entry.get(f"{field}_source_url"):
+                rep.error(path, f"exam {eid}: eligibility {field} missing {field}_source_url")
 
 def load_registry(root: Path, official: tuple[str, ...], rep: Report) -> dict:
     path = root / "registry" / "exams.toml"
@@ -156,7 +158,7 @@ def load_registry(root: Path, official: tuple[str, ...], rep: Report) -> dict:
         
         # Check eligibility
         if "eligibility" in ex:
-            check_eligibility_entry(ex["eligibility"], rep, path)
+            check_eligibility_entry(ex["eligibility"], rep, path, eid)
 
         for mod in ex.get("modules", []):
             if mod not in reg["module"]:
