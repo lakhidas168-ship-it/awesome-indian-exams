@@ -953,6 +953,14 @@ modules = ["quant-aptitude", "reasoning", "english-language", "general-awareness
 # ------------------------------------------------------------------ defence (non-UPSC)
 
 [[exam]]
+id = "icg-assistant-commandant"
+name = "Indian Coast Guard Assistant Commandant (CGCAT)"
+family = "defence"
+body = "Indian Coast Guard"
+official_site = "https://joinindiancoastguard.cdac.in"
+modules = ["english-language", "reasoning", "quant-aptitude", "general-awareness", "general-science"]
+
+[[exam]]
 id = "afcat"
 name = "AFCAT (Air Force Common Admission Test)"
 family = "defence"
