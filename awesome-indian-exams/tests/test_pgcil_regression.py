@@ -12,7 +12,12 @@ class TestPGCILValidation(unittest.TestCase):
         # Mocking a path that doesn't exist, but we will provide the content
         # Actually, check_exam_page reads the file. Let's create a temporary file.
         
-        path = Path("exams/engineering/pgcil-dt-ee.md")
+        # 2026-09-30: this used to overwrite and then DELETE the real exams/engineering/pgcil-dt-ee.md, which broke
+        # the README link check and blocked every GitHub publish. Work in a throwaway copy instead.
+        import tempfile
+        tmp = Path(tempfile.mkdtemp())
+        path = tmp / "exams/engineering/pgcil-dt-ee.md"
+        path.parent.mkdir(parents=True)
         content = """---
 title: PGCIL Diploma Trainee (Electrical)
 exam_id: pgcil-dt-ee
@@ -45,14 +50,14 @@ verification: official
             official = ("powergrid.in",)
             import datetime as dt
             
-            check_exam_page(path, Path("."), official, reg, dt.date(2026, 9, 29), rep)
+            check_exam_page(path, tmp, official, reg, dt.date(2026, 9, 29), rep)
             
             # Check if the error for missing section was caught
             self.assertTrue(any("missing section '## Free resources'" in err for err in rep.errors), 
                             f"Errors found: {rep.errors}")
         finally:
-            if path.exists():
-                path.unlink()
+            import shutil
+            shutil.rmtree(tmp, ignore_errors=True)
 
 if __name__ == '__main__':
     unittest.main()
