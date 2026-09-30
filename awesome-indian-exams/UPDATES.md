@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 20:57 UTC** · `P-045` · hermes · [80/20 core for ibps-so: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-045.md)
 - **2026-09-30 20:01 UTC** · `P-069` · hermes · [80/20 core for icg-navik: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-069.md)
 - **2026-09-30 19:49 UTC** · `P-063` · hermes · [80/20 core for rrb-ntpc: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-063.md)
 - **2026-09-30 19:48 UTC** · `P-009` · hermes · [80/20 core for rpf-constable: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-009.md)
