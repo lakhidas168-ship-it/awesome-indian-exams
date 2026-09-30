@@ -154,7 +154,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 
 | Exam | Conducted by | Cycle | Evidence | Last verified |
 |---|---|---|---|---|
-| [RPF Constable](exams/railways/rpf-constable.md) | Railway Protection Force (through RRBs) | CEN RPF 02/2024 | ✅ official | 2026-09-28 |
+| [RPF Constable](exams/railways/rpf-constable.md) | Railway Protection Force (through RRBs) | CEN RPF 02/2024 | ✅ official | 2026-09-30 |
 | [RPF Sub-Inspector](exams/railways/rpf-si.md) | Railway Protection Force (through RRBs) | CEN RPF 01/2024 | ✅ official | 2026-09-28 |
 | [RRB Assistant Loco Pilot (ALP)](exams/railways/rrb-alp.md) | Railway Recruitment Boards | RRB ALP (CEN 01/2026) | ✅ official | 2026-09-30 |
 | [RRB Group D (Level 1)](exams/railways/rrb-group-d.md) | Railway Recruitment Boards | CEN 09/2025 (Level-1) | ✅ official | 2026-09-30 |
