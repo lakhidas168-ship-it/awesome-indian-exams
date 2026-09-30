@@ -4198,3 +4198,406 @@ accept = [
   "no duplicate of an exam already listed: CSIR NET (JRF / Assistant Professor); CTET; DSSSB teacher and staff recruitment (Delhi); KVS teacher and staff recruitment; NVS teacher and staff recruitment; State TETs (UPTET, REET, MAHATET and others); UGC NET",
   "scripts/validate.py --write regenerates the index and the content gate passes with 0 errors",
 ]
+
+[[task]]
+id = "T-561"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:5d8d429a into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-562"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:08c685bf into exams/ssc/delhi-police-constable.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-563"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:3560c439 into exams/banking/sbi-po.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-564"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:e3dd21ad into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-565"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:103c6d0a into exams/defence/icg-navik.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-566"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:63ba4c4a into exams/engineering-entrance/jee-advanced.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-567"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:28d1bc36 into exams/state-psc/mppsc-sse.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-568"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:7a0e7146 into exams/law/mh-cet-law.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-569"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:905348c6 into exams/upsc/upsc-geoscientist.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-570"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:6d61ed28 into exams/state-psc/tnpsc-group-4.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-731"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/upsc-ese-ee.md against official UPSC ESE 2027 notification and upgrade verification to official"
+accept = [
+  "fetch the official UPSC ESE 2027 notification from upsc.gov.in and record the exact URL in the receipt",
+  "update exams/engineering/upsc-ese-ee.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as secondary and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-732"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/barc-oces-ee.md against official BARC OCES/DGFS brochure and upgrade verification to official"
+accept = [
+  "fetch the official BARC OCES/DGFS brochure from barc.gov.in and record the exact URL in the receipt",
+  "update exams/engineering/barc-oces-ee.md with only facts confirmed by that brochure; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the brochure was actually fetched and the facts match; otherwise leave as secondary and say why in the receipt",
+  "the receipt lists the brochure URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-733"
+lane = "hermes"
+focus = "core"
+priority = 2
+title = "Verify exams/engineering/drdo-ceiptm-ee.md against official DRDO CEPTAM notification and upgrade verification to official"
+accept = [
+  "fetch the official DRDO CEPTAM notification from drdo.gov.in and record the exact URL in the receipt",
+  "update exams/engineering/drdo-ceiptm-ee.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as secondary and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-734"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/defence/afcat.md against official AFCAT notification and upgrade verification to official"
+accept = [
+  "fetch the official AFCAT notification from afcat.cdac.in and record the exact URL in the receipt",
+  "update exams/defence/afcat.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-735"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/state-psc/kerala-psc.md against official Kerala PSC notification and upgrade verification to official"
+accept = [
+  "fetch the official Kerala PSC notification from keralapsc.gov.in and record the exact URL in the receipt",
+  "update exams/state-psc/kerala-psc.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-736"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/upsc/upsc-nda.md against official UPSC NDA notification and upgrade verification to official"
+accept = [
+  "fetch the official UPSC NDA notification from upsc.gov.in and record the exact URL in the receipt",
+  "update exams/upsc/upsc-nda.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-737"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/upsc/upsc-cms.md against official UPSC CMS notification and upgrade verification to official"
+accept = [
+  "fetch the official UPSC CMS notification from upsc.gov.in and record the exact URL in the receipt",
+  "update exams/upsc/upsc-cms.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-738"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/banking/sebi-grade-a.md against official SEBI Grade A notification and upgrade verification to official"
+accept = [
+  "fetch the official SEBI Grade A notification from sebi.gov.in and record the exact URL in the receipt",
+  "update exams/banking/sebi-grade-a.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-739"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/management/ipmat-indore.md against official IPMAT Indore notification and upgrade verification to official"
+accept = [
+  "fetch the official IPMAT Indore notification from iimidr.ac.in and record the exact URL in the receipt",
+  "update exams/management/ipmat-indore.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-740"
+lane = "hermes"
+focus = "india"
+priority = 2
+title = "Verify exams/engineering/uppcl-ae-je-ee.md against official UPPCL notification and upgrade verification to official"
+accept = [
+  "fetch the official UPPCL AE/JE notification from uppcl.org and record the exact URL in the receipt",
+  "update exams/engineering/uppcl-ae-je-ee.md with only facts confirmed by that notification; do not change last_verified unless the fetch succeeded",
+  "set verification: official only if the notification was actually fetched and the facts match; otherwise leave as unverified and say why in the receipt",
+  "the receipt lists the notification URL and quotes the relevant lines that confirm each updated fact",
+  "scripts/validate.py --write passes with 0 errors",
+]
+
+[[task]]
+id = "T-741"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix commandcode-1 and commandcode-2 worker failures (agent exited with 5)"
+accept = [
+  "read ~/.hive/commandcode-1.log and ~/.hive/commandcode-2.log to find the root cause",
+  "fix the underlying issue (likely a configuration or environment problem) so the workers can claim and complete tasks",
+  "verify the fix by checking that both workers can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-742"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix free-h11, free-h19, free-h21, free-h23 worker failures (agentctl failed)"
+accept = [
+  "read the relevant ~/.hive/free-h*.log files to find the root cause of agentctl failures",
+  "fix the underlying issue so the workers can claim and complete tasks",
+  "verify the fix by checking that the workers can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-743"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix ollama HTTP 404 errors on free-o2, free-o4, free-o6, free-o8, free-o10, free-o14 workers"
+accept = [
+  "check if ollama is running and the qwen2.5:7b-instruct model is available: ollama list",
+  "if the model is missing, pull it: ollama pull qwen2.5:7b-instruct",
+  "if ollama is not running, start it: ollama serve",
+  "verify the fix by checking that the workers can successfully use the model",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-744"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix git fetch failures on free-h11, free-h23, free-h9, hermes-2 workers"
+accept = [
+  "read the relevant ~/.hive/*.log files to find the root cause of git fetch failures",
+  "check if the git remotes are correctly configured in the worktrees",
+  "fix the underlying issue so the workers can fetch claim refs",
+  "verify the fix by checking that the workers can successfully fetch and claim a task",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-745"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix jevx worker failure (agent failed without changes)"
+accept = [
+  "read ~/.hive/jevx.log to find the root cause",
+  "fix the underlying issue so the jevx worker can claim and complete tasks",
+  "verify the fix by checking that the jevx worker can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-746"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix zen-1, zen-2, zen-4 worker failures"
+accept = [
+  "read the relevant ~/.hive/zen-*.log files to find the root cause",
+  "fix the underlying issue so the workers can claim and complete tasks",
+  "verify the fix by checking that the workers can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-747"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix opencode-2, opencode-3 worker failures"
+accept = [
+  "read the relevant ~/.hive/opencode-*.log files to find the root cause",
+  "fix the underlying issue so the workers can claim and complete tasks",
+  "verify the fix by checking that the workers can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-748"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix free-o12, free-o16, free-o18, free-o20, free-o22, free-o24 worker failures"
+accept = [
+  "read the relevant ~/.hive/free-o*.log files to find the root cause",
+  "fix the underlying issue so the workers can claim and complete tasks",
+  "verify the fix by checking that the workers can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-749"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Fix branch self-tests failing on agent branches (T-163, T-707, T-709, T-157, T-155, T-107, T-701, T-702, T-703, T-704, T-705)"
+accept = [
+  "run python3 -m unittest discover -s tests on main to confirm the baseline passes",
+  "check out one of the failing branches and run the tests to see the exact failure",
+  "fix the underlying issue so the tests pass on the branch",
+  "verify the fix by running the tests again on the branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-750"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Sharpen accept criteria for india tasks to reduce 430/656 rejection rate"
+accept = [
+  "read the rejection reasons in ops/plan/2026-09-30.md and identify the top 3 patterns",
+  "update the accept criteria for india tasks in ops/tasks.toml to address those patterns",
+  "make the criteria more specific about what constitutes a valid fetch and what files must be modified",
+  "verify that the updated criteria would have prevented at least 5 of the recent rejections",
+]
