@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 21:24 UTC** · `P-109` · hermes · [80/20 core for ukpsc-pcs: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-109.md)
 - **2026-09-30 21:17 UTC** · `P-097` · hermes · [80/20 core for sbi-po: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-097.md)
 - **2026-09-30 21:16 UTC** · `P-089` · hermes · [80/20 core for xat: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-089.md)
 - **2026-09-30 21:16 UTC** · `P-085` · hermes · [80/20 core for nift-entrance: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-085.md)
