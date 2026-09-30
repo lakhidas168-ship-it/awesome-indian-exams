@@ -2,6 +2,10 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 18:06 UTC** · `P-107` · hermes · [80/20 core for tnpsc-group-1: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-107.md)
+- **2026-09-30 18:05 UTC** · `P-087` · hermes · [80/20 core for rrb-je-ee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-087.md)
+- **2026-09-30 18:03 UTC** · `P-101` · hermes · [80/20 core for sebi-grade-a: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-101.md)
+- **2026-09-30 17:59 UTC** · `P-095` · hermes · [80/20 core for ssc-stenographer: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-095.md)
 - **2026-09-30 17:54 UTC** · `P-073` · hermes · [80/20 core for rrb-technician: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-073.md)
 - **2026-09-30 17:42 UTC** · `P-035` · hermes · [80/20 core for mh-cet-law: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-035.md)
 - **2026-09-30 17:37 UTC** · `P-053` · hermes · [80/20 core for cgpsc-sse: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-053.md)
