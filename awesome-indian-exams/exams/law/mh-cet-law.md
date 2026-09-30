@@ -13,7 +13,7 @@ verification: official
 > **Evidence status: 🟢 official.** Every number below is from the State CET Cell's
 > information brochures for MAH-LL.B. 3 Yrs. CET 2026 and MAH-LL.B. 5 Yrs. CET 2026
 > (academic year 2026-27) and the public notice on the updated marking scheme,
-> fetched from cetcell.mahacet.org on 2026-09-30.
+> fetched from cetcell.mahacet.org on 2026-10-01.
 
 MAH CET Law is Maharashtra's online entrance for admission to the three-year LLB
 and the five-year integrated law programmes (BBA-LLB, BLS-LLB, BA-LLB and similar)
@@ -84,8 +84,35 @@ in the State CET Cell's own topic descriptions:
 
 - **Legal Aptitude and Legal Reasoning (24 marks in 3-yr, 32 marks in 5-yr):** tests interest
   towards the study of law, legal aptitude, and problem-solving ability. Questions are framed
-  using legal prepositions and a set of facts to which the prepositions must be applied (candidates
-  must assume the prepositions to be true and draw well-supported conclusions).
+  using legal prepositions (principles) and a set of facts to which the prepositions must be
+  applied; candidates must assume the given prepositions to be strictly true and draw well-supported
+  conclusions. The section primarily tests:
+  - *Indian Constitutional Law & Institutions:* Preamble, Fundamental Rights (Articles 14, 19,
+    21, 21A), Directive Principles (Part IV), Fundamental Duties (Article 51A), and Judicial
+    Review & Writs (Articles 32 and 226). Candidates must master landmark principles:
+    - *Writ Jurisdiction (Art 32 vs Art 226):* High Courts under Article 226 have a wider scope
+      than the Supreme Court under Article 32 because High Courts can issue writs for fundamental
+      rights as well as any other legal right (*L. Chandra Kumar v. Union of India*, 1997). Article 32
+      remedies also structurally connect to the Directive Principle of equal justice and free legal
+      aid under Article 39A.
+    - *Personal Liberty and Due Process (Art 21):* Following *Maneka Gandhi v. Union of India*
+      (1978), "procedure established by law" must be just, fair, and reasonable, incorporating
+      substantive due process and the administrative law rule of natural justice (*audi alteram
+      partem*), expanding beyond older literal procedural interpretations. Article 21 also extends
+      to the right to livelihood (*Olga Tellis v. Bombay Municipal Corporation*, 1985).
+    - *Basic Structure Doctrine:* Parliament's amending power under Article 368 is constitutionally
+      limited and cannot damage the basic structure or destroy judicial review under Article 13(2)
+      (*Kesavananda Bharati v. State of Kerala*, 1973).
+    - *Right to Education Triad (Art 21A):* Introduced by the 86th Constitutional Amendment Act
+      (2002), connecting the Fundamental Right under Article 21A (ages 6–14) with DPSP Article 45
+      (early childhood care) and Fundamental Duty Article 51A(k).
+  - *Law of Torts:* Strict and absolute liability (*Rylands v. Fletcher*), vicarious liability
+    (master-servant relationship within course of employment), negligence, nuisance, and general
+    defences (*volenti non fit injuria*, act of God).
+  - *Law of Contracts:* Essentials of a valid agreement (offer, acceptance, lawful consideration,
+    free consent), capacity to contract (minor agreements void *ab initio*), and remedies for breach.
+  - *Criminal Law / Penal Provisions:* Actus reus and mens rea, general exceptions (private defence,
+    accident, necessity, infancy), and offences against person and property.
 - **General Knowledge with Current Affairs (32 marks in 3-yr, 24 marks in 5-yr):** topics include
   History (Ancient, Medieval, and Modern), Geography, General Science, Economics, Civics, and
   Current Affairs of the past one year to assess awareness of recent world events.
@@ -118,17 +145,45 @@ counted as on 1 July 2026.
 
 ## How to prepare (free, in order)
 
-1. Master **Legal reasoning** first — it is the part of the paper that is unlike anything
-   in school exams (24 marks in the 3-year paper, 32 in the 5-year one; see the
-   [overlap map](../../resources/overlap-map.md)).
-2. Do **Reasoning** daily in timed sets; accuracy matters more than attempts since there
-   is no negative marking — attempt everything.
-3. Read English daily: one editorial for comprehension plus vocabulary and error-spotting
-   drills.
-4. Cover static GK from NCERT Class 6–10 and one year of current affairs from PIB.
-5. For the 5-year paper, revise Class 10 arithmetic (profit-loss, time-work-speed,
-   averages, Venn diagrams) — only 8 marks, so keep it last.
-6. Use the official mock-test link provided on cetcell.mahacet.org before the exam.
+1. **Master Legal Aptitude and Proposition-Fact Mechanics First:**
+   - Legal aptitude carries 24 marks (3-year) or 32 marks (5-year) and requires no prior legal
+     degree, but demands strict adherence to the stated principle. Never import external knowledge
+     to contradict the given preposition; assume the rule is absolute and follow its logical outcome.
+   - Master the core constitutional framework: Fundamental Rights (Articles 14 to 32), DPSPs,
+     Fundamental Duties, and basic structure doctrine. Guard against recurring conceptual traps:
+     remember that High Court writ jurisdiction under Article 226 is wider in subject scope than
+     the Supreme Court's under Article 32, and Article 21 requires substantive fairness, not merely
+     formal enactment.
+2. **Build Tort, Contract, and Criminal Law Foundations:**
+   - Learn the core doctrines that govern principle-fact questions: strict liability, vicarious
+     liability, *volenti non fit injuria*, contract formation (offer, acceptance, consideration,
+     minor capacity), and penal defences (right of private defence).
+3. **Practice Logical and Analytical Reasoning in Timed Sets:**
+   - 24 marks (3-year) or 32 marks (5-year). Focus on coding-decoding, blood relations, syllogisms,
+     direction sense, linear/circular arrangements, and critical reasoning (assumptions, conclusions,
+     strengthening/weakening arguments). Aim for 45–50 seconds per question.
+4. **Target English Language and Comprehension (High Weightage):**
+   - In the 3-year CET, English is the largest single component (40 marks, one-third of the total);
+     in the 5-year CET, it is 24 marks.
+   - Read an editorial column daily to build reading speed for comprehension passages (minimum two
+     passages per paper, followed by 5–10 inference questions).
+   - Drill grammar fundamentals (spotting errors, sentence correction, subject-verb agreement) and
+     vocabulary (synonyms, antonyms, idioms and phrases, one-word substitutions).
+5. **Systematic General Knowledge and Current Affairs:**
+   - 32 marks (3-year) or 24 marks (5-year). Current affairs covers the preceding 12 months: focus
+     on legal developments, Supreme Court constitutional bench rulings, major legislation, national
+     policy announcements, and international milestones using Press Information Bureau (PIB) releases.
+   - Revise static GK (Indian history, geography, civics/polity, and elementary economics) through
+     NCERT Class 6–10 textbooks.
+6. **Basic Mathematics (5-year Integrated LLB Only, 8 Marks):**
+   - Numerical ability is tested only in the 5-year CET for 8 marks. Revise standard Class 10
+     arithmetic: percentages, profit and loss, ratio and proportion, speed-distance-time, time and
+     work, averages, and Venn diagrams. Keep preparation time aligned with its modest weightage.
+7. **Full-Length Mock Testing and Zero-Penalty Pacing:**
+   - Both tests have 120 questions for 120 marks in 120 minutes with no negative marking.
+   - Pacing target is exactly 1 minute per question. Attempt every question; never leave blanks.
+   - Use the official candidate mock test link released on cetcell.mahacet.org before the examination
+     to familiarize yourself with the online interface and session timer.
 
 ## Free resources
 
