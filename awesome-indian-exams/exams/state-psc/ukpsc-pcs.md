@@ -4,7 +4,7 @@ exam_id: ukpsc-pcs
 conducting_body: Uttarakhand Public Service Commission
 official_site: https://psc.uk.gov.in
 cycle: UKPSC PCS 2026 (Advt A-1/E-1/2026-27)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -31,9 +31,10 @@ cycle advertises **67 posts** (the count may rise or fall; see the notification)
 
 ## Official sources
 
-- Commission's official website (notifications, syllabus, previous papers): <https://psc.uk.gov.in>
-- Recruitment notifications listing (confirms the PCS 2026 advertisement row): <https://psc.uk.gov.in/candidate-corner/recruitment>
+- Commission's official website (notifications, syllabus): <https://psc.uk.gov.in>
+- Recruitment notifications listing: <https://psc.uk.gov.in/candidate-corner/recruitment>
 - UKPSC PCS 2026 notification, Advt A-1/E-1/2026-27 (81-page PDF): <https://psc.uk.gov.in/public/uploads/recruitment/1843959203.pdf>
+- Note: The commission does not publish a dedicated public archive of previous-year question papers on its official website.
 
 ## Exam pattern
 
@@ -84,8 +85,7 @@ Main-exam centres are Haldwani and Haridwar.
 2. Add Uttarakhand's own history, geography, economy, polity and schemes from official state sources —
    this is the highest-weight state-specific block (two mains papers plus a third of prelims GS).
 3. Practise Hindi writing and essays weekly; General Hindi needs 35% or the mains fails.
-4. Solve the commission's own previous papers from its website: each commission has its own style.
-   The −1/4 penalty rewards accuracy.
+4. Solve the commission's own previous papers if available (the commission does not publish a dedicated archive on its official website). The −1/4 penalty rewards accuracy.
 
 ## Free resources
 
