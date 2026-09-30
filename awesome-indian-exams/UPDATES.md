@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 22:13 UTC** · `P-025` · hermes · [80/20 core for jnvst: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-025.md)
 - **2026-09-30 21:53 UTC** · `T-556` · hermes · [Harvest inv:a10546be into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-556.md)
 - **2026-09-30 21:24 UTC** · `P-109` · hermes · [80/20 core for ukpsc-pcs: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-109.md)
 - **2026-09-30 21:17 UTC** · `P-097` · hermes · [80/20 core for sbi-po: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-097.md)
