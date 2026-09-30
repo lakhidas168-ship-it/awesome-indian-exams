@@ -4,7 +4,7 @@ exam_id: ssc-jht
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC JHT 2026 (Combined Hindi Translators Examination, 2026)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -12,7 +12,7 @@ verification: official
 
 > **Evidence status: 🟢 official.** Every number below is from the Combined Hindi Translators
 > Examination, 2026 notice (F. No. HQ-C11017/1/2026-C-1) and the Commission's examination-schedule
-> notice dated 12.08.2026, fetched from ssc.gov.in on 2026-09-29.
+> notice dated 12.08.2026, fetched from ssc.gov.in on 2026-09-30.
 
 SSC JHT (officially the Combined Hindi Translators Examination) recruits Group B non-gazetted staff for
 various central government ministries, departments and organisations: Junior Hindi Translator, Junior
@@ -23,11 +23,11 @@ Translation Officer, Junior Translator, Senior Hindi Translator and Senior Trans
 | | |
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
-| Stages | Paper-I (computer-based; shortlists category-wise for Paper-II) → Paper-II (descriptive) |
-| 2026 cycle | Online applications 23.04.2026 to 14.05.2026 (23:00 hours); Paper-I scheduled 8 September 2026 |
-| Vacancies | 84 tentative (see notice; updated post-wise on ssc.gov.in) |
+| Stages | Paper-I (computer-based objective; shortlists category-wise for Paper-II) → Paper-II (descriptive) |
+| 2026 cycle | Online applications 23.04.2026 to 14.05.2026 (23:00 hours); Window for Application Form Correction 19.05.2026 to 20.05.2026; Paper-I scheduled 8 September 2026 |
+| Vacancies | 84 tentative (see notice para 1.2; updated post-wise on ssc.gov.in) |
 | Qualification | Master's degree in Hindi with English as a compulsory/elective subject or as the medium at degree level — or in English with Hindi likewise, or in another subject with Hindi and English as compulsory/elective subjects or one of them as medium and the other as subject — plus a recognised diploma/certificate in translation (Hindi↔English) or 2 years' translation experience in a Central/State government office (3 years for Senior Hindi Translator/Senior Translator posts) |
-| Age (as on 01-08-2026) | 18–30 years (relaxable for reserved categories; see notice) |
+| Age (as on 01-08-2026) | 18–30 years (candidates born not before 02-08-1996 and not later than 01-08-2008; relaxable for reserved categories: SC/ST 5 years, OBC 3 years, PwBD 10 years) |
 | Pay scale | Level-6 (₹35,400–1,12,400) for JTO/JHT/JT; Level-7 (₹44,900–1,42,400) for SHT/ST/STO |
 
 ## Official sources
@@ -40,13 +40,17 @@ Translation Officer, Junior Translator, Senior Hindi Translator and Senior Trans
 
 ## Exam pattern
 
-**Paper-I (computer-based):** 200 objective questions, 200 marks, 2 hours, with a sectional timer of
-1 hour per part; **−0.25** per wrong answer. Part-I General Hindi (100 questions, 100 marks) and
-Part-II General English (100 questions, 100 marks). Paper-I scores shortlist candidates, category-wise,
-for Paper-II.
+**Paper-I (computer-based):** 200 objective questions, 200 marks, 2 hours (2 hours 40 minutes for
+scribe-eligible candidates), with a sectional timer of 1 hour per part (1 hour 20 minutes for scribe-eligible
+candidates); **−0.25** negative marking per wrong answer.
+- Part-I: General Hindi (100 questions, 100 marks)
+- Part-II: General English (100 questions, 100 marks)
 
-**Paper-II (descriptive):** 200 marks, 2 hours — two passages for translation (one Hindi to English, one
-English to Hindi) and an essay each in Hindi and English.
+Paper-I scores shortlist candidates, category-wise, for Paper-II. If conducted in multiple shifts, marks are
+normalized using the Commission's official formula.
+
+**Paper-II (descriptive):** 200 marks, 2 hours (2 hours 40 minutes for scribe-eligible candidates) — two
+passages for translation (one Hindi to English, one English to Hindi) and an essay each in Hindi and English.
 
 **Minimum qualifying marks (Paper-I):** 30% for UR (60/200), 25% for OBC/EWS (50/200), and 20% for all
 other categories (40/200).
