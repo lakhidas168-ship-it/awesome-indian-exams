@@ -4,7 +4,7 @@ exam_id: drdo-ceiptm-ee
 conducting_body: Defence Research and Development Organisation (DRDO)
 official_site: https://www.drdo.gov.in
 cycle: Varies
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: secondary
 ---
 
@@ -26,7 +26,7 @@ The Defence Research and Development Organisation (DRDO) through its Centre for 
 
 ## Official sources
 
-- DRDO vacancies portal: <https://www.drdo.gov.in/drdo/en/offerings/vacancies>
+- DRDO vacancies portal: <https://drdo.gov.in/drdo/en/offerings/vacancies>
 
 ## Exam pattern
 
