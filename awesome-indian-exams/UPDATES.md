@@ -2,6 +2,8 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-09-30 05:55 UTC** · `T-567` · hermes · [Harvest inv:28d1bc36 into exams/state-psc/mppsc-sse.md (owner's earlier work, local)](ops/done/T-567.md)
+- **2026-09-30 05:51 UTC** · `T-651` · hermes · [Verify exams/management/ipmat-indore.md against official IPMAT Indore notification and upgrade verification status](ops/done/T-651.md)
 - **2026-09-30 05:18 UTC** · `T-608` · opencode · [Re-verify exams/banking/sbi-clerk.md against current official notification and upgrade verification status](ops/done/T-608.md)
 - **2026-09-30 04:06 UTC** · `T-641` · hermes · [Re-verify exams/upsc/upsc-ies-iss.md against current official notification and upgrade verification status](ops/done/T-641.md)
 - **2026-09-30 01:30 UTC** · `T-290` · hermes · [Verify the JNV Selection Test (Navodaya, Class 6 and 9) page (exams/school/jnvst.md) against its current official notification](ops/done/T-290.md)

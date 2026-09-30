@@ -125,7 +125,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [JPSC Combined Civil Services](exams/state-psc/jpsc-cce.md) | Jharkhand Public Service Commission | JPSC CCE-2025 (Advt. No. 01/2026) | ✅ official | 2026-09-28 |
 | [KPSC KAS (Karnataka Administrative Service)](exams/state-psc/kpsc-kas.md) | Karnataka Public Service Commission | KPSC KAS (latest) | ✅ official | 2026-09-28 |
 | [Kerala PSC exams (LDC, KAS and others)](exams/state-psc/kerala-psc.md) | Kerala Public Service Commission | Kerala PSC (rolling notifications) | ⚪ unverified | 2026-09-29 |
-| [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | ✅ official | 2026-09-29 |
+| [MPPSC State Service Examination](exams/state-psc/mppsc-sse.md) | Madhya Pradesh Public Service Commission | MPPSC State Service Exam (latest) | ✅ official | 2026-09-30 |
 | [MPSC State Services (Rajyaseva)](exams/state-psc/mpsc-rajyaseva.md) | Maharashtra Public Service Commission | MPSC Rajyaseva (latest) | ⚪ unverified | 2026-09-29 |
 | [OPSC Odisha Civil Services](exams/state-psc/opsc-ocs.md) | Odisha Public Service Commission | OPSC OCS 2025 (Advt. No. 05 of 2025-26) | ✅ official | 2026-09-29 |
 | [RPSC RAS/RTS (Rajasthan State and Subordinate Services)](exams/state-psc/rpsc-ras.md) | Rajasthan Public Service Commission | RAS/RTS (Latest cycle) | 🟡 secondary | 2026-09-29 |
@@ -233,7 +233,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [CAT (Common Admission Test)](exams/management/cat.md) | IIMs (convening IIM rotates) | CAT 2026 | ✅ official | 2026-09-29 |
 | [CMAT](exams/management/cmat.md) | National Testing Agency | CMAT 2025 | ✅ official | 2026-09-28 |
-| [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2025 | ⚪ unverified | 2026-09-28 |
+| [IPMAT (IIM Indore)](exams/management/ipmat-indore.md) | IIM Indore | IPMAT Indore 2026 | ⚪ unverified | 2026-09-30 |
 | [MAH MBA/MMS CET](exams/management/mah-mba-cet.md) | State CET Cell, Maharashtra | MAH MBA/MMS CET 2026 | ✅ official | 2026-09-29 |
 | [MAT (Management Aptitude Test)](exams/management/mat.md) | All India Management Association | Four times a year (February, May, September, December) | ✅ official | 2026-09-29 |
 | [NMAT by GMAC](exams/management/nmat.md) | GMAC | NMAT 2026-27 (test window 2 November – 20 December 2026) | ✅ official | 2026-09-27 |
