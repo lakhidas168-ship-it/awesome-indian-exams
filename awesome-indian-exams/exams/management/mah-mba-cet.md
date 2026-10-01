@@ -4,14 +4,15 @@ exam_id: mah-mba-cet
 conducting_body: State CET Cell, Maharashtra
 official_site: https://cetcell.mahacet.org
 cycle: MAH MBA/MMS CET 2026
-last_verified: 2026-09-30
+last_verified: 2026-10-01
 verification: official
 ---
 
 # MAH MBA/MMS CET
 
 > **Evidence status: 🟢 official.** Every number below is from the MAH-MBA/MMS CET 2026 Information
-> Brochure (for Academic Year 2026-27), fetched from cetcell.mahacet.org on 2026-09-30.
+> Brochure (for Academic Year 2026-27), the CET Cell's Time-Table page and its Syllabus and Marking
+> Scheme page, all fetched from cetcell.mahacet.org on 2026-10-01.
 
 MAH MBA/MMS CET is Maharashtra's online entrance for first-year MBA/MMS seats in the state's management
 institutes: government institutes, university departments, university-managed institutes, and unaided
@@ -25,7 +26,8 @@ Process (CAP).
 | Conducted by | State CET Cell, Maharashtra (the Commissioner, State CET Cell is the Competent Authority) |
 | Mode | Online computer-based test, in English; 150 minutes, no sectional time limit |
 | Total | 200 questions, 200 marks, one mark per question, no negative marking; five options per question |
-| 2026 cycle (per brochure) | Online registration and confirmation of the application form 10-Jan-2026 to 12-Feb-2026 (payment up to 13-Feb-2026); admit card and exam dates notified later on the official site |
+| 2026 cycle (per brochure) | Online registration and confirmation of the application form 10-Jan-2026 to 12-Feb-2026 (payment up to 13-Feb-2026); admit card and exam dates were "to be notified later" in the brochure |
+| Cycle status (checked 1-Oct-2026) | The test stage of the 2026 cycle is over: the CET Cell's Time-Table page carries an objection-redressal notice for the first attempt (13-May-2026) and a grievance/objection schedule for the second attempt (19-May-2026), and a "Final Examination Dates ... Second Attempt" notice (27-Apr-2026). Check the official site for results and the CAP schedule |
 | Deposit | ₹1,500 for a first attempt (₹1,300 for reserved-category candidates of Maharashtra State); ₹3,000 / ₹2,600 if both attempts are opted for |
 | Qualification | 3-year bachelor's degree in any discipline, from a UGC- or AIU-recognised university (final-year candidates may appear); at least 50% aggregate, 45% for backward-class / EWS / PwD candidates of Maharashtra State only |
 | Result | Percentile from raw marks; candidates who appear in both attempts count the better percentile |
@@ -34,7 +36,9 @@ Process (CAP).
 
 - State CET Cell, Maharashtra (official): <https://cetcell.mahacet.org>
 - MAH-MBA/MMS CET 2026 Information Brochure (for AY 2026-27, PDF): <https://cetcell.mahacet.org/wp-content/uploads/2023/12/MAH-MBA-MMS-CET-2026-Information-Brochure.pdf>
-- Previous-year question papers: The State CET Cell does not publish official previous-year question papers or answer keys.
+- Official Time-Table / notices page (exam-date, objection and result notices, newest first): <https://cetcell.mahacet.org/time-table/>
+- Official Syllabus and Marking Scheme index (the CET Cell's single list of syllabus and marking-scheme documents, including the Technical Education CETs for A.Y. 2026-2027): <https://cetcell.mahacet.org/syllabus-and-marking-scheme/>
+- Previous-year question papers: the brochure, the CET Cell's Information Brochure index and its Syllabus and Marking Scheme index carry no MAH-MBA/MMS CET previous-year paper or answer key; the brochure only has sample questions in its Test Information section. Unofficial reproductions circulating elsewhere are not linked here.
 
 ## Exam pattern
 

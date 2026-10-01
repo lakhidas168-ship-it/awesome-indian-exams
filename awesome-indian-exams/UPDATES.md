@@ -2,6 +2,13 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-10-01 15:14 UTC** · `T-682` · hermes · [Harvest inv:6550722e into exams/management/mah-mba-cet.md (owner's earlier work, local)](ops/done/T-682.md)
+- **2026-10-01 14:58 UTC** · `T-770` · hermes · [Sharpen accept criteria: last_verified date integrity](ops/done/T-770.md)
+- **2026-10-01 14:28 UTC** · `T-678` · hermes · [Harvest inv:28385098 into exams/state-psc/uppsc-pcs.md (owner's earlier work, local)](ops/done/T-678.md)
+- **2026-10-01 14:11 UTC** · `T-648` · hermes · [Verify exams/state-psc/kerala-psc.md against official Kerala PSC notification and upgrade verification status](ops/done/T-648.md)
+- **2026-10-01 13:55 UTC** · `T-601` · hermes · [Re-verify exams/banking/ibps-clerk.md against current official notification and upgrade verification status](ops/done/T-601.md)
+- **2026-10-01 13:22 UTC** · `T-028` · hermes · [Refresh docs/FREE-COMPUTE.md for February 2027: check each free tier and credit programme on its official page, remove dead ones, add new ones](ops/done/T-028.md)
+- **2026-10-01 13:17 UTC** · `T-026` · hermes · [Refresh docs/FREE-COMPUTE.md for December 2026: check each free tier and credit programme on its official page, remove dead ones, add new ones](ops/done/T-026.md)
 - **2026-10-01 11:19 UTC** · `T-024` · hermes · [Refresh docs/FREE-COMPUTE.md for November 2026: check each free tier and credit programme on its official page, remove dead ones, add new ones](ops/done/T-024.md)
 - **2026-10-01 09:12 UTC** · `P-029` · hermes · [80/20 core for cuet-ug: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-029.md)
 - **2026-10-01 03:31 UTC** · `P-065` · hermes · [80/20 core for gpsc-class-1-2: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-065.md)
