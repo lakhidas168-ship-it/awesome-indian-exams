@@ -4,7 +4,7 @@ How this project keeps running 24/7 with no budget. Every entry is something the
 owner can apply for. Free tiers change often, so the Hermes lane re-checks this page against each provider's
 official page every month.
 
-> **Status:** verified 2026-10-01 against official pages.
+> **Status:** verified 2026-11-01 against official pages.
 
 ## Already wired in (no setup)
 
@@ -21,7 +21,7 @@ skips any that is missing or rate-limited, so each extra key adds capacity.
 |---|---|---|
 | `GEMINI_API_KEY` | [aistudio.google.com](https://aistudio.google.com/) | Free tier with daily limits. Free-tier prompts may be used by Google to improve its products. |
 | `OPENROUTER_API_KEY` | [openrouter.ai](https://openrouter.ai/) | Models whose id ends in `:free` cost nothing, within daily limits. |
-| `GROQ_API_KEY` | [console.groq.com](https://console.groq.com/) | Free tier, fast inference, rate-limited. |
+| `GROQ_API_KEY` | [console.groq.com](https://console.groq.com/) | Free tier available for specific models; check the [models page](https://console.groq.com/docs/models) for current pricing and limits. |
 
 ## Paid by the owner (already bought)
 
