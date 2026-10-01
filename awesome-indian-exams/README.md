@@ -147,7 +147,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 | [SSC GD Constable](exams/ssc/ssc-gd.md) | Staff Selection Commission | SSC GD Constable 2026 | ✅ official | 2026-09-29 |
 | [SSC Junior Hindi Translator (JHT)](exams/ssc/ssc-jht.md) | Staff Selection Commission | SSC JHT 2026 (Combined Hindi Translators Examination, 2026) | ✅ official | 2026-09-30 |
 | [SSC MTS (Multi-Tasking Staff) and Havaldar](exams/ssc/ssc-mts.md) | Staff Selection Commission | SSC MTS 2025 | ✅ official | 2026-09-29 |
-| [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | ✅ official | 2026-09-29 |
+| [SSC Selection Posts](exams/ssc/ssc-selection-post.md) | Staff Selection Commission | SSC Selection Post Phase 14 (2026) | ✅ official | 2026-10-01 |
 | [SSC Stenographer (Grade C and D)](exams/ssc/ssc-stenographer.md) | Staff Selection Commission | SSC Stenographer 2026 | ✅ official | 2026-09-30 |
 
 ### Railways: RRB and RPF
