@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-10-01 02:37 UTC** · `T-577` · hermes · [Harvest inv:a766e854 into exams/teaching/dsssb.md (owner's earlier work, local)](ops/done/T-577.md)
 - **2026-10-01 02:17 UTC** · `T-571` · hermes · [Harvest inv:81d54832 into exams/upsc/upsc-ies-iss.md (owner's earlier work, local)](ops/done/T-571.md)
 - **2026-10-01 01:18 UTC** · `P-047` · hermes · [80/20 core for nhpc-je-ee: fill pattern / syllabus / official PYQ link from official sources](ops/done/P-047.md)
 - **2026-10-01 00:33 UTC** · `T-022` · hermes · [Verify exams/engineering/isro-icrb-ee.md against official ISRO Scientist/Engineer EE notification](ops/done/T-022.md)

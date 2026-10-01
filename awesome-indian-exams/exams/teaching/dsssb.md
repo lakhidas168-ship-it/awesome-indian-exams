@@ -4,7 +4,7 @@ exam_id: dsssb
 conducting_body: Delhi Subordinate Services Selection Board
 official_site: https://dsssb.delhi.gov.in
 cycle: Rolling advertisements
-last_verified: 2026-09-27
+last_verified: 2026-10-01
 verification: official
 ---
 

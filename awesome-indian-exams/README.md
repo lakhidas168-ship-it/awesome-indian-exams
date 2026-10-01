@@ -194,7 +194,7 @@ with a receipt. See [UPDATES.md](UPDATES.md).
 |---|---|---|---|---|
 | [CSIR NET (JRF / Assistant Professor)](exams/teaching/csir-net.md) | National Testing Agency (NTA) | CSIR NET (latest session) | ✅ official | 2026-09-30 |
 | [CTET (Central Teacher Eligibility Test)](exams/teaching/ctet.md) | Central Board of Secondary Education | CTET September 2026 | ✅ official | 2026-09-28 |
-| [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | Rolling advertisements | ✅ official | 2026-09-27 |
+| [DSSSB teacher and staff recruitment (Delhi)](exams/teaching/dsssb.md) | Delhi Subordinate Services Selection Board | Rolling advertisements | ✅ official | 2026-10-01 |
 | [KVS teacher and staff recruitment](exams/teaching/kvs-recruitment.md) | Kendriya Vidyalaya Sangathan | Varies by recruitment notification | 🟡 secondary | 2026-09-30 |
 | [NVS teacher and staff recruitment](exams/teaching/nvs-recruitment.md) | Navodaya Vidyalaya Samiti | Recruitment Notification 01/2025 (joint KVS+NVS, via CBSE) | ✅ official | 2026-09-28 |
 | [State TETs (UPTET, REET, MAHA TET and others)](exams/teaching/state-tet.md) | State education boards (under the NCTE framework) | Varies by state (each state notifies its own TET) | ✅ official | 2026-09-28 |
