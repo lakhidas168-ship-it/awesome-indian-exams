@@ -150,11 +150,46 @@ def runnable_here(task: dict) -> bool:
     return where == "any" or where == here
 
 
+MAX_ATTEMPTS = int(os.environ.get("HIVE_MAX_ATTEMPTS", "3"))
+
+
+def attempts_path() -> Path:
+    return Path(os.environ.get("HIVE_HOME", Path.home() / ".hive")) / "attempts.jsonl"
+
+
+def recent_attempts(hours: int = 24) -> dict[str, int]:
+    """task id -> claims on this machine in the last day. A task that keeps failing its gate gets parked
+    (2026-10-01: P-111 was claimed, rejected and re-dispatched 7 times in one day)."""
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours)
+    counts: dict[str, int] = {}
+    try:
+        lines = attempts_path().read_text(encoding="utf-8").splitlines()
+    except FileNotFoundError:
+        return counts
+    for line in lines:
+        try:
+            rec = json.loads(line)
+            if dt.datetime.fromisoformat(rec["at"].replace("Z", "+00:00")) >= cutoff:
+                counts[rec["task"]] = counts.get(rec["task"], 0) + 1
+        except (ValueError, KeyError, TypeError):
+            continue
+    return counts
+
+
+def record_attempt(task_id: str, agent: str) -> None:
+    path = attempts_path()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps({"task": task_id, "agent": agent, "at": now_iso()}) + "\n")
+
+
 def candidates(lane: str) -> list[dict]:
     tasks, done, held = load_tasks(), done_ids(), claimed_ids()
+    tries = recent_attempts()
     ready = [t for t in tasks
              if t.get("lane") == lane and t["id"] not in done and t["id"] not in held and runnable_here(t)
-             and not t.get("blocked") and all(d in done for d in t.get("deps", []))]
+             and not t.get("blocked") and all(d in done for d in t.get("deps", []))
+             and tries.get(t["id"], 0) < MAX_ATTEMPTS]
     config = load_hive_config()
     share, _, _ = current_share(tasks, done, config)
     focus = preferred_focus(lane, config, share=share)
@@ -182,6 +217,8 @@ def cmd_next(args: argparse.Namespace) -> int:
     for task in candidates(args.lane):
         if args.claim and not claim(task["id"], args.agent or args.lane):
             continue  # another agent won the race; try the next one
+        if args.claim:
+            record_attempt(task["id"], args.agent or args.lane)
         print(json.dumps(task, ensure_ascii=False))
         return 0
     return NO_TASK

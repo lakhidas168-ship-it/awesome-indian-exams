@@ -102,6 +102,7 @@ class AgentCtl(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp())
         self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)  # runs even if setUp or the test fails
+        ENV["HIVE_HOME"] = str(self.tmp / "hive")  # never write test claims into the real ~/.hive attempt ledger
         self.repos = make_remote(self.tmp, ("a", "b"))
 
     def tearDown(self) -> None:
@@ -115,6 +116,21 @@ class AgentCtl(unittest.TestCase):
         ids = [json.loads(p.communicate()[0])["id"] for p in procs]
         self.assertEqual(len(set(ids)), 2, ids)
         self.assertNotEqual(ctl(a, "claim", ids[1], "--agent", "a").returncode, 0)
+
+    def test_task_claimed_three_times_in_a_day_is_parked(self) -> None:
+        # 2026-10-01: P-111 was claimed, rejected by the gate and re-dispatched 7 times in one day.
+        a = self.repos[0]
+        env = {**ENV, "HIVE_HOME": str(self.tmp / "hive")}
+        first = None
+        for _ in range(3):
+            res = ctl(a, "next", "hermes", "--claim", "--agent", "a", env=env)
+            tid = json.loads(res.stdout)["id"]
+            first = first or tid
+            self.assertEqual(tid, first)
+            ctl(a, "release", tid, env=env)
+        res = ctl(a, "next", "hermes", "--claim", "--agent", "a", env=env)
+        if res.returncode == 0:
+            self.assertNotEqual(json.loads(res.stdout)["id"], first)
 
     def test_human_tasks_are_never_handed_to_workers(self) -> None:
         a = self.repos[0]
