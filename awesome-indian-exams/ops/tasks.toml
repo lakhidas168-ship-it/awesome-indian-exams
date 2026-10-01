@@ -7142,5 +7142,211 @@ accept = [
   "verify with unit tests under tests/ that agentctl tests pass cleanly",
 ]
 
+[[task]]
+id = "T-700"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:b968a4b5 into exams/law/mh-cet-law.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-751"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:764834d4 into exams/engineering-entrance/jee-advanced.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-752"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:d095a37b into exams/state-psc/uppsc-pcs.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-753"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:7c654e17 into exams/engineering/gate-ce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-754"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:6f36f6c9 into exams/upsc/upsc-epfo.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-755"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:07c0b65e into exams/engineering-entrance/bitsat.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-756"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:9dc12d67 into exams/engineering/upsc-ese-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-757"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:2212d01c into exams/teaching/ctet.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-758"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:05bf50a9 into exams/ssc/ssc-gd.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-759"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:b3b2c991 into exams/engineering/gate-ec.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-028"
+lane = "hermes"
+focus = "core"
+priority = 3
+title = "Refresh docs/FREE-COMPUTE.md for February 2027: check each free tier and credit programme on its official page, remove dead ones, add new ones"
+accept = [
+  "every entry links the provider's official page and says what is free and its limit",
+  "entries that could not be confirmed are marked so",
+  "the content gate passes on the file",
+]
+
+[[task]]
+id = "T-182"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Fix agent prompt templates and free_agent parser: prevent recurring date hallucination (e.g. 2025-05-14) in body text and mandate target exam file modification"
+accept = [
+  "inspect ops/prompts/ and free_agent.py to eliminate hardcoded or sample dates that lead to 2025-05-14 hallucinations",
+  "add a pre-check in run-hourly.sh ensuring that at least one content file (outside ops/ or .notes.md) was modified before creating receipt",
+  "all existing tests in tests/ pass without regression",
+]
+
+[[task]]
+id = "T-183"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Add pre-commit check preventing task deletion from ops/tasks.toml in JEVX planner runs"
+accept = [
+  "add check to scripts/hive_gate.py or validate.py that verifies the number of tasks in ops/tasks.toml does not decrease",
+  "ensure that any run attempting to truncate or remove tasks from ops/tasks.toml is halted with a clear error",
+  "unit tests verify that valid appends pass and task deletions fail",
+]
+
+[[task]]
+id = "T-184"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/state-psc/bpsc-cce.md against current official BPSC notification and upgrade verification status"
+accept = [
+  "fetch official 70th CCE notification from bpsc.bih.nic.in using fetch_url",
+  "verify prelims and mains pattern, optional subjects, and marking scheme",
+  "update frontmatter verification: official only if official document was successfully opened with HTTP 200",
+  "scripts/validate.py passes with 0 errors",
+]
+
+[[task]]
+id = "T-185"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/medical/neet-pg.md against current official NBEMS notification and upgrade verification status"
+accept = [
+  "fetch official NEET PG information bulletin from natboard.edu.in using fetch_url",
+  "verify exam pattern, time-bound sections, questions count, and marking scheme",
+  "update frontmatter verification: official only if official document was successfully opened with HTTP 200",
+  "scripts/validate.py passes with 0 errors",
+]
+
+[[task]]
+id = "T-186"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/teaching/kvs-recruitment.md against official KVS notification and upgrade verification status"
+accept = [
+  "fetch official KVS direct recruitment notification from kvsangathan.nic.in using fetch_url",
+  "verify post-wise scheme of examination, marks distribution, and interview weightage",
+  "update frontmatter verification: official only if official document was successfully opened with HTTP 200",
+  "scripts/validate.py passes with 0 errors",
+]
+
+
 
 
