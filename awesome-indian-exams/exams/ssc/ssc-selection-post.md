@@ -4,7 +4,7 @@ exam_id: ssc-selection-post
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC Selection Post Phase 14 (2026)
-last_verified: 2026-09-29
+last_verified: 2026-10-01
 verification: official
 ---
 
