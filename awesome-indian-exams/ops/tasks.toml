@@ -6936,5 +6936,1236 @@ accept = [
   "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
 ]
 
+[[task]]
+id = "T-751"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix antigravity worker failure (agent failed without changes) in ~/.hive/antigravity.log"
+accept = [
+  "read ~/.hive/antigravity.log to find the root cause",
+  "fix the underlying issue so the antigravity worker can claim and complete tasks",
+  "verify the fix by checking that the worker can successfully claim a task and produce a valid branch",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
 
+[[task]]
+id = "T-752"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix judge-0 failure in ~/.hive/judge-0.log"
+accept = [
+  "read ~/.hive/judge-0.log to find the root cause of the rejection (agent/hermes/P-003: failed to fulfill task requirements and downgraded verification status)",
+  "fix the underlying issue in the judge or worker configuration",
+  "verify the fix by checking that similar tasks pass judge review",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-753"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix judge-1 failure in ~/.hive/judge-1.log"
+accept = [
+  "read ~/.hive/judge-1.log to find the root cause of the rejection (agent/hermes/T-023: omitted direct link to official notification and removed eligibility details)",
+  "fix the underlying issue in the judge or worker configuration",
+  "verify the fix by checking that similar tasks pass judge review",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "T-754"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Investigate and fix judge-2 failure in ~/.hive/judge-2.log"
+accept = [
+  "read ~/.hive/judge-2.log to find the root cause of the rejection (agent/hermes/P-029: failed to fetch required official information, leaving placeholders)",
+  "fix the underlying issue in the judge or worker configuration",
+  "verify the fix by checking that similar tasks pass judge review",
+  "do not modify protected files (gates, judge, runner, prompts, skills, allowlist, .github/)",
+]
+
+[[task]]
+id = "H-008"
+lane = "human"
+focus = "core"
+priority = 1
+title = "Mac asleep/cron not running: keep the Mac awake/plugged in; check crontab -l and run ops/mac-bootstrap.sh"
+accept = [
+  "`crontab -l` shows the hive cron block",
+  "`python3 awesome-indian-exams/ops/doctor.py --mac` shows no FAIL lines for schedule",
+  "all worker lanes show recent runs (within 1-2 hours) in the doctor output",
+]
+
+[[task]]
+id = "T-690"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:d3a57a81 into exams/medical/fmge.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-691"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:de923d7f into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-692"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:978a7ba7 into exams/ssc/ssc-cpo.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-693"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:dbc5a710 into exams/ssc/ssc-stenographer.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-694"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:c2b83202 into exams/defence/agniveer-vayu.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-695"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:8bc44a3e into exams/state-psc/opsc-ocs.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-696"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:2f90a6d5 into exams/engineering/upsc-ese-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-697"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:ba140a44 into exams/engineering/ssc-je-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-698"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:4546edaa into exams/engineering-entrance/viteee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-699"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:d88931a6 into exams/state-psc/tnpsc-group-1.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-700"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:b968a4b5 into exams/law/mh-cet-law.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-755"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:764834d4 into exams/engineering-entrance/jee-advanced.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-756"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:d095a37b into exams/state-psc/uppsc-pcs.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-757"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:7c654e17 into exams/engineering/gate-ce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-758"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:6f36f6c9 into exams/upsc/upsc-epfo.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-759"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:07c0b65e into exams/engineering-entrance/bitsat.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-760"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:9dc12d67 into exams/engineering/upsc-ese-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-761"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:2212d01c into exams/teaching/ctet.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-762"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:05bf50a9 into exams/ssc/ssc-gd.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-763"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:b3b2c991 into exams/engineering/gate-ec.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-764"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:1470f0e6 into exams/upsc/upsc-cse.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-765"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:3cf6fa87 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-766"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:e1d64357 into exams/ssc/ssc-chsl.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-767"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:0470faf5 into exams/law/mh-cet-law.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-768"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:84344f13 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-769"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:f6791608 into exams/railways/rrb-technician.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-770"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:09de7371 into exams/law/mh-cet-law.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-771"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:8d007cfb into exams/banking/sbi-po.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-772"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:edbce04a into exams/engineering/gate-in.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-773"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:9bc04b9c into exams/upsc/upsc-capf.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-774"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:8e974cd4 into exams/engineering/gate-ce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-775"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:c428734e into exams/engineering/gate-ec.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-776"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:9474b663 into exams/engineering/gate-ec.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-777"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:5064b52b into exams/ssc/ssc-mts.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-778"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:b584a0c9 into exams/university-entrance/nift-entrance.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-779"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:8bfe13b7 into exams/engineering/gate-da.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-780"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:d4c3efe6 into exams/defence/agniveer-army.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-781"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:a9991a79 into exams/professional/cma-foundation.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-782"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:3a1bd64c into exams/management/cat.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-783"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:f2edddb9 into exams/banking/nabard-grade-a.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-177"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/banking/ibps-clerk.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official notification or prospectus from https://www.ibps.in via fetch_url",
+  "do not edit or downgrade content if fetch_url fails or official site is unreachable",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "provide direct official PDF link under Official sources and set verification: official",
+]
+
+[[task]]
+id = "T-178"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/state-psc/kerala-psc.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official syllabus/notification from https://www.keralapsc.gov.in via fetch_url",
+  "update the target file exams/state-psc/kerala-psc.md (not notes or ops/ files)",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "fill Exam pattern table from official notification and set verification: official",
+]
+
+[[task]]
+id = "T-179"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/upsc/upsc-nda.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official NDA notification from https://upsc.gov.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "verify exam pattern, negative marking and official syllabus without removing existing content",
+  "set verification: official and cite official UPSC notification PDF link under Official sources",
+]
+
+[[task]]
+id = "T-180"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/state-psc/mpsc-rajyaseva.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official MPSC notification from https://mpsc.gov.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "verify exam pattern, syllabus sections and official previous paper links",
+  "set verification: official and cite official MPSC notification under Official sources",
+]
+
+[[task]]
+id = "T-181"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/teaching/kvs-recruitment.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official KVS notification from https://kvsangathan.nic.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "replace secondary references with official notification links under Official sources",
+  "set verification: official once official notice is cited and verified",
+]
+
+[[task]]
+id = "T-182"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/management/ipmat-indore.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official IPMAT notification from https://www.iimidr.ac.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "verify pattern, syllabus and eligibility criteria against official IIM Indore brochure",
+  "set verification: official and link official admission brochure under Official sources",
+]
+
+[[task]]
+id = "T-183"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/state-psc/apsc-cce.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official APSC CCE notification from https://apsc.nic.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "verify Prelims and Mains pattern, optional papers and syllabus against official notice",
+  "set verification: official and link official APSC notification under Official sources",
+]
+
+[[task]]
+id = "T-184"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/state-psc/uppsc-pcs.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official UPPSC Combined State/Upper Subordinate notice from https://uppsc.up.nic.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "replace secondary references with official notification links under Official sources",
+  "set verification: official once official notice is cited and verified",
+]
+
+[[task]]
+id = "T-185"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/defence/afcat.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official AFCAT notification from https://afcat.cdac.in via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "verify exam pattern, syllabus and official previous question papers",
+  "set verification: official and link official AFCAT notification under Official sources",
+]
+
+[[task]]
+id = "T-186"
+lane = "opencode"
+focus = "india"
+priority = 2
+title = "Re-verify exams/banking/sbi-po.md against current official notification and upgrade verification status"
+accept = [
+  "fetch official SBI PO notification from https://sbi.co.in/web/careers via fetch_url",
+  "ensure frontmatter last_verified and blockquote evidence date match the fetch date exactly",
+  "replace secondary references with official notification links under Official sources",
+  "set verification: official once official notice is cited and verified",
+]
+[[task]]
+id = "T-784"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:6f5c1d04 into exams/banking/ibps-rrb.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-785"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:0982dabf into exams/engineering/gate-da.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-786"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:6455ee7d into exams/engineering/gate-cs.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-787"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:a5d59c70 into exams/teaching/ugc-net.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-788"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:78125510 into exams/state-psc/bpsc-cce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-789"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:26e0b849 into exams/banking/ibps-clerk.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-790"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:4ac57808 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-791"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:4eebeca8 into exams/banking/rbi-assistant.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-792"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:3c378596 into exams/engineering/gate-da.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-793"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:ee013c4c into exams/ssc/ssc-jht.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-794"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:56e7b2ae into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-795"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:c23c276f into exams/engineering-entrance/jee-advanced.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-796"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:af2dc6be into exams/state-psc/cgpsc-sse.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-797"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:dc20edcf into exams/teaching/ugc-net.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-798"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:1cee48de into exams/teaching/ugc-net.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-799"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:741e7851 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-800"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:cf761654 into exams/university-entrance/cuet-pg.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-801"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:ffb9fbeb into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-802"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:e7d88b96 into exams/ssc/ssc-cgl.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-803"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:8fb39021 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-804"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:659d6bdc into exams/state-psc/jpsc-cce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-805"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:5d88a783 into exams/state-psc/apsc-cce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-806"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:59dd18be into exams/state-psc/gpsc-class-1-2.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-807"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:682455a4 into exams/state-psc/mppsc-sse.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-808"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:e8e4e4ff into exams/banking/ibps-po.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-809"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:4c4a89d2 into exams/teaching/state-tet.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-810"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:6358cab9 into exams/engineering/ssc-je-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-811"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:487c65f2 into exams/management/snap.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-812"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:b0756e98 into exams/professional/ca-foundation.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-813"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:08b3a2b2 into exams/teaching/ugc-net.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-814"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:14b27ef1 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-815"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:9ea6f9b5 into exams/management/ipmat-indore.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-816"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:204336df into exams/teaching/dsssb.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-817"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:ff95ac44 into exams/teaching/ugc-net.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-818"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:368153f3 into exams/teaching/kvs-recruitment.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-819"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:3ae62efb into exams/railways/rpf-constable.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-820"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:9f4db28b into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-821"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:fe10e1a8 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-822"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:af4da513 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-823"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:43079cad into exams/medical/neet-ug.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
 
