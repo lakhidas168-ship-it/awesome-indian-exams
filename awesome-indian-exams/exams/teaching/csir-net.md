@@ -4,7 +4,7 @@ exam_id: csir-net
 conducting_body: National Testing Agency (NTA)
 official_site: https://csirnet.nta.ac.in
 cycle: CSIR NET (latest session)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -25,19 +25,28 @@ CSIR NET decides eligibility for JRF and Assistant Professor in the sciences: Ch
 ## Official sources
 
 - CSIR NET official website: <https://csirnet.nta.ac.in>
+- Official Previous Year Question Papers / Answer Keys: <https://csirnet.nta.ac.in> (See "Public Notices" and "Important Downloads" sections for answer keys and question papers)
 
 ## Exam pattern
 
-The exam consists of three parts:
-- **Part A:** General aptitude, logical reasoning, and problem-solving (common to all subjects).
-- **Parts B and C:** Subject-specific questions. Part C typically contains higher-value, deeper conceptual questions.
+The exam is a Computer-Based Test (CBT) with a duration of 3 hours. It consists of three parts:
 
-The number of questions to attempt, marks per question, and negative marking schemes vary by subject and part. Please refer to the official information bulletin for the specific marking scheme applicable to your subject.
+| Part | Description |
+|---|---|
+| Part A | General aptitude, logical reasoning, and problem-solving (common to all subjects) |
+| Part B | Subject-specific questions |
+| Part C | Higher-value, deeper conceptual subject-specific questions |
+
+*Note: The number of questions to attempt, marks per question, and negative marking schemes vary by subject and part. Please refer to the latest official information bulletin on the official website for the specific marking scheme applicable to your subject.*
 
 ## Syllabus
 
-- **Part A:** General aptitude.
-- **Parts B and C:** The CSIR syllabus of the chosen subject at the M.Sc. level.
+The syllabus covers the chosen subject at the M.Sc. level, plus a common General Aptitude section.
+
+- **Part A:** General aptitude (common to all subjects).
+- **Parts B and C:** Subject-specific syllabus for Chemical, Earth, Life, Mathematical, or Physical Sciences.
+
+*Detailed syllabus documents are available in the latest Information Bulletin on the official website: <https://csirnet.nta.ac.in>*
 
 ## How to prepare (free, in order)
 

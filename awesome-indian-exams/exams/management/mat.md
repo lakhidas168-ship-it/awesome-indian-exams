@@ -4,7 +4,7 @@ exam_id: mat
 conducting_body: All India Management Association
 official_site: https://mat.aima.in
 cycle: Four times a year (February, May, September, December)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -32,6 +32,8 @@ MAT is AIMA's management entrance, conducted four times a year and accepted by 6
 
 - MAT official website: <https://mat.aima.in>
 - AIMA "Information to Candidates for MAT December 2026": <https://www.aima.in/content/testing-and-assessment/mat/mat>
+
+*Note: AIMA does not publish official previous-year question papers.*
 
 ## Exam pattern
 

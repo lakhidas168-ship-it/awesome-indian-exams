@@ -4,7 +4,7 @@ exam_id: ini-cet
 conducting_body: AIIMS New Delhi
 official_site: https://www.aiimsexams.ac.in
 cycle: INI-CET (July 2025 Session)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -17,14 +17,16 @@ INI-CET is the combined entrance for postgraduate medical seats (MD, MS, MCh, DM
 | | |
 |---|---|
 | Conducted by | AIIMS New Delhi |
-| Mode | Computer-based test (CBT), 3 hours (180 minutes) |
-| Total Questions | 200 objective-type questions (4 parts of 50 questions, 45 minutes each) |
+| Mode | Computer-based test (CBT) |
+| Total Questions | 200 objective-type questions |
+| Duration | 3 hours (180 minutes) |
 | Marking Scheme | +1 for correct, −1/3 for incorrect, 0 for unattempted |
 
 ## Official sources
 
 - AIIMS exams (official portal): <https://www.aiimsexams.ac.in>
 - INI-CET Prospectus Part-A (July 2025 Session): <https://docs.aiimsexams.ac.in/sites/2_PROSPECTUS%20PART-A%20INI-CET%20JULY%202025%20SESSION.pdf>
+- Official PYQ/Answer Keys: AIIMS does not publish official question papers or answer keys.
 
 ## Exam pattern
 
@@ -37,13 +39,13 @@ INI-CET is the combined entrance for postgraduate medical seats (MD, MS, MCh, DM
 
 ## Syllabus
 
-The MBBS curriculum (pre-clinical, para-clinical, and clinical subjects), with a strong emphasis on clinical application and case-based problem solving.
+The syllabus covers the MBBS curriculum (pre-clinical, para-clinical, and clinical subjects). The exam emphasizes clinical application and case-based problem solving.
 
 ## How to prepare (free, in order)
 
 1. Master standard MBBS core subjects (anatomy, physiology, pathology, pharmacology, medicine, surgery, obstetrics & gynaecology, paediatrics, etc.).
 2. Practise clinical application and multi-correct conceptual questions rather than rote recall.
-3. Solve previous years' official INI-CET questions under timed conditions to adapt to the 4-part 45-minute strict section pacing.
+3. Solve previous years' questions (available via unofficial memory-based sources, as AIIMS does not release official papers) under timed conditions to adapt to the 4-part 45-minute strict section pacing.
 
 ## Free resources
 

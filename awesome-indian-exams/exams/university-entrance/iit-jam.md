@@ -4,7 +4,7 @@ exam_id: iit-jam
 conducting_body: IITs and IISc (IIT Kharagpur for JAM 2027)
 official_site: https://jam.iitkgp.ac.in
 cycle: JAM 2027 (IIT Kharagpur, 14 February 2027)
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -21,11 +21,14 @@ NITs and other institutes. IIT Kharagpur organises JAM 2027.
 |---|---|
 | Conducted by | IITs and IISc (IIT Kharagpur for JAM 2027) |
 | Exam Date | 14 February 2027 |
-| Stages | Computer-based test → joint admission (JOAPS) |
+| Stages | Computer-based test (CBT) |
+| Duration | 3 hours per session |
 
 ## Official sources
 
-- JAM 2027 official site (IIT Kharagpur): <https://jam.iitkgp.ac.in>
+- JAM 2027 official site: <https://jam.iitkgp.ac.in>
+- JAM 2027 Syllabus & Test Pattern: <https://jam.iitkgp.ac.in/syllabus.html>
+- JAM 2027 Examination Schedule: <https://jam.iitkgp.ac.in/test-schedule.html>
 
 ## Exam pattern
 
@@ -36,13 +39,28 @@ Each test paper consists of three sections:
 - **Section B**: Multiple Select Questions (MSQs) with no negative marking.
 - **Section C**: Numerical Answer Type (NAT) questions.
 
+| Section | Question Type | Negative Marking |
+|---|---|---|
+| A | Multiple Choice (MCQ) | Yes |
+| B | Multiple Select (MSQ) | No |
+| C | Numerical Answer Type (NAT) | No |
+
 ## Syllabus
 
-Undergraduate-level syllabus of each JAM paper (published on the official site).
+The syllabus for each paper is available on the official website:
+
+- [Biotechnology (BT)](https://jam.iitkgp.ac.in/docs/bt_2027_syllabus.pdf)
+- [Chemistry (CY)](https://jam.iitkgp.ac.in/docs/cy_2027_syllabus.pdf)
+- [Economics (EN)](https://jam.iitkgp.ac.in/docs/en_2027_syllabus.pdf)
+- [Geology (GG)](https://jam.iitkgp.ac.in/docs/gg_2027_syllabus.pdf)
+- [Mathematical Statistics (MS)](https://jam.iitkgp.ac.in/docs/ms_2027_syllabus.pdf)
+- [Mathematics (MA)](https://jam.iitkgp.ac.in/docs/ma_2027_syllabus.pdf)
+- [Physics (PH)](https://jam.iitkgp.ac.in/docs/ph_2027_syllabus.pdf)
 
 ## How to prepare (free, in order)
 
-1. Solve the official past papers of JAM, which are published with answer keys.
+1. Review the official syllabus for your chosen paper(s).
+2. Solve the official past papers of JAM (available on the official website).
 
 ## Free resources
 

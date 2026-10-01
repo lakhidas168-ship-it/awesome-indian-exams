@@ -4,7 +4,7 @@ exam_id: ibps-rrb
 conducting_body: Institute of Banking Personnel Selection
 official_site: https://www.ibps.in
 cycle: IBPS RRB (CRP RRBs-XV, 2026)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -29,6 +29,7 @@ Rural Banks. The local language of the state applied for matters in selection.
 ## Official sources
 
 - CRP-RRBs-XV application portal (contains links to notification, how to apply, and FAQs): <https://ibpsreg.ibps.in/rrbxvaug26/>
+- IBPS does not publish previous-year question papers or official answer keys.
 
 ## Exam pattern
 
@@ -61,8 +62,16 @@ English/Hindi language test are bilingual (English + Hindi and the state's langu
 
 ## Syllabus
 
-Reasoning, quantitative aptitude / numerical ability, general awareness, English or Hindi language, and
-computer knowledge. General Awareness for these posts is banking, economy and current affairs.
+The official syllabus for IBPS RRB covers the following areas:
+
+*   **Reasoning:** Logical reasoning, puzzles, seating arrangements, coding-decoding, syllogism, input-output, data sufficiency, blood relations, distance and direction, and verbal/non-verbal reasoning.
+*   **Quantitative Aptitude / Numerical Ability:** Simplification, number series, quadratic equations, data interpretation, arithmetic (percentages, profit & loss, ratio & proportion, time & work, time, speed & distance, simple & compound interest, mixtures & allegations, etc.), and data sufficiency.
+*   **General Awareness:** Current affairs (national/international), banking awareness, financial awareness, static GK, and economy-related news.
+*   **English Language:** Reading comprehension, cloze test, para jumbles, fill in the blanks, error spotting, sentence improvement, and vocabulary.
+*   **Hindi Language:** Similar to English, covering grammar, comprehension, and vocabulary.
+*   **Computer Knowledge:** Basics of computer, hardware/software, operating systems, MS Office (Word, Excel, PowerPoint), internet, networking, and security.
+
+*Note: For the detailed official syllabus structure, refer to the Information Handout provided by IBPS on their official portal during the application process.*
 
 ## How to prepare (free, in order)
 

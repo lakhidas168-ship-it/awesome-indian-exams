@@ -10,7 +10,7 @@ verification: official
 
 # JNV Selection Test (Navodaya, Class 6 and 9)
 
-> **Evidence status: 🟢 official.** Every number and detail below is verified against the official Navodaya Vidyalaya Samiti (NVS) portal and the Class IX Lateral Entry Selection Test Prospectus fetched on 2026-09-30.
+> **Evidence status: 🟢 official.** Every number and detail below is verified against the official Navodaya Vidyalaya Samiti (NVS) portal.
 
 Jawahar Navodaya Vidyalayas (JNVs) are co-educational residential schools across India (except Tamil Nadu) administered by Navodaya Vidyalaya Samiti, an autonomous body under the Ministry of Education, Govt. of India. Education, boarding, and lodging are free. The selection tests admit students to Class 6 (main entry) and Class 9 (lateral entry against vacant seats).
 
@@ -31,7 +31,7 @@ Jawahar Navodaya Vidyalayas (JNVs) are co-educational residential schools across
 ## Official sources
 
 - Navodaya Vidyalaya Samiti official portal: <https://navodaya.gov.in>
-- JNVST Class IX Lateral Entry Prospectus (NVS / CBSE ITMS): <https://cbseitms.nic.in/2026/nvsix_9/assets/pdf/FINAL_CLASS_IX_PROSPECTUS_2027.pdf>
+- Note: The Navodaya Vidyalaya Samiti does not publish an official archive of previous-year question papers on its website.
 
 ## Exam pattern
 

@@ -4,7 +4,7 @@ exam_id: rrb-je-ee
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
 cycle: CEN 04/2026
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -31,7 +31,7 @@ Superintendent), whose detailed notification opened online applications on 14.08
 
 - Detailed CEN No. 04/2026 (JE/DMS), central portal copy: <https://www.rrbapply.gov.in/assets/forms/CEN_04_2026_JE.pdf>
 - Detailed CEN No. 04/2026 (JE/DMS), RRB Secunderabad copy: <https://rrbsecunderabad.gov.in/wp-content/uploads/2026/08/CEN-04-2026JE_English.pdf>
-- CEN 04/2026 notices (RRB Secunderabad): <https://rrbsecunderabad.gov.in/advertisement_category/cen-04-2026-je-dms/>
+- Official previous-year question papers (archive): <https://rrbsecunderabad.gov.in/archive_type/question-papers/>
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
 
 ## Exam pattern

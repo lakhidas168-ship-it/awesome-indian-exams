@@ -1,9 +1,10 @@
 ## Sources opened
-- https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026 (403 Forbidden)
-- https://www.upsc.gov.in/examinations/revised-syllabus-scheme (403 Forbidden)
+- https://www.nhpcindia.com (Attempted to fetch, but site is unreachable/timed out).
 
 ## Could not confirm
-- The UPSC website returns a 403 Forbidden error for automated requests, preventing verification of the latest notification. The page remains `unverified`.
+- The existence of an official page for previous-year question papers (PYQs) on the NHPC website. The site was unreachable during this run.
 
 ## Changed
-- None.
+- Updated `exams/engineering/nhpc-je-ee.md` to reflect that the official site is currently unreachable.
+- Changed `verification` to `secondary` and added a warning note.
+- Removed specific vacancy counts and application dates as they were tied to a specific advertisement that could not be re-verified.

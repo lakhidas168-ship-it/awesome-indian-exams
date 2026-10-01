@@ -4,7 +4,7 @@ exam_id: rrb-ntpc
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
 cycle: CEN 06/2025
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -27,6 +27,7 @@ RRB NTPC recruits for Indian Railways' non-technical posts at graduate level, su
 
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
 - RRB Secunderabad (CEN 06/2025 source): <https://rrbsecunderabad.gov.in/advertisement_category/cen-no-06-2025-ntpc-graduate/>
+- Official Question Papers and Answer Keys: <https://www.rrbapply.gov.in> (Candidates can view their own question papers and answer keys via the candidate login portal after the exam)
 
 ## Exam pattern
 

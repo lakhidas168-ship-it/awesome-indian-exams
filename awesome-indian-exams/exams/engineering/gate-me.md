@@ -4,7 +4,7 @@ exam_id: gate-me
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -27,6 +27,7 @@ GATE Mechanical Engineering decides M.Tech/ME/PhD admission and is the recruitme
 ## Official sources
 
 - GATE 2027 official site (IIT Madras): <https://gate2027.iitm.ac.in>
+- Official previous-year question papers and answer keys: <https://gate2027.iitm.ac.in/download>
 
 ## Exam pattern
 
@@ -53,7 +54,7 @@ Sections (a topic summary; the official syllabus PDF is the authority):
 ## How to prepare (free, in order)
 
 1. Thermodynamics and strength of materials first: several other subjects build on them.
-2. Solve the official papers of past years (the organising IIT's site publishes them with answer keys).
+2. Solve the official papers of past years (the organising IIT's site publishes them with answer keys: <https://gate2027.iitm.ac.in/download>).
 
 ## Free resources
 

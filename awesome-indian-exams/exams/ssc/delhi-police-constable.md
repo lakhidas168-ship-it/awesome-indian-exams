@@ -34,8 +34,9 @@ examination. Final merit is on CBE marks, subject to qualifying PE&MT.
 
 ## Official sources
 
-- Notice: Constable (Executive) Male and Female in Delhi Police Examination, 2025 (applications 22-09-2025 to 21-10-2025; CBE December 2025/January 2026): <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPCE_2025.pdf>
+- Notice: Constable (Executive) Male and Female in Delhi Police Examination, 2025: <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPCE_2025.pdf>
 - SSC official website (notices, answer keys, results): <https://ssc.gov.in>
+- Official Previous Year Question Papers / Answer Keys: <https://ssc.gov.in/candidate-corner/answer-key>
 
 ## Exam pattern
 

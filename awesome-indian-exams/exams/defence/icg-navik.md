@@ -4,7 +4,7 @@ exam_id: icg-navik
 conducting_body: Indian Coast Guard
 official_site: https://joinindiancoastguard.cdac.in
 cycle: CGEPT (two batches a year)
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -33,9 +33,7 @@ in some batches. Selection runs through four stages, and the final merit is base
 
 - Join Indian Coast Guard portal (official home): <https://joinindiancoastguard.cdac.in>
 - CGEPT section of the portal: <https://joinindiancoastguard.cdac.in/cgept/>
-- Navik (GD) career page — eligibility, pattern, syllabus, PFT, pay: <https://joinindiancoastguard.cdac.in/cgept/careerOpportunity/navik/gd>
-- Yantrik career page — eligibility, pattern, syllabus, PFT, pay: <https://joinindiancoastguard.cdac.in/cgept/careerOpportunity/yantrik>
-- Navik (DB) career page — eligibility and selection: <https://joinindiancoastguard.cdac.in/cgept/careerOpportunity/navik/db>
+- Note: The Indian Coast Guard does not publish official previous-year question papers or answer keys. Any such material found elsewhere is unofficial.
 
 ## Exam pattern
 

@@ -4,14 +4,14 @@ exam_id: xat
 conducting_body: XLRI Jamshedpur
 official_site: https://xatonline.in
 cycle: XAT 2026 (4 January 2026)
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
 # XAT
 
 > **Evidence status: 🟢 official.** The facts below were cross-checked against the official
-> XAT 2026 bulletin and exam pattern guide on 2026-09-27. Always read the current notice
+> XAT 2026 exam pattern and syllabus guide on 2026-09-28. Always read the current notice
 > before you apply or pay a fee.
 
 XAT is XLRI's entrance, accepted by XLRI and many other business schools. Its decision-making section is unique.
@@ -26,24 +26,35 @@ XAT is XLRI's entrance, accepted by XLRI and many other business schools. Its de
 ## Official sources
 
 - XAT official website: <https://xatonline.in>
-- XAT 2026 Bulletin: <https://xatonline.in/assets/pdf/XAT-e_Bulletin-2026.pdf>
-- XAT 2026 Exam Pattern: <https://xatonline.in/blog/xat-2026-syllabus-exam-pattern>
+- XAT 2026 Exam Pattern and Syllabus: <https://xatonline.in/blog/xat-2026-syllabus-exam-pattern>
+- Official Previous Year Question Papers: <https://xatonline.in/previous-year-question-papers>
 
 ## Exam pattern
 
 | Part | Section | Questions |
 |---|---|---:|
 | Part 1 (170 min) | Decision Making | 21 |
-| | Verbal and Logical Ability | 26 |
-| | Quantitative Ability and Data Interpretation | 28 |
+| | Verbal Ability and Logical Reasoning | 26 |
+| | Quantitative Aptitude and Data Interpretation | 28 |
 | Part 2 (10 min) | General Knowledge | 20 |
 
 **+1** correct, **−0.25** wrong in Part 1. **−0.10** for each unattempted question beyond 8 in Part 1. General Knowledge has no negative marking and does not count towards the percentile.
 
 ## Syllabus
 
-Decision making (ethical and managerial dilemmas), verbal and logical ability, quantitative ability and
-data interpretation, general knowledge.
+The XAT syllabus is divided into four sections:
+
+1. **Verbal Ability and Logical Reasoning**: Reading comprehension (including poems and cartoons), critical and analytical reasoning, para-completion, jumbled sentences, vocabulary, analogies, idioms, phrases, grammar, and cloze tests.
+2. **Decision Making**: Ethical dilemmas in workplace situations, managerial caselets, business decision scenarios, and situations involving fairness, distribution, and prioritization.
+3. **Quantitative Aptitude and Data Interpretation**:
+    *   **Arithmetic**: Percentages, Profit & Loss, Ratio & Proportion, Time & Work, Speed, Time & Distance.
+    *   **Algebra**: Equations, Functions, Progressions.
+    *   **Geometry & Mensuration**: Lines, Circles, Polygons, 3D Figures.
+    *   **Modern Math**: Probability, Permutations & Combinations.
+    *   **Data Interpretation**: Graphs, charts, and tables requiring insightful analysis.
+4. **General Knowledge**: Static GK (History, geography, business, economy) and Current Affairs (Indian economy, budget updates, international organizations, awards, books & authors, politics, science).
+
+*Source: [XAT 2026 Syllabus & Exam Pattern Guide](https://xatonline.in/blog/xat-2026-syllabus-exam-pattern)*
 
 ## How to prepare (free, in order)
 

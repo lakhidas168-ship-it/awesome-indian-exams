@@ -4,7 +4,7 @@ exam_id: rrb-alp
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
 cycle: RRB ALP (CEN 01/2026)
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -37,6 +37,7 @@ Annexure-A of the CEN. Selection is CBT 1 (screening) → CBT 2 (Part A for meri
 - CEN 01/2026 FAQ (application dates, fee, age reckoning, medical): <https://www.rrbapply.gov.in/assets/forms/FAQs_CEN%2001-2026_ALP.pdf>
 - Detailed Centralised Employment Notice CEN 01/2026, English — post count, pattern, syllabus and vacancy table
   (official RRB Ajmer copy): <https://rrbajmer.gov.in/Upload_PDF/CEN%2001-2026%20Eng-639143539720035538.pdf>
+- Note: The Railway Recruitment Boards do not publish official previous-year question papers or answer keys on their official websites.
 
 ## Exam pattern
 
@@ -73,28 +74,6 @@ Only Part A marks count for shortlisting, provided the candidate scores 35% in P
 - **CBT 2 Part B:** the candidate's trade per the Directorate General of Training syllabi (see the CEN's
   qualification-wise trade grouping); degree/diploma candidates choose one trade against their discipline.
 
-## Applying (per the official FAQ)
-
-- Apply online only, and to **one RRB only**. Submitting multiple applications to the same RRB, or to more
-  than one RRB, rejects all of them and can debar the candidate from future RRB/RRC exams.
-- Modifications are allowed only in the 17–26.06.2026 window, at ₹250 per change; the 'Create an Account'
-  details (including mobile, email and chosen RRB) can never be changed.
-- PwBD candidates are not eligible for this post, and candidates who have had LASIK surgery are not eligible
-  for posts requiring medical standard A-1.
-- SC and ST candidates who opt for it get a free travel authority (sleeper-class pass) printed on the e-call
-  letter.
-- The examination fee is refunded, less bank charges, only to candidates who actually appear in CBT-1.
-
-## How to prepare (free, in order)
-
-1. Clear CBT 1 with the shared railway modules (maths, reasoning, 10th-level science). There is no
-   general-awareness section in this CEN.
-2. For Part A, revise basic science and engineering from ITI/diploma first-year material.
-3. Part B needs 35% to stay in the race but adds nothing to merit: revise your trade theory.
-4. Practise CBAT-style speed and memory tests in English/Hindi. They carry 50% of the final merit.
-
 ## Free resources
 
-- Shared modules for this exam: [Quantitative aptitude](../../modules/quant-aptitude.md) · [Logical and analytical reasoning](../../modules/reasoning.md) · [General science (NCERT Class 6–10 level)](../../modules/general-science.md)
-- Every exam that shares these modules: [overlap map](../../resources/overlap-map.md)
-- NCERT Science and Maths, Class 6–10 (the base for the 10th-level science and maths sections): <https://ncert.nic.in/textbook.php>
+- [Overlap Map](../../resources/overlap-map.md) (exam syllabus overlap)

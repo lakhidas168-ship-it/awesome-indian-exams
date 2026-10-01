@@ -4,7 +4,7 @@ exam_id: rrb-group-d
 conducting_body: Railway Recruitment Boards
 official_site: https://www.rrbapply.gov.in
 cycle: CEN 09/2025 (Level-1)
-last_verified: 2026-09-28
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -36,6 +36,7 @@ Railways. It is Class 10/ITI level and is usually the single largest recruitment
 - Revised tentative CBT schedule for CEN 09/2025 (30.07.2026): <https://rrbsecunderabad.gov.in/wp-content/uploads/2026/07/REVISED-TENTATIVE-CBT-SCHEDULE-FOR-CEN-09_2025.pdf>
 - Centralised RRB application portal: <https://www.rrbapply.gov.in>
 - RRB employment-notice listings (example: RRB Chandigarh): <https://rrbcdg.gov.in/employment-notices.php>
+- Note: The Railway Recruitment Boards do not publish official previous-year question papers.
 
 ## Exam pattern
 

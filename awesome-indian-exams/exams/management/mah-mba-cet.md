@@ -4,7 +4,7 @@ exam_id: mah-mba-cet
 conducting_body: State CET Cell, Maharashtra
 official_site: https://cetcell.mahacet.org
 cycle: MAH MBA/MMS CET 2026
-last_verified: 2026-09-29
+last_verified: 2026-09-30
 verification: official
 ---
 
@@ -34,6 +34,7 @@ Process (CAP).
 
 - State CET Cell, Maharashtra (official): <https://cetcell.mahacet.org>
 - MAH-MBA/MMS CET 2026 Information Brochure (for AY 2026-27, PDF): <https://cetcell.mahacet.org/wp-content/uploads/2023/12/MAH-MBA-MMS-CET-2026-Information-Brochure.pdf>
+- Previous-year question papers: The State CET Cell does not publish official previous-year question papers or answer keys.
 
 ## Exam pattern
 
