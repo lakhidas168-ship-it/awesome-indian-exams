@@ -7697,3 +7697,281 @@ accept = [
   "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
   "written in your own words; no local path, file name or personal data appears in the repository",
 ]
+
+[[task]]
+id = "T-783"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:6f5c1d04 into exams/banking/ibps-rrb.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-784"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:0982dabf into exams/engineering/gate-da.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-785"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:6455ee7d into exams/engineering/gate-cs.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-786"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:a5d59c70 into exams/teaching/ugc-net.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-787"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:78125510 into exams/state-psc/bpsc-cce.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-788"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:26e0b849 into exams/banking/ibps-clerk.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-789"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:4ac57808 into exams/engineering/gate-ee.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-790"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:4eebeca8 into exams/banking/rbi-assistant.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-791"
+lane = "hermes"
+focus = "core"
+where = "mac"
+priority = 2
+title = "Harvest inv:3c378596 into exams/engineering/gate-da.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-792"
+lane = "hermes"
+focus = "india"
+where = "mac"
+priority = 2
+title = "Harvest inv:ee013c4c into exams/ssc/ssc-jht.md (owner's earlier work, local)"
+accept = [
+  "read the item with the harvest_item tool; use it only for structure, study advice and leads",
+  "every exam fact re-verified against the official notification with fetch_url; nothing unverifiable is kept",
+  "written in your own words; no local path, file name or personal data appears in the repository",
+]
+
+[[task]]
+id = "T-793"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Fix hive cron: run ops/mac-bootstrap.sh to install the hive cron block"
+accept = [
+  "ops/mac-bootstrap.sh completes without error",
+  "crontab -l shows the hive cron block",
+  "doctor schedule check passes (no FAIL)",
+]
+deps = []
+
+[[task]]
+id = "T-794"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix antigravity worker ollama HTTP 404 failures"
+accept = [
+  "~/.hive/antigravity.log analyzed; root cause identified",
+  "ollama model qwen2.5:7b-instruct available or fallback configured",
+  "antigravity worker runs without ollama 404 errors",
+]
+deps = []
+
+[[task]]
+id = "T-795"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix commandcode-1 and commandcode-2 worker failures (agent failed without changes)"
+accept = [
+  "~/.hive/commandcode-1.log and ~/.hive/commandcode-2.log analyzed",
+  "root cause fixed; workers complete tasks without 'failed without changes'",
+]
+deps = []
+
+[[task]]
+id = "T-796"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix hermes-1 worker lane scope/evidence gate failure"
+accept = [
+  "~/.hive/hermes-1.log analyzed; root cause of lane scope/evidence gate failure identified",
+  "hermes-1 worker completes tasks without gate failures",
+]
+deps = []
+
+[[task]]
+id = "T-797"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix free-h1, free-h11, free-h13, free-h15, free-h17, free-h19, free-h21, free-h23 worker failures (ollama HTTP 404 or Mac asleep)"
+accept = [
+  "Worker logs analyzed; ollama model availability or Mac sleep issue fixed",
+  "Affected workers run on schedule without 'Mac asleep' or 'ollama 404' warnings",
+]
+deps = ["T-793"]
+
+[[task]]
+id = "T-798"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix free-o2, free-o4, free-o6, free-o8, free-o10, free-o12, free-o14, free-o16, free-o18, free-o20, free-o22, free-o24 worker failures (ollama HTTP 404 or Mac asleep)"
+accept = [
+  "Worker logs analyzed; ollama model availability or Mac sleep issue fixed",
+  "Affected workers run on schedule without 'Mac asleep' or 'ollama 404' warnings",
+]
+deps = ["T-793"]
+
+[[task]]
+id = "T-799"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix zen-1, zen-2, zen-3, zen-4 worker failures (Mac asleep)"
+accept = [
+  "Worker logs analyzed; Mac sleep issue fixed via cron setup",
+  "Zen workers run on schedule without 'Mac asleep' warnings",
+]
+deps = ["T-793"]
+
+[[task]]
+id = "T-800"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix opencode-1, opencode-2, opencode-3 worker failures (Mac asleep)"
+accept = [
+  "Worker logs analyzed; Mac sleep issue fixed via cron setup",
+  "OpenCode workers run on schedule without 'Mac asleep' warnings",
+]
+deps = ["T-793"]
+
+[[task]]
+id = "T-801"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix judge-0, judge-1, judge-2 worker failures (ollama HTTP 404)"
+accept = [
+  "~/.hive/judge-*.log analyzed; ollama model availability fixed",
+  "Judge workers run without ollama 404 errors",
+]
+deps = []
+
+[[task]]
+id = "T-802"
+lane = "opencode"
+focus = "core"
+priority = 1
+title = "Investigate and fix jevx worker failure (agent failed without changes)"
+accept = [
+  "~/.hive/jevx.log analyzed; root cause identified",
+  "JEVX worker runs without 'failed without changes' errors",
+]
+deps = []
+
+[[task]]
+id = "T-803"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Sharpen accept criteria for india tasks to reduce 540/789 rejection rate"
+accept = [
+  "Rejection reasons from ops/plan/ analyzed and categorized",
+  "Task accept criteria updated in ops/tasks.toml for india focus tasks",
+  "New india tasks have clearer, more measurable acceptance criteria",
+]
+deps = []
+
+[[task]]
+id = "T-804"
+lane = "opencode"
+focus = "core"
+priority = 2
+title = "Fix KEAM page plain-http links (exams/engineering-entrance/keam.md) to https and re-verify"
+accept = [
+  "Plain http links in keam.md updated to https",
+  "Content gate passes with 0 warnings for keam.md",
+  "Page re-verified against official notification",
+]
+deps = []
