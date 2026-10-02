@@ -2,6 +2,7 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-10-02 04:13 UTC** · `T-765` · hermes · [Harvest inv:f6791608 into exams/railways/rrb-technician.md (owner's earlier work, local)](ops/done/T-765.md)
 - **2026-10-01 15:14 UTC** · `T-682` · hermes · [Harvest inv:6550722e into exams/management/mah-mba-cet.md (owner's earlier work, local)](ops/done/T-682.md)
 - **2026-10-01 14:58 UTC** · `T-770` · hermes · [Sharpen accept criteria: last_verified date integrity](ops/done/T-770.md)
 - **2026-10-01 14:28 UTC** · `T-678` · hermes · [Harvest inv:28385098 into exams/state-psc/uppsc-pcs.md (owner's earlier work, local)](ops/done/T-678.md)
