@@ -4,14 +4,14 @@ exam_id: cat
 conducting_body: IIMs (convening IIM rotates)
 official_site: https://iimcat.ac.in
 cycle: CAT 2026
-last_verified: 2026-09-29
+last_verified: 2026-10-03
 verification: official
 ---
 
 # CAT (Common Admission Test)
 
 > **Evidence status: 🟢 official.** Every number below is from the CAT 2026 Information Bulletin
-> (dated 26-07-2026), the official notification, fetched from the CAT website on 2026-09-29.
+> (dated 26-07-2026), the official notification, fetched from the CAT website on 2026-10-03.
 > The bulletin states no question count, duration, sectional timings, marking scheme or syllabus —
 > confirm the current test structure in the official mock test before the exam.
 

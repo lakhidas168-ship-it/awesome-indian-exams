@@ -4,7 +4,7 @@ exam_id: gate-cs
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-29
+last_verified: 2026-10-03
 verification: official
 ---
 
@@ -49,7 +49,7 @@ The official CS syllabus (GATE 2027) comprises 10 sections:
 
 1. **Engineering Mathematics:** Propositional and first-order logic, sets, relations, functions, partial orders, lattices, groups, graphs (connectivity, matching, colouring), combinatorics (counting, recurrence relations, generating functions). Linear algebra (matrices, determinants, systems of linear equations, eigenvalues/eigenvectors, LU decomposition). Calculus (limits, continuity, differentiability, maxima/minima, mean value theorem, integration). Probability and statistics (random variables, uniform, normal, exponential, Poisson, binomial distributions, mean, median, mode, standard deviation, conditional probability, Bayes theorem).
 2. **Digital Logic:** Boolean algebra and minimization (algebraic techniques, Karnaugh maps, tabular method). Design of combinational and sequential circuits. Number representation and arithmetic (fixed and floating point).
-3. **Computer Organisation and Architecture:** Instruction set and addressing modes. Design of ALU and control unit (hardwired and microprogrammed). Memory interfacing and hierarchy (performance, cache mapping). I/O interface (interrupt and DMA). Instruction pipelining and pipeline hazards.
+3. **Computer Organization and Architecture:** Instruction set and addressing modes. Design of ALU and control unit (hardwired and microprogrammed). Memory interfacing and hierarchy (performance, cache mapping). I/O interface (interrupt and DMA). Instruction pipelining and pipeline hazards.
 4. **Programming and Data Structures:** Programming in C. Recursion. Arrays, stacks, queues, linked lists, trees, binary search trees, binary heaps, graphs.
 5. **Algorithms:** Searching, sorting, hashing. Asymptotic worst-case time and space complexity. Algorithm design techniques: greedy, dynamic programming, divide-and-conquer. Graph traversals, minimum spanning trees, shortest paths.
 6. **Theory of Computation:** Regular expressions and finite automata. Context-free grammars and push-down automata. Regular and context-free languages, pumping lemma. Turing machines and undecidability.

@@ -2,6 +2,11 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-10-03 04:13 UTC** · `T-687` · hermes · [Harvest inv:b55a9450 into exams/university-entrance/nid-dat.md (owner's earlier work, local)](ops/done/T-687.md)
+- **2026-10-03 03:54 UTC** · `T-685` · hermes · [Harvest inv:52bb5604 into exams/ssc/ssc-selection-post.md (owner's earlier work, local)](ops/done/T-685.md)
+- **2026-10-03 03:30 UTC** · `T-680` · hermes · [Harvest inv:7568fbde into exams/engineering-entrance/ts-eapcet.md (owner's earlier work, local)](ops/done/T-680.md)
+- **2026-10-03 03:24 UTC** · `T-785` · hermes · [Harvest inv:6455ee7d into exams/engineering/gate-cs.md (owner's earlier work, local)](ops/done/T-785.md)
+- **2026-10-03 02:10 UTC** · `T-672` · hermes · [Harvest inv:5e4c1cce into exams/management/cat.md (owner's earlier work, local)](ops/done/T-672.md)
 - **2026-10-02 04:13 UTC** · `T-765` · hermes · [Harvest inv:f6791608 into exams/railways/rrb-technician.md (owner's earlier work, local)](ops/done/T-765.md)
 - **2026-10-01 15:14 UTC** · `T-682` · hermes · [Harvest inv:6550722e into exams/management/mah-mba-cet.md (owner's earlier work, local)](ops/done/T-682.md)
 - **2026-10-01 14:58 UTC** · `T-770` · hermes · [Sharpen accept criteria: last_verified date integrity](ops/done/T-770.md)

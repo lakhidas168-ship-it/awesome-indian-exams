@@ -3,9 +3,10 @@ title: SSC Selection Posts
 exam_id: ssc-selection-post
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
-cycle: SSC Selection Post Phase 14 (2026)
-last_verified: 2026-10-01
-verification: official
+cycle: SSC Selection Post Phase XIV (2026)
+last_verified: 2026-10-03
+verification: secondary
+evidence_note: "Main notification PDF could not be parsed; addendum confirms it was published on 13.04.2026. Exam dates confirmed from official notices. Pattern details from official notification as referenced by addendum."
 ---
 
 # SSC Selection Posts
@@ -24,7 +25,10 @@ SSC Selection Posts recruit for many small, post-specific Group B and C vacancie
 
 ## Official sources
 
-- Notice for Phase-XIV/2026/Selection Posts (Advertisement No. Phase-XIV/2026/Selection Posts, 13.04.2026): <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_RHQ_2026_phase_xiv.pdf>
+- Addendum to Notice of Phase-XIV/2026/Selection Posts (dated 20.04.2026, references main notice uploaded 13.04.2026): <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Addendum%20to%20Notice%20of%20Phase-XIV_2026-20.04.2026-updated.pdf>
+- Important Notice: Examination Schedule for Phase-XIV/2026/Selection Posts (dated 21.08.2026): <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/important_notice_21082026.pdf>
+- City Intimation Slip notice for Phase-XIV/2026/Selection Posts (dated 08.09.2026): <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_for_selectionpost_08092026.pdf>
+- SSC Tentative Calendar of Examinations 2026-2027: <https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf>
 - SSC official website (notices, syllabus, answer keys): <https://ssc.gov.in>
 
 ## Exam pattern
