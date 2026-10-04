@@ -4,14 +4,15 @@ exam_id: ssc-cgl
 conducting_body: Staff Selection Commission
 official_site: https://ssc.gov.in
 cycle: SSC CGL 2026
-last_verified: 2026-09-27
+last_verified: 2026-10-04
 verification: official
 ---
 
 # SSC CGL (Combined Graduate Level)
 
 > **Evidence status: 🟢 official.** Every number below is from the SSC Combined Graduate Level
-> Examination, 2026 notice (F. No. HQ-C11018/1/2026-C-1), fetched from ssc.gov.in on 2026-09-27.
+> Examination, 2026 notice (F. No. HQ-C11018/1/2026-C-1) and the Important Notice dated 12.09.2026
+> (F. No. HQ-EC033/7/2025-EC), both fetched from ssc.gov.in on 2026-10-04.
 
 SSC CGL recruits graduates for Group B and C posts in central ministries and departments (for example
 Assistant Section Officer, Inspector of Income Tax/Customs/GST, Auditor). It is one of the most-attempted
@@ -23,7 +24,7 @@ graduate exams in India. Its four subjects are the core of almost every SSC, rai
 |---|---|
 | Conducted by | Staff Selection Commission (SSC) |
 | Stages | Tier 1 (CBT, shortlists for Tier 2) → Tier 2 (CBT; final merit on Tier 2 only) → document verification / skill tests as per post |
-| 2026 cycle (per notice) | Online applications 21.05.2026–22.06.2026; Tier 1 Aug–Sep 2026 (tentative), Tier 2 Dec 2026 (tentative) |
+| 2026 cycle (per notice) | Online applications 21.05.2026–22.06.2026 (extended to 25.06.2026); Tier 1 30 Sep – 30 Oct 2026 (CBE); Tier 2 date to be announced |
 | Qualification | Graduate degree (some posts need specific subjects; see notice) |
 | Age | Depends on the post (see notice) |
 
@@ -32,6 +33,8 @@ graduate exams in India. Its four subjects are the core of almost every SSC, rai
 - SSC official website (notice, syllabus, answer keys): <https://ssc.gov.in>
 - SSC CGL 2026 notice (132-page PDF, F. No. HQ-C11018/1/2026-C-1):
   <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf>
+- Important Notice — Tier-I schedule (F. No. HQ-EC033/7/2025-EC, 12.09.2026):
+  <https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important%20Notice%202026_cgle_2026_12092026.pdf>
 
 ## Exam pattern
 

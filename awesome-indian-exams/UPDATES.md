@@ -2,6 +2,10 @@
 
 Generated from merged task receipts in [`ops/done/`](ops/done/). Newest first. Each receipt records what changed and the validator output at merge time.
 
+- **2026-10-04 06:55 UTC** · `T-594` · hermes · [Harvest inv:1469c0f5 into exams/upsc/upsc-cse.md (owner's earlier work, local)](ops/done/T-594.md)
+- **2026-10-04 06:47 UTC** · `T-764` · hermes · [Harvest inv:84344f13 into exams/engineering/gate-ee.md (owner's earlier work, local)](ops/done/T-764.md)
+- **2026-10-04 06:20 UTC** · `T-588` · hermes · [Harvest inv:b1febb24 into exams/ssc/ssc-cgl.md (owner's earlier work, local)](ops/done/T-588.md)
+- **2026-10-04 06:14 UTC** · `T-584` · hermes · [Harvest inv:d8e875ec into exams/university-entrance/nata.md (owner's earlier work, local)](ops/done/T-584.md)
 - **2026-10-03 04:13 UTC** · `T-687` · hermes · [Harvest inv:b55a9450 into exams/university-entrance/nid-dat.md (owner's earlier work, local)](ops/done/T-687.md)
 - **2026-10-03 03:54 UTC** · `T-685` · hermes · [Harvest inv:52bb5604 into exams/ssc/ssc-selection-post.md (owner's earlier work, local)](ops/done/T-685.md)
 - **2026-10-03 03:30 UTC** · `T-680` · hermes · [Harvest inv:7568fbde into exams/engineering-entrance/ts-eapcet.md (owner's earlier work, local)](ops/done/T-680.md)

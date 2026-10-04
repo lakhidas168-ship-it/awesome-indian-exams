@@ -4,7 +4,7 @@ exam_id: gate-ee
 conducting_body: IISc + 7 IITs for NCB-GATE (MoE)
 official_site: https://gate2027.iitm.ac.in
 cycle: GATE 2027 (IIT Madras)
-last_verified: 2026-09-29
+last_verified: 2026-10-04
 verification: official
 ---
 
