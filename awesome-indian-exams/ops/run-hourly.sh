@@ -240,20 +240,54 @@ P="$HIVE_HOME/$WORKER.prompt.md"
 } > "$P"
 run_agent_with_fallback "$P"
 
-# last_verified = the day the page was checked, i.e. this run. Agents kept writing the notification's date there
-# (2025-05-14, 2024-05-22), which the content gate then flags as stale. Normalise every exam page changed in this run.
-python3 - "$C" <<'PY' || true
-import datetime, re, subprocess, sys
+# last_verified = the day the page was checked against an official source. Agents kept writing the notification's
+# date there (2025-05-14, 2024-05-22), which the content gate flags as stale. So the runner re-dates an exam page to
+# today -- but ONLY when code recorded a fetch of one of that page's own official sources this run (HIVE_FETCH_LOG).
+# Re-dating unconditionally made the runner assert "checked today" for pages nobody fetched, and the evidence gate
+# (scripts/evidence_gate.py) correctly rejected the claim: 5 tests were red for that reason. Same predicate as the
+# gate, so a page is dated exactly when the receipt can back the date.
+python3 - "$C" "$FETCH_LOG" <<'PY' || true
+import datetime, json, re, subprocess, sys
 from pathlib import Path
-c = Path(sys.argv[1]); today = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+c = Path(sys.argv[1]); fetch_log = Path(sys.argv[2]) if len(sys.argv) > 2 else None
+sys.path.insert(0, str(c / "scripts"))
+import validate
+
+today = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+
+# URLs this run fetched with HTTP 200 from an official host (code's own record, the same one the receipt carries).
+fetched = set()
+if fetch_log and fetch_log.exists():
+    for line in fetch_log.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        try:
+            rec = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if rec.get("status") == 200 and rec.get("official"):
+            for key in ("url", "final_url"):
+                if rec.get(key):
+                    fetched.add(rec[key].split("#", 1)[0].strip().rstrip("/"))
+
 changed = subprocess.run(["git", "status", "--porcelain", "--", "exams"], cwd=c, capture_output=True, text=True).stdout
 for line in changed.splitlines():
     p = c / line[3:].strip().split(" -> ")[-1].removeprefix(c.name + "/")
-    if p.suffix == ".md" and p.exists():
-        t = p.read_text(encoding="utf-8")
-        n = re.sub(r"^last_verified: \S+$", f"last_verified: {today}", t, count=1, flags=re.M)
-        if n != t:
-            p.write_text(n, encoding="utf-8")
+    if p.suffix != ".md" or not p.exists():
+        continue
+    t = p.read_text(encoding="utf-8")
+    meta, body = validate.parse_frontmatter(t)
+    if not (meta and meta.get("last_verified")):
+        continue  # nothing to normalise (the content gate reports the missing field)
+    listed = {u.split("#", 1)[0].strip().rstrip("/") for u in validate.links(validate.section(body, "## Official sources"))}
+    if not (fetched & listed):
+        continue  # no code-recorded official fetch for this page: leave the agent's own date alone
+    n = re.sub(r"^last_verified: \S+$", f"last_verified: {today}", t, count=1, flags=re.M)
+    if n != t:
+        p.write_text(n, encoding="utf-8")
 PY
 
 # Workers never regenerate README index / UPDATES.md (the JEVX lane does), so parallel PRs don't conflict.

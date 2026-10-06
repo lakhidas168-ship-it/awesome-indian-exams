@@ -1,2 +1,18 @@
 site/
 __pycache__/
+
+# Local-only artefacts (J97 2026-10-05): never pushed to the public repo.
+# CURRENT_GITHUB_GROUND_TRUTH.json holds Rajon's absolute home paths; ops/.fetch*.jsonl, questions.sqlite,
+# .lycheecache and lychee_report.txt are per-machine scratch; toppers/ and ops/*.pdf are raw topper/notice scans.
+CURRENT_GITHUB_GROUND_TRUTH.json
+*.j97bak
+awesome-indian-exams/.lycheecache
+awesome-indian-exams/lychee.toml
+awesome-indian-exams/lychee_report.txt
+awesome-indian-exams/ops/.fetch.jsonl
+awesome-indian-exams/ops/.fetch_log
+awesome-indian-exams/ops/fetch.jsonl
+awesome-indian-exams/ops/*.pdf
+awesome-indian-exams/questions.sqlite
+awesome-indian-exams/toppers/
+awesome-indian-exams/data/state-psc-topper-coverage.json

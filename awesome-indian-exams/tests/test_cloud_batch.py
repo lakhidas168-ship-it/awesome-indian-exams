@@ -25,8 +25,9 @@ from pathlib import Path
 from mock_llm import MockLLM, tool_call, tools_used
 
 CONTENT = Path(__file__).resolve().parents[1]
-# An exam page that is still `verification: unverified`: the evidence gate only guards pages that claim to be
-# official, so a mock edit here stays valid whatever the calendar date.
+# The fixture page is created by setUpClass inside the throwaway copy, not taken from the live repo: the evidence
+# gate only guards pages that claim to be official, and a real page drifts (psu-ee.md was `unverified` when this
+# test was written and became `official` later, which made the mock edit a no-op and the run produce no commit).
 PAGE = "exams/engineering/psu-ee.md"
 FIXTURE_TASKS = """
 [[task]]
@@ -89,14 +90,21 @@ class CloudBatchDryRunTest(unittest.TestCase):
         # Deterministic ready work: the live backlog shrinks as the hive works.
         with (cls.content / "ops" / "tasks.toml").open("a", encoding="utf-8") as fh:
             fh.write(FIXTURE_TASKS)
+        # The mock edit is built from the page's CURRENT verification value, so the fixture cannot rot: when a
+        # real page moves unverified -> official the test still produces a real edit (official -> secondary, which
+        # the evidence gate does not guard) instead of a no-op replace that left the worker with no changes.
+        page_text = (cls.content / PAGE).read_text(encoding="utf-8")
+        current = re.search(r"^verification: (\S+)$", page_text, re.M).group(1)
+        target = "secondary" if current == "official" else "unverified"
+        edit_step = ("replace_in_file", {"path": PAGE, "old": f"verification: {current}\n",
+                                         "new": f"verification: {target}\n"})
         cls.cloud_dir = cls.tmp / "cloud"
         cls.fetch_server = ThreadingHTTPServer(("127.0.0.1", 0), MockFetchHandler)
         fetch_url = f"http://127.0.0.1:{cls.fetch_server.server_address[1]}/psu"
         threading.Thread(target=cls.fetch_server.serve_forever, daemon=True).start()
 
         steps = [("read_file", {"path": PAGE, "limit": 400}), ("fetch_url", {"url": fetch_url}),
-                 ("replace_in_file", {"path": PAGE, "old": "verification: unverified\n",
-                                      "new": "verification: secondary\n"}),
+                 edit_step,
                  ("run_gate", {}),
                  ("finish", {"notes": "## Sources opened\n- local mock page\n## Changed\n- mock edit"})]
 

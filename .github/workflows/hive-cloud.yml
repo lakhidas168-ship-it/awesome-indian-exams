@@ -8,7 +8,7 @@ name: hive-cloud
 
 on:
   schedule:
-    - cron: '41 */3 * * *'
+    - cron: '41 */12 * * *'   # every 12h (was every 3h = 8 runs/day; repo-wide cadence cap is 6 runs/day)
   workflow_dispatch:
 
 permissions:

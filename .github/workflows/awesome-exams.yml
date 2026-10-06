@@ -6,9 +6,11 @@ on:
   push:
     branches: [main]
     paths: ["awesome-indian-exams/**", ".github/workflows/**"]
+  # ONE scheduled run every 12h (was 4x6h + a separate daily link-check run = 5/day; combined with hive-cloud's
+  # 8/day this repo ran 12-24 Actions runs a day, which GitHub reads as rapid automation). The daily external link
+  # check is now a job inside the 12:17 run instead of its own cron, so it costs no extra run.
   schedule:
-    - cron: "17 */6 * * *"  # every 6h (spam-safe cadence; was hourly - GitHub flags rapid automation)
-    - cron: "30 2 * * *"   # daily: external link check
+    - cron: "17 */12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -50,7 +52,7 @@ jobs:
           python3 awesome-indian-exams/scripts/evidence_gate.py --base "origin/$BASE_REF" --branch "$HEAD_REF"
 
   links:
-    if: github.event.schedule == '30 2 * * *' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule == '17 */12 * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     continue-on-error: true   # government sites time out often; report, don't block
     steps:
